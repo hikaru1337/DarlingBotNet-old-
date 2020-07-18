@@ -1,11 +1,7 @@
-﻿using DarlingBotNet.DataBase;
+﻿using System.Threading.Tasks;
+using DarlingBotNet.DataBase;
 using Discord;
 using Discord.WebSocket;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace DarlingBotNet.Services
 {
@@ -22,10 +18,10 @@ namespace DarlingBotNet.Services
                 usr.countwarns++;
             emb.WithDescription($"Пользователь {user.Mention} получил {usr.countwarns} нарушение");
             new EEF<Users>(new DBcontext()).Update(usr);
-            return (usr,emb);
+            return (usr, emb);
         }
 
-        public static async Task<(Users,EmbedBuilder)> UnWarnUser(SocketGuildUser user)
+        public static async Task<(Users, EmbedBuilder)> UnWarnUser(SocketGuildUser user)
         {
             var emb = new EmbedBuilder();
             await Task.Delay(1);
@@ -35,9 +31,13 @@ namespace DarlingBotNet.Services
                 emb.WithDescription($"У пользователя {user.Mention} снято {usr.countwarns} нарушение.");
                 usr.countwarns--;
             }
-            else emb.WithDescription($"У пользователя {user.Mention} нету нарушений.");
+            else
+            {
+                emb.WithDescription($"У пользователя {user.Mention} нету нарушений.");
+            }
+
             new EEF<Users>(new DBcontext()).Update(usr);
-            return (usr,emb);
+            return (usr, emb);
         }
     }
 }

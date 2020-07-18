@@ -1,13 +1,8 @@
-﻿using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.Formats.Png;
-using SixLabors.ImageSharp.PixelFormats;
-using SixLabors.ImageSharp.Processing;
-using System.IO;
-using System.IO.Compression;
+﻿using System.IO;
 
 namespace DarlingBotNet.Services
 {
-    static class SixLaborsImage
+    internal static class SixLaborsImage
     {
         //        public static Image ApplyRoundedCorners(this Image<Rgba32> img, int cor)
         //        {
@@ -18,7 +13,7 @@ namespace DarlingBotNet.Services
         {
             var imageStream = new MemoryStream();
             if (format == "GIF") img.SaveAsGif(imageStream);
-            else img.SaveAsPng(imageStream, new PngEncoder() { CompressionLevel = 6 });
+            else img.SaveAsPng(imageStream, new PngEncoder {CompressionLevel = 6});
             imageStream.Position = 0;
             return imageStream;
         }

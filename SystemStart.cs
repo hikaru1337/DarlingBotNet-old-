@@ -2,8 +2,11 @@
 
 namespace DarlingBotNet
 {
-    class SystemStart
+    internal class SystemStart
     {
-        public static Task Main(string[] args) => SystemSingleTone.RunAsync(args);
+        public static Task Main(string[] args)
+        {
+            return SystemSingleTone.RunAsync(args);
+        }
     }
 }

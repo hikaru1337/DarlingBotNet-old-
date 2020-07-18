@@ -1,8 +1,6 @@
-﻿using Discord;
-using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using Discord;
 
 namespace DarlingBotNet.Services.Sys
 {
@@ -29,10 +27,8 @@ namespace DarlingBotNet.Services.Sys
             emb.WithThumbnailUrl(EB.thumbnail);
             emb.WithImageUrl(EB.image);
             foreach (var field in EB.fields)
-            {
                 if (field.value != null && field.name != null && field.value != "" && field.name != "")
                     emb.AddField(field.name, field.value, field.inline);
-            }
             return emb;
         } // EMBED СООБЩЕНИЕ
 
@@ -48,22 +44,25 @@ namespace DarlingBotNet.Services.Sys
             public string image { get; set; }
             public List<Field> fields { get; set; }
         } // EMBED BD
+
         private class Author
         {
             public string name { get; set; }
             public string url { get; set; }
             public string icon_url { get; set; }
-        }// EMBED BD
+        } // EMBED BD
+
         private class Footer
         {
             public string text { get; set; }
             public string icon_url { get; set; }
-        }// EMBED BD
+        } // EMBED BD
+
         private class Field
         {
             public string name { get; set; }
             public string value { get; set; }
             public bool inline { get; set; }
-        }// EMBED BD
+        } // EMBED BD
     }
 }

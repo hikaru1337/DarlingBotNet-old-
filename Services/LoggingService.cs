@@ -1,19 +1,16 @@
-﻿using Discord;
-using Discord.Commands;
-using Discord.WebSocket;
-using System;
+﻿using System;
 using System.IO;
 using System.Threading.Tasks;
+using Discord;
+using Discord.Commands;
+using Discord.WebSocket;
 
 namespace DarlingBotNet.Services
 {
-    class LoggingService
+    internal class LoggingService
     {
-        private readonly DiscordSocketClient _discord;
         private readonly CommandService _commands;
-
-        private string _logDirectory { get; }
-        private string _logFile => Path.Combine(_logDirectory, $"{DateTime.UtcNow.ToString("yyyy-MM-dd")}.txt");
+        private readonly DiscordSocketClient _discord;
 
         public LoggingService(DiscordSocketClient discord, CommandService Commands)
         {
@@ -25,13 +22,16 @@ namespace DarlingBotNet.Services
             _commands.Log += OnLogAsync;
         }
 
+        private string _logDirectory { get; }
+        private string _logFile => Path.Combine(_logDirectory, $"{DateTime.UtcNow.ToString("yyyy-MM-dd")}.txt");
+
         private Task OnLogAsync(LogMessage msg)
         {
-            if (!Directory.Exists(_logDirectory)) 
+            if (!Directory.Exists(_logDirectory))
                 Directory.CreateDirectory(_logDirectory);
-            if (!File.Exists(_logFile)) 
+            if (!File.Exists(_logFile))
                 File.Create(_logFile).Dispose();
-            ConsoleColor color = ConsoleColor.White;
+            var color = ConsoleColor.White;
             switch (msg.Severity.ToString())
             {
                 case "Critical":
@@ -40,8 +40,10 @@ namespace DarlingBotNet.Services
                     color = ConsoleColor.Red;
                     break;
             }
+
             Console.ForegroundColor = color;
-            string logText = $"{DateTime.UtcNow} [{msg.Severity}] {msg.Source}: {msg.Exception?.ToString() ?? msg.Message}";
+            var logText =
+                $"{DateTime.UtcNow} [{msg.Severity}] {msg.Source}: {msg.Exception?.ToString() ?? msg.Message}";
             Console.WriteLine(logText);
             Console.ForegroundColor = ConsoleColor.White;
             File.AppendAllText(_logFile, logText + "\n");

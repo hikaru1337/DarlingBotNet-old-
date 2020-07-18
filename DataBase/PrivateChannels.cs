@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DarlingBotNet.DataBase
+﻿namespace DarlingBotNet.DataBase
 {
     public class PrivateChannels
     {

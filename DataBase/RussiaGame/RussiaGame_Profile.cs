@@ -1,24 +1,24 @@
-﻿using DarlingBotNet.DataBase.RussiaGame;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using DarlingBotNet.DataBase.RussiaGame;
 
 namespace DarlingBotNet.DataBase
 {
     public class RussiaGame_Profile
     {
-        [Key]
-        public ulong userid { get; set; }
+        [Key] public ulong userid { get; set; }
+
         public long money { get; set; }
+
         public ulong Prestije
         {
             get
             {
                 var items = new EEF<RussiaGame_Item>(new DBcontext()).Get(x => x.userid == userid);
-                return (ulong)items.Sum(p => (float)p.NowPrestije);
+                return (ulong) items.Sum(p => (float) p.NowPrestije);
             }
         }
+
         public ulong laststudyid { get; set; }
         public uint DaysStudy { get; set; }
         public ulong workid { get; set; }

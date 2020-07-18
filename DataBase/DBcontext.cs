@@ -1,8 +1,5 @@
-﻿using Microsoft.Data.Sqlite;
-using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace DarlingBotNet.DataBase
 {
@@ -16,10 +13,15 @@ namespace DarlingBotNet.DataBase
         public DbSet<PrivateChannels> PrivateChannels { get; set; }
 
         public DbSet<Warns> Warns { get; set; }
+
         //public DbSet<Rules> Rules { get; set; }
         public DbSet<TempUser> TempUser { get; set; }
         public DbSet<UserRules> UserRules { get; set; }
-        public void ApplicationContext() => Database.EnsureCreated();
+
+        public void ApplicationContext()
+        {
+            Database.EnsureCreated();
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -42,8 +44,8 @@ namespace DarlingBotNet.DataBase
 
     public class EEF<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
-        DbContext _context;
-        DbSet<TEntity> _dbSet;
+        private DbContext _context;
+        private DbSet<TEntity> _dbSet;
 
         public EEF(DbContext context)
         {
@@ -60,6 +62,7 @@ namespace DarlingBotNet.DataBase
         {
             return _dbSet.AsNoTracking().Where(predicate).ToList();
         }
+
         public TEntity GetF(Func<TEntity, bool> predicate)
         {
             return _dbSet.AsNoTracking().Where(predicate).FirstOrDefault();
@@ -77,13 +80,8 @@ namespace DarlingBotNet.DataBase
             _dbSet.AddRange(item);
             _context.SaveChangesAsync();
         }
-        public void Update(TEntity item)
-        {
-            _context.Entry(item).State = EntityState.Modified;
-            _context.SaveChangesAsync();
-        }
 
-        public void UpdateRange(IEnumerable<TEntity> item)
+        public void Update(TEntity item)
         {
             _context.Entry(item).State = EntityState.Modified;
             _context.SaveChangesAsync();
@@ -100,6 +98,11 @@ namespace DarlingBotNet.DataBase
             _dbSet.RemoveRange(item);
             _context.SaveChangesAsync();
         }
-    }
 
+        public void UpdateRange(IEnumerable<TEntity> item)
+        {
+            _context.Entry(item).State = EntityState.Modified;
+            _context.SaveChangesAsync();
+        }
+    }
 }

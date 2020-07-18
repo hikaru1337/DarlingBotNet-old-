@@ -7,8 +7,8 @@ namespace DarlingBotNet.DataBase
 {
     public class Channels
     {
-        [Key]
-        public ulong channelid { get; set; }
+        [Key] public ulong channelid { get; set; }
+
         public ulong guildid { get; set; }
         public bool UseCommand { get; set; }
         public bool GiveXP { get; set; }
@@ -16,6 +16,7 @@ namespace DarlingBotNet.DataBase
         public bool SendCaps { get; set; }
         public bool Spaming { get; set; }
         public bool SendBadWord { get; set; }
+
         [NotMapped]
         public List<string> BadWordList
         {
@@ -28,13 +29,12 @@ namespace DarlingBotNet.DataBase
                     if (comm == null) return new List<string>();
                     return comm;
                 }
+
                 return new List<string>();
             }
-            set
-            {
-                BadWordString = string.Join(",", value.ToArray());
-            }
+            set => BadWordString = string.Join(",", value.ToArray());
         }
+
         public string BadWordString { get; set; }
         public bool antiMat { get; set; }
         public bool InviteMessage { get; set; }

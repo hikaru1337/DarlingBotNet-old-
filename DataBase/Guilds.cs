@@ -7,13 +7,14 @@ namespace DarlingBotNet.DataBase
 {
     public class Guilds
     {
-        [Key]
-        public ulong guildId { get; set; }
+        [Key] public ulong guildId { get; set; }
+
         public bool Leaved { get; set; }
         public string Prefix { get; set; }
         public ulong chatmuterole { get; set; }
         public ulong voicemuterole { get; set; }
         public ulong PrivateChannelID { get; set; }
+
         [NotMapped]
         public List<string> CommandInviseList
         {
@@ -25,13 +26,12 @@ namespace DarlingBotNet.DataBase
                     if (comm == null || comm.Count == 0 || comm.First() == "") return new List<string>();
                     return comm;
                 }
+
                 return new List<string>();
             }
-            set
-            {
-                CommandInviseString = string.Join(",", value.ToArray());
-            }
+            set => CommandInviseString = string.Join(",", value.ToArray());
         }
+
         public string CommandInviseString { get; set; }
 
         public bool GiveXPnextChannel { get; set; }
