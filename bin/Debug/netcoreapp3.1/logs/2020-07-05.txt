@@ -1,0 +1,252 @@
+05.07.2020 13:23:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+05.07.2020 13:23:38 [Verbose] Rest: GET voice/regions: 909,96 ms
+05.07.2020 13:23:38 [Verbose] Rest: GET users/@me: 230,22 ms
+05.07.2020 13:23:38 [Info] Gateway: Connecting
+05.07.2020 13:23:38 [Verbose] Rest: GET gateway: 82,3 ms
+05.07.2020 13:23:40 [Info] Gateway: Connected
+05.07.2020 13:23:40 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+05.07.2020 13:23:40 [Verbose] Gateway: Connected to Pisecord
+05.07.2020 13:23:40 [Verbose] Gateway: Connected to DarlingBotInfo
+05.07.2020 13:23:40 [Verbose] Gateway: Connected to Убежище Debilov
+05.07.2020 13:23:40 [Verbose] Gateway: Connected to Плантация №13
+05.07.2020 13:23:40 [Verbose] Gateway: Connected to h1ka.'s server
+05.07.2020 13:23:40 [Verbose] Gateway: Connected to говно
+05.07.2020 13:23:40 [Verbose] Gateway: Connected to KiTKAt`k's server
+05.07.2020 13:23:40 [Verbose] Gateway: Connected to test.server
+05.07.2020 13:23:40 [Verbose] Gateway: Connected to просто
+05.07.2020 13:23:42 [Info] Gateway: Ready
+05.07.2020 13:23:49 [Verbose] Rest: POST channels/705505976551473205/messages: 292,65 ms
+05.07.2020 13:23:49 [Verbose] Command: Executed "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z
+05.07.2020 14:59:53 [Verbose] Rest: POST channels/705505976551473205/messages: 450,72 ms
+05.07.2020 14:59:53 [Verbose] Command: Executed "logsettings" for h1kkaru.#2627 in DarlingBotInfo/z
+05.07.2020 15:01:05 [Error] Command: Discord.Commands.CommandException: Error occurred executing "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DarlingBotNet.Services.SystemLoading.EmbedUserBuilder(String text)
+   at DarlingBotNet.Modules.Settings.messagesettings(UInt32 selection, String text)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+05.07.2020 15:01:05 [Verbose] Command: Executed "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z
+05.07.2020 15:01:05 [Warning] Gateway: System.Exception: WebSocket connection was closed
+ ---> System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Программа на вашем хост-компьютере разорвала установленное подключение..
+ ---> System.Net.Sockets.SocketException (10053): Программа на вашем хост-компьютере разорвала установленное подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.ReadBufferedAsyncCore(Memory`1 destination)
+   at System.Net.Http.HttpConnection.RawConnectionStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken, Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at Discord.Net.WebSockets.DefaultWebSocketClient.RunAsync(CancellationToken cancelToken)
+   --- End of inner exception stack trace ---
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+05.07.2020 15:01:05 [Info] Gateway: Disconnecting
+05.07.2020 15:01:05 [Verbose] Gateway: Disconnected from просто
+05.07.2020 15:01:05 [Verbose] Gateway: Disconnected from Pisecord
+05.07.2020 15:01:05 [Verbose] Gateway: Disconnected from говно
+05.07.2020 15:01:05 [Verbose] Gateway: Disconnected from h1ka.'s server
+05.07.2020 15:01:05 [Verbose] Gateway: Disconnected from test.server
+05.07.2020 15:01:05 [Verbose] Gateway: Disconnected from 🖤🔞69SQUAD🔞🖤
+05.07.2020 15:01:05 [Verbose] Gateway: Disconnected from Убежище Debilov
+05.07.2020 15:01:05 [Verbose] Gateway: Disconnected from KiTKAt`k's server
+05.07.2020 15:01:05 [Verbose] Gateway: Disconnected from Плантация №13
+05.07.2020 15:01:05 [Verbose] Gateway: Disconnected from DarlingBotInfo
+05.07.2020 15:01:05 [Info] Gateway: Disconnected
+05.07.2020 15:01:06 [Info] Gateway: Connecting
+05.07.2020 15:01:06 [Verbose] Rest: GET gateway: 82,26 ms
+05.07.2020 15:01:08 [Verbose] Rest: POST channels/587277068904038442/messages: 340,87 ms
+05.07.2020 15:01:08 [Verbose] Gateway: Connected to просто
+05.07.2020 15:01:08 [Info] Gateway: Connected
+05.07.2020 15:01:08 [Verbose] Gateway: Connected to Pisecord
+05.07.2020 15:01:08 [Verbose] Gateway: Connected to говно
+05.07.2020 15:01:08 [Verbose] Gateway: Connected to h1ka.'s server
+05.07.2020 15:01:08 [Verbose] Gateway: Connected to test.server
+05.07.2020 15:01:08 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+05.07.2020 15:01:08 [Verbose] Gateway: Connected to Убежище Debilov
+05.07.2020 15:01:08 [Verbose] Gateway: Connected to KiTKAt`k's server
+05.07.2020 15:01:08 [Verbose] Gateway: Connected to Плантация №13
+05.07.2020 15:01:08 [Verbose] Gateway: Connected to DarlingBotInfo
+05.07.2020 15:01:08 [Info] Gateway: Resumed previous session
+05.07.2020 15:01:22 [Verbose] Rest: POST channels/705505976551473205/messages: 243,62 ms
+05.07.2020 15:01:22 [Verbose] Command: Executed "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z
+05.07.2020 15:01:45 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+05.07.2020 15:01:46 [Verbose] Rest: GET voice/regions: 797,57 ms
+05.07.2020 15:01:46 [Verbose] Rest: GET users/@me: 252,62 ms
+05.07.2020 15:01:46 [Info] Gateway: Connecting
+05.07.2020 15:01:46 [Verbose] Rest: GET gateway: 76,22 ms
+05.07.2020 15:01:48 [Info] Gateway: Connected
+05.07.2020 15:01:48 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+05.07.2020 15:01:48 [Verbose] Gateway: Connected to Pisecord
+05.07.2020 15:01:48 [Verbose] Gateway: Connected to DarlingBotInfo
+05.07.2020 15:01:48 [Verbose] Gateway: Connected to Убежище Debilov
+05.07.2020 15:01:48 [Verbose] Gateway: Connected to Плантация №13
+05.07.2020 15:01:48 [Verbose] Gateway: Connected to просто
+05.07.2020 15:01:48 [Verbose] Gateway: Connected to h1ka.'s server
+05.07.2020 15:01:48 [Verbose] Gateway: Connected to говно
+05.07.2020 15:01:48 [Verbose] Gateway: Connected to test.server
+05.07.2020 15:01:48 [Verbose] Gateway: Connected to KiTKAt`k's server
+05.07.2020 15:01:50 [Info] Gateway: Ready
+05.07.2020 15:01:56 [Verbose] Rest: GET channels/587277068904038442/messages/729351280065118318: 242,68 ms
+05.07.2020 15:01:58 [Error] Command: Discord.Commands.CommandException: Error occurred executing "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z.
+ ---> System.ArgumentException: Field name must not be null, empty or entirely whitespace. (Parameter 'Name')
+   at Discord.EmbedFieldBuilder.set_Name(String value)
+   at Discord.EmbedFieldBuilder.WithName(String name)
+   at Discord.EmbedBuilder.AddField(String name, Object value, Boolean inline)
+   at DarlingBotNet.Services.SystemLoading.EmbedUserBuilder(String text) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 292
+   at DarlingBotNet.Modules.Settings.messagesettings(UInt32 selection, String text) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 691
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+05.07.2020 15:01:58 [Verbose] Command: Executed "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z
+05.07.2020 15:03:25 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+05.07.2020 15:03:26 [Verbose] Rest: GET voice/regions: 725,78 ms
+05.07.2020 15:03:26 [Verbose] Rest: GET users/@me: 216,8 ms
+05.07.2020 15:03:26 [Info] Gateway: Connecting
+05.07.2020 15:03:26 [Verbose] Rest: GET gateway: 75,17 ms
+05.07.2020 15:03:27 [Info] Gateway: Connected
+05.07.2020 15:03:28 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+05.07.2020 15:03:28 [Verbose] Gateway: Connected to Pisecord
+05.07.2020 15:03:28 [Verbose] Gateway: Connected to DarlingBotInfo
+05.07.2020 15:03:28 [Verbose] Gateway: Connected to Убежище Debilov
+05.07.2020 15:03:28 [Verbose] Gateway: Connected to просто
+05.07.2020 15:03:28 [Verbose] Gateway: Connected to h1ka.'s server
+05.07.2020 15:03:28 [Verbose] Gateway: Connected to Плантация №13
+05.07.2020 15:03:28 [Verbose] Gateway: Connected to говно
+05.07.2020 15:03:28 [Verbose] Gateway: Connected to test.server
+05.07.2020 15:03:28 [Verbose] Gateway: Connected to KiTKAt`k's server
+05.07.2020 15:03:29 [Info] Gateway: Ready
+05.07.2020 15:03:31 [Error] Command: Discord.Commands.CommandException: Error occurred executing "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z.
+ ---> System.ArgumentException: Field name must not be null, empty or entirely whitespace. (Parameter 'Name')
+   at Discord.EmbedFieldBuilder.set_Name(String value)
+   at Discord.EmbedFieldBuilder.WithName(String name)
+   at Discord.EmbedBuilder.AddField(String name, Object value, Boolean inline)
+   at DarlingBotNet.Services.SystemLoading.EmbedUserBuilder(String text) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 293
+   at DarlingBotNet.Modules.Settings.messagesettings(UInt32 selection, String text) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 691
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+05.07.2020 15:03:31 [Verbose] Command: Executed "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z
+05.07.2020 15:04:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+05.07.2020 15:04:06 [Verbose] Rest: GET voice/regions: 674,52 ms
+05.07.2020 15:04:07 [Verbose] Rest: GET users/@me: 294,29 ms
+05.07.2020 15:04:07 [Info] Gateway: Connecting
+05.07.2020 15:04:07 [Verbose] Rest: GET gateway: 99,71 ms
+05.07.2020 15:04:08 [Info] Gateway: Connected
+05.07.2020 15:04:08 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+05.07.2020 15:04:08 [Verbose] Gateway: Connected to Pisecord
+05.07.2020 15:04:08 [Verbose] Gateway: Connected to Плантация №13
+05.07.2020 15:04:08 [Verbose] Gateway: Connected to DarlingBotInfo
+05.07.2020 15:04:08 [Verbose] Gateway: Connected to Убежище Debilov
+05.07.2020 15:04:08 [Verbose] Gateway: Connected to просто
+05.07.2020 15:04:08 [Verbose] Gateway: Connected to h1ka.'s server
+05.07.2020 15:04:08 [Verbose] Gateway: Connected to говно
+05.07.2020 15:04:08 [Verbose] Gateway: Connected to test.server
+05.07.2020 15:04:08 [Verbose] Gateway: Connected to KiTKAt`k's server
+05.07.2020 15:04:10 [Info] Gateway: Ready
+05.07.2020 15:04:11 [Error] Command: Discord.Commands.CommandException: Error occurred executing "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z.
+ ---> System.ArgumentException: Field name must not be null, empty or entirely whitespace. (Parameter 'Name')
+   at Discord.EmbedFieldBuilder.set_Name(String value)
+   at Discord.EmbedFieldBuilder.WithName(String name)
+   at Discord.EmbedBuilder.AddField(String name, Object value, Boolean inline)
+   at DarlingBotNet.Services.SystemLoading.EmbedUserBuilder(String text) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 293
+   at DarlingBotNet.Modules.Settings.messagesettings(UInt32 selection, String text) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 691
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+05.07.2020 15:04:11 [Verbose] Command: Executed "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z
+05.07.2020 15:06:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+05.07.2020 15:06:44 [Verbose] Rest: GET voice/regions: 626 ms
+05.07.2020 15:06:45 [Verbose] Rest: GET users/@me: 230,36 ms
+05.07.2020 15:06:45 [Info] Gateway: Connecting
+05.07.2020 15:06:45 [Verbose] Rest: GET gateway: 74,39 ms
+05.07.2020 15:06:46 [Info] Gateway: Connected
+05.07.2020 15:06:46 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+05.07.2020 15:06:46 [Verbose] Gateway: Connected to Pisecord
+05.07.2020 15:06:46 [Verbose] Gateway: Connected to DarlingBotInfo
+05.07.2020 15:06:46 [Verbose] Gateway: Connected to Убежище Debilov
+05.07.2020 15:06:46 [Verbose] Gateway: Connected to просто
+05.07.2020 15:06:47 [Verbose] Gateway: Connected to Плантация №13
+05.07.2020 15:06:47 [Verbose] Gateway: Connected to h1ka.'s server
+05.07.2020 15:06:47 [Verbose] Gateway: Connected to говно
+05.07.2020 15:06:47 [Verbose] Gateway: Connected to test.server
+05.07.2020 15:06:47 [Verbose] Gateway: Connected to KiTKAt`k's server
+05.07.2020 15:06:48 [Info] Gateway: Ready
+05.07.2020 15:06:54 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+05.07.2020 15:06:55 [Verbose] Rest: POST channels/705505976551473205/messages: 272,22 ms
+05.07.2020 15:06:55 [Verbose] Command: Executed "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z
+05.07.2020 15:07:01 [Verbose] Rest: POST channels/705505976551473205/messages: 287,07 ms
+05.07.2020 15:07:01 [Verbose] Command: Executed "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z
+05.07.2020 15:09:07 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+05.07.2020 15:09:08 [Verbose] Rest: GET voice/regions: 710,78 ms
+05.07.2020 15:09:08 [Verbose] Rest: GET users/@me: 216,48 ms
+05.07.2020 15:09:08 [Info] Gateway: Connecting
+05.07.2020 15:09:08 [Verbose] Rest: GET gateway: 77,21 ms
+05.07.2020 15:09:09 [Info] Gateway: Connected
+05.07.2020 15:09:10 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+05.07.2020 15:09:10 [Verbose] Gateway: Connected to Pisecord
+05.07.2020 15:09:10 [Verbose] Gateway: Connected to Плантация №13
+05.07.2020 15:09:10 [Verbose] Gateway: Connected to DarlingBotInfo
+05.07.2020 15:09:10 [Verbose] Gateway: Connected to просто
+05.07.2020 15:09:10 [Verbose] Gateway: Connected to Убежище Debilov
+05.07.2020 15:09:10 [Verbose] Gateway: Connected to h1ka.'s server
+05.07.2020 15:09:10 [Verbose] Gateway: Connected to говно
+05.07.2020 15:09:10 [Verbose] Gateway: Connected to test.server
+05.07.2020 15:09:10 [Verbose] Gateway: Connected to KiTKAt`k's server
+05.07.2020 15:09:11 [Info] Gateway: Ready
+05.07.2020 15:36:26 [Warning] Gateway: System.Exception: Server requested a reconnect
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+05.07.2020 15:36:26 [Info] Gateway: Disconnecting
+05.07.2020 15:36:26 [Verbose] Gateway: Disconnected from просто
+05.07.2020 15:36:26 [Verbose] Gateway: Disconnected from Pisecord
+05.07.2020 15:36:26 [Verbose] Gateway: Disconnected from говно
+05.07.2020 15:36:26 [Verbose] Gateway: Disconnected from h1ka.'s server
+05.07.2020 15:36:26 [Verbose] Gateway: Disconnected from test.server
+05.07.2020 15:36:26 [Verbose] Gateway: Disconnected from 🖤🔞69SQUAD🔞🖤
+05.07.2020 15:36:26 [Verbose] Gateway: Disconnected from Убежище Debilov
+05.07.2020 15:36:26 [Verbose] Gateway: Disconnected from KiTKAt`k's server
+05.07.2020 15:36:26 [Verbose] Gateway: Disconnected from Плантация №13
+05.07.2020 15:36:26 [Verbose] Gateway: Disconnected from DarlingBotInfo
+05.07.2020 15:36:26 [Info] Gateway: Disconnected
+05.07.2020 15:36:27 [Info] Gateway: Connecting
+05.07.2020 15:36:27 [Verbose] Rest: GET gateway: 221,25 ms
+05.07.2020 15:36:28 [Warning] Gateway: Failed to resume previous session
+05.07.2020 15:36:28 [Info] Gateway: Connected
+05.07.2020 15:36:28 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+05.07.2020 15:36:28 [Verbose] Gateway: Connected to Pisecord
+05.07.2020 15:36:29 [Verbose] Gateway: Connected to Плантация №13
+05.07.2020 15:36:29 [Verbose] Gateway: Connected to Убежище Debilov
+05.07.2020 15:36:29 [Verbose] Gateway: Connected to DarlingBotInfo
+05.07.2020 15:36:29 [Verbose] Gateway: Connected to h1ka.'s server
+05.07.2020 15:36:29 [Verbose] Gateway: Connected to просто
+05.07.2020 15:36:29 [Verbose] Gateway: Connected to говно
+05.07.2020 15:36:29 [Verbose] Gateway: Connected to test.server
+05.07.2020 15:36:29 [Verbose] Gateway: Connected to KiTKAt`k's server
+05.07.2020 15:36:29 [Info] Gateway: Ready
+05.07.2020 15:55:59 [Verbose] Rest: POST channels/705505976551473205/messages: 417,31 ms
+05.07.2020 15:55:59 [Verbose] Command: Executed "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z
+05.07.2020 15:56:06 [Verbose] Rest: POST channels/705505976551473205/messages: 283,99 ms
+05.07.2020 15:56:06 [Verbose] Command: Executed "messagesettings" for h1kkaru.#2627 in DarlingBotInfo/z
+05.07.2020 16:13:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+05.07.2020 16:13:06 [Verbose] Rest: GET voice/regions: 867,4 ms
+05.07.2020 16:13:06 [Verbose] Rest: GET users/@me: 233 ms
+05.07.2020 16:13:06 [Info] Gateway: Connecting
+05.07.2020 16:13:07 [Verbose] Rest: GET gateway: 72,83 ms
+05.07.2020 16:13:08 [Info] Gateway: Connected
+05.07.2020 16:13:08 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+05.07.2020 16:13:08 [Verbose] Gateway: Connected to Pisecord
+05.07.2020 16:13:08 [Verbose] Gateway: Connected to DarlingBotInfo
+05.07.2020 16:13:08 [Verbose] Gateway: Connected to Плантация №13
+05.07.2020 16:13:08 [Verbose] Gateway: Connected to Убежище Debilov
+05.07.2020 16:13:08 [Verbose] Gateway: Connected to просто
+05.07.2020 16:13:08 [Verbose] Gateway: Connected to h1ka.'s server
+05.07.2020 16:13:08 [Verbose] Gateway: Connected to говно
+05.07.2020 16:13:08 [Verbose] Gateway: Connected to test.server
+05.07.2020 16:13:08 [Verbose] Gateway: Connected to KiTKAt`k's server
+05.07.2020 16:13:10 [Info] Gateway: Ready
+05.07.2020 17:07:27 [Warning] Gateway: Unknown Dispatch (INVITE_CREATE)

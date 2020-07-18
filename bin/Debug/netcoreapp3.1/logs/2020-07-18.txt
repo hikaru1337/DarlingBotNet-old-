@@ -1,0 +1,2216 @@
+18.07.2020 8:50:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 8:50:13 [Verbose] Rest: GET voice/regions: 750,81 ms
+18.07.2020 8:50:13 [Verbose] Rest: GET users/@me: 265,99 ms
+18.07.2020 8:50:13 [Info] Gateway: Connecting
+18.07.2020 8:50:13 [Verbose] Rest: GET gateway: 78,72 ms
+18.07.2020 8:50:15 [Info] Gateway: Connected
+18.07.2020 8:50:15 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 8:50:15 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 8:50:15 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 8:50:15 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 8:50:15 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 8:50:15 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 8:50:15 [Verbose] Gateway: Connected to говно
+18.07.2020 8:50:15 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 8:50:15 [Verbose] Gateway: Connected to просто
+18.07.2020 8:50:15 [Verbose] Gateway: Connected to test.server
+18.07.2020 8:50:17 [Info] Gateway: Ready
+18.07.2020 8:50:32 [Verbose] Rest: POST channels/642712334145421321/messages: 293,3 ms
+18.07.2020 8:50:32 [Verbose] Command: Executed "channelsettings" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 8:50:38 [Verbose] Rest: POST channels/642712334145421321/messages: 305,24 ms
+18.07.2020 8:50:38 [Verbose] Command: Executed "channelsettings" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 8:50:45 [Verbose] Rest: POST channels/642712334145421321/messages: 266,77 ms
+18.07.2020 8:52:41 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 8:52:42 [Verbose] Rest: GET voice/regions: 766,13 ms
+18.07.2020 8:52:42 [Verbose] Rest: GET users/@me: 231,36 ms
+18.07.2020 8:52:42 [Info] Gateway: Connecting
+18.07.2020 8:52:42 [Verbose] Rest: GET gateway: 68,38 ms
+18.07.2020 8:52:43 [Info] Gateway: Connected
+18.07.2020 8:52:44 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 8:52:44 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 8:52:44 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 8:52:44 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 8:52:44 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 8:52:44 [Verbose] Gateway: Connected to просто
+18.07.2020 8:52:44 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 8:52:44 [Verbose] Gateway: Connected to говно
+18.07.2020 8:52:44 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 8:52:44 [Verbose] Gateway: Connected to test.server
+18.07.2020 8:52:46 [Info] Gateway: Ready
+18.07.2020 8:58:00 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 8:58:01 [Verbose] Rest: GET voice/regions: 723,6 ms
+18.07.2020 8:58:01 [Verbose] Rest: GET users/@me: 232,06 ms
+18.07.2020 8:58:01 [Info] Gateway: Connecting
+18.07.2020 8:58:01 [Verbose] Rest: GET gateway: 82,64 ms
+18.07.2020 8:58:03 [Info] Gateway: Connected
+18.07.2020 8:58:03 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 8:58:03 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 8:58:03 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 8:58:03 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 8:58:03 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 8:58:03 [Verbose] Gateway: Connected to просто
+18.07.2020 8:58:03 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 8:58:03 [Verbose] Gateway: Connected to говно
+18.07.2020 8:58:03 [Verbose] Gateway: Connected to test.server
+18.07.2020 8:58:03 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 8:58:05 [Info] Gateway: Ready
+18.07.2020 9:02:48 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 9:02:49 [Verbose] Rest: GET voice/regions: 673,45 ms
+18.07.2020 9:02:49 [Verbose] Rest: GET users/@me: 226,71 ms
+18.07.2020 9:02:49 [Info] Gateway: Connecting
+18.07.2020 9:02:49 [Verbose] Rest: GET gateway: 78,23 ms
+18.07.2020 9:02:51 [Info] Gateway: Connected
+18.07.2020 9:02:51 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 9:02:51 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 9:02:51 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 9:02:51 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 9:02:51 [Verbose] Gateway: Connected to просто
+18.07.2020 9:02:51 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 9:02:51 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 9:02:51 [Verbose] Gateway: Connected to говно
+18.07.2020 9:02:51 [Verbose] Gateway: Connected to test.server
+18.07.2020 9:02:51 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 9:02:53 [Info] Gateway: Ready
+18.07.2020 9:02:58 [Verbose] Rest: POST channels/642712334145421321/messages/bulk-delete: 243,11 ms
+18.07.2020 9:02:59 [Verbose] Rest: Preemptive Rate limit triggered: channels/642712334145421321/messages/bulk-delete
+18.07.2020 9:03:01 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:03:01 [Verbose] Rest: POST channels/642712334145421321/messages/bulk-delete: 2542,66 ms
+18.07.2020 9:03:01 [Warning] Gateway: System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at DarlingBotNet.Services.SystemLoading.ChatSystem(SocketCommandContext msg) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 424
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 306
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.07.2020 9:03:01 [Warning] Gateway: System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at DarlingBotNet.Services.SystemLoading.ChatSystem(SocketCommandContext msg) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 424
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 306
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.07.2020 9:03:01 [Warning] Gateway: System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at DarlingBotNet.Services.SystemLoading.ChatSystem(SocketCommandContext msg) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 424
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 306
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.07.2020 9:03:02 [Warning] Gateway: System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at DarlingBotNet.Services.SystemLoading.ChatSystem(SocketCommandContext msg) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 424
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 306
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.07.2020 9:03:05 [Warning] Gateway: System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at DarlingBotNet.Services.SystemLoading.ChatSystem(SocketCommandContext msg) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 424
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 306
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.07.2020 9:03:05 [Warning] Gateway: System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at DarlingBotNet.Services.SystemLoading.ChatSystem(SocketCommandContext msg) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 424
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 306
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.07.2020 9:14:52 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 9:14:53 [Verbose] Rest: GET voice/regions: 799,36 ms
+18.07.2020 9:14:53 [Verbose] Rest: GET users/@me: 246,55 ms
+18.07.2020 9:14:53 [Info] Gateway: Connecting
+18.07.2020 9:14:53 [Verbose] Rest: GET gateway: 71,89 ms
+18.07.2020 9:14:55 [Info] Gateway: Connected
+18.07.2020 9:14:55 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 9:14:55 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 9:14:55 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 9:14:55 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 9:14:55 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 9:14:55 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 9:14:55 [Verbose] Gateway: Connected to просто
+18.07.2020 9:14:55 [Verbose] Gateway: Connected to говно
+18.07.2020 9:14:55 [Verbose] Gateway: Connected to test.server
+18.07.2020 9:14:55 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 9:14:58 [Info] Gateway: Ready
+18.07.2020 9:15:07 [Verbose] Rest: POST channels/642712334145421321/messages/bulk-delete: 240,34 ms
+18.07.2020 9:15:08 [Verbose] Rest: Preemptive Rate limit triggered: channels/642712334145421321/messages/bulk-delete
+18.07.2020 9:15:10 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:15:10 [Verbose] Rest: POST channels/642712334145421321/messages/bulk-delete: 2544,07 ms
+18.07.2020 9:19:33 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 9:19:34 [Verbose] Rest: GET voice/regions: 745,8 ms
+18.07.2020 9:19:34 [Verbose] Rest: GET users/@me: 246,58 ms
+18.07.2020 9:19:34 [Info] Gateway: Connecting
+18.07.2020 9:19:35 [Verbose] Rest: GET gateway: 91,5 ms
+18.07.2020 9:19:36 [Info] Gateway: Connected
+18.07.2020 9:19:36 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 9:19:36 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 9:19:36 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 9:19:36 [Verbose] Gateway: Connected to просто
+18.07.2020 9:19:36 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 9:19:36 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 9:19:36 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 9:19:36 [Verbose] Gateway: Connected to говно
+18.07.2020 9:19:36 [Verbose] Gateway: Connected to test.server
+18.07.2020 9:19:36 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 9:19:39 [Info] Gateway: Ready
+18.07.2020 9:19:57 [Verbose] Rest: POST channels/637305727131844619/messages: 351,93 ms
+18.07.2020 9:19:57 [Verbose] Command: Executed "channelsettings" for h1kkaru.#2627 in Плантация №13/📛спам
+18.07.2020 9:20:05 [Verbose] Rest: POST channels/637305727131844619/messages: 754,2 ms
+18.07.2020 9:20:05 [Verbose] Command: Executed "channelsettings" for h1kkaru.#2627 in Плантация №13/📛спам
+18.07.2020 9:20:16 [Verbose] Rest: PUT channels/637305727131844619/permissions/617261910139600896: 282,49 ms
+18.07.2020 9:20:17 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 254,04 ms
+18.07.2020 9:20:17 [Verbose] Rest: DELETE channels/637305727131844619/permissions/617261910139600896: 255,13 ms
+18.07.2020 9:20:41 [Verbose] Rest: PUT channels/637305727131844619/permissions/617261910139600896: 231,75 ms
+18.07.2020 9:20:43 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 219,73 ms
+18.07.2020 9:20:43 [Verbose] Rest: DELETE channels/637305727131844619/permissions/617261910139600896: 220,21 ms
+18.07.2020 9:21:10 [Verbose] Rest: PUT channels/637305727131844619/permissions/617261910139600896: 235,97 ms
+18.07.2020 9:21:11 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 218,13 ms
+18.07.2020 9:21:12 [Verbose] Rest: DELETE channels/637305727131844619/permissions/617261910139600896: 239,96 ms
+18.07.2020 9:24:40 [Verbose] Rest: PUT channels/637305727131844619/permissions/551373471536513024: 427,77 ms
+18.07.2020 9:24:41 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 234,46 ms
+18.07.2020 9:24:41 [Verbose] Rest: DELETE channels/637305727131844619/permissions/551373471536513024: 241,09 ms
+18.07.2020 9:24:42 [Verbose] Rest: PUT channels/637305727131844619/permissions/551373471536513024: 563,56 ms
+18.07.2020 9:24:43 [Verbose] Rest: Preemptive Rate limit triggered: channels/637305727131844619/messages/bulk-delete
+18.07.2020 9:24:45 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:24:45 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 2139,56 ms
+18.07.2020 9:24:45 [Verbose] Rest: DELETE channels/637305727131844619/permissions/551373471536513024: 236,68 ms
+18.07.2020 9:24:47 [Verbose] Rest: PUT channels/637305727131844619/permissions/551373471536513024: 254,19 ms
+18.07.2020 9:24:48 [Verbose] Rest: Preemptive Rate limit triggered: channels/637305727131844619/messages/bulk-delete
+18.07.2020 9:24:49 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:24:49 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 1858,51 ms
+18.07.2020 9:24:50 [Verbose] Rest: DELETE channels/637305727131844619/permissions/551373471536513024: 221,57 ms
+18.07.2020 9:25:58 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 9:25:59 [Verbose] Rest: GET voice/regions: 807,95 ms
+18.07.2020 9:26:00 [Verbose] Rest: GET users/@me: 231,63 ms
+18.07.2020 9:26:00 [Info] Gateway: Connecting
+18.07.2020 9:26:00 [Verbose] Rest: GET gateway: 82,84 ms
+18.07.2020 9:26:01 [Info] Gateway: Connected
+18.07.2020 9:26:01 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 9:26:01 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 9:26:01 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 9:26:01 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 9:26:01 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 9:26:01 [Verbose] Gateway: Connected to говно
+18.07.2020 9:26:01 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 9:26:01 [Verbose] Gateway: Connected to просто
+18.07.2020 9:26:01 [Verbose] Gateway: Connected to test.server
+18.07.2020 9:26:01 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 9:26:03 [Info] Gateway: Ready
+18.07.2020 9:26:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 9:26:12 [Verbose] Rest: GET voice/regions: 888,66 ms
+18.07.2020 9:26:13 [Verbose] Rest: GET users/@me: 235,1 ms
+18.07.2020 9:26:13 [Info] Gateway: Connecting
+18.07.2020 9:26:13 [Verbose] Rest: GET gateway: 72,63 ms
+18.07.2020 9:26:14 [Info] Gateway: Connected
+18.07.2020 9:26:14 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 9:26:14 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 9:26:14 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 9:26:14 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 9:26:15 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 9:26:15 [Verbose] Gateway: Connected to просто
+18.07.2020 9:26:15 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 9:26:15 [Verbose] Gateway: Connected to test.server
+18.07.2020 9:26:15 [Verbose] Gateway: Connected to говно
+18.07.2020 9:26:15 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 9:26:17 [Info] Gateway: Ready
+18.07.2020 9:26:33 [Verbose] Rest: POST channels/637305727131844619/messages: 405,82 ms
+18.07.2020 9:27:17 [Verbose] Rest: POST channels/637305727131844619/messages: 373,39 ms
+18.07.2020 9:33:42 [Verbose] Rest: PUT channels/637305727131844619/permissions/551373471536513024: 485,46 ms
+18.07.2020 9:33:43 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 222,45 ms
+18.07.2020 9:33:44 [Verbose] Rest: DELETE channels/637305727131844619/permissions/551373471536513024: 234,76 ms
+18.07.2020 9:33:44 [Verbose] Rest: PUT channels/637305727131844619/permissions/551373471536513024: 239,26 ms
+18.07.2020 9:33:45 [Verbose] Rest: Preemptive Rate limit triggered: channels/637305727131844619/messages/bulk-delete
+18.07.2020 9:33:47 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:33:47 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 1833,14 ms
+18.07.2020 9:33:47 [Verbose] Rest: DELETE channels/637305727131844619/permissions/551373471536513024: 219,57 ms
+18.07.2020 9:33:47 [Verbose] Rest: PUT channels/637305727131844619/permissions/551373471536513024: 269,94 ms
+18.07.2020 9:33:48 [Verbose] Rest: Preemptive Rate limit triggered: channels/637305727131844619/messages/bulk-delete
+18.07.2020 9:33:50 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:33:50 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 2018 ms
+18.07.2020 9:33:51 [Verbose] Rest: DELETE channels/637305727131844619/permissions/551373471536513024: 227,36 ms
+18.07.2020 9:33:51 [Verbose] Rest: PUT channels/637305727131844619/permissions/551373471536513024: 216,26 ms
+18.07.2020 9:33:52 [Warning] Rest: Rate limit triggered: channels/637305727131844619/messages/bulk-delete
+18.07.2020 9:33:52 [Verbose] Rest: Preemptive Rate limit triggered: channels/637305727131844619/messages/bulk-delete
+18.07.2020 9:33:54 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 1749,66 ms
+18.07.2020 9:33:54 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:33:54 [Verbose] Rest: DELETE channels/637305727131844619/permissions/551373471536513024: 228,84 ms
+18.07.2020 9:34:02 [Verbose] Rest: PUT channels/637305727131844619/permissions/617261910139600896: 281,3 ms
+18.07.2020 9:34:03 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 225,64 ms
+18.07.2020 9:34:04 [Verbose] Rest: DELETE channels/637305727131844619/permissions/617261910139600896: 226,29 ms
+18.07.2020 9:34:57 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 9:34:57 [Verbose] Rest: GET voice/regions: 671,01 ms
+18.07.2020 9:34:58 [Verbose] Rest: GET users/@me: 224,19 ms
+18.07.2020 9:34:58 [Info] Gateway: Connecting
+18.07.2020 9:34:58 [Verbose] Rest: GET gateway: 73,69 ms
+18.07.2020 9:34:59 [Info] Gateway: Connected
+18.07.2020 9:34:59 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 9:34:59 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 9:34:59 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 9:34:59 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 9:34:59 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 9:34:59 [Verbose] Gateway: Connected to просто
+18.07.2020 9:34:59 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 9:34:59 [Verbose] Gateway: Connected to test.server
+18.07.2020 9:34:59 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 9:34:59 [Verbose] Gateway: Connected to говно
+18.07.2020 9:35:01 [Info] Gateway: Ready
+18.07.2020 9:35:04 [Verbose] Rest: PUT channels/637305727131844619/permissions/617261910139600896: 231,81 ms
+18.07.2020 9:35:05 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 210,95 ms
+18.07.2020 9:35:05 [Verbose] Rest: DELETE channels/637305727131844619/permissions/617261910139600896: 228,77 ms
+18.07.2020 9:35:19 [Verbose] Rest: PUT channels/637305727131844619/permissions/505422004908720162: 269 ms
+18.07.2020 9:35:20 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 215,29 ms
+18.07.2020 9:35:20 [Verbose] Rest: DELETE channels/637305727131844619/permissions/505422004908720162: 269,03 ms
+18.07.2020 9:35:42 [Verbose] Rest: PUT channels/637305727131844619/permissions/617261910139600896: 268,31 ms
+18.07.2020 9:35:42 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 228,55 ms
+18.07.2020 9:35:42 [Verbose] Rest: DELETE channels/637305727131844619/permissions/617261910139600896: 214,09 ms
+18.07.2020 9:35:42 [Verbose] Rest: PUT channels/637305727131844619/permissions/617261910139600896: 217,94 ms
+18.07.2020 9:35:43 [Verbose] Rest: DELETE channels/637305727131844619/messages/733980310911582308: 284,46 ms
+18.07.2020 9:35:43 [Verbose] Rest: DELETE channels/637305727131844619/permissions/617261910139600896: 259,89 ms
+18.07.2020 9:35:54 [Verbose] Rest: PUT channels/637305727131844619/permissions/617261910139600896: 228,27 ms
+18.07.2020 9:35:54 [Verbose] Rest: POST channels/637305727131844619/messages/bulk-delete: 210,28 ms
+18.07.2020 9:35:55 [Verbose] Rest: DELETE channels/637305727131844619/permissions/617261910139600896: 223,26 ms
+18.07.2020 9:41:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 9:41:05 [Verbose] Rest: GET voice/regions: 797,19 ms
+18.07.2020 9:41:06 [Verbose] Rest: GET users/@me: 228,26 ms
+18.07.2020 9:41:06 [Info] Gateway: Connecting
+18.07.2020 9:41:06 [Verbose] Rest: GET gateway: 75,38 ms
+18.07.2020 9:41:07 [Info] Gateway: Connected
+18.07.2020 9:41:07 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 9:41:07 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 9:41:07 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 9:41:07 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 9:41:07 [Verbose] Gateway: Connected to просто
+18.07.2020 9:41:07 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 9:41:07 [Verbose] Gateway: Connected to говно
+18.07.2020 9:41:07 [Verbose] Gateway: Connected to test.server
+18.07.2020 9:41:08 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 9:41:08 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 9:41:09 [Info] Gateway: Ready
+18.07.2020 9:41:11 [Verbose] Rest: POST channels/637305727131844619/messages: 386,6 ms
+18.07.2020 9:41:11 [Verbose] Command: Executed "channelsettings" for h1kkaru.#2627 in Плантация №13/📛спам
+18.07.2020 9:43:20 [Verbose] Rest: POST channels/637305727131844619/messages: 500,5 ms
+18.07.2020 9:45:47 [Verbose] Rest: POST channels/637305727131844619/messages: 497,33 ms
+18.07.2020 9:45:47 [Verbose] Command: Executed "channelsettings" for h1kkaru.#2627 in Плантация №13/📛спам
+18.07.2020 9:46:44 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 9:46:45 [Verbose] Rest: GET voice/regions: 736,32 ms
+18.07.2020 9:46:45 [Verbose] Rest: GET users/@me: 220,43 ms
+18.07.2020 9:46:46 [Info] Gateway: Connecting
+18.07.2020 9:46:46 [Verbose] Rest: GET gateway: 71,81 ms
+18.07.2020 9:46:47 [Info] Gateway: Connected
+18.07.2020 9:46:47 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 9:46:47 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 9:46:47 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 9:46:47 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 9:46:47 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 9:46:47 [Verbose] Gateway: Connected to просто
+18.07.2020 9:46:47 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 9:46:47 [Verbose] Gateway: Connected to говно
+18.07.2020 9:46:47 [Verbose] Gateway: Connected to test.server
+18.07.2020 9:46:47 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 9:46:50 [Info] Gateway: Ready
+18.07.2020 9:47:02 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:47:22 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:47:33 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:48:22 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 9:48:23 [Verbose] Rest: GET voice/regions: 986,21 ms
+18.07.2020 9:48:24 [Verbose] Rest: GET users/@me: 230,39 ms
+18.07.2020 9:48:24 [Info] Gateway: Connecting
+18.07.2020 9:48:24 [Verbose] Rest: GET gateway: 72,09 ms
+18.07.2020 9:48:25 [Info] Gateway: Connected
+18.07.2020 9:48:25 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 9:48:25 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 9:48:25 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 9:48:25 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 9:48:25 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 9:48:25 [Verbose] Gateway: Connected to просто
+18.07.2020 9:48:25 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 9:48:25 [Verbose] Gateway: Connected to говно
+18.07.2020 9:48:25 [Verbose] Gateway: Connected to test.server
+18.07.2020 9:48:25 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 9:48:27 [Info] Gateway: Ready
+18.07.2020 9:51:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 9:51:39 [Verbose] Rest: GET voice/regions: 959,87 ms
+18.07.2020 9:51:40 [Verbose] Rest: GET users/@me: 228,29 ms
+18.07.2020 9:51:40 [Info] Gateway: Connecting
+18.07.2020 9:51:40 [Verbose] Rest: GET gateway: 76,68 ms
+18.07.2020 9:51:41 [Info] Gateway: Connected
+18.07.2020 9:51:41 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 9:51:41 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 9:51:42 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 9:51:42 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 9:51:42 [Verbose] Gateway: Connected to просто
+18.07.2020 9:51:42 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 9:51:42 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 9:51:42 [Verbose] Gateway: Connected to говно
+18.07.2020 9:51:42 [Verbose] Gateway: Connected to test.server
+18.07.2020 9:51:42 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 9:51:44 [Info] Gateway: Ready
+18.07.2020 9:51:53 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:51:53 [Verbose] Rest: GET guilds/587277067989811210/invites: 255,09 ms
+18.07.2020 9:52:07 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:52:07 [Verbose] Rest: GET guilds/587277067989811210/invites: 269,12 ms
+18.07.2020 9:54:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 9:54:13 [Verbose] Rest: GET voice/regions: 648,46 ms
+18.07.2020 9:54:14 [Verbose] Rest: GET users/@me: 236,68 ms
+18.07.2020 9:54:14 [Info] Gateway: Connecting
+18.07.2020 9:54:14 [Verbose] Rest: GET gateway: 69,57 ms
+18.07.2020 9:54:15 [Info] Gateway: Connected
+18.07.2020 9:54:15 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 9:54:15 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 9:54:15 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 9:54:15 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 9:54:15 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 9:54:15 [Verbose] Gateway: Connected to просто
+18.07.2020 9:54:15 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 9:54:15 [Verbose] Gateway: Connected to говно
+18.07.2020 9:54:15 [Verbose] Gateway: Connected to test.server
+18.07.2020 9:54:15 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 9:54:17 [Info] Gateway: Ready
+18.07.2020 9:54:32 [Verbose] Rest: GET guilds/587277067989811210/invites: 225,12 ms
+18.07.2020 9:55:49 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:55:50 [Verbose] Rest: GET guilds/587277067989811210/invites: 248,9 ms
+18.07.2020 9:56:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 9:56:11 [Verbose] Rest: GET voice/regions: 702,16 ms
+18.07.2020 9:56:11 [Verbose] Rest: GET users/@me: 233,56 ms
+18.07.2020 9:56:11 [Info] Gateway: Connecting
+18.07.2020 9:56:12 [Verbose] Rest: GET gateway: 74,86 ms
+18.07.2020 9:56:13 [Info] Gateway: Connected
+18.07.2020 9:56:13 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 9:56:13 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 9:56:13 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 9:56:13 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 9:56:13 [Verbose] Gateway: Connected to просто
+18.07.2020 9:56:13 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 9:56:13 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 9:56:13 [Verbose] Gateway: Connected to говно
+18.07.2020 9:56:13 [Verbose] Gateway: Connected to test.server
+18.07.2020 9:56:13 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 9:56:15 [Info] Gateway: Ready
+18.07.2020 9:56:25 [Verbose] Rest: GET guilds/587277067989811210/invites: 247,17 ms
+18.07.2020 9:56:54 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 9:56:54 [Verbose] Rest: GET voice/regions: 637,51 ms
+18.07.2020 9:56:55 [Verbose] Rest: GET users/@me: 257,48 ms
+18.07.2020 9:56:55 [Info] Gateway: Connecting
+18.07.2020 9:56:55 [Verbose] Rest: GET gateway: 76,32 ms
+18.07.2020 9:56:56 [Info] Gateway: Connected
+18.07.2020 9:56:56 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 9:56:56 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 9:56:56 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 9:56:56 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 9:56:56 [Verbose] Gateway: Connected to просто
+18.07.2020 9:56:56 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 9:56:56 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 9:56:56 [Verbose] Gateway: Connected to test.server
+18.07.2020 9:56:56 [Verbose] Gateway: Connected to говно
+18.07.2020 9:56:56 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 9:56:58 [Info] Gateway: Ready
+18.07.2020 9:57:02 [Verbose] Rest: GET guilds/587277067989811210/invites: 240,68 ms
+18.07.2020 9:57:09 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:57:09 [Verbose] Rest: DELETE channels/637305727131844619/messages/733985670380519436: 228,38 ms
+18.07.2020 9:57:28 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+18.07.2020 9:57:29 [Verbose] Rest: GET guilds/587277067989811210/invites: 301,58 ms
+18.07.2020 9:57:29 [Verbose] Rest: DELETE channels/637305727131844619/messages/733985770401955890: 216,9 ms
+18.07.2020 18:15:19 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:15:20 [Verbose] Rest: GET voice/regions: 777,91 ms
+18.07.2020 18:15:21 [Verbose] Rest: GET users/@me: 238,19 ms
+18.07.2020 18:15:21 [Info] Gateway: Connecting
+18.07.2020 18:15:21 [Verbose] Rest: GET gateway: 71,05 ms
+18.07.2020 18:15:22 [Info] Gateway: Connected
+18.07.2020 18:15:22 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:15:22 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:15:22 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:15:22 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:15:23 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:15:23 [Verbose] Gateway: Connected to говно
+18.07.2020 18:15:23 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:15:23 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:15:23 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:15:23 [Verbose] Gateway: Connected to просто
+18.07.2020 18:15:25 [Info] Gateway: Ready
+18.07.2020 18:15:26 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\output\fonts\Akrobat-Regular.ttf'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.OpenRead(String path)
+   at SixLabors.Fonts.FontDescription.LoadDescription(String path)
+   at SixLabors.Fonts.FileFontInstance..ctor(String path)
+   at SixLabors.Fonts.FontCollection.Install(String path, FontDescription& fontDescription)
+   at SixLabors.Fonts.FontCollection.Install(String path)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 201
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 18:15:26 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:16:01 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:16:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:16:11 [Verbose] Rest: GET voice/regions: 989,51 ms
+18.07.2020 18:16:11 [Verbose] Rest: GET users/@me: 221,38 ms
+18.07.2020 18:16:12 [Info] Gateway: Connecting
+18.07.2020 18:16:12 [Verbose] Rest: GET gateway: 68,97 ms
+18.07.2020 18:16:13 [Info] Gateway: Connected
+18.07.2020 18:16:13 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:16:13 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:16:13 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:16:13 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:16:13 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:16:13 [Verbose] Gateway: Connected to просто
+18.07.2020 18:16:13 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:16:13 [Verbose] Gateway: Connected to говно
+18.07.2020 18:16:13 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:16:13 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:16:15 [Info] Gateway: Ready
+18.07.2020 18:16:19 [Verbose] Rest: POST channels/642712334145421321/messages: 670,71 ms
+18.07.2020 18:16:19 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:26:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:26:25 [Verbose] Rest: GET voice/regions: 885,1 ms
+18.07.2020 18:26:25 [Verbose] Rest: GET users/@me: 227,73 ms
+18.07.2020 18:26:25 [Info] Gateway: Connecting
+18.07.2020 18:26:25 [Verbose] Rest: GET gateway: 71,58 ms
+18.07.2020 18:26:27 [Info] Gateway: Connected
+18.07.2020 18:26:27 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:26:27 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:26:27 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:26:27 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:26:27 [Verbose] Gateway: Connected to просто
+18.07.2020 18:26:27 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:26:27 [Verbose] Gateway: Connected to говно
+18.07.2020 18:26:27 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:26:27 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:26:27 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:26:29 [Info] Gateway: Ready
+18.07.2020 18:26:32 [Verbose] Rest: POST channels/642712334145421321/messages: 743,24 ms
+18.07.2020 18:26:32 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:27:33 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:27:34 [Verbose] Rest: GET voice/regions: 828,08 ms
+18.07.2020 18:27:35 [Verbose] Rest: GET users/@me: 235,13 ms
+18.07.2020 18:27:35 [Info] Gateway: Connecting
+18.07.2020 18:27:35 [Verbose] Rest: GET gateway: 79,24 ms
+18.07.2020 18:27:36 [Info] Gateway: Connected
+18.07.2020 18:27:36 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:27:36 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:27:36 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:27:36 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:27:36 [Verbose] Gateway: Connected to просто
+18.07.2020 18:27:36 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:27:36 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:27:36 [Verbose] Gateway: Connected to говно
+18.07.2020 18:27:36 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:27:36 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:27:38 [Info] Gateway: Ready
+18.07.2020 18:27:40 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at System.Net.WebClient.DownloadData(String address)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 203
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 18:27:40 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:28:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:28:33 [Verbose] Rest: GET voice/regions: 774,17 ms
+18.07.2020 18:28:33 [Verbose] Rest: GET users/@me: 253,77 ms
+18.07.2020 18:28:33 [Info] Gateway: Connecting
+18.07.2020 18:28:34 [Verbose] Rest: GET gateway: 72,76 ms
+18.07.2020 18:28:35 [Info] Gateway: Connected
+18.07.2020 18:28:35 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:28:35 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:28:36 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:28:36 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:28:36 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:28:36 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:28:36 [Verbose] Gateway: Connected to просто
+18.07.2020 18:28:36 [Verbose] Gateway: Connected to говно
+18.07.2020 18:28:36 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:28:36 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:28:38 [Info] Gateway: Ready
+18.07.2020 18:28:39 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at System.Net.WebClient.DownloadData(String address)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 203
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 18:28:39 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:28:50 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:28:50 [Verbose] Rest: GET voice/regions: 648,76 ms
+18.07.2020 18:28:51 [Verbose] Rest: GET users/@me: 238,07 ms
+18.07.2020 18:28:51 [Info] Gateway: Connecting
+18.07.2020 18:28:51 [Verbose] Rest: GET gateway: 67,03 ms
+18.07.2020 18:28:52 [Info] Gateway: Connected
+18.07.2020 18:28:52 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:28:52 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:28:52 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:28:52 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:28:53 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:28:53 [Verbose] Gateway: Connected to просто
+18.07.2020 18:28:53 [Verbose] Gateway: Connected to говно
+18.07.2020 18:28:53 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:28:53 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:28:53 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:28:55 [Info] Gateway: Ready
+18.07.2020 18:28:57 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at System.Net.WebClient.DownloadData(String address)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 203
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 18:28:57 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:29:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:29:12 [Verbose] Rest: GET voice/regions: 1016,98 ms
+18.07.2020 18:29:13 [Verbose] Rest: GET users/@me: 225,35 ms
+18.07.2020 18:29:13 [Info] Gateway: Connecting
+18.07.2020 18:29:13 [Verbose] Rest: GET gateway: 68,68 ms
+18.07.2020 18:29:14 [Info] Gateway: Connected
+18.07.2020 18:29:14 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:29:14 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:29:14 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:29:14 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:29:14 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:29:14 [Verbose] Gateway: Connected to просто
+18.07.2020 18:29:14 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:29:14 [Verbose] Gateway: Connected to говно
+18.07.2020 18:29:14 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:29:14 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:29:16 [Info] Gateway: Ready
+18.07.2020 18:29:18 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at System.Net.WebClient.DownloadData(String address)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 203
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 18:29:18 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:29:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:29:28 [Verbose] Rest: GET voice/regions: 790,33 ms
+18.07.2020 18:29:28 [Verbose] Rest: GET users/@me: 265,87 ms
+18.07.2020 18:29:28 [Info] Gateway: Connecting
+18.07.2020 18:29:29 [Verbose] Rest: GET gateway: 68,94 ms
+18.07.2020 18:29:30 [Info] Gateway: Connected
+18.07.2020 18:29:30 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:29:30 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:29:30 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:29:30 [Verbose] Gateway: Connected to просто
+18.07.2020 18:29:30 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:29:30 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:29:30 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:29:30 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:29:30 [Verbose] Gateway: Connected to говно
+18.07.2020 18:29:30 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:29:32 [Info] Gateway: Ready
+18.07.2020 18:29:35 [Verbose] Rest: POST channels/642712334145421321/messages: 751,6 ms
+18.07.2020 18:29:35 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:30:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:30:33 [Verbose] Rest: GET voice/regions: 701,32 ms
+18.07.2020 18:30:33 [Verbose] Rest: GET users/@me: 289,98 ms
+18.07.2020 18:30:33 [Info] Gateway: Connecting
+18.07.2020 18:30:33 [Verbose] Rest: GET gateway: 75,32 ms
+18.07.2020 18:30:35 [Info] Gateway: Connected
+18.07.2020 18:30:35 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:30:35 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:30:35 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:30:35 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:30:35 [Verbose] Gateway: Connected to просто
+18.07.2020 18:30:35 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:30:35 [Verbose] Gateway: Connected to говно
+18.07.2020 18:30:35 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:30:35 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:30:35 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:30:37 [Info] Gateway: Ready
+18.07.2020 18:30:40 [Verbose] Rest: POST channels/642712334145421321/messages: 737,33 ms
+18.07.2020 18:30:40 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:31:14 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:31:15 [Verbose] Rest: GET voice/regions: 913,99 ms
+18.07.2020 18:31:15 [Verbose] Rest: GET users/@me: 229,47 ms
+18.07.2020 18:31:15 [Info] Gateway: Connecting
+18.07.2020 18:31:15 [Verbose] Rest: GET gateway: 71,43 ms
+18.07.2020 18:31:16 [Info] Gateway: Connected
+18.07.2020 18:31:16 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:31:17 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:31:17 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:31:17 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:31:17 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:31:17 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:31:17 [Verbose] Gateway: Connected to просто
+18.07.2020 18:31:17 [Verbose] Gateway: Connected to говно
+18.07.2020 18:31:17 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:31:17 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:31:19 [Info] Gateway: Ready
+18.07.2020 18:31:21 [Verbose] Rest: POST channels/642712334145421321/messages: 686,76 ms
+18.07.2020 18:31:21 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:32:07 [Verbose] Rest: POST channels/642712334145421321/messages: 426,22 ms
+18.07.2020 18:32:07 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:32:21 [Verbose] Rest: POST channels/642712334145421321/messages: 627,04 ms
+18.07.2020 18:32:21 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:33:40 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:33:42 [Verbose] Rest: GET voice/regions: 1024,36 ms
+18.07.2020 18:33:42 [Verbose] Rest: GET users/@me: 255,95 ms
+18.07.2020 18:33:42 [Info] Gateway: Connecting
+18.07.2020 18:33:42 [Verbose] Rest: GET gateway: 66,9 ms
+18.07.2020 18:33:43 [Info] Gateway: Connected
+18.07.2020 18:33:43 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:33:44 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:33:44 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:33:44 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:33:44 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:33:44 [Verbose] Gateway: Connected to просто
+18.07.2020 18:33:44 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:33:44 [Verbose] Gateway: Connected to говно
+18.07.2020 18:33:44 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:33:44 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:33:47 [Info] Gateway: Ready
+18.07.2020 18:33:55 [Verbose] Rest: POST channels/642712334145421321/messages: 909,55 ms
+18.07.2020 18:33:55 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:37:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:37:11 [Verbose] Rest: GET voice/regions: 735,34 ms
+18.07.2020 18:37:11 [Verbose] Rest: GET users/@me: 219,24 ms
+18.07.2020 18:37:11 [Info] Gateway: Connecting
+18.07.2020 18:37:11 [Verbose] Rest: GET gateway: 87,37 ms
+18.07.2020 18:37:12 [Info] Gateway: Connected
+18.07.2020 18:37:13 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:37:13 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:37:13 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:37:13 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:37:13 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:37:13 [Verbose] Gateway: Connected to просто
+18.07.2020 18:37:13 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:37:13 [Verbose] Gateway: Connected to говно
+18.07.2020 18:37:13 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:37:13 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:37:15 [Info] Gateway: Ready
+18.07.2020 18:37:18 [Verbose] Rest: POST channels/642712334145421321/messages: 715,07 ms
+18.07.2020 18:37:19 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:37:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:37:38 [Verbose] Rest: GET voice/regions: 784,66 ms
+18.07.2020 18:37:38 [Verbose] Rest: GET users/@me: 216,34 ms
+18.07.2020 18:37:38 [Info] Gateway: Connecting
+18.07.2020 18:37:38 [Verbose] Rest: GET gateway: 66,54 ms
+18.07.2020 18:37:40 [Info] Gateway: Connected
+18.07.2020 18:37:40 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:37:40 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:37:40 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:37:40 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:37:40 [Verbose] Gateway: Connected to просто
+18.07.2020 18:37:40 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:37:40 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:37:40 [Verbose] Gateway: Connected to говно
+18.07.2020 18:37:40 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:37:40 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:37:42 [Info] Gateway: Ready
+18.07.2020 18:37:45 [Verbose] Rest: POST channels/642712334145421321/messages: 994,44 ms
+18.07.2020 18:37:45 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:37:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:37:57 [Verbose] Rest: GET voice/regions: 763,17 ms
+18.07.2020 18:37:58 [Verbose] Rest: GET users/@me: 223,43 ms
+18.07.2020 18:37:58 [Info] Gateway: Connecting
+18.07.2020 18:37:58 [Verbose] Rest: GET gateway: 67,75 ms
+18.07.2020 18:37:59 [Info] Gateway: Connected
+18.07.2020 18:37:59 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:37:59 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:37:59 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:37:59 [Verbose] Gateway: Connected to просто
+18.07.2020 18:37:59 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:37:59 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:37:59 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:37:59 [Verbose] Gateway: Connected to говно
+18.07.2020 18:37:59 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:37:59 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:38:01 [Info] Gateway: Ready
+18.07.2020 18:38:04 [Verbose] Rest: POST channels/642712334145421321/messages: 682,22 ms
+18.07.2020 18:38:04 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:38:35 [Verbose] Rest: POST channels/637305892756258867/messages: 301,69 ms
+18.07.2020 18:41:33 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:41:33 [Verbose] Rest: GET voice/regions: 797,26 ms
+18.07.2020 18:41:34 [Verbose] Rest: GET users/@me: 226,87 ms
+18.07.2020 18:41:34 [Info] Gateway: Connecting
+18.07.2020 18:41:34 [Verbose] Rest: GET gateway: 68,79 ms
+18.07.2020 18:41:35 [Info] Gateway: Connected
+18.07.2020 18:41:35 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:41:35 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:41:35 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:41:36 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:41:36 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:41:36 [Verbose] Gateway: Connected to просто
+18.07.2020 18:41:36 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:41:36 [Verbose] Gateway: Connected to говно
+18.07.2020 18:41:36 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:41:36 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:41:38 [Info] Gateway: Ready
+18.07.2020 18:41:58 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.SolidBrush`1.SolidBrushApplicator.Apply(Span`1 scanline, Int32 x, Int32 y)
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_1.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 210
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 210
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 18:41:58 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:42:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:42:40 [Verbose] Rest: GET voice/regions: 956,7 ms
+18.07.2020 18:42:41 [Verbose] Rest: GET users/@me: 208,2 ms
+18.07.2020 18:42:41 [Info] Gateway: Connecting
+18.07.2020 18:42:41 [Verbose] Rest: GET gateway: 69,09 ms
+18.07.2020 18:42:42 [Info] Gateway: Connected
+18.07.2020 18:42:42 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:42:42 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:42:42 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:42:42 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:42:42 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:42:42 [Verbose] Gateway: Connected to просто
+18.07.2020 18:42:42 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:42:42 [Verbose] Gateway: Connected to говно
+18.07.2020 18:42:42 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:42:42 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:42:45 [Info] Gateway: Ready
+18.07.2020 18:42:47 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.SolidBrush`1.SolidBrushApplicator.Apply(Span`1 scanline, Int32 x, Int32 y)
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_1.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 210
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 210
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 18:42:47 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:42:49 [Verbose] Rest: POST channels/637305892756258867/messages: 304,91 ms
+18.07.2020 18:43:00 [Verbose] Rest: POST channels/637305892756258867/messages: 286,36 ms
+18.07.2020 18:43:00 [Verbose] Command: Executed "channelsettings" for h1kkaru.#2627 in Плантация №13/🔨команды
+18.07.2020 18:44:08 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:44:09 [Verbose] Rest: GET voice/regions: 1002,08 ms
+18.07.2020 18:44:09 [Verbose] Rest: GET users/@me: 246,84 ms
+18.07.2020 18:44:09 [Info] Gateway: Connecting
+18.07.2020 18:44:09 [Verbose] Rest: GET gateway: 83,63 ms
+18.07.2020 18:44:11 [Info] Gateway: Connected
+18.07.2020 18:44:11 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:44:11 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:44:11 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:44:11 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:44:11 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:44:11 [Verbose] Gateway: Connected to просто
+18.07.2020 18:44:11 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:44:11 [Verbose] Gateway: Connected to говно
+18.07.2020 18:44:11 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:44:11 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:44:14 [Info] Gateway: Ready
+18.07.2020 18:44:16 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.SolidBrush`1.SolidBrushApplicator.Apply(Span`1 scanline, Int32 x, Int32 y)
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_1.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 210
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 210
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 18:44:16 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:44:29 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:44:30 [Verbose] Rest: GET voice/regions: 900,69 ms
+18.07.2020 18:44:30 [Verbose] Rest: GET users/@me: 251,57 ms
+18.07.2020 18:44:30 [Info] Gateway: Connecting
+18.07.2020 18:44:31 [Verbose] Rest: GET gateway: 70,66 ms
+18.07.2020 18:44:32 [Info] Gateway: Connected
+18.07.2020 18:44:32 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:44:32 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:44:32 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:44:32 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:44:32 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:44:32 [Verbose] Gateway: Connected to просто
+18.07.2020 18:44:32 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:44:32 [Verbose] Gateway: Connected to говно
+18.07.2020 18:44:32 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:44:32 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:44:34 [Info] Gateway: Ready
+18.07.2020 18:44:36 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.SolidBrush`1.SolidBrushApplicator.Apply(Span`1 scanline, Int32 x, Int32 y)
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_1.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 210
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 210
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 18:44:36 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:44:45 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:44:46 [Verbose] Rest: GET voice/regions: 897,31 ms
+18.07.2020 18:44:47 [Verbose] Rest: GET users/@me: 221,99 ms
+18.07.2020 18:44:47 [Info] Gateway: Connecting
+18.07.2020 18:44:47 [Verbose] Rest: GET gateway: 72,23 ms
+18.07.2020 18:44:48 [Info] Gateway: Connected
+18.07.2020 18:44:48 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:44:49 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:44:49 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:44:49 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:44:49 [Verbose] Gateway: Connected to просто
+18.07.2020 18:44:49 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:44:49 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:44:49 [Verbose] Gateway: Connected to говно
+18.07.2020 18:44:49 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:44:49 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:44:51 [Info] Gateway: Ready
+18.07.2020 18:44:53 [Verbose] Rest: POST channels/642712334145421321/messages: 666,6 ms
+18.07.2020 18:44:53 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:45:51 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:45:52 [Verbose] Rest: GET voice/regions: 870,47 ms
+18.07.2020 18:45:53 [Verbose] Rest: GET users/@me: 221,76 ms
+18.07.2020 18:45:53 [Info] Gateway: Connecting
+18.07.2020 18:45:53 [Verbose] Rest: GET gateway: 78,41 ms
+18.07.2020 18:45:54 [Info] Gateway: Connected
+18.07.2020 18:45:54 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:45:54 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:45:54 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:45:54 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:45:55 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:45:55 [Verbose] Gateway: Connected to просто
+18.07.2020 18:45:55 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:45:55 [Verbose] Gateway: Connected to говно
+18.07.2020 18:45:55 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:45:55 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:45:56 [Info] Gateway: Ready
+18.07.2020 18:46:01 [Verbose] Rest: POST channels/642712334145421321/messages: 765,14 ms
+18.07.2020 18:46:01 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:47:54 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:47:55 [Verbose] Rest: GET voice/regions: 875,19 ms
+18.07.2020 18:47:56 [Verbose] Rest: GET users/@me: 232,51 ms
+18.07.2020 18:47:56 [Info] Gateway: Connecting
+18.07.2020 18:47:56 [Verbose] Rest: GET gateway: 76,64 ms
+18.07.2020 18:47:57 [Info] Gateway: Connected
+18.07.2020 18:47:57 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:47:57 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:47:58 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:47:58 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:47:58 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:47:58 [Verbose] Gateway: Connected to просто
+18.07.2020 18:47:58 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:47:58 [Verbose] Gateway: Connected to говно
+18.07.2020 18:47:58 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:47:58 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:47:59 [Info] Gateway: Ready
+18.07.2020 18:48:02 [Verbose] Rest: POST channels/642712334145421321/messages: 722,08 ms
+18.07.2020 18:48:02 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:50:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:50:44 [Verbose] Rest: GET voice/regions: 727,2 ms
+18.07.2020 18:50:44 [Verbose] Rest: GET users/@me: 216,48 ms
+18.07.2020 18:50:44 [Info] Gateway: Connecting
+18.07.2020 18:50:44 [Verbose] Rest: GET gateway: 68,66 ms
+18.07.2020 18:50:45 [Info] Gateway: Connected
+18.07.2020 18:50:46 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:50:46 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:50:46 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:50:46 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:50:46 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:50:46 [Verbose] Gateway: Connected to просто
+18.07.2020 18:50:46 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:50:46 [Verbose] Gateway: Connected to говно
+18.07.2020 18:50:46 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:50:46 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:50:48 [Info] Gateway: Ready
+18.07.2020 18:50:56 [Verbose] Rest: POST channels/642712334145421321/messages: 901,92 ms
+18.07.2020 18:50:56 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:51:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:52:00 [Verbose] Rest: GET voice/regions: 761,83 ms
+18.07.2020 18:52:00 [Verbose] Rest: GET users/@me: 228,68 ms
+18.07.2020 18:52:00 [Info] Gateway: Connecting
+18.07.2020 18:52:00 [Verbose] Rest: GET gateway: 69,41 ms
+18.07.2020 18:52:01 [Info] Gateway: Connected
+18.07.2020 18:52:01 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:52:01 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:52:01 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:52:01 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:52:02 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:52:02 [Verbose] Gateway: Connected to просто
+18.07.2020 18:52:02 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:52:02 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:52:02 [Verbose] Gateway: Connected to говно
+18.07.2020 18:52:02 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:52:04 [Info] Gateway: Ready
+18.07.2020 18:52:07 [Verbose] Rest: POST channels/642712334145421321/messages: 769,1 ms
+18.07.2020 18:52:07 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:53:06 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:53:07 [Verbose] Rest: GET voice/regions: 821,1 ms
+18.07.2020 18:53:08 [Verbose] Rest: GET users/@me: 219,3 ms
+18.07.2020 18:53:08 [Info] Gateway: Connecting
+18.07.2020 18:53:08 [Verbose] Rest: GET gateway: 68,12 ms
+18.07.2020 18:53:09 [Info] Gateway: Connected
+18.07.2020 18:53:09 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:53:09 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:53:09 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:53:10 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:53:10 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:53:10 [Verbose] Gateway: Connected to просто
+18.07.2020 18:53:10 [Verbose] Gateway: Connected to говно
+18.07.2020 18:53:10 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:53:10 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:53:10 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:53:12 [Info] Gateway: Ready
+18.07.2020 18:53:15 [Verbose] Rest: POST channels/642712334145421321/messages: 872,64 ms
+18.07.2020 18:53:15 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:54:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:55:00 [Verbose] Rest: GET voice/regions: 756,09 ms
+18.07.2020 18:55:01 [Verbose] Rest: GET users/@me: 221,83 ms
+18.07.2020 18:55:01 [Info] Gateway: Connecting
+18.07.2020 18:55:01 [Verbose] Rest: GET gateway: 70,06 ms
+18.07.2020 18:55:02 [Info] Gateway: Connected
+18.07.2020 18:55:02 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:55:02 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:55:02 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:55:02 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:55:02 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:55:02 [Verbose] Gateway: Connected to просто
+18.07.2020 18:55:02 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:55:02 [Verbose] Gateway: Connected to говно
+18.07.2020 18:55:02 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:55:02 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:55:05 [Info] Gateway: Ready
+18.07.2020 18:55:39 [Verbose] Rest: POST channels/642712334145421321/messages: 674,2 ms
+18.07.2020 18:55:39 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 18:56:03 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 18:56:04 [Verbose] Rest: GET voice/regions: 857,18 ms
+18.07.2020 18:56:04 [Verbose] Rest: GET users/@me: 212,03 ms
+18.07.2020 18:56:04 [Info] Gateway: Connecting
+18.07.2020 18:56:04 [Verbose] Rest: GET gateway: 66,89 ms
+18.07.2020 18:56:06 [Info] Gateway: Connected
+18.07.2020 18:56:06 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 18:56:06 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 18:56:06 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 18:56:06 [Verbose] Gateway: Connected to просто
+18.07.2020 18:56:06 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 18:56:06 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 18:56:06 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 18:56:06 [Verbose] Gateway: Connected to говно
+18.07.2020 18:56:06 [Verbose] Gateway: Connected to test.server
+18.07.2020 18:56:06 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 18:56:09 [Info] Gateway: Ready
+18.07.2020 19:11:50 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:11:51 [Verbose] Rest: GET voice/regions: 1191,79 ms
+18.07.2020 19:11:52 [Verbose] Rest: GET users/@me: 243,85 ms
+18.07.2020 19:11:52 [Info] Gateway: Connecting
+18.07.2020 19:11:52 [Verbose] Rest: GET gateway: 72,43 ms
+18.07.2020 19:11:53 [Info] Gateway: Connected
+18.07.2020 19:11:53 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:11:53 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:11:53 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:11:53 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:11:53 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:11:53 [Verbose] Gateway: Connected to говно
+18.07.2020 19:11:54 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:11:54 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:11:54 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:11:54 [Verbose] Gateway: Connected to просто
+18.07.2020 19:11:56 [Info] Gateway: Ready
+18.07.2020 19:18:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:18:24 [Verbose] Rest: GET voice/regions: 719,32 ms
+18.07.2020 19:18:24 [Verbose] Rest: GET users/@me: 227,17 ms
+18.07.2020 19:18:24 [Info] Gateway: Connecting
+18.07.2020 19:18:24 [Verbose] Rest: GET gateway: 73,26 ms
+18.07.2020 19:18:26 [Info] Gateway: Connected
+18.07.2020 19:18:26 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:18:26 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:18:26 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:18:26 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:18:26 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:18:26 [Verbose] Gateway: Connected to просто
+18.07.2020 19:18:26 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:18:26 [Verbose] Gateway: Connected to говно
+18.07.2020 19:18:26 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:18:26 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:18:28 [Info] Gateway: Ready
+18.07.2020 19:27:14 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:27:15 [Verbose] Rest: GET voice/regions: 841,75 ms
+18.07.2020 19:27:15 [Verbose] Rest: GET users/@me: 210,42 ms
+18.07.2020 19:27:16 [Info] Gateway: Connecting
+18.07.2020 19:27:16 [Verbose] Rest: GET gateway: 82,48 ms
+18.07.2020 19:27:17 [Info] Gateway: Connected
+18.07.2020 19:27:17 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:27:17 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:27:17 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:27:17 [Verbose] Gateway: Connected to просто
+18.07.2020 19:27:17 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:27:18 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:27:18 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:27:18 [Verbose] Gateway: Connected to говно
+18.07.2020 19:27:18 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:27:18 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:27:20 [Info] Gateway: Ready
+18.07.2020 19:27:21 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_1.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 211
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 211
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 19:27:21 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:29:03 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:29:04 [Verbose] Rest: GET voice/regions: 893,62 ms
+18.07.2020 19:29:05 [Verbose] Rest: GET users/@me: 217,32 ms
+18.07.2020 19:29:05 [Info] Gateway: Connecting
+18.07.2020 19:29:05 [Verbose] Rest: GET gateway: 76,45 ms
+18.07.2020 19:29:06 [Info] Gateway: Connected
+18.07.2020 19:29:06 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:29:06 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:29:07 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:29:07 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:29:07 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:29:07 [Verbose] Gateway: Connected to просто
+18.07.2020 19:29:07 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:29:07 [Verbose] Gateway: Connected to говно
+18.07.2020 19:29:07 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:29:07 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:29:09 [Info] Gateway: Ready
+18.07.2020 19:29:11 [Verbose] Rest: POST channels/642712334145421321/messages: 264,17 ms
+18.07.2020 19:29:11 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_1.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 211
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 211
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 19:29:11 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:30:09 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:30:12 [Verbose] Rest: GET voice/regions: 671,38 ms
+18.07.2020 19:30:13 [Verbose] Rest: GET users/@me: 213,54 ms
+18.07.2020 19:30:13 [Info] Gateway: Connecting
+18.07.2020 19:30:13 [Verbose] Rest: GET gateway: 66,63 ms
+18.07.2020 19:30:14 [Info] Gateway: Connected
+18.07.2020 19:30:14 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:30:14 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:30:14 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:30:14 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:30:14 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:30:14 [Verbose] Gateway: Connected to просто
+18.07.2020 19:30:14 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:30:14 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:30:14 [Verbose] Gateway: Connected to говно
+18.07.2020 19:30:14 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:30:17 [Info] Gateway: Ready
+18.07.2020 19:30:19 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_1.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 208
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 208
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 19:30:19 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:30:27 [Verbose] Rest: POST channels/587303658140467262/messages: 367,81 ms
+18.07.2020 19:32:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:32:58 [Verbose] Rest: GET voice/regions: 1375,03 ms
+18.07.2020 19:32:58 [Verbose] Rest: GET users/@me: 239,63 ms
+18.07.2020 19:32:58 [Info] Gateway: Connecting
+18.07.2020 19:32:58 [Verbose] Rest: GET gateway: 80,46 ms
+18.07.2020 19:32:59 [Info] Gateway: Connected
+18.07.2020 19:33:00 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:33:00 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:33:00 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:33:00 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:33:00 [Verbose] Gateway: Connected to просто
+18.07.2020 19:33:00 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:33:00 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:33:00 [Verbose] Gateway: Connected to говно
+18.07.2020 19:33:00 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:33:00 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:33:02 [Info] Gateway: Ready
+18.07.2020 19:33:04 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_1.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 213
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 213
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 19:33:04 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:35:02 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:35:03 [Verbose] Rest: GET voice/regions: 657,13 ms
+18.07.2020 19:35:03 [Verbose] Rest: GET users/@me: 245,42 ms
+18.07.2020 19:35:03 [Info] Gateway: Connecting
+18.07.2020 19:35:03 [Verbose] Rest: GET gateway: 72,09 ms
+18.07.2020 19:35:04 [Info] Gateway: Connected
+18.07.2020 19:35:05 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:35:05 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:35:05 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:35:05 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:35:05 [Verbose] Gateway: Connected to просто
+18.07.2020 19:35:05 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:35:05 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:35:05 [Verbose] Gateway: Connected to говно
+18.07.2020 19:35:05 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:35:05 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:35:07 [Info] Gateway: Ready
+18.07.2020 19:35:26 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_2.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 212
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 212
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 19:35:26 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:35:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:35:48 [Verbose] Rest: GET voice/regions: 794,87 ms
+18.07.2020 19:35:49 [Verbose] Rest: GET users/@me: 231,62 ms
+18.07.2020 19:35:49 [Info] Gateway: Connecting
+18.07.2020 19:35:49 [Verbose] Rest: GET gateway: 80,79 ms
+18.07.2020 19:35:50 [Info] Gateway: Connected
+18.07.2020 19:35:50 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:35:50 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:35:50 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:35:50 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:35:50 [Verbose] Gateway: Connected to просто
+18.07.2020 19:35:51 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:35:51 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:35:51 [Verbose] Gateway: Connected to говно
+18.07.2020 19:35:51 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:35:51 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:35:53 [Info] Gateway: Ready
+18.07.2020 19:35:56 [Verbose] Rest: POST channels/642712334145421321/messages: 805,81 ms
+18.07.2020 19:35:56 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:36:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:36:32 [Verbose] Rest: GET voice/regions: 1087,57 ms
+18.07.2020 19:36:32 [Verbose] Rest: GET users/@me: 223,81 ms
+18.07.2020 19:36:33 [Info] Gateway: Connecting
+18.07.2020 19:36:33 [Verbose] Rest: GET gateway: 67,76 ms
+18.07.2020 19:36:34 [Info] Gateway: Connected
+18.07.2020 19:36:34 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:36:34 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:36:34 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:36:34 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:36:34 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:36:34 [Verbose] Gateway: Connected to просто
+18.07.2020 19:36:34 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:36:34 [Verbose] Gateway: Connected to говно
+18.07.2020 19:36:34 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:36:34 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:36:36 [Info] Gateway: Ready
+18.07.2020 19:36:39 [Verbose] Rest: POST channels/642712334145421321/messages: 744,22 ms
+18.07.2020 19:36:39 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:37:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:37:11 [Verbose] Rest: GET voice/regions: 747,7 ms
+18.07.2020 19:37:12 [Verbose] Rest: GET users/@me: 215,7 ms
+18.07.2020 19:37:12 [Info] Gateway: Connecting
+18.07.2020 19:37:12 [Verbose] Rest: GET gateway: 91,03 ms
+18.07.2020 19:37:13 [Info] Gateway: Connected
+18.07.2020 19:37:13 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:37:13 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:37:13 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:37:13 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:37:13 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:37:13 [Verbose] Gateway: Connected to просто
+18.07.2020 19:37:13 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:37:13 [Verbose] Gateway: Connected to говно
+18.07.2020 19:37:13 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:37:13 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:37:15 [Info] Gateway: Ready
+18.07.2020 19:37:21 [Verbose] Rest: POST channels/642712334145421321/messages: 801,48 ms
+18.07.2020 19:37:21 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:38:00 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:38:01 [Verbose] Rest: GET voice/regions: 901,83 ms
+18.07.2020 19:38:01 [Verbose] Rest: GET users/@me: 248,37 ms
+18.07.2020 19:38:01 [Info] Gateway: Connecting
+18.07.2020 19:38:01 [Verbose] Rest: GET gateway: 67,04 ms
+18.07.2020 19:38:02 [Info] Gateway: Connected
+18.07.2020 19:38:02 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:38:02 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:38:02 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:38:02 [Verbose] Gateway: Connected to просто
+18.07.2020 19:38:02 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:38:02 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:38:02 [Verbose] Gateway: Connected to говно
+18.07.2020 19:38:03 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:38:03 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:38:03 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:38:05 [Info] Gateway: Ready
+18.07.2020 19:38:08 [Verbose] Rest: POST channels/642712334145421321/messages: 835,84 ms
+18.07.2020 19:38:08 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:38:17 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:38:18 [Verbose] Rest: GET voice/regions: 986,7 ms
+18.07.2020 19:38:19 [Verbose] Rest: GET users/@me: 234,84 ms
+18.07.2020 19:38:19 [Info] Gateway: Connecting
+18.07.2020 19:38:19 [Verbose] Rest: GET gateway: 68,3 ms
+18.07.2020 19:38:20 [Info] Gateway: Connected
+18.07.2020 19:38:20 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:38:20 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:38:21 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:38:21 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:38:21 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:38:21 [Verbose] Gateway: Connected to просто
+18.07.2020 19:38:21 [Verbose] Gateway: Connected to говно
+18.07.2020 19:38:21 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:38:21 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:38:21 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:38:23 [Info] Gateway: Ready
+18.07.2020 19:38:25 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_1.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 212
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 212
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 19:38:25 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:39:14 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:39:15 [Verbose] Rest: GET voice/regions: 757,98 ms
+18.07.2020 19:39:15 [Verbose] Rest: GET users/@me: 217,84 ms
+18.07.2020 19:39:15 [Info] Gateway: Connecting
+18.07.2020 19:39:15 [Verbose] Rest: GET gateway: 67,29 ms
+18.07.2020 19:39:16 [Info] Gateway: Connected
+18.07.2020 19:39:17 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:39:17 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:39:17 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:39:17 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:39:17 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:39:17 [Verbose] Gateway: Connected to просто
+18.07.2020 19:39:17 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:39:17 [Verbose] Gateway: Connected to говно
+18.07.2020 19:39:17 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:39:17 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:39:19 [Info] Gateway: Ready
+18.07.2020 19:39:29 [Verbose] Rest: POST channels/642712334145421321/messages: 737,22 ms
+18.07.2020 19:39:29 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:39:48 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:39:49 [Verbose] Rest: GET voice/regions: 903,1 ms
+18.07.2020 19:39:49 [Verbose] Rest: GET users/@me: 222,32 ms
+18.07.2020 19:39:49 [Info] Gateway: Connecting
+18.07.2020 19:39:50 [Verbose] Rest: GET gateway: 70,82 ms
+18.07.2020 19:39:51 [Info] Gateway: Connected
+18.07.2020 19:39:51 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:39:51 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:39:52 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:39:52 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:39:52 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:39:52 [Verbose] Gateway: Connected to просто
+18.07.2020 19:39:52 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:39:52 [Verbose] Gateway: Connected to говно
+18.07.2020 19:39:52 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:39:52 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:39:54 [Info] Gateway: Ready
+18.07.2020 19:39:58 [Verbose] Rest: POST channels/642712334145421321/messages: 696,06 ms
+18.07.2020 19:39:58 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:41:45 [Verbose] Rest: POST channels/642712334145421321/messages: 846,56 ms
+18.07.2020 19:41:45 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:42:28 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:42:29 [Verbose] Rest: GET voice/regions: 804,99 ms
+18.07.2020 19:42:30 [Verbose] Rest: GET users/@me: 242,2 ms
+18.07.2020 19:42:30 [Info] Gateway: Connecting
+18.07.2020 19:42:30 [Verbose] Rest: GET gateway: 77,9 ms
+18.07.2020 19:42:31 [Info] Gateway: Connected
+18.07.2020 19:42:31 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:42:31 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:42:31 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:42:31 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:42:31 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:42:31 [Verbose] Gateway: Connected to просто
+18.07.2020 19:42:31 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:42:31 [Verbose] Gateway: Connected to говно
+18.07.2020 19:42:31 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:42:31 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:42:33 [Info] Gateway: Ready
+18.07.2020 19:42:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 19:42:48 [Verbose] Rest: GET voice/regions: 766,36 ms
+18.07.2020 19:42:49 [Verbose] Rest: GET users/@me: 233,59 ms
+18.07.2020 19:42:49 [Info] Gateway: Connecting
+18.07.2020 19:42:49 [Verbose] Rest: GET gateway: 80,62 ms
+18.07.2020 19:42:50 [Info] Gateway: Connected
+18.07.2020 19:42:50 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 19:42:50 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 19:42:50 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 19:42:50 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 19:42:50 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 19:42:50 [Verbose] Gateway: Connected to просто
+18.07.2020 19:42:50 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 19:42:50 [Verbose] Gateway: Connected to говно
+18.07.2020 19:42:50 [Verbose] Gateway: Connected to test.server
+18.07.2020 19:42:50 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 19:42:52 [Info] Gateway: Ready
+18.07.2020 19:43:04 [Verbose] Rest: POST channels/642712334145421321/messages: 821,32 ms
+18.07.2020 19:43:04 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:43:30 [Verbose] Rest: POST channels/642712334145421321/messages: 457,76 ms
+18.07.2020 19:43:30 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:44:02 [Verbose] Rest: POST channels/642712334145421321/messages: 588,72 ms
+18.07.2020 19:44:02 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:44:18 [Verbose] Rest: POST channels/642712334145421321/messages: 583,8 ms
+18.07.2020 19:44:18 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:44:42 [Verbose] Rest: POST channels/642712334145421321/messages: 459,3 ms
+18.07.2020 19:44:42 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 19:52:50 [Verbose] Rest: POST channels/718129341355261984/messages: 506,09 ms
+18.07.2020 20:01:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:01:11 [Verbose] Rest: GET voice/regions: 965,62 ms
+18.07.2020 20:01:11 [Verbose] Rest: GET users/@me: 251,18 ms
+18.07.2020 20:01:11 [Info] Gateway: Connecting
+18.07.2020 20:01:11 [Verbose] Rest: GET gateway: 79,16 ms
+18.07.2020 20:01:12 [Info] Gateway: Connected
+18.07.2020 20:01:13 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:01:13 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:01:13 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:01:13 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:01:13 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:01:13 [Verbose] Gateway: Connected to просто
+18.07.2020 20:01:13 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:01:13 [Verbose] Gateway: Connected to говно
+18.07.2020 20:01:13 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:01:13 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:01:15 [Info] Gateway: Ready
+18.07.2020 20:01:50 [Verbose] Rest: POST channels/642712334145421321/messages: 731,12 ms
+18.07.2020 20:01:50 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:02:08 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:02:09 [Verbose] Rest: GET voice/regions: 665,28 ms
+18.07.2020 20:02:10 [Verbose] Rest: GET users/@me: 316,91 ms
+18.07.2020 20:02:10 [Info] Gateway: Connecting
+18.07.2020 20:02:10 [Verbose] Rest: GET gateway: 85,97 ms
+18.07.2020 20:02:11 [Info] Gateway: Connected
+18.07.2020 20:02:11 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:02:11 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:02:11 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:02:11 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:02:11 [Verbose] Gateway: Connected to просто
+18.07.2020 20:02:11 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:02:11 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:02:11 [Verbose] Gateway: Connected to говно
+18.07.2020 20:02:11 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:02:11 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:02:13 [Info] Gateway: Ready
+18.07.2020 20:02:17 [Verbose] Rest: POST channels/642712334145421321/messages: 766,05 ms
+18.07.2020 20:02:17 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:02:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:02:28 [Verbose] Rest: GET voice/regions: 810,08 ms
+18.07.2020 20:02:29 [Verbose] Rest: GET users/@me: 227,59 ms
+18.07.2020 20:02:29 [Info] Gateway: Connecting
+18.07.2020 20:02:29 [Verbose] Rest: GET gateway: 77,16 ms
+18.07.2020 20:02:30 [Info] Gateway: Connected
+18.07.2020 20:02:30 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:02:30 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:02:30 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:02:30 [Verbose] Gateway: Connected to просто
+18.07.2020 20:02:30 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:02:30 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:02:30 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:02:30 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:02:30 [Verbose] Gateway: Connected to говно
+18.07.2020 20:02:30 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:02:32 [Info] Gateway: Ready
+18.07.2020 20:02:35 [Verbose] Rest: POST channels/642712334145421321/messages: 747,55 ms
+18.07.2020 20:02:35 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:02:46 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:02:47 [Verbose] Rest: GET voice/regions: 742,77 ms
+18.07.2020 20:02:47 [Verbose] Rest: GET users/@me: 248,46 ms
+18.07.2020 20:02:47 [Info] Gateway: Connecting
+18.07.2020 20:02:48 [Verbose] Rest: GET gateway: 76,17 ms
+18.07.2020 20:02:49 [Info] Gateway: Connected
+18.07.2020 20:02:49 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:02:49 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:02:49 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:02:49 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:02:49 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:02:49 [Verbose] Gateway: Connected to просто
+18.07.2020 20:02:49 [Verbose] Gateway: Connected to говно
+18.07.2020 20:02:49 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:02:49 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:02:49 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:02:51 [Info] Gateway: Ready
+18.07.2020 20:02:54 [Verbose] Rest: POST channels/642712334145421321/messages: 1038,85 ms
+18.07.2020 20:02:54 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:03:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:03:05 [Verbose] Rest: GET voice/regions: 717,83 ms
+18.07.2020 20:03:05 [Verbose] Rest: GET users/@me: 247,92 ms
+18.07.2020 20:03:06 [Info] Gateway: Connecting
+18.07.2020 20:03:06 [Verbose] Rest: GET gateway: 77,83 ms
+18.07.2020 20:03:07 [Info] Gateway: Connected
+18.07.2020 20:03:07 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:03:07 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:03:07 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:03:07 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:03:07 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:03:07 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:03:07 [Verbose] Gateway: Connected to просто
+18.07.2020 20:03:07 [Verbose] Gateway: Connected to говно
+18.07.2020 20:03:07 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:03:07 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:03:09 [Info] Gateway: Ready
+18.07.2020 20:03:12 [Verbose] Rest: POST channels/642712334145421321/messages: 784,89 ms
+18.07.2020 20:03:12 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:03:28 [Verbose] Rest: POST channels/642712334145421321/messages: 476,86 ms
+18.07.2020 20:03:28 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:03:39 [Verbose] Rest: POST channels/642712334145421321/messages: 617,53 ms
+18.07.2020 20:03:39 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:03:51 [Verbose] Rest: POST channels/642712334145421321/messages: 417,95 ms
+18.07.2020 20:03:51 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:05:08 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:05:09 [Verbose] Rest: GET voice/regions: 756,18 ms
+18.07.2020 20:05:09 [Verbose] Rest: GET users/@me: 251,31 ms
+18.07.2020 20:05:09 [Info] Gateway: Connecting
+18.07.2020 20:05:09 [Verbose] Rest: GET gateway: 77,62 ms
+18.07.2020 20:05:11 [Info] Gateway: Connected
+18.07.2020 20:05:11 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:05:11 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:05:11 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:05:11 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:05:11 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:05:11 [Verbose] Gateway: Connected to просто
+18.07.2020 20:05:11 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:05:11 [Verbose] Gateway: Connected to говно
+18.07.2020 20:05:11 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:05:11 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:05:13 [Info] Gateway: Ready
+18.07.2020 20:05:17 [Verbose] Rest: POST channels/642712334145421321/messages: 760,74 ms
+18.07.2020 20:05:17 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:05:28 [Verbose] Rest: POST channels/642712334145421321/messages: 500,2 ms
+18.07.2020 20:05:28 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:05:43 [Verbose] Rest: POST channels/642712334145421321/messages: 479,46 ms
+18.07.2020 20:05:43 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:06:25 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:06:26 [Verbose] Rest: GET voice/regions: 687,08 ms
+18.07.2020 20:06:27 [Verbose] Rest: GET users/@me: 227,55 ms
+18.07.2020 20:06:27 [Info] Gateway: Connecting
+18.07.2020 20:06:27 [Verbose] Rest: GET gateway: 74,26 ms
+18.07.2020 20:06:28 [Info] Gateway: Connected
+18.07.2020 20:06:28 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:06:28 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:06:28 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:06:28 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:06:28 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:06:28 [Verbose] Gateway: Connected to просто
+18.07.2020 20:06:28 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:06:28 [Verbose] Gateway: Connected to говно
+18.07.2020 20:06:28 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:06:28 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:06:30 [Info] Gateway: Ready
+18.07.2020 20:06:33 [Verbose] Rest: POST channels/642712334145421321/messages: 856,75 ms
+18.07.2020 20:06:33 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:06:48 [Verbose] Rest: POST channels/642712334145421321/messages: 451,43 ms
+18.07.2020 20:06:48 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:07:44 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:07:45 [Verbose] Rest: GET voice/regions: 862,69 ms
+18.07.2020 20:07:46 [Verbose] Rest: GET users/@me: 241,67 ms
+18.07.2020 20:07:46 [Info] Gateway: Connecting
+18.07.2020 20:07:46 [Verbose] Rest: GET gateway: 76,71 ms
+18.07.2020 20:07:47 [Info] Gateway: Connected
+18.07.2020 20:07:47 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:07:47 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:07:47 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:07:47 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:07:47 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:07:47 [Verbose] Gateway: Connected to просто
+18.07.2020 20:07:47 [Verbose] Gateway: Connected to говно
+18.07.2020 20:07:47 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:07:47 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:07:47 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:07:49 [Info] Gateway: Ready
+18.07.2020 20:07:52 [Verbose] Rest: POST channels/642712334145421321/messages: 987,07 ms
+18.07.2020 20:07:52 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:09:18 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:09:19 [Verbose] Rest: GET voice/regions: 701,87 ms
+18.07.2020 20:09:19 [Verbose] Rest: GET users/@me: 230,19 ms
+18.07.2020 20:09:19 [Info] Gateway: Connecting
+18.07.2020 20:09:19 [Verbose] Rest: GET gateway: 74,29 ms
+18.07.2020 20:09:20 [Info] Gateway: Connected
+18.07.2020 20:09:20 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:09:20 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:09:20 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:09:20 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:09:21 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:09:21 [Verbose] Gateway: Connected to просто
+18.07.2020 20:09:21 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:09:21 [Verbose] Gateway: Connected to говно
+18.07.2020 20:09:21 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:09:21 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:09:22 [Info] Gateway: Ready
+18.07.2020 20:09:26 [Verbose] Rest: POST channels/642712334145421321/messages: 699,82 ms
+18.07.2020 20:09:26 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:09:57 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:09:58 [Verbose] Rest: GET voice/regions: 692,8 ms
+18.07.2020 20:09:58 [Verbose] Rest: GET users/@me: 270,85 ms
+18.07.2020 20:09:58 [Info] Gateway: Connecting
+18.07.2020 20:09:59 [Verbose] Rest: GET gateway: 75,12 ms
+18.07.2020 20:10:00 [Info] Gateway: Connected
+18.07.2020 20:10:00 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:10:00 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:10:00 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:10:00 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:10:00 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:10:00 [Verbose] Gateway: Connected to просто
+18.07.2020 20:10:00 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:10:00 [Verbose] Gateway: Connected to говно
+18.07.2020 20:10:00 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:10:00 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:10:02 [Info] Gateway: Ready
+18.07.2020 20:10:10 [Verbose] Rest: POST channels/642712334145421321/messages: 728,41 ms
+18.07.2020 20:10:10 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:10:27 [Verbose] Rest: POST channels/642712334145421321/messages: 722,93 ms
+18.07.2020 20:10:27 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:10:36 [Verbose] Rest: POST channels/642712334145421321/messages: 544,4 ms
+18.07.2020 20:10:36 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:10:45 [Verbose] Rest: POST channels/642712334145421321/messages: 477,46 ms
+18.07.2020 20:10:45 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:14:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:14:32 [Verbose] Rest: GET voice/regions: 762,69 ms
+18.07.2020 20:14:33 [Verbose] Rest: GET users/@me: 228,89 ms
+18.07.2020 20:14:33 [Info] Gateway: Connecting
+18.07.2020 20:14:33 [Verbose] Rest: GET gateway: 79,72 ms
+18.07.2020 20:14:34 [Info] Gateway: Connected
+18.07.2020 20:14:34 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:14:34 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:14:34 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:14:34 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:14:34 [Verbose] Gateway: Connected to просто
+18.07.2020 20:14:35 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:14:35 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:14:35 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:14:35 [Verbose] Gateway: Connected to говно
+18.07.2020 20:14:35 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:14:37 [Info] Gateway: Ready
+18.07.2020 20:14:53 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:14:54 [Verbose] Rest: GET voice/regions: 674,32 ms
+18.07.2020 20:14:55 [Verbose] Rest: GET users/@me: 238,02 ms
+18.07.2020 20:14:55 [Info] Gateway: Connecting
+18.07.2020 20:14:55 [Verbose] Rest: GET gateway: 83,06 ms
+18.07.2020 20:14:56 [Info] Gateway: Connected
+18.07.2020 20:14:56 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:14:56 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:14:56 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:14:56 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:14:56 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:14:56 [Verbose] Gateway: Connected to просто
+18.07.2020 20:14:56 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:14:56 [Verbose] Gateway: Connected to говно
+18.07.2020 20:14:56 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:14:56 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:14:58 [Info] Gateway: Ready
+18.07.2020 20:15:01 [Verbose] Rest: POST channels/642712334145421321/messages: 750,27 ms
+18.07.2020 20:15:01 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:15:33 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:15:34 [Verbose] Rest: GET voice/regions: 681,67 ms
+18.07.2020 20:15:35 [Verbose] Rest: GET users/@me: 215,29 ms
+18.07.2020 20:15:35 [Info] Gateway: Connecting
+18.07.2020 20:15:35 [Verbose] Rest: GET gateway: 84,39 ms
+18.07.2020 20:15:36 [Info] Gateway: Connected
+18.07.2020 20:15:36 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:15:36 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:15:36 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:15:36 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:15:36 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:15:36 [Verbose] Gateway: Connected to просто
+18.07.2020 20:15:36 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:15:36 [Verbose] Gateway: Connected to говно
+18.07.2020 20:15:36 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:15:36 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:15:38 [Info] Gateway: Ready
+18.07.2020 20:15:41 [Verbose] Rest: POST channels/642712334145421321/messages: 789,35 ms
+18.07.2020 20:15:41 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:16:48 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:16:49 [Verbose] Rest: GET voice/regions: 685,86 ms
+18.07.2020 20:16:49 [Verbose] Rest: GET users/@me: 214,2 ms
+18.07.2020 20:16:49 [Info] Gateway: Connecting
+18.07.2020 20:16:50 [Verbose] Rest: GET gateway: 76,9 ms
+18.07.2020 20:16:51 [Info] Gateway: Connected
+18.07.2020 20:16:51 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:16:51 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:16:51 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:16:51 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:16:51 [Verbose] Gateway: Connected to просто
+18.07.2020 20:16:51 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:16:51 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:16:51 [Verbose] Gateway: Connected to говно
+18.07.2020 20:16:51 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:16:51 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:16:53 [Info] Gateway: Ready
+18.07.2020 20:16:57 [Verbose] Rest: POST channels/642712334145421321/messages: 717,75 ms
+18.07.2020 20:16:57 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:19:08 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:19:09 [Verbose] Rest: GET voice/regions: 640,14 ms
+18.07.2020 20:19:10 [Verbose] Rest: GET users/@me: 242,91 ms
+18.07.2020 20:19:10 [Info] Gateway: Connecting
+18.07.2020 20:19:10 [Verbose] Rest: GET gateway: 77,18 ms
+18.07.2020 20:19:11 [Info] Gateway: Connected
+18.07.2020 20:19:11 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:19:11 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:19:11 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:19:11 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:19:11 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:19:11 [Verbose] Gateway: Connected to просто
+18.07.2020 20:19:11 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:19:11 [Verbose] Gateway: Connected to говно
+18.07.2020 20:19:11 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:19:11 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:19:13 [Info] Gateway: Ready
+18.07.2020 20:19:17 [Verbose] Rest: POST channels/642712334145421321/messages: 855,63 ms
+18.07.2020 20:19:17 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:20:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:20:05 [Verbose] Rest: GET voice/regions: 667,82 ms
+18.07.2020 20:20:06 [Verbose] Rest: GET users/@me: 272,72 ms
+18.07.2020 20:20:06 [Info] Gateway: Connecting
+18.07.2020 20:20:06 [Verbose] Rest: GET gateway: 76,14 ms
+18.07.2020 20:20:07 [Info] Gateway: Connected
+18.07.2020 20:20:07 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:20:07 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:20:07 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:20:07 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:20:07 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:20:07 [Verbose] Gateway: Connected to просто
+18.07.2020 20:20:07 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:20:07 [Verbose] Gateway: Connected to говно
+18.07.2020 20:20:07 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:20:07 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:20:09 [Info] Gateway: Ready
+18.07.2020 20:20:15 [Verbose] Rest: POST channels/642712334145421321/messages: 736,13 ms
+18.07.2020 20:20:15 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:43:15 [Verbose] Rest: POST channels/642712334145421321/messages: 900,22 ms
+18.07.2020 20:43:15 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:45:14 [Verbose] Rest: POST channels/642712334145421321/messages: 501,66 ms
+18.07.2020 20:45:15 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:45:27 [Verbose] Rest: POST channels/642712334145421321/messages: 561,09 ms
+18.07.2020 20:45:27 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:46:02 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:46:04 [Verbose] Rest: GET voice/regions: 897,78 ms
+18.07.2020 20:46:04 [Verbose] Rest: GET users/@me: 215,77 ms
+18.07.2020 20:46:04 [Info] Gateway: Connecting
+18.07.2020 20:46:04 [Verbose] Rest: GET gateway: 77,15 ms
+18.07.2020 20:46:05 [Info] Gateway: Connected
+18.07.2020 20:46:05 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:46:05 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:46:05 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:46:05 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:46:06 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:46:06 [Verbose] Gateway: Connected to просто
+18.07.2020 20:46:06 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:46:06 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:46:06 [Verbose] Gateway: Connected to говно
+18.07.2020 20:46:06 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:46:08 [Info] Gateway: Ready
+18.07.2020 20:46:12 [Verbose] Rest: POST channels/642712334145421321/messages: 841,74 ms
+18.07.2020 20:46:12 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:47:09 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:47:10 [Verbose] Rest: GET voice/regions: 721,71 ms
+18.07.2020 20:47:11 [Verbose] Rest: GET users/@me: 234,2 ms
+18.07.2020 20:47:11 [Info] Gateway: Connecting
+18.07.2020 20:47:11 [Verbose] Rest: GET gateway: 70,09 ms
+18.07.2020 20:47:12 [Info] Gateway: Connected
+18.07.2020 20:47:12 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:47:12 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:47:12 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:47:12 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:47:12 [Verbose] Gateway: Connected to просто
+18.07.2020 20:47:12 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:47:12 [Verbose] Gateway: Connected to говно
+18.07.2020 20:47:12 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:47:13 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:47:13 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:47:15 [Info] Gateway: Ready
+18.07.2020 20:49:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:49:11 [Verbose] Rest: GET voice/regions: 755,56 ms
+18.07.2020 20:49:11 [Verbose] Rest: GET users/@me: 224,27 ms
+18.07.2020 20:49:11 [Info] Gateway: Connecting
+18.07.2020 20:49:11 [Verbose] Rest: GET gateway: 74,85 ms
+18.07.2020 20:49:12 [Info] Gateway: Connected
+18.07.2020 20:49:12 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:49:12 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:49:12 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:49:12 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:49:12 [Verbose] Gateway: Connected to просто
+18.07.2020 20:49:13 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:49:13 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:49:13 [Verbose] Gateway: Connected to говно
+18.07.2020 20:49:13 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:49:13 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:49:15 [Info] Gateway: Ready
+18.07.2020 20:49:17 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_1.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 223
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 223
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 20:49:17 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:49:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:49:31 [Verbose] Rest: GET voice/regions: 789,19 ms
+18.07.2020 20:49:31 [Verbose] Rest: GET users/@me: 219,61 ms
+18.07.2020 20:49:31 [Info] Gateway: Connecting
+18.07.2020 20:49:31 [Verbose] Rest: GET gateway: 78,82 ms
+18.07.2020 20:49:33 [Info] Gateway: Connected
+18.07.2020 20:49:33 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:49:33 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:49:33 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:49:33 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:49:33 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:49:33 [Verbose] Gateway: Connected to просто
+18.07.2020 20:49:33 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:49:33 [Verbose] Gateway: Connected to говно
+18.07.2020 20:49:33 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:49:33 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:49:35 [Info] Gateway: Ready
+18.07.2020 20:49:38 [Verbose] Rest: POST channels/642712334145421321/messages: 1098,9 ms
+18.07.2020 20:49:38 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:50:02 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:50:03 [Verbose] Rest: GET voice/regions: 695,96 ms
+18.07.2020 20:50:04 [Verbose] Rest: GET users/@me: 254,25 ms
+18.07.2020 20:50:04 [Info] Gateway: Connecting
+18.07.2020 20:50:04 [Verbose] Rest: GET gateway: 74,31 ms
+18.07.2020 20:50:05 [Info] Gateway: Connected
+18.07.2020 20:50:05 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:50:05 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:50:05 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:50:05 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:50:05 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:50:05 [Verbose] Gateway: Connected to просто
+18.07.2020 20:50:05 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:50:05 [Verbose] Gateway: Connected to говно
+18.07.2020 20:50:05 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:50:05 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:50:07 [Info] Gateway: Ready
+18.07.2020 20:50:10 [Verbose] Rest: POST channels/642712334145421321/messages: 846,27 ms
+18.07.2020 20:50:10 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:50:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:50:33 [Verbose] Rest: GET voice/regions: 779,21 ms
+18.07.2020 20:50:33 [Verbose] Rest: GET users/@me: 256,46 ms
+18.07.2020 20:50:34 [Info] Gateway: Connecting
+18.07.2020 20:50:34 [Verbose] Rest: GET gateway: 73,35 ms
+18.07.2020 20:50:35 [Info] Gateway: Connected
+18.07.2020 20:50:35 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:50:36 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:50:36 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:50:36 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:50:36 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:50:36 [Verbose] Gateway: Connected to просто
+18.07.2020 20:50:36 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:50:36 [Verbose] Gateway: Connected to говно
+18.07.2020 20:50:36 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:50:36 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:50:37 [Info] Gateway: Ready
+18.07.2020 20:50:40 [Verbose] Rest: POST channels/642712334145421321/messages: 889,64 ms
+18.07.2020 20:50:40 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:50:52 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:50:52 [Verbose] Rest: GET voice/regions: 692,18 ms
+18.07.2020 20:50:53 [Verbose] Rest: GET users/@me: 230,35 ms
+18.07.2020 20:50:53 [Info] Gateway: Connecting
+18.07.2020 20:50:53 [Verbose] Rest: GET gateway: 75,38 ms
+18.07.2020 20:50:54 [Info] Gateway: Connected
+18.07.2020 20:50:54 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:50:54 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:50:54 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:50:54 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:50:54 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:50:54 [Verbose] Gateway: Connected to просто
+18.07.2020 20:50:54 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:50:54 [Verbose] Gateway: Connected to говно
+18.07.2020 20:50:54 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:50:54 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:50:56 [Info] Gateway: Ready
+18.07.2020 20:51:00 [Verbose] Rest: POST channels/642712334145421321/messages: 1119,35 ms
+18.07.2020 20:51:00 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:51:10 [Verbose] Rest: POST channels/642712334145421321/messages: 557,66 ms
+18.07.2020 20:51:10 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:51:22 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:51:23 [Verbose] Rest: GET voice/regions: 908,26 ms
+18.07.2020 20:51:23 [Verbose] Rest: GET users/@me: 224,13 ms
+18.07.2020 20:51:24 [Info] Gateway: Connecting
+18.07.2020 20:51:24 [Verbose] Rest: GET gateway: 73,66 ms
+18.07.2020 20:51:25 [Info] Gateway: Connected
+18.07.2020 20:51:25 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:51:26 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:51:26 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:51:26 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:51:26 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:51:26 [Verbose] Gateway: Connected to просто
+18.07.2020 20:51:26 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:51:26 [Verbose] Gateway: Connected to говно
+18.07.2020 20:51:26 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:51:26 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:51:27 [Info] Gateway: Ready
+18.07.2020 20:51:34 [Verbose] Rest: POST channels/642712334145421321/messages: 829,59 ms
+18.07.2020 20:51:34 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:51:42 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 20:51:43 [Verbose] Rest: GET voice/regions: 675,46 ms
+18.07.2020 20:51:44 [Verbose] Rest: GET users/@me: 236,1 ms
+18.07.2020 20:51:44 [Info] Gateway: Connecting
+18.07.2020 20:51:44 [Verbose] Rest: GET gateway: 82 ms
+18.07.2020 20:51:45 [Info] Gateway: Connected
+18.07.2020 20:51:45 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 20:51:45 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 20:51:45 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 20:51:45 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 20:51:45 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 20:51:45 [Verbose] Gateway: Connected to просто
+18.07.2020 20:51:45 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 20:51:45 [Verbose] Gateway: Connected to говно
+18.07.2020 20:51:45 [Verbose] Gateway: Connected to test.server
+18.07.2020 20:51:45 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 20:51:47 [Info] Gateway: Ready
+18.07.2020 20:51:51 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.SolidBrush`1.SolidBrushApplicator.Apply(Span`1 scanline, Int32 x, Int32 y)
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_2.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 223
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 223
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 20:51:51 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 20:59:55 [Warning] Gateway: Unknown Dispatch (INVITE_CREATE)
+18.07.2020 20:59:58 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.SolidBrush`1.SolidBrushApplicator.Apply(Span`1 scanline, Int32 x, Int32 y)
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_2.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 223
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 223
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 20:59:58 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 21:00:10 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.SolidBrush`1.SolidBrushApplicator.Apply(Span`1 scanline, Int32 x, Int32 y)
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_2.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 223
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 223
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 21:00:10 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 21:00:45 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawTextProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+   at SixLabors.ImageSharp.Processing.SolidBrush`1.SolidBrushApplicator.Apply(Span`1 scanline, Int32 x, Int32 y)
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.<OnFrameApply>g__Draw|22_0(List`1 operations, IBrush`1 brush, <>c__DisplayClass22_0& )
+   at SixLabors.ImageSharp.Processing.Processors.Text.DrawTextProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, IBrush`1 brush, IPen`1 pen, PointF location)
+   at SixLabors.ImageSharp.Processing.DrawTextExtensions.DrawText[TPixel](IImageProcessingContext`1 source, TextGraphicsOptions options, String text, Font font, TPixel color, PointF location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass5_2.<Profile>b__0(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 223
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.Profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 223
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+18.07.2020 21:00:45 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 21:01:03 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 21:01:04 [Verbose] Rest: GET voice/regions: 857,9 ms
+18.07.2020 21:01:05 [Verbose] Rest: GET users/@me: 230,87 ms
+18.07.2020 21:01:05 [Info] Gateway: Connecting
+18.07.2020 21:01:05 [Verbose] Rest: GET gateway: 78,52 ms
+18.07.2020 21:01:06 [Info] Gateway: Connected
+18.07.2020 21:01:06 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 21:01:06 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 21:01:06 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 21:01:06 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 21:01:06 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 21:01:06 [Verbose] Gateway: Connected to просто
+18.07.2020 21:01:06 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 21:01:06 [Verbose] Gateway: Connected to говно
+18.07.2020 21:01:06 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 21:01:06 [Verbose] Gateway: Connected to test.server
+18.07.2020 21:01:09 [Info] Gateway: Ready
+18.07.2020 21:01:19 [Verbose] Rest: POST channels/642712334145421321/messages: 1013,43 ms
+18.07.2020 21:01:19 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 21:04:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 21:04:37 [Verbose] Rest: GET voice/regions: 805,38 ms
+18.07.2020 21:04:37 [Verbose] Rest: GET users/@me: 248,23 ms
+18.07.2020 21:04:37 [Info] Gateway: Connecting
+18.07.2020 21:04:37 [Verbose] Rest: GET gateway: 74,45 ms
+18.07.2020 21:04:39 [Info] Gateway: Connected
+18.07.2020 21:04:39 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 21:04:39 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 21:04:39 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 21:04:39 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 21:04:39 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 21:04:39 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 21:04:39 [Verbose] Gateway: Connected to просто
+18.07.2020 21:04:39 [Verbose] Gateway: Connected to test.server
+18.07.2020 21:04:39 [Verbose] Gateway: Connected to говно
+18.07.2020 21:04:39 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 21:04:41 [Info] Gateway: Ready
+18.07.2020 21:04:44 [Verbose] Rest: POST channels/642712334145421321/messages: 888,26 ms
+18.07.2020 21:04:44 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 21:07:48 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 21:07:48 [Verbose] Rest: GET voice/regions: 834,84 ms
+18.07.2020 21:07:49 [Verbose] Rest: GET users/@me: 235,66 ms
+18.07.2020 21:07:49 [Info] Gateway: Connecting
+18.07.2020 21:07:49 [Verbose] Rest: GET gateway: 75,25 ms
+18.07.2020 21:07:50 [Info] Gateway: Connected
+18.07.2020 21:07:50 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 21:07:50 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 21:07:50 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 21:07:51 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 21:07:51 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 21:07:51 [Verbose] Gateway: Connected to просто
+18.07.2020 21:07:51 [Verbose] Gateway: Connected to говно
+18.07.2020 21:07:51 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 21:07:51 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 21:07:51 [Verbose] Gateway: Connected to test.server
+18.07.2020 21:07:53 [Info] Gateway: Ready
+18.07.2020 21:07:59 [Verbose] Rest: POST channels/642712334145421321/messages: 702,36 ms
+18.07.2020 21:07:59 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 21:17:57 [Verbose] Rest: POST channels/642712334145421321/messages: 872,17 ms
+18.07.2020 21:17:57 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+18.07.2020 21:28:06 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.07.2020 21:28:06 [Verbose] Rest: GET voice/regions: 762,16 ms
+18.07.2020 21:28:07 [Verbose] Rest: GET users/@me: 226,82 ms
+18.07.2020 21:28:07 [Info] Gateway: Connecting
+18.07.2020 21:28:07 [Verbose] Rest: GET gateway: 73,04 ms
+18.07.2020 21:28:08 [Info] Gateway: Connected
+18.07.2020 21:28:09 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+18.07.2020 21:28:09 [Verbose] Gateway: Connected to Pisecord
+18.07.2020 21:28:09 [Verbose] Gateway: Connected to DarlingBotInfo
+18.07.2020 21:28:09 [Verbose] Gateway: Connected to Плантация №13
+18.07.2020 21:28:09 [Verbose] Gateway: Connected to Убежище Debilov
+18.07.2020 21:28:09 [Verbose] Gateway: Connected to просто
+18.07.2020 21:28:09 [Verbose] Gateway: Connected to h1ka.'s server
+18.07.2020 21:28:09 [Verbose] Gateway: Connected to говно
+18.07.2020 21:28:09 [Verbose] Gateway: Connected to test.server
+18.07.2020 21:28:09 [Verbose] Gateway: Connected to KiTKAt`k's server
+18.07.2020 21:28:11 [Info] Gateway: Ready
+18.07.2020 21:28:13 [Verbose] Rest: POST channels/642712334145421321/messages: 761,54 ms
+18.07.2020 21:28:13 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest

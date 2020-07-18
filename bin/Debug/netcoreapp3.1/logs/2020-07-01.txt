@@ -1,0 +1,493 @@
+01.07.2020 9:43:20 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 9:43:21 [Verbose] Rest: GET voice/regions: 932,27 ms
+01.07.2020 9:43:22 [Verbose] Rest: GET users/@me: 237,27 ms
+01.07.2020 9:43:22 [Info] Gateway: Connecting
+01.07.2020 9:43:22 [Verbose] Rest: GET gateway: 83,04 ms
+01.07.2020 9:43:23 [Info] Gateway: Connected
+01.07.2020 9:43:24 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 9:43:24 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 9:43:24 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 9:43:24 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 9:43:24 [Verbose] Gateway: Connected to говно
+01.07.2020 9:43:24 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 9:43:24 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 9:43:24 [Verbose] Gateway: Connected to test.server
+01.07.2020 9:43:24 [Verbose] Gateway: Connected to просто
+01.07.2020 9:43:26 [Info] Gateway: Ready
+01.07.2020 9:44:01 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 9:44:02 [Verbose] Rest: GET voice/regions: 894,99 ms
+01.07.2020 9:44:03 [Verbose] Rest: GET users/@me: 243,3 ms
+01.07.2020 9:44:03 [Info] Gateway: Connecting
+01.07.2020 9:44:03 [Verbose] Rest: GET gateway: 68,53 ms
+01.07.2020 9:44:04 [Info] Gateway: Connected
+01.07.2020 9:44:04 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 9:44:04 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 9:44:04 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 9:44:04 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 9:44:04 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 9:44:04 [Verbose] Gateway: Connected to просто
+01.07.2020 9:44:04 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 9:44:04 [Verbose] Gateway: Connected to говно
+01.07.2020 9:44:04 [Verbose] Gateway: Connected to test.server
+01.07.2020 9:44:07 [Info] Gateway: Ready
+01.07.2020 9:44:23 [Verbose] Rest: POST channels/720663623277477929/messages: 331,69 ms
+01.07.2020 9:44:24 [Verbose] Command: Executed "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot
+01.07.2020 9:44:45 [Verbose] Rest: POST channels/720663623277477929/messages: 255,9 ms
+01.07.2020 9:44:45 [Verbose] Command: Executed "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot
+01.07.2020 9:44:55 [Verbose] Rest: POST channels/720663623277477929/messages: 301,01 ms
+01.07.2020 9:44:55 [Verbose] Command: Executed "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot
+01.07.2020 9:45:28 [Verbose] Rest: POST channels/720663623277477929/messages: 232,66 ms
+01.07.2020 9:45:28 [Verbose] Command: Executed "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot
+01.07.2020 9:45:55 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 9:45:57 [Verbose] Rest: GET voice/regions: 975,11 ms
+01.07.2020 9:45:57 [Verbose] Rest: GET users/@me: 275,24 ms
+01.07.2020 9:45:57 [Info] Gateway: Connecting
+01.07.2020 9:45:57 [Verbose] Rest: GET gateway: 86,59 ms
+01.07.2020 9:45:59 [Info] Gateway: Connected
+01.07.2020 9:45:59 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 9:45:59 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 9:45:59 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 9:45:59 [Verbose] Gateway: Connected to просто
+01.07.2020 9:45:59 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 9:45:59 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 9:45:59 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 9:45:59 [Verbose] Gateway: Connected to говно
+01.07.2020 9:45:59 [Verbose] Gateway: Connected to test.server
+01.07.2020 9:46:01 [Info] Gateway: Ready
+01.07.2020 9:46:20 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+01.07.2020 9:46:24 [Verbose] Rest: POST channels/720663623277477929/messages: 314,2 ms
+01.07.2020 9:46:24 [Verbose] Command: Executed "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot
+01.07.2020 9:46:53 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+01.07.2020 9:47:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 9:47:28 [Verbose] Rest: GET voice/regions: 796,14 ms
+01.07.2020 9:47:29 [Verbose] Rest: GET users/@me: 238,85 ms
+01.07.2020 9:47:29 [Info] Gateway: Connecting
+01.07.2020 9:47:29 [Verbose] Rest: GET gateway: 91,77 ms
+01.07.2020 9:47:30 [Info] Gateway: Connected
+01.07.2020 9:47:30 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 9:47:30 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 9:47:30 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 9:47:30 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 9:47:30 [Verbose] Gateway: Connected to просто
+01.07.2020 9:47:30 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 9:47:30 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 9:47:31 [Verbose] Gateway: Connected to test.server
+01.07.2020 9:47:31 [Verbose] Gateway: Connected to говно
+01.07.2020 9:47:32 [Info] Gateway: Ready
+01.07.2020 9:47:37 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+01.07.2020 9:47:37 [Error] Command: Discord.Commands.CommandException: Error occurred executing "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot.
+ ---> System.AggregateException: One or more errors occurred. (Could not find file 'C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\fewfwfwefw'.)
+ ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\fewfwfwefw'.
+File name: 'C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\fewfwfwefw'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at DarlingBotNet.Services.SystemLoading.EmbedUserBuilder(String text) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 145
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at DarlingBotNet.Modules.Settings.messagesettings(UInt32 selection, String text) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 384
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+01.07.2020 9:47:37 [Verbose] Command: Executed "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot
+01.07.2020 9:48:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 9:48:38 [Verbose] Rest: GET voice/regions: 1074,07 ms
+01.07.2020 9:48:38 [Verbose] Rest: GET users/@me: 230,96 ms
+01.07.2020 9:48:39 [Info] Gateway: Connecting
+01.07.2020 9:48:39 [Verbose] Rest: GET gateway: 79,51 ms
+01.07.2020 9:48:40 [Info] Gateway: Connected
+01.07.2020 9:48:40 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 9:48:40 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 9:48:40 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 9:48:41 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 9:48:41 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 9:48:41 [Verbose] Gateway: Connected to просто
+01.07.2020 9:48:41 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 9:48:41 [Verbose] Gateway: Connected to говно
+01.07.2020 9:48:41 [Verbose] Gateway: Connected to test.server
+01.07.2020 9:48:43 [Info] Gateway: Ready
+01.07.2020 9:48:48 [Error] Command: Discord.Commands.CommandException: Error occurred executing "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot.
+ ---> System.AggregateException: One or more errors occurred. (Error parsing boolean value. Path '', line 1, position 1.)
+ ---> Newtonsoft.Json.JsonReaderException: Error parsing boolean value. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseFalse()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DarlingBotNet.Services.SystemLoading.EmbedUserBuilder(String text) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 145
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at DarlingBotNet.Modules.Settings.messagesettings(UInt32 selection, String text) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 384
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+01.07.2020 9:48:48 [Verbose] Command: Executed "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot
+01.07.2020 9:48:48 [Verbose] Rest: POST channels/720663623277477929/messages: 239,96 ms
+01.07.2020 9:52:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 9:52:48 [Verbose] Rest: GET voice/regions: 1150,12 ms
+01.07.2020 9:52:49 [Verbose] Rest: GET users/@me: 270,33 ms
+01.07.2020 9:52:49 [Info] Gateway: Connecting
+01.07.2020 9:52:49 [Verbose] Rest: GET gateway: 85,94 ms
+01.07.2020 9:52:50 [Info] Gateway: Connected
+01.07.2020 9:52:50 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 9:52:50 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 9:52:50 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 9:52:50 [Verbose] Gateway: Connected to просто
+01.07.2020 9:52:51 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 9:52:51 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 9:52:51 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 9:52:51 [Verbose] Gateway: Connected to говно
+01.07.2020 9:52:51 [Verbose] Gateway: Connected to test.server
+01.07.2020 9:52:53 [Info] Gateway: Ready
+01.07.2020 9:53:00 [Error] Command: Discord.Commands.CommandException: Error occurred executing "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot.
+ ---> System.AggregateException: One or more errors occurred. (Error parsing boolean value. Path '', line 1, position 1.)
+ ---> Newtonsoft.Json.JsonReaderException: Error parsing boolean value. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseFalse()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at DarlingBotNet.Services.SystemLoading.EmbedUserBuilder(String text) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 145
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at DarlingBotNet.Modules.Settings.messagesettings(UInt32 selection, String text) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 384
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+01.07.2020 9:53:00 [Verbose] Command: Executed "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot
+01.07.2020 9:54:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 9:54:37 [Verbose] Rest: GET voice/regions: 871,93 ms
+01.07.2020 9:54:37 [Verbose] Rest: GET users/@me: 290,29 ms
+01.07.2020 9:54:38 [Info] Gateway: Connecting
+01.07.2020 9:54:38 [Verbose] Rest: GET gateway: 98,84 ms
+01.07.2020 9:54:39 [Info] Gateway: Connected
+01.07.2020 9:54:39 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 9:54:39 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 9:54:39 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 9:54:39 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 9:54:39 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 9:54:39 [Verbose] Gateway: Connected to просто
+01.07.2020 9:54:39 [Verbose] Gateway: Connected to говно
+01.07.2020 9:54:39 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 9:54:39 [Verbose] Gateway: Connected to test.server
+01.07.2020 9:54:41 [Info] Gateway: Ready
+01.07.2020 9:56:08 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 9:56:09 [Verbose] Rest: GET voice/regions: 1012,98 ms
+01.07.2020 9:56:09 [Verbose] Rest: GET users/@me: 237,7 ms
+01.07.2020 9:56:10 [Info] Gateway: Connecting
+01.07.2020 9:56:10 [Verbose] Rest: GET gateway: 106,77 ms
+01.07.2020 9:56:11 [Info] Gateway: Connected
+01.07.2020 9:56:11 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 9:56:11 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 9:56:11 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 9:56:11 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 9:56:11 [Verbose] Gateway: Connected to просто
+01.07.2020 9:56:11 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 9:56:11 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 9:56:11 [Verbose] Gateway: Connected to говно
+01.07.2020 9:56:11 [Verbose] Gateway: Connected to test.server
+01.07.2020 9:56:13 [Info] Gateway: Ready
+01.07.2020 9:57:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 9:57:44 [Verbose] Rest: GET voice/regions: 782,07 ms
+01.07.2020 9:57:44 [Verbose] Rest: GET users/@me: 248,69 ms
+01.07.2020 9:57:44 [Info] Gateway: Connecting
+01.07.2020 9:57:44 [Verbose] Rest: GET gateway: 98,07 ms
+01.07.2020 9:57:46 [Info] Gateway: Connected
+01.07.2020 9:57:46 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 9:57:46 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 9:57:46 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 9:57:46 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 9:57:46 [Verbose] Gateway: Connected to просто
+01.07.2020 9:57:46 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 9:57:46 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 9:57:46 [Verbose] Gateway: Connected to говно
+01.07.2020 9:57:46 [Verbose] Gateway: Connected to test.server
+01.07.2020 9:57:48 [Info] Gateway: Ready
+01.07.2020 9:57:51 [Verbose] Rest: POST channels/720663623277477929/messages: 267,57 ms
+01.07.2020 9:57:51 [Verbose] Command: Executed "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot
+01.07.2020 10:00:35 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+01.07.2020 10:00:35 [Verbose] Rest: POST channels/720663623277477929/messages: 503,64 ms
+01.07.2020 10:00:35 [Verbose] Command: Executed "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot
+01.07.2020 10:28:19 [Verbose] Rest: POST channels/587303658140467262/messages: 418,75 ms
+01.07.2020 12:26:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 12:26:12 [Verbose] Rest: GET voice/regions: 843,67 ms
+01.07.2020 12:26:13 [Verbose] Rest: GET users/@me: 242,19 ms
+01.07.2020 12:26:13 [Info] Gateway: Connecting
+01.07.2020 12:26:13 [Verbose] Rest: GET gateway: 75,14 ms
+01.07.2020 12:26:14 [Info] Gateway: Connected
+01.07.2020 12:26:15 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 12:26:15 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 12:26:15 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 12:26:15 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 12:26:15 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 12:26:15 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 12:26:15 [Verbose] Gateway: Connected to говно
+01.07.2020 12:26:15 [Verbose] Gateway: Connected to test.server
+01.07.2020 12:26:15 [Verbose] Gateway: Connected to просто
+01.07.2020 12:26:17 [Info] Gateway: Ready
+01.07.2020 12:26:58 [Warning] Gateway: Unknown Dispatch (INVITE_CREATE)
+01.07.2020 12:27:23 [Verbose] Rest: POST channels/720663623277477929/messages: 253,52 ms
+01.07.2020 12:27:23 [Verbose] Command: Executed "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot
+01.07.2020 12:28:31 [Verbose] Rest: POST channels/720663623277477929/messages: 248,55 ms
+01.07.2020 12:28:31 [Verbose] Command: Executed "messagesettings" for h1kka.#2627 in DarlingBotInfo/darlingbot
+01.07.2020 12:28:42 [Verbose] Rest: POST channels/663380088188043280/messages: 252,42 ms
+01.07.2020 12:32:09 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 12:32:09 [Verbose] Rest: GET voice/regions: 702,09 ms
+01.07.2020 12:32:10 [Verbose] Rest: GET users/@me: 287,1 ms
+01.07.2020 12:32:10 [Info] Gateway: Connecting
+01.07.2020 12:32:10 [Verbose] Rest: GET gateway: 76,6 ms
+01.07.2020 12:32:11 [Info] Gateway: Connected
+01.07.2020 12:32:11 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 12:32:11 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 12:32:11 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 12:32:11 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 12:32:11 [Verbose] Gateway: Connected to просто
+01.07.2020 12:32:11 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 12:32:11 [Verbose] Gateway: Connected to говно
+01.07.2020 12:32:11 [Verbose] Gateway: Connected to test.server
+01.07.2020 12:32:12 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 12:32:13 [Info] Gateway: Ready
+01.07.2020 12:32:15 [Verbose] Rest: POST channels/726773090583052380/messages: 284,34 ms
+01.07.2020 12:32:32 [Verbose] Rest: POST channels/663380088188043280/messages: 404,01 ms
+01.07.2020 12:37:29 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 12:37:30 [Verbose] Rest: GET voice/regions: 797,25 ms
+01.07.2020 12:37:30 [Verbose] Rest: GET users/@me: 275,29 ms
+01.07.2020 12:37:30 [Info] Gateway: Connecting
+01.07.2020 12:37:31 [Verbose] Rest: GET gateway: 251,59 ms
+01.07.2020 12:37:32 [Info] Gateway: Connected
+01.07.2020 12:37:32 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 12:37:32 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 12:37:32 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 12:37:32 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 12:37:32 [Verbose] Gateway: Connected to просто
+01.07.2020 12:37:32 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 12:37:32 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 12:37:32 [Verbose] Gateway: Connected to говно
+01.07.2020 12:37:32 [Verbose] Gateway: Connected to test.server
+01.07.2020 12:37:34 [Info] Gateway: Ready
+01.07.2020 18:17:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 18:17:57 [Verbose] Rest: GET voice/regions: 833,45 ms
+01.07.2020 18:17:58 [Verbose] Rest: GET users/@me: 259,7 ms
+01.07.2020 18:17:58 [Info] Gateway: Connecting
+01.07.2020 18:17:58 [Verbose] Rest: GET gateway: 75,38 ms
+01.07.2020 18:17:59 [Info] Gateway: Connected
+01.07.2020 18:17:59 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 18:17:59 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 18:17:59 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 18:17:59 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 18:18:00 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 18:18:00 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 18:18:00 [Verbose] Gateway: Connected to говно
+01.07.2020 18:18:00 [Verbose] Gateway: Connected to просто
+01.07.2020 18:18:00 [Verbose] Gateway: Connected to test.server
+01.07.2020 18:18:01 [Warning] Gateway: Microsoft.Data.SqlClient.SqlException (0x80131904): Параметр или переменная "channelid" имеет недопустимый тип данных.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 49
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 52
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 205
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+ClientConnectionId:52a1f5f8-5d6d-4fde-8891-f49ad16ea0df
+Error Number:2724,State:4,Class:16
+01.07.2020 18:18:02 [Info] Gateway: Ready
+01.07.2020 18:18:14 [Warning] Gateway: Microsoft.Data.SqlClient.SqlException (0x80131904): Недопустимое имя столбца "CommandInviseString".
+Недопустимое имя столбца "GiveXPnextChannel".
+Недопустимое имя столбца "LeaveChannel".
+Недопустимое имя столбца "LeaveMessage".
+Недопустимое имя столбца "Leaved".
+Недопустимое имя столбца "MafiaWaitChannel".
+Недопустимое имя столбца "WelcomeChannel".
+Недопустимое имя столбца "WelcomeDMmessage".
+Недопустимое имя столбца "WelcomeDMuser".
+Недопустимое имя столбца "WelcomeMessage".
+Недопустимое имя столбца "WelcomeRole".
+Недопустимое имя столбца "inviteMessages".
+Недопустимое имя столбца "voiceUserActions".
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at DarlingBotNet.DataBase.EEF`1.GetF(Func`2 predicate) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\DataBases.cs:line 232
+   at DarlingBotNet.Services.CommandHandler.UserVoiceUpdate(SocketUser user, SocketVoiceState ot, SocketVoiceState to) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 178
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+ClientConnectionId:52a1f5f8-5d6d-4fde-8891-f49ad16ea0df
+Error Number:207,State:1,Class:16
+01.07.2020 18:18:25 [Warning] Gateway: Microsoft.Data.SqlClient.SqlException (0x80131904): Недопустимое имя столбца "CommandInviseString".
+Недопустимое имя столбца "GiveXPnextChannel".
+Недопустимое имя столбца "LeaveChannel".
+Недопустимое имя столбца "LeaveMessage".
+Недопустимое имя столбца "Leaved".
+Недопустимое имя столбца "MafiaWaitChannel".
+Недопустимое имя столбца "WelcomeChannel".
+Недопустимое имя столбца "WelcomeDMmessage".
+Недопустимое имя столбца "WelcomeDMuser".
+Недопустимое имя столбца "WelcomeMessage".
+Недопустимое имя столбца "WelcomeRole".
+Недопустимое имя столбца "inviteMessages".
+Недопустимое имя столбца "voiceUserActions".
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at DarlingBotNet.DataBase.EEF`1.GetF(Func`2 predicate) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\DataBases.cs:line 232
+   at DarlingBotNet.Services.CommandHandler.UserVoiceUpdate(SocketUser user, SocketVoiceState ot, SocketVoiceState to) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 178
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+ClientConnectionId:52a1f5f8-5d6d-4fde-8891-f49ad16ea0df
+Error Number:207,State:1,Class:16
+01.07.2020 18:20:25 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 18:20:26 [Verbose] Rest: GET voice/regions: 884,54 ms
+01.07.2020 18:20:26 [Verbose] Rest: GET users/@me: 245,77 ms
+01.07.2020 18:20:26 [Info] Gateway: Connecting
+01.07.2020 18:20:26 [Verbose] Rest: GET gateway: 75,1 ms
+01.07.2020 18:20:27 [Info] Gateway: Connected
+01.07.2020 18:20:27 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 18:20:27 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 18:20:27 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 18:20:27 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 18:20:28 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 18:20:28 [Verbose] Gateway: Connected to просто
+01.07.2020 18:20:28 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 18:20:28 [Verbose] Gateway: Connected to говно
+01.07.2020 18:20:28 [Verbose] Gateway: Connected to test.server
+01.07.2020 18:20:29 [Warning] Gateway: Microsoft.Data.SqlClient.SqlException (0x80131904): Параметр или переменная "channelid" имеет недопустимый тип данных.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 49
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 52
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 205
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+ClientConnectionId:9923bb92-f601-4198-874f-339ab6736530
+Error Number:2724,State:4,Class:16
+01.07.2020 18:20:29 [Info] Gateway: Ready
+01.07.2020 18:21:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 18:21:11 [Verbose] Rest: GET voice/regions: 685,65 ms
+01.07.2020 18:21:12 [Verbose] Rest: GET users/@me: 224,69 ms
+01.07.2020 18:21:12 [Info] Gateway: Connecting
+01.07.2020 18:21:12 [Verbose] Rest: GET gateway: 74,64 ms
+01.07.2020 18:21:13 [Info] Gateway: Connected
+01.07.2020 18:21:13 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 18:21:13 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 18:21:13 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 18:21:13 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 18:21:13 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 18:21:13 [Verbose] Gateway: Connected to просто
+01.07.2020 18:21:13 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 18:21:13 [Verbose] Gateway: Connected to говно
+01.07.2020 18:21:13 [Verbose] Gateway: Connected to test.server
+01.07.2020 18:21:15 [Warning] Gateway: Microsoft.Data.SqlClient.SqlException (0x80131904): Параметр или переменная "channelid" имеет недопустимый тип данных.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 49
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 52
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 205
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+ClientConnectionId:355487ad-0856-4fd1-a608-2942ce827ade
+Error Number:2724,State:4,Class:16
+01.07.2020 18:21:15 [Info] Gateway: Ready
+01.07.2020 18:22:16 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 18:22:17 [Verbose] Rest: GET voice/regions: 867,52 ms
+01.07.2020 18:22:17 [Verbose] Rest: GET users/@me: 216,43 ms
+01.07.2020 18:22:17 [Info] Gateway: Connecting
+01.07.2020 18:22:17 [Verbose] Rest: GET gateway: 78,19 ms
+01.07.2020 18:23:55 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.07.2020 18:23:57 [Verbose] Rest: GET voice/regions: 1039,08 ms
+01.07.2020 18:23:57 [Verbose] Rest: GET users/@me: 227,61 ms
+01.07.2020 18:23:57 [Info] Gateway: Connecting
+01.07.2020 18:23:57 [Verbose] Rest: GET gateway: 71,01 ms
+01.07.2020 18:23:58 [Info] Gateway: Connected
+01.07.2020 18:23:59 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+01.07.2020 18:23:59 [Verbose] Gateway: Connected to Pisecord
+01.07.2020 18:23:59 [Verbose] Gateway: Connected to Плантация №13
+01.07.2020 18:23:59 [Verbose] Gateway: Connected to DarlingBotInfo
+01.07.2020 18:23:59 [Verbose] Gateway: Connected to Убежище Debilov
+01.07.2020 18:23:59 [Verbose] Gateway: Connected to просто
+01.07.2020 18:23:59 [Verbose] Gateway: Connected to h1ka.'s server
+01.07.2020 18:23:59 [Verbose] Gateway: Connected to test.server
+01.07.2020 18:23:59 [Verbose] Gateway: Connected to говно
+01.07.2020 18:24:01 [Info] Gateway: Ready
+01.07.2020 18:24:03 [Verbose] Rest: POST channels/663380088188043280/messages: 349,77 ms
+01.07.2020 18:24:03 [Verbose] Command: Executed "level" for h1kka.#2627 in DarlingBotInfo/основной

@@ -1,0 +1,35 @@
+11.07.2020 19:50:18 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+11.07.2020 19:50:19 [Verbose] Rest: GET voice/regions: 924,46 ms
+11.07.2020 19:50:20 [Verbose] Rest: GET users/@me: 223,9 ms
+11.07.2020 19:50:20 [Info] Gateway: Connecting
+11.07.2020 19:50:20 [Verbose] Rest: GET gateway: 69,93 ms
+11.07.2020 19:50:21 [Info] Gateway: Connected
+11.07.2020 19:50:21 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+11.07.2020 19:50:21 [Verbose] Gateway: Connected to DarlingBotInfo
+11.07.2020 19:50:21 [Verbose] Gateway: Connected to Убежище Debilov
+11.07.2020 19:50:22 [Verbose] Gateway: Connected to Плантация №13
+11.07.2020 19:50:22 [Verbose] Gateway: Connected to h1ka.'s server
+11.07.2020 19:50:22 [Verbose] Gateway: Connected to говно
+11.07.2020 19:50:22 [Verbose] Gateway: Connected to просто
+11.07.2020 19:50:22 [Verbose] Gateway: Connected to KiTKAt`k's server
+11.07.2020 19:50:22 [Verbose] Gateway: Connected to Pisecord
+11.07.2020 19:50:22 [Verbose] Gateway: Connected to test.server
+11.07.2020 19:50:24 [Info] Gateway: Ready
+11.07.2020 19:56:29 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+11.07.2020 19:56:30 [Verbose] Rest: GET voice/regions: 945,56 ms
+11.07.2020 19:56:31 [Verbose] Rest: GET users/@me: 235,17 ms
+11.07.2020 19:56:31 [Info] Gateway: Connecting
+11.07.2020 19:56:31 [Verbose] Rest: GET gateway: 77,61 ms
+11.07.2020 19:56:32 [Info] Gateway: Connected
+11.07.2020 19:56:32 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+11.07.2020 19:56:32 [Verbose] Gateway: Connected to Pisecord
+11.07.2020 19:56:32 [Verbose] Gateway: Connected to DarlingBotInfo
+11.07.2020 19:56:32 [Verbose] Gateway: Connected to Убежище Debilov
+11.07.2020 19:56:32 [Verbose] Gateway: Connected to просто
+11.07.2020 19:56:32 [Verbose] Gateway: Connected to Плантация №13
+11.07.2020 19:56:32 [Verbose] Gateway: Connected to h1ka.'s server
+11.07.2020 19:56:32 [Verbose] Gateway: Connected to говно
+11.07.2020 19:56:32 [Verbose] Gateway: Connected to test.server
+11.07.2020 19:56:32 [Verbose] Gateway: Connected to KiTKAt`k's server
+11.07.2020 19:56:34 [Info] Gateway: Ready
+11.07.2020 19:56:45 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.

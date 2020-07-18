@@ -1,0 +1,482 @@
+03.07.2020 8:46:29 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:46:30 [Verbose] Rest: GET voice/regions: 872,69 ms
+03.07.2020 8:46:31 [Verbose] Rest: GET users/@me: 246,12 ms
+03.07.2020 8:46:31 [Info] Gateway: Connecting
+03.07.2020 8:46:31 [Verbose] Rest: GET gateway: 138,64 ms
+03.07.2020 8:46:32 [Info] Gateway: Connected
+03.07.2020 8:46:33 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:46:33 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:46:33 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:46:33 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:46:33 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:46:33 [Verbose] Gateway: Connected to говно
+03.07.2020 8:46:33 [Verbose] Gateway: Connected to просто
+03.07.2020 8:46:33 [Verbose] Gateway: Connected to test.server
+03.07.2020 8:46:33 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:46:34 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<Guilds>
+    .Where(g => ___discord_0.GetGuild(g.guildId) == null)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 61
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 225
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.07.2020 8:46:35 [Info] Gateway: Ready
+03.07.2020 8:47:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:47:28 [Verbose] Rest: GET voice/regions: 698,89 ms
+03.07.2020 8:47:28 [Verbose] Rest: GET users/@me: 294,54 ms
+03.07.2020 8:47:28 [Info] Gateway: Connecting
+03.07.2020 8:47:29 [Verbose] Rest: GET gateway: 84,76 ms
+03.07.2020 8:47:30 [Info] Gateway: Connected
+03.07.2020 8:47:30 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:47:30 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:47:30 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:47:30 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:47:30 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:47:30 [Verbose] Gateway: Connected to просто
+03.07.2020 8:47:30 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:47:30 [Verbose] Gateway: Connected to говно
+03.07.2020 8:47:30 [Verbose] Gateway: Connected to test.server
+03.07.2020 8:47:31 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<Guilds>
+    .Where(g => ___discord_0.GetGuild(g.guildId) == null)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 62
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 67
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 225
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.07.2020 8:47:31 [Info] Gateway: Ready
+03.07.2020 8:48:16 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:48:16 [Verbose] Rest: GET voice/regions: 665,89 ms
+03.07.2020 8:48:17 [Verbose] Rest: GET users/@me: 267,53 ms
+03.07.2020 8:48:17 [Info] Gateway: Connecting
+03.07.2020 8:48:17 [Verbose] Rest: GET gateway: 76,03 ms
+03.07.2020 8:48:18 [Info] Gateway: Connected
+03.07.2020 8:48:18 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:48:18 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:48:19 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:48:19 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:48:19 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:48:19 [Verbose] Gateway: Connected to просто
+03.07.2020 8:48:19 [Verbose] Gateway: Connected to говно
+03.07.2020 8:48:19 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:48:19 [Verbose] Gateway: Connected to test.server
+03.07.2020 8:48:20 [Info] Gateway: Ready
+03.07.2020 8:49:02 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:49:03 [Verbose] Rest: GET voice/regions: 743,09 ms
+03.07.2020 8:49:03 [Verbose] Rest: GET users/@me: 290,88 ms
+03.07.2020 8:49:03 [Info] Gateway: Connecting
+03.07.2020 8:49:03 [Verbose] Rest: GET gateway: 76,59 ms
+03.07.2020 8:49:04 [Info] Gateway: Connected
+03.07.2020 8:49:05 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:49:05 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:49:05 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:49:05 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:49:05 [Verbose] Gateway: Connected to просто
+03.07.2020 8:49:05 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:49:05 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:49:05 [Verbose] Gateway: Connected to test.server
+03.07.2020 8:49:05 [Verbose] Gateway: Connected to говно
+03.07.2020 8:49:07 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<Guilds>
+    .Where(g => ___discord_0.GetGuild(g.guildId) == null)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 61
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 67
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 225
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.07.2020 8:49:07 [Info] Gateway: Ready
+03.07.2020 8:49:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:49:24 [Verbose] Rest: GET voice/regions: 719,84 ms
+03.07.2020 8:49:25 [Verbose] Rest: GET users/@me: 253,5 ms
+03.07.2020 8:49:25 [Info] Gateway: Connecting
+03.07.2020 8:49:25 [Verbose] Rest: GET gateway: 88,17 ms
+03.07.2020 8:49:26 [Info] Gateway: Connected
+03.07.2020 8:49:26 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:49:26 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:49:26 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:49:27 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:49:27 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:49:27 [Verbose] Gateway: Connected to просто
+03.07.2020 8:49:27 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:49:27 [Verbose] Gateway: Connected to говно
+03.07.2020 8:49:27 [Verbose] Gateway: Connected to test.server
+03.07.2020 8:49:28 [Info] Gateway: Ready
+03.07.2020 8:49:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:49:40 [Verbose] Rest: GET voice/regions: 658,52 ms
+03.07.2020 8:49:40 [Verbose] Rest: GET users/@me: 322,25 ms
+03.07.2020 8:49:40 [Info] Gateway: Connecting
+03.07.2020 8:49:40 [Verbose] Rest: GET gateway: 78,31 ms
+03.07.2020 8:49:41 [Info] Gateway: Connected
+03.07.2020 8:49:42 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:49:42 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:49:42 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:49:42 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:49:42 [Verbose] Gateway: Connected to просто
+03.07.2020 8:49:42 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:49:42 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:49:42 [Verbose] Gateway: Connected to говно
+03.07.2020 8:49:42 [Verbose] Gateway: Connected to test.server
+03.07.2020 8:49:43 [Info] Gateway: Ready
+03.07.2020 8:50:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:50:28 [Verbose] Rest: GET voice/regions: 626,99 ms
+03.07.2020 8:50:28 [Verbose] Rest: GET users/@me: 253,96 ms
+03.07.2020 8:50:28 [Info] Gateway: Connecting
+03.07.2020 8:50:29 [Verbose] Rest: GET gateway: 75,66 ms
+03.07.2020 8:50:30 [Info] Gateway: Connected
+03.07.2020 8:50:30 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:50:30 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:50:30 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:50:30 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:50:30 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:50:30 [Verbose] Gateway: Connected to просто
+03.07.2020 8:50:30 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:50:30 [Verbose] Gateway: Connected to говно
+03.07.2020 8:50:30 [Verbose] Gateway: Connected to test.server
+03.07.2020 8:50:31 [Info] Gateway: Ready
+03.07.2020 8:50:42 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.CreateUser(SocketUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 158
+   at DarlingBotNet.Services.SystemLoading.CreateUser(SocketUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 164
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 235
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 249
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.07.2020 8:50:54 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:50:55 [Verbose] Rest: GET voice/regions: 656,96 ms
+03.07.2020 8:50:56 [Verbose] Rest: GET users/@me: 230,92 ms
+03.07.2020 8:50:56 [Info] Gateway: Connecting
+03.07.2020 8:50:56 [Verbose] Rest: GET gateway: 75,26 ms
+03.07.2020 8:50:57 [Info] Gateway: Connected
+03.07.2020 8:50:57 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:50:57 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:50:57 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:50:58 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:50:58 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:50:58 [Verbose] Gateway: Connected to просто
+03.07.2020 8:50:58 [Verbose] Gateway: Connected to говно
+03.07.2020 8:50:58 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:50:58 [Verbose] Gateway: Connected to test.server
+03.07.2020 8:50:59 [Info] Gateway: Ready
+03.07.2020 8:51:04 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Users'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.CreateUser(SocketUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 158
+   at DarlingBotNet.Services.SystemLoading.CreateUser(SocketUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 164
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 235
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 249
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.07.2020 8:52:42 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:52:43 [Verbose] Rest: GET voice/regions: 665,13 ms
+03.07.2020 8:52:43 [Verbose] Rest: GET users/@me: 269,33 ms
+03.07.2020 8:52:43 [Info] Gateway: Connecting
+03.07.2020 8:52:43 [Verbose] Rest: GET gateway: 74,29 ms
+03.07.2020 8:52:44 [Info] Gateway: Connected
+03.07.2020 8:52:44 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:52:44 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:52:44 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:52:44 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:52:44 [Verbose] Gateway: Connected to просто
+03.07.2020 8:52:45 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:52:45 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:52:45 [Verbose] Gateway: Connected to говно
+03.07.2020 8:52:45 [Verbose] Gateway: Connected to test.server
+03.07.2020 8:52:46 [Info] Gateway: Ready
+03.07.2020 8:52:49 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.CreateUser(SocketUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 158
+   at DarlingBotNet.Services.SystemLoading.CreateUser(SocketUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 164
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 235
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 249
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.07.2020 8:53:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:53:44 [Verbose] Rest: GET voice/regions: 726,53 ms
+03.07.2020 8:53:44 [Verbose] Rest: GET users/@me: 245,53 ms
+03.07.2020 8:53:44 [Info] Gateway: Connecting
+03.07.2020 8:53:44 [Verbose] Rest: GET gateway: 78,72 ms
+03.07.2020 8:53:45 [Info] Gateway: Connected
+03.07.2020 8:53:45 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:53:45 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:53:45 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:53:45 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:53:45 [Verbose] Gateway: Connected to просто
+03.07.2020 8:53:46 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:53:46 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:53:46 [Verbose] Gateway: Connected to говно
+03.07.2020 8:53:46 [Verbose] Gateway: Connected to test.server
+03.07.2020 8:53:47 [Info] Gateway: Ready
+03.07.2020 8:53:49 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 236
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 249
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.07.2020 8:54:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:54:12 [Verbose] Rest: GET voice/regions: 753,92 ms
+03.07.2020 8:54:13 [Verbose] Rest: GET users/@me: 235,23 ms
+03.07.2020 8:54:13 [Info] Gateway: Connecting
+03.07.2020 8:54:13 [Verbose] Rest: GET gateway: 78,41 ms
+03.07.2020 8:54:14 [Info] Gateway: Connected
+03.07.2020 8:54:14 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:54:14 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:54:14 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:54:14 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:54:14 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:54:14 [Verbose] Gateway: Connected to просто
+03.07.2020 8:54:14 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:54:14 [Verbose] Gateway: Connected to говно
+03.07.2020 8:54:14 [Verbose] Gateway: Connected to test.server
+03.07.2020 8:54:15 [Info] Gateway: Ready
+03.07.2020 8:54:17 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.ChannelCreate(SocketGuildChannel Channels) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 142
+   at DarlingBotNet.Services.SystemLoading.ChannelCreate(SocketGuildChannel Channels) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 150
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 237
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 249
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.07.2020 8:55:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:55:14 [Verbose] Rest: GET voice/regions: 711,24 ms
+03.07.2020 8:55:15 [Verbose] Rest: GET users/@me: 210,14 ms
+03.07.2020 8:55:15 [Info] Gateway: Connecting
+03.07.2020 8:55:15 [Verbose] Rest: GET gateway: 70,66 ms
+03.07.2020 8:55:16 [Info] Gateway: Connected
+03.07.2020 8:55:16 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:55:16 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:55:16 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:55:16 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:55:16 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:55:16 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:55:16 [Verbose] Gateway: Connected to просто
+03.07.2020 8:55:16 [Verbose] Gateway: Connected to говно
+03.07.2020 8:55:16 [Verbose] Gateway: Connected to test.server
+03.07.2020 8:55:17 [Info] Gateway: Ready
+03.07.2020 8:56:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:56:37 [Verbose] Rest: GET voice/regions: 897,26 ms
+03.07.2020 8:56:37 [Verbose] Rest: GET users/@me: 228,84 ms
+03.07.2020 8:56:37 [Info] Gateway: Connecting
+03.07.2020 8:56:38 [Verbose] Rest: GET gateway: 73,69 ms
+03.07.2020 8:56:39 [Info] Gateway: Connected
+03.07.2020 8:56:39 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:56:39 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:56:39 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:56:39 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:56:39 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:56:39 [Verbose] Gateway: Connected to просто
+03.07.2020 8:56:39 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:56:39 [Verbose] Gateway: Connected to test.server
+03.07.2020 8:56:39 [Verbose] Gateway: Connected to говно
+03.07.2020 8:57:53 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 8:57:54 [Verbose] Rest: GET voice/regions: 730,44 ms
+03.07.2020 8:57:55 [Verbose] Rest: GET users/@me: 253,61 ms
+03.07.2020 8:57:55 [Info] Gateway: Connecting
+03.07.2020 8:57:55 [Verbose] Rest: GET gateway: 78,01 ms
+03.07.2020 8:57:56 [Info] Gateway: Connected
+03.07.2020 8:57:56 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 8:57:56 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 8:57:56 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 8:57:56 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 8:57:56 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 8:57:56 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 8:57:56 [Verbose] Gateway: Connected to просто
+03.07.2020 8:57:56 [Verbose] Gateway: Connected to говно
+03.07.2020 8:57:56 [Verbose] Gateway: Connected to test.server
+03.07.2020 9:34:53 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 9:34:53 [Verbose] Rest: GET voice/regions: 689,93 ms
+03.07.2020 9:34:54 [Verbose] Rest: GET users/@me: 247,7 ms
+03.07.2020 9:34:54 [Info] Gateway: Connecting
+03.07.2020 9:34:54 [Verbose] Rest: GET gateway: 76,93 ms
+03.07.2020 9:34:55 [Info] Gateway: Connected
+03.07.2020 9:34:55 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 9:34:55 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 9:34:55 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 9:34:55 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 9:34:55 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 9:34:55 [Verbose] Gateway: Connected to просто
+03.07.2020 9:34:55 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 9:34:55 [Verbose] Gateway: Connected to говно
+03.07.2020 9:34:55 [Verbose] Gateway: Connected to test.server
+03.07.2020 9:34:57 [Info] Gateway: Ready
+03.07.2020 9:35:04 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.CreateUser(SocketUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 149
+   at DarlingBotNet.Services.SystemLoading.CreateUser(SocketUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 155
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 235
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 249
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.07.2020 9:35:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 9:35:57 [Verbose] Rest: GET voice/regions: 749,19 ms
+03.07.2020 9:35:57 [Verbose] Rest: GET users/@me: 264,39 ms
+03.07.2020 9:35:57 [Info] Gateway: Connecting
+03.07.2020 9:35:58 [Verbose] Rest: GET gateway: 86,22 ms
+03.07.2020 9:35:59 [Info] Gateway: Connected
+03.07.2020 9:35:59 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 9:35:59 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 9:35:59 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 9:35:59 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 9:35:59 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 9:35:59 [Verbose] Gateway: Connected to просто
+03.07.2020 9:35:59 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 9:35:59 [Verbose] Gateway: Connected to говно
+03.07.2020 9:35:59 [Verbose] Gateway: Connected to test.server
+03.07.2020 9:36:00 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Guilds'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at DarlingBotNet.DataBase.EEF`1.GetF(Func`2 predicate) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\DBcontext.cs:line 60
+   at DarlingBotNet.Services.SystemLoading.<>c.<GuildCheck>b__4_0(SocketGuild z) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 53
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 54
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 225
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.07.2020 9:36:00 [Info] Gateway: Ready
+03.07.2020 9:36:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 9:36:25 [Verbose] Rest: GET voice/regions: 1213,38 ms
+03.07.2020 9:36:26 [Verbose] Rest: GET users/@me: 243,27 ms
+03.07.2020 9:36:26 [Info] Gateway: Connecting
+03.07.2020 9:36:26 [Verbose] Rest: GET gateway: 80,66 ms
+03.07.2020 9:36:27 [Info] Gateway: Connected
+03.07.2020 9:36:27 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 9:36:27 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 9:36:27 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 9:36:27 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 9:36:27 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 9:36:27 [Verbose] Gateway: Connected to просто
+03.07.2020 9:36:27 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 9:36:27 [Verbose] Gateway: Connected to говно
+03.07.2020 9:36:27 [Verbose] Gateway: Connected to test.server
+03.07.2020 9:36:29 [Info] Gateway: Ready
+03.07.2020 9:36:33 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.CreateUser(SocketUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 149
+   at DarlingBotNet.Services.SystemLoading.CreateUser(SocketUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 155
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 235
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 249
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.07.2020 11:18:55 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.07.2020 11:18:56 [Verbose] Rest: GET voice/regions: 855,9 ms
+03.07.2020 11:18:56 [Verbose] Rest: GET users/@me: 257,18 ms
+03.07.2020 11:18:56 [Info] Gateway: Connecting
+03.07.2020 11:18:57 [Verbose] Rest: GET gateway: 82,68 ms
+03.07.2020 11:18:58 [Info] Gateway: Connected
+03.07.2020 11:18:58 [Verbose] Gateway: Connected to DarlingBotInfo
+03.07.2020 11:18:58 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+03.07.2020 11:18:58 [Verbose] Gateway: Connected to Убежище Debilov
+03.07.2020 11:18:58 [Verbose] Gateway: Connected to Плантация №13
+03.07.2020 11:18:58 [Verbose] Gateway: Connected to h1ka.'s server
+03.07.2020 11:18:58 [Verbose] Gateway: Connected to говно
+03.07.2020 11:18:58 [Verbose] Gateway: Connected to Pisecord
+03.07.2020 11:18:58 [Verbose] Gateway: Connected to test.server
+03.07.2020 11:18:58 [Verbose] Gateway: Connected to просто
+03.07.2020 11:19:00 [Info] Gateway: Ready
+03.07.2020 11:19:04 [Verbose] Rest: POST channels/637305727131844619/messages: 539,67 ms
+03.07.2020 11:19:04 [Verbose] Command: Executed "level" for h1kka.#2627 in Плантация №13/📛спам
+03.07.2020 11:19:08 [Verbose] Rest: POST channels/637305727131844619/messages: 520,75 ms
+03.07.2020 11:19:08 [Verbose] Command: Executed "modules" for h1kka.#2627 in Плантация №13/📛спам
+03.07.2020 11:19:18 [Verbose] Rest: POST channels/637305727131844619/messages: 369,06 ms
+03.07.2020 11:19:18 [Verbose] Command: Executed "commands" for h1kka.#2627 in Плантация №13/📛спам
+03.07.2020 11:19:28 [Verbose] Rest: POST channels/637305727131844619/messages: 586,12 ms
+03.07.2020 11:19:28 [Verbose] Command: Executed "prefix" for h1kka.#2627 in Плантация №13/📛спам

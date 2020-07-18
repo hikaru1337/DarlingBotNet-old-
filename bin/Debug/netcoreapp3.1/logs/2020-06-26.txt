@@ -1,0 +1,695 @@
+26.06.2020 10:24:18 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 10:24:19 [Verbose] Rest: GET voice/regions: 796,28 ms
+26.06.2020 10:24:20 [Verbose] Rest: GET users/@me: 241,32 ms
+26.06.2020 10:24:20 [Info] Gateway: Connecting
+26.06.2020 10:24:20 [Warning] Command: Class DarlingBotNet.Modules.Help is not public and cannot be loaded. To suppress this message, mark the class with DontAutoLoadAttribute.
+26.06.2020 10:24:20 [Verbose] Rest: GET gateway: 75,34 ms
+26.06.2020 10:24:21 [Info] Gateway: Connected
+26.06.2020 10:24:21 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 10:24:21 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 10:24:21 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 10:24:21 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 10:24:21 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 10:24:21 [Verbose] Gateway: Connected to говно
+26.06.2020 10:24:21 [Verbose] Gateway: Connected to test.server
+26.06.2020 10:24:21 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 10:24:21 [Verbose] Gateway: Connected to просто
+26.06.2020 10:24:21 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 10:24:23 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: g.CommandInviseString'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at DarlingBotNet.DataBase.EEF`1.GetF(Func`2 predicate) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\DataBases.cs:line 118
+   at DarlingBotNet.Services.SystemLoading.<>c.<GuildCheck>b__3_0(SocketGuild z) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 49
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\SystemLoading.cs:line 50
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 40
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+26.06.2020 10:24:23 [Info] Gateway: Ready
+26.06.2020 10:25:14 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 10:25:14 [Verbose] Rest: GET voice/regions: 697,48 ms
+26.06.2020 10:25:15 [Verbose] Rest: GET users/@me: 229,73 ms
+26.06.2020 10:25:15 [Info] Gateway: Connecting
+26.06.2020 10:25:15 [Warning] Command: Class DarlingBotNet.Modules.Help is not public and cannot be loaded. To suppress this message, mark the class with DontAutoLoadAttribute.
+26.06.2020 10:25:15 [Verbose] Rest: GET gateway: 70,38 ms
+26.06.2020 10:25:16 [Info] Gateway: Connected
+26.06.2020 10:25:16 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 10:25:16 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 10:25:16 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 10:25:16 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 10:25:16 [Verbose] Gateway: Connected to просто
+26.06.2020 10:25:16 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 10:25:16 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 10:25:16 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 10:25:16 [Verbose] Gateway: Connected to test.server
+26.06.2020 10:25:16 [Verbose] Gateway: Connected to говно
+26.06.2020 10:25:18 [Info] Gateway: Ready
+26.06.2020 10:34:09 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 10:34:10 [Verbose] Rest: GET voice/regions: 846,98 ms
+26.06.2020 10:34:11 [Verbose] Rest: GET users/@me: 212,7 ms
+26.06.2020 10:34:11 [Info] Gateway: Connecting
+26.06.2020 10:34:11 [Verbose] Rest: GET gateway: 73,34 ms
+26.06.2020 10:34:12 [Info] Gateway: Connected
+26.06.2020 10:34:12 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 10:34:12 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 10:34:12 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 10:34:12 [Verbose] Gateway: Connected to просто
+26.06.2020 10:34:12 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 10:34:12 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 10:34:13 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 10:34:13 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 10:34:13 [Verbose] Gateway: Connected to говно
+26.06.2020 10:34:13 [Verbose] Gateway: Connected to test.server
+26.06.2020 10:34:14 [Info] Gateway: Ready
+26.06.2020 10:34:57 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 10:34:57 [Verbose] Rest: GET voice/regions: 876,2 ms
+26.06.2020 10:34:58 [Verbose] Rest: GET users/@me: 231,69 ms
+26.06.2020 10:34:58 [Info] Gateway: Connecting
+26.06.2020 10:34:58 [Verbose] Rest: GET gateway: 75,21 ms
+26.06.2020 10:34:59 [Info] Gateway: Connected
+26.06.2020 10:34:59 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 10:34:59 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 10:34:59 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 10:34:59 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 10:34:59 [Verbose] Gateway: Connected to просто
+26.06.2020 10:34:59 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 10:35:00 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 10:35:00 [Verbose] Gateway: Connected to говно
+26.06.2020 10:35:00 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 10:35:00 [Verbose] Gateway: Connected to test.server
+26.06.2020 10:35:01 [Info] Gateway: Ready
+26.06.2020 10:35:05 [Verbose] Rest: POST channels/720663623277477929/messages: 298,45 ms
+26.06.2020 10:35:05 [Verbose] Command: Executed "modules" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 10:36:09 [Verbose] Rest: POST channels/715803775901761638/messages: 312,48 ms
+26.06.2020 10:36:09 [Verbose] Rest: POST channels/720663623277477929/messages: 250,52 ms
+26.06.2020 10:42:08 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 10:42:09 [Verbose] Rest: GET voice/regions: 786,01 ms
+26.06.2020 10:42:09 [Verbose] Rest: GET users/@me: 222,49 ms
+26.06.2020 10:42:09 [Info] Gateway: Connecting
+26.06.2020 10:42:09 [Verbose] Rest: GET gateway: 75,42 ms
+26.06.2020 10:42:10 [Info] Gateway: Connected
+26.06.2020 10:42:10 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 10:42:11 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 10:42:11 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 10:42:11 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 10:42:11 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 10:42:11 [Verbose] Gateway: Connected to просто
+26.06.2020 10:42:11 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 10:42:11 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 10:42:11 [Verbose] Gateway: Connected to говно
+26.06.2020 10:42:11 [Verbose] Gateway: Connected to test.server
+26.06.2020 10:42:12 [Info] Gateway: Ready
+26.06.2020 10:42:14 [Verbose] Rest: POST channels/720663623277477929/messages: 327,64 ms
+26.06.2020 10:42:23 [Verbose] Rest: POST channels/720663623277477929/messages: 315,37 ms
+26.06.2020 10:47:24 [Verbose] Rest: POST channels/720663623277477929/messages: 509,98 ms
+26.06.2020 10:49:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 10:49:28 [Verbose] Rest: GET voice/regions: 751,8 ms
+26.06.2020 10:49:28 [Verbose] Rest: GET users/@me: 246,12 ms
+26.06.2020 10:49:28 [Info] Gateway: Connecting
+26.06.2020 10:49:29 [Verbose] Rest: GET gateway: 76,86 ms
+26.06.2020 10:49:30 [Info] Gateway: Connected
+26.06.2020 10:49:30 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 10:49:30 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 10:49:30 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 10:49:30 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 10:49:30 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 10:49:30 [Verbose] Gateway: Connected to просто
+26.06.2020 10:49:30 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 10:49:30 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 10:49:31 [Verbose] Gateway: Connected to говно
+26.06.2020 10:49:31 [Verbose] Gateway: Connected to test.server
+26.06.2020 10:49:32 [Info] Gateway: Ready
+26.06.2020 10:50:45 [Error] Command: Discord.Commands.CommandException: Error occurred executing "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot.
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DarlingBotNet.Modules.Help.commands(String modules) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Help.cs:line 56
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.06.2020 10:50:45 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 10:50:48 [Info] Gateway: Disconnecting
+26.06.2020 10:50:49 [Verbose] Gateway: Disconnected from просто
+26.06.2020 10:50:49 [Verbose] Gateway: Disconnected from Forever Darkness's server
+26.06.2020 10:50:49 [Verbose] Gateway: Disconnected from Pisecord
+26.06.2020 10:50:49 [Verbose] Gateway: Disconnected from говно
+26.06.2020 10:50:49 [Verbose] Gateway: Disconnected from h1ka.'s server
+26.06.2020 10:50:49 [Verbose] Gateway: Disconnected from test.server
+26.06.2020 10:50:49 [Verbose] Gateway: Disconnected from 🖤🔞69SQUAD🔞🖤
+26.06.2020 10:50:49 [Verbose] Gateway: Disconnected from Убежище Debilov
+26.06.2020 10:50:49 [Verbose] Gateway: Disconnected from Плантация №13
+26.06.2020 10:50:49 [Verbose] Gateway: Disconnected from DarlingBotInfo
+26.06.2020 10:50:49 [Info] Gateway: Disconnected
+26.06.2020 10:50:50 [Info] Gateway: Connecting
+26.06.2020 10:50:50 [Verbose] Rest: GET gateway: 219,53 ms
+26.06.2020 10:50:50 [Verbose] Gateway: Connected to просто
+26.06.2020 10:50:52 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 10:50:52 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 10:50:52 [Verbose] Gateway: Connected to говно
+26.06.2020 10:50:52 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 10:50:52 [Verbose] Gateway: Connected to test.server
+26.06.2020 10:50:52 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 10:50:52 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 10:50:52 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 10:50:52 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 10:50:52 [Info] Gateway: Resumed previous session
+26.06.2020 10:50:52 [Verbose] Rest: Preemptive Rate limit triggered: channels/720663623277477929/messages
+26.06.2020 10:50:53 [Verbose] Rest: POST channels/720663623277477929/messages: 247,26 ms
+26.06.2020 10:50:53 [Verbose] Command: Executed "prefix" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 10:50:53 [Verbose] Rest: POST channels/720663623277477929/messages: 834,54 ms
+26.06.2020 10:50:53 [Verbose] Command: Executed "prefix" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 10:50:56 [Verbose] Rest: POST channels/720663623277477929/messages: 334,42 ms
+26.06.2020 10:50:56 [Verbose] Command: Executed "prefix" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 10:53:58 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 10:53:59 [Verbose] Rest: GET voice/regions: 796,46 ms
+26.06.2020 10:53:59 [Verbose] Rest: GET users/@me: 244,31 ms
+26.06.2020 10:53:59 [Info] Gateway: Connecting
+26.06.2020 10:53:59 [Verbose] Rest: GET gateway: 73,91 ms
+26.06.2020 10:54:01 [Info] Gateway: Connected
+26.06.2020 10:54:01 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 10:54:01 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 10:54:01 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 10:54:01 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 10:54:01 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 10:54:01 [Verbose] Gateway: Connected to просто
+26.06.2020 10:54:01 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 10:54:01 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 10:54:01 [Verbose] Gateway: Connected to говно
+26.06.2020 10:54:01 [Verbose] Gateway: Connected to test.server
+26.06.2020 10:54:02 [Info] Gateway: Ready
+26.06.2020 10:54:09 [Verbose] Rest: POST channels/720663623277477929/messages: 229,7 ms
+26.06.2020 11:00:17 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:00:18 [Verbose] Rest: GET voice/regions: 665,37 ms
+26.06.2020 11:00:18 [Verbose] Rest: GET users/@me: 242,75 ms
+26.06.2020 11:00:18 [Info] Gateway: Connecting
+26.06.2020 11:00:18 [Verbose] Rest: GET gateway: 73,15 ms
+26.06.2020 11:00:19 [Info] Gateway: Connected
+26.06.2020 11:00:20 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:00:20 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:00:20 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:00:20 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:00:20 [Verbose] Gateway: Connected to просто
+26.06.2020 11:00:20 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:00:20 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:00:20 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:00:20 [Verbose] Gateway: Connected to говно
+26.06.2020 11:00:20 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:00:22 [Info] Gateway: Ready
+26.06.2020 11:00:24 [Verbose] Rest: POST channels/720663623277477929/messages: 279,18 ms
+26.06.2020 11:00:53 [Verbose] Rest: POST channels/720663623277477929/messages: 241,38 ms
+26.06.2020 11:00:58 [Verbose] Rest: POST channels/720663623277477929/messages: 262,36 ms
+26.06.2020 11:01:06 [Verbose] Rest: POST channels/720663623277477929/messages: 325,49 ms
+26.06.2020 11:01:06 [Verbose] Command: Executed "modules" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:01:12 [Verbose] Rest: POST channels/720663623277477929/messages: 418 ms
+26.06.2020 11:01:12 [Verbose] Command: Executed "use" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:02:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:02:44 [Verbose] Rest: GET voice/regions: 802,92 ms
+26.06.2020 11:02:44 [Verbose] Rest: GET users/@me: 270,98 ms
+26.06.2020 11:02:44 [Info] Gateway: Connecting
+26.06.2020 11:02:45 [Verbose] Rest: GET gateway: 76,9 ms
+26.06.2020 11:02:46 [Info] Gateway: Connected
+26.06.2020 11:02:46 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:02:46 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:02:46 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:02:46 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:02:46 [Verbose] Gateway: Connected to просто
+26.06.2020 11:02:46 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:02:46 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:02:46 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:02:46 [Verbose] Gateway: Connected to говно
+26.06.2020 11:02:46 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:02:47 [Info] Gateway: Ready
+26.06.2020 11:02:49 [Verbose] Rest: POST channels/720663623277477929/messages: 361,5 ms
+26.06.2020 11:02:53 [Verbose] Rest: POST channels/720663623277477929/messages: 259,1 ms
+26.06.2020 11:02:53 [Verbose] Command: Executed "modules" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:03:02 [Verbose] Rest: POST channels/720663623277477929/messages: 243,45 ms
+26.06.2020 11:04:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:04:32 [Verbose] Rest: GET voice/regions: 717,97 ms
+26.06.2020 11:04:33 [Verbose] Rest: GET users/@me: 244,1 ms
+26.06.2020 11:04:33 [Info] Gateway: Connecting
+26.06.2020 11:04:33 [Verbose] Rest: GET gateway: 79,77 ms
+26.06.2020 11:04:34 [Info] Gateway: Connected
+26.06.2020 11:04:34 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:04:34 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:04:34 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:04:34 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:04:35 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:04:35 [Verbose] Gateway: Connected to просто
+26.06.2020 11:04:35 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:04:35 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:04:35 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:04:35 [Verbose] Gateway: Connected to говно
+26.06.2020 11:04:36 [Info] Gateway: Ready
+26.06.2020 11:04:37 [Verbose] Rest: POST channels/720663623277477929/messages: 279,27 ms
+26.06.2020 11:04:37 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:05:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:05:22 [Verbose] Rest: GET voice/regions: 835,85 ms
+26.06.2020 11:05:23 [Verbose] Rest: GET users/@me: 211,36 ms
+26.06.2020 11:05:23 [Info] Gateway: Connecting
+26.06.2020 11:05:23 [Verbose] Rest: GET gateway: 78,4 ms
+26.06.2020 11:05:24 [Info] Gateway: Connected
+26.06.2020 11:05:24 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:05:24 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:05:24 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:05:24 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:05:24 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:05:24 [Verbose] Gateway: Connected to просто
+26.06.2020 11:05:24 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:05:24 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:05:24 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:05:24 [Verbose] Gateway: Connected to говно
+26.06.2020 11:05:26 [Info] Gateway: Ready
+26.06.2020 11:05:28 [Verbose] Rest: POST channels/720663623277477929/messages: 772,46 ms
+26.06.2020 11:05:28 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:06:03 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:06:04 [Verbose] Rest: GET voice/regions: 863,36 ms
+26.06.2020 11:06:04 [Verbose] Rest: GET users/@me: 236,12 ms
+26.06.2020 11:06:04 [Info] Gateway: Connecting
+26.06.2020 11:06:04 [Verbose] Rest: GET gateway: 76,85 ms
+26.06.2020 11:06:05 [Info] Gateway: Connected
+26.06.2020 11:06:06 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:06:06 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:06:06 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:06:06 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:06:06 [Verbose] Gateway: Connected to просто
+26.06.2020 11:06:06 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:06:06 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:06:06 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:06:06 [Verbose] Gateway: Connected to говно
+26.06.2020 11:06:06 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:06:07 [Info] Gateway: Ready
+26.06.2020 11:06:09 [Verbose] Rest: POST channels/720663623277477929/messages: 292,59 ms
+26.06.2020 11:06:09 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:06:42 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:06:43 [Verbose] Rest: GET voice/regions: 916,83 ms
+26.06.2020 11:06:43 [Verbose] Rest: GET users/@me: 234,39 ms
+26.06.2020 11:06:44 [Info] Gateway: Connecting
+26.06.2020 11:06:44 [Verbose] Rest: GET gateway: 78,45 ms
+26.06.2020 11:06:45 [Info] Gateway: Connected
+26.06.2020 11:06:45 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:06:45 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:06:45 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:06:45 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:06:45 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:06:45 [Verbose] Gateway: Connected to просто
+26.06.2020 11:06:45 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:06:45 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:06:45 [Verbose] Gateway: Connected to говно
+26.06.2020 11:06:45 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:06:46 [Info] Gateway: Ready
+26.06.2020 11:06:50 [Verbose] Rest: POST channels/720663623277477929/messages: 247,94 ms
+26.06.2020 11:06:50 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:11:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:11:11 [Verbose] Rest: GET voice/regions: 822,46 ms
+26.06.2020 11:11:11 [Verbose] Rest: GET users/@me: 237,48 ms
+26.06.2020 11:11:11 [Info] Gateway: Connecting
+26.06.2020 11:11:11 [Verbose] Rest: GET gateway: 73,09 ms
+26.06.2020 11:11:12 [Info] Gateway: Connected
+26.06.2020 11:11:12 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:11:13 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:11:13 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:11:13 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:11:13 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:11:13 [Verbose] Gateway: Connected to просто
+26.06.2020 11:11:13 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:11:13 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:11:13 [Verbose] Gateway: Connected to говно
+26.06.2020 11:11:13 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:11:14 [Info] Gateway: Ready
+26.06.2020 11:11:15 [Verbose] Rest: POST channels/720663623277477929/messages: 378,26 ms
+26.06.2020 11:11:15 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:11:35 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:11:36 [Verbose] Rest: GET voice/regions: 776,71 ms
+26.06.2020 11:11:37 [Verbose] Rest: GET users/@me: 259,44 ms
+26.06.2020 11:11:37 [Info] Gateway: Connecting
+26.06.2020 11:11:37 [Verbose] Rest: GET gateway: 75,06 ms
+26.06.2020 11:11:38 [Info] Gateway: Connected
+26.06.2020 11:11:38 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:11:38 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:11:39 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:11:39 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:11:39 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:11:39 [Verbose] Gateway: Connected to просто
+26.06.2020 11:11:39 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:11:39 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:11:39 [Verbose] Gateway: Connected to говно
+26.06.2020 11:11:39 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:11:40 [Info] Gateway: Ready
+26.06.2020 11:11:42 [Verbose] Rest: POST channels/720663623277477929/messages: 235,46 ms
+26.06.2020 11:11:42 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:13:06 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:13:07 [Verbose] Rest: GET voice/regions: 886,11 ms
+26.06.2020 11:13:07 [Verbose] Rest: GET users/@me: 213,02 ms
+26.06.2020 11:13:07 [Info] Gateway: Connecting
+26.06.2020 11:13:07 [Verbose] Rest: GET gateway: 74,82 ms
+26.06.2020 11:13:09 [Info] Gateway: Connected
+26.06.2020 11:13:09 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:13:09 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:13:09 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:13:09 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:13:09 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:13:09 [Verbose] Gateway: Connected to просто
+26.06.2020 11:13:09 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:13:09 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:13:09 [Verbose] Gateway: Connected to говно
+26.06.2020 11:13:09 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:13:10 [Info] Gateway: Ready
+26.06.2020 11:13:12 [Verbose] Rest: POST channels/720663623277477929/messages: 253,97 ms
+26.06.2020 11:13:12 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:13:20 [Warning] Gateway: Unknown Dispatch (INVITE_CREATE)
+26.06.2020 11:17:06 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:17:07 [Verbose] Rest: GET voice/regions: 967,8 ms
+26.06.2020 11:17:08 [Verbose] Rest: GET users/@me: 269,44 ms
+26.06.2020 11:17:08 [Info] Gateway: Connecting
+26.06.2020 11:17:08 [Verbose] Rest: GET gateway: 77,41 ms
+26.06.2020 11:17:09 [Info] Gateway: Connected
+26.06.2020 11:17:09 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:17:09 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:17:09 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:17:09 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:17:09 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:17:09 [Verbose] Gateway: Connected to просто
+26.06.2020 11:17:09 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:17:09 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:17:09 [Verbose] Gateway: Connected to говно
+26.06.2020 11:17:09 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:17:11 [Info] Gateway: Ready
+26.06.2020 11:17:13 [Verbose] Rest: POST channels/720663623277477929/messages: 237,63 ms
+26.06.2020 11:17:13 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:17:53 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:17:54 [Verbose] Rest: GET voice/regions: 642,36 ms
+26.06.2020 11:17:54 [Verbose] Rest: GET users/@me: 234,43 ms
+26.06.2020 11:17:54 [Info] Gateway: Connecting
+26.06.2020 11:17:55 [Verbose] Rest: GET gateway: 73,77 ms
+26.06.2020 11:17:56 [Info] Gateway: Connected
+26.06.2020 11:17:56 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:17:56 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:17:56 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:17:56 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:17:56 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:17:56 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:17:56 [Verbose] Gateway: Connected to просто
+26.06.2020 11:17:56 [Verbose] Gateway: Connected to говно
+26.06.2020 11:17:56 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:17:56 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:17:57 [Info] Gateway: Ready
+26.06.2020 11:17:59 [Verbose] Rest: POST channels/720663623277477929/messages: 315,77 ms
+26.06.2020 11:17:59 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:18:35 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:18:37 [Verbose] Rest: GET voice/regions: 897,63 ms
+26.06.2020 11:18:37 [Verbose] Rest: GET users/@me: 220,8 ms
+26.06.2020 11:18:37 [Info] Gateway: Connecting
+26.06.2020 11:18:37 [Verbose] Rest: GET gateway: 72,17 ms
+26.06.2020 11:18:38 [Info] Gateway: Connected
+26.06.2020 11:18:38 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:18:38 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:18:38 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:18:39 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:18:39 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:18:39 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:18:39 [Verbose] Gateway: Connected to просто
+26.06.2020 11:18:39 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:18:39 [Verbose] Gateway: Connected to говно
+26.06.2020 11:18:39 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:18:40 [Info] Gateway: Ready
+26.06.2020 11:18:43 [Verbose] Rest: POST channels/720663623277477929/messages: 275,83 ms
+26.06.2020 11:18:43 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:19:26 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:19:27 [Verbose] Rest: GET voice/regions: 938,27 ms
+26.06.2020 11:19:27 [Verbose] Rest: GET users/@me: 217,87 ms
+26.06.2020 11:19:27 [Info] Gateway: Connecting
+26.06.2020 11:19:27 [Verbose] Rest: GET gateway: 75,13 ms
+26.06.2020 11:19:28 [Info] Gateway: Connected
+26.06.2020 11:19:29 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:19:29 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:19:29 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:19:29 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:19:29 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:19:29 [Verbose] Gateway: Connected to просто
+26.06.2020 11:19:29 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:19:29 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:19:29 [Verbose] Gateway: Connected to говно
+26.06.2020 11:19:29 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:19:30 [Info] Gateway: Ready
+26.06.2020 11:19:31 [Verbose] Rest: POST channels/720663623277477929/messages: 242,28 ms
+26.06.2020 11:19:31 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:19:53 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:19:54 [Verbose] Rest: GET voice/regions: 782,1 ms
+26.06.2020 11:19:55 [Verbose] Rest: GET users/@me: 259,33 ms
+26.06.2020 11:19:55 [Info] Gateway: Connecting
+26.06.2020 11:19:55 [Verbose] Rest: GET gateway: 76,07 ms
+26.06.2020 11:19:56 [Info] Gateway: Connected
+26.06.2020 11:19:56 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:19:56 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:19:56 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:19:56 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:19:56 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:19:56 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:19:56 [Verbose] Gateway: Connected to просто
+26.06.2020 11:19:56 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:19:56 [Verbose] Gateway: Connected to говно
+26.06.2020 11:19:56 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:19:57 [Info] Gateway: Ready
+26.06.2020 11:20:00 [Verbose] Rest: POST channels/720663623277477929/messages: 374,98 ms
+26.06.2020 11:20:00 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:20:08 [Verbose] Rest: POST channels/720663623277477929/messages: 257,21 ms
+26.06.2020 11:20:08 [Verbose] Command: Executed "modules" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:20:11 [Error] Command: Discord.Commands.CommandException: Error occurred executing "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot.
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DarlingBotNet.Modules.Help.commands(String modules) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Help.cs:line 56
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.06.2020 11:20:11 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:36:29 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:36:30 [Verbose] Rest: GET voice/regions: 982,81 ms
+26.06.2020 11:36:30 [Verbose] Rest: GET users/@me: 230,84 ms
+26.06.2020 11:36:30 [Info] Gateway: Connecting
+26.06.2020 11:36:31 [Verbose] Rest: GET gateway: 111,98 ms
+26.06.2020 11:36:32 [Info] Gateway: Connected
+26.06.2020 11:36:32 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:36:32 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:36:32 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:36:32 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:36:32 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:36:32 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:36:32 [Verbose] Gateway: Connected to говно
+26.06.2020 11:36:32 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:36:32 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:36:32 [Verbose] Gateway: Connected to просто
+26.06.2020 11:36:33 [Info] Gateway: Ready
+26.06.2020 11:40:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:40:35 [Verbose] Rest: GET voice/regions: 752,42 ms
+26.06.2020 11:40:35 [Verbose] Rest: GET users/@me: 252,12 ms
+26.06.2020 11:40:35 [Info] Gateway: Connecting
+26.06.2020 11:40:36 [Verbose] Rest: GET gateway: 75,22 ms
+26.06.2020 11:40:37 [Info] Gateway: Connected
+26.06.2020 11:40:37 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:40:37 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:40:37 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:40:37 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:40:37 [Verbose] Gateway: Connected to просто
+26.06.2020 11:40:37 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:40:37 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:40:37 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:40:37 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:40:37 [Verbose] Gateway: Connected to говно
+26.06.2020 11:40:39 [Info] Gateway: Ready
+26.06.2020 11:40:39 [Error] Command: Discord.Commands.CommandException: Error occurred executing "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot.
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at System.Collections.Immutable.ImmutableArray`1.get_Item(Int32 index)
+   at System.Collections.Immutable.ImmutableArray`1.System.Collections.Generic.IReadOnlyList<T>.get_Item(Int32 index)
+   at DarlingBotNet.Modules.Help.commands(String modules) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Help.cs:line 56
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.06.2020 11:40:39 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:41:45 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:41:46 [Verbose] Rest: GET voice/regions: 681,16 ms
+26.06.2020 11:41:47 [Verbose] Rest: GET users/@me: 230,47 ms
+26.06.2020 11:41:47 [Info] Gateway: Connecting
+26.06.2020 11:41:47 [Verbose] Rest: GET gateway: 79,89 ms
+26.06.2020 11:41:48 [Info] Gateway: Connected
+26.06.2020 11:41:48 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:41:48 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:41:49 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:41:49 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:41:49 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:41:49 [Verbose] Gateway: Connected to просто
+26.06.2020 11:41:49 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:41:49 [Verbose] Gateway: Connected to говно
+26.06.2020 11:41:49 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:41:49 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:41:50 [Info] Gateway: Ready
+26.06.2020 11:41:57 [Error] Command: Discord.Commands.CommandException: Error occurred executing "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot.
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at System.Collections.Immutable.ImmutableArray`1.get_Item(Int32 index)
+   at System.Collections.Immutable.ImmutableArray`1.System.Collections.Generic.IReadOnlyList<T>.get_Item(Int32 index)
+   at DarlingBotNet.Modules.Help.commands(String modules) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Help.cs:line 57
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.06.2020 11:41:57 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:45:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:50:47 [Verbose] Rest: GET voice/regions: 653,34 ms
+26.06.2020 11:50:47 [Verbose] Rest: GET users/@me: 286,28 ms
+26.06.2020 11:50:47 [Info] Gateway: Connecting
+26.06.2020 11:50:47 [Verbose] Rest: GET gateway: 79,39 ms
+26.06.2020 11:50:49 [Info] Gateway: Connected
+26.06.2020 11:50:49 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:50:49 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:50:49 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:50:49 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:50:49 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:50:49 [Verbose] Gateway: Connected to просто
+26.06.2020 11:50:49 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:50:49 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:50:49 [Verbose] Gateway: Connected to говно
+26.06.2020 11:50:49 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:50:50 [Info] Gateway: Ready
+26.06.2020 11:50:54 [Error] Command: Discord.Commands.CommandException: Error occurred executing "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot.
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DarlingBotNet.Modules.Help.commands(String modules) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Help.cs:line 57
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.06.2020 11:50:54 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:51:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:51:48 [Verbose] Rest: GET voice/regions: 858,71 ms
+26.06.2020 11:51:49 [Verbose] Rest: GET users/@me: 315,88 ms
+26.06.2020 11:51:49 [Info] Gateway: Connecting
+26.06.2020 11:51:49 [Verbose] Rest: GET gateway: 96,17 ms
+26.06.2020 11:51:50 [Info] Gateway: Connected
+26.06.2020 11:51:50 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:51:50 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:51:50 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:51:50 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:51:50 [Verbose] Gateway: Connected to просто
+26.06.2020 11:51:50 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:51:50 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:51:50 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:51:50 [Verbose] Gateway: Connected to говно
+26.06.2020 11:51:50 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:51:52 [Info] Gateway: Ready
+26.06.2020 11:51:53 [Verbose] Rest: POST channels/720663623277477929/messages: 297,11 ms
+26.06.2020 11:51:53 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 11:54:09 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 11:54:10 [Verbose] Rest: GET voice/regions: 956,68 ms
+26.06.2020 11:54:11 [Verbose] Rest: GET users/@me: 264,02 ms
+26.06.2020 11:54:11 [Info] Gateway: Connecting
+26.06.2020 11:54:11 [Verbose] Rest: GET gateway: 92,45 ms
+26.06.2020 11:54:12 [Info] Gateway: Connected
+26.06.2020 11:54:12 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 11:54:12 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 11:54:12 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 11:54:12 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 11:54:12 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 11:54:12 [Verbose] Gateway: Connected to просто
+26.06.2020 11:54:12 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 11:54:12 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 11:54:12 [Verbose] Gateway: Connected to говно
+26.06.2020 11:54:12 [Verbose] Gateway: Connected to test.server
+26.06.2020 11:54:13 [Info] Gateway: Ready
+26.06.2020 11:57:19 [Verbose] Rest: POST channels/720663623277477929/messages: 381,7 ms
+26.06.2020 11:57:19 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 12:13:40 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 12:13:40 [Verbose] Rest: GET voice/regions: 799,55 ms
+26.06.2020 12:13:41 [Verbose] Rest: GET users/@me: 237,53 ms
+26.06.2020 12:13:41 [Info] Gateway: Connecting
+26.06.2020 12:13:41 [Verbose] Rest: GET gateway: 77,61 ms
+26.06.2020 12:13:42 [Info] Gateway: Connected
+26.06.2020 12:13:42 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 12:13:42 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 12:13:42 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 12:13:42 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 12:13:42 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 12:13:42 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 12:13:42 [Verbose] Gateway: Connected to говно
+26.06.2020 12:13:42 [Verbose] Gateway: Connected to просто
+26.06.2020 12:13:42 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 12:13:42 [Verbose] Gateway: Connected to test.server
+26.06.2020 12:13:44 [Info] Gateway: Ready
+26.06.2020 12:14:29 [Verbose] Rest: POST channels/720663623277477929/messages: 298 ms
+26.06.2020 12:14:29 [Verbose] Command: Executed "commands" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 12:18:28 [Verbose] Rest: POST channels/720663623277477929/messages: 397,29 ms
+26.06.2020 12:18:28 [Verbose] Command: Executed "commandinvise" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 12:18:33 [Verbose] Rest: POST channels/720663623277477929/messages: 240,52 ms
+26.06.2020 12:18:33 [Verbose] Command: Executed "commandinvise" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 12:19:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 12:19:05 [Verbose] Rest: GET voice/regions: 827,85 ms
+26.06.2020 12:19:05 [Verbose] Rest: GET users/@me: 242,29 ms
+26.06.2020 12:19:05 [Info] Gateway: Connecting
+26.06.2020 12:19:05 [Verbose] Rest: GET gateway: 76,84 ms
+26.06.2020 12:19:06 [Info] Gateway: Connected
+26.06.2020 12:19:06 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 12:19:06 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 12:19:07 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 12:19:07 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 12:19:07 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 12:19:07 [Verbose] Gateway: Connected to просто
+26.06.2020 12:19:07 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 12:19:07 [Verbose] Gateway: Connected to говно
+26.06.2020 12:19:07 [Verbose] Gateway: Connected to test.server
+26.06.2020 12:19:07 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 12:19:08 [Info] Gateway: Ready
+26.06.2020 12:19:15 [Verbose] Rest: POST channels/720663623277477929/messages: 280,13 ms
+26.06.2020 12:19:15 [Verbose] Command: Executed "commandinvise" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 12:20:45 [Verbose] Rest: POST channels/720663623277477929/messages: 256,69 ms
+26.06.2020 12:20:45 [Verbose] Command: Executed "commandinvise" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 12:20:48 [Verbose] Rest: POST channels/720663623277477929/messages: 258,12 ms
+26.06.2020 12:20:48 [Verbose] Command: Executed "commandinvise" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 12:20:49 [Verbose] Rest: POST channels/720663623277477929/messages: 273,23 ms
+26.06.2020 12:20:49 [Verbose] Command: Executed "commandinvise" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 12:21:46 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 12:21:47 [Verbose] Rest: GET voice/regions: 770,51 ms
+26.06.2020 12:21:47 [Verbose] Rest: GET users/@me: 208,3 ms
+26.06.2020 12:21:47 [Info] Gateway: Connecting
+26.06.2020 12:21:47 [Verbose] Rest: GET gateway: 76,51 ms
+26.06.2020 12:21:48 [Info] Gateway: Connected
+26.06.2020 12:21:48 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 12:21:48 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 12:21:48 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 12:21:49 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 12:21:49 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 12:21:49 [Verbose] Gateway: Connected to просто
+26.06.2020 12:21:49 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 12:21:49 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 12:21:49 [Verbose] Gateway: Connected to говно
+26.06.2020 12:21:49 [Verbose] Gateway: Connected to test.server
+26.06.2020 12:21:50 [Info] Gateway: Ready
+26.06.2020 12:21:55 [Verbose] Rest: POST channels/720663623277477929/messages: 244,53 ms
+26.06.2020 12:21:55 [Verbose] Command: Executed "commandinvise" for h1kka.#2627 in DarlingBotInfo/darlingbot
+26.06.2020 14:20:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.06.2020 14:20:57 [Verbose] Rest: GET voice/regions: 827,41 ms
+26.06.2020 14:20:58 [Verbose] Rest: GET users/@me: 407,27 ms
+26.06.2020 14:20:58 [Info] Gateway: Connecting
+26.06.2020 14:20:58 [Verbose] Rest: GET gateway: 92,97 ms
+26.06.2020 14:21:00 [Info] Gateway: Connected
+26.06.2020 14:21:00 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+26.06.2020 14:21:00 [Verbose] Gateway: Connected to Pisecord
+26.06.2020 14:21:00 [Verbose] Gateway: Connected to Плантация №13
+26.06.2020 14:21:00 [Verbose] Gateway: Connected to h1ka.'s server
+26.06.2020 14:21:00 [Verbose] Gateway: Connected to Убежище Debilov
+26.06.2020 14:21:00 [Verbose] Gateway: Connected to DarlingBotInfo
+26.06.2020 14:21:00 [Verbose] Gateway: Connected to Forever Darkness's server
+26.06.2020 14:21:00 [Verbose] Gateway: Connected to говно
+26.06.2020 14:21:00 [Verbose] Gateway: Connected to test.server
+26.06.2020 14:21:00 [Verbose] Gateway: Connected to просто
+26.06.2020 14:21:01 [Info] Gateway: Ready
+26.06.2020 14:21:02 [Verbose] Rest: POST channels/720663623277477929/messages: 467,12 ms
+26.06.2020 14:21:02 [Verbose] Command: Executed "modules" for h1kka.#2627 in DarlingBotInfo/darlingbot
