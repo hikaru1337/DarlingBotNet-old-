@@ -1,0 +1,61 @@
+13.08.2020 11:29:02 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+13.08.2020 11:29:03 [Verbose] Rest: GET voice/regions: 1082,94 ms
+13.08.2020 11:29:04 [Verbose] Rest: GET users/@me: 238,22 ms
+13.08.2020 11:29:04 [Info] Gateway: Connecting
+13.08.2020 11:29:04 [Verbose] Rest: GET gateway: 74,58 ms
+13.08.2020 11:29:05 [Info] Gateway: Connected
+13.08.2020 11:29:05 [Verbose] Gateway: Connected to DarlingBotInfo
+13.08.2020 11:29:07 [Info] Gateway: Ready
+13.08.2020 11:30:08 [Verbose] Rest: POST channels/663380088188043280/messages: 315,08 ms
+13.08.2020 11:30:08 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/основной
+13.08.2020 11:30:12 [Verbose] Rest: POST channels/663380088188043280/messages: 290,08 ms
+13.08.2020 11:30:12 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+13.08.2020 11:30:48 [Verbose] Rest: DELETE channels/663380088188043280/messages/743431351805673575: 222,81 ms
+13.08.2020 11:30:49 [Verbose] Rest: POST channels/663380088188043280/messages: 426,92 ms
+13.08.2020 11:30:49 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.messsagedelete(Cacheable`2 cachemess, ISocketMessageChannel channelmes) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 177
+   at Discord.EventExtensions.InvokeAsync[T1,T2](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+13.08.2020 11:30:52 [Verbose] Rest: DELETE channels/663380088188043280/messages/743431355332952075: 241,76 ms
+13.08.2020 11:30:52 [Verbose] Command: Executed "clear" for h1kkaru.#2627 in DarlingBotInfo/основной
+13.08.2020 11:46:28 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+13.08.2020 11:46:29 [Verbose] Rest: GET voice/regions: 785,36 ms
+13.08.2020 11:46:29 [Verbose] Rest: GET users/@me: 234,85 ms
+13.08.2020 11:46:30 [Info] Gateway: Connecting
+13.08.2020 11:46:30 [Verbose] Rest: GET gateway: 94,5 ms
+13.08.2020 11:46:31 [Info] Gateway: Connected
+13.08.2020 11:46:31 [Verbose] Gateway: Connected to DarlingBotInfo
+13.08.2020 11:46:32 [Info] Gateway: Ready
+13.08.2020 11:46:39 [Verbose] Rest: DELETE channels/663380088188043280/messages/743435340370673664: 241,59 ms
+13.08.2020 11:46:40 [Verbose] Rest: POST channels/663380088188043280/messages: 310,04 ms
+13.08.2020 11:46:43 [Verbose] Rest: DELETE channels/663380088188043280/messages/743435356682190919: 234,21 ms
+13.08.2020 11:46:43 [Verbose] Rest: DELETE channels/663380088188043280/messages/743435343549693973: 369,26 ms
+13.08.2020 11:46:43 [Verbose] Command: Executed "clear" for h1kkaru.#2627 in DarlingBotInfo/основной
+13.08.2020 11:46:43 [Verbose] Rest: POST channels/663380088188043280/messages: 343,07 ms
+13.08.2020 11:46:47 [Verbose] Rest: DELETE channels/663380088188043280/messages/743435358980800522: 219,18 ms
+13.08.2020 11:46:47 [Verbose] Command: Executed "clear" for h1kkaru.#2627 in DarlingBotInfo/основной
+13.08.2020 11:46:50 [Verbose] Rest: DELETE channels/663380088188043280/messages/743435385819889764: 296,57 ms
+13.08.2020 11:46:50 [Verbose] Rest: POST channels/663380088188043280/messages: 293,53 ms
+13.08.2020 11:46:51 [Verbose] Rest: POST channels/663380088188043280/messages: 367,42 ms
+13.08.2020 11:46:54 [Verbose] Rest: DELETE channels/663380088188043280/messages/743435389053960202: 232,25 ms
+13.08.2020 11:46:54 [Verbose] Command: Executed "clear" for h1kkaru.#2627 in DarlingBotInfo/основной
+13.08.2020 11:47:00 [Verbose] Rest: DELETE channels/663380088188043280/messages/743435427268132896: 285,62 ms
+13.08.2020 11:47:01 [Verbose] Rest: POST channels/663380088188043280/messages: 351,98 ms
+13.08.2020 11:47:04 [Verbose] Rest: DELETE channels/663380088188043280/messages/743435430220791828: 246,68 ms
+13.08.2020 11:47:04 [Verbose] Command: Executed "clear" for h1kkaru.#2627 in DarlingBotInfo/основной
+13.08.2020 11:47:07 [Verbose] Rest: DELETE channels/663380088188043280/messages/743435457026850917: 274,66 ms
+13.08.2020 11:47:07 [Verbose] Rest: POST channels/663380088188043280/messages: 255,3 ms
+13.08.2020 11:47:11 [Verbose] Rest: DELETE channels/663380088188043280/messages/743435459367141406: 222,07 ms
+13.08.2020 11:47:11 [Verbose] Command: Executed "clear" for h1kkaru.#2627 in DarlingBotInfo/основной
+13.08.2020 11:47:13 [Verbose] Rest: DELETE channels/663380088188043280/messages/743435479864705044: 268,39 ms
+13.08.2020 11:47:13 [Verbose] Rest: GET channels/663380088188043280/messages?limit=8&before=743435331336142918: 288,42 ms
+13.08.2020 11:47:13 [Verbose] Rest: POST channels/663380088188043280/messages: 256,01 ms
+13.08.2020 11:47:16 [Verbose] Rest: DELETE channels/663380088188043280/messages/743435483786510438: 234,29 ms
+13.08.2020 11:47:16 [Verbose] Command: Executed "clear" for h1kkaru.#2627 in DarlingBotInfo/основной
+13.08.2020 11:54:14 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+13.08.2020 11:54:15 [Verbose] Rest: GET voice/regions: 965,1 ms
+13.08.2020 11:54:16 [Verbose] Rest: GET users/@me: 231,49 ms
+13.08.2020 11:54:16 [Info] Gateway: Connecting
+13.08.2020 11:54:16 [Verbose] Rest: GET gateway: 87,55 ms

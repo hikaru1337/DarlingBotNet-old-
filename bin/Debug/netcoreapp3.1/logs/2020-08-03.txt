@@ -1,0 +1,818 @@
+03.08.2020 3:11:50 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 3:11:50 [Verbose] Rest: GET voice/regions: 751,87 ms
+03.08.2020 3:11:51 [Verbose] Rest: GET users/@me: 219,95 ms
+03.08.2020 3:11:51 [Info] Gateway: Connecting
+03.08.2020 3:11:52 [Verbose] Rest: GET gateway: 451,28 ms
+03.08.2020 3:12:26 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 3:12:27 [Verbose] Rest: GET voice/regions: 685,86 ms
+03.08.2020 3:12:27 [Verbose] Rest: GET users/@me: 221,7 ms
+03.08.2020 3:12:27 [Info] Gateway: Connecting
+03.08.2020 3:12:27 [Verbose] Rest: GET gateway: 77,97 ms
+03.08.2020 3:12:28 [Info] Gateway: Connected
+03.08.2020 3:12:29 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 3:12:29 [Info] Gateway: Ready
+03.08.2020 3:12:35 [Verbose] Rest: POST channels/720663623277477929/messages: 301,65 ms
+03.08.2020 3:12:35 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 3:12:41 [Verbose] Rest: POST channels/720663623277477929/messages: 267,96 ms
+03.08.2020 3:12:41 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 3:12:56 [Verbose] Command: Executed "play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 3:13:22 [Verbose] Command: Executed "play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 3:15:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 3:15:25 [Verbose] Rest: GET voice/regions: 806,02 ms
+03.08.2020 3:15:25 [Verbose] Rest: GET users/@me: 233,18 ms
+03.08.2020 3:15:26 [Info] Gateway: Connecting
+03.08.2020 3:15:26 [Verbose] Rest: GET gateway: 76,75 ms
+03.08.2020 3:15:27 [Info] Gateway: Connected
+03.08.2020 3:15:27 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 3:15:28 [Info] Gateway: Ready
+03.08.2020 3:15:50 [Verbose] Command: Executed "play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 3:17:19 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 3:17:19 [Verbose] Rest: GET voice/regions: 667,14 ms
+03.08.2020 3:17:20 [Verbose] Rest: GET users/@me: 225,49 ms
+03.08.2020 3:17:20 [Info] Gateway: Connecting
+03.08.2020 3:17:20 [Verbose] Rest: GET gateway: 80,88 ms
+03.08.2020 3:17:21 [Info] Gateway: Connected
+03.08.2020 3:17:21 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 3:17:22 [Info] Gateway: Ready
+03.08.2020 3:17:28 [Verbose] Command: Executed "play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 3:33:52 [Info] Discord: Discord.Net v2.2.0 (API v6)
+03.08.2020 3:33:52 [Verbose] Rest: GET voice/regions: 648,19 ms
+03.08.2020 3:33:53 [Verbose] Rest: GET users/@me: 211,47 ms
+03.08.2020 3:33:53 [Info] Gateway: Connecting
+03.08.2020 3:33:53 [Verbose] Rest: GET gateway: 183,62 ms
+03.08.2020 3:34:24 [Info] Discord: Discord.Net v2.2.0 (API v6)
+03.08.2020 3:34:25 [Verbose] Rest: GET voice/regions: 879,73 ms
+03.08.2020 3:34:26 [Verbose] Rest: GET users/@me: 240,4 ms
+03.08.2020 3:34:26 [Info] Gateway: Connecting
+03.08.2020 3:34:26 [Verbose] Rest: GET gateway: 259,63 ms
+03.08.2020 3:37:36 [Info] Discord: Discord.Net v2.2.0 (API v6)
+03.08.2020 3:37:37 [Verbose] Rest: GET voice/regions: 700,74 ms
+03.08.2020 3:37:38 [Verbose] Rest: GET users/@me: 220,67 ms
+03.08.2020 3:37:38 [Info] Gateway: Connecting
+03.08.2020 3:37:38 [Verbose] Rest: GET gateway: 78,88 ms
+03.08.2020 3:55:44 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 3:55:45 [Verbose] Rest: GET voice/regions: 851,9 ms
+03.08.2020 3:55:46 [Verbose] Rest: GET users/@me: 212,6 ms
+03.08.2020 3:55:46 [Info] Gateway: Connecting
+03.08.2020 3:55:46 [Verbose] Rest: GET gateway: 64,42 ms
+03.08.2020 3:55:47 [Info] Gateway: Connected
+03.08.2020 3:55:47 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 3:55:48 [Info] Gateway: Ready
+03.08.2020 3:58:55 [Info] Discord: Discord.Net v2.2.0 (API v6)
+03.08.2020 3:58:56 [Verbose] Rest: GET voice/regions: 661,79 ms
+03.08.2020 3:58:56 [Verbose] Rest: GET users/@me: 219,9 ms
+03.08.2020 3:58:56 [Info] Gateway: Connecting
+03.08.2020 3:58:56 [Verbose] Rest: GET gateway: 79,93 ms
+03.08.2020 4:10:27 [Info] Discord: Discord.Net v2.2.0 (API v6)
+03.08.2020 4:10:28 [Verbose] Rest: GET voice/regions: 722,86 ms
+03.08.2020 4:10:29 [Verbose] Rest: GET users/@me: 285,16 ms
+03.08.2020 4:10:29 [Info] Gateway: Connecting
+03.08.2020 4:10:29 [Verbose] Rest: GET gateway: 71,06 ms
+03.08.2020 4:13:52 [Info] Discord: Discord.Net v2.2.0 (API v6)
+03.08.2020 4:13:53 [Verbose] Rest: GET voice/regions: 689,17 ms
+03.08.2020 4:13:54 [Verbose] Rest: GET users/@me: 226,06 ms
+03.08.2020 4:13:54 [Info] Gateway: Connecting
+03.08.2020 4:13:54 [Verbose] Rest: GET gateway: 71,01 ms
+03.08.2020 4:13:55 [Info] Gateway: Connected
+03.08.2020 4:13:55 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 4:13:56 [Verbose] Rest: GET gateway/bot: 231,86 ms
+03.08.2020 4:13:58 [Info] Gateway: Ready
+03.08.2020 4:14:13 [Info] Discord: Discord.Net v2.2.0 (API v6)
+03.08.2020 4:14:14 [Verbose] Rest: GET voice/regions: 927,61 ms
+03.08.2020 4:14:14 [Verbose] Rest: GET users/@me: 225,25 ms
+03.08.2020 4:14:14 [Info] Gateway: Connecting
+03.08.2020 4:14:14 [Verbose] Rest: GET gateway: 70,37 ms
+03.08.2020 4:14:16 [Info] Gateway: Connected
+03.08.2020 4:14:16 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 4:14:17 [Verbose] Rest: GET gateway/bot: 216,82 ms
+03.08.2020 4:14:19 [Info] Gateway: Ready
+03.08.2020 4:14:51 [Verbose] Rest: POST channels/720663623277477929/messages: 301,28 ms
+03.08.2020 4:14:51 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:14:58 [Verbose] Rest: POST channels/720663623277477929/messages: 241,41 ms
+03.08.2020 4:14:58 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:16:21 [Info] Discord: Discord.Net v2.2.0 (API v6)
+03.08.2020 4:16:22 [Verbose] Rest: GET voice/regions: 829,97 ms
+03.08.2020 4:16:22 [Verbose] Rest: GET users/@me: 231,99 ms
+03.08.2020 4:16:22 [Info] Gateway: Connecting
+03.08.2020 4:16:58 [Info] Discord: Discord.Net v2.2.0 (API v6)
+03.08.2020 4:16:59 [Verbose] Rest: GET voice/regions: 632,29 ms
+03.08.2020 4:16:59 [Verbose] Rest: GET users/@me: 242,9 ms
+03.08.2020 4:16:59 [Info] Gateway: Connecting
+03.08.2020 4:16:59 [Verbose] Rest: GET gateway: 70,89 ms
+03.08.2020 4:17:01 [Info] Gateway: Connected
+03.08.2020 4:17:01 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 4:17:02 [Verbose] Rest: GET gateway/bot: 216,92 ms
+03.08.2020 4:17:04 [Info] Gateway: Ready
+03.08.2020 4:17:07 [Verbose] Rest: POST channels/720663623277477929/messages: 315,98 ms
+03.08.2020 4:17:07 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:17:11 [Verbose] Rest: POST channels/720663623277477929/messages: 234,99 ms
+03.08.2020 4:17:11 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:17:18 [Verbose] Rest: POST channels/720663623277477929/messages: 218,58 ms
+03.08.2020 4:17:18 [Verbose] Command: Executed "Play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:17:28 [Verbose] Rest: POST channels/720663623277477929/messages: 271,95 ms
+03.08.2020 4:17:28 [Verbose] Command: Executed "Join" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:17:28 [Warning] Gateway: System.InvalidOperationException: WebSocket connection to server isn't in open state.
+   at Victoria.LavaSocket.SendAsync[T](T value)
+   at Victoria.LavaNode`1.OnVoiceServerUpdatedAsync(SocketVoiceServer voiceServer)
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 4:17:36 [Verbose] Rest: POST channels/720663623277477929/messages: 268,82 ms
+03.08.2020 4:17:36 [Verbose] Command: Executed "Play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:18:24 [Info] Discord: Discord.Net v2.2.0 (API v6)
+03.08.2020 4:18:25 [Verbose] Rest: GET voice/regions: 828,79 ms
+03.08.2020 4:18:25 [Verbose] Rest: GET users/@me: 247,53 ms
+03.08.2020 4:18:25 [Info] Gateway: Connecting
+03.08.2020 4:18:25 [Verbose] Rest: GET gateway: 76,93 ms
+03.08.2020 4:18:26 [Info] Gateway: Connected
+03.08.2020 4:18:26 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 4:18:27 [Verbose] Rest: GET gateway/bot: 211,48 ms
+03.08.2020 4:18:29 [Info] Gateway: Ready
+03.08.2020 4:18:38 [Verbose] Rest: POST channels/720663623277477929/messages: 292,43 ms
+03.08.2020 4:18:38 [Verbose] Command: Executed "Play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:18:45 [Verbose] Rest: POST channels/720663623277477929/messages: 242,26 ms
+03.08.2020 4:18:45 [Verbose] Command: Executed "Join" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:18:45 [Warning] Gateway: System.InvalidOperationException: WebSocket connection to server isn't in open state.
+   at Victoria.LavaSocket.SendAsync[T](T value)
+   at Victoria.LavaNode`1.OnVoiceServerUpdatedAsync(SocketVoiceServer voiceServer)
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 4:18:46 [Verbose] Rest: POST channels/720663623277477929/messages: 343,7 ms
+03.08.2020 4:18:48 [Verbose] Rest: POST channels/720663623277477929/messages: 281,25 ms
+03.08.2020 4:18:48 [Verbose] Command: Executed "Play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:28:13 [Info] Discord: Discord.Net v2.2.0 (API v6)
+03.08.2020 4:28:14 [Verbose] Rest: GET voice/regions: 846,47 ms
+03.08.2020 4:28:15 [Verbose] Rest: GET users/@me: 223,32 ms
+03.08.2020 4:28:15 [Info] Gateway: Connecting
+03.08.2020 4:28:15 [Verbose] Rest: GET gateway: 90,37 ms
+03.08.2020 4:28:16 [Info] Gateway: Connected
+03.08.2020 4:28:16 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 4:28:17 [Verbose] Rest: GET gateway/bot: 208,52 ms
+03.08.2020 4:28:19 [Info] Gateway: Ready
+03.08.2020 4:28:24 [Verbose] Rest: POST channels/720663623277477929/messages: 244,41 ms
+03.08.2020 4:28:24 [Verbose] Command: Executed "Join" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:28:24 [Warning] Gateway: System.InvalidOperationException: WebSocket connection to server isn't in open state.
+   at Victoria.LavaSocket.SendAsync[T](T value)
+   at Victoria.LavaNode`1.OnVoiceServerUpdatedAsync(SocketVoiceServer voiceServer)
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 4:28:27 [Verbose] Rest: POST channels/720663623277477929/messages: 235,62 ms
+03.08.2020 4:28:28 [Verbose] Rest: POST channels/720663623277477929/messages: 235,79 ms
+03.08.2020 4:28:28 [Verbose] Command: Executed "Play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:29:06 [Verbose] Rest: POST channels/720663623277477929/messages: 413,59 ms
+03.08.2020 4:29:06 [Verbose] Rest: POST channels/720663623277477929/messages: 243,53 ms
+03.08.2020 4:29:06 [Verbose] Command: Executed "Play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:29:57 [Info] Discord: Discord.Net v2.2.0 (API v6)
+03.08.2020 4:29:58 [Verbose] Rest: GET voice/regions: 647,31 ms
+03.08.2020 4:29:58 [Verbose] Rest: GET users/@me: 214,44 ms
+03.08.2020 4:29:59 [Info] Gateway: Connecting
+03.08.2020 4:29:59 [Verbose] Rest: GET gateway: 78,03 ms
+03.08.2020 4:30:00 [Info] Gateway: Connected
+03.08.2020 4:30:00 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 4:30:01 [Verbose] Rest: GET gateway/bot: 204,73 ms
+03.08.2020 4:30:03 [Info] Gateway: Ready
+03.08.2020 4:30:12 [Verbose] Rest: POST channels/720663623277477929/messages: 281,44 ms
+03.08.2020 4:30:12 [Verbose] Rest: POST channels/720663623277477929/messages: 240,69 ms
+03.08.2020 4:30:12 [Verbose] Command: Executed "Play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:31:07 [Verbose] Rest: POST channels/720663623277477929/messages: 232,95 ms
+03.08.2020 4:31:07 [Verbose] Command: Executed "Play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:31:08 [Warning] Gateway: System.InvalidOperationException: WebSocket connection to server isn't in open state.
+   at Victoria.LavaSocket.SendAsync[T](T value)
+   at Victoria.LavaNode`1.OnVoiceServerUpdatedAsync(SocketVoiceServer voiceServer)
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 4:39:05 [Info] Discord: Discord.Net v2.2.0 (API v6)
+03.08.2020 4:39:06 [Verbose] Rest: GET voice/regions: 821,45 ms
+03.08.2020 4:39:07 [Verbose] Rest: GET users/@me: 408,52 ms
+03.08.2020 4:39:07 [Info] Gateway: Connecting
+03.08.2020 4:39:07 [Verbose] Rest: GET gateway: 79,46 ms
+03.08.2020 4:39:08 [Info] Gateway: Connected
+03.08.2020 4:39:08 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 4:39:09 [Verbose] Rest: GET gateway/bot: 242,15 ms
+03.08.2020 4:39:11 [Info] Gateway: Ready
+03.08.2020 4:39:26 [Verbose] Rest: POST channels/720663623277477929/messages: 252,8 ms
+03.08.2020 4:39:26 [Verbose] Command: Executed "Play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:39:31 [Verbose] Rest: POST channels/720663623277477929/messages: 323,96 ms
+03.08.2020 4:39:33 [Verbose] Rest: POST channels/720663623277477929/messages: 283,31 ms
+03.08.2020 4:39:33 [Verbose] Command: Executed "Join" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:39:34 [Warning] Gateway: System.InvalidOperationException: WebSocket connection to server isn't in open state.
+   at Victoria.LavaSocket.SendAsync[T](T value)
+   at Victoria.LavaNode`1.OnVoiceServerUpdatedAsync(SocketVoiceServer voiceServer)
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 4:39:38 [Error] Command: Discord.Commands.CommandException: Error occurred executing "Play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot.
+ ---> System.Net.Http.HttpRequestException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ ---> System.Net.Sockets.SocketException (10061): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Victoria.LavaNode`1.SearchAsync(String query)
+   at DarlingBotNet.Modules.Music.Audio.PlayAsync(String searchQuery) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Music\Audio.cs:line 38
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+03.08.2020 4:39:38 [Verbose] Command: Executed "Play" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:49:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 4:50:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 4:50:14 [Verbose] Rest: GET voice/regions: 806,07 ms
+03.08.2020 4:50:14 [Verbose] Rest: GET users/@me: 211,88 ms
+03.08.2020 4:50:14 [Info] Gateway: Connecting
+03.08.2020 4:50:15 [Verbose] Rest: GET gateway: 70,01 ms
+03.08.2020 4:50:16 [Info] Gateway: Connected
+03.08.2020 4:50:16 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 4:50:17 [Info] Gateway: Ready
+03.08.2020 4:50:22 [Verbose] Rest: GET oauth2/applications/@me: 233,66 ms
+03.08.2020 4:50:22 [Verbose] Rest: POST channels/720663623277477929/messages: 234,95 ms
+03.08.2020 4:50:22 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:50:28 [Verbose] Rest: POST channels/720663623277477929/messages: 353,89 ms
+03.08.2020 4:50:28 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:50:31 [Error] Command: Discord.Commands.CommandException: Error occurred executing "join" for h1kkaru.#2627 in DarlingBotInfo/darlingbot.
+ ---> System.BadImageFormatException: Была сделана попытка загрузить программу, имеющую неверный формат. (0x8007000B)
+   at Discord.Audio.OpusDecoder.CreateDecoder(Int32 Fs, Int32 channels, OpusError& error)
+   at Discord.Audio.OpusDecoder..ctor()
+   at Discord.Audio.Streams.OpusDecodeStream..ctor(AudioStream next)
+   at Discord.Audio.AudioClient.CreateInputStreamAsync(UInt64 userId)
+   at Discord.WebSocket.SocketGuild.RepopulateAudioStreamsAsync()
+   at Discord.WebSocket.SocketGuild.FinishConnectAudio(String url, String token)
+   at Discord.WebSocket.SocketGuild.ConnectAudioAsync(UInt64 channelId, Boolean selfDeaf, Boolean selfMute, Boolean external)
+   at Discord.WebSocket.SocketGuild.ConnectAudioAsync(UInt64 channelId, Boolean selfDeaf, Boolean selfMute, Boolean external)
+   at Discord.WebSocket.SocketVoiceChannel.ConnectAsync(Boolean selfDeaf, Boolean selfMute, Boolean external)
+   at DarlingBotNet.Services.Sys.AudioService.JoinAudio(IGuild guild, IVoiceChannel target) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\AudioService.cs:line 29
+   at DarlingBotNet.Modules.AudioModule.JoinCmd() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Audio.cs:line 31
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+03.08.2020 4:50:31 [Verbose] Command: Executed "join" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 4:56:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 4:56:05 [Verbose] Rest: GET voice/regions: 814,56 ms
+03.08.2020 4:56:05 [Verbose] Rest: GET users/@me: 227,92 ms
+03.08.2020 4:56:05 [Info] Gateway: Connecting
+03.08.2020 4:56:05 [Verbose] Rest: GET gateway: 90,96 ms
+03.08.2020 4:56:07 [Info] Gateway: Connected
+03.08.2020 4:56:07 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 4:56:08 [Info] Gateway: Ready
+03.08.2020 4:56:15 [Verbose] Rest: GET oauth2/applications/@me: 219,77 ms
+03.08.2020 4:56:15 [Error] Command: Discord.Commands.CommandException: Error occurred executing "join" for h1kkaru.#2627 in DarlingBotInfo/darlingbot.
+ ---> System.BadImageFormatException: Была сделана попытка загрузить программу, имеющую неверный формат. (0x8007000B)
+   at Discord.Audio.OpusDecoder.CreateDecoder(Int32 Fs, Int32 channels, OpusError& error)
+   at Discord.Audio.OpusDecoder..ctor()
+   at Discord.Audio.Streams.OpusDecodeStream..ctor(AudioStream next)
+   at Discord.Audio.AudioClient.CreateInputStreamAsync(UInt64 userId)
+   at Discord.WebSocket.SocketGuild.RepopulateAudioStreamsAsync()
+   at Discord.WebSocket.SocketGuild.FinishConnectAudio(String url, String token)
+   at Discord.WebSocket.SocketGuild.ConnectAudioAsync(UInt64 channelId, Boolean selfDeaf, Boolean selfMute, Boolean external)
+   at Discord.WebSocket.SocketGuild.ConnectAudioAsync(UInt64 channelId, Boolean selfDeaf, Boolean selfMute, Boolean external)
+   at Discord.WebSocket.SocketVoiceChannel.ConnectAsync(Boolean selfDeaf, Boolean selfMute, Boolean external)
+   at DarlingBotNet.Services.Sys.AudioService.JoinAudio(IGuild guild, IVoiceChannel target) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\AudioService.cs:line 29
+   at DarlingBotNet.Modules.AudioModule.JoinCmd() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Audio.cs:line 31
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+03.08.2020 4:56:15 [Verbose] Command: Executed "join" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 5:00:33 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 5:00:34 [Verbose] Rest: GET voice/regions: 700,64 ms
+03.08.2020 5:00:34 [Verbose] Rest: GET users/@me: 240,11 ms
+03.08.2020 5:00:34 [Info] Gateway: Connecting
+03.08.2020 5:00:34 [Verbose] Rest: GET gateway: 80,56 ms
+03.08.2020 5:00:36 [Info] Gateway: Connected
+03.08.2020 5:00:36 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 5:00:37 [Info] Gateway: Ready
+03.08.2020 5:01:01 [Verbose] Rest: GET oauth2/applications/@me: 240,16 ms
+03.08.2020 5:01:02 [Error] Command: Discord.Commands.CommandException: Error occurred executing "join" for h1kkaru.#2627 in DarlingBotInfo/darlingbot.
+ ---> System.BadImageFormatException: Была сделана попытка загрузить программу, имеющую неверный формат. (0x8007000B)
+   at Discord.Audio.OpusDecoder.CreateDecoder(Int32 Fs, Int32 channels, OpusError& error)
+   at Discord.Audio.OpusDecoder..ctor()
+   at Discord.Audio.Streams.OpusDecodeStream..ctor(AudioStream next)
+   at Discord.Audio.AudioClient.CreateInputStreamAsync(UInt64 userId)
+   at Discord.WebSocket.SocketGuild.RepopulateAudioStreamsAsync()
+   at Discord.WebSocket.SocketGuild.FinishConnectAudio(String url, String token)
+   at Discord.WebSocket.SocketGuild.ConnectAudioAsync(UInt64 channelId, Boolean selfDeaf, Boolean selfMute, Boolean external)
+   at Discord.WebSocket.SocketGuild.ConnectAudioAsync(UInt64 channelId, Boolean selfDeaf, Boolean selfMute, Boolean external)
+   at Discord.WebSocket.SocketVoiceChannel.ConnectAsync(Boolean selfDeaf, Boolean selfMute, Boolean external)
+   at DarlingBotNet.Services.Sys.AudioService.JoinAudio(IGuild guild, IVoiceChannel target) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\AudioService.cs:line 29
+   at DarlingBotNet.Modules.AudioModule.JoinCmd() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Audio.cs:line 31
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+03.08.2020 5:01:02 [Verbose] Command: Executed "join" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+03.08.2020 8:41:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 8:41:40 [Verbose] Rest: GET voice/regions: 760,19 ms
+03.08.2020 8:41:41 [Verbose] Rest: GET users/@me: 213,78 ms
+03.08.2020 8:41:41 [Info] Gateway: Connecting
+03.08.2020 8:41:41 [Verbose] Rest: GET gateway: 72,35 ms
+03.08.2020 8:41:42 [Info] Gateway: Connected
+03.08.2020 8:41:42 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 8:41:44 [Warning] Gateway: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Channels.channelid'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at DarlingBotNet.Services.SystemLoading.ChannelCreateRange(IEnumerable`1 Channels) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 275
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 174
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 8:41:44 [Info] Gateway: Ready
+03.08.2020 9:48:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 9:48:32 [Verbose] Rest: GET voice/regions: 816,57 ms
+03.08.2020 9:48:32 [Verbose] Rest: GET users/@me: 249,63 ms
+03.08.2020 9:48:32 [Info] Gateway: Connecting
+03.08.2020 9:48:32 [Verbose] Rest: GET gateway: 76,83 ms
+03.08.2020 9:48:33 [Info] Gateway: Connected
+03.08.2020 9:48:33 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 9:48:35 [Warning] Gateway: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Channels.channelid'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at DarlingBotNet.Services.SystemLoading.ChannelCreateRange(IEnumerable`1 Channels) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 275
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 174
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 9:48:35 [Info] Gateway: Ready
+03.08.2020 9:51:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 9:51:39 [Verbose] Rest: GET voice/regions: 662,66 ms
+03.08.2020 9:51:40 [Verbose] Rest: GET users/@me: 246,07 ms
+03.08.2020 9:51:40 [Info] Gateway: Connecting
+03.08.2020 9:51:40 [Verbose] Rest: GET gateway: 79,32 ms
+03.08.2020 9:51:41 [Info] Gateway: Connected
+03.08.2020 9:51:41 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 9:51:42 [Warning] Gateway: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Channels.channelid'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at DarlingBotNet.Services.SystemLoading.ChannelCreateRange(IEnumerable`1 Channels) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 273
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 174
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 9:51:42 [Info] Gateway: Ready
+03.08.2020 9:52:48 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 9:52:49 [Verbose] Rest: GET voice/regions: 851,99 ms
+03.08.2020 9:52:49 [Verbose] Rest: GET users/@me: 225,61 ms
+03.08.2020 9:52:49 [Info] Gateway: Connecting
+03.08.2020 9:52:49 [Verbose] Rest: GET gateway: 86,73 ms
+03.08.2020 9:52:50 [Info] Gateway: Connected
+03.08.2020 9:52:50 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 9:52:52 [Warning] Gateway: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Channels.channelid'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at DarlingBotNet.Services.SystemLoading.ChannelCreateRange(IEnumerable`1 Channels) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 273
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 174
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 9:52:52 [Info] Gateway: Ready
+03.08.2020 9:55:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 9:55:31 [Verbose] Rest: GET voice/regions: 770,83 ms
+03.08.2020 9:55:31 [Verbose] Rest: GET users/@me: 243,84 ms
+03.08.2020 9:55:32 [Info] Gateway: Connecting
+03.08.2020 9:55:32 [Verbose] Rest: GET gateway: 75,54 ms
+03.08.2020 9:55:33 [Info] Gateway: Connected
+03.08.2020 9:55:33 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 9:57:16 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 9:57:17 [Verbose] Rest: GET voice/regions: 828,79 ms
+03.08.2020 9:57:17 [Verbose] Rest: GET users/@me: 231,3 ms
+03.08.2020 9:57:18 [Info] Gateway: Connecting
+03.08.2020 9:57:18 [Verbose] Rest: GET gateway: 78,33 ms
+03.08.2020 9:57:19 [Info] Gateway: Connected
+03.08.2020 9:57:19 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 9:57:20 [Warning] Gateway: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Channels.channelid'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at DarlingBotNet.Services.SystemLoading.ChannelCreateRange(IEnumerable`1 Channels) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 278
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 174
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 9:57:20 [Info] Gateway: Ready
+03.08.2020 10:00:35 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:00:37 [Verbose] Rest: GET voice/regions: 1318,64 ms
+03.08.2020 10:00:37 [Verbose] Rest: GET users/@me: 235,7 ms
+03.08.2020 10:00:37 [Info] Gateway: Connecting
+03.08.2020 10:00:37 [Verbose] Rest: GET gateway: 79,19 ms
+03.08.2020 10:01:19 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:01:20 [Verbose] Rest: GET voice/regions: 1043,66 ms
+03.08.2020 10:01:20 [Verbose] Rest: GET users/@me: 235,71 ms
+03.08.2020 10:01:20 [Info] Gateway: Connecting
+03.08.2020 10:01:21 [Verbose] Rest: GET gateway: 73,91 ms
+03.08.2020 10:01:23 [Info] Gateway: Connected
+03.08.2020 10:01:23 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:01:24 [Warning] Gateway: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Channels.channelid'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at DarlingBotNet.Services.SystemLoading.ChannelCreateRange(IEnumerable`1 Channels) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 277
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 174
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 10:01:24 [Info] Gateway: Ready
+03.08.2020 10:01:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:02:00 [Verbose] Rest: GET voice/regions: 1058,4 ms
+03.08.2020 10:02:01 [Verbose] Rest: GET users/@me: 235,78 ms
+03.08.2020 10:02:01 [Info] Gateway: Connecting
+03.08.2020 10:02:01 [Verbose] Rest: GET gateway: 80,38 ms
+03.08.2020 10:02:02 [Info] Gateway: Connected
+03.08.2020 10:02:02 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:03:55 [Warning] Gateway: System.Exception: WebSocket connection was closed
+ ---> Discord.Net.WebSocketClosedException: The server sent close 1000: ""
+   at Discord.Net.WebSockets.DefaultWebSocketClient.RunAsync(CancellationToken cancelToken)
+   --- End of inner exception stack trace ---
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+03.08.2020 10:03:55 [Info] Gateway: Disconnecting
+03.08.2020 10:03:56 [Warning] Gateway: A Ready handler is blocking the gateway task.
+03.08.2020 10:03:56 [Warning] Gateway: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Channels.channelid'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at DarlingBotNet.Services.SystemLoading.ChannelCreateRange(IEnumerable`1 Channels) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 277
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 174
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 10:03:56 [Info] Gateway: Ready
+03.08.2020 10:03:56 [Verbose] Gateway: Disconnected from DarlingBotInfo
+03.08.2020 10:03:56 [Info] Gateway: Disconnected
+03.08.2020 10:03:57 [Info] Gateway: Connecting
+03.08.2020 10:03:57 [Verbose] Rest: GET gateway: 82,43 ms
+03.08.2020 10:03:57 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:03:57 [Info] Gateway: Connected
+03.08.2020 10:03:57 [Info] Gateway: Resumed previous session
+03.08.2020 10:09:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:09:48 [Verbose] Rest: GET voice/regions: 762,38 ms
+03.08.2020 10:09:48 [Verbose] Rest: GET users/@me: 225,25 ms
+03.08.2020 10:09:48 [Info] Gateway: Connecting
+03.08.2020 10:09:48 [Verbose] Rest: GET gateway: 78,84 ms
+03.08.2020 10:09:49 [Info] Gateway: Connected
+03.08.2020 10:09:50 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:09:51 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<Channels>
+    .Where(c => c.guildid == __8__locals1_Guild_guildId_0 && __glds_1.GetChannel(c.channelid) == null)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.DbContext.RemoveRange(IEnumerable`1 entities)
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 178
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 10:09:51 [Info] Gateway: Ready
+03.08.2020 10:13:40 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:13:41 [Verbose] Rest: GET voice/regions: 959,94 ms
+03.08.2020 10:13:42 [Verbose] Rest: GET users/@me: 251,52 ms
+03.08.2020 10:13:42 [Info] Gateway: Connecting
+03.08.2020 10:13:42 [Verbose] Rest: GET gateway: 84,72 ms
+03.08.2020 10:13:44 [Info] Gateway: Connected
+03.08.2020 10:13:44 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:13:45 [Warning] Gateway: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Channels.channelid'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at DarlingBotNet.Services.SystemLoading.ChannelCreateRange(IEnumerable`1 Channels) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 278
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 175
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 10:13:45 [Info] Gateway: Ready
+03.08.2020 10:19:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:19:44 [Verbose] Rest: GET voice/regions: 915,8 ms
+03.08.2020 10:19:45 [Verbose] Rest: GET users/@me: 224,65 ms
+03.08.2020 10:19:45 [Info] Gateway: Connecting
+03.08.2020 10:19:45 [Verbose] Rest: GET gateway: 89,54 ms
+03.08.2020 10:19:46 [Info] Gateway: Connected
+03.08.2020 10:19:46 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:19:47 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<EmoteClick>
+    .Where(e => e.guildid == __8__locals1_Guild_guildId_0)
+    .Where(e => __Channels_1
+        .Where(z => z.channelid == e.channelid) != null)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.DbContext.RemoveRange(IEnumerable`1 entities)
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 180
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 10:19:47 [Info] Gateway: Ready
+03.08.2020 10:23:06 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:23:06 [Verbose] Rest: GET voice/regions: 773,24 ms
+03.08.2020 10:23:07 [Verbose] Rest: GET users/@me: 242,66 ms
+03.08.2020 10:23:07 [Info] Gateway: Connecting
+03.08.2020 10:23:07 [Verbose] Rest: GET gateway: 71,8 ms
+03.08.2020 10:23:09 [Info] Gateway: Connected
+03.08.2020 10:23:09 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:23:10 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<LVLROLES>
+    .Where(l => l.guildid == __8__locals1_Guild_guildId_0 && __glds_1.GetRole(l.roleid) == null)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.DbContext.RemoveRange(IEnumerable`1 entities)
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 181
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 10:23:10 [Info] Gateway: Ready
+03.08.2020 10:23:45 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:23:46 [Verbose] Rest: GET voice/regions: 976,55 ms
+03.08.2020 10:23:47 [Verbose] Rest: GET users/@me: 208,96 ms
+03.08.2020 10:23:47 [Info] Gateway: Connecting
+03.08.2020 10:23:47 [Verbose] Rest: GET gateway: 73,73 ms
+03.08.2020 10:23:48 [Info] Gateway: Connected
+03.08.2020 10:23:48 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:23:49 [Warning] Gateway: System.InvalidOperationException: The entity type 'Task<VoidTaskResult>' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityStates(IEnumerable`1 entities, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.UpdateRange(IEnumerable`1 entities)
+   at Microsoft.EntityFrameworkCore.DbContext.UpdateRange(Object[] entities)
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 182
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 10:23:49 [Info] Gateway: Ready
+03.08.2020 10:24:16 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:24:17 [Verbose] Rest: GET voice/regions: 953,39 ms
+03.08.2020 10:24:18 [Verbose] Rest: GET users/@me: 227,4 ms
+03.08.2020 10:24:18 [Info] Gateway: Connecting
+03.08.2020 10:24:18 [Verbose] Rest: GET gateway: 80,21 ms
+03.08.2020 10:24:19 [Info] Gateway: Connected
+03.08.2020 10:24:19 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:26:06 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:26:08 [Verbose] Rest: GET voice/regions: 1063,87 ms
+03.08.2020 10:26:08 [Verbose] Rest: GET users/@me: 208,34 ms
+03.08.2020 10:26:08 [Info] Gateway: Connecting
+03.08.2020 10:26:08 [Verbose] Rest: GET gateway: 71,7 ms
+03.08.2020 10:26:09 [Info] Gateway: Connected
+03.08.2020 10:26:10 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:26:11 [Warning] Gateway: System.ArgumentNullException: Value cannot be null. (Parameter 'entities')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.DbContext.UpdateRange(IEnumerable`1 entities)
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 182
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 10:26:11 [Info] Gateway: Ready
+03.08.2020 10:27:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:28:00 [Verbose] Rest: GET voice/regions: 765,27 ms
+03.08.2020 10:28:01 [Verbose] Rest: GET users/@me: 220,71 ms
+03.08.2020 10:28:01 [Info] Gateway: Connecting
+03.08.2020 10:28:01 [Verbose] Rest: GET gateway: 88,85 ms
+03.08.2020 10:28:02 [Info] Gateway: Connected
+03.08.2020 10:28:02 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:28:03 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<Users>
+    .Where(u => u.guildId == __8__locals1_Guild_guildId_0 && __glds_1.GetUser(u.userid) == null)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 177
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 370
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 10:28:03 [Info] Gateway: Ready
+03.08.2020 10:28:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:28:40 [Verbose] Rest: GET voice/regions: 896,02 ms
+03.08.2020 10:28:41 [Verbose] Rest: GET users/@me: 234,73 ms
+03.08.2020 10:28:41 [Info] Gateway: Connecting
+03.08.2020 10:28:41 [Verbose] Rest: GET gateway: 77,27 ms
+03.08.2020 10:28:42 [Info] Gateway: Connected
+03.08.2020 10:28:42 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:28:43 [Info] Gateway: Ready
+03.08.2020 10:28:54 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<LVLROLES>
+    .Where(l => l.guildid == __user_Guild_Id_0 && l.countlvl <= __usr_Level_1)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 349
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 394
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+03.08.2020 10:28:55 [Verbose] Rest: POST channels/663380088188043280/messages: 410,87 ms
+03.08.2020 10:28:55 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/основной
+03.08.2020 10:29:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:30:00 [Verbose] Rest: GET voice/regions: 949,45 ms
+03.08.2020 10:30:01 [Verbose] Rest: GET users/@me: 298,88 ms
+03.08.2020 10:30:01 [Info] Gateway: Connecting
+03.08.2020 10:30:01 [Verbose] Rest: GET gateway: 73,6 ms
+03.08.2020 10:30:02 [Info] Gateway: Connected
+03.08.2020 10:30:02 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:30:03 [Info] Gateway: Ready
+03.08.2020 10:30:08 [Verbose] Rest: POST channels/663380088188043280/messages: 445,51 ms
+03.08.2020 10:30:08 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/основной
+03.08.2020 10:35:41 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.08.2020 10:35:42 [Verbose] Rest: GET voice/regions: 798,32 ms
+03.08.2020 10:35:42 [Verbose] Rest: GET users/@me: 272,06 ms
+03.08.2020 10:35:42 [Info] Gateway: Connecting
+03.08.2020 10:35:43 [Verbose] Rest: GET gateway: 85,1 ms
+03.08.2020 10:35:44 [Info] Gateway: Connected
+03.08.2020 10:35:44 [Verbose] Gateway: Connected to DarlingBotInfo
+03.08.2020 10:35:45 [Info] Gateway: Ready
+03.08.2020 10:35:54 [Verbose] Rest: POST channels/663380088188043280/messages: 232,92 ms
+03.08.2020 10:35:54 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+03.08.2020 10:36:00 [Verbose] Rest: POST channels/663380088188043280/messages: 358,15 ms
+03.08.2020 10:36:00 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/основной
+03.08.2020 10:36:03 [Verbose] Rest: POST channels/663380088188043280/messages: 220,97 ms
+03.08.2020 10:36:03 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+03.08.2020 10:36:08 [Verbose] Rest: POST channels/663380088188043280/messages: 258,31 ms
+03.08.2020 10:36:08 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/основной
+03.08.2020 10:36:08 [Verbose] Rest: POST channels/663380088188043280/messages: 249,08 ms
+03.08.2020 10:36:08 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/основной

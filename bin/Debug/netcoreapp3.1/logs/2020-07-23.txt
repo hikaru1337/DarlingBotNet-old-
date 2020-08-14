@@ -1,0 +1,682 @@
+23.07.2020 6:08:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:08:15 [Verbose] Rest: GET voice/regions: 763,17 ms
+23.07.2020 6:08:16 [Verbose] Rest: GET users/@me: 248,26 ms
+23.07.2020 6:08:16 [Info] Gateway: Connecting
+23.07.2020 6:08:16 [Verbose] Rest: GET gateway: 76,55 ms
+23.07.2020 6:08:17 [Info] Gateway: Connected
+23.07.2020 6:08:17 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:08:17 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:08:18 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:08:18 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:08:18 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:08:18 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:08:18 [Verbose] Gateway: Connected to просто
+23.07.2020 6:08:18 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:08:18 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:08:18 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:08:18 [Verbose] Gateway: Connected to говно
+23.07.2020 6:08:18 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:08:18 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:08:18 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:08:18 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:08:20 [Info] Gateway: Ready
+23.07.2020 6:08:44 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:08:45 [Verbose] Rest: GET voice/regions: 709,36 ms
+23.07.2020 6:08:45 [Verbose] Rest: GET users/@me: 220,56 ms
+23.07.2020 6:08:45 [Info] Gateway: Connecting
+23.07.2020 6:08:45 [Verbose] Rest: GET gateway: 73,74 ms
+23.07.2020 6:08:47 [Info] Gateway: Connected
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to просто
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to говно
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:08:47 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:08:49 [Info] Gateway: Ready
+23.07.2020 6:09:07 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:09:08 [Verbose] Rest: GET voice/regions: 840,34 ms
+23.07.2020 6:09:08 [Verbose] Rest: GET users/@me: 231,02 ms
+23.07.2020 6:09:08 [Info] Gateway: Connecting
+23.07.2020 6:09:08 [Verbose] Rest: GET gateway: 77,89 ms
+23.07.2020 6:09:10 [Info] Gateway: Connected
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to просто
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to говно
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:09:11 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:09:13 [Info] Gateway: Ready
+23.07.2020 6:09:16 [Verbose] Rest: POST channels/642712334145421321/messages: 1056,63 ms
+23.07.2020 6:09:16 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:09:32 [Verbose] Rest: POST channels/642712334145421321/messages: 304,26 ms
+23.07.2020 6:09:32 [Verbose] Command: Executed "level" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:09:40 [Verbose] Rest: POST channels/642712334145421321/messages: 406,53 ms
+23.07.2020 6:09:48 [Verbose] Rest: POST channels/642712334145421321/messages: 305,28 ms
+23.07.2020 6:10:01 [Verbose] Rest: POST channels/642712334145421321/messages: 544,71 ms
+23.07.2020 6:10:01 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:10:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:10:15 [Verbose] Rest: GET voice/regions: 664,49 ms
+23.07.2020 6:10:16 [Verbose] Rest: GET users/@me: 217,76 ms
+23.07.2020 6:10:16 [Info] Gateway: Connecting
+23.07.2020 6:10:16 [Verbose] Rest: GET gateway: 77,28 ms
+23.07.2020 6:10:17 [Info] Gateway: Connected
+23.07.2020 6:10:17 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:10:17 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:10:18 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:10:18 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:10:18 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:10:18 [Verbose] Gateway: Connected to просто
+23.07.2020 6:10:18 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:10:18 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:10:18 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:10:18 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:10:18 [Verbose] Gateway: Connected to говно
+23.07.2020 6:10:18 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:10:18 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:10:18 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:10:18 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:10:19 [Info] Gateway: Ready
+23.07.2020 6:10:23 [Verbose] Rest: POST channels/642712334145421321/messages: 366,47 ms
+23.07.2020 6:10:23 [Verbose] Command: Executed "level" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:11:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:11:38 [Verbose] Rest: GET voice/regions: 750,89 ms
+23.07.2020 6:11:38 [Verbose] Rest: GET users/@me: 230,73 ms
+23.07.2020 6:11:38 [Info] Gateway: Connecting
+23.07.2020 6:11:38 [Verbose] Rest: GET gateway: 85,49 ms
+23.07.2020 6:11:39 [Info] Gateway: Connected
+23.07.2020 6:11:39 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:11:39 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:11:40 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:11:40 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:11:40 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:11:40 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:11:40 [Verbose] Gateway: Connected to просто
+23.07.2020 6:11:40 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:11:40 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:11:40 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:11:40 [Verbose] Gateway: Connected to говно
+23.07.2020 6:11:40 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:11:40 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:11:40 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:11:40 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:11:42 [Info] Gateway: Ready
+23.07.2020 6:11:46 [Verbose] Rest: POST channels/642712334145421321/messages: 806,19 ms
+23.07.2020 6:11:46 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:11:51 [Verbose] Rest: POST channels/642712334145421321/messages: 257,57 ms
+23.07.2020 6:11:51 [Verbose] Command: Executed "level" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:12:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:12:37 [Verbose] Rest: GET voice/regions: 685,73 ms
+23.07.2020 6:12:37 [Verbose] Rest: GET users/@me: 223,71 ms
+23.07.2020 6:12:37 [Info] Gateway: Connecting
+23.07.2020 6:12:37 [Verbose] Rest: GET gateway: 88,97 ms
+23.07.2020 6:12:39 [Info] Gateway: Connected
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to просто
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to говно
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:12:39 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:12:41 [Info] Gateway: Ready
+23.07.2020 6:12:44 [Verbose] Rest: POST channels/642712334145421321/messages: 885,09 ms
+23.07.2020 6:12:44 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:13:19 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:13:20 [Verbose] Rest: GET voice/regions: 748,69 ms
+23.07.2020 6:13:20 [Verbose] Rest: GET users/@me: 222,9 ms
+23.07.2020 6:13:20 [Info] Gateway: Connecting
+23.07.2020 6:13:20 [Verbose] Rest: GET gateway: 82,47 ms
+23.07.2020 6:13:22 [Info] Gateway: Connected
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to просто
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to говно
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:13:22 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:13:24 [Info] Gateway: Ready
+23.07.2020 6:13:26 [Verbose] Rest: POST channels/642712334145421321/messages: 788,77 ms
+23.07.2020 6:13:26 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:13:50 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:13:51 [Verbose] Rest: GET voice/regions: 771,1 ms
+23.07.2020 6:13:52 [Verbose] Rest: GET users/@me: 249,62 ms
+23.07.2020 6:13:52 [Info] Gateway: Connecting
+23.07.2020 6:13:52 [Verbose] Rest: GET gateway: 86,42 ms
+23.07.2020 6:13:53 [Info] Gateway: Connected
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to просто
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to говно
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:13:53 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:13:55 [Info] Gateway: Ready
+23.07.2020 6:13:58 [Verbose] Rest: POST channels/642712334145421321/messages: 803,79 ms
+23.07.2020 6:13:58 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:14:09 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:14:10 [Verbose] Rest: GET voice/regions: 742,37 ms
+23.07.2020 6:14:10 [Verbose] Rest: GET users/@me: 227,56 ms
+23.07.2020 6:14:10 [Info] Gateway: Connecting
+23.07.2020 6:14:10 [Verbose] Rest: GET gateway: 86,05 ms
+23.07.2020 6:14:11 [Info] Gateway: Connected
+23.07.2020 6:14:11 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to просто
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to говно
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:14:12 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:14:14 [Info] Gateway: Ready
+23.07.2020 6:14:17 [Verbose] Rest: POST channels/642712334145421321/messages: 966,83 ms
+23.07.2020 6:14:17 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:14:28 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:14:29 [Verbose] Rest: GET voice/regions: 671,06 ms
+23.07.2020 6:14:29 [Verbose] Rest: GET users/@me: 226,1 ms
+23.07.2020 6:14:29 [Info] Gateway: Connecting
+23.07.2020 6:14:29 [Verbose] Rest: GET gateway: 79,74 ms
+23.07.2020 6:14:30 [Info] Gateway: Connected
+23.07.2020 6:14:30 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:14:30 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:14:30 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:14:31 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:14:31 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:14:31 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:14:31 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:14:31 [Verbose] Gateway: Connected to просто
+23.07.2020 6:14:31 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:14:31 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:14:31 [Verbose] Gateway: Connected to говно
+23.07.2020 6:14:31 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:14:31 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:14:31 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:14:31 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:14:32 [Info] Gateway: Ready
+23.07.2020 6:14:35 [Verbose] Rest: POST channels/642712334145421321/messages: 775,01 ms
+23.07.2020 6:14:35 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:14:42 [Verbose] Rest: POST channels/642712334145421321/messages: 316,67 ms
+23.07.2020 6:14:42 [Verbose] Command: Executed "level" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:14:42 [Verbose] Rest: POST channels/642712334145421321/messages: 373 ms
+23.07.2020 6:14:50 [Verbose] Rest: POST channels/642712334145421321/messages: 999,98 ms
+23.07.2020 6:14:50 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:15:00 [Verbose] Rest: POST channels/642712334145421321/messages: 324,09 ms
+23.07.2020 6:15:00 [Verbose] Command: Executed "level" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:15:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:15:32 [Verbose] Rest: GET voice/regions: 723,52 ms
+23.07.2020 6:15:33 [Verbose] Rest: GET users/@me: 326,73 ms
+23.07.2020 6:15:33 [Info] Gateway: Connecting
+23.07.2020 6:15:33 [Verbose] Rest: GET gateway: 75,94 ms
+23.07.2020 6:15:34 [Info] Gateway: Connected
+23.07.2020 6:15:34 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:15:34 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:15:34 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:15:35 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:15:35 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:15:35 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:15:35 [Verbose] Gateway: Connected to просто
+23.07.2020 6:15:35 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:15:35 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:15:35 [Verbose] Gateway: Connected to говно
+23.07.2020 6:15:35 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:15:35 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:15:35 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:15:35 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:15:35 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:15:37 [Info] Gateway: Ready
+23.07.2020 6:15:41 [Verbose] Rest: POST channels/642712334145421321/messages: 912,61 ms
+23.07.2020 6:15:41 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:16:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:16:33 [Verbose] Rest: GET voice/regions: 784,88 ms
+23.07.2020 6:16:34 [Verbose] Rest: GET users/@me: 229,73 ms
+23.07.2020 6:16:34 [Info] Gateway: Connecting
+23.07.2020 6:16:34 [Verbose] Rest: GET gateway: 76,24 ms
+23.07.2020 6:16:35 [Info] Gateway: Connected
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to просто
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to говно
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:16:35 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:16:37 [Info] Gateway: Ready
+23.07.2020 6:16:40 [Verbose] Rest: POST channels/642712334145421321/messages: 874,19 ms
+23.07.2020 6:16:40 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:16:48 [Verbose] Rest: POST channels/642712334145421321/messages: 241,14 ms
+23.07.2020 6:16:48 [Verbose] Command: Executed "level" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:17:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:17:13 [Verbose] Rest: GET voice/regions: 777,61 ms
+23.07.2020 6:17:14 [Verbose] Rest: GET users/@me: 272,01 ms
+23.07.2020 6:17:14 [Info] Gateway: Connecting
+23.07.2020 6:17:14 [Verbose] Rest: GET gateway: 75,58 ms
+23.07.2020 6:17:15 [Info] Gateway: Connected
+23.07.2020 6:17:15 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:17:15 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:17:16 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:17:16 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:17:16 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:17:16 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:17:16 [Verbose] Gateway: Connected to просто
+23.07.2020 6:17:16 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:17:16 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:17:16 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:17:16 [Verbose] Gateway: Connected to говно
+23.07.2020 6:17:16 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:17:16 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:17:16 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:17:16 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:17:17 [Info] Gateway: Ready
+23.07.2020 6:17:20 [Verbose] Rest: POST channels/642712334145421321/messages: 764,86 ms
+23.07.2020 6:17:20 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:17:28 [Verbose] Rest: POST channels/642712334145421321/messages: 375,7 ms
+23.07.2020 6:17:28 [Verbose] Command: Executed "level" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:17:36 [Verbose] Rest: POST channels/642712334145421321/messages: 283,04 ms
+23.07.2020 6:17:41 [Verbose] Rest: POST channels/642712334145421321/messages: 545,46 ms
+23.07.2020 6:17:41 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:18:15 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+23.07.2020 6:18:16 [Verbose] Rest: POST channels/642712334145421321/messages: 623,75 ms
+23.07.2020 6:18:16 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:18:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:18:31 [Verbose] Rest: GET voice/regions: 733,88 ms
+23.07.2020 6:18:31 [Verbose] Rest: GET users/@me: 267,11 ms
+23.07.2020 6:18:31 [Info] Gateway: Connecting
+23.07.2020 6:18:31 [Verbose] Rest: GET gateway: 72,13 ms
+23.07.2020 6:18:33 [Info] Gateway: Connected
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to просто
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to говно
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:18:33 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:18:35 [Info] Gateway: Ready
+23.07.2020 6:18:38 [Verbose] Rest: POST channels/642712334145421321/messages: 760,25 ms
+23.07.2020 6:18:38 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:18:43 [Verbose] Rest: POST channels/642712334145421321/messages: 276,9 ms
+23.07.2020 6:18:43 [Verbose] Command: Executed "level" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:19:15 [Verbose] Rest: POST channels/642712334145421321/messages: 502,73 ms
+23.07.2020 6:19:15 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 6:19:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 6:19:33 [Verbose] Rest: GET voice/regions: 810,42 ms
+23.07.2020 6:19:34 [Verbose] Rest: GET users/@me: 235,24 ms
+23.07.2020 6:19:34 [Info] Gateway: Connecting
+23.07.2020 6:19:34 [Verbose] Rest: GET gateway: 113,04 ms
+23.07.2020 6:19:35 [Info] Gateway: Connected
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to Аниме
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to AMYF
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to просто
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to говно
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to test.server
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 6:19:35 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 6:19:37 [Info] Gateway: Ready
+23.07.2020 6:19:50 [Verbose] Rest: POST channels/642712334145421321/messages: 1309,21 ms
+23.07.2020 6:19:50 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 8:57:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 9:04:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 9:04:38 [Verbose] Rest: GET voice/regions: 728,4 ms
+23.07.2020 9:04:39 [Verbose] Rest: GET users/@me: 254,49 ms
+23.07.2020 9:04:39 [Info] Gateway: Connecting
+23.07.2020 9:04:39 [Verbose] Rest: GET gateway: 105,52 ms
+23.07.2020 9:04:40 [Info] Gateway: Connected
+23.07.2020 9:04:40 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 9:04:40 [Verbose] Gateway: Connected to Аниме
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to просто
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to AMYF
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to говно
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to test.server
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to Popizdelki
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 9:04:41 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 9:04:43 [Info] Gateway: Ready
+23.07.2020 9:04:45 [Verbose] Gateway: Disconnected from h1ka.'s server
+23.07.2020 9:04:45 [Info] Gateway: Left h1ka.'s server
+23.07.2020 9:04:45 [Warning] Gateway: Unknown Guild (GUILD_MEMBER_REMOVE Guild=717643480201166929).
+23.07.2020 9:04:56 [Info] Gateway: Joined h1ka.'s server
+23.07.2020 9:04:56 [Verbose] Rest: POST users/@me/channels: 234,19 ms
+23.07.2020 9:04:56 [Verbose] Rest: POST channels/665332019785367552/messages: 278,1 ms
+23.07.2020 9:05:00 [Warning] Gateway: A ChannelCreated handler is blocking the gateway task.
+23.07.2020 9:14:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 9:14:22 [Verbose] Rest: GET voice/regions: 702,07 ms
+23.07.2020 9:14:23 [Verbose] Rest: GET users/@me: 226,25 ms
+23.07.2020 9:14:23 [Info] Gateway: Connecting
+23.07.2020 9:14:23 [Verbose] Rest: GET gateway: 72,93 ms
+23.07.2020 9:14:24 [Info] Gateway: Connected
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to Аниме
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to просто
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to AMYF
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to говно
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to test.server
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to Popizdelki
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 9:14:24 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 9:14:27 [Info] Gateway: Ready
+23.07.2020 9:14:34 [Info] Gateway: Joined h1kkaru.'s server
+23.07.2020 9:17:06 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 9:17:07 [Verbose] Rest: GET voice/regions: 748,06 ms
+23.07.2020 9:17:07 [Verbose] Rest: GET users/@me: 253,99 ms
+23.07.2020 9:17:07 [Info] Gateway: Connecting
+23.07.2020 9:17:08 [Verbose] Rest: GET gateway: 92,14 ms
+23.07.2020 9:17:09 [Info] Gateway: Connected
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to Аниме
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to просто
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to AMYF
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to говно
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to Popizdelki
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to h1kkaru.'s server
+23.07.2020 9:17:09 [Verbose] Gateway: Connected to test.server
+23.07.2020 9:17:11 [Info] Gateway: Ready
+23.07.2020 9:17:16 [Info] Gateway: Joined 432423
+23.07.2020 9:17:28 [Verbose] Rest: POST users/@me/channels: 230,93 ms
+23.07.2020 9:17:28 [Warning] Gateway: A JoinedGuild handler is blocking the gateway task.
+23.07.2020 9:17:28 [Verbose] Rest: POST channels/665332019785367552/messages: 318,21 ms
+23.07.2020 9:17:38 [Warning] Gateway: A ChannelCreated handler is blocking the gateway task.
+23.07.2020 17:36:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 17:36:40 [Verbose] Rest: GET voice/regions: 856,33 ms
+23.07.2020 17:36:41 [Verbose] Rest: GET users/@me: 242,03 ms
+23.07.2020 17:36:41 [Info] Gateway: Connecting
+23.07.2020 17:36:41 [Verbose] Rest: GET gateway: 84,35 ms
+23.07.2020 17:36:42 [Info] Gateway: Connected
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to Аниме
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to AMYF
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to просто
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to test.server
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to говно
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to Popizdelki
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 17:36:43 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 17:36:46 [Info] Gateway: Ready
+23.07.2020 17:36:47 [Verbose] Rest: POST channels/642712334145421321/messages: 305,42 ms
+23.07.2020 17:36:47 [Verbose] Command: Executed "level" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 17:36:51 [Verbose] Rest: POST channels/642712334145421321/messages: 813,53 ms
+23.07.2020 17:36:51 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 17:37:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 17:37:49 [Verbose] Rest: GET voice/regions: 827,37 ms
+23.07.2020 17:37:50 [Verbose] Rest: GET users/@me: 243,89 ms
+23.07.2020 17:37:50 [Info] Gateway: Connecting
+23.07.2020 17:37:50 [Verbose] Rest: GET gateway: 85,93 ms
+23.07.2020 17:37:51 [Info] Gateway: Connected
+23.07.2020 17:37:51 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 17:37:51 [Verbose] Gateway: Connected to Аниме
+23.07.2020 17:37:51 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to просто
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to AMYF
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to говно
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to test.server
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to Popizdelki
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 17:37:52 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 17:37:54 [Info] Gateway: Ready
+23.07.2020 17:37:59 [Verbose] Rest: POST channels/642712334145421321/messages: 816,81 ms
+23.07.2020 17:37:59 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 17:44:19 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 17:44:20 [Verbose] Rest: GET voice/regions: 824,2 ms
+23.07.2020 17:44:20 [Verbose] Rest: GET users/@me: 241,98 ms
+23.07.2020 17:44:20 [Info] Gateway: Connecting
+23.07.2020 17:44:20 [Verbose] Rest: GET gateway: 81,81 ms
+23.07.2020 17:44:21 [Info] Gateway: Connected
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to Аниме
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to просто
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to AMYF
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to говно
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to Popizdelki
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to test.server
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 17:44:22 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 17:44:25 [Info] Gateway: Ready
+23.07.2020 17:44:28 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawImageProcessor`1. See the inner exception for more detail.
+ ---> SixLabors.ImageSharp.ImageProcessingException: An error occurred when processing the image using DrawImageProcessor`1. See the inner exception for more detail.
+ ---> System.ArgumentOutOfRangeException: Value -187775400 must be greater than or equal to 0. (Parameter 'length')
+   at SixLabors.Guard.ThrowArgumentOutOfRangeException(String parameterName, String message)
+   at SixLabors.Memory.ArrayPoolMemoryAllocator.Allocate[T](Int32 length, AllocationOptions options)
+   at SixLabors.ImageSharp.Processing.Processors.Drawing.DrawImageProcessor`1.OnFrameApply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(ImageFrame`1 source, Rectangle sourceRectangle, Configuration configuration)
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   --- End of inner exception stack trace ---
+   at SixLabors.ImageSharp.Processing.Processors.ImageProcessor`1.Apply(Image`1 source, Rectangle sourceRectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor, Rectangle rectangle)
+   at SixLabors.ImageSharp.Processing.DefaultInternalImageProcessorContext`1.ApplyProcessor(IImageProcessor`1 processor)
+   at SixLabors.ImageSharp.Processing.DrawImageExtensions.DrawImage[TPixel](IImageProcessingContext`1 source, Image`1 image, Single opacity, Point location)
+   at DarlingBotNet.Modules.Admins.<>c__DisplayClass4_2.<profile>b__2(IImageProcessingContext`1 x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 204
+   at SixLabors.ImageSharp.Processing.ProcessingExtensions.Mutate[TPixel](Image`1 source, Action`1 operation)
+   at DarlingBotNet.Modules.Admins.profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 204
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+23.07.2020 17:44:28 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 17:45:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 17:45:34 [Verbose] Rest: GET voice/regions: 652,75 ms
+23.07.2020 17:45:35 [Verbose] Rest: GET users/@me: 241,58 ms
+23.07.2020 17:45:35 [Info] Gateway: Connecting
+23.07.2020 17:45:35 [Verbose] Rest: GET gateway: 80,21 ms
+23.07.2020 17:45:36 [Info] Gateway: Connected
+23.07.2020 17:45:36 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to Аниме
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to AMYF
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to просто
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to говно
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to test.server
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to Popizdelki
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 17:45:37 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 17:45:39 [Info] Gateway: Ready
+23.07.2020 17:45:43 [Verbose] Rest: POST channels/642712334145421321/messages: 871,94 ms
+23.07.2020 17:45:43 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 17:45:47 [Verbose] Rest: POST channels/642712334145421321/messages: 329,3 ms
+23.07.2020 17:45:47 [Verbose] Command: Executed "level" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 17:45:47 [Verbose] Rest: POST channels/642712334145421321/messages: 416 ms
+23.07.2020 17:45:56 [Verbose] Rest: POST channels/642712334145421321/messages: 1038,81 ms
+23.07.2020 17:45:56 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 17:46:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 17:46:33 [Verbose] Rest: GET voice/regions: 700,3 ms
+23.07.2020 17:46:34 [Verbose] Rest: GET users/@me: 276,65 ms
+23.07.2020 17:46:34 [Info] Gateway: Connecting
+23.07.2020 17:46:34 [Verbose] Rest: GET gateway: 72,48 ms
+23.07.2020 17:46:35 [Info] Gateway: Connected
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to Аниме
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to просто
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to AMYF
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to говно
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to test.server
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to Popizdelki
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 17:46:35 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 17:46:38 [Info] Gateway: Ready
+23.07.2020 17:46:40 [Verbose] Rest: POST channels/642712334145421321/messages: 451,76 ms
+23.07.2020 17:46:40 [Verbose] Command: Executed "level" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 17:55:07 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 17:55:08 [Verbose] Rest: GET voice/regions: 1192,96 ms
+23.07.2020 17:55:09 [Verbose] Rest: GET users/@me: 237,97 ms
+23.07.2020 17:55:09 [Info] Gateway: Connecting
+23.07.2020 17:55:09 [Verbose] Rest: GET gateway: 81,78 ms
+23.07.2020 17:55:10 [Info] Gateway: Connected
+23.07.2020 17:55:10 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 17:55:10 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 17:55:10 [Verbose] Gateway: Connected to Аниме
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to просто
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to AMYF
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to говно
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to test.server
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to Popizdelki
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 17:55:11 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 17:55:14 [Info] Gateway: Ready
+23.07.2020 17:55:17 [Verbose] Rest: POST channels/642712334145421321/messages: 1046,82 ms
+23.07.2020 17:55:17 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+23.07.2020 17:58:00 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.07.2020 17:58:01 [Verbose] Rest: GET voice/regions: 910,43 ms
+23.07.2020 17:58:02 [Verbose] Rest: GET users/@me: 239,01 ms
+23.07.2020 17:58:02 [Info] Gateway: Connecting
+23.07.2020 17:58:02 [Verbose] Rest: GET gateway: 72,84 ms
+23.07.2020 17:58:03 [Info] Gateway: Connected
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to Аниме
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to Pisecord
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to DarlingBotInfo
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to Плантация №13
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to Убежище Debilov
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to просто
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to AMYF
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to New Project C78
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to h1ka.'s server
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to говно
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to test.server
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to Popizdelki
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to KiTKAt`k's server
+23.07.2020 17:58:03 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+23.07.2020 17:58:06 [Info] Gateway: Ready
+23.07.2020 17:58:07 [Verbose] Rest: POST channels/637305892756258867/messages: 779,7 ms
+23.07.2020 17:58:07 [Verbose] Command: Executed "level" for _ṡḷäṿÿäṅïṅ#8187 in Плантация №13/🔨команды
+23.07.2020 17:58:08 [Verbose] Rest: POST channels/642712334145421321/messages: 690,06 ms
+23.07.2020 17:58:08 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest

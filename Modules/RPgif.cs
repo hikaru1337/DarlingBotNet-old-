@@ -62,7 +62,7 @@ namespace DarlingBotNet.Modules
             var embed = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Pat GIF");
             Request Gif = await NekoClient.Action_v3.PatGif();
             if (Gif.Success)
-                embed.WithImageUrl(Gif.ImageUrl).WithDescription($"{Context.User.Mention} {(user != null ? $"похлопал(а) {user.Mention}" : "похлопал(а)")}");
+                embed.WithImageUrl(Gif.ImageUrl).WithDescription($"{Context.User.Mention} {(user != null ? $"погладил(а) {user.Mention}" : "погладил(а)")}");
             else embed.WithDescription("Повторите попытку");
             await Context.Channel.SendMessageAsync("", false, embed.Build());
         }

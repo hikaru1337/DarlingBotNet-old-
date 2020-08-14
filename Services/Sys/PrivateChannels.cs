@@ -1,9 +1,14 @@
 ﻿using DarlingBotNet.DataBase;
+using DarlingBotNet.DataBase.Database;
 using Discord;
+using Discord.Rest;
 using Discord.WebSocket;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
+using System.Net;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,82 +16,93 @@ namespace DarlingBotNet.Services.Sys
 {
     public class Privates
     {
-        public static async Task CheckPrivate(ulong glds, SocketGuild _discord)
-        {
-            var prv = new EEF<PrivateChannels>(new DBcontext()).Get(x => x.guildid == glds);
-            foreach (var PC in prv) // Проверка Приваток
-            {
-                SocketVoiceChannel chnl = _discord.GetVoiceChannel(PC.channelid);
-                if (chnl == null) new EEF<PrivateChannels>(new DBcontext()).Remove(PC);
-                else
-                {
-                    if (chnl.Users.Count == 0)
-                    {
-                        await chnl.DeleteAsync();
-                        new EEF<PrivateChannels>(new DBcontext()).Remove(PC);
-                    }
-                    else if (chnl.Users.Where(x => x.Id == PC.userid) == null)
-                    {
-                        if (chnl.Name.Contains($"{chnl.GetUser(PC.userid)}"))
-                            await chnl.ModifyAsync(x => x.Name = chnl.Name.Replace($"{chnl.GetUser(PC.userid)}", $"{chnl.Users.FirstOrDefault()}"));
+        private readonly DbService _db;
 
-                        await chnl.AddPermissionOverwriteAsync(chnl.Users.FirstOrDefault(), permissions: new OverwritePermissions(connect: PermValue.Allow, muteMembers: PermValue.Allow, deafenMembers: PermValue.Allow, moveMembers: PermValue.Allow, manageChannel: PermValue.Allow));
-                        await chnl.RemovePermissionOverwriteAsync(_discord.GetUser(PC.userid) as IGuildUser);
-                        PC.userid = chnl.Users.FirstOrDefault().Id;
-                        new EEF<PrivateChannels>(new DBcontext()).Update(PC);
-                    }
+        public Privates(DbService db)
+        {
+            _db = db;
+        }
+            public async Task CheckPrivate(ulong glds, SocketGuild _discord)
+        {
+            using (var DBcontext = _db.GetDbContext())
+            {
+                var prv = DBcontext.PrivateChannels.Get(glds);
+                foreach (var PC in prv) // Проверка Приваток
+                {
+                    SocketVoiceChannel chnl = _discord.GetVoiceChannel(PC.channelid);
+                    await Privatemethod(chnl, PC);
                 }
             }
 
         } // ПРОВЕРКА ПРИВАТНЫХ КАНАЛОВ
-        public static async Task PrivateCreate(SocketGuildUser user)
+        public async Task PrivateCreate(SocketGuildUser user)
         {
-            Guilds glds = new EEF<Guilds>(new DBcontext()).GetF(x => x.guildId == user.Guild.Id);
-            SocketVoiceChannel chnl = user.Guild.GetVoiceChannel(glds.PrivateChannelID);
-            await chnl.AddPermissionOverwriteAsync(user, permissions: new OverwritePermissions(connect: PermValue.Deny));
-            if (chnl.Category == null)
+            using (var DBcontext = _db.GetDbContext())
             {
-                var cat = await user.Guild.CreateCategoryChannelAsync("DARLING PRIVATE");
-                await chnl.ModifyAsync(x => x.CategoryId = cat.Id);
-            }
-            var voiceChannel = await user.Guild.CreateVoiceChannelAsync($"{user}` VOICE", x => x.CategoryId = chnl.CategoryId);
-            await voiceChannel.AddPermissionOverwriteAsync(user.Guild.EveryoneRole, permissions: new OverwritePermissions(connect: PermValue.Deny));
-            await voiceChannel.AddPermissionOverwriteAsync(user, permissions: new OverwritePermissions(connect: PermValue.Allow, muteMembers: PermValue.Allow, deafenMembers: PermValue.Allow, moveMembers: PermValue.Allow, manageChannel: PermValue.Allow));
-            try
-            {
-                await user.ModifyAsync(x => x.Channel = voiceChannel);
-                new EEF<PrivateChannels>(new DBcontext()).Create(new PrivateChannels() { userid = user.Id, channelid = voiceChannel.Id, guildid = user.Guild.Id });
-            }
-            catch (Exception)
-            {
-                var prv = new EEF<PrivateChannels>(new DBcontext()).GetF(x => x.userid == user.Id && user.Guild.Id == x.guildid && voiceChannel.Id == x.channelid);
-                if (prv != null) new EEF<PrivateChannels>(new DBcontext()).Remove(prv);
-                await voiceChannel.DeleteAsync();
-            }
-            await chnl.RemovePermissionOverwriteAsync(user);
-        } // Создание приваток
-        public static async Task PrivateDelete(SocketGuildUser user, SocketVoiceState ot)
-        {
-            PrivateChannels prv = new EEF<PrivateChannels>(new DBcontext()).GetF(x => x.userid == user.Id && user.Guild.Id == x.guildid && ot.VoiceChannel.Id == x.channelid);
-            if (prv != null)
-            {
-                SocketVoiceChannel chnl = user.Guild.GetVoiceChannel(prv.channelid);
-                if (chnl != null)
+                Guilds glds = DBcontext.Guilds.Get(user.Guild.Id);
+                SocketVoiceChannel chnl = user.Guild.GetVoiceChannel(glds.PrivateChannelID);
+                await chnl.AddPermissionOverwriteAsync(user, permissions: new OverwritePermissions(connect: PermValue.Deny));
+                if (chnl.Category == null)
                 {
-                    if (chnl.Users.Count == 0)
+                    if (user.Guild.CategoryChannels.Where(x => x.Name == "DARLING PRIVATE") == null)
                     {
-                        await chnl.DeleteAsync();
-                        new EEF<PrivateChannels>(new DBcontext()).Remove(prv);
+                        RestCategoryChannel cat = await user.Guild.CreateCategoryChannelAsync("DARLING PRIVATE");
+                        await chnl.ModifyAsync(x => x.CategoryId = cat.Id);
                     }
-                    else
-                    {
-                        SocketGuildUser usr = user.Guild.GetVoiceChannel(prv.channelid).Users.FirstOrDefault();
-                        if (chnl.Name.Contains($"{user}")) await chnl.ModifyAsync(x => x.Name = chnl.Name.Replace($"{user}", $"{usr}"));
-                        await chnl.AddPermissionOverwriteAsync(usr, permissions: new OverwritePermissions(connect: PermValue.Allow, muteMembers: PermValue.Allow, deafenMembers: PermValue.Allow, moveMembers: PermValue.Allow, manageChannel: PermValue.Allow));
-                        await chnl.RemovePermissionOverwriteAsync(user as IGuildUser);
-                        prv.userid = usr.Id;
-                        new EEF<PrivateChannels>(new DBcontext()).Update(prv);
-                    }
+                    else await chnl.ModifyAsync(x => x.CategoryId = user.Guild.CategoryChannels.Where(x => x.Name == "DARLING PRIVATE").First().Id);
+                }
+                var voiceChannel = await user.Guild.CreateVoiceChannelAsync($"{user}` VOICE", x => x.CategoryId = chnl.CategoryId);
+                await voiceChannel.AddPermissionOverwriteAsync(user.Guild.EveryoneRole, permissions: new OverwritePermissions(connect: PermValue.Deny));
+                await voiceChannel.AddPermissionOverwriteAsync(user, permissions: new OverwritePermissions(connect: PermValue.Allow, muteMembers: PermValue.Allow, deafenMembers: PermValue.Allow, moveMembers: PermValue.Allow, manageChannel: PermValue.Allow));
+                try
+                {
+                    await user.ModifyAsync(x => x.Channel = voiceChannel);
+                    DBcontext.PrivateChannels.GetOrCreate(user.Id, voiceChannel);
+                }
+                catch (Exception)
+                {
+                    var prv = DBcontext.PrivateChannels.Get(user.Id,voiceChannel);
+                    if (prv != null) DBcontext.PrivateChannels.Remove(prv);
+                    await voiceChannel.DeleteAsync();
+                }
+                await Task.Delay(2000);
+                await chnl.RemovePermissionOverwriteAsync(user);
+                await DBcontext.SaveChangesAsync();
+            }
+        } // Создание приваток
+
+        private async Task Privatemethod(SocketVoiceChannel chnl,PrivateChannels PC)
+        {
+            using (var DBcontext = _db.GetDbContext())
+            {
+                if (chnl == null || chnl.Users.Count == 0)
+                {
+                    if (chnl != null) await chnl.DeleteAsync();
+                    DBcontext.PrivateChannels.Remove(PC);
+                }
+                else if (chnl.Users.Count > 0 && chnl.Users.Where(x => x.Id == PC.userid) == null)
+                {
+                    var newusr = chnl.Users.First();
+                    PC.userid = newusr.Id;
+                    DBcontext.PrivateChannels.Update(PC);
+                    if (chnl.Name.Contains($"{chnl.GetUser(PC.userid)}"))
+                        await chnl.ModifyAsync(x => x.Name = chnl.Name.Replace($"{chnl.GetUser(PC.userid)}", $"{newusr}"));
+
+                    await chnl.AddPermissionOverwriteAsync(newusr, permissions: new OverwritePermissions(connect: PermValue.Allow, muteMembers: PermValue.Allow, deafenMembers: PermValue.Allow, moveMembers: PermValue.Allow, manageChannel: PermValue.Allow));
+                }
+            }
+        }
+
+
+        public async Task PrivateDelete(SocketGuildUser user, SocketVoiceState ot)
+        {
+            using (var DBcontext = _db.GetDbContext())
+            {
+                PrivateChannels prv = DBcontext.PrivateChannels.Get(user.Id, ot.VoiceChannel);
+                if (prv != null)
+                {
+                    SocketVoiceChannel chnl = user.Guild.GetVoiceChannel(prv.channelid);
+                    await Privatemethod(chnl, prv);
                 }
             }
         } // Удаление приваток

@@ -1,0 +1,10 @@
+05.08.2020 6:02:29 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+05.08.2020 6:02:30 [Verbose] Rest: GET voice/regions: 941,78 ms
+05.08.2020 6:02:31 [Verbose] Rest: GET users/@me: 240,74 ms
+05.08.2020 6:02:31 [Info] Gateway: Connecting
+05.08.2020 6:02:31 [Verbose] Rest: GET gateway: 71,6 ms
+05.08.2020 6:02:32 [Info] Gateway: Connected
+05.08.2020 6:02:32 [Verbose] Gateway: Connected to DarlingBotInfo
+05.08.2020 6:02:33 [Info] Gateway: Ready
+05.08.2020 6:03:03 [Verbose] Rest: POST channels/663380088188043280/messages: 310,07 ms
+05.08.2020 6:03:03 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/основной

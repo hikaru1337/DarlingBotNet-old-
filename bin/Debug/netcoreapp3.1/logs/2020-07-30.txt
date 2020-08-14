@@ -1,0 +1,382 @@
+30.07.2020 0:39:35 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 0:39:36 [Verbose] Rest: GET voice/regions: 1091,48 ms
+30.07.2020 0:39:37 [Verbose] Rest: GET users/@me: 230,77 ms
+30.07.2020 0:39:37 [Info] Gateway: Connecting
+30.07.2020 0:39:37 [Verbose] Rest: GET gateway: 72,33 ms
+30.07.2020 0:40:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 0:40:16 [Verbose] Rest: GET voice/regions: 862,75 ms
+30.07.2020 0:40:17 [Verbose] Rest: GET users/@me: 258,75 ms
+30.07.2020 0:40:17 [Info] Gateway: Connecting
+30.07.2020 0:40:17 [Verbose] Rest: GET gateway: 71,42 ms
+30.07.2020 0:40:18 [Info] Gateway: Connected
+30.07.2020 0:40:18 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+30.07.2020 0:40:18 [Verbose] Gateway: Connected to Pisecord
+30.07.2020 0:40:18 [Verbose] Gateway: Connected to Аниме
+30.07.2020 0:40:18 [Verbose] Gateway: Connected to DarlingBotInfo
+30.07.2020 0:40:19 [Verbose] Gateway: Connected to Плантация №13
+30.07.2020 0:40:19 [Verbose] Gateway: Connected to Убежище Debilov
+30.07.2020 0:40:19 [Verbose] Gateway: Connected to просто
+30.07.2020 0:40:19 [Verbose] Gateway: Connected to AMYF
+30.07.2020 0:40:19 [Verbose] Gateway: Connected to New Project C78
+30.07.2020 0:40:19 [Verbose] Gateway: Connected to говно
+30.07.2020 0:40:19 [Verbose] Gateway: Connected to Darling Emoji One
+30.07.2020 0:40:19 [Verbose] Gateway: Connected to test.server
+30.07.2020 0:40:19 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+30.07.2020 0:40:19 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+30.07.2020 0:40:19 [Verbose] Gateway: Connected to Popizdelki
+30.07.2020 0:40:19 [Verbose] Gateway: Connected to KiTKAt`k's server
+30.07.2020 0:40:19 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+30.07.2020 0:40:19 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: g.RaidStop'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at DarlingBotNet.DataBase.EEF`1.GetF(Func`2 predicate) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\DBcontext.cs:line 64
+   at DarlingBotNet.Services.SystemLoading.<>c.<GuildCheck>b__5_0(SocketGuild z) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 102
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 103
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 335
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+30.07.2020 0:40:19 [Info] Gateway: Ready
+30.07.2020 0:40:46 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 0:40:47 [Verbose] Rest: GET voice/regions: 894,17 ms
+30.07.2020 0:40:48 [Verbose] Rest: GET users/@me: 229,23 ms
+30.07.2020 0:40:48 [Info] Gateway: Connecting
+30.07.2020 0:40:48 [Verbose] Rest: GET gateway: 77,77 ms
+30.07.2020 0:40:49 [Info] Gateway: Connected
+30.07.2020 0:40:49 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+30.07.2020 0:40:49 [Verbose] Gateway: Connected to Аниме
+30.07.2020 0:40:49 [Verbose] Gateway: Connected to Pisecord
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to Плантация №13
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to DarlingBotInfo
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to Убежище Debilov
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to просто
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to AMYF
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to New Project C78
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to Darling Emoji One
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to говно
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to test.server
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to Popizdelki
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to KiTKAt`k's server
+30.07.2020 0:40:50 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+30.07.2020 0:40:51 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: u.clanInfo'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DarlingBotNet.DataBase.EEF`1.Get(Func`2 predicate) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\DBcontext.cs:line 60
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 148
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 116
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 335
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+30.07.2020 0:40:51 [Info] Gateway: Ready
+30.07.2020 0:42:00 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 0:42:01 [Verbose] Rest: GET voice/regions: 810,07 ms
+30.07.2020 0:42:02 [Verbose] Rest: GET users/@me: 256,27 ms
+30.07.2020 0:42:02 [Info] Gateway: Connecting
+30.07.2020 0:42:02 [Verbose] Rest: GET gateway: 66,27 ms
+30.07.2020 0:42:03 [Info] Gateway: Connected
+30.07.2020 0:42:03 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+30.07.2020 0:42:03 [Verbose] Gateway: Connected to Pisecord
+30.07.2020 0:42:03 [Verbose] Gateway: Connected to Аниме
+30.07.2020 0:42:03 [Verbose] Gateway: Connected to DarlingBotInfo
+30.07.2020 0:42:04 [Verbose] Gateway: Connected to Плантация №13
+30.07.2020 0:42:04 [Verbose] Gateway: Connected to Убежище Debilov
+30.07.2020 0:42:04 [Verbose] Gateway: Connected to просто
+30.07.2020 0:42:04 [Verbose] Gateway: Connected to AMYF
+30.07.2020 0:42:04 [Verbose] Gateway: Connected to New Project C78
+30.07.2020 0:42:04 [Verbose] Gateway: Connected to Darling Emoji One
+30.07.2020 0:42:04 [Verbose] Gateway: Connected to говно
+30.07.2020 0:42:04 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+30.07.2020 0:42:04 [Verbose] Gateway: Connected to test.server
+30.07.2020 0:42:04 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+30.07.2020 0:42:04 [Verbose] Gateway: Connected to Popizdelki
+30.07.2020 0:42:04 [Verbose] Gateway: Connected to KiTKAt`k's server
+30.07.2020 0:42:04 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+30.07.2020 0:42:07 [Warning] Gateway: A Ready handler is blocking the gateway task.
+30.07.2020 0:42:07 [Info] Gateway: Ready
+30.07.2020 0:42:10 [Verbose] Rest: POST channels/642712334145421321/messages: 779,03 ms
+30.07.2020 0:42:10 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+30.07.2020 0:42:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 0:42:37 [Verbose] Rest: GET voice/regions: 685,68 ms
+30.07.2020 0:42:37 [Verbose] Rest: GET users/@me: 235,6 ms
+30.07.2020 0:42:37 [Info] Gateway: Connecting
+30.07.2020 0:42:37 [Verbose] Rest: GET gateway: 71,89 ms
+30.07.2020 0:42:38 [Info] Gateway: Connected
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to Аниме
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to DarlingBotInfo
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to Pisecord
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to Убежище Debilov
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to Плантация №13
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to просто
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to AMYF
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to Darling Emoji One
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to New Project C78
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to говно
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to test.server
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to Popizdelki
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to KiTKAt`k's server
+30.07.2020 0:42:39 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+30.07.2020 0:42:42 [Info] Gateway: Ready
+30.07.2020 0:42:44 [Verbose] Rest: POST channels/642712334145421321/messages: 709,8 ms
+30.07.2020 0:42:44 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+30.07.2020 0:43:52 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 0:43:53 [Verbose] Rest: GET voice/regions: 750,93 ms
+30.07.2020 0:43:53 [Verbose] Rest: GET users/@me: 246,56 ms
+30.07.2020 0:43:53 [Info] Gateway: Connecting
+30.07.2020 0:43:53 [Verbose] Rest: GET gateway: 70,93 ms
+30.07.2020 0:43:54 [Info] Gateway: Connected
+30.07.2020 0:43:54 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+30.07.2020 0:43:54 [Verbose] Gateway: Connected to Аниме
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to Pisecord
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to Плантация №13
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to DarlingBotInfo
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to Убежище Debilov
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to просто
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to AMYF
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to New Project C78
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to Darling Emoji One
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to говно
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to test.server
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to Popizdelki
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to KiTKAt`k's server
+30.07.2020 0:43:55 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+30.07.2020 0:43:58 [Info] Gateway: Ready
+30.07.2020 0:43:59 [Error] Command: Discord.Commands.CommandException: Error occurred executing "profile" for h1kkaru.#2627 in Плантация №13/bottest.
+ ---> System.TypeLoadException: Could not load type 'SixLabors.HashHelpers' from assembly 'SixLabors.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at SixLabors.ImageSharp.Processing.Processors.Quantization.FrameQuantizerBase`1.GetClosestPixelSlow(TPixel& pixel)
+   at SixLabors.ImageSharp.Processing.Processors.Quantization.OctreeFrameQuantizer`1.SecondPass(ImageFrame`1 source, Span`1 output, ReadOnlySpan`1 palette, Int32 width, Int32 height)
+   at SixLabors.ImageSharp.Processing.Processors.Quantization.FrameQuantizerBase`1.QuantizeFrame(ImageFrame`1 image)
+   at SixLabors.ImageSharp.Formats.Gif.GifEncoderCore.Encode[TPixel](Image`1 image, Stream stream)
+   at SixLabors.ImageSharp.Formats.Gif.GifEncoder.Encode[TPixel](Image`1 image, Stream stream)
+   at SixLabors.ImageSharp.Image`1.Save(Stream stream, IImageEncoder encoder)
+   at SixLabors.ImageSharp.ImageExtensions.SaveAsGif[TPixel](Image`1 source, Stream stream, GifEncoder encoder)
+   at SixLabors.ImageSharp.ImageExtensions.SaveAsGif[TPixel](Image`1 source, Stream stream)
+   at DarlingBotNet.Services.SixLaborsImage.ToStream(Image`1 img, String format) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\AvatarRounded.cs:line 20
+   at DarlingBotNet.Modules.Admins.profile(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 188
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+30.07.2020 0:43:59 [Verbose] Command: Executed "profile" for h1kkaru.#2627 in Плантация №13/bottest
+30.07.2020 4:45:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 4:45:14 [Verbose] Rest: GET voice/regions: 983 ms
+30.07.2020 4:45:15 [Verbose] Rest: GET users/@me: 246,63 ms
+30.07.2020 4:45:15 [Info] Gateway: Connecting
+30.07.2020 4:45:15 [Verbose] Rest: GET gateway: 70,58 ms
+30.07.2020 4:45:16 [Info] Gateway: Connected
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to Аниме
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to Плантация №13
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to Pisecord
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to DarlingBotInfo
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to Убежище Debilov
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to просто
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to AMYF
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to New Project C78
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to test.server
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to говно
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to Darling Emoji One
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to Popizdelki
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to KiTKAt`k's server
+30.07.2020 4:45:16 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+30.07.2020 4:45:17 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: g.RaidMuted'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at DarlingBotNet.DataBase.EEF`1.GetF(Func`2 predicate) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\DBcontext.cs:line 64
+   at DarlingBotNet.Services.SystemLoading.<>c.<GuildCheck>b__5_0(SocketGuild z) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 102
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 103
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 335
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+30.07.2020 4:45:17 [Info] Gateway: Ready
+30.07.2020 4:45:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 4:45:44 [Verbose] Rest: GET voice/regions: 937,73 ms
+30.07.2020 4:45:45 [Verbose] Rest: GET users/@me: 215,54 ms
+30.07.2020 4:45:45 [Info] Gateway: Connecting
+30.07.2020 4:45:45 [Verbose] Rest: GET gateway: 83,16 ms
+30.07.2020 4:46:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 4:46:28 [Verbose] Rest: GET voice/regions: 771,31 ms
+30.07.2020 4:46:29 [Verbose] Rest: GET users/@me: 226,88 ms
+30.07.2020 4:46:29 [Info] Gateway: Connecting
+30.07.2020 4:46:29 [Verbose] Rest: GET gateway: 70,25 ms
+30.07.2020 4:46:30 [Info] Gateway: Connected
+30.07.2020 4:46:30 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to Плантация №13
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to Аниме
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to Pisecord
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to DarlingBotInfo
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to Убежище Debilov
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to AMYF
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to просто
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to New Project C78
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to Darling Emoji One
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to говно
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to test.server
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to Popizdelki
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to KiTKAt`k's server
+30.07.2020 4:46:31 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+30.07.2020 4:46:34 [Info] Gateway: Ready
+30.07.2020 4:46:35 [Verbose] Rest: POST channels/642712334145421321/messages: 254,94 ms
+30.07.2020 4:46:35 [Verbose] Command: Executed "raidsettings" for h1kkaru.#2627 in Плантация №13/bottest
+30.07.2020 4:47:25 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 4:47:26 [Verbose] Rest: GET voice/regions: 909,68 ms
+30.07.2020 4:47:27 [Verbose] Rest: GET users/@me: 237,1 ms
+30.07.2020 4:47:27 [Info] Gateway: Connecting
+30.07.2020 4:47:27 [Verbose] Rest: GET gateway: 67,18 ms
+30.07.2020 4:47:28 [Info] Gateway: Connected
+30.07.2020 4:47:28 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+30.07.2020 4:47:28 [Verbose] Gateway: Connected to Аниме
+30.07.2020 4:47:28 [Verbose] Gateway: Connected to Pisecord
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to Плантация №13
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to DarlingBotInfo
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to Убежище Debilov
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to просто
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to AMYF
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to New Project C78
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to Darling Emoji One
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to говно
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to test.server
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to KiTKAt`k's server
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to Popizdelki
+30.07.2020 4:47:29 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+30.07.2020 4:47:32 [Info] Gateway: Ready
+30.07.2020 4:47:33 [Verbose] Rest: POST channels/642712334145421321/messages: 267,9 ms
+30.07.2020 4:47:33 [Verbose] Command: Executed "raidsettings" for h1kkaru.#2627 in Плантация №13/bottest
+30.07.2020 4:48:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 4:48:31 [Verbose] Rest: GET voice/regions: 991,84 ms
+30.07.2020 4:48:31 [Verbose] Rest: GET users/@me: 234,25 ms
+30.07.2020 4:48:31 [Info] Gateway: Connecting
+30.07.2020 4:48:31 [Verbose] Rest: GET gateway: 70,79 ms
+30.07.2020 4:48:32 [Info] Gateway: Connected
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to Аниме
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to Pisecord
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to Плантация №13
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to DarlingBotInfo
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to Убежище Debilov
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to AMYF
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to New Project C78
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to просто
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to Darling Emoji One
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to говно
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to test.server
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to Popizdelki
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to KiTKAt`k's server
+30.07.2020 4:48:33 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+30.07.2020 4:48:36 [Info] Gateway: Ready
+30.07.2020 4:48:40 [Verbose] Rest: POST channels/642712334145421321/messages: 297,77 ms
+30.07.2020 4:48:40 [Verbose] Command: Executed "raidsettings" for h1kkaru.#2627 in Плантация №13/bottest
+30.07.2020 4:48:48 [Verbose] Rest: POST channels/642712334145421321/messages: 279,5 ms
+30.07.2020 4:48:48 [Verbose] Command: Executed "raidsettings" for h1kkaru.#2627 in Плантация №13/bottest
+30.07.2020 4:51:06 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 4:51:06 [Verbose] Rest: GET voice/regions: 792,92 ms
+30.07.2020 4:51:29 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 4:51:30 [Verbose] Rest: GET voice/regions: 929,38 ms
+30.07.2020 4:51:31 [Verbose] Rest: GET users/@me: 216,27 ms
+30.07.2020 4:51:31 [Info] Gateway: Connecting
+30.07.2020 4:51:31 [Verbose] Rest: GET gateway: 77,38 ms
+30.07.2020 4:51:32 [Info] Gateway: Connected
+30.07.2020 4:51:32 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+30.07.2020 4:51:32 [Verbose] Gateway: Connected to Pisecord
+30.07.2020 4:51:32 [Verbose] Gateway: Connected to Аниме
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to Плантация №13
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to DarlingBotInfo
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to Убежище Debilov
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to AMYF
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to просто
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to New Project C78
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to Darling Emoji One
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to говно
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to test.server
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to Popizdelki
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to KiTKAt`k's server
+30.07.2020 4:51:33 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+30.07.2020 4:51:36 [Warning] Gateway: A Ready handler is blocking the gateway task.
+30.07.2020 4:51:36 [Info] Gateway: Ready
+30.07.2020 4:51:38 [Verbose] Rest: POST channels/642712334145421321/messages: 293,97 ms
+30.07.2020 4:51:38 [Verbose] Command: Executed "raidsettings" for h1kkaru.#2627 in Плантация №13/bottest
+30.07.2020 4:51:43 [Verbose] Rest: POST channels/642712334145421321/messages: 260,6 ms
+30.07.2020 4:51:43 [Verbose] Command: Executed "raidsettings" for h1kkaru.#2627 in Плантация №13/bottest
+30.07.2020 4:51:47 [Verbose] Rest: POST channels/642712334145421321/messages: 251,39 ms
+30.07.2020 4:51:47 [Verbose] Command: Executed "raidsettings" for h1kkaru.#2627 in Плантация №13/bottest
+30.07.2020 4:51:51 [Verbose] Rest: POST channels/642712334145421321/messages: 255,86 ms
+30.07.2020 4:51:51 [Verbose] Command: Executed "raidsettings" for h1kkaru.#2627 in Плантация №13/bottest
+30.07.2020 4:53:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.07.2020 4:53:24 [Verbose] Rest: GET voice/regions: 903,04 ms
+30.07.2020 4:53:24 [Verbose] Rest: GET users/@me: 232,79 ms
+30.07.2020 4:53:24 [Info] Gateway: Connecting
+30.07.2020 4:53:24 [Verbose] Rest: GET gateway: 62,31 ms
+30.07.2020 4:53:26 [Info] Gateway: Connected
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to Аниме
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to Pisecord
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to Плантация №13
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to DarlingBotInfo
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to Убежище Debilov
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to AMYF
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to просто
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to New Project C78
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to говно
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to Darling Emoji One
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to test.server
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to Popizdelki
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to KiTKAt`k's server
+30.07.2020 4:53:26 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+30.07.2020 4:53:29 [Info] Gateway: Ready
+30.07.2020 4:53:30 [Verbose] Rest: POST channels/642712334145421321/messages: 300,17 ms
+30.07.2020 4:53:30 [Verbose] Command: Executed "raidsettings" for h1kkaru.#2627 in Плантация №13/bottest

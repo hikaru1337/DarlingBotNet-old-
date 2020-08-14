@@ -38,43 +38,47 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "EntityFrameworkCore.CommonTools": {
               "target": "Package",
               "version": "[2.0.2, )"
             },
             "Microsoft.Data.Sqlite": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.6, )"
             },
             "Nekos-Sharp": {
               "target": "Package",
@@ -92,6 +96,10 @@
               "target": "Package",
               "version": "[1.1.0, )"
             },
+            "ServiceStack.Text": {
+              "target": "Package",
+              "version": "[5.9.2, )"
+            },
             "SixLabors.ImageSharp": {
               "target": "Package",
               "version": "[1.0.0-beta0005, )"
@@ -103,6 +111,10 @@
             "SixLabors.Shapes.Text": {
               "target": "Package",
               "version": "[1.0.0-beta0009, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             },
             "System.Linq.Async": {
               "target": "Package",

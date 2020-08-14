@@ -1,8 +1,8 @@
 ﻿{
-  "warns": {
-    "Cmd": "warns",
-    "Desc": "Показать все нарушения на сервере\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/system-violation#posmotret-varny-na-servere)||",
-    "Usage": [ "warns", "ws" ]
+  "channelsettingsbadword": {
+    "Cmd": "channelsettings.badword",
+    "Desc": "Добавить запрещенное слово для channelsettings.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/nastroika-kanalov#nastroika-upravleniya-plokhimi-slovami)||[word]",
+    "Usage": [ "channelsettings.badword", "cs.bw" ]
   },
   "warn": {
     "Cmd": "warn",
@@ -14,20 +14,55 @@
     "Desc": "Убрать нарушение у пользователя.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/system-violation#snyat-varn-s-polzovatelya)||[user] [Кол-во нарушений]",
     "Usage": [ "unwarn", "uw" ]
   },
+  "clear": {
+    "Cmd": "clear",
+    "Desc": "Очистить N количество сообщений.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/komandy-adminov/clear)||[CountMessage]",
+    "Usage": [ "clear", "clr" ]
+  },
+  "userclear": {
+    "Cmd": "userclear",
+    "Desc": "Очистить N количество сообщений пользователя.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/komandy-adminov/userclear)||[user] [CountMessage]",
+    "Usage": [ "userclear", "uclr" ]
+  },
+  "embedsay": {
+    "Cmd": "embedsay",
+    "Desc": "Создание Embed сообщения.\nПрочтите инструкцию! - [инструкция по команде](https://docs.darlingbot.ru/commands/komandy-adminov/embedsay)||[channel] [embed message]",
+    "Usage": [ "embedsay", "es" ]
+  },
   "bug": {
     "Cmd": "bug",
     "Desc": "Написать разработчику о баге.||[text]",
     "Usage": [ "bug", "b" ]
+  },
+  "pre": {
+    "Cmd": "pre",
+    "Desc": "Написать разработчику о предложении.||[text]",
+    "Usage": [ "pre", "pr" ]
   },
   "serverinfo": {
     "Cmd": "serverinfo",
     "Desc": "Узнать информацию о текущем/выбранном сервере.||[null/serverid]",
     "Usage": [ "serverinfo", "si" ]
   },
+  "sendusermessage": {
+    "Cmd": "sendusermessage",
+    "Desc": "Отправить личное сообщение пользователю.||[userid] [message]",
+    "Usage": [ "sendusermessage", "sum" ]
+  },
   "getinvite": {
     "Cmd": "getinvite",
     "Desc": "||",
     "Usage": [ "getinvite", "gi" ]
+  },
+  "setlevel": {
+    "Cmd": "setlevel",
+    "Desc": "||",
+    "Usage": [ "setlevel", "sl" ]
+  },
+  "setcoin": {
+    "Cmd": "setcoin",
+    "Desc": "||",
+    "Usage": [ "setcoin", "sc" ]
   },
 
 
@@ -38,7 +73,7 @@
   },
   "commands": {
     "Cmd": "commands",
-    "Desc": "Открыть все команды модуля бота.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/first-commands/commands)||[command]",
+    "Desc": "Открыть все команды модуля бота.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/first-commands/commands)||[module]",
     "Usage": [ "commands", "c" ]
   },
   "info": {
@@ -55,97 +90,97 @@
 
   "Yuri": {
     "Cmd": "Yuri",
-    "Desc": "Yuri 18 + gif||",
+    "Desc": "Yuri 18+ gif||",
     "Usage": [ "Yuri", "Yuri" ]
   },
   "Anal": {
     "Cmd": "Anal",
-    "Desc": "Anal 18 + gif||",
+    "Desc": "Anal 18+ gif||",
     "Usage": [ "Anal", "Anal" ]
   },
   "Blowjob": {
     "Cmd": "Blowjob",
-    "Desc": "Blowjob 18 + gif||",
+    "Desc": "Blowjob 18+ gif||",
     "Usage": [ "Blowjob", "Blowjob" ]
   },
   "Boobs": {
     "Cmd": "Boobs",
-    "Desc": "Boobs 18 + gif||",
+    "Desc": "Boobs 18+ gif||",
     "Usage": [ "Boobs", "Boobs" ]
   },
   "Classic": {
     "Cmd": "Classic",
-    "Desc": "Classic 18 + gif||",
+    "Desc": "Classic 18+ gif||",
     "Usage": [ "Classic", "Classic" ]
   },
   "Cum": {
     "Cmd": "Cum",
-    "Desc": "Cum 18 + gif||",
+    "Desc": "Cum 18+ gif||",
     "Usage": [ "Cum", "Cum" ]
   },
   "Feet": {
     "Cmd": "Feet",
-    "Desc": "Feet 18 + gif||",
+    "Desc": "Feet 18+ gif||",
     "Usage": [ "Feet", "Feet" ]
   },
   "Hentai": {
     "Cmd": "Hentai",
-    "Desc": "Hentai 18 + gif||",
+    "Desc": "Hentai 18+ gif||",
     "Usage": [ "Hentai", "Hentai" ]
   },
   "Kuni": {
     "Cmd": "Kuni",
-    "Desc": "Kuni 18 + gif||",
+    "Desc": "Kuni 18+ gif||",
     "Usage": [ "Kuni", "Kuni" ]
   },
   "Neko": {
     "Cmd": "Neko",
-    "Desc": "Neko 18 + gif||",
+    "Desc": "Neko 18+ gif||",
     "Usage": [ "Neko", "Neko" ]
   },
   "Pussy": {
     "Cmd": "Pussy",
-    "Desc": "Pussy 18 + gif||",
+    "Desc": "Pussy 18+ gif||",
     "Usage": [ "Pussy", "Pussy" ]
   },
   "Pwank": {
     "Cmd": "Pwank",
-    "Desc": "Pwank 18 + gif||",
+    "Desc": "Pwank 18+ gif||",
     "Usage": [ "Pwank", "Pwank" ]
   },
   "Solo": {
     "Cmd": "Solo",
-    "Desc": "Solo 18 + gif||",
+    "Desc": "Solo 18+ gif||",
     "Usage": [ "Solo", "Solo" ]
   },
   "Spank": {
     "Cmd": "Spank",
-    "Desc": "Spank 18 + gif||",
+    "Desc": "Spank 18+ gif||",
     "Usage": [ "Spank", "Spank" ]
   },
   "EroNeko": {
     "Cmd": "EroNeko",
-    "Desc": "EroNeko 18 + PNG||",
+    "Desc": "EroNeko 18+ PNG||",
     "Usage": [ "EroNeko", "EroNeko" ]
   },
   "Ahegao": {
     "Cmd": "Ahegao",
-    "Desc": "Ahegao 18 + PNG||",
+    "Desc": "Ahegao 18+ PNG||",
     "Usage": [ "Ahegao", "Ahegao" ]
   },
   "Cosplay": {
     "Cmd": "Cosplay",
-    "Desc": "Cosplay 18 + PNG||",
+    "Desc": "Cosplay 18+ PNG||",
     "Usage": [ "Cosplay", "Cosplay" ]
   },
   "EroFeet": {
     "Cmd": "EroFeet",
-    "Desc": "EroFeet 18 + PNG||",
+    "Desc": "EroFeet 18+ PNG||",
     "Usage": [ "EroFeet", "EroFeet" ]
   },
   "Trap": {
     "Cmd": "Trap",
-    "Desc": "Trap 18 + PNG||",
+    "Desc": "Trap 18+ PNG||",
     "Usage": [ "Trap", "Trap" ]
   },
 
@@ -256,11 +291,8 @@
     "Desc": "Открыть настройки канала.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/nastroika-kanalov)||[channel] [null/(number)]",
     "Usage": [ "channelsettings", "cs" ]
   },
-  "badwordset": {
-    "Cmd": "badwordset",
-    "Desc": "Добавить запрещенное слово для channelsettings.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/nastroika-kanalov#nastroika-upravleniya-plokhimi-slovami)||[word]",
-    "Usage": [ "badwordset", "bws" ]
-  },
+
+
   "givexpnextchannel": {
     "Cmd": "givexpnextchannel",
     "Desc": "Включить/выключить выдачу опыта в будущих каналах которые вы будете создавать.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei#vydacha-opyta-v-budushem-sozdannykh-kanalakh)||",
@@ -332,5 +364,10 @@
     "Cmd": "myinvite",
     "Desc": "Посмотреть свои инвайты на данный сервер\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/user-commands/myinvite)||",
     "Usage": [ "myinvite", "mi" ]
+  },
+  "warns": {
+    "Cmd": "warns",
+    "Desc": "Показать все нарушения на сервере\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/system-violation#posmotret-varny-na-servere)||",
+    "Usage": [ "warns", "ws" ]
   }
 }

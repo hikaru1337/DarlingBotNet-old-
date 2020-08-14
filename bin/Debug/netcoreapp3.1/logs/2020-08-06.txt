@@ -1,0 +1,211 @@
+06.08.2020 0:42:55 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+06.08.2020 0:42:56 [Verbose] Rest: GET voice/regions: 798,8 ms
+06.08.2020 0:42:56 [Verbose] Rest: GET users/@me: 228,88 ms
+06.08.2020 0:42:56 [Info] Gateway: Connecting
+06.08.2020 0:42:56 [Verbose] Rest: GET gateway: 71,37 ms
+06.08.2020 0:43:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+06.08.2020 0:43:14 [Verbose] Rest: GET voice/regions: 904,58 ms
+06.08.2020 0:43:15 [Verbose] Rest: GET users/@me: 246,85 ms
+06.08.2020 0:43:15 [Info] Gateway: Connecting
+06.08.2020 0:43:15 [Verbose] Rest: GET gateway: 71,9 ms
+06.08.2020 0:43:17 [Info] Gateway: Connected
+06.08.2020 0:43:17 [Verbose] Gateway: Connected to DarlingBotInfo
+06.08.2020 0:43:18 [Info] Gateway: Ready
+06.08.2020 0:43:24 [Verbose] Rest: POST channels/663380088188043280/messages: 240,94 ms
+06.08.2020 0:43:24 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 0:43:28 [Verbose] Rest: POST channels/663380088188043280/messages: 228,81 ms
+06.08.2020 0:43:28 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 0:43:32 [Verbose] Rest: POST channels/663380088188043280/messages: 251,05 ms
+06.08.2020 0:43:32 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 0:43:43 [Verbose] Rest: POST channels/663380088188043280/messages: 278,8 ms
+06.08.2020 0:44:02 [Verbose] Rest: POST channels/663380088188043280/messages: 325,07 ms
+06.08.2020 0:44:02 [Verbose] Command: Executed "info" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:30:03 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+06.08.2020 9:30:04 [Verbose] Rest: GET voice/regions: 891,19 ms
+06.08.2020 9:30:05 [Verbose] Rest: GET users/@me: 254,7 ms
+06.08.2020 9:30:05 [Info] Gateway: Connecting
+06.08.2020 9:30:05 [Verbose] Rest: GET gateway: 75,11 ms
+06.08.2020 9:30:06 [Info] Gateway: Connected
+06.08.2020 9:30:07 [Verbose] Gateway: Connected to DarlingBotInfo
+06.08.2020 9:30:08 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: c.csUrlWhiteListString'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 164
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 376
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+06.08.2020 9:30:08 [Info] Gateway: Ready
+06.08.2020 9:34:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+06.08.2020 9:34:28 [Verbose] Rest: GET voice/regions: 860,88 ms
+06.08.2020 9:34:29 [Verbose] Rest: GET users/@me: 214,72 ms
+06.08.2020 9:34:29 [Info] Gateway: Connecting
+06.08.2020 9:34:29 [Verbose] Rest: GET gateway: 77,2 ms
+06.08.2020 9:34:30 [Info] Gateway: Connected
+06.08.2020 9:34:30 [Verbose] Gateway: Connected to DarlingBotInfo
+06.08.2020 9:34:31 [Info] Gateway: Ready
+06.08.2020 9:36:34 [Verbose] Rest: POST channels/663380088188043280/messages: 328,16 ms
+06.08.2020 9:36:34 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:37:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+06.08.2020 9:37:33 [Verbose] Rest: GET voice/regions: 906,3 ms
+06.08.2020 9:37:34 [Verbose] Rest: GET users/@me: 268,96 ms
+06.08.2020 9:37:34 [Info] Gateway: Connecting
+06.08.2020 9:37:34 [Verbose] Rest: GET gateway: 74,27 ms
+06.08.2020 9:37:35 [Info] Gateway: Connected
+06.08.2020 9:37:35 [Verbose] Gateway: Connected to DarlingBotInfo
+06.08.2020 9:37:36 [Info] Gateway: Ready
+06.08.2020 9:44:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+06.08.2020 9:44:57 [Verbose] Rest: GET voice/regions: 936,76 ms
+06.08.2020 9:44:57 [Verbose] Rest: GET users/@me: 251,24 ms
+06.08.2020 9:44:57 [Info] Gateway: Connecting
+06.08.2020 9:44:57 [Verbose] Rest: GET gateway: 69,77 ms
+06.08.2020 9:44:59 [Info] Gateway: Connected
+06.08.2020 9:44:59 [Verbose] Gateway: Connected to DarlingBotInfo
+06.08.2020 9:45:00 [Info] Gateway: Ready
+06.08.2020 9:45:46 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+06.08.2020 9:45:47 [Verbose] Rest: GET voice/regions: 853,64 ms
+06.08.2020 9:45:47 [Verbose] Rest: GET users/@me: 260,76 ms
+06.08.2020 9:45:47 [Info] Gateway: Connecting
+06.08.2020 9:45:47 [Verbose] Rest: GET gateway: 79,09 ms
+06.08.2020 9:45:49 [Info] Gateway: Connected
+06.08.2020 9:45:49 [Verbose] Gateway: Connected to DarlingBotInfo
+06.08.2020 9:45:50 [Info] Gateway: Ready
+06.08.2020 9:45:51 [Verbose] Rest: Preemptive Rate limit triggered: channels/663380088188043280/messages
+06.08.2020 9:45:51 [Verbose] Rest: POST channels/663380088188043280/messages: 267,29 ms
+06.08.2020 9:45:51 [Verbose] Rest: POST channels/663380088188043280/messages: 746,61 ms
+06.08.2020 9:45:51 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:46:23 [Verbose] Rest: POST channels/663380088188043280/messages: 286,11 ms
+06.08.2020 9:46:23 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:46:55 [Verbose] Rest: POST channels/663380088188043280/messages: 255,19 ms
+06.08.2020 9:47:02 [Error] Command: Discord.Commands.CommandException: Error occurred executing "info" for h1kkaru.#2627 in DarlingBotInfo/основной.
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DarlingBotNet.Modules.Help.info(String command) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Help.cs:line 108
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+06.08.2020 9:47:02 [Verbose] Command: Executed "info" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:47:58 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+06.08.2020 9:47:59 [Verbose] Rest: GET voice/regions: 968,4 ms
+06.08.2020 9:48:00 [Verbose] Rest: GET users/@me: 213,07 ms
+06.08.2020 9:48:00 [Info] Gateway: Connecting
+06.08.2020 9:48:00 [Verbose] Rest: GET gateway: 72,3 ms
+06.08.2020 9:48:01 [Info] Gateway: Connected
+06.08.2020 9:48:01 [Verbose] Gateway: Connected to DarlingBotInfo
+06.08.2020 9:48:02 [Info] Gateway: Ready
+06.08.2020 9:48:36 [Verbose] Rest: POST channels/663380088188043280/messages: 300,69 ms
+06.08.2020 9:48:36 [Verbose] Command: Executed "info" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:52:24 [Verbose] Rest: POST channels/663380088188043280/messages: 380,32 ms
+06.08.2020 9:52:24 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:52:32 [Verbose] Rest: GET oauth2/applications/@me: 240,68 ms
+06.08.2020 9:52:32 [Verbose] Rest: POST channels/663380088188043280/messages: 290,35 ms
+06.08.2020 9:52:32 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:52:38 [Verbose] Rest: POST channels/663380088188043280/messages: 432,56 ms
+06.08.2020 9:52:38 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:53:54 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+06.08.2020 9:53:55 [Verbose] Rest: GET voice/regions: 836,33 ms
+06.08.2020 9:53:56 [Verbose] Rest: GET users/@me: 258,57 ms
+06.08.2020 9:53:56 [Info] Gateway: Connecting
+06.08.2020 9:53:56 [Verbose] Rest: GET gateway: 81,04 ms
+06.08.2020 9:53:57 [Info] Gateway: Connected
+06.08.2020 9:53:57 [Verbose] Gateway: Connected to DarlingBotInfo
+06.08.2020 9:53:58 [Info] Gateway: Ready
+06.08.2020 9:54:11 [Verbose] Rest: GET oauth2/applications/@me: 233,05 ms
+06.08.2020 9:54:11 [Verbose] Rest: POST channels/663380088188043280/messages: 511,36 ms
+06.08.2020 9:54:11 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:54:20 [Verbose] Rest: POST channels/663380088188043280/messages: 377,25 ms
+06.08.2020 9:54:20 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:54:31 [Verbose] Rest: POST channels/663380088188043280/messages: 228,59 ms
+06.08.2020 9:54:31 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:55:42 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+06.08.2020 9:55:43 [Verbose] Rest: GET voice/regions: 974,47 ms
+06.08.2020 9:55:43 [Verbose] Rest: GET users/@me: 229,57 ms
+06.08.2020 9:55:43 [Info] Gateway: Connecting
+06.08.2020 9:55:43 [Verbose] Rest: GET gateway: 71,39 ms
+06.08.2020 9:55:44 [Info] Gateway: Connected
+06.08.2020 9:55:45 [Verbose] Gateway: Connected to DarlingBotInfo
+06.08.2020 9:55:46 [Info] Gateway: Ready
+06.08.2020 9:56:03 [Verbose] Rest: POST channels/663380088188043280/messages: 284,89 ms
+06.08.2020 9:56:03 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:56:07 [Verbose] Rest: GET oauth2/applications/@me: 228,19 ms
+06.08.2020 9:56:07 [Verbose] Rest: POST channels/663380088188043280/messages: 260,64 ms
+06.08.2020 9:56:11 [Verbose] Rest: POST channels/663380088188043280/messages: 218,52 ms
+06.08.2020 9:56:11 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:56:22 [Verbose] Rest: POST channels/663380088188043280/messages: 251,44 ms
+06.08.2020 9:56:22 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:56:37 [Verbose] Rest: POST channels/663380088188043280/messages: 307 ms
+06.08.2020 9:56:37 [Verbose] Command: Executed "channelsettings" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:56:41 [Verbose] Rest: POST channels/663380088188043280/messages: 312,94 ms
+06.08.2020 9:56:41 [Verbose] Command: Executed "channelsettings" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 9:56:47 [Verbose] Rest: POST channels/663380088188043280/messages: 236,98 ms
+06.08.2020 9:56:47 [Verbose] Command: Executed "channelsettings" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 21:18:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+06.08.2020 21:18:14 [Verbose] Rest: GET voice/regions: 976,13 ms
+06.08.2020 21:18:14 [Verbose] Rest: GET users/@me: 263,48 ms
+06.08.2020 21:18:15 [Info] Gateway: Connecting
+06.08.2020 21:18:15 [Verbose] Rest: GET gateway: 74,93 ms
+06.08.2020 21:18:16 [Info] Gateway: Connected
+06.08.2020 21:18:16 [Verbose] Gateway: Connected to DarlingBotInfo
+06.08.2020 21:18:17 [Info] Gateway: Ready
+06.08.2020 21:19:33 [Verbose] Rest: POST channels/663380088188043280/messages: 280,11 ms
+06.08.2020 21:19:33 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 21:19:35 [Verbose] Rest: POST channels/663380088188043280/messages: 238,34 ms
+06.08.2020 21:19:35 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 21:36:50 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+06.08.2020 21:36:51 [Verbose] Rest: GET voice/regions: 750,8 ms
+06.08.2020 21:36:51 [Verbose] Rest: GET users/@me: 238,94 ms
+06.08.2020 21:36:51 [Info] Gateway: Connecting
+06.08.2020 21:36:51 [Verbose] Rest: GET gateway: 74,82 ms
+06.08.2020 21:36:53 [Info] Gateway: Connected
+06.08.2020 21:36:53 [Verbose] Gateway: Connected to DarlingBotInfo
+06.08.2020 21:36:54 [Warning] Gateway: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: Channels.channelid'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at DarlingBotNet.Services.SystemLoading.ChannelCreateRange(IEnumerable`1 Channels) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 277
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 174
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 117
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 374
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+06.08.2020 21:36:54 [Info] Gateway: Ready
+06.08.2020 21:38:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+06.08.2020 21:38:38 [Verbose] Rest: GET voice/regions: 1144,69 ms
+06.08.2020 21:38:39 [Verbose] Rest: GET users/@me: 243,26 ms
+06.08.2020 21:38:39 [Info] Gateway: Connecting
+06.08.2020 21:38:39 [Verbose] Rest: GET gateway: 71,6 ms
+06.08.2020 21:38:40 [Info] Gateway: Connected
+06.08.2020 21:38:40 [Verbose] Gateway: Connected to DarlingBotInfo
+06.08.2020 21:38:41 [Info] Gateway: Ready
+06.08.2020 21:38:48 [Verbose] Rest: POST channels/663380088188043280/messages: 299,1 ms
+06.08.2020 21:38:48 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 21:38:53 [Verbose] Rest: GET oauth2/applications/@me: 215,13 ms
+06.08.2020 21:38:53 [Verbose] Rest: POST channels/663380088188043280/messages: 366,46 ms
+06.08.2020 21:38:53 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/основной
+06.08.2020 21:38:56 [Verbose] Rest: POST channels/663380088188043280/messages: 256,31 ms
+06.08.2020 21:38:56 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/основной

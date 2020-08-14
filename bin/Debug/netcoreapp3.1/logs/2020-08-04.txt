@@ -1,0 +1,39 @@
+04.08.2020 2:26:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+04.08.2020 2:26:22 [Verbose] Rest: GET voice/regions: 1246,59 ms
+04.08.2020 2:26:23 [Verbose] Rest: GET users/@me: 280,43 ms
+04.08.2020 2:26:23 [Info] Gateway: Connecting
+04.08.2020 2:26:23 [Verbose] Rest: GET gateway: 78,09 ms
+04.08.2020 2:26:24 [Info] Gateway: Connected
+04.08.2020 2:26:24 [Verbose] Gateway: Connected to DarlingBotInfo
+04.08.2020 2:26:26 [Info] Gateway: Ready
+04.08.2020 2:26:31 [Verbose] Rest: POST channels/663380088188043280/messages: 319,3 ms
+04.08.2020 2:26:31 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+04.08.2020 2:26:35 [Verbose] Rest: POST channels/663380088188043280/messages: 262,37 ms
+04.08.2020 2:26:35 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/основной
+04.08.2020 2:26:36 [Verbose] Rest: POST channels/663380088188043280/messages: 308,22 ms
+04.08.2020 2:26:36 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+04.08.2020 2:26:44 [Verbose] Rest: POST channels/663380088188043280/messages: 212,74 ms
+04.08.2020 2:26:44 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/основной
+04.08.2020 2:26:53 [Verbose] Rest: POST channels/663380088188043280/messages: 287,16 ms
+04.08.2020 2:26:53 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/основной
+04.08.2020 2:27:10 [Verbose] Rest: POST channels/663380088188043280/messages: 293,1 ms
+04.08.2020 2:27:21 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+04.08.2020 2:27:21 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+04.08.2020 2:27:21 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+04.08.2020 2:27:21 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+04.08.2020 2:27:21 [Verbose] Rest: GET oauth2/applications/@me: 222,98 ms
+04.08.2020 2:27:22 [Verbose] Rest: GET oauth2/applications/@me: 748,13 ms
+04.08.2020 2:27:22 [Verbose] Rest: GET oauth2/applications/@me: 871,34 ms
+04.08.2020 2:27:22 [Verbose] Rest: GET oauth2/applications/@me: 897,82 ms
+04.08.2020 2:27:22 [Verbose] Rest: GET oauth2/applications/@me: 892,46 ms
+04.08.2020 2:27:22 [Verbose] Rest: POST channels/663380088188043280/messages: 227,8 ms
+04.08.2020 2:27:22 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+04.08.2020 2:27:32 [Verbose] Rest: POST channels/663380088188043280/messages: 249,73 ms
+04.08.2020 2:27:32 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+04.08.2020 2:27:38 [Verbose] Rest: POST channels/663380088188043280/messages: 296,23 ms
+04.08.2020 2:27:58 [Verbose] Rest: POST channels/663380088188043280/messages: 258,07 ms
+04.08.2020 2:27:58 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+04.08.2020 2:28:04 [Verbose] Rest: POST channels/663380088188043280/messages: 267,41 ms
+04.08.2020 2:28:04 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/основной
+04.08.2020 2:28:09 [Verbose] Rest: POST channels/663380088188043280/messages: 243,92 ms
+04.08.2020 2:28:09 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/основной

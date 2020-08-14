@@ -8,7 +8,7 @@ namespace DarlingBotNet.Services.Sys
 {
     public class MessageBuilder
     {
-        public static EmbedBuilder EmbedUserBuilder(string text)
+        public static (EmbedBuilder,string) EmbedUserBuilder(string text)
         {
             var emb = new EmbedBuilder();
             Root EB;
@@ -18,22 +18,25 @@ namespace DarlingBotNet.Services.Sys
             }
             catch (Exception)
             {
-                return emb;
+                return (emb, null);
             }
 
-            emb.WithTitle(EB.title + "||" + EB.plainText);
-            emb.WithDescription(EB.description);
+            if (EB.title != null) emb.WithTitle(EB.title);
+            if (EB.description != null) emb.WithDescription(EB.description);
             if (EB.author != null) emb.WithAuthor(EB.author.name, EB.author.icon_url, EB.author.url);
-            emb.WithColor(new Color(EB.color));
+            if (EB.color != 0) emb.WithColor(new Color(EB.color));
             if (EB.footer != null) emb.WithFooter(EB.footer.text, EB.footer.icon_url);
-            emb.WithThumbnailUrl(EB.thumbnail);
-            emb.WithImageUrl(EB.image);
-            foreach (var field in EB.fields)
+            if (EB.thumbnail != null) emb.WithThumbnailUrl(EB.thumbnail);
+            if(EB.image != null) emb.WithImageUrl(EB.image);
+            if (EB.fields != null)
             {
-                if (field.value != null && field.name != null && field.value != "" && field.name != "")
-                    emb.AddField(field.name, field.value, field.inline);
+                foreach (var field in EB.fields)
+                {
+                    if (field.value != null && field.name != null && field.value != "" && field.name != "")
+                        emb.AddField(field.name, field.value, field.inline);
+                }
             }
-            return emb;
+            return (emb,EB.plainText);
         } // EMBED СООБЩЕНИЕ
 
         private class Root

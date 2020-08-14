@@ -1,0 +1,606 @@
+25.07.2020 12:31:41 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 12:31:42 [Verbose] Rest: GET voice/regions: 1012,16 ms
+25.07.2020 12:31:42 [Verbose] Rest: GET users/@me: 225,75 ms
+25.07.2020 12:31:42 [Info] Gateway: Connecting
+25.07.2020 12:31:42 [Verbose] Rest: GET gateway: 78,32 ms
+25.07.2020 12:31:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 12:32:00 [Verbose] Rest: GET voice/regions: 640,12 ms
+25.07.2020 12:32:01 [Verbose] Rest: GET users/@me: 260,97 ms
+25.07.2020 12:32:01 [Info] Gateway: Connecting
+25.07.2020 12:32:01 [Verbose] Rest: GET gateway: 74,34 ms
+25.07.2020 12:32:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 12:32:16 [Verbose] Rest: GET voice/regions: 731,54 ms
+25.07.2020 12:32:16 [Verbose] Rest: GET users/@me: 233,08 ms
+25.07.2020 12:32:16 [Info] Gateway: Connecting
+25.07.2020 12:32:16 [Verbose] Rest: GET gateway: 75,54 ms
+25.07.2020 12:32:18 [Info] Gateway: Connected
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to Аниме
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to Плантация №13
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to Pisecord
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to Убежище Debilov
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to DarlingBotInfo
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to просто
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to AMYF
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to New Project C78
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to Darling Emoji One
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to говно
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to test.server
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to Popizdelki
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to KiTKAt`k's server
+25.07.2020 12:32:18 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+25.07.2020 12:32:21 [Info] Gateway: Ready
+25.07.2020 12:32:29 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 12:32:31 [Verbose] Rest: POST channels/642712334145421321/messages: 410,52 ms
+25.07.2020 12:32:31 [Verbose] Command: Executed "level" for h1kkaru.#2627 in Плантация №13/bottest
+25.07.2020 12:32:49 [Verbose] Rest: POST channels/642712334145421321/messages: 259,61 ms
+25.07.2020 12:32:49 [Verbose] Command: Executed "level" for h1kkaru.#2627 in Плантация №13/bottest
+25.07.2020 12:33:25 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 12:33:34 [Verbose] Rest: POST channels/642712334145421321/messages: 468,78 ms
+25.07.2020 12:41:26 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 12:41:27 [Verbose] Rest: GET voice/regions: 766,05 ms
+25.07.2020 12:41:27 [Verbose] Rest: GET users/@me: 240,36 ms
+25.07.2020 12:41:28 [Info] Gateway: Connecting
+25.07.2020 12:41:28 [Verbose] Rest: GET gateway: 86,01 ms
+25.07.2020 12:41:29 [Info] Gateway: Connected
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to Аниме
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to Плантация №13
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to Pisecord
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to DarlingBotInfo
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to Убежище Debilov
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to просто
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to AMYF
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to New Project C78
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to Darling Emoji One
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to говно
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to test.server
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to Popizdelki
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to KiTKAt`k's server
+25.07.2020 12:41:29 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+25.07.2020 12:41:32 [Info] Gateway: Ready
+25.07.2020 12:41:37 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 12:41:45 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 12:41:56 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 12:42:04 [Warning] Gateway: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 301
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 12:42:39 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:04:28 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 20:04:30 [Verbose] Rest: GET voice/regions: 826,23 ms
+25.07.2020 20:04:30 [Verbose] Rest: GET users/@me: 241,63 ms
+25.07.2020 20:04:30 [Info] Gateway: Connecting
+25.07.2020 20:04:30 [Verbose] Rest: GET gateway: 80,92 ms
+25.07.2020 20:04:32 [Info] Gateway: Connected
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to Аниме
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to Pisecord
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to Плантация №13
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to DarlingBotInfo
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to просто
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to Убежище Debilov
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to AMYF
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to New Project C78
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to Darling Emoji One
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to говно
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to test.server
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to Popizdelki
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to KiTKAt`k's server
+25.07.2020 20:04:32 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+25.07.2020 20:04:36 [Warning] Gateway: A Ready handler is blocking the gateway task.
+25.07.2020 20:04:40 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:04:42 [Info] Gateway: Ready
+25.07.2020 20:04:50 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:11:28 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 20:11:35 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 20:11:36 [Verbose] Rest: GET voice/regions: 717,01 ms
+25.07.2020 20:11:36 [Verbose] Rest: GET users/@me: 219,88 ms
+25.07.2020 20:11:37 [Info] Gateway: Connecting
+25.07.2020 20:11:37 [Verbose] Rest: GET gateway: 68,46 ms
+25.07.2020 20:11:38 [Info] Gateway: Connected
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to Аниме
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to Pisecord
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to DarlingBotInfo
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to Убежище Debilov
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to Плантация №13
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to просто
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to New Project C78
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to AMYF
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to Darling Emoji One
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to говно
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to test.server
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to Popizdelki
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to KiTKAt`k's server
+25.07.2020 20:11:38 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+25.07.2020 20:11:41 [Info] Gateway: Ready
+25.07.2020 20:12:44 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:12:48 [Verbose] Rest: POST channels/735751302340149338/messages: 464,24 ms
+25.07.2020 20:12:48 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 313
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:12:48 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/6
+25.07.2020 20:13:32 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:13:44 [Verbose] Rest: POST channels/735751302340149338/messages: 387,4 ms
+25.07.2020 20:13:44 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/6
+25.07.2020 20:13:44 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 313
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:13:45 [Warning] Gateway: System.Exception: WebSocket connection was closed
+ ---> System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Программа на вашем хост-компьютере разорвала установленное подключение..
+ ---> System.Net.Sockets.SocketException (10053): Программа на вашем хост-компьютере разорвала установленное подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.ReadBufferedAsyncCore(Memory`1 destination)
+   at System.Net.Http.HttpConnection.RawConnectionStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken, Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at Discord.Net.WebSockets.DefaultWebSocketClient.RunAsync(CancellationToken cancelToken)
+   --- End of inner exception stack trace ---
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+25.07.2020 20:13:45 [Info] Gateway: Disconnecting
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from New Project C78
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from DarlingBotInfo
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from Убежище Debilov
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from Pisecord
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from Сервер ну давай, нападай
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from просто
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from Darling Emoji One
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from Плантация №13
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from ๖ۣۣۜLegion
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from KiTKAt`k's server
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from Popizdelki
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from 🖤🔞69SQUAD🔞🖤
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from Dark Anime Empire🦇
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from говно
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from AMYF
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from test.server
+25.07.2020 20:13:45 [Verbose] Gateway: Disconnected from Аниме
+25.07.2020 20:13:45 [Info] Gateway: Disconnected
+25.07.2020 20:13:46 [Info] Gateway: Connecting
+25.07.2020 20:13:46 [Verbose] Rest: GET gateway: 71,57 ms
+25.07.2020 20:13:47 [Verbose] Rest: POST channels/600831308045746226/messages: 233,46 ms
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to New Project C78
+25.07.2020 20:13:47 [Info] Gateway: Connected
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to DarlingBotInfo
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to Убежище Debilov
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to Pisecord
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to просто
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to Darling Emoji One
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to Плантация №13
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to KiTKAt`k's server
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to Popizdelki
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to говно
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to AMYF
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to test.server
+25.07.2020 20:13:47 [Verbose] Gateway: Connected to Аниме
+25.07.2020 20:13:47 [Info] Gateway: Resumed previous session
+25.07.2020 20:13:55 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:13:55 [Verbose] Rest: POST channels/735751302340149338/messages: 378,6 ms
+25.07.2020 20:13:55 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/6
+25.07.2020 20:13:55 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 313
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:16:46 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 20:16:48 [Verbose] Rest: GET voice/regions: 1118,82 ms
+25.07.2020 20:16:48 [Verbose] Rest: GET users/@me: 211,01 ms
+25.07.2020 20:16:48 [Info] Gateway: Connecting
+25.07.2020 20:16:48 [Verbose] Rest: GET gateway: 69,45 ms
+25.07.2020 20:16:49 [Info] Gateway: Connected
+25.07.2020 20:16:49 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to Pisecord
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to Плантация №13
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to Аниме
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to DarlingBotInfo
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to просто
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to Убежище Debilov
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to AMYF
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to New Project C78
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to Darling Emoji One
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to говно
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to test.server
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to Popizdelki
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to KiTKAt`k's server
+25.07.2020 20:16:50 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+25.07.2020 20:16:53 [Warning] Gateway: A Ready handler is blocking the gateway task.
+25.07.2020 20:16:53 [Info] Gateway: Ready
+25.07.2020 20:16:59 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:17:07 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 313
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:17:08 [Verbose] Rest: POST channels/735751302340149338/messages: 532,23 ms
+25.07.2020 20:17:08 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/6
+25.07.2020 20:39:06 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 20:39:07 [Verbose] Rest: GET voice/regions: 811,78 ms
+25.07.2020 20:39:07 [Verbose] Rest: GET users/@me: 221,85 ms
+25.07.2020 20:39:08 [Info] Gateway: Connecting
+25.07.2020 20:39:08 [Verbose] Rest: GET gateway: 77,95 ms
+25.07.2020 20:39:09 [Info] Gateway: Connected
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to Аниме
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to Pisecord
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to DarlingBotInfo
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to Плантация №13
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to Убежище Debilov
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to просто
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to AMYF
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to New Project C78
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to Darling Emoji One
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to говно
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to test.server
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to Popizdelki
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to KiTKAt`k's server
+25.07.2020 20:39:09 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+25.07.2020 20:39:13 [Warning] Gateway: A Ready handler is blocking the gateway task.
+25.07.2020 20:39:14 [Info] Gateway: Ready
+25.07.2020 20:39:50 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:39:50 [Verbose] Rest: POST channels/735751302340149338/messages: 411,57 ms
+25.07.2020 20:39:50 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 310
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:39:51 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/6
+25.07.2020 20:39:51 [Verbose] Rest: POST channels/600831308045746226/messages: 329,61 ms
+25.07.2020 20:40:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 20:40:25 [Verbose] Rest: GET voice/regions: 1002,86 ms
+25.07.2020 20:40:26 [Verbose] Rest: GET users/@me: 249,89 ms
+25.07.2020 20:40:26 [Info] Gateway: Connecting
+25.07.2020 20:40:26 [Verbose] Rest: GET gateway: 71,94 ms
+25.07.2020 20:40:27 [Info] Gateway: Connected
+25.07.2020 20:40:27 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+25.07.2020 20:40:27 [Verbose] Gateway: Connected to Аниме
+25.07.2020 20:40:27 [Verbose] Gateway: Connected to Pisecord
+25.07.2020 20:40:27 [Verbose] Gateway: Connected to Плантация №13
+25.07.2020 20:40:27 [Verbose] Gateway: Connected to DarlingBotInfo
+25.07.2020 20:40:28 [Verbose] Gateway: Connected to Убежище Debilov
+25.07.2020 20:40:28 [Verbose] Gateway: Connected to просто
+25.07.2020 20:40:28 [Verbose] Gateway: Connected to AMYF
+25.07.2020 20:40:28 [Verbose] Gateway: Connected to New Project C78
+25.07.2020 20:40:28 [Verbose] Gateway: Connected to Darling Emoji One
+25.07.2020 20:40:28 [Verbose] Gateway: Connected to говно
+25.07.2020 20:40:28 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+25.07.2020 20:40:28 [Verbose] Gateway: Connected to test.server
+25.07.2020 20:40:28 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+25.07.2020 20:40:28 [Verbose] Gateway: Connected to Popizdelki
+25.07.2020 20:40:28 [Verbose] Gateway: Connected to KiTKAt`k's server
+25.07.2020 20:40:28 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+25.07.2020 20:40:31 [Warning] Gateway: A Ready handler is blocking the gateway task.
+25.07.2020 20:40:31 [Info] Gateway: Ready
+25.07.2020 20:40:35 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:40:35 [Verbose] Rest: POST channels/735751302340149338/messages: 406,42 ms
+25.07.2020 20:40:35 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 310
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:40:35 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/6
+25.07.2020 20:40:55 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 20:40:56 [Verbose] Rest: GET voice/regions: 734,25 ms
+25.07.2020 20:40:56 [Verbose] Rest: GET users/@me: 226,4 ms
+25.07.2020 20:40:57 [Info] Gateway: Connecting
+25.07.2020 20:40:57 [Verbose] Rest: GET gateway: 81,04 ms
+25.07.2020 20:40:58 [Info] Gateway: Connected
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to Аниме
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to Плантация №13
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to Pisecord
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to DarlingBotInfo
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to Убежище Debilov
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to просто
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to AMYF
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to Darling Emoji One
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to New Project C78
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to говно
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to test.server
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to Popizdelki
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+25.07.2020 20:40:58 [Verbose] Gateway: Connected to KiTKAt`k's server
+25.07.2020 20:40:59 [Verbose] Rest: GET channels/587277068904038442/messages/736684430038663168: 234,64 ms
+25.07.2020 20:40:59 [Verbose] Rest: POST channels/600831308045746226/messages: 241 ms
+25.07.2020 20:41:45 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 20:41:46 [Verbose] Rest: GET voice/regions: 1001,55 ms
+25.07.2020 20:41:46 [Verbose] Rest: GET users/@me: 228,44 ms
+25.07.2020 20:41:46 [Info] Gateway: Connecting
+25.07.2020 20:41:46 [Verbose] Rest: GET gateway: 78,91 ms
+25.07.2020 20:41:48 [Info] Gateway: Connected
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to Аниме
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to Плантация №13
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to Pisecord
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to DarlingBotInfo
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to просто
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to Убежище Debilov
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to AMYF
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to New Project C78
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to Darling Emoji One
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to говно
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to test.server
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to Popizdelki
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to KiTKAt`k's server
+25.07.2020 20:41:48 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+25.07.2020 20:41:52 [Warning] Gateway: A Ready handler is blocking the gateway task.
+25.07.2020 20:41:52 [Info] Gateway: Ready
+25.07.2020 20:41:57 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:41:57 [Verbose] Rest: POST channels/735751302340149338/messages: 412,85 ms
+25.07.2020 20:41:57 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 310
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:41:58 [Verbose] Command: Executed "levelroledel" for h1kkaru.#2627 in DarlingBotInfo/6
+25.07.2020 20:42:14 [Verbose] Rest: POST channels/735751302340149338/messages: 384,49 ms
+25.07.2020 20:42:20 [Verbose] Rest: POST channels/735751302340149338/messages: 411,06 ms
+25.07.2020 20:42:21 [Verbose] Command: Executed "levelroleadd" for h1kkaru.#2627 in DarlingBotInfo/6
+25.07.2020 20:42:21 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 320
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:42:45 [Verbose] Rest: POST channels/600831308045746226/messages: 245,64 ms
+25.07.2020 20:42:45 [Warning] Gateway: System.Exception: WebSocket connection was closed
+ ---> Discord.Net.WebSocketClosedException: The server sent close 1000: ""
+   at Discord.Net.WebSockets.DefaultWebSocketClient.RunAsync(CancellationToken cancelToken)
+   --- End of inner exception stack trace ---
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+25.07.2020 20:42:45 [Info] Gateway: Disconnecting
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from New Project C78
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from DarlingBotInfo
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from Убежище Debilov
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from Pisecord
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from Сервер ну давай, нападай
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from просто
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from Darling Emoji One
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from Плантация №13
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from ๖ۣۣۜLegion
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from KiTKAt`k's server
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from Popizdelki
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from 🖤🔞69SQUAD🔞🖤
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from Dark Anime Empire🦇
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from говно
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from AMYF
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from test.server
+25.07.2020 20:42:45 [Verbose] Gateway: Disconnected from Аниме
+25.07.2020 20:42:45 [Info] Gateway: Disconnected
+25.07.2020 20:42:46 [Info] Gateway: Connecting
+25.07.2020 20:42:46 [Verbose] Rest: GET gateway: 69,22 ms
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to New Project C78
+25.07.2020 20:42:47 [Info] Gateway: Connected
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to DarlingBotInfo
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to Убежище Debilov
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to Pisecord
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to просто
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to Darling Emoji One
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to Плантация №13
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to KiTKAt`k's server
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to Popizdelki
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to говно
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to AMYF
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to test.server
+25.07.2020 20:42:47 [Verbose] Gateway: Connected to Аниме
+25.07.2020 20:42:47 [Info] Gateway: Resumed previous session
+25.07.2020 20:42:54 [Verbose] Rest: POST channels/735751302340149338/messages: 309,9 ms
+25.07.2020 20:42:54 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/6
+25.07.2020 20:42:54 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 320
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:43:25 [Verbose] Rest: POST channels/600831308045746226/messages: 237,69 ms
+25.07.2020 20:43:38 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:43:39 [Verbose] Rest: POST channels/735751302340149338/messages: 329,93 ms
+25.07.2020 20:43:39 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/6
+25.07.2020 20:43:39 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 320
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:43:39 [Verbose] Rest: POST channels/600831308045746226/messages: 263,09 ms
+25.07.2020 20:44:25 [Verbose] Rest: POST channels/735751302340149338/messages: 318,17 ms
+25.07.2020 20:44:28 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:44:28 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 320
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:44:35 [Verbose] Rest: POST channels/735751302340149338/messages: 1467,8 ms
+25.07.2020 20:44:35 [Verbose] Command: Executed "levelroleadd" for h1kkaru.#2627 in DarlingBotInfo/6
+25.07.2020 20:44:36 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685198472642622: 234,38 ms
+25.07.2020 20:45:18 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 20:45:19 [Verbose] Rest: GET voice/regions: 812,18 ms
+25.07.2020 20:45:20 [Verbose] Rest: GET users/@me: 227,34 ms
+25.07.2020 20:45:20 [Info] Gateway: Connecting
+25.07.2020 20:45:20 [Verbose] Rest: GET gateway: 91,52 ms
+25.07.2020 20:45:21 [Info] Gateway: Connected
+25.07.2020 20:45:21 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+25.07.2020 20:45:21 [Verbose] Gateway: Connected to Аниме
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to Плантация №13
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to Pisecord
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to DarlingBotInfo
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to Убежище Debilov
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to просто
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to AMYF
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to New Project C78
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to Darling Emoji One
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to говно
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to test.server
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to Popizdelki
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to KiTKAt`k's server
+25.07.2020 20:45:22 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+25.07.2020 20:45:25 [Warning] Gateway: A Ready handler is blocking the gateway task.
+25.07.2020 20:45:26 [Info] Gateway: Ready
+25.07.2020 20:45:27 [Verbose] Rest: POST channels/735751302340149338/messages: 293,48 ms
+25.07.2020 20:45:29 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685198472642622: 220,42 ms
+25.07.2020 20:45:31 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:45:39 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:45:52 [Verbose] Rest: POST channels/735751302340149338/messages: 294,32 ms
+25.07.2020 20:45:52 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/6
+25.07.2020 20:46:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.07.2020 20:46:49 [Verbose] Rest: GET voice/regions: 1228,8 ms
+25.07.2020 20:46:49 [Verbose] Rest: GET users/@me: 235,58 ms
+25.07.2020 20:46:49 [Info] Gateway: Connecting
+25.07.2020 20:46:50 [Verbose] Rest: GET gateway: 72,42 ms
+25.07.2020 20:46:51 [Info] Gateway: Connected
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to Аниме
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to Pisecord
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to Плантация №13
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to DarlingBotInfo
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to Убежище Debilov
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to просто
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to AMYF
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to Darling Emoji One
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to New Project C78
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to говно
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to Dark Anime Empire🦇
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to test.server
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to Popizdelki
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to KiTKAt`k's server
+25.07.2020 20:46:51 [Verbose] Gateway: Connected to ๖ۣۣۜLegion
+25.07.2020 20:46:54 [Warning] Gateway: A Ready handler is blocking the gateway task.
+25.07.2020 20:46:55 [Info] Gateway: Ready
+25.07.2020 20:47:01 [Verbose] Rest: POST channels/735751302340149338/messages: 245,82 ms
+25.07.2020 20:47:01 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/6
+25.07.2020 20:47:24 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:47:24 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 310
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:47:36 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.07.2020 20:47:40 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 310
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:47:53 [Verbose] Rest: POST channels/735751302340149338/messages: 481,09 ms
+25.07.2020 20:47:53 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync(String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.AddRoleAsync(UInt64 guildId, UInt64 userId, UInt64 roleId, RequestOptions options)
+   at Discord.Rest.UserHelper.AddRolesAsync(IGuildUser user, BaseDiscordClient client, IEnumerable`1 roles, RequestOptions options)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 310
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 349
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.07.2020 20:47:53 [Verbose] Command: Executed "levelrole" for h1kkaru.#2627 in DarlingBotInfo/6

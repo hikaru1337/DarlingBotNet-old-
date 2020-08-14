@@ -1,0 +1,11 @@
+10.08.2020 10:10:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+10.08.2020 10:10:50 [Verbose] Rest: GET voice/regions: 978,88 ms
+10.08.2020 10:10:50 [Verbose] Rest: GET users/@me: 253,32 ms
+10.08.2020 10:10:50 [Info] Gateway: Connecting
+10.08.2020 10:10:50 [Verbose] Rest: GET gateway: 77,28 ms
+10.08.2020 10:10:52 [Info] Gateway: Connected
+10.08.2020 10:10:52 [Verbose] Gateway: Connected to DarlingBotInfo
+10.08.2020 10:10:53 [Info] Gateway: Ready
+10.08.2020 10:10:58 [Verbose] Rest: POST channels/663380088188043280/messages: 261,32 ms
+10.08.2020 10:10:58 [Verbose] Command: Executed "CommandInvise" for h1kkaru.#2627 in DarlingBotInfo/основной
+10.08.2020 10:11:00 [Verbose] Rest: POST channels/663380088188043280/messages: 234,16 ms

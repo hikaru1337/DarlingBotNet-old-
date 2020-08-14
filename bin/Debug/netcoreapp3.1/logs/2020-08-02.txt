@@ -1,0 +1,35 @@
+02.08.2020 1:34:40 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+02.08.2020 1:34:41 [Verbose] Rest: GET voice/regions: 741,49 ms
+02.08.2020 1:34:41 [Verbose] Rest: GET users/@me: 221,81 ms
+02.08.2020 1:34:41 [Info] Gateway: Connecting
+02.08.2020 1:34:42 [Verbose] Rest: GET gateway: 72,52 ms
+02.08.2020 1:34:43 [Info] Gateway: Connected
+02.08.2020 1:34:43 [Verbose] Gateway: Connected to DarlingBotInfo
+02.08.2020 1:34:43 [Info] Gateway: Ready
+02.08.2020 1:35:19 [Verbose] Rest: POST channels/720663623277477929/messages: 275,09 ms
+02.08.2020 1:35:19 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+02.08.2020 1:35:30 [Verbose] Rest: POST channels/720663623277477929/messages: 911,77 ms
+02.08.2020 1:35:30 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+02.08.2020 1:35:49 [Verbose] Rest: POST channels/720663623277477929/messages: 214,08 ms
+02.08.2020 1:35:49 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+02.08.2020 1:35:56 [Verbose] Rest: POST channels/720663623277477929/messages: 252,99 ms
+02.08.2020 1:35:56 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+02.08.2020 1:35:58 [Verbose] Rest: POST channels/720663623277477929/messages: 250,29 ms
+02.08.2020 1:35:58 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+02.08.2020 1:36:05 [Verbose] Rest: POST channels/720663623277477929/messages: 356,2 ms
+02.08.2020 1:36:05 [Verbose] Rest: POST channels/720663623277477929/messages: 526,12 ms
+02.08.2020 1:36:05 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+02.08.2020 1:36:06 [Verbose] Rest: POST channels/720663623277477929/messages: 228,3 ms
+02.08.2020 1:36:06 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+02.08.2020 1:36:08 [Verbose] Rest: POST channels/720663623277477929/messages: 302,53 ms
+02.08.2020 1:36:08 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+02.08.2020 1:36:12 [Verbose] Rest: POST channels/720663623277477929/messages: 411,18 ms
+02.08.2020 1:36:12 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+02.08.2020 1:36:48 [Verbose] Rest: POST channels/720663623277477929/messages: 300,86 ms
+02.08.2020 1:36:48 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+02.08.2020 1:37:09 [Verbose] Rest: POST channels/720663623277477929/messages: 253,58 ms
+02.08.2020 1:37:09 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+02.08.2020 1:37:55 [Verbose] Rest: POST channels/720663623277477929/messages: 251,8 ms
+02.08.2020 1:37:55 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
+02.08.2020 1:38:07 [Verbose] Rest: POST channels/720663623277477929/messages: 232,16 ms
+02.08.2020 1:38:07 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/darlingbot
