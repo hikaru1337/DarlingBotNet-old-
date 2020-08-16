@@ -195,19 +195,18 @@ namespace DarlingBotNet.Modules
             await Context.Channel.SendMessageAsync("", false, emb.Build());
         }
 
-        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
-        public async Task addc()
-        {
-            using (var DBcontext = _db.GetDbContext())
-            {
-                var usr = DBcontext.Users.GetOrCreate(Context.User.Id, Context.Guild.Id);
-                usr.ZeroCoin++;
-                DBcontext.Users.Update(usr);
-                await DBcontext.SaveChangesAsync();
-                await Context.Channel.SendMessageAsync(usr.ZeroCoin.ToString());
-            }
-
-        }
+        //[Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
+        //public async Task addc()
+        //{
+        //    using (var DBcontext = _db.GetDbContext())
+        //    {
+        //        var usr = DBcontext.Users.GetOrCreate(Context.User.Id, Context.Guild.Id);
+        //        usr.ZeroCoin++;
+        //        DBcontext.Users.Update(usr);
+        //        await DBcontext.SaveChangesAsync();
+        //        await Context.Channel.SendMessageAsync(usr.ZeroCoin.ToString());
+        //    }
+        //}
 
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task daily()
