@@ -1,0 +1,1054 @@
+16.08.2020 7:51:17 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 7:51:18 [Verbose] Rest: GET voice/regions: 664,26 ms
+16.08.2020 7:51:18 [Verbose] Rest: GET users/@me: 228,74 ms
+16.08.2020 7:51:18 [Info] Gateway: Connecting
+16.08.2020 7:51:18 [Verbose] Rest: GET gateway: 80,57 ms
+16.08.2020 7:51:20 [Info] Gateway: Connected
+16.08.2020 7:51:20 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 7:51:21 [Info] Gateway: Ready
+16.08.2020 7:52:38 [Verbose] Rest: POST channels/663380088188043280/messages: 395,96 ms
+16.08.2020 7:52:38 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 7:52:44 [Verbose] Rest: GET oauth2/applications/@me: 216,23 ms
+16.08.2020 7:52:44 [Verbose] Rest: POST channels/663380088188043280/messages: 267,17 ms
+16.08.2020 7:52:44 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 7:52:50 [Error] Command: Discord.Commands.CommandException: Error occurred executing "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной.
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at DarlingBotNet.DataBase.Repository`1.Update(T obj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\Database\Repositories\Impl\Repository.cs:line 37
+   at DarlingBotNet.Modules.Clan.clancreate(String name, String logourl) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Clan.cs:line 67
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+16.08.2020 7:52:50 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 7:53:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 7:53:31 [Verbose] Rest: GET voice/regions: 661,36 ms
+16.08.2020 7:53:31 [Verbose] Rest: GET users/@me: 252,54 ms
+16.08.2020 7:53:31 [Info] Gateway: Connecting
+16.08.2020 7:53:31 [Verbose] Rest: GET gateway: 72,63 ms
+16.08.2020 7:53:33 [Info] Gateway: Connected
+16.08.2020 7:53:33 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 7:53:34 [Info] Gateway: Ready
+16.08.2020 7:53:40 [Verbose] Rest: POST channels/663380088188043280/messages: 286,65 ms
+16.08.2020 7:53:40 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 7:53:42 [Verbose] Rest: GET oauth2/applications/@me: 227,38 ms
+16.08.2020 7:53:43 [Verbose] Rest: POST channels/663380088188043280/messages: 432,52 ms
+16.08.2020 7:53:43 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 7:53:45 [Verbose] Rest: POST channels/663380088188043280/messages: 324,15 ms
+16.08.2020 7:53:45 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 7:53:52 [Verbose] Rest: POST channels/663380088188043280/messages: 301,28 ms
+16.08.2020 7:53:52 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:01:22 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:01:23 [Verbose] Rest: GET voice/regions: 727,9 ms
+16.08.2020 8:01:23 [Verbose] Rest: GET users/@me: 241,52 ms
+16.08.2020 8:01:23 [Info] Gateway: Connecting
+16.08.2020 8:01:23 [Verbose] Rest: GET gateway: 84,26 ms
+16.08.2020 8:01:25 [Info] Gateway: Connected
+16.08.2020 8:01:25 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:01:26 [Info] Gateway: Ready
+16.08.2020 8:01:33 [Verbose] Rest: GET oauth2/applications/@me: 238,55 ms
+16.08.2020 8:01:34 [Verbose] Rest: POST channels/663380088188043280/messages: 301,63 ms
+16.08.2020 8:01:34 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:02:49 [Warning] Gateway: System.Exception: WebSocket connection was closed
+ ---> Discord.Net.WebSocketClosedException: The server sent close 1000: ""
+   at Discord.Net.WebSockets.DefaultWebSocketClient.RunAsync(CancellationToken cancelToken)
+   --- End of inner exception stack trace ---
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+16.08.2020 8:02:49 [Info] Gateway: Disconnecting
+16.08.2020 8:02:49 [Error] Command: Discord.Commands.CommandException: Error occurred executing "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DarlingBotNet.Modules.Clan.clancreate(String name, String logourl) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Clan.cs:line 61
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+16.08.2020 8:02:49 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:02:49 [Verbose] Gateway: Disconnected from DarlingBotInfo
+16.08.2020 8:02:49 [Info] Gateway: Disconnected
+16.08.2020 8:02:50 [Info] Gateway: Connecting
+16.08.2020 8:02:50 [Verbose] Rest: GET gateway: 79,47 ms
+16.08.2020 8:02:51 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:02:51 [Info] Gateway: Resumed previous session
+16.08.2020 8:03:27 [Verbose] Rest: POST channels/663380088188043280/messages: 367,03 ms
+16.08.2020 8:03:27 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:03:50 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:03:50 [Verbose] Rest: GET voice/regions: 665,08 ms
+16.08.2020 8:03:51 [Verbose] Rest: GET users/@me: 230,18 ms
+16.08.2020 8:03:51 [Info] Gateway: Connecting
+16.08.2020 8:03:51 [Verbose] Rest: GET gateway: 95,48 ms
+16.08.2020 8:03:52 [Info] Gateway: Connected
+16.08.2020 8:03:52 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:03:54 [Info] Gateway: Ready
+16.08.2020 8:21:41 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:21:41 [Verbose] Rest: GET voice/regions: 659,4 ms
+16.08.2020 8:21:42 [Verbose] Rest: GET users/@me: 249,05 ms
+16.08.2020 8:21:42 [Info] Gateway: Connecting
+16.08.2020 8:21:42 [Verbose] Rest: GET gateway: 75,87 ms
+16.08.2020 8:21:43 [Info] Gateway: Connected
+16.08.2020 8:21:43 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:21:44 [Info] Gateway: Ready
+16.08.2020 8:21:46 [Verbose] Rest: GET oauth2/applications/@me: 231,36 ms
+16.08.2020 8:21:47 [Verbose] Rest: POST channels/663380088188043280/messages: 256,83 ms
+16.08.2020 8:21:47 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:21:53 [Error] Command: Discord.Commands.CommandException: Error occurred executing "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: c.OwnerId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.DataBase.ClansRepository.GetOwnerClan(UInt64 guildId, UInt64 userid) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\Database\Repositories\Impl\ClansRepository.cs:line 33
+   at DarlingBotNet.Modules.Clan.clancreate(String name, String logourl) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Clan.cs:line 36
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+16.08.2020 8:21:53 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:22:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:22:38 [Verbose] Rest: GET voice/regions: 654,3 ms
+16.08.2020 8:22:39 [Verbose] Rest: GET users/@me: 249,09 ms
+16.08.2020 8:22:39 [Info] Gateway: Connecting
+16.08.2020 8:22:39 [Verbose] Rest: GET gateway: 75,36 ms
+16.08.2020 8:22:40 [Info] Gateway: Connected
+16.08.2020 8:22:40 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:22:41 [Info] Gateway: Ready
+16.08.2020 8:22:44 [Verbose] Rest: GET oauth2/applications/@me: 227,88 ms
+16.08.2020 8:22:45 [Verbose] Rest: POST channels/663380088188043280/messages: 242,66 ms
+16.08.2020 8:22:45 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:22:50 [Verbose] Rest: POST channels/663380088188043280/messages: 328,28 ms
+16.08.2020 8:22:50 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:25:09 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:25:10 [Verbose] Rest: GET voice/regions: 640,59 ms
+16.08.2020 8:25:10 [Verbose] Rest: GET users/@me: 234,95 ms
+16.08.2020 8:25:10 [Info] Gateway: Connecting
+16.08.2020 8:25:10 [Verbose] Rest: GET gateway: 77,34 ms
+16.08.2020 8:25:11 [Info] Gateway: Connected
+16.08.2020 8:25:12 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:25:13 [Info] Gateway: Ready
+16.08.2020 8:25:14 [Verbose] Rest: GET oauth2/applications/@me: 225,7 ms
+16.08.2020 8:25:15 [Verbose] Rest: POST channels/663380088188043280/messages: 297,39 ms
+16.08.2020 8:25:15 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:25:19 [Error] Command: Discord.Commands.CommandException: Error occurred executing "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной.
+ ---> System.InvalidOperationException: The property 'Id' on entity type 'Clans' has a temporary value while attempting to change the entity's state to 'Modified'. Either set a permanent value explicitly or ensure that the database is configured to generate values for this property.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at DarlingBotNet.DataBase.Repository`1.Update(T obj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\Database\Repositories\Impl\Repository.cs:line 37
+   at DarlingBotNet.Modules.Clan.clancreate(String name, String logourl) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Clan.cs:line 61
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+16.08.2020 8:25:19 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:26:00 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:26:01 [Verbose] Rest: GET voice/regions: 604,78 ms
+16.08.2020 8:26:01 [Verbose] Rest: GET users/@me: 221,14 ms
+16.08.2020 8:26:01 [Info] Gateway: Connecting
+16.08.2020 8:26:01 [Verbose] Rest: GET gateway: 80,61 ms
+16.08.2020 8:26:02 [Info] Gateway: Connected
+16.08.2020 8:26:03 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:26:04 [Info] Gateway: Ready
+16.08.2020 8:26:07 [Verbose] Rest: GET oauth2/applications/@me: 230,64 ms
+16.08.2020 8:26:07 [Verbose] Rest: POST channels/663380088188043280/messages: 289,12 ms
+16.08.2020 8:26:07 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:26:12 [Verbose] Rest: POST channels/663380088188043280/messages: 334,84 ms
+16.08.2020 8:26:12 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:27:14 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:27:15 [Verbose] Rest: GET voice/regions: 623,64 ms
+16.08.2020 8:27:15 [Verbose] Rest: GET users/@me: 241,42 ms
+16.08.2020 8:27:15 [Info] Gateway: Connecting
+16.08.2020 8:27:15 [Verbose] Rest: GET gateway: 72,5 ms
+16.08.2020 8:27:16 [Info] Gateway: Connected
+16.08.2020 8:27:17 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:27:18 [Info] Gateway: Ready
+16.08.2020 8:27:19 [Verbose] Rest: POST channels/663380088188043280/messages: 312,26 ms
+16.08.2020 8:27:19 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:27:35 [Verbose] Rest: POST channels/663380088188043280/messages: 244,64 ms
+16.08.2020 8:27:35 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:27:46 [Verbose] Rest: GET oauth2/applications/@me: 756,95 ms
+16.08.2020 8:27:46 [Verbose] Rest: POST channels/663380088188043280/messages: 288,78 ms
+16.08.2020 8:27:46 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:27:50 [Verbose] Rest: POST channels/663380088188043280/messages: 258,48 ms
+16.08.2020 8:27:50 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:28:36 [Verbose] Rest: POST channels/663380088188043280/messages: 370,64 ms
+16.08.2020 8:28:36 [Verbose] Rest: POST channels/663380088188043280/messages: 455,27 ms
+16.08.2020 8:28:36 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:28:44 [Verbose] Rest: POST channels/663380088188043280/messages: 252,87 ms
+16.08.2020 8:28:44 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:29:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:29:44 [Verbose] Rest: GET voice/regions: 637,99 ms
+16.08.2020 8:29:44 [Verbose] Rest: GET users/@me: 267,44 ms
+16.08.2020 8:29:44 [Info] Gateway: Connecting
+16.08.2020 8:29:44 [Verbose] Rest: GET gateway: 74,79 ms
+16.08.2020 8:29:46 [Info] Gateway: Connected
+16.08.2020 8:29:46 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:29:47 [Info] Gateway: Ready
+16.08.2020 8:30:00 [Verbose] Rest: GET oauth2/applications/@me: 214,19 ms
+16.08.2020 8:30:01 [Verbose] Rest: POST channels/663380088188043280/messages: 256,43 ms
+16.08.2020 8:30:01 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:30:05 [Verbose] Rest: POST channels/663380088188043280/messages: 249,42 ms
+16.08.2020 8:30:05 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:30:54 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:30:54 [Verbose] Rest: GET voice/regions: 640,13 ms
+16.08.2020 8:30:55 [Verbose] Rest: GET users/@me: 236,8 ms
+16.08.2020 8:30:55 [Info] Gateway: Connecting
+16.08.2020 8:30:55 [Verbose] Rest: GET gateway: 83,95 ms
+16.08.2020 8:30:56 [Info] Gateway: Connected
+16.08.2020 8:30:56 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:30:57 [Info] Gateway: Ready
+16.08.2020 8:31:05 [Verbose] Rest: GET oauth2/applications/@me: 228,71 ms
+16.08.2020 8:31:06 [Verbose] Rest: POST channels/663380088188043280/messages: 263,14 ms
+16.08.2020 8:31:06 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:31:12 [Verbose] Rest: POST channels/663380088188043280/messages: 341,34 ms
+16.08.2020 8:31:12 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:31:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:32:00 [Verbose] Rest: GET voice/regions: 656,19 ms
+16.08.2020 8:32:00 [Verbose] Rest: GET users/@me: 233,36 ms
+16.08.2020 8:32:00 [Info] Gateway: Connecting
+16.08.2020 8:32:00 [Verbose] Rest: GET gateway: 81,34 ms
+16.08.2020 8:32:01 [Info] Gateway: Connected
+16.08.2020 8:32:01 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:32:02 [Info] Gateway: Ready
+16.08.2020 8:32:04 [Verbose] Rest: POST channels/663380088188043280/messages: 350,4 ms
+16.08.2020 8:32:04 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:32:20 [Verbose] Rest: POST channels/663380088188043280/messages: 260,71 ms
+16.08.2020 8:32:20 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:32:31 [Verbose] Rest: POST channels/663380088188043280/messages: 351,01 ms
+16.08.2020 8:32:38 [Verbose] Rest: POST channels/663380088188043280/messages: 793,89 ms
+16.08.2020 8:32:38 [Verbose] Command: Executed "clandelete" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:32:43 [Verbose] Rest: POST channels/663380088188043280/messages: 252,67 ms
+16.08.2020 8:32:43 [Verbose] Command: Executed "clandelete" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:32:47 [Verbose] Rest: POST channels/663380088188043280/messages: 338,62 ms
+16.08.2020 8:32:47 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:35:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:35:24 [Verbose] Rest: GET voice/regions: 661,88 ms
+16.08.2020 8:35:25 [Verbose] Rest: GET users/@me: 227,02 ms
+16.08.2020 8:35:25 [Info] Gateway: Connecting
+16.08.2020 8:35:25 [Verbose] Rest: GET gateway: 74,97 ms
+16.08.2020 8:35:26 [Info] Gateway: Connected
+16.08.2020 8:35:26 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:35:27 [Info] Gateway: Ready
+16.08.2020 8:39:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:39:31 [Verbose] Rest: GET voice/regions: 645,26 ms
+16.08.2020 8:39:31 [Verbose] Rest: GET users/@me: 227,34 ms
+16.08.2020 8:39:31 [Info] Gateway: Connecting
+16.08.2020 8:39:32 [Verbose] Rest: GET gateway: 83,93 ms
+16.08.2020 8:39:33 [Info] Gateway: Connected
+16.08.2020 8:39:33 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:39:34 [Info] Gateway: Ready
+16.08.2020 8:39:35 [Verbose] Rest: Preemptive Rate limit triggered: channels/663380088188043280/messages
+16.08.2020 8:39:35 [Verbose] Rest: POST channels/663380088188043280/messages: 302,29 ms
+16.08.2020 8:39:36 [Verbose] Rest: POST channels/663380088188043280/messages: 1007,73 ms
+16.08.2020 8:39:36 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:40:26 [Verbose] Rest: POST channels/663380088188043280/messages: 267,17 ms
+16.08.2020 8:40:26 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:40:30 [Verbose] Rest: GET oauth2/applications/@me: 235,09 ms
+16.08.2020 8:40:31 [Verbose] Rest: POST channels/663380088188043280/messages: 247,69 ms
+16.08.2020 8:40:31 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:40:35 [Verbose] Rest: POST channels/663380088188043280/messages: 256,51 ms
+16.08.2020 8:40:35 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:40:39 [Verbose] Rest: POST channels/663380088188043280/messages: 240,76 ms
+16.08.2020 8:40:39 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:41:28 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:41:28 [Verbose] Rest: GET voice/regions: 650,99 ms
+16.08.2020 8:41:29 [Verbose] Rest: GET users/@me: 230,79 ms
+16.08.2020 8:41:29 [Info] Gateway: Connecting
+16.08.2020 8:41:29 [Verbose] Rest: GET gateway: 77,28 ms
+16.08.2020 8:41:30 [Info] Gateway: Connected
+16.08.2020 8:41:30 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:41:31 [Info] Gateway: Ready
+16.08.2020 8:41:34 [Verbose] Rest: POST channels/663380088188043280/messages: 374 ms
+16.08.2020 8:41:34 [Verbose] Command: Executed "claninfo" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:47:09 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:47:09 [Verbose] Rest: GET voice/regions: 674,63 ms
+16.08.2020 8:47:10 [Verbose] Rest: GET users/@me: 261,74 ms
+16.08.2020 8:47:10 [Info] Gateway: Connecting
+16.08.2020 8:47:10 [Verbose] Rest: GET gateway: 81,96 ms
+16.08.2020 8:47:11 [Info] Gateway: Connected
+16.08.2020 8:47:11 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:47:12 [Info] Gateway: Ready
+16.08.2020 8:47:18 [Verbose] Rest: POST channels/663380088188043280/messages: 390,18 ms
+16.08.2020 8:47:18 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:47:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:47:34 [Verbose] Rest: GET voice/regions: 600,19 ms
+16.08.2020 8:47:35 [Verbose] Rest: GET users/@me: 248,38 ms
+16.08.2020 8:47:35 [Info] Gateway: Connecting
+16.08.2020 8:47:35 [Verbose] Rest: GET gateway: 73,37 ms
+16.08.2020 8:47:36 [Info] Gateway: Connected
+16.08.2020 8:47:36 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:47:37 [Info] Gateway: Ready
+16.08.2020 8:47:39 [Verbose] Rest: POST channels/663380088188043280/messages: 378,24 ms
+16.08.2020 8:47:39 [Verbose] Command: Executed "clandelete" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:47:41 [Verbose] Rest: POST channels/663380088188043280/messages: 344,08 ms
+16.08.2020 8:47:41 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:53:17 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:53:18 [Verbose] Rest: GET voice/regions: 683,15 ms
+16.08.2020 8:53:18 [Verbose] Rest: GET users/@me: 232,21 ms
+16.08.2020 8:53:18 [Info] Gateway: Connecting
+16.08.2020 8:53:19 [Verbose] Rest: GET gateway: 77,02 ms
+16.08.2020 8:53:20 [Info] Gateway: Connected
+16.08.2020 8:53:20 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:53:21 [Info] Gateway: Ready
+16.08.2020 8:53:50 [Verbose] Rest: POST channels/663380088188043280/messages: 239,88 ms
+16.08.2020 8:53:50 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:54:05 [Verbose] Rest: GET oauth2/applications/@me: 231,36 ms
+16.08.2020 8:54:05 [Verbose] Rest: POST channels/663380088188043280/messages: 243,75 ms
+16.08.2020 8:54:05 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:54:12 [Verbose] Rest: POST channels/663380088188043280/messages: 282,88 ms
+16.08.2020 8:54:12 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:54:15 [Verbose] Rest: POST channels/663380088188043280/messages: 545,65 ms
+16.08.2020 8:54:15 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/основной
+16.08.2020 8:54:28 [Verbose] Rest: POST channels/663380088188043280/messages: 454,59 ms
+16.08.2020 8:57:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:57:21 [Verbose] Rest: GET voice/regions: 613,26 ms
+16.08.2020 8:57:22 [Verbose] Rest: GET users/@me: 212,52 ms
+16.08.2020 8:57:22 [Info] Gateway: Connecting
+16.08.2020 8:57:22 [Verbose] Rest: GET gateway: 73,45 ms
+16.08.2020 8:57:23 [Info] Gateway: Connected
+16.08.2020 8:57:23 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:57:24 [Info] Gateway: Ready
+16.08.2020 8:59:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 8:59:39 [Verbose] Rest: GET voice/regions: 667,2 ms
+16.08.2020 8:59:40 [Verbose] Rest: GET users/@me: 231,83 ms
+16.08.2020 8:59:40 [Info] Gateway: Connecting
+16.08.2020 8:59:40 [Verbose] Rest: GET gateway: 77,56 ms
+16.08.2020 8:59:41 [Info] Gateway: Connected
+16.08.2020 8:59:41 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 8:59:42 [Info] Gateway: Ready
+16.08.2020 9:14:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 9:14:25 [Verbose] Rest: GET voice/regions: 621,77 ms
+16.08.2020 9:14:26 [Verbose] Rest: GET users/@me: 249,97 ms
+16.08.2020 9:14:26 [Info] Gateway: Connecting
+16.08.2020 9:14:26 [Verbose] Rest: GET gateway: 77,15 ms
+16.08.2020 9:15:02 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 9:15:02 [Verbose] Rest: GET voice/regions: 667,24 ms
+16.08.2020 9:15:03 [Verbose] Rest: GET users/@me: 237,92 ms
+16.08.2020 9:15:03 [Info] Gateway: Connecting
+16.08.2020 9:15:03 [Verbose] Rest: GET gateway: 74,24 ms
+16.08.2020 9:15:04 [Info] Gateway: Connected
+16.08.2020 9:15:04 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 9:15:05 [Info] Gateway: Ready
+16.08.2020 9:15:15 [Verbose] Rest: POST channels/744480279275634748/messages: 318,03 ms
+16.08.2020 9:15:15 [Verbose] Command: Executed "channelsettings" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 9:16:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 9:16:30 [Verbose] Rest: GET voice/regions: 631,22 ms
+16.08.2020 9:16:31 [Verbose] Rest: GET users/@me: 243,69 ms
+16.08.2020 9:16:31 [Info] Gateway: Connecting
+16.08.2020 9:16:31 [Verbose] Rest: GET gateway: 82,22 ms
+16.08.2020 9:16:32 [Info] Gateway: Connected
+16.08.2020 9:16:32 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 9:16:33 [Info] Gateway: Ready
+16.08.2020 9:17:42 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 9:17:43 [Verbose] Rest: GET voice/regions: 667,53 ms
+16.08.2020 9:17:43 [Verbose] Rest: GET users/@me: 254,56 ms
+16.08.2020 9:17:43 [Info] Gateway: Connecting
+16.08.2020 9:17:43 [Verbose] Rest: GET gateway: 74,94 ms
+16.08.2020 9:17:45 [Info] Gateway: Connected
+16.08.2020 9:17:45 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 9:17:46 [Info] Gateway: Ready
+16.08.2020 9:22:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 9:22:34 [Verbose] Rest: GET voice/regions: 656,87 ms
+16.08.2020 9:22:35 [Verbose] Rest: GET users/@me: 242,67 ms
+16.08.2020 9:22:35 [Info] Gateway: Connecting
+16.08.2020 9:22:35 [Verbose] Rest: GET gateway: 100,29 ms
+16.08.2020 9:22:36 [Info] Gateway: Connected
+16.08.2020 9:22:36 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 9:22:37 [Info] Gateway: Ready
+16.08.2020 9:23:04 [Verbose] Rest: GET oauth2/applications/@me: 239,34 ms
+16.08.2020 9:23:04 [Error] Command: Discord.Commands.CommandException: Error occurred executing "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.InvalidOperationException: The property 'Id' on entity type 'Users' has a temporary value while attempting to change the entity's state to 'Modified'. Either set a permanent value explicitly or ensure that the database is configured to generate values for this property.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Update[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at DarlingBotNet.DataBase.Repository`1.Update(T obj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\Database\Repositories\Impl\Repository.cs:line 37
+   at DarlingBotNet.Modules.Bot.setcoin(SocketUser user, UInt32 Coin) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Bot.cs:line 203
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+16.08.2020 9:23:04 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 9:23:07 [Verbose] Rest: POST channels/744480279275634748/messages: 365,49 ms
+16.08.2020 9:23:07 [Verbose] Command: Executed "commands" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 9:24:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 9:24:38 [Verbose] Rest: GET voice/regions: 606,73 ms
+16.08.2020 9:24:39 [Verbose] Rest: GET users/@me: 242,71 ms
+16.08.2020 9:24:39 [Info] Gateway: Connecting
+16.08.2020 9:24:39 [Verbose] Rest: GET gateway: 78,38 ms
+16.08.2020 9:24:40 [Info] Gateway: Connected
+16.08.2020 9:24:41 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 9:24:41 [Info] Gateway: Ready
+16.08.2020 9:24:48 [Verbose] Rest: GET oauth2/applications/@me: 245,36 ms
+16.08.2020 9:24:48 [Verbose] Rest: POST channels/744480279275634748/messages: 238,78 ms
+16.08.2020 9:24:48 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 9:24:57 [Verbose] Rest: POST channels/744480279275634748/messages: 399,44 ms
+16.08.2020 9:24:57 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 9:25:16 [Verbose] Rest: POST channels/744480279275634748/messages: 244,61 ms
+16.08.2020 9:25:52 [Verbose] Rest: POST channels/744480279275634748/messages: 261,33 ms
+16.08.2020 9:26:33 [Verbose] Rest: POST channels/744480279275634748/messages: 238,4 ms
+16.08.2020 9:26:33 [Verbose] Command: Executed "clancreate" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 9:26:45 [Verbose] Rest: POST channels/744480279275634748/messages: 259,98 ms
+16.08.2020 9:26:45 [Verbose] Command: Executed "clans" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 9:27:11 [Verbose] Rest: POST channels/744480279275634748/messages: 361,48 ms
+16.08.2020 9:27:11 [Verbose] Command: Executed "commands" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 9:31:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 9:31:25 [Verbose] Rest: GET voice/regions: 657,85 ms
+16.08.2020 9:31:25 [Verbose] Rest: GET users/@me: 246,8 ms
+16.08.2020 9:31:25 [Info] Gateway: Connecting
+16.08.2020 9:31:25 [Verbose] Rest: GET gateway: 88,79 ms
+16.08.2020 9:31:26 [Info] Gateway: Connected
+16.08.2020 9:31:26 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 9:31:27 [Info] Gateway: Ready
+16.08.2020 9:31:34 [Verbose] Rest: POST channels/744480279275634748/messages: 265,79 ms
+16.08.2020 9:31:34 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 9:32:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 9:32:49 [Verbose] Rest: GET voice/regions: 709,42 ms
+16.08.2020 9:32:50 [Verbose] Rest: GET users/@me: 243,89 ms
+16.08.2020 9:32:50 [Info] Gateway: Connecting
+16.08.2020 9:32:50 [Verbose] Rest: GET gateway: 86,68 ms
+16.08.2020 9:32:52 [Info] Gateway: Connected
+16.08.2020 9:32:52 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 9:32:53 [Info] Gateway: Ready
+16.08.2020 9:32:59 [Verbose] Rest: POST channels/744480279275634748/messages: 367,3 ms
+16.08.2020 9:32:59 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 9:46:51 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 9:46:52 [Verbose] Rest: GET voice/regions: 735,58 ms
+16.08.2020 9:46:52 [Verbose] Rest: GET users/@me: 219,19 ms
+16.08.2020 9:46:52 [Info] Gateway: Connecting
+16.08.2020 9:46:52 [Verbose] Rest: GET gateway: 80,97 ms
+16.08.2020 9:46:54 [Info] Gateway: Connected
+16.08.2020 9:46:54 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 9:46:55 [Info] Gateway: Ready
+16.08.2020 9:56:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 9:56:38 [Verbose] Rest: GET voice/regions: 682,33 ms
+16.08.2020 9:56:38 [Verbose] Rest: GET users/@me: 227,24 ms
+16.08.2020 9:56:38 [Info] Gateway: Connecting
+16.08.2020 9:56:38 [Verbose] Rest: GET gateway: 73,69 ms
+16.08.2020 9:56:40 [Info] Gateway: Connected
+16.08.2020 9:56:40 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 9:56:41 [Info] Gateway: Ready
+16.08.2020 9:56:42 [Verbose] Rest: POST channels/744480279275634748/messages: 242,85 ms
+16.08.2020 9:56:42 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:01:54 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 10:01:54 [Verbose] Rest: GET voice/regions: 618,24 ms
+16.08.2020 10:01:55 [Verbose] Rest: GET users/@me: 210,76 ms
+16.08.2020 10:01:55 [Info] Gateway: Connecting
+16.08.2020 10:01:55 [Verbose] Rest: GET gateway: 74,55 ms
+16.08.2020 10:01:56 [Info] Gateway: Connected
+16.08.2020 10:01:56 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 10:01:57 [Info] Gateway: Ready
+16.08.2020 10:02:14 [Verbose] Rest: POST channels/744480279275634748/messages: 370,74 ms
+16.08.2020 10:02:14 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:02:22 [Verbose] Rest: POST channels/744480279275634748/messages: 241,45 ms
+16.08.2020 10:02:22 [Verbose] Command: Executed "clanstop" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:02:29 [Verbose] Rest: POST channels/744480279275634748/messages: 281,53 ms
+16.08.2020 10:02:29 [Verbose] Rest: POST channels/744480279275634748/messages: 424,38 ms
+16.08.2020 10:02:29 [Verbose] Command: Executed "clanstop" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:02:37 [Verbose] Rest: POST channels/744480279275634748/messages: 265,65 ms
+16.08.2020 10:02:37 [Verbose] Command: Executed "clans" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:02:54 [Verbose] Rest: POST channels/744480279275634748/messages: 314,16 ms
+16.08.2020 10:02:54 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:02:57 [Verbose] Rest: POST channels/744480279275634748/messages: 256,4 ms
+16.08.2020 10:02:57 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:02:57 [Verbose] Rest: POST channels/744480279275634748/messages: 318,27 ms
+16.08.2020 10:03:04 [Verbose] Rest: POST channels/744480279275634748/messages: 256,19 ms
+16.08.2020 10:03:04 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:03:19 [Verbose] Rest: POST channels/744480279275634748/messages: 240,65 ms
+16.08.2020 10:03:28 [Verbose] Rest: POST channels/744480279275634748/messages: 263,15 ms
+16.08.2020 10:03:55 [Verbose] Rest: POST channels/744480279275634748/messages: 335,07 ms
+16.08.2020 10:03:55 [Verbose] Command: Executed "claninfo" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:04:09 [Verbose] Rest: POST channels/744480279275634748/messages: 296,71 ms
+16.08.2020 10:04:09 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:04:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 10:04:33 [Verbose] Rest: GET voice/regions: 631,66 ms
+16.08.2020 10:04:33 [Verbose] Rest: GET users/@me: 220,15 ms
+16.08.2020 10:04:34 [Info] Gateway: Connecting
+16.08.2020 10:04:34 [Verbose] Rest: GET gateway: 80,03 ms
+16.08.2020 10:04:35 [Info] Gateway: Connected
+16.08.2020 10:04:35 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 10:04:36 [Info] Gateway: Ready
+16.08.2020 10:04:47 [Verbose] Rest: POST channels/744480279275634748/messages: 405,26 ms
+16.08.2020 10:04:47 [Verbose] Command: Executed "clans" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+16.08.2020 10:04:56 [Verbose] Rest: POST channels/744480279275634748/messages: 267,11 ms
+16.08.2020 10:04:56 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:05:04 [Verbose] Rest: POST channels/744480279275634748/messages: 229,88 ms
+16.08.2020 10:05:04 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:06:18 [Verbose] Rest: POST channels/744480279275634748/messages: 235,95 ms
+16.08.2020 10:06:18 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:07:18 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 10:07:18 [Verbose] Rest: GET voice/regions: 617,8 ms
+16.08.2020 10:07:19 [Verbose] Rest: GET users/@me: 240,73 ms
+16.08.2020 10:07:19 [Info] Gateway: Connecting
+16.08.2020 10:07:19 [Verbose] Rest: GET gateway: 83,86 ms
+16.08.2020 10:07:20 [Info] Gateway: Connected
+16.08.2020 10:07:20 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 10:07:21 [Info] Gateway: Ready
+16.08.2020 10:07:25 [Verbose] Rest: POST channels/744480279275634748/messages: 290,75 ms
+16.08.2020 10:07:25 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:11:06 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 10:11:07 [Verbose] Rest: GET voice/regions: 1011,7 ms
+16.08.2020 10:11:08 [Verbose] Rest: GET users/@me: 271,71 ms
+16.08.2020 10:11:08 [Info] Gateway: Connecting
+16.08.2020 10:11:08 [Verbose] Rest: GET gateway: 76,45 ms
+16.08.2020 10:11:09 [Info] Gateway: Connected
+16.08.2020 10:11:09 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 10:11:10 [Info] Gateway: Ready
+16.08.2020 10:11:20 [Verbose] Rest: POST channels/744480279275634748/messages: 259,51 ms
+16.08.2020 10:11:20 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:12:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 10:12:13 [Verbose] Rest: GET voice/regions: 632,61 ms
+16.08.2020 10:12:13 [Verbose] Rest: GET users/@me: 231,13 ms
+16.08.2020 10:12:13 [Info] Gateway: Connecting
+16.08.2020 10:12:14 [Verbose] Rest: GET gateway: 87,73 ms
+16.08.2020 10:12:15 [Info] Gateway: Connected
+16.08.2020 10:12:15 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 10:12:16 [Info] Gateway: Ready
+16.08.2020 10:12:18 [Verbose] Rest: POST channels/744480279275634748/messages: 303,54 ms
+16.08.2020 10:12:18 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:12:39 [Verbose] Rest: POST channels/744480279275634748/messages: 263,9 ms
+16.08.2020 10:12:39 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:26:06 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 10:26:07 [Verbose] Rest: GET voice/regions: 651,97 ms
+16.08.2020 10:26:07 [Verbose] Rest: GET users/@me: 233,31 ms
+16.08.2020 10:26:07 [Info] Gateway: Connecting
+16.08.2020 10:26:07 [Verbose] Rest: GET gateway: 87,81 ms
+16.08.2020 10:26:09 [Info] Gateway: Connected
+16.08.2020 10:26:09 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 10:26:09 [Info] Gateway: Ready
+16.08.2020 10:26:17 [Verbose] Rest: POST channels/744480279275634748/messages: 247,03 ms
+16.08.2020 10:26:17 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:33:29 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 10:33:29 [Verbose] Rest: GET voice/regions: 695,47 ms
+16.08.2020 10:33:30 [Verbose] Rest: GET users/@me: 230,3 ms
+16.08.2020 10:33:30 [Info] Gateway: Connecting
+16.08.2020 10:33:30 [Verbose] Rest: GET gateway: 71,48 ms
+16.08.2020 10:33:31 [Info] Gateway: Connected
+16.08.2020 10:33:31 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 10:33:32 [Info] Gateway: Ready
+16.08.2020 10:33:34 [Verbose] Rest: POST channels/744480279275634748/messages: 737,16 ms
+16.08.2020 10:33:34 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:33:46 [Verbose] Rest: POST channels/744480279275634748/messages: 226,31 ms
+16.08.2020 10:33:46 [Verbose] Command: Executed "clans" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+16.08.2020 10:35:07 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 10:35:08 [Verbose] Rest: GET voice/regions: 657,59 ms
+16.08.2020 10:35:08 [Verbose] Rest: GET users/@me: 250,38 ms
+16.08.2020 10:35:08 [Info] Gateway: Connecting
+16.08.2020 10:35:08 [Verbose] Rest: GET gateway: 85,51 ms
+16.08.2020 10:35:09 [Info] Gateway: Connected
+16.08.2020 10:35:10 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 10:35:10 [Info] Gateway: Ready
+16.08.2020 10:35:12 [Verbose] Rest: POST channels/744480279275634748/messages: 279,99 ms
+16.08.2020 10:35:12 [Verbose] Command: Executed "clans" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+16.08.2020 10:35:30 [Verbose] Rest: POST channels/744480279275634748/messages: 288,35 ms
+16.08.2020 10:35:30 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:35:57 [Verbose] Rest: POST channels/744480279275634748/messages: 274,41 ms
+16.08.2020 10:35:57 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:36:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 10:36:27 [Verbose] Rest: GET voice/regions: 601,1 ms
+16.08.2020 10:36:28 [Verbose] Rest: GET users/@me: 221,38 ms
+16.08.2020 10:36:28 [Info] Gateway: Connecting
+16.08.2020 10:36:28 [Verbose] Rest: GET gateway: 95,94 ms
+16.08.2020 10:36:29 [Info] Gateway: Connected
+16.08.2020 10:36:29 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 10:36:30 [Info] Gateway: Ready
+16.08.2020 10:37:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 10:37:11 [Verbose] Rest: GET voice/regions: 655,63 ms
+16.08.2020 10:37:12 [Verbose] Rest: GET users/@me: 249,53 ms
+16.08.2020 10:37:12 [Info] Gateway: Connecting
+16.08.2020 10:37:12 [Verbose] Rest: GET gateway: 89,78 ms
+16.08.2020 10:37:13 [Info] Gateway: Connected
+16.08.2020 10:37:13 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 10:37:14 [Info] Gateway: Ready
+16.08.2020 10:37:43 [Verbose] Rest: POST channels/744480279275634748/messages: 329,91 ms
+16.08.2020 10:37:43 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:38:17 [Verbose] Rest: POST channels/744480279275634748/messages: 298,21 ms
+16.08.2020 10:38:52 [Verbose] Rest: POST channels/744480279275634748/messages: 233,31 ms
+16.08.2020 10:39:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 10:39:12 [Verbose] Rest: GET voice/regions: 644,11 ms
+16.08.2020 10:39:12 [Verbose] Rest: GET users/@me: 218,12 ms
+16.08.2020 10:39:12 [Info] Gateway: Connecting
+16.08.2020 10:39:12 [Verbose] Rest: GET gateway: 71,43 ms
+16.08.2020 10:39:14 [Info] Gateway: Connected
+16.08.2020 10:39:14 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 10:39:14 [Info] Gateway: Ready
+16.08.2020 10:39:22 [Verbose] Rest: POST channels/744480279275634748/messages: 280,3 ms
+16.08.2020 10:39:22 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:39:47 [Verbose] Rest: POST channels/744480279275634748/messages: 288,3 ms
+16.08.2020 10:39:47 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:39:52 [Verbose] Rest: POST channels/744480279275634748/messages: 281,83 ms
+16.08.2020 10:39:52 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:39:58 [Verbose] Rest: POST channels/744480279275634748/messages: 298,06 ms
+16.08.2020 10:40:01 [Verbose] Rest: POST channels/744480279275634748/messages: 239,46 ms
+16.08.2020 10:40:01 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:40:01 [Verbose] Rest: POST channels/744480279275634748/messages: 340,74 ms
+16.08.2020 10:40:01 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:40:27 [Verbose] Rest: POST channels/744480279275634748/messages: 270,99 ms
+16.08.2020 10:40:27 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:40:37 [Verbose] Rest: POST channels/744480279275634748/messages: 238,66 ms
+16.08.2020 10:40:37 [Verbose] Command: Executed "clans" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+16.08.2020 10:40:40 [Verbose] Rest: POST channels/744480279275634748/messages: 249,22 ms
+16.08.2020 10:40:40 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:40:44 [Verbose] Rest: POST channels/744480279275634748/messages: 324,71 ms
+16.08.2020 10:40:44 [Verbose] Command: Executed "clans" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+16.08.2020 10:40:54 [Verbose] Rest: POST channels/744480279275634748/messages: 245,14 ms
+16.08.2020 10:40:55 [Verbose] Rest: POST channels/744480279275634748/messages: 473,08 ms
+16.08.2020 10:40:55 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+16.08.2020 10:47:35 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 10:47:35 [Verbose] Rest: GET voice/regions: 781,31 ms
+16.08.2020 10:47:36 [Verbose] Rest: GET users/@me: 250,68 ms
+16.08.2020 10:47:36 [Info] Gateway: Connecting
+16.08.2020 10:47:36 [Verbose] Rest: GET gateway: 85,04 ms
+16.08.2020 10:47:37 [Info] Gateway: Connected
+16.08.2020 10:47:37 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 10:47:38 [Info] Gateway: Ready
+16.08.2020 10:47:41 [Verbose] Rest: POST channels/744480279275634748/messages: 263,92 ms
+16.08.2020 10:47:41 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:47:45 [Verbose] Rest: POST channels/744480279275634748/messages: 303,68 ms
+16.08.2020 10:47:45 [Verbose] Command: Executed "claninfo" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:48:07 [Verbose] Rest: POST channels/744480279275634748/messages: 438,73 ms
+16.08.2020 10:48:07 [Verbose] Command: Executed "clanleave" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:48:11 [Verbose] Rest: POST channels/744480279275634748/messages: 239,33 ms
+16.08.2020 10:48:11 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:48:15 [Verbose] Rest: POST channels/744480279275634748/messages: 340,28 ms
+16.08.2020 10:48:15 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 10:48:18 [Verbose] Rest: POST channels/744480279275634748/messages: 259,98 ms
+16.08.2020 10:48:18 [Verbose] Command: Executed "clanstop" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:50:41 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 12:50:41 [Verbose] Rest: GET voice/regions: 784,77 ms
+16.08.2020 12:50:42 [Verbose] Rest: GET users/@me: 235,52 ms
+16.08.2020 12:50:42 [Info] Gateway: Connecting
+16.08.2020 12:50:42 [Verbose] Rest: GET gateway: 78,9 ms
+16.08.2020 12:50:43 [Info] Gateway: Connected
+16.08.2020 12:50:44 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 12:50:45 [Info] Gateway: Ready
+16.08.2020 12:50:50 [Verbose] Rest: POST channels/744480279275634748/messages: 271,57 ms
+16.08.2020 12:50:50 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:50:51 [Verbose] Rest: POST channels/744480279275634748/messages: 276,75 ms
+16.08.2020 12:50:51 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:50:52 [Verbose] Rest: POST channels/744480279275634748/messages: 246,08 ms
+16.08.2020 12:50:52 [Verbose] Rest: POST channels/744480279275634748/messages: 386,34 ms
+16.08.2020 12:50:52 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:50:55 [Verbose] Rest: POST channels/744480279275634748/messages: 251,3 ms
+16.08.2020 12:50:55 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:50:57 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 12:51:01 [Verbose] Rest: POST channels/744480279275634748/messages: 4799,3 ms
+16.08.2020 12:51:01 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:04 [Verbose] Rest: POST channels/744480279275634748/messages: 304,91 ms
+16.08.2020 12:51:04 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:05 [Verbose] Rest: POST channels/744480279275634748/messages: 354,13 ms
+16.08.2020 12:51:05 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:07 [Verbose] Rest: POST channels/744480279275634748/messages: 281,3 ms
+16.08.2020 12:51:07 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:10 [Verbose] Rest: POST channels/744480279275634748/messages: 256,98 ms
+16.08.2020 12:51:10 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:11 [Verbose] Rest: POST channels/744480279275634748/messages: 655 ms
+16.08.2020 12:51:11 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:12 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 12:51:13 [Verbose] Rest: POST channels/744480279275634748/messages: 715,58 ms
+16.08.2020 12:51:13 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:15 [Verbose] Rest: POST channels/744480279275634748/messages: 232,78 ms
+16.08.2020 12:51:15 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:16 [Verbose] Rest: POST channels/744480279275634748/messages: 268,67 ms
+16.08.2020 12:51:16 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:19 [Verbose] Rest: POST channels/744480279275634748/messages: 250,38 ms
+16.08.2020 12:51:19 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:21 [Verbose] Rest: POST channels/744480279275634748/messages: 229,67 ms
+16.08.2020 12:51:21 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:24 [Verbose] Rest: POST channels/744480279275634748/messages: 276,93 ms
+16.08.2020 12:51:24 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:25 [Verbose] Rest: POST channels/744480279275634748/messages: 307,08 ms
+16.08.2020 12:51:25 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:26 [Verbose] Rest: POST channels/744480279275634748/messages: 276,53 ms
+16.08.2020 12:51:26 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:28 [Verbose] Rest: POST channels/744480279275634748/messages: 254,55 ms
+16.08.2020 12:51:28 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:33 [Verbose] Rest: POST channels/744480279275634748/messages: 304,37 ms
+16.08.2020 12:51:33 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:40 [Verbose] Rest: GET oauth2/applications/@me: 217,45 ms
+16.08.2020 12:51:40 [Verbose] Rest: POST channels/744480279275634748/messages: 235,86 ms
+16.08.2020 12:51:40 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:41 [Verbose] Rest: POST channels/744480279275634748/messages: 239,35 ms
+16.08.2020 12:51:41 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:43 [Verbose] Rest: POST channels/744480279275634748/messages: 308,65 ms
+16.08.2020 12:51:43 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:44 [Verbose] Rest: POST channels/744480279275634748/messages: 272,44 ms
+16.08.2020 12:51:44 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:45 [Verbose] Rest: POST channels/744480279275634748/messages: 230,75 ms
+16.08.2020 12:51:45 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:46 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 12:51:52 [Verbose] Rest: POST channels/744480279275634748/messages: 5413,63 ms
+16.08.2020 12:51:52 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:54 [Verbose] Rest: POST channels/744480279275634748/messages: 316,05 ms
+16.08.2020 12:51:54 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:51:55 [Verbose] Rest: POST channels/744480279275634748/messages: 443,24 ms
+16.08.2020 12:51:55 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:01 [Verbose] Rest: POST channels/744480279275634748/messages: 264,29 ms
+16.08.2020 12:52:01 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:03 [Verbose] Rest: POST channels/744480279275634748/messages: 251,71 ms
+16.08.2020 12:52:03 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:04 [Verbose] Rest: POST channels/744480279275634748/messages: 247,15 ms
+16.08.2020 12:52:04 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:06 [Verbose] Rest: POST channels/744480279275634748/messages: 259,03 ms
+16.08.2020 12:52:06 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:07 [Verbose] Rest: POST channels/744480279275634748/messages: 258,35 ms
+16.08.2020 12:52:07 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:09 [Verbose] Rest: POST channels/744480279275634748/messages: 335,56 ms
+16.08.2020 12:52:09 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:10 [Verbose] Rest: POST channels/744480279275634748/messages: 290,34 ms
+16.08.2020 12:52:10 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:12 [Verbose] Rest: POST channels/744480279275634748/messages: 331,08 ms
+16.08.2020 12:52:12 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:13 [Verbose] Rest: POST channels/744480279275634748/messages: 254,81 ms
+16.08.2020 12:52:13 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:14 [Verbose] Rest: POST channels/744480279275634748/messages: 301,19 ms
+16.08.2020 12:52:14 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:16 [Verbose] Rest: POST channels/744480279275634748/messages: 238,18 ms
+16.08.2020 12:52:16 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:17 [Verbose] Rest: POST channels/744480279275634748/messages: 334,49 ms
+16.08.2020 12:52:17 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:18 [Verbose] Rest: POST channels/744480279275634748/messages: 240,53 ms
+16.08.2020 12:52:18 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:19 [Verbose] Rest: POST channels/744480279275634748/messages: 257,39 ms
+16.08.2020 12:52:19 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:21 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 12:52:24 [Verbose] Rest: POST channels/744480279275634748/messages: 2922,17 ms
+16.08.2020 12:52:24 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:25 [Verbose] Rest: POST channels/744480279275634748/messages: 249,12 ms
+16.08.2020 12:52:25 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:27 [Verbose] Rest: POST channels/744480279275634748/messages: 309,09 ms
+16.08.2020 12:52:27 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:28 [Verbose] Rest: POST channels/744480279275634748/messages: 261,91 ms
+16.08.2020 12:52:28 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:30 [Verbose] Rest: POST channels/744480279275634748/messages: 288,7 ms
+16.08.2020 12:52:30 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:31 [Verbose] Rest: POST channels/744480279275634748/messages: 274,24 ms
+16.08.2020 12:52:31 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:32 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 12:52:35 [Verbose] Rest: POST channels/744480279275634748/messages: 3425,09 ms
+16.08.2020 12:52:35 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:37 [Verbose] Rest: POST channels/744480279275634748/messages: 245,27 ms
+16.08.2020 12:52:37 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:39 [Verbose] Rest: POST channels/744480279275634748/messages: 255,63 ms
+16.08.2020 12:52:39 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:40 [Verbose] Rest: POST channels/744480279275634748/messages: 344,17 ms
+16.08.2020 12:52:40 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:41 [Verbose] Rest: POST channels/744480279275634748/messages: 275,21 ms
+16.08.2020 12:52:41 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:43 [Verbose] Rest: POST channels/744480279275634748/messages: 241,18 ms
+16.08.2020 12:52:43 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:44 [Verbose] Rest: POST channels/744480279275634748/messages: 293,35 ms
+16.08.2020 12:52:44 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:45 [Verbose] Rest: POST channels/744480279275634748/messages: 361,82 ms
+16.08.2020 12:52:45 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:50 [Verbose] Rest: POST channels/744480279275634748/messages: 261,43 ms
+16.08.2020 12:52:50 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:50 [Verbose] Rest: POST channels/744480279275634748/messages: 297,73 ms
+16.08.2020 12:52:50 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:52 [Verbose] Rest: POST channels/744480279275634748/messages: 283,41 ms
+16.08.2020 12:52:52 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:54 [Verbose] Rest: POST channels/744480279275634748/messages: 251,14 ms
+16.08.2020 12:52:54 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:52:54 [Verbose] Rest: POST channels/744480279275634748/messages: 422,06 ms
+16.08.2020 12:52:56 [Verbose] Rest: POST channels/744480279275634748/messages: 284,57 ms
+16.08.2020 12:52:56 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:02 [Verbose] Rest: POST channels/744480279275634748/messages: 272,46 ms
+16.08.2020 12:53:02 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:04 [Verbose] Rest: POST channels/744480279275634748/messages: 252,84 ms
+16.08.2020 12:53:04 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:05 [Verbose] Rest: POST channels/744480279275634748/messages: 318,16 ms
+16.08.2020 12:53:05 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:07 [Verbose] Rest: POST channels/744480279275634748/messages: 269,68 ms
+16.08.2020 12:53:07 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:08 [Verbose] Rest: POST channels/744480279275634748/messages: 318,64 ms
+16.08.2020 12:53:08 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:11 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 12:53:12 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 12:53:14 [Verbose] Rest: POST channels/744480279275634748/messages: 2077,89 ms
+16.08.2020 12:53:14 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:14 [Verbose] Rest: POST channels/744480279275634748/messages: 2406,88 ms
+16.08.2020 12:53:14 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:18 [Verbose] Rest: POST channels/744480279275634748/messages: 277,94 ms
+16.08.2020 12:53:18 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:22 [Verbose] Rest: POST channels/744480279275634748/messages: 274,51 ms
+16.08.2020 12:53:22 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:23 [Verbose] Rest: POST channels/744480279275634748/messages: 236,06 ms
+16.08.2020 12:53:23 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:25 [Verbose] Rest: POST channels/744480279275634748/messages: 287,87 ms
+16.08.2020 12:53:25 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:26 [Verbose] Rest: POST channels/744480279275634748/messages: 379,68 ms
+16.08.2020 12:53:26 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:29 [Verbose] Rest: POST channels/744480279275634748/messages: 242,4 ms
+16.08.2020 12:53:29 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:30 [Verbose] Rest: POST channels/744480279275634748/messages: 219,07 ms
+16.08.2020 12:53:30 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:32 [Verbose] Rest: POST channels/744480279275634748/messages: 261,96 ms
+16.08.2020 12:53:32 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:33 [Verbose] Rest: POST channels/744480279275634748/messages: 322,48 ms
+16.08.2020 12:53:33 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:36 [Verbose] Rest: POST channels/744480279275634748/messages: 409,44 ms
+16.08.2020 12:53:36 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:57 [Verbose] Rest: POST channels/744480279275634748/messages: 329,42 ms
+16.08.2020 12:53:57 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:58 [Verbose] Rest: POST channels/744480279275634748/messages: 231,35 ms
+16.08.2020 12:53:58 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:53:59 [Verbose] Rest: POST channels/744480279275634748/messages: 248 ms
+16.08.2020 12:53:59 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:01 [Verbose] Rest: POST channels/744480279275634748/messages: 284,91 ms
+16.08.2020 12:54:01 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:02 [Verbose] Rest: POST channels/744480279275634748/messages: 243,06 ms
+16.08.2020 12:54:02 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:03 [Verbose] Rest: POST channels/744480279275634748/messages: 297,12 ms
+16.08.2020 12:54:03 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:05 [Verbose] Rest: POST channels/744480279275634748/messages: 295,99 ms
+16.08.2020 12:54:05 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:06 [Verbose] Rest: POST channels/744480279275634748/messages: 307,43 ms
+16.08.2020 12:54:06 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:07 [Verbose] Rest: POST channels/744480279275634748/messages: 255,37 ms
+16.08.2020 12:54:07 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:08 [Verbose] Rest: POST channels/744480279275634748/messages: 290,87 ms
+16.08.2020 12:54:08 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:09 [Verbose] Rest: POST channels/744480279275634748/messages: 230,7 ms
+16.08.2020 12:54:09 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:11 [Verbose] Rest: POST channels/744480279275634748/messages: 249,05 ms
+16.08.2020 12:54:11 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:12 [Verbose] Rest: POST channels/744480279275634748/messages: 239,74 ms
+16.08.2020 12:54:12 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:13 [Verbose] Rest: POST channels/744480279275634748/messages: 270,34 ms
+16.08.2020 12:54:13 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:14 [Verbose] Rest: POST channels/744480279275634748/messages: 282,83 ms
+16.08.2020 12:54:14 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:39 [Verbose] Rest: POST channels/744480279275634748/messages: 297,88 ms
+16.08.2020 12:54:39 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:39 [Verbose] Rest: POST channels/744480279275634748/messages: 338,44 ms
+16.08.2020 12:54:39 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:41 [Verbose] Rest: POST channels/744480279275634748/messages: 240,93 ms
+16.08.2020 12:54:41 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:42 [Verbose] Rest: POST channels/744480279275634748/messages: 250,13 ms
+16.08.2020 12:54:42 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:46 [Verbose] Rest: POST channels/744480279275634748/messages: 344,17 ms
+16.08.2020 12:54:46 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:46 [Verbose] Rest: POST channels/744480279275634748/messages: 237,39 ms
+16.08.2020 12:54:46 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:48 [Verbose] Rest: POST channels/744480279275634748/messages: 281,27 ms
+16.08.2020 12:54:48 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:49 [Verbose] Rest: POST channels/744480279275634748/messages: 241,63 ms
+16.08.2020 12:54:49 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:50 [Verbose] Rest: POST channels/744480279275634748/messages: 264,55 ms
+16.08.2020 12:54:50 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:51 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 12:54:51 [Verbose] Rest: POST channels/744480279275634748/messages: 731,15 ms
+16.08.2020 12:54:51 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:55 [Verbose] Rest: POST channels/744480279275634748/messages: 255,68 ms
+16.08.2020 12:54:55 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:56 [Verbose] Rest: POST channels/744480279275634748/messages: 290,76 ms
+16.08.2020 12:54:56 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:58 [Verbose] Rest: POST channels/744480279275634748/messages: 271,24 ms
+16.08.2020 12:54:58 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:54:58 [Verbose] Rest: POST channels/744480279275634748/messages: 294,02 ms
+16.08.2020 12:54:58 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:00 [Verbose] Rest: POST channels/744480279275634748/messages: 231,46 ms
+16.08.2020 12:55:00 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:01 [Verbose] Rest: POST channels/744480279275634748/messages: 295,86 ms
+16.08.2020 12:55:01 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:03 [Verbose] Rest: POST channels/744480279275634748/messages: 237,62 ms
+16.08.2020 12:55:03 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:03 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 12:55:06 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+16.08.2020 12:55:08 [Verbose] Rest: POST channels/744480279275634748/messages: 4863,04 ms
+16.08.2020 12:55:09 [Verbose] Rest: POST channels/744480279275634748/messages: 245,56 ms
+16.08.2020 12:55:09 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:12 [Verbose] Rest: POST channels/744480279275634748/messages: 220,73 ms
+16.08.2020 12:55:12 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:13 [Verbose] Rest: POST channels/744480279275634748/messages: 232,78 ms
+16.08.2020 12:55:13 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:15 [Verbose] Rest: POST channels/744480279275634748/messages: 228,04 ms
+16.08.2020 12:55:15 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:16 [Verbose] Rest: POST channels/744480279275634748/messages: 295,09 ms
+16.08.2020 12:55:16 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:18 [Verbose] Rest: POST channels/744480279275634748/messages: 245,08 ms
+16.08.2020 12:55:18 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:18 [Verbose] Rest: POST channels/744480279275634748/messages: 263,38 ms
+16.08.2020 12:55:18 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:20 [Verbose] Rest: POST channels/744480279275634748/messages: 254,28 ms
+16.08.2020 12:55:20 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:21 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 12:55:21 [Verbose] Rest: POST channels/744480279275634748/messages: 879,75 ms
+16.08.2020 12:55:21 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:24 [Verbose] Rest: POST channels/744480279275634748/messages: 243,19 ms
+16.08.2020 12:55:24 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:24 [Verbose] Rest: POST channels/744480279275634748/messages: 218,35 ms
+16.08.2020 12:55:24 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:27 [Verbose] Rest: POST channels/744480279275634748/messages: 250,17 ms
+16.08.2020 12:55:27 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:55:28 [Verbose] Rest: POST channels/744480279275634748/messages: 293,81 ms
+16.08.2020 12:55:28 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:56:54 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 12:56:55 [Verbose] Rest: GET voice/regions: 950,91 ms
+16.08.2020 12:56:56 [Verbose] Rest: GET users/@me: 281,15 ms
+16.08.2020 12:56:56 [Info] Gateway: Connecting
+16.08.2020 12:56:56 [Verbose] Rest: GET gateway: 99,25 ms
+16.08.2020 12:56:57 [Info] Gateway: Connected
+16.08.2020 12:56:57 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 12:56:58 [Info] Gateway: Ready
+16.08.2020 12:57:01 [Verbose] Rest: POST channels/744480279275634748/messages: 330,58 ms
+16.08.2020 12:57:01 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:01 [Verbose] Rest: POST channels/744480279275634748/messages: 333,18 ms
+16.08.2020 12:57:01 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:03 [Verbose] Rest: POST channels/744480279275634748/messages: 415,43 ms
+16.08.2020 12:57:03 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:04 [Verbose] Rest: POST channels/744480279275634748/messages: 293,16 ms
+16.08.2020 12:57:04 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:04 [Verbose] Rest: POST channels/744480279275634748/messages: 430,85 ms
+16.08.2020 12:57:05 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 12:57:06 [Verbose] Rest: POST channels/744480279275634748/messages: 1125,81 ms
+16.08.2020 12:57:06 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:08 [Verbose] Rest: POST channels/744480279275634748/messages: 312,82 ms
+16.08.2020 12:57:08 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:09 [Verbose] Rest: POST channels/744480279275634748/messages: 291,19 ms
+16.08.2020 12:57:09 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:10 [Verbose] Rest: POST channels/744480279275634748/messages: 226,25 ms
+16.08.2020 12:57:10 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:11 [Verbose] Rest: POST channels/744480279275634748/messages: 229,6 ms
+16.08.2020 12:57:11 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:13 [Verbose] Rest: POST channels/744480279275634748/messages: 243,55 ms
+16.08.2020 12:57:13 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:14 [Verbose] Rest: POST channels/744480279275634748/messages: 348,04 ms
+16.08.2020 12:57:14 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:16 [Verbose] Rest: POST channels/744480279275634748/messages: 813,21 ms
+16.08.2020 12:57:16 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:17 [Verbose] Rest: POST channels/744480279275634748/messages: 331,96 ms
+16.08.2020 12:57:17 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:18 [Verbose] Rest: POST channels/744480279275634748/messages: 308,22 ms
+16.08.2020 12:57:18 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:19 [Verbose] Rest: POST channels/744480279275634748/messages: 299,82 ms
+16.08.2020 12:57:19 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:21 [Verbose] Rest: POST channels/744480279275634748/messages: 331,76 ms
+16.08.2020 12:57:21 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:22 [Verbose] Rest: POST channels/744480279275634748/messages: 315,2 ms
+16.08.2020 12:57:22 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:23 [Verbose] Rest: POST channels/744480279275634748/messages: 245,39 ms
+16.08.2020 12:57:23 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:25 [Verbose] Rest: POST channels/744480279275634748/messages: 245,09 ms
+16.08.2020 12:57:25 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:25 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 12:57:29 [Verbose] Rest: POST channels/744480279275634748/messages: 3794,45 ms
+16.08.2020 12:57:29 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:30 [Verbose] Rest: POST channels/744480279275634748/messages: 332,55 ms
+16.08.2020 12:57:30 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:32 [Verbose] Rest: POST channels/744480279275634748/messages: 289,79 ms
+16.08.2020 12:57:32 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:33 [Verbose] Rest: POST channels/744480279275634748/messages: 219,72 ms
+16.08.2020 12:57:33 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:34 [Verbose] Rest: POST channels/744480279275634748/messages: 338,74 ms
+16.08.2020 12:57:34 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:35 [Verbose] Rest: POST channels/744480279275634748/messages: 413,16 ms
+16.08.2020 12:57:35 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:36 [Verbose] Rest: POST channels/744480279275634748/messages: 234,38 ms
+16.08.2020 12:57:36 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:38 [Verbose] Rest: POST channels/744480279275634748/messages: 426,46 ms
+16.08.2020 12:57:38 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 12:57:39 [Verbose] Rest: POST channels/744480279275634748/messages: 306,64 ms
+16.08.2020 12:57:39 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:26 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+16.08.2020 13:01:27 [Verbose] Rest: GET voice/regions: 1418,23 ms
+16.08.2020 13:01:28 [Verbose] Rest: GET users/@me: 252,38 ms
+16.08.2020 13:01:28 [Info] Gateway: Connecting
+16.08.2020 13:01:28 [Verbose] Rest: GET gateway: 85,81 ms
+16.08.2020 13:01:29 [Info] Gateway: Connected
+16.08.2020 13:01:30 [Verbose] Gateway: Connected to DarlingBotInfo
+16.08.2020 13:01:31 [Info] Gateway: Ready
+16.08.2020 13:01:34 [Verbose] Rest: POST channels/744480279275634748/messages: 319,51 ms
+16.08.2020 13:01:34 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:35 [Verbose] Rest: POST channels/744480279275634748/messages: 291,95 ms
+16.08.2020 13:01:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:36 [Verbose] Rest: POST channels/744480279275634748/messages: 457,76 ms
+16.08.2020 13:01:36 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:37 [Verbose] Rest: POST channels/744480279275634748/messages: 445 ms
+16.08.2020 13:01:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:38 [Verbose] Rest: POST channels/744480279275634748/messages: 245,98 ms
+16.08.2020 13:01:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:39 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 13:01:40 [Verbose] Rest: POST channels/744480279275634748/messages: 408,66 ms
+16.08.2020 13:01:40 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:41 [Verbose] Rest: POST channels/744480279275634748/messages: 251,8 ms
+16.08.2020 13:01:41 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:42 [Verbose] Rest: POST channels/744480279275634748/messages: 559,41 ms
+16.08.2020 13:01:42 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:43 [Verbose] Rest: POST channels/744480279275634748/messages: 356,63 ms
+16.08.2020 13:01:43 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:44 [Verbose] Rest: POST channels/744480279275634748/messages: 504,49 ms
+16.08.2020 13:01:44 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:45 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 13:01:46 [Verbose] Rest: POST channels/744480279275634748/messages: 906,77 ms
+16.08.2020 13:01:46 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:47 [Verbose] Rest: POST channels/744480279275634748/messages: 683,98 ms
+16.08.2020 13:01:47 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:48 [Verbose] Rest: POST channels/744480279275634748/messages: 264,18 ms
+16.08.2020 13:01:48 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:49 [Verbose] Rest: POST channels/744480279275634748/messages: 422,23 ms
+16.08.2020 13:01:49 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:50 [Verbose] Rest: POST channels/744480279275634748/messages: 481,02 ms
+16.08.2020 13:01:50 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:52 [Verbose] Rest: POST channels/744480279275634748/messages: 263,14 ms
+16.08.2020 13:01:52 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:53 [Verbose] Rest: POST channels/744480279275634748/messages: 388,83 ms
+16.08.2020 13:01:53 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:54 [Verbose] Rest: POST channels/744480279275634748/messages: 331,39 ms
+16.08.2020 13:01:54 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:55 [Verbose] Rest: POST channels/744480279275634748/messages: 319,41 ms
+16.08.2020 13:01:55 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:01:56 [Verbose] Rest: POST channels/744480279275634748/messages: 302,73 ms
+16.08.2020 13:01:57 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:02:00 [Verbose] Rest: POST channels/744480279275634748/messages: 262,87 ms
+16.08.2020 13:02:00 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:02:01 [Verbose] Rest: POST channels/744480279275634748/messages: 418,47 ms
+16.08.2020 13:02:01 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:02:02 [Verbose] Rest: POST channels/744480279275634748/messages: 298,63 ms
+16.08.2020 13:02:02 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:02:03 [Verbose] Rest: POST channels/744480279275634748/messages: 279,19 ms
+16.08.2020 13:02:03 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:02:04 [Verbose] Rest: POST channels/744480279275634748/messages: 267,84 ms
+16.08.2020 13:02:04 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:02:05 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 13:02:06 [Verbose] Rest: POST channels/744480279275634748/messages: 423,23 ms
+16.08.2020 13:02:06 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:02:07 [Verbose] Rest: POST channels/744480279275634748/messages: 282,1 ms
+16.08.2020 13:02:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:02:08 [Verbose] Rest: POST channels/744480279275634748/messages: 289,35 ms
+16.08.2020 13:02:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:02:09 [Verbose] Rest: POST channels/744480279275634748/messages: 262,94 ms
+16.08.2020 13:02:09 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:02:10 [Verbose] Rest: POST channels/744480279275634748/messages: 444,31 ms
+16.08.2020 13:02:10 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:02:11 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+16.08.2020 13:02:12 [Verbose] Rest: POST channels/744480279275634748/messages: 616,99 ms
+16.08.2020 13:02:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:02:13 [Verbose] Rest: POST channels/744480279275634748/messages: 278 ms
+16.08.2020 13:02:13 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:02:14 [Verbose] Rest: POST channels/744480279275634748/messages: 508,92 ms
+16.08.2020 13:02:14 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:03:29 [Verbose] Rest: POST channels/744480279275634748/messages: 281,26 ms
+16.08.2020 13:03:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:03:30 [Verbose] Rest: POST channels/744480279275634748/messages: 259,3 ms
+16.08.2020 13:03:30 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:03:32 [Verbose] Rest: POST channels/744480279275634748/messages: 331,74 ms
+16.08.2020 13:03:32 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:03:33 [Verbose] Rest: POST channels/744480279275634748/messages: 284,02 ms
+16.08.2020 13:03:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+16.08.2020 13:03:34 [Verbose] Rest: POST channels/744480279275634748/messages: 264,2 ms
+16.08.2020 13:03:34 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ

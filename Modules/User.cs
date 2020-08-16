@@ -27,10 +27,8 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = _db.GetDbContext())
             {
-
-
                 if (user == null) user = Context.User;
-                var usr = DBcontext.Users.Get(user.Id, Context.Guild.Id); ;
+                var usr = DBcontext.Users.Get(user.Id, Context.Guild.Id);
                 await DBcontext.SaveChangesAsync();
                 await Context.Channel.SendMessageAsync("", false, new EmbedBuilder()
                                                          .WithColor(255, 0, 94)
@@ -182,7 +180,7 @@ namespace DarlingBotNet.Modules
                                 emb.WithAuthor(" - Kazino - ❌ Lose", Context.User.GetAvatarUrl());
                             }
                             emb.WithDescription($"Выпало: {(ches % 2 == 1 ? "black" : (ches != 10 && ches % 2 == 0) ? "red" : "zero")}\nZeroCoin: {account.ZeroCoin}");
-                            await DBcontext.SaveChangesAsync();
+                            DBcontext.SaveChangesAsync();
                         }
                         else
                         {
@@ -195,6 +193,20 @@ namespace DarlingBotNet.Modules
                 else emb.WithDescription($"Ставка может быть только больше 99 и меньше 9999, или же быть `all`").WithFooter("all - выставить все");
             }
             await Context.Channel.SendMessageAsync("", false, emb.Build());
+        }
+
+        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
+        public async Task addc()
+        {
+            using (var DBcontext = _db.GetDbContext())
+            {
+                var usr = DBcontext.Users.GetOrCreate(Context.User.Id, Context.Guild.Id);
+                usr.ZeroCoin++;
+                DBcontext.Users.Update(usr);
+                await DBcontext.SaveChangesAsync();
+                await Context.Channel.SendMessageAsync(usr.ZeroCoin.ToString());
+            }
+
         }
 
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
@@ -304,6 +316,33 @@ namespace DarlingBotNet.Modules
                 }
             }
             await Context.Channel.SendMessageAsync("", false, emb.Build());
+        }
+
+        [Aliases, Commands, Usage, Descriptions]
+        [PermissionBlockCommand]
+        public async Task levelrole()
+        {
+            using (var DBcontext = _db.GetDbContext())
+            {
+                var glds = DBcontext.Guilds.Get(Context.Guild);
+                var embed = new EmbedBuilder().WithAuthor("🔨LevelRole - уровневые роли отсутствуют ⚠️").WithColor(255, 0, 94);
+
+                var lvl = DBcontext.LVLROLES.Get(Context.Guild);
+                if (lvl.Count() != 0)
+                {
+                    embed.WithAuthor($"🔨LevelRole - уровневые роли");
+                    lvl = lvl.OrderByDescending(u => u.countlvl);
+                    foreach (var LVL in lvl)
+                        embed.Description += $"{LVL.countlvl} уровень - {Context.Guild.GetRole(LVL.roleid).Mention}\n";
+                }
+                if (Context.Guild.Owner == Context.User)
+                {
+                    embed.AddField("Добавить роль", $"{glds.Prefix}lr.Add [ROLE] [LEVEL]");
+                    embed.AddField("Удалить роль", $"{glds.Prefix}lr.Del [ROLE]");
+                }
+
+                await Context.Channel.SendMessageAsync("", false, embed.Build());
+            }
         }
     }
 }

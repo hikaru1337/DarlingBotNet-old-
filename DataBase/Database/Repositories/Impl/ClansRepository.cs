@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
+using DarlingBotNet.Modules;
+using Discord.WebSocket;
 using Microsoft.EntityFrameworkCore;
 
 namespace DarlingBotNet.DataBase
@@ -16,27 +19,39 @@ namespace DarlingBotNet.DataBase
             _context.Database.ExecuteSqlRaw($@"INSERT OR IGNORE INTO Users (userid, guildId, ZeroCoin) VALUES ({userId}, {guildId},1000);");
         }
 
-        //public Warns GetOrCreate(ulong CountWarn, ulong guildId,string report)
-        //{
-        //    //EnsureCreated(userId, guildId);
-        //    var warn = new Clans() { guildId = guildId, CountWarn = CountWarn, ReportWarn = report };
-        //    _set.Add(warn);
-        //    return warn;
-        //}
-        //public IEnumerable<Clans> Get(ulong guildId)
-        //{
-        //    return _set.AsNoTracking().Where(u => u.guildId == guildId);
-        //}
+        public Clans GetOrCreate(string clanname, string url, SocketGuildUser Owner)
+        {
+            var gg = _set.AsEnumerable().FirstOrDefault(x=>x.OwnerId == Owner.Id && x.guildId == Owner.Guild.Id);
+            if (gg == null)
+            {
+                gg = _set.Add(new Clans() { OwnerId = Owner.Id, ClanName = clanname, DateOfCreate = DateTime.Now, ClanMoney = 1000, ClanSlots = 5, guildId = Owner.Guild.Id, LogoUrl = url }).Entity;
+            }
+            return gg;
+        }
+        public Clans GetOwnerClan(ulong guildId, ulong userid)
+        {
+            return _set.AsNoTracking().AsEnumerable().FirstOrDefault(u => u.guildId == guildId && u.OwnerId == userid);
+        }
 
-        //public Clans Get(ulong guildId, ulong CountWarn)
-        //{
-        //    return _set.First(u => u.guildId == guildId && u.CountWarn == CountWarn);
-        //}
+        public Clans GetUserClan(ulong guildId, uint clanid)
+        {
+            return _set.AsNoTracking().AsEnumerable().FirstOrDefault(u => u.guildId == guildId && u.Id == clanid);
+        }
 
-        //public void RemoveRange(ulong GuildId)
-        //{
-        //    var lists = _set.AsNoTracking().Where(x => x.guildid == GuildId);
-        //    _set.RemoveRange(lists);
-        //}
+        public IEnumerable<Clans> GetClans(ulong guildId)
+        {
+            return _set.AsNoTracking().Where(u => u.guildId == guildId);
+        }
+
+        public IEnumerable<Clans> GetClans()
+        {
+            return _set;
+        }
+
+
+        public IEnumerable<Clans> Where(Expression<Func<Clans, bool>> predicate)
+        {
+            return _set.AsNoTracking().Where(predicate);
+        }
     }
 }

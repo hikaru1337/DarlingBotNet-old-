@@ -22,19 +22,21 @@ namespace DarlingBotNet.DataBase
             _context.Database.ExecuteSqlRaw($@"INSERT OR IGNORE INTO Channels (channelid, guildId, GiveXP,UseCommand,channeltype) VALUES ({channelid}, {guildId},{givexp},true,{channeltype});");
         }
 
-        public Channels GetOrCreate(SocketGuildChannel Channels, bool givexp)
+        public Channels GetOrCreate(SocketTextChannel Channels, bool givexp)
         {
-            string type = "voice";
-            if (Channels as SocketTextChannel != null) type = "text";
-            var chnl = new Channels() { guildid = Channels.Guild.Id, channelid = Channels.Id, GiveXP = true, UseCommand = true, channeltype = type };
-            _set.Add(chnl);
+            var chnl = _set.FirstOrDefault(u => u.channelid == Channels.Id && u.guildid == Channels.Guild.Id);
+            if (chnl == null)
+            {
+                chnl = new Channels() { guildid = Channels.Guild.Id, channelid = Channels.Id, GiveXP = givexp, UseCommand = true};
+                _set.Add(chnl);
+            }
             return chnl;
         }
         public Channels GetId(ulong channelid, ulong guildId)
         {
             return _set.FirstOrDefault(u => u.channelid == channelid && u.guildid == guildId);
         }
-        public Channels Get(SocketGuildChannel Channel)
+        public Channels Get(SocketTextChannel Channel)
         {
             return _set.FirstOrDefault(u => u.channelid == Channel.Id && u.guildid == Channel.Guild.Id);
         }
@@ -43,14 +45,13 @@ namespace DarlingBotNet.DataBase
         {
             return _set.AsNoTracking().Where(u => u.guildid == Guilds.guildId);
         }
-        public void CreateRange(IEnumerable<SocketGuildChannel> Channels)
+
+        public void CreateRange(IEnumerable<SocketTextChannel> Channels)
         {
             var lists = new List<Channels>();
             foreach (var TextChannel in Channels)
             {
-                string type = "voice";
-                if (TextChannel as SocketTextChannel != null) type = "text";
-                lists.Add(new Channels() { guildid = TextChannel.Guild.Id, channelid = TextChannel.Id, GiveXP = true, UseCommand = true, channeltype = type });
+                lists.Add(new Channels() { guildid = TextChannel.Guild.Id, channelid = TextChannel.Id, GiveXP = true, UseCommand = true });
             }
             _set.AddRange(lists);
         }
@@ -58,13 +59,9 @@ namespace DarlingBotNet.DataBase
         public void CreateRange(SocketGuild Guild)
         {
             var lists = new List<Channels>();
-            foreach (var TextChannel in Guild.Channels)
+            foreach (var TextChannel in Guild.TextChannels)
             {
-                string type = "voice";
-                if (TextChannel as SocketTextChannel != null) type = "text";
-                else if (TextChannel as SocketVoiceChannel != null) { }
-                else break;
-                lists.Add(new Channels() { guildid = TextChannel.Guild.Id, channelid = TextChannel.Id, GiveXP = true, UseCommand = true, channeltype = type });
+                lists.Add(new Channels() { guildid = TextChannel.Guild.Id, channelid = TextChannel.Id, GiveXP = true, UseCommand = true });
             }
             _set.AddRange(lists);
         }
@@ -75,17 +72,12 @@ namespace DarlingBotNet.DataBase
             _set.RemoveRange(lists);
         }
 
-        public void RemoveRange(IEnumerable<SocketGuildChannel> Channels)
+        public void RemoveRange(IEnumerable<SocketTextChannel> Channels)
         {
             var lists = _set.AsNoTracking().Where(x => Channels.Where(z => z.Id == x.channelid) != null);
             if (lists != null) _set.RemoveRange(lists);
         }
 
-        //public void RemoveRange(IEnumerable<Channels> Channels)
-        //{
-        //    var lists = _set.AsNoTracking().Where(x => Channels.ToList().Where(z => z.channelid == x.channelid) != null);
-        //    _set.RemoveRange(lists);
-        //}
         public void RemoveRange(ulong GuildId)
         {
             var lists = _set.AsNoTracking().Where(x => x.guildid == GuildId);

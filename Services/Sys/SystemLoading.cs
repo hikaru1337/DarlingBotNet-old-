@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore.Internal;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -44,57 +45,40 @@ namespace DarlingBotNet.Services
         {
             await Task.Delay(1);
             bool es = false;
+            bool error = false;
             var emb = new EmbedBuilder().WithColor(255, 0, 94);
             try
             {
-                if (report.ToLower() == "kick")
-                    es = true;
-                else if (report.ToLower() == "ban")
-                    es = true;
-                else if (report.ToLower() == "mute")
+                if (report.ToLower() == "kick" || report.ToLower() == "ban" || report.ToLower() == "mute")
                     es = true;
                 else if (report.ToLower().Substring(0, 4) == "tban" || report.ToLower().Substring(0, 5) == "tmute")
                 {
-                    if (report.ToLower().Substring(0, 4) == "tban")
-                    {
+                    int count = 5;
+                    if (report.ToLower().Substring(0, 4) == "tban") count = 4;
                         try
                         {
-                            if (Convert.ToUInt64(report.ToLower().Substring(4,report.Length - 4)) <= 720)
+                            if (Convert.ToUInt64(report.ToLower().Substring(count, report.Length - count)) <= 720)
                                 es = true;
                             else
                                 emb.WithDescription("Время должно быть не больше 720 минут");
                         }
                         catch (Exception)
                         {
-                            emb.WithDescription($"Для указания временного бана используйте {report.ToLower().Substring(0, 4)}50 (50 - минут)")
-                               .WithFooter("Инструкция о команде - ");
+                            error = true;
                         }
-                    }
-                    else
-                    {
-                        try
-                        {
-                            if (Convert.ToUInt64(report.ToLower().Substring(5, report.Length - 5)) <= 720)
-                                es = true;
-                            else
-                                emb.WithDescription("Время должно быть не больше 720 минут");
-                        }
-                        catch (Exception)
-                        {
-                            emb.WithDescription($"Для указания временного мута используйте {report.ToLower().Substring(0, 5)}50 (50 - минут)")
-                               .WithFooter("Инструкция о команде - [инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#vystavit-varn-na-servere)");
-                        }
-                    }
-
                 }
-                else emb.WithDescription("Используйте эти нарушения ban,kick,mute,tmute,tban. Инструкция к команде");
-                return (es, emb);
+                else error = true;
             }
             catch (Exception)
             {
-                emb.WithDescription("Используйте эти нарушения ban,kick,mute,tmute,tban. Инструкция к команде");
-                return (es, emb);
+                error = true;
             }
+
+            if(error)
+                emb.WithDescription("Используйте эти нарушения ban,kick,mute,tmute,tban.")
+                    .WithFooter("Инструкция о команде - [инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#vystavit-varn-na-servere)");
+            
+            return (es, emb);
         }
 
 
@@ -107,7 +91,7 @@ namespace DarlingBotNet.Services
                     if(DBcontext.Guilds.Get(Guild) == null)
                     {
                         var glds = DBcontext.Guilds.GetOrCreate(Guild);
-                        DBcontext.Channels.CreateRange(Guild.Channels.Where(x => x as SocketCategoryChannel == null));
+                        DBcontext.Channels.CreateRange(Guild.TextChannels);
                     }
                 } // Проверка Гильдий которые есть в боте но нету в базе
 
@@ -152,28 +136,28 @@ namespace DarlingBotNet.Services
 
                 foreach (var Guild in Guilds)
                 {
-                    var glds = _discord.GetGuild(Guild.guildId);
+                    var glds = _discord.GetGuild(Guild.guildId); // Выдача гильдии
 
-                    var Channels = DBcontext.Channels.Get(Guild).Where(x=>glds.GetChannel(x.channelid) == null);
+                    var ChannelsDelete = DBcontext.Channels.Get(Guild).Where(x=>glds.GetChannel(x.channelid) == null); // Выдача не записаных каналов
 
-                    var Emoteclickes = DBcontext.EmoteClick.GetCS(Guild.guildId,Channels).Where(x => (glds.GetRole(x.roleid) != null || glds.Emotes.Where(z => z.Name == x.emote) == null));
+                    var Emoteclickes = DBcontext.EmoteClick.GetCS(Guild.guildId, ChannelsDelete).Where(x => (glds.GetRole(x.roleid) != null || glds.Emotes.Where(z => z.Name == x.emote) == null)); // выдача недействительных EmoteCLick
 
-                    var LVLROLE = DBcontext.LVLROLES.Get(Guild).Where(x=> glds.GetRole(x.roleid) == null);
+                    var LVLROLE = DBcontext.LVLROLES.Get(Guild).Where(x=> glds.GetRole(x.roleid) == null); // Выдача недействительных Уровневых ролей
 
-                    var chnlcrt = glds.Channels.Where(x => DBcontext.Channels.Get(x) != null);
+                    var chnlcrt = glds.TextChannels.Where(x => DBcontext.Channels.Get(x) == null); // Выдача недействительных каналов
 
-                    if (chnlcrt != null) DBcontext.Channels.CreateRange(chnlcrt.Where(x => x as SocketCategoryChannel == null));
+                    if (chnlcrt.Count() > 0) DBcontext.Channels.CreateRange(chnlcrt); // Создание недействительных каналов
 
-                    var UsersLeave = DBcontext.Users.Get(Guild.guildId).Where(x=> glds.GetUser(x.userid) == null);
+                    var UsersLeave = DBcontext.Users.Get(Guild.guildId).Where(x=> glds.GetUser(x.userid) == null); //  Отключение вышедших пользователей
                     foreach (var user in UsersLeave) user.Leaved = true;
 
-                    DBcontext.Channels.RemoveRange(Channels);
+                    DBcontext.Channels.RemoveRange(ChannelsDelete);
                     DBcontext.EmoteClick.RemoveRange(Emoteclickes);
                     DBcontext.LVLROLES.RemoveRange(LVLROLE);
                     DBcontext.Users.UpdateRange(UsersLeave);
+                    await new Privates(_db).CheckPrivate(Guild.guildId, glds); // Проверка приваток
                     await DBcontext.SaveChangesAsync();
 
-                    await new Privates(_db).CheckPrivate(Guild.guildId, glds);
                     CheckTempUser(Guild, glds);
                 }
                
@@ -186,19 +170,17 @@ namespace DarlingBotNet.Services
             {
                 var users = DBcontext.TempUser.Get(glds.guildId);
                 foreach (var user in users)
-                {
                     await UserMuteTime(user, guild);
-                }
+                
                 loading = true;
             }
-        }
+        } // Проверка активных нарушений
 
         private async Task UserMuteTime(TempUser user, SocketGuild guild)
         {
             if (user.ToTime < DateTime.Now)
                 await Task.Delay(user.ToTime.Millisecond);
 
-            
                 var usr = guild.GetUser(user.userId);
 
                 if (user.Reason.Contains("tban"))
@@ -225,30 +207,46 @@ namespace DarlingBotNet.Services
                 }
             }
 
-        }
+        } // Активация нарушений
 
         public async Task<Guilds> CreateMuteRole(SocketGuild Context)
         {
             using (var DBcontext = _db.GetDbContext())
             {
                 var Guild = DBcontext.Guilds.Get(Context.Id);
-                if (Guild.chatmuterole == 0 || Context.GetRole(Guild.chatmuterole) == null)
-                {
-                    var MCC = await Context.CreateRoleAsync("MuteClownChat", new GuildPermissions(mentionEveryone: false), Color.Red, false, false);
 
-                    foreach (var TC in Context.TextChannels)
-                        await TC.AddPermissionOverwriteAsync(MCC, new OverwritePermissions(sendMessages: PermValue.Deny, sendTTSMessages: PermValue.Deny));
+                if (Context.GetRole(Guild.chatmuterole) == null)
+                {
+                    var MCC = await Context.CreateRoleAsync("ChatMute", new GuildPermissions(mentionEveryone: false), Color.Red, false, false);
+
+                    foreach (var TC in Context.CategoryChannels)
+                        await TC.AddPermissionOverwriteAsync(MCC, new OverwritePermissions(sendMessages: PermValue.Deny));
+
+                    foreach (var TC in Context.TextChannels.Where(x=>x.Category != null))
+                        await TC.SyncPermissionsAsync();
+
+                    foreach (var TC in Context.TextChannels.Where(x => x.Category == null))
+                        await TC.AddPermissionOverwriteAsync(MCC, new OverwritePermissions(sendMessages: PermValue.Deny));
+
                     Guild.chatmuterole = MCC.Id;
                 }
 
-                if (Guild.voicemuterole == 0 || Context.GetRole(Guild.voicemuterole) == null)
+                if (Context.GetRole(Guild.voicemuterole) == null)
                 {
-                    var MCV = await Context.CreateRoleAsync("MuteClownVoice", new GuildPermissions(mentionEveryone: false), Color.Red, false, false);
+                    var MCV = await Context.CreateRoleAsync("VoiceMute", new GuildPermissions(mentionEveryone: false), Color.Red, false, false);
 
-                    foreach (var VC in Context.VoiceChannels)
+                    foreach (var TC in Context.CategoryChannels)
+                        await TC.AddPermissionOverwriteAsync(MCV, new OverwritePermissions(sendMessages: PermValue.Deny));
+
+                    foreach (var TC in Context.VoiceChannels.Where(x => x.Category != null))
+                        await TC.SyncPermissionsAsync();
+
+                    foreach (var VC in Context.VoiceChannels.Where(x => x.Category == null))
                         await VC.AddPermissionOverwriteAsync(MCV, new OverwritePermissions(speak: PermValue.Deny, connect: PermValue.Deny));
+
                     Guild.voicemuterole = MCV.Id;
                 }
+
                 DBcontext.Guilds.Update(Guild);
                 await DBcontext.SaveChangesAsync();
                 return Guild;
@@ -274,12 +272,12 @@ namespace DarlingBotNet.Services
                             if (beforerole != null)
                             {
                                 var befrole = user.Guild.GetRole(beforerole.roleid);
-                                if (befrole != null && user.Roles.Contains(befrole))
+                                if (user.Roles.Contains(befrole))
                                     await user.RemoveRoleAsync(befrole);
                             }
 
                             var aftrole = user.Guild.GetRole(afterrole.roleid);
-                            if (aftrole != null && !user.Roles.Contains(aftrole))
+                            if (!user.Roles.Contains(aftrole))
                                 await user.AddRoleAsync(aftrole);
                         }
                     }
@@ -289,11 +287,11 @@ namespace DarlingBotNet.Services
                 }
                 else
                 {
-                    var roles = DBcontext.LVLROLES.Get(usr.Level,user.Guild.Id).ToList().OrderBy(x => x.countlvl).LastOrDefault();
+                    var roles = DBcontext.LVLROLES.Get(usr.Level,user.Guild.Id).OrderBy(x => x.countlvl).LastOrDefault();
                     if (roles != null)
                     {
                         var role = user.Guild.GetRole(roles.roleid);
-                        if (role != null && !user.Roles.Contains(role))
+                        if (!user.Roles.Contains(role))
                             await user.AddRoleAsync(role);
                     }
                 }
@@ -416,7 +414,7 @@ namespace DarlingBotNet.Services
                 await DBcontext.SaveChangesAsync();
                 if (loading == false) return true;
                 var Guild = DBcontext.Guilds.Get(msg.Guild.Id);
-                Channels glds = DBcontext.Channels.Get(msg.Channel as SocketGuildChannel);
+                Channels glds = DBcontext.Channels.Get(msg.Channel as SocketTextChannel);
                 if (glds.Spaming)
                 {
                     MessageList.Add(new Message()

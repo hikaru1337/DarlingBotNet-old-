@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DarlingBotNet.Migrations
 {
     [DbContext(typeof(DarlingContext))]
-    [Migration("20200808073836_Upsss")]
-    partial class Upsss
+    [Migration("20200816091449_UpAll")]
+    partial class UpAll
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -62,9 +62,6 @@ namespace DarlingBotNet.Migrations
 
                     b.Property<ulong>("channelid")
                         .HasColumnType("INTEGER");
-
-                    b.Property<string>("channeltype")
-                        .HasColumnType("TEXT");
 
                     b.Property<string>("csUrlWhiteListString")
                         .HasColumnType("TEXT");

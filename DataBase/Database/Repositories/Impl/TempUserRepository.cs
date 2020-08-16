@@ -18,9 +18,12 @@ namespace DarlingBotNet.DataBase
 
         public TempUser GetOrCreate(ulong guildId,ulong userId,DateTime times,string Reason)
         {
-            //EnsureCreated(userId, guildId);
-            var t = new TempUser() { guildId = guildId, userId = userId, ToTime = times, Reason = Reason };
-            _set.Add(t);
+            var t = _set.FirstOrDefault(x => x.guildId == guildId && x.userId == userId && x.ToTime == times && x.Reason == Reason);
+            if (t == null)
+            {
+                t = new TempUser() { guildId = guildId, userId = userId, ToTime = times, Reason = Reason };
+                _set.Add(t);
+            }
             return t;
         }
         public IEnumerable<TempUser> Get(ulong guildId)

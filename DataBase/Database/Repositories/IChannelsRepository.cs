@@ -9,13 +9,13 @@ namespace DarlingBotNet.DataBase
 {
     public interface IChannelsRepository : IRepository<Channels>
     {
-        Channels GetOrCreate(SocketGuildChannel Channel, bool givexp);
+        Channels GetOrCreate(SocketTextChannel Channel, bool givexp);
         Channels GetId(ulong channelId, ulong guildId);
-        Channels Get(SocketGuildChannel Channel);
+        Channels Get(SocketTextChannel Channel);
         IEnumerable<Channels> Get(Guilds Guilds);
-        void CreateRange(IEnumerable<SocketGuildChannel> Channels);
+        void CreateRange(IEnumerable<SocketTextChannel> Channels);
         void CreateRange(SocketGuild Guild);
-        void RemoveRange(IEnumerable<SocketGuildChannel> Channels);
+        void RemoveRange(IEnumerable<SocketTextChannel> Channels);
         //void RemoveRange(IEnumerable<Channels> Channels);
         void RemoveRange(SocketGuild Guild);
         void RemoveRange(ulong GuildId);

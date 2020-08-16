@@ -18,9 +18,12 @@ namespace DarlingBotNet.DataBase
 
         public Warns GetOrCreate(ulong CountWarn, ulong guildId,string report)
         {
-            //EnsureCreated(userId, guildId);
-            var warn = new Warns() { guildId = guildId, CountWarn = CountWarn, ReportWarn = report };
-            _set.Add(warn);
+            var warn = _set.FirstOrDefault(u => u.guildId == guildId && u.CountWarn == CountWarn && u.ReportWarn == report);
+            if (warn == null)
+            {
+                warn = new Warns() { guildId = guildId, CountWarn = CountWarn, ReportWarn = report };
+                _set.Add(warn);
+            }
             return warn;
         }
         public IEnumerable<Warns> Get(ulong guildId)

@@ -1,15 +1,20 @@
 ﻿using DarlingBotNet.DataBase;
 using Discord;
+using Discord.WebSocket;
+using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 
 namespace DarlingBotNet.DataBase
 {
     public interface IClansRepository : IRepository<Clans>
     {
-        //Clans GetOrCreate(ulong CountWarn, ulong guildId, string report);
-        //IEnumerable<Clans> Get(ulong guildId);
-        //Clans Get(ulong guildId, ulong CountWarn);
+        Clans GetOrCreate(string clanname,string url,SocketGuildUser Owner);
+        Clans GetOwnerClan(ulong guildId,ulong userid);
+        Clans GetUserClan(ulong guildId, uint clanid);
+        IEnumerable<Clans> GetClans(ulong guildId);
+        IEnumerable<Clans> GetClans();
 
-        //void RemoveRange(ulong GuildId);
+        IEnumerable<Clans> Where(Expression<Func<Clans, bool>> predicate);
     }
 }

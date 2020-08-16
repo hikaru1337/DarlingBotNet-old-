@@ -61,9 +61,6 @@ namespace DarlingBotNet.Migrations
                     b.Property<ulong>("channelid")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("channeltype")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("csUrlWhiteListString")
                         .HasColumnType("TEXT");
 

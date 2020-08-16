@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DarlingBotNet.Migrations
 {
-    public partial class Upsss : Migration
+    public partial class UpAll : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -15,7 +15,6 @@ namespace DarlingBotNet.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     DateAdded = table.Column<DateTime>(nullable: true),
                     channelid = table.Column<ulong>(nullable: false),
-                    channeltype = table.Column<string>(nullable: true),
                     guildid = table.Column<ulong>(nullable: false),
                     UseCommand = table.Column<bool>(nullable: false),
                     UseRPcommand = table.Column<bool>(nullable: false),

@@ -22,7 +22,7 @@ namespace DarlingBotNet.DataBase.Database
 
             var optionsBuilder = new DbContextOptionsBuilder<DarlingContext>();
             optionsBuilder.UseSqlite(BotSettings.ConnectionString);
-            //optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.TrackAll);
+            //optionsBuilder.Options.UseQueryTrackingBehavior(QueryTrackingBehavior.TrackAll)
             options = optionsBuilder.Options;
             migrateOptions = optionsBuilder.Options;
 
@@ -37,11 +37,14 @@ namespace DarlingBotNet.DataBase.Database
             {
                 if (context.Database.GetPendingMigrations().Any())
                 {
-                    var mContext = new DarlingContext(migrateOptions);
-                    mContext.Database.Migrate();
-                    mContext.SaveChanges();
-                    mContext.Dispose();
+                    using (var mContext = new DarlingContext(migrateOptions))
+                    {
+                        mContext.Database.Migrate();
+                        mContext.SaveChanges();
+                        mContext.Dispose();
+                    }
                 }
+                context.Database.ExecuteSqlRaw("PRAGMA journal_mode=WAL");
                 context.SaveChanges();
             }
         }
@@ -50,6 +53,13 @@ namespace DarlingBotNet.DataBase.Database
         {
             var context = new DarlingContext(options);
             context.Database.SetCommandTimeout(60);
+            var conn = context.Database.GetDbConnection();
+            conn.Open();
+            using (var com = conn.CreateCommand())
+            {
+                com.CommandText = "PRAGMA journal_mode=WAL; PRAGMA synchronous=OFF";
+                com.ExecuteNonQuery();
+            }
             return context;
         }
 

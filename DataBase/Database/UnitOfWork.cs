@@ -44,7 +44,7 @@ namespace DarlingBotNet.DataBase
 
         public int SaveChanges() => _context.SaveChanges();
 
-        public Task<int> SaveChangesAsync() => _context.SaveChangesAsync(/*true*/);
+        public Task<int> SaveChangesAsync() => _context.SaveChangesAsync(true);
 
         public void Dispose()
         {

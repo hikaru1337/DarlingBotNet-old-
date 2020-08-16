@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Security.Cryptography.X509Certificates;
 using Discord;
 using Discord.WebSocket;
 using Microsoft.EntityFrameworkCore;
@@ -21,9 +22,12 @@ namespace DarlingBotNet.DataBase
 
         public EmoteClick GetOrCreate(ulong guildId, ulong channelid, string emote, bool GetOrRemove,ulong roleid,ulong messageid)
         {
-            var emc = new EmoteClick() { guildid = guildId, channelid = channelid, emote = emote, get = GetOrRemove, roleid = roleid, messageid = messageid };
-            _set.Add(emc);
-            //EnsureCreated(userId, guildId);
+            var emc = _set.FirstOrDefault(u => u.guildid == guildId && u.channelid == channelid && u.emote == emote && u.get == GetOrRemove && u.roleid == roleid && u.messageid == messageid);
+            if (emc == null)
+            {
+                emc = new EmoteClick() { guildid = guildId, channelid = channelid, emote = emote, get = GetOrRemove, roleid = roleid, messageid = messageid };
+                _set.Add(emc);
+            }
             return emc;
         }
         public IEnumerable<EmoteClick> GetM(ulong guildId, ulong messageid)

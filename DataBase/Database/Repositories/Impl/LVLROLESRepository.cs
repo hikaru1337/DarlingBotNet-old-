@@ -20,15 +20,22 @@ namespace DarlingBotNet.DataBase
 
         public LVLROLES GetIdOrCreate(ulong RoleId, ulong guildId, ulong countlvl)
         {
-            //EnsureCreated(userId, guildId);
-            var rolez = new LVLROLES() { countlvl = countlvl, guildid = guildId, roleid = RoleId };
-            _set.Add(rolez);
+            var rolez = _set.FirstOrDefault(x=> x.countlvl == countlvl && x.guildid == guildId && x.roleid == RoleId);
+            if (rolez == null)
+            {
+                rolez = new LVLROLES() { countlvl = countlvl, guildid = guildId, roleid = RoleId };
+                _set.Add(rolez);
+            }
             return rolez;
         }
         public LVLROLES GetOrCreate(SocketRole role, ulong countlvl)
         {
-            var rolez = new LVLROLES() { countlvl = countlvl,guildid = role.Guild.Id,roleid = role.Id  };
-            _set.Add(rolez);
+            var rolez = _set.FirstOrDefault(x => x.countlvl == countlvl && x.guildid == role.Guild.Id && x.roleid == role.Id);
+            if (rolez == null)
+            {
+                rolez = new LVLROLES() { countlvl = countlvl, guildid = role.Guild.Id, roleid = role.Id };
+                _set.Add(rolez);
+            }
             return rolez;
         }
 

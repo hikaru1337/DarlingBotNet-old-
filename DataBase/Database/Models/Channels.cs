@@ -8,7 +8,6 @@ namespace DarlingBotNet.DataBase
     public class Channels: DbEntity
     {
         public ulong channelid { get; set; }
-        public string channeltype { get; set; }
         public ulong guildid { get; set; }
         public bool UseCommand { get; set; }
         public bool UseRPcommand { get; set; }

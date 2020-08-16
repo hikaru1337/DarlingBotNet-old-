@@ -91,23 +91,28 @@ namespace DarlingBotNet.Services
         public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
         {
             var _db = services.GetRequiredService<DbService>();
+
             using (var Xontext = _db.GetDbContext())
             {
-                //var myclan = Xontext.Clans.Get(x => x.guildId == context.Guild.Id && x.OwnerId == context.User.Id);
-                //if ((command.Name == "clandelete" || command.Name == "clanperm" || command.Name == "clanownertake") && myclan == null)
-                //    return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана!"));
-                //else if (command.Name == "clanclaims" || command.Name == "clankick")
-                //{
-                //    var clanmoder = Xontext.Clans.ToEnumerable().FirstOrDefault(x => x.guildId == context.Guild.Id && x.UsersModerators.Where(x => x.userid == context.User.Id) != null);
-                //    if (clanmoder != null || myclan != null)
-                //        return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана или вы не являетесь модератором в который вступили!"));
-                //}
-                //else if (command.Name == "claninfo")
-                //{
-                //    var clanmoder = Xontext.Clans.ToEnumerable().FirstOrDefault(x => x.guildId == context.Guild.Id && x.DefUsers.Where(x => x.userid == context.User.Id).ToList() != null);
-                //    if (clanmoder != null || myclan != null)
-                //        return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана или вы не вступили чтобы посмотреть информацию!"));
-                //}
+                var usr = Xontext.Users.Get(context.User.Id, context.Guild.Id);
+                var myclan = Xontext.Clans.GetOwnerClan(context.Guild.Id,context.User.Id);
+                if ((command.Name == "clandelete" || command.Name == "clanperm" || command.Name == "clanownertake") && myclan == null)
+                    return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана!"));
+                else if (command.Name == "clanclaims" || command.Name == "clankick")
+                {
+                    if (myclan == null && usr.clanInfo != "moder")
+                        return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана или вы не являетесь модератором в который вступили!"));
+                }
+                else if (command.Name == "claninfo")
+                {
+                    if(myclan == null && (usr.clanInfo == "wait"|| usr.clanInfo == null))
+                        return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана или вы не вступили чтобы посмотреть информацию!"));
+                }
+                else if(command.Name == "clanleave")
+                {
+                    if(usr.clanInfo == "wait" || usr.clanInfo == null)
+                        return Task.FromResult(PreconditionResult.FromError($"Вы не вступили в клан, чтобы выходить откуда либо!"));
+                }
                 return Task.FromResult(PreconditionResult.FromSuccess());
             }
         }

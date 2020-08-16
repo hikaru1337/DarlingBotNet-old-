@@ -65,14 +65,14 @@ namespace DarlingBotNet.Services
 
         private async Task OnChannelDestroyedAsync(SocketChannel channel) // Удаление каналов
         {
-            if (channel as SocketGuildChannel != null && channel as SocketCategoryChannel == null)
+            if (channel as SocketTextChannel != null)
             {
                 using (var DBcontext = _db.GetDbContext())
                 {
-                    var chnl = DBcontext.Channels.Get(channel as SocketGuildChannel);
+                    var chnl = DBcontext.Channels.Get(channel as SocketTextChannel);
                     if (chnl != null) DBcontext.Channels.Remove(chnl);
 
-                    var emjmess = DBcontext.EmoteClick.GetC((channel as SocketGuildChannel).Guild.Id, channel.Id);
+                    var emjmess = DBcontext.EmoteClick.GetC((channel as SocketTextChannel).Guild.Id, channel.Id);
                     if (emjmess != null) DBcontext.EmoteClick.RemoveRange(emjmess);
 
                     await DBcontext.SaveChangesAsync();
@@ -126,12 +126,12 @@ namespace DarlingBotNet.Services
 
         private async Task OnChannelCreateAsync(SocketChannel chnl) // Создание каналов
         {
-            if (chnl as SocketGuildChannel != null && chnl as SocketCategoryChannel == null)
+            if (chnl as SocketTextChannel != null)
             {
                 using (var DBcontext = _db.GetDbContext())
                 {
-                    var glds = DBcontext.Guilds.Get((chnl as SocketGuildChannel).Id).GiveXPnextChannel;
-                    DBcontext.Channels.GetOrCreate((chnl as SocketGuildChannel), glds);
+                    var glds = DBcontext.Guilds.Get((chnl as SocketTextChannel).Guild.Id).GiveXPnextChannel;
+                    DBcontext.Channels.GetOrCreate((chnl as SocketTextChannel), glds);
                     await DBcontext.SaveChangesAsync();
                 }
             }
@@ -424,7 +424,7 @@ namespace DarlingBotNet.Services
                 if (await new SystemLoading(_discord, _db).ChatSystem(Context)) return;
 
                 var Guild = DBcontext.Guilds.Get((msg.Author as SocketGuildUser).Guild.Id);
-                var Channel = DBcontext.Channels.Get(Context.Channel as SocketGuildChannel);
+                var Channel = DBcontext.Channels.Get(msg.Channel as SocketTextChannel);
                 int argPos = 0;
                 if ((Channel.UseCommand || (Channel.UseRPcommand && _commands.Modules.FirstOrDefault(x => x.Name == "RPgif").Commands.FirstOrDefault(x => msg.Content.Contains(x.Name)) != null)) && msg.HasStringPrefix(Guild.Prefix, ref argPos))
                 {
@@ -454,7 +454,7 @@ namespace DarlingBotNet.Services
             using (var DBcontext = _db.GetDbContext())
             {
                 var guild = DBcontext.Guilds.GetOrCreate(Guild);
-                DBcontext.Channels.CreateRange(Guild.Channels.Where(x => x as SocketCategoryChannel == null));
+                DBcontext.Channels.CreateRange(Guild.TextChannels);
                 if (guild.Leaved)
                 {
                     guild.Leaved = false;

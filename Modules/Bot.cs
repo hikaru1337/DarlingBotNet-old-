@@ -33,46 +33,46 @@ namespace DarlingBotNet.Modules
             public DateTime DatePay { get; set; }
         }
 
-        [Aliases, Commands, Usage, Descriptions]
-        [PermissionBlockCommand]
-        public async Task boost()
-        {
-            var emb = new EmbedBuilder().WithColor(255, 0, 94);
-            string buynow = $"Вы можете купить его всего за 150 рублей прямо сейчас!\n\nКупить: [Клик]({String.Format(BotSettings.PayUserURL, Context.User.Id)})";
-            var pays = BotSettings.PayURL.GetJsonFromUrl();
-            if (pays.Length > 2)
-            {
-                var payz = pays.FromJson<UserPays>().InList().Where(x => x.UserId == Context.User.Id).ToList();
-                var lastpay = payz.Max(x => x.DatePay);
-                if (lastpay > DateTime.Now)
-                    emb.WithDescription($"Ваш буст оплачен до {lastpay.ToString("dd:MM:yy hh:mm:ss")}\n" +
-                        $"Благодаря тебе я до сих пор работаю ❤️\n\n" +
-                        $"Ты можешь продлить буст: [Клик]({String.Format(BotSettings.PayUserURL, Context.User.Id)})").WithAuthor("Boost 🟢");
-                else
-                    emb.WithDescription($"Ваш буст закончился {((DateTime.Now - lastpay).Days == 0 ? $"{(DateTime.Now - lastpay).Hours} часов" : $"{(DateTime.Now - lastpay).Days} дней")} назад!" +
-                        $"\n{buynow}\n\n").WithAuthor("Boost 🟡");
+        //[Aliases, Commands, Usage, Descriptions]
+        //[PermissionBlockCommand]
+        //public async Task boost()
+        //{
+        //    var emb = new EmbedBuilder().WithColor(255, 0, 94);
+        //    string buynow = $"Вы можете купить его всего за 150 рублей прямо сейчас!\n\nКупить: [Клик]({String.Format(BotSettings.PayUserURL, Context.User.Id)})";
+        //    var pays = BotSettings.PayURL.GetJsonFromUrl();
+        //    if (pays.Length > 2)
+        //    {
+        //        var payz = pays.FromJson<UserPays>().InList().Where(x => x.UserId == Context.User.Id).ToList();
+        //        var lastpay = payz.Max(x => x.DatePay);
+        //        if (lastpay > DateTime.Now)
+        //            emb.WithDescription($"Ваш буст оплачен до {lastpay.ToString("dd:MM:yy hh:mm:ss")}\n" +
+        //                $"Благодаря тебе я до сих пор работаю ❤️\n\n" +
+        //                $"Ты можешь продлить буст: [Клик]({String.Format(BotSettings.PayUserURL, Context.User.Id)})").WithAuthor("Boost 🟢");
+        //        else
+        //            emb.WithDescription($"Ваш буст закончился {((DateTime.Now - lastpay).Days == 0 ? $"{(DateTime.Now - lastpay).Hours} часов" : $"{(DateTime.Now - lastpay).Days} дней")} назад!" +
+        //                $"\n{buynow}\n\n").WithAuthor("Boost 🟡");
 
-                emb.WithDescription("Ваши последние транзакции:\n");
-                foreach (var Pays in payz.OrderBy(x => x.DatePay).ThenByDescending(x => x.DatePay).Take(5))
-                {
-                    emb.Description += $"{Pays.Sum} - {Pays.DatePay}";
-                }
-            }
-            else emb.WithDescription($"Вы еще не купили ни одно Boost!\nЧто дает Boost, вы можете прочитать тут:[КЛИК]()\n\n{buynow}").WithAuthor("Boost 🔴");
+        //        emb.WithDescription("Ваши последние транзакции:\n");
+        //        foreach (var Pays in payz.OrderBy(x => x.DatePay).ThenByDescending(x => x.DatePay).Take(5))
+        //        {
+        //            emb.Description += $"{Pays.Sum} - {Pays.DatePay}";
+        //        }
+        //    }
+        //    else emb.WithDescription($"Вы еще не купили ни одно Boost!\nЧто дает Boost, вы можете прочитать тут:[КЛИК]()\n\n{buynow}").WithAuthor("Boost 🔴");
            
-            try
-            {
-                await Context.User.SendMessageAsync("", false, emb.Build());
-            }
-            catch (Exception)
-            {
-                emb.WithDescription("Для того чтобы посмотреть информацию о Boost включите отправку сообщений!").WithImageUrl(BotSettings.EnableDMmessageURL);
-                await Context.Channel.SendMessageAsync("", false, emb.Build());
-                return;
-            }
+        //    try
+        //    {
+        //        await Context.User.SendMessageAsync("", false, emb.Build());
+        //    }
+        //    catch (Exception)
+        //    {
+        //        emb.WithDescription("Для того чтобы посмотреть информацию о Boost включите отправку сообщений!").WithImageUrl(BotSettings.EnableDMmessageURL);
+        //        await Context.Channel.SendMessageAsync("", false, emb.Build());
+        //        return;
+        //    }
 
 
-        }
+        //}
 
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task bug([Remainder] string error)

@@ -22,7 +22,7 @@ namespace DarlingBotNet.Services.Sys
         {
             _db = db;
         }
-            public async Task CheckPrivate(ulong glds, SocketGuild _discord)
+        public async Task CheckPrivate(ulong glds, SocketGuild _discord)
         {
             using (var DBcontext = _db.GetDbContext())
             {
@@ -61,7 +61,7 @@ namespace DarlingBotNet.Services.Sys
                 }
                 catch (Exception)
                 {
-                    var prv = DBcontext.PrivateChannels.Get(user.Id,voiceChannel);
+                    var prv = DBcontext.PrivateChannels.Get(user.Id, voiceChannel);
                     if (prv != null) DBcontext.PrivateChannels.Remove(prv);
                     await voiceChannel.DeleteAsync();
                 }
@@ -71,7 +71,7 @@ namespace DarlingBotNet.Services.Sys
             }
         } // Создание приваток
 
-        private async Task Privatemethod(SocketVoiceChannel chnl,PrivateChannels PC)
+        private async Task Privatemethod(SocketVoiceChannel chnl, PrivateChannels PC)
         {
             using (var DBcontext = _db.GetDbContext())
             {

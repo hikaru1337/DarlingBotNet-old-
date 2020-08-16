@@ -23,16 +23,23 @@ namespace DarlingBotNet.DataBase
         public PrivateChannels GetOrCreate(ulong UserId, ulong ChannelId, ulong GuildId)
         {
             //EnsureCreated(userId, guildId);
-            var warn = new PrivateChannels() { userid = UserId, channelid = ChannelId, guildid = GuildId };
-            _set.Add(warn);
+            var warn = _set.FirstOrDefault(x => x.userid == UserId && x.channelid == ChannelId && x.guildid == GuildId);
+            if (warn == null)
+            {
+                warn = new PrivateChannels() { userid = UserId, channelid = ChannelId, guildid = GuildId };
+                _set.Add(warn);
+            }
             return warn;
         }
 
         public PrivateChannels GetOrCreate(ulong UserId, RestVoiceChannel Channel)
         {
-            //EnsureCreated(userId, guildId);
-            var warn = new PrivateChannels() { userid = UserId, channelid = Channel.Id, guildid = Channel.GuildId };
-            _set.Add(warn);
+            var warn = _set.FirstOrDefault(x => x.userid == UserId && x.channelid == Channel.Id && x.guildid == Channel.GuildId);
+            if (warn == null)
+            {
+                warn = new PrivateChannels() { userid = UserId, channelid = Channel.Id, guildid = Channel.GuildId };
+                _set.Add(warn);
+            }
             return warn;
         }
 

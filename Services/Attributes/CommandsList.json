@@ -1,4 +1,34 @@
 ﻿{
+  "ban": {
+    "Cmd": "ban",
+    "Desc": "Выдать бан пользователю.||[user] [DeleteMessages/null] [reason/null]",
+    "Usage": [ "ban", "bn" ]
+  },
+  "unban": {
+    "Cmd": "unban",
+    "Desc": "Выдать разбан пользователю.||[userid]",
+    "Usage": [ "unban", "ubn" ]
+  },
+  "kick": {
+    "Cmd": "kick",
+    "Desc": "Кикнуть пользователя.||[user] [reason/null]",
+    "Usage": [ "kick", "kk" ]
+  },
+  "mute": {
+    "Cmd": "mute",
+    "Desc": "Выдать мут пользователю.||[user]",
+    "Usage": [ "mute", "mt" ]
+  },
+  "unmute": {
+    "Cmd": "unmute",
+    "Desc": "Убрать мут у пользователя.||[user]",
+    "Usage": [ "unmute", "umt" ]
+  },
+  "tempmute": {
+    "Cmd": "tempmute",
+    "Desc": "Выдать временный мут пользователю\ntime - время в минутах.||[user] [time]",
+    "Usage": [ "tempmute", "tpmt" ]
+  },
   "warn": {
     "Cmd": "warn",
     "Desc": "Выдать нарушение пользователю.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/system-violation#vydat-varn-polzovatelyu)||[user]",
@@ -85,67 +115,67 @@
 
   "Yuri": {
     "Cmd": "Yuri",
-    "Desc": "Yuri 18+ gif||",
+    "Desc": "Yuri 18+ gif. Yuri - жанр манги и аниме, изображающий женские гомосексуальные отношения.||",
     "Usage": [ "Yuri", "Yuri" ]
   },
   "Anal": {
     "Cmd": "Anal",
-    "Desc": "Anal 18+ gif||",
+    "Desc": "Anal 18+ gif.||",
     "Usage": [ "Anal", "Anal" ]
   },
   "Blowjob": {
     "Cmd": "Blowjob",
-    "Desc": "Blowjob 18+ gif||",
+    "Desc": "Blowjob 18+ gif. Blowjob - минет, или же оральный секс.||",
     "Usage": [ "Blowjob", "Blowjob" ]
   },
   "Boobs": {
     "Cmd": "Boobs",
-    "Desc": "Boobs 18+ gif||",
+    "Desc": "Boobs 18+ gif. Boobs - женская грудь||",
     "Usage": [ "Boobs", "Boobs" ]
   },
   "Classic": {
     "Cmd": "Classic",
-    "Desc": "Classic 18+ gif||",
+    "Desc": "Classic 18+ gif. Обычные 18+ гифки||",
     "Usage": [ "Classic", "Classic" ]
   },
   "Cum": {
     "Cmd": "Cum",
-    "Desc": "Cum 18+ gif||",
+    "Desc": "Cum 18+ gif. Cum - мужское выделение.||",
     "Usage": [ "Cum", "Cum" ]
   },
   "Feet": {
     "Cmd": "Feet",
-    "Desc": "Feet 18+ gif||",
+    "Desc": "Feet 18+ gif. Женские ножки.||",
     "Usage": [ "Feet", "Feet" ]
   },
   "Hentai": {
     "Cmd": "Hentai",
-    "Desc": "Hentai 18+ gif||",
+    "Desc": "Hentai 18+ gif. Hentai -  жанр японской анимации, комиксов, а также изображений соответствующей стилистики, основным элементом которых являются содержащиеся в них эротические или порнографические сцены.||",
     "Usage": [ "Hentai", "Hentai" ]
   },
   "Kuni": {
     "Cmd": "Kuni",
-    "Desc": "Kuni 18+ gif||",
+    "Desc": "Kuni 18+ gif. Kuni - оральный секс со стороны мужской половины||",
     "Usage": [ "Kuni", "Kuni" ]
   },
   "Neko": {
     "Cmd": "Neko",
-    "Desc": "Neko 18+ gif||",
+    "Desc": "Neko 18+ gif. 18+ кошечки.||",
     "Usage": [ "Neko", "Neko" ]
   },
   "Pussy": {
     "Cmd": "Pussy",
-    "Desc": "Pussy 18+ gif||",
+    "Desc": "Pussy 18+ gif. Pussy - женский половой орган||",
     "Usage": [ "Pussy", "Pussy" ]
   },
   "Pwank": {
     "Cmd": "Pwank",
-    "Desc": "Pwank 18+ gif||",
+    "Desc": "Pwank 18+ gif. Женская мастурбация||",
     "Usage": [ "Pwank", "Pwank" ]
   },
   "Solo": {
     "Cmd": "Solo",
-    "Desc": "Solo 18+ gif||",
+    "Desc": "Solo 18+ gif. ||",
     "Usage": [ "Solo", "Solo" ]
   },
   "Spank": {
@@ -155,12 +185,12 @@
   },
   "EroNeko": {
     "Cmd": "EroNeko",
-    "Desc": "EroNeko 18+ PNG||",
+    "Desc": "EroNeko 18+ PNG. Эротические фото кошечек.||",
     "Usage": [ "EroNeko", "EroNeko" ]
   },
   "Ahegao": {
     "Cmd": "Ahegao",
-    "Desc": "Ahegao 18+ PNG||",
+    "Desc": "Ahegao 18+ PNG. Термин в японской порнографии, описывающий выражение лица во время секса.||",
     "Usage": [ "Ahegao", "Ahegao" ]
   },
   "Cosplay": {
@@ -265,20 +295,15 @@
     "Usage": [ "CommandInvise", "ci" ]
   },
 
-  "levelrole": {
-    "Cmd": "levelrole",
-    "Desc": "узнать/(поставить/убрать) уровневые роли.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei)||",
-    "Usage": [ "levelrole", "lr" ]
-  },
   "levelroleadd": {
     "Cmd": "levelrole.add",
     "Desc": "Добавить уровневую роль\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei#dobavlenie-rolei-na-server)||[role] [lvl]",
-    "Usage": [ "levelroleadd", "lr.a" ]
+    "Usage": [ "levelrole.add", "lr.add" ]
   },
   "levelroledel": {
     "Cmd": "levelrole.del",
     "Desc": "Удалить уровневую роль\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei#dobavlenie-rolei-na-server)||[role]",
-    "Usage": [ "levelrole.del", "lr.d" ]
+    "Usage": [ "levelrole.del", "lr.del" ]
   },
 
   "channelsettings": {
@@ -295,6 +320,11 @@
     "Cmd": "channelsettings.givexp",
     "Desc": "Включить/выключить выдачу опыта в будущих каналах которые вы будете создавать.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei#vydacha-opyta-v-budushem-sozdannykh-kanalakh)||",
     "Usage": [ "channelsettings.givexp", "cs.gx" ]
+  },
+  "channelsettingsurlwhitelist": {
+    "Cmd": "channelsettings.urlwhitelist",
+    "Desc": "Настройка белого списка ссылок.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/nastroika-kanalov#dobavit-ssylku-v-belyi-list)||[channel] [url]",
+    "Usage": [ "channelsettings.urlwhitelist", "cs.uwl" ]
   },
   "logsettings": {
     "Cmd": "logsettings",
@@ -315,6 +345,11 @@
     "Cmd": "setmuterole",
     "Desc": "Создать роли для выдачи нарушений.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/komandy/nastroiki-servera/setmuterole-smr)||",
     "Usage": [ "setmuterole", "smr" ]
+  },
+  "raidsettings": {
+    "Cmd": "raidsettings",
+    "Desc": "Настройка защиты от рейдов.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/anti-raid-sistema)||",
+    "Usage": [ "raidsettings", "rds" ]
   },
   "getroletoemote": {
     "Cmd": "getroletoemote",
@@ -367,5 +402,10 @@
     "Cmd": "warns",
     "Desc": "Показать все нарушения на сервере\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/system-violation#posmotret-varny-na-servere)||",
     "Usage": [ "warns", "ws" ]
+  },
+  "levelrole": {
+    "Cmd": "levelrole",
+    "Desc": "узнать/(поставить/убрать) уровневые роли.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei)||",
+    "Usage": [ "levelrole", "lr" ]
   }
 }
