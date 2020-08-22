@@ -1,5 +1,5 @@
 ﻿using DarlingBotNet.DataBase;
-using DarlingBotNet.DataBase.Database;
+
 using DarlingBotNet.Services;
 using Discord;
 using Discord.Commands;
@@ -7,6 +7,7 @@ using Discord.WebSocket;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -14,27 +15,22 @@ namespace DarlingBotNet.Modules
 {
     public class User : ModuleBase<SocketCommandContext>
     {
-        private readonly DbService _db;
 
-        public User(DbService db)
-        {
-            _db = db;
-        }
 
 
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task level(SocketUser user = null)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
                 if (user == null) user = Context.User;
-                var usr = DBcontext.Users.Get(user.Id, Context.Guild.Id);
-                await DBcontext.SaveChangesAsync();
+                var usr = DBcontext.Users.AsNoTracking().FirstOrDefault(x=>x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
+                ulong count = (usr.Level * 80 * usr.Level);
                 await Context.Channel.SendMessageAsync("", false, new EmbedBuilder()
                                                          .WithColor(255, 0, 94)
                                                          .WithAuthor($" - Level {user}", user.GetAvatarUrl())
                                                          .WithDescription($"Уровень: {usr.Level}\n" +
-                                                         $"Опыт:{usr.XP}/{ (usr.Level + 1) * 80 * (usr.Level + 1)}")
+                                                         $"Опыт:{usr.XP - count}/{ (usr.Level + 1) * 80 * (usr.Level + 1) - count}")
                                                          .Build());
             }
 
@@ -52,17 +48,17 @@ namespace DarlingBotNet.Modules
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task marry(SocketUser user)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
                 var emb = new EmbedBuilder().WithColor(255, 0, 94);
                 if (Context.User != user)
                 {
-                    var marryuser = DBcontext.Users.GetOrCreate(user as SocketGuildUser);
+                    var marryuser = await SystemLoading.UserCreate(user.Id,(user as SocketGuildUser).Guild.Id);
                     await DBcontext.SaveChangesAsync();
-                    var ContextUser = DBcontext.Users.Get(Context.User.Id, Context.Guild.Id);
+                    var ContextUser = DBcontext.Users.AsNoTracking().FirstOrDefault(x=>x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
                     if (ContextUser.marryedid != marryuser.userid)
                     {
-                        var Prefix = DBcontext.Guilds.Get(Context.Guild).Prefix;
+                        var Prefix = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
                         if (ContextUser.marryedid == 0)
                         {
                             if (marryuser.marryedid == 0)
@@ -111,13 +107,13 @@ namespace DarlingBotNet.Modules
         public async Task divorce()
         {
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(" - divorce", Context.User.GetAvatarUrl());
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                Users ContextUser = DBcontext.Users.Get(Context.User.Id, Context.Guild.Id);
+                Users ContextUser = DBcontext.Users.AsNoTracking().FirstOrDefault(x=>x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
                 if (ContextUser.marryedid == 0) emb.WithDescription($"Вы не женаты!");
                 else
                 {
-                    Users marryed = DBcontext.Users.GetOrCreate(ContextUser.marryedid, Context.Guild.Id);
+                    Users marryed = await SystemLoading.UserCreate(ContextUser.marryedid, Context.Guild.Id);
                     marryed.marryedid = 0;
                     ContextUser.marryedid = 0;
                     DBcontext.Users.Update(marryed);
@@ -133,9 +129,9 @@ namespace DarlingBotNet.Modules
         public async Task zcoin(SocketUser user = null)
         {
             if (user == null) user = Context.User;
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var usr = DBcontext.Users.GetOrCreate(user.Id, Context.Guild.Id);
+                var usr = await SystemLoading.UserCreate(user.Id, Context.Guild.Id);
                 await Context.Channel.SendMessageAsync("", false, new EmbedBuilder()
                                                          .WithColor(255, 0, 94)
                                                          .WithAuthor($" - ZeroCoin {user}", user.GetAvatarUrl())
@@ -149,9 +145,9 @@ namespace DarlingBotNet.Modules
         public async Task kazino(string Fishka, string Stavka)
         {
             EmbedBuilder emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(" - Kazino", Context.User.GetAvatarUrl());
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                Users account = DBcontext.Users.Get(Context.User.Id, Context.Guild.Id);
+                Users account = DBcontext.Users.AsNoTracking().FirstOrDefault(x=>x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
 
                 ulong Coins = 0;
 
@@ -180,11 +176,11 @@ namespace DarlingBotNet.Modules
                                 emb.WithAuthor(" - Kazino - ❌ Lose", Context.User.GetAvatarUrl());
                             }
                             emb.WithDescription($"Выпало: {(ches % 2 == 1 ? "black" : (ches != 10 && ches % 2 == 0) ? "red" : "zero")}\nZeroCoin: {account.ZeroCoin}");
-                            DBcontext.SaveChangesAsync();
+                            await DBcontext.SaveChangesAsync();
                         }
                         else
                         {
-                            var Guild = DBcontext.Guilds.Get(Context.Guild).Prefix;
+                            var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
                             emb.WithDescription("Ваша ставка должна быть black,zero или red").WithFooter($"Пример - {Guild}kz [black/zero/red] [Кол-во ZeroCoin's]");
                         }
                     }
@@ -195,25 +191,12 @@ namespace DarlingBotNet.Modules
             await Context.Channel.SendMessageAsync("", false, emb.Build());
         }
 
-        //[Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
-        //public async Task addc()
-        //{
-        //    using (var DBcontext = _db.GetDbContext())
-        //    {
-        //        var usr = DBcontext.Users.GetOrCreate(Context.User.Id, Context.Guild.Id);
-        //        usr.ZeroCoin++;
-        //        DBcontext.Users.Update(usr);
-        //        await DBcontext.SaveChangesAsync();
-        //        await Context.Channel.SendMessageAsync(usr.ZeroCoin.ToString());
-        //    }
-        //}
-
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task daily()
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var usr = DBcontext.Users.Get(Context.User.Id, Context.Guild.Id);
+                var usr = DBcontext.Users.AsNoTracking().FirstOrDefault(x => x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(" - daily 🏧", Context.User.GetAvatarUrl());
                 
 
@@ -244,14 +227,29 @@ namespace DarlingBotNet.Modules
             }
         }
 
+
+        //[Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
+        //public async Task addc()
+        //{
+        //    using (var x = new DBcontext())
+        //    {
+        //        var usr = await SystemLoading.UserCreate(Context.User.Id, Context.Guild.Id);
+        //        usr.ZeroCoin++;
+        //        x.Update(usr);
+        //        await x.SaveChangesAsync();
+        //        await Context.Channel.SendMessageAsync(usr.ZeroCoin.ToString());
+        //    }
+        //}
+
+
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task transfer(SocketGuildUser user, ulong coin)
         {
             EmbedBuilder emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"{Context.User} 💱 {user}");
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var transfuser = DBcontext.Users.Get(user.Id, Context.Guild.Id);
-                Users usr = DBcontext.Users.Get(Context.User.Id, Context.Guild.Id);
+                var transfuser = DBcontext.Users.AsNoTracking().FirstOrDefault(x=>x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
+                Users usr = DBcontext.Users.AsNoTracking().FirstOrDefault(x=>x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
                 if (user != Context.User)
                 {
                     if (usr.ZeroCoin >= coin)
@@ -292,14 +290,14 @@ namespace DarlingBotNet.Modules
         public async Task warns()
         {
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Warns");
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.Get(Context.Guild);
+                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 if (Guild.ViolationSystem == 0) emb.WithDescription("На сервере не включена система нарушений.");
                 else if (Guild.ViolationSystem == 1) emb.WithDescription("На сервере выбрана другая система нарушений");
                 else
                 {
-                    var warns = DBcontext.Warns.Get(Context.Guild.Id);
+                    var warns = DBcontext.Warns.AsNoTracking().Where(x=>x.guildid == Context.Guild.Id);
                     foreach (var warn in warns)
                     {
                         if (warn.ReportWarn.Contains("tban"))
@@ -321,12 +319,12 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand]
         public async Task levelrole()
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var glds = DBcontext.Guilds.Get(Context.Guild);
+                var glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var embed = new EmbedBuilder().WithAuthor("🔨LevelRole - уровневые роли отсутствуют ⚠️").WithColor(255, 0, 94);
 
-                var lvl = DBcontext.LVLROLES.Get(Context.Guild);
+                var lvl = DBcontext.LVLROLES.AsNoTracking().Where(x=>x.guildid == Context.Guild.Id);
                 if (lvl.Count() != 0)
                 {
                     embed.WithAuthor($"🔨LevelRole - уровневые роли");

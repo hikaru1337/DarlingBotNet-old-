@@ -1,0 +1,72 @@
+22.08.2020 11:19:22 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+22.08.2020 11:19:23 [Verbose] Rest: GET voice/regions: 767,69 ms
+22.08.2020 11:19:24 [Verbose] Rest: GET users/@me: 235,11 ms
+22.08.2020 11:19:24 [Info] Gateway: Connecting
+22.08.2020 11:19:24 [Verbose] Rest: GET gateway: 78,94 ms
+22.08.2020 11:19:25 [Info] Gateway: Connected
+22.08.2020 11:19:25 [Verbose] Gateway: Connected to DarlingBotInfo
+22.08.2020 11:19:26 [Info] Gateway: Ready
+22.08.2020 11:23:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+22.08.2020 11:23:05 [Verbose] Rest: GET voice/regions: 616,82 ms
+22.08.2020 11:23:05 [Verbose] Rest: GET users/@me: 214,28 ms
+22.08.2020 11:23:05 [Info] Gateway: Connecting
+22.08.2020 11:23:06 [Verbose] Rest: GET gateway: 71,81 ms
+22.08.2020 11:23:07 [Info] Gateway: Connected
+22.08.2020 11:23:07 [Verbose] Gateway: Connected to DarlingBotInfo
+22.08.2020 11:23:07 [Info] Gateway: Ready
+22.08.2020 12:53:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+22.08.2020 12:53:32 [Verbose] Rest: GET voice/regions: 696,44 ms
+22.08.2020 12:53:32 [Verbose] Rest: GET users/@me: 211,35 ms
+22.08.2020 12:53:32 [Info] Gateway: Connecting
+22.08.2020 12:53:32 [Verbose] Rest: GET gateway: 77,88 ms
+22.08.2020 12:53:33 [Info] Gateway: Connected
+22.08.2020 12:53:34 [Verbose] Gateway: Connected to DarlingBotInfo
+22.08.2020 12:53:34 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: g.RaidMuted'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.GuildCheck() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 148
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 416
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+22.08.2020 12:53:34 [Info] Gateway: Ready
+22.08.2020 13:11:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+22.08.2020 13:11:49 [Verbose] Rest: GET voice/regions: 699,85 ms
+22.08.2020 13:11:50 [Verbose] Rest: GET users/@me: 236,48 ms
+22.08.2020 13:11:50 [Info] Gateway: Connecting
+22.08.2020 13:11:50 [Verbose] Rest: GET gateway: 76,65 ms
+22.08.2020 13:11:51 [Info] Gateway: Connected
+22.08.2020 13:11:51 [Verbose] Gateway: Connected to DarlingBotInfo
+22.08.2020 13:11:52 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: g.Id'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.GuildCheck() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 148
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 416
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+22.08.2020 13:11:52 [Info] Gateway: Ready

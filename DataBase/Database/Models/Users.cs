@@ -1,4 +1,5 @@
-﻿using DarlingBotNet.DataBase.Database;
+﻿
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,9 +8,9 @@ using System.Linq;
 
 namespace DarlingBotNet.DataBase
 {
-    public class Users : DbEntity
+    public class Users
     {
-
+        public ulong Id { get; set; }
         public ulong userid { get; set; }
         public bool Leaved { get; set; }
         public ulong guildId { get; set; }
@@ -27,15 +28,23 @@ namespace DarlingBotNet.DataBase
         public uint countwarns { get; set; }
         public ulong marryedid { get; set; }
         public uint clanId { get; set; }
-        public string clanInfo { get; set; }
+        public UserClanRole clanInfo { get; set; }
         public uint ClanOwner
         {
             get
             {
-                var clan = new DbService().GetDbContext().Clans.Where(x => x.OwnerId == userid);
+                var clan = new DBcontext().Clans.AsNoTracking().Where(x => x.OwnerId == userid);
                 if (clan.Count() == 0) return 0;
                 return (uint)clan.First().Id;
             }
         }
-}
+
+        public enum UserClanRole
+        {
+            user,
+            moder,
+            wait,
+            ready
+        }
+    }
 }

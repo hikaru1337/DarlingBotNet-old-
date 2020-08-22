@@ -33,8 +33,12 @@ namespace DarlingBotNet.DataBase
         public void RemoveRange(IEnumerable<T> objs) =>
             _set.RemoveRange(objs);
 
-        public void Update(T obj) =>
-            _set.Update(obj);
+        public void Update(T obj)
+        {
+            _context.Entry(obj).State = EntityState.Modified;
+            _context.SaveChangesAsync();
+            //_set.Update(obj);
+        }
 
         public void UpdateRange(params T[] objs) =>
             _set.UpdateRange(objs);

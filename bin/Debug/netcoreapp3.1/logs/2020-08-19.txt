@@ -1,0 +1,834 @@
+19.08.2020 14:24:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 14:24:34 [Verbose] Rest: GET voice/regions: 704,72 ms
+19.08.2020 14:24:35 [Verbose] Rest: GET users/@me: 273,23 ms
+19.08.2020 14:24:35 [Info] Gateway: Connecting
+19.08.2020 14:24:35 [Verbose] Rest: GET gateway: 82,17 ms
+19.08.2020 14:24:36 [Info] Gateway: Connected
+19.08.2020 14:24:36 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 14:24:37 [Info] Gateway: Ready
+19.08.2020 14:29:19 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 14:29:20 [Verbose] Rest: GET voice/regions: 636,13 ms
+19.08.2020 14:29:20 [Verbose] Rest: GET users/@me: 269,71 ms
+19.08.2020 14:29:20 [Info] Gateway: Connecting
+19.08.2020 14:29:20 [Verbose] Rest: GET gateway: 83,18 ms
+19.08.2020 14:29:22 [Info] Gateway: Connected
+19.08.2020 14:29:22 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 14:29:25 [Warning] Gateway: A Ready handler is blocking the gateway task.
+19.08.2020 14:29:53 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction..ctor(SqliteConnection connection, IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginDbTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 208
+   at DarlingBotNet.Services.SystemLoading.GuildCheck() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 155
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 415
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+19.08.2020 14:29:53 [Info] Gateway: Ready
+19.08.2020 14:30:03 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 14:30:04 [Verbose] Rest: GET voice/regions: 624,51 ms
+19.08.2020 14:30:04 [Verbose] Rest: GET users/@me: 233,6 ms
+19.08.2020 14:30:04 [Info] Gateway: Connecting
+19.08.2020 14:30:04 [Verbose] Rest: GET gateway: 87,27 ms
+19.08.2020 14:30:05 [Info] Gateway: Connected
+19.08.2020 14:30:05 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 14:30:06 [Info] Gateway: Ready
+19.08.2020 14:30:11 [Verbose] Rest: POST channels/744480279275634748/messages: 382,07 ms
+19.08.2020 14:30:11 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:30:13 [Verbose] Rest: POST channels/744480279275634748/messages: 245,09 ms
+19.08.2020 14:30:13 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:30:14 [Verbose] Rest: POST channels/744480279275634748/messages: 454,17 ms
+19.08.2020 14:30:14 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:30:15 [Verbose] Rest: POST channels/744480279275634748/messages: 246,64 ms
+19.08.2020 14:30:15 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:30:16 [Verbose] Rest: POST channels/744480279275634748/messages: 301,85 ms
+19.08.2020 14:30:16 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:30:16 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 14:30:16 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 14:30:16 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 14:30:17 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 14:30:17 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 14:30:21 [Verbose] Rest: POST channels/744480279275634748/messages: 4062,08 ms
+19.08.2020 14:30:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:30:21 [Verbose] Rest: POST channels/744480279275634748/messages: 5055,56 ms
+19.08.2020 14:30:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:30:21 [Verbose] Rest: POST channels/744480279275634748/messages: 5661,18 ms
+19.08.2020 14:30:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:30:22 [Verbose] Rest: POST channels/744480279275634748/messages: 5238,68 ms
+19.08.2020 14:30:22 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:30:22 [Verbose] Rest: POST channels/744480279275634748/messages: 5183,41 ms
+19.08.2020 14:30:22 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:32:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 14:32:27 [Verbose] Rest: GET voice/regions: 645,78 ms
+19.08.2020 14:32:28 [Verbose] Rest: GET users/@me: 260,01 ms
+19.08.2020 14:32:28 [Info] Gateway: Connecting
+19.08.2020 14:32:28 [Verbose] Rest: GET gateway: 74,99 ms
+19.08.2020 14:32:29 [Info] Gateway: Connected
+19.08.2020 14:32:29 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 14:32:30 [Info] Gateway: Ready
+19.08.2020 14:32:31 [Verbose] Rest: POST channels/744480279275634748/messages: 245,83 ms
+19.08.2020 14:32:31 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:32:33 [Verbose] Rest: POST channels/744480279275634748/messages: 255,09 ms
+19.08.2020 14:32:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:32:34 [Verbose] Rest: POST channels/744480279275634748/messages: 629,26 ms
+19.08.2020 14:32:34 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:32:35 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 320
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 439
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+19.08.2020 14:32:35 [Verbose] Rest: POST channels/744480279275634748/messages: 357,9 ms
+19.08.2020 14:32:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:33:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 14:33:25 [Verbose] Rest: GET voice/regions: 605,83 ms
+19.08.2020 14:33:25 [Verbose] Rest: GET users/@me: 226,86 ms
+19.08.2020 14:33:25 [Info] Gateway: Connecting
+19.08.2020 14:33:25 [Verbose] Rest: GET gateway: 79,32 ms
+19.08.2020 14:33:26 [Info] Gateway: Connected
+19.08.2020 14:33:26 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 14:33:27 [Info] Gateway: Ready
+19.08.2020 14:33:32 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 318
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 439
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+19.08.2020 14:33:32 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 14:34:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 14:34:15 [Verbose] Rest: GET voice/regions: 682,21 ms
+19.08.2020 14:34:16 [Verbose] Rest: GET users/@me: 236,52 ms
+19.08.2020 14:34:16 [Info] Gateway: Connecting
+19.08.2020 14:34:16 [Verbose] Rest: GET gateway: 79,65 ms
+19.08.2020 14:34:17 [Info] Gateway: Connected
+19.08.2020 14:34:17 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 14:34:18 [Info] Gateway: Ready
+19.08.2020 14:34:20 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 14:34:20 [Verbose] Rest: POST channels/744480279275634748/messages: 454,52 ms
+19.08.2020 14:34:20 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:34:21 [Verbose] Rest: POST channels/744480279275634748/messages: 821,59 ms
+19.08.2020 14:34:22 [Verbose] Rest: POST channels/744480279275634748/messages: 249,34 ms
+19.08.2020 14:34:22 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:34:24 [Verbose] Rest: POST channels/744480279275634748/messages: 246,45 ms
+19.08.2020 14:34:24 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:34:25 [Verbose] Rest: POST channels/744480279275634748/messages: 293,96 ms
+19.08.2020 14:34:25 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:34:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 14:34:39 [Verbose] Rest: GET voice/regions: 628,82 ms
+19.08.2020 14:34:39 [Verbose] Rest: GET users/@me: 220,92 ms
+19.08.2020 14:34:39 [Info] Gateway: Connecting
+19.08.2020 14:34:39 [Verbose] Rest: GET gateway: 77,3 ms
+19.08.2020 14:34:40 [Info] Gateway: Connected
+19.08.2020 14:34:40 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 14:34:41 [Info] Gateway: Ready
+19.08.2020 14:34:43 [Verbose] Rest: POST channels/744480279275634748/messages: 588,05 ms
+19.08.2020 14:34:43 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:34:44 [Verbose] Rest: POST channels/744480279275634748/messages: 309,48 ms
+19.08.2020 14:34:44 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 14:34:45 [Verbose] Rest: POST channels/744480279275634748/messages: 260,03 ms
+19.08.2020 14:34:45 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:26:03 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 15:26:03 [Verbose] Rest: GET voice/regions: 654,74 ms
+19.08.2020 15:26:04 [Verbose] Rest: GET users/@me: 243,19 ms
+19.08.2020 15:26:04 [Info] Gateway: Connecting
+19.08.2020 15:26:04 [Verbose] Rest: GET gateway: 86,16 ms
+19.08.2020 15:26:05 [Info] Gateway: Connected
+19.08.2020 15:26:05 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 15:26:06 [Info] Gateway: Ready
+19.08.2020 15:26:08 [Verbose] Rest: POST channels/744480279275634748/messages: 259,2 ms
+19.08.2020 15:26:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:26:11 [Verbose] Rest: POST channels/744480279275634748/messages: 278,22 ms
+19.08.2020 15:26:11 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:26:12 [Verbose] Rest: POST channels/744480279275634748/messages: 259,77 ms
+19.08.2020 15:26:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:26:13 [Verbose] Rest: POST channels/744480279275634748/messages: 251,67 ms
+19.08.2020 15:26:13 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:26:15 [Verbose] Rest: POST channels/744480279275634748/messages: 315,03 ms
+19.08.2020 15:26:15 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:26:25 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 15:26:25 [Verbose] Rest: GET voice/regions: 662,64 ms
+19.08.2020 15:26:26 [Verbose] Rest: GET users/@me: 219,6 ms
+19.08.2020 15:26:26 [Info] Gateway: Connecting
+19.08.2020 15:26:26 [Verbose] Rest: GET gateway: 81,27 ms
+19.08.2020 15:26:27 [Info] Gateway: Connected
+19.08.2020 15:26:27 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 15:26:28 [Info] Gateway: Ready
+19.08.2020 15:26:31 [Verbose] Rest: POST channels/744480279275634748/messages: 437,73 ms
+19.08.2020 15:26:31 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:46:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 15:46:38 [Verbose] Rest: GET voice/regions: 630,54 ms
+19.08.2020 15:46:38 [Verbose] Rest: GET users/@me: 233,65 ms
+19.08.2020 15:46:38 [Info] Gateway: Connecting
+19.08.2020 15:46:38 [Verbose] Rest: GET gateway: 77,1 ms
+19.08.2020 15:46:40 [Info] Gateway: Connected
+19.08.2020 15:46:40 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 15:46:41 [Info] Gateway: Ready
+19.08.2020 15:46:48 [Verbose] Rest: POST channels/744480279275634748/messages: 286,47 ms
+19.08.2020 15:46:48 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:46:53 [Verbose] Rest: POST channels/744480279275634748/messages: 260,32 ms
+19.08.2020 15:49:31 [Verbose] Rest: GET oauth2/applications/@me: 394,5 ms
+19.08.2020 15:49:32 [Verbose] Rest: POST channels/744480279275634748/messages: 360,82 ms
+19.08.2020 15:49:32 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:49:42 [Verbose] Rest: POST channels/744480279275634748/messages: 274,64 ms
+19.08.2020 15:49:42 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:50:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 15:50:13 [Verbose] Rest: GET voice/regions: 634,51 ms
+19.08.2020 15:50:13 [Verbose] Rest: GET users/@me: 218,51 ms
+19.08.2020 15:50:13 [Info] Gateway: Connecting
+19.08.2020 15:50:13 [Verbose] Rest: GET gateway: 79,81 ms
+19.08.2020 15:50:14 [Info] Gateway: Connected
+19.08.2020 15:50:15 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 15:50:15 [Info] Gateway: Ready
+19.08.2020 15:51:58 [Verbose] Rest: POST channels/744480279275634748/messages: 323,71 ms
+19.08.2020 15:51:58 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:52:05 [Verbose] Rest: POST channels/744480279275634748/messages: 338,37 ms
+19.08.2020 15:52:05 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:53:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 15:53:13 [Verbose] Rest: GET voice/regions: 696,96 ms
+19.08.2020 15:53:14 [Verbose] Rest: GET users/@me: 252,42 ms
+19.08.2020 15:53:14 [Info] Gateway: Connecting
+19.08.2020 15:53:14 [Verbose] Rest: GET gateway: 78,72 ms
+19.08.2020 15:53:16 [Info] Gateway: Connected
+19.08.2020 15:53:16 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 15:53:17 [Info] Gateway: Ready
+19.08.2020 15:53:22 [Verbose] Rest: GET oauth2/applications/@me: 235,13 ms
+19.08.2020 15:53:23 [Verbose] Rest: POST channels/744480279275634748/messages: 519,8 ms
+19.08.2020 15:53:23 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:53:28 [Verbose] Rest: POST channels/744480279275634748/messages: 243,36 ms
+19.08.2020 15:53:28 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:53:31 [Verbose] Rest: POST channels/744480279275634748/messages: 292,99 ms
+19.08.2020 15:53:31 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:53:38 [Error] Command: Discord.Commands.CommandException: Error occurred executing "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<Clans>
+    .Where(c => c.guildId == __Context_Guild_Id_0)
+    .Where(c => c.DefUsers
+        .Count() >= __Count_1)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at DarlingBotNet.Modules.Clan.clans(UInt64 page, UInt32 clanid) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Clan.cs:line 95
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+19.08.2020 15:53:38 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:54:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 15:54:11 [Verbose] Rest: GET voice/regions: 644,16 ms
+19.08.2020 15:54:12 [Verbose] Rest: GET users/@me: 216,76 ms
+19.08.2020 15:54:12 [Info] Gateway: Connecting
+19.08.2020 15:54:12 [Verbose] Rest: GET gateway: 79,44 ms
+19.08.2020 15:54:13 [Info] Gateway: Connected
+19.08.2020 15:54:13 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 15:54:14 [Info] Gateway: Ready
+19.08.2020 15:54:19 [Verbose] Rest: POST channels/744480279275634748/messages: 260,07 ms
+19.08.2020 15:54:19 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:54:30 [Verbose] Rest: GET oauth2/applications/@me: 229,4 ms
+19.08.2020 15:54:31 [Verbose] Rest: POST channels/744480279275634748/messages: 284,75 ms
+19.08.2020 15:54:31 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:54:41 [Error] Command: Discord.Commands.CommandException: Error occurred executing "claninfo" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<Clans>
+    .Where(c => c.guildId == __Context_Guild_Id_0)
+    .Where(c => c.DefUsers
+        .Count() >= __Count_1)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at DarlingBotNet.Modules.Clan.claninfo() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Clan.cs:line 211
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+19.08.2020 15:54:41 [Verbose] Command: Executed "claninfo" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:54:43 [Verbose] Rest: POST channels/744480279275634748/messages: 267,39 ms
+19.08.2020 15:54:43 [Verbose] Command: Executed "clans" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+19.08.2020 15:57:50 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 15:57:50 [Verbose] Rest: GET voice/regions: 656,83 ms
+19.08.2020 15:57:51 [Verbose] Rest: GET users/@me: 228,39 ms
+19.08.2020 15:57:51 [Info] Gateway: Connecting
+19.08.2020 15:57:51 [Verbose] Rest: GET gateway: 79,23 ms
+19.08.2020 15:57:52 [Info] Gateway: Connected
+19.08.2020 15:57:52 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 15:57:53 [Info] Gateway: Ready
+19.08.2020 15:57:54 [Error] Command: Discord.Commands.CommandException: Error occurred executing "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<Clans>
+    .Where(c => c.guildId == __Context_Guild_Id_0)
+    .Count(c => c.DefUsers
+        .Count() >= __Count_1)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Modules.Clan.clans(UInt64 page, UInt32 clanid) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Clan.cs:line 95
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+19.08.2020 15:57:54 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 15:58:01 [Error] Command: Discord.Commands.CommandException: Error occurred executing "clans" for 5nP4u*7#4322 in DarlingBotInfo/эээ.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<Clans>
+    .Where(c => c.guildId == __Context_Guild_Id_0)
+    .Count(c => c.DefUsers
+        .Count() >= __Count_1)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Modules.Clan.clans(UInt64 page, UInt32 clanid) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Clan.cs:line 95
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+19.08.2020 15:58:01 [Verbose] Command: Executed "clans" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+19.08.2020 16:03:26 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 16:03:26 [Verbose] Rest: GET voice/regions: 623,53 ms
+19.08.2020 16:03:27 [Verbose] Rest: GET users/@me: 240,04 ms
+19.08.2020 16:03:27 [Info] Gateway: Connecting
+19.08.2020 16:03:27 [Verbose] Rest: GET gateway: 82,69 ms
+19.08.2020 16:03:28 [Info] Gateway: Connected
+19.08.2020 16:03:28 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 16:03:29 [Info] Gateway: Ready
+19.08.2020 16:03:30 [Verbose] Rest: POST channels/744480279275634748/messages: 299,93 ms
+19.08.2020 16:03:30 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:03:34 [Error] Command: Discord.Commands.CommandException: Error occurred executing "claninfo" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<Clans>
+    .Where(c => c.guildId == __Context_Guild_Id_0)
+    .Where(c => c.DefUsers
+        .Count() >= __Count_1)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at DarlingBotNet.Modules.Clan.claninfo() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Clan.cs:line 212
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+19.08.2020 16:03:34 [Verbose] Command: Executed "claninfo" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:04:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 16:04:39 [Verbose] Rest: GET voice/regions: 651,48 ms
+19.08.2020 16:04:39 [Verbose] Rest: GET users/@me: 237,13 ms
+19.08.2020 16:04:39 [Info] Gateway: Connecting
+19.08.2020 16:04:40 [Verbose] Rest: GET gateway: 77,26 ms
+19.08.2020 16:04:41 [Info] Gateway: Connected
+19.08.2020 16:04:41 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 16:04:42 [Info] Gateway: Ready
+19.08.2020 16:04:43 [Error] Command: Discord.Commands.CommandException: Error occurred executing "clanclaims" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<Clans>
+    .Where(c => c.guildId == __Context_Guild_Id_0 && c.ClanName == __clanname_1 && c.OwnerId == __Context_User_Id_2 || c.UsersModerators
+        .FirstOrDefault(x => x.userid == __Context_User_Id_2) != null)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Modules.Clan.clanclaims(String clanname, UInt64 page, SocketUser user, String Decision) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Clan.cs:line 243
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+19.08.2020 16:04:43 [Verbose] Command: Executed "clanclaims" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:05:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 16:05:44 [Verbose] Rest: GET voice/regions: 666,62 ms
+19.08.2020 16:05:45 [Verbose] Rest: GET users/@me: 243,45 ms
+19.08.2020 16:05:45 [Info] Gateway: Connecting
+19.08.2020 16:05:45 [Verbose] Rest: GET gateway: 81,69 ms
+19.08.2020 16:05:46 [Info] Gateway: Connected
+19.08.2020 16:05:46 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 16:05:47 [Info] Gateway: Ready
+19.08.2020 16:05:48 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:05:48 [Verbose] Rest: POST channels/744480279275634748/messages: 252,52 ms
+19.08.2020 16:05:48 [Verbose] Rest: POST channels/744480279275634748/messages: 753,07 ms
+19.08.2020 16:05:48 [Verbose] Command: Executed "clanclaims" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:08:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 16:08:35 [Verbose] Rest: GET voice/regions: 620,83 ms
+19.08.2020 16:08:35 [Verbose] Rest: GET users/@me: 220,33 ms
+19.08.2020 16:08:35 [Info] Gateway: Connecting
+19.08.2020 16:08:35 [Verbose] Rest: GET gateway: 72,11 ms
+19.08.2020 16:08:36 [Info] Gateway: Connected
+19.08.2020 16:08:36 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 16:08:37 [Info] Gateway: Ready
+19.08.2020 16:08:45 [Verbose] Rest: GET oauth2/applications/@me: 238,13 ms
+19.08.2020 16:08:46 [Verbose] Rest: POST channels/744480279275634748/messages: 306,04 ms
+19.08.2020 16:08:46 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:08:49 [Verbose] Rest: POST channels/744480279275634748/messages: 269,92 ms
+19.08.2020 16:08:49 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:08:52 [Verbose] Rest: POST channels/744480279275634748/messages: 240,92 ms
+19.08.2020 16:08:52 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:08:58 [Verbose] Rest: POST channels/744480279275634748/messages: 283,25 ms
+19.08.2020 16:08:58 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:11:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 16:11:06 [Verbose] Rest: GET voice/regions: 639,64 ms
+19.08.2020 16:11:06 [Verbose] Rest: GET users/@me: 263,47 ms
+19.08.2020 16:11:06 [Info] Gateway: Connecting
+19.08.2020 16:11:06 [Verbose] Rest: GET gateway: 83,47 ms
+19.08.2020 16:11:08 [Info] Gateway: Connected
+19.08.2020 16:11:08 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 16:11:09 [Info] Gateway: Ready
+19.08.2020 16:11:52 [Verbose] Rest: POST channels/744480279275634748/messages: 324,79 ms
+19.08.2020 16:11:52 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:11:57 [Verbose] Rest: POST channels/744480279275634748/messages: 250,98 ms
+19.08.2020 16:11:57 [Verbose] Command: Executed "claninfo" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:13:14 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 16:13:15 [Verbose] Rest: GET voice/regions: 677,76 ms
+19.08.2020 16:13:15 [Verbose] Rest: GET users/@me: 250,58 ms
+19.08.2020 16:13:15 [Info] Gateway: Connecting
+19.08.2020 16:13:15 [Verbose] Rest: GET gateway: 82,24 ms
+19.08.2020 16:13:17 [Info] Gateway: Connected
+19.08.2020 16:13:17 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 16:13:18 [Info] Gateway: Ready
+19.08.2020 16:13:26 [Verbose] Rest: GET oauth2/applications/@me: 244,36 ms
+19.08.2020 16:13:27 [Verbose] Rest: POST channels/744480279275634748/messages: 363,94 ms
+19.08.2020 16:13:27 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:13:30 [Verbose] Rest: POST channels/744480279275634748/messages: 374,22 ms
+19.08.2020 16:13:30 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:13:40 [Verbose] Rest: POST channels/744480279275634748/messages: 255,79 ms
+19.08.2020 16:13:40 [Verbose] Command: Executed "clancreate" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:13:44 [Verbose] Rest: POST channels/744480279275634748/messages: 286,05 ms
+19.08.2020 16:13:44 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:14:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 16:14:10 [Verbose] Rest: GET voice/regions: 610,38 ms
+19.08.2020 16:14:11 [Verbose] Rest: GET users/@me: 247,86 ms
+19.08.2020 16:14:11 [Info] Gateway: Connecting
+19.08.2020 16:14:11 [Verbose] Rest: GET gateway: 76,44 ms
+19.08.2020 16:14:12 [Info] Gateway: Connected
+19.08.2020 16:14:12 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 16:14:13 [Info] Gateway: Ready
+19.08.2020 16:14:28 [Verbose] Rest: POST channels/744480279275634748/messages: 253,15 ms
+19.08.2020 16:14:28 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:14:31 [Verbose] Rest: POST channels/744480279275634748/messages: 288,91 ms
+19.08.2020 16:14:31 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:16:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 16:16:05 [Verbose] Rest: GET voice/regions: 659,1 ms
+19.08.2020 16:16:05 [Verbose] Rest: GET users/@me: 262,32 ms
+19.08.2020 16:16:05 [Info] Gateway: Connecting
+19.08.2020 16:16:05 [Verbose] Rest: GET gateway: 76,39 ms
+19.08.2020 16:16:07 [Info] Gateway: Connected
+19.08.2020 16:16:07 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 16:16:08 [Info] Gateway: Ready
+19.08.2020 16:16:24 [Verbose] Rest: POST channels/744480279275634748/messages: 289,07 ms
+19.08.2020 16:16:24 [Verbose] Command: Executed "clans" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:16:30 [Verbose] Rest: POST channels/744480279275634748/messages: 290,92 ms
+19.08.2020 16:16:30 [Verbose] Command: Executed "claninfo" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:17:14 [Verbose] Rest: GET oauth2/applications/@me: 395,02 ms
+19.08.2020 16:17:15 [Verbose] Rest: POST channels/744480279275634748/messages: 245,46 ms
+19.08.2020 16:17:15 [Verbose] Rest: POST channels/744480279275634748/messages: 499,56 ms
+19.08.2020 16:17:15 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:17:37 [Verbose] Rest: POST channels/744480279275634748/messages: 325,31 ms
+19.08.2020 16:17:37 [Verbose] Command: Executed "clancreate" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:17:44 [Verbose] Rest: POST channels/744480279275634748/messages: 278,51 ms
+19.08.2020 16:17:44 [Verbose] Command: Executed "commands" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:17:46 [Verbose] Rest: POST channels/744480279275634748/messages: 237,71 ms
+19.08.2020 16:17:46 [Verbose] Command: Executed "clans" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:17:51 [Verbose] Rest: POST channels/744480279275634748/messages: 271,45 ms
+19.08.2020 16:17:51 [Verbose] Command: Executed "clans" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:17:54 [Verbose] Rest: POST channels/744480279275634748/messages: 269,83 ms
+19.08.2020 16:18:12 [Verbose] Rest: POST channels/744480279275634748/messages: 306,45 ms
+19.08.2020 16:18:30 [Verbose] Rest: POST channels/744480279275634748/messages: 245,78 ms
+19.08.2020 16:18:30 [Verbose] Command: Executed "info" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+19.08.2020 16:19:07 [Verbose] Rest: POST channels/744480279275634748/messages: 245,3 ms
+19.08.2020 16:19:07 [Verbose] Command: Executed "clancreate" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+19.08.2020 16:19:19 [Verbose] Rest: POST channels/744480279275634748/messages: 493,99 ms
+19.08.2020 16:19:20 [Verbose] Rest: POST channels/744480279275634748/messages: 281,25 ms
+19.08.2020 16:19:22 [Verbose] Rest: POST channels/744480279275634748/messages: 275,25 ms
+19.08.2020 16:19:22 [Verbose] Command: Executed "clancreate" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+19.08.2020 16:19:28 [Verbose] Rest: POST channels/744480279275634748/messages: 249,79 ms
+19.08.2020 16:19:28 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 16:19:31 [Verbose] Rest: POST channels/744480279275634748/messages: 281,99 ms
+19.08.2020 16:19:31 [Verbose] Command: Executed "clancreate" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+19.08.2020 16:19:37 [Verbose] Rest: POST channels/744480279275634748/messages: 443,25 ms
+19.08.2020 16:19:37 [Verbose] Command: Executed "clans" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+19.08.2020 16:19:45 [Verbose] Rest: POST channels/744480279275634748/messages: 289,06 ms
+19.08.2020 16:19:45 [Verbose] Rest: POST channels/744480279275634748/messages: 407,26 ms
+19.08.2020 16:19:45 [Verbose] Command: Executed "claninfo" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+19.08.2020 16:20:14 [Verbose] Rest: POST channels/744480279275634748/messages: 277,45 ms
+19.08.2020 16:20:27 [Verbose] Rest: POST channels/744480279275634748/messages: 351,58 ms
+19.08.2020 16:20:28 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+19.08.2020 16:20:36 [Verbose] Rest: POST channels/744480279275634748/messages: 392,91 ms
+19.08.2020 16:20:36 [Verbose] Command: Executed "clans" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:20:43 [Verbose] Rest: POST channels/744480279275634748/messages: 284,18 ms
+19.08.2020 16:20:43 [Verbose] Command: Executed "clans" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:20:47 [Verbose] Rest: POST channels/744480279275634748/messages: 242,51 ms
+19.08.2020 16:20:51 [Verbose] Rest: POST channels/744480279275634748/messages: 288,23 ms
+19.08.2020 16:20:51 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+19.08.2020 16:21:09 [Verbose] Rest: POST channels/744480279275634748/messages: 285,4 ms
+19.08.2020 16:21:09 [Verbose] Command: Executed "clanclaims" for 5nP4u*7#4322 in DarlingBotInfo/эээ
+19.08.2020 16:23:41 [Verbose] Rest: POST channels/744480279275634748/messages: 534,27 ms
+19.08.2020 16:23:41 [Verbose] Command: Executed "clans" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:23:58 [Verbose] Rest: POST channels/744480279275634748/messages: 314,96 ms
+19.08.2020 16:23:58 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:02 [Verbose] Rest: POST channels/744480279275634748/messages: 263,09 ms
+19.08.2020 16:24:02 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:03 [Verbose] Rest: POST channels/744480279275634748/messages: 263,76 ms
+19.08.2020 16:24:03 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:04 [Verbose] Rest: POST channels/744480279275634748/messages: 321,69 ms
+19.08.2020 16:24:04 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:05 [Verbose] Rest: POST channels/744480279275634748/messages: 264,08 ms
+19.08.2020 16:24:05 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:05 [Verbose] Rest: POST channels/744480279275634748/messages: 231,04 ms
+19.08.2020 16:24:05 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:06 [Verbose] Rest: POST channels/744480279275634748/messages: 300,93 ms
+19.08.2020 16:24:06 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:06 [Verbose] Rest: POST channels/744480279275634748/messages: 447,89 ms
+19.08.2020 16:24:06 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:06 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:06 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:07 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:08 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:08 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:09 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:09 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:09 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:10 [Verbose] Rest: POST channels/744480279275634748/messages: 3179,71 ms
+19.08.2020 16:24:10 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:10 [Verbose] Rest: POST channels/744480279275634748/messages: 454,29 ms
+19.08.2020 16:24:10 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:10 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:10 [Verbose] Rest: POST channels/744480279275634748/messages: 1704,68 ms
+19.08.2020 16:24:10 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:10 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:10 [Verbose] Rest: POST channels/744480279275634748/messages: 3753,16 ms
+19.08.2020 16:24:10 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:10 [Verbose] Rest: POST channels/744480279275634748/messages: 899,14 ms
+19.08.2020 16:24:10 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:10 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:10 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:12 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:15 [Verbose] Rest: POST channels/744480279275634748/messages: 3469,13 ms
+19.08.2020 16:24:15 [Verbose] Rest: POST channels/744480279275634748/messages: 6960,38 ms
+19.08.2020 16:24:15 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:16 [Verbose] Rest: POST channels/744480279275634748/messages: 6697 ms
+19.08.2020 16:24:16 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:16 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:19 [Verbose] Rest: POST channels/744480279275634748/messages: 310,21 ms
+19.08.2020 16:24:19 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:20 [Verbose] Rest: POST channels/744480279275634748/messages: 239,07 ms
+19.08.2020 16:24:20 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:22 [Verbose] Rest: POST channels/744480279275634748/messages: 242,78 ms
+19.08.2020 16:24:22 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:23 [Verbose] Rest: POST channels/744480279275634748/messages: 233,95 ms
+19.08.2020 16:24:23 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:24 [Verbose] Rest: POST channels/744480279275634748/messages: 271,03 ms
+19.08.2020 16:24:24 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:26 [Verbose] Rest: POST channels/744480279275634748/messages: 435,85 ms
+19.08.2020 16:24:26 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:27 [Verbose] Rest: POST channels/744480279275634748/messages: 253,57 ms
+19.08.2020 16:24:27 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:29 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:34 [Verbose] Rest: POST channels/744480279275634748/messages: 4970,1 ms
+19.08.2020 16:24:34 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:35 [Verbose] Rest: POST channels/744480279275634748/messages: 259,77 ms
+19.08.2020 16:24:35 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:37 [Verbose] Rest: POST channels/744480279275634748/messages: 286,52 ms
+19.08.2020 16:24:37 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:38 [Verbose] Rest: POST channels/744480279275634748/messages: 318,97 ms
+19.08.2020 16:24:38 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:39 [Verbose] Rest: POST channels/744480279275634748/messages: 245,93 ms
+19.08.2020 16:24:39 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:40 [Verbose] Rest: POST channels/744480279275634748/messages: 264,15 ms
+19.08.2020 16:24:40 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:42 [Verbose] Rest: POST channels/744480279275634748/messages: 277 ms
+19.08.2020 16:24:42 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:43 [Verbose] Rest: POST channels/744480279275634748/messages: 277,75 ms
+19.08.2020 16:24:43 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:44 [Verbose] Rest: POST channels/744480279275634748/messages: 288,64 ms
+19.08.2020 16:24:44 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:45 [Verbose] Rest: POST channels/744480279275634748/messages: 339,94 ms
+19.08.2020 16:24:45 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:48 [Verbose] Rest: POST channels/744480279275634748/messages: 267,05 ms
+19.08.2020 16:24:48 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:49 [Verbose] Rest: POST channels/744480279275634748/messages: 354,63 ms
+19.08.2020 16:24:49 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:50 [Verbose] Rest: POST channels/744480279275634748/messages: 416,08 ms
+19.08.2020 16:24:50 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:51 [Verbose] Rest: POST channels/744480279275634748/messages: 246,58 ms
+19.08.2020 16:24:51 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:52 [Verbose] Rest: POST channels/744480279275634748/messages: 275,97 ms
+19.08.2020 16:24:52 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:52 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:24:56 [Verbose] Rest: POST channels/744480279275634748/messages: 3546,29 ms
+19.08.2020 16:24:56 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:57 [Verbose] Rest: POST channels/744480279275634748/messages: 234,57 ms
+19.08.2020 16:24:57 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:58 [Verbose] Rest: POST channels/744480279275634748/messages: 296,62 ms
+19.08.2020 16:24:58 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:24:59 [Verbose] Rest: POST channels/744480279275634748/messages: 277,48 ms
+19.08.2020 16:24:59 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:25:00 [Verbose] Rest: POST channels/744480279275634748/messages: 341,65 ms
+19.08.2020 16:25:00 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:25:02 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:25:02 [Verbose] Rest: POST channels/744480279275634748/messages: 394,32 ms
+19.08.2020 16:25:02 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:25:07 [Verbose] Rest: POST channels/744480279275634748/messages: 5131,9 ms
+19.08.2020 16:25:07 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:25:14 [Verbose] Rest: POST channels/744480279275634748/messages: 278,9 ms
+19.08.2020 16:25:14 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:25:16 [Verbose] Rest: POST channels/744480279275634748/messages: 357,3 ms
+19.08.2020 16:25:16 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:25:17 [Verbose] Rest: POST channels/744480279275634748/messages: 265,84 ms
+19.08.2020 16:25:18 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:25:21 [Verbose] Rest: POST channels/744480279275634748/messages: 294,58 ms
+19.08.2020 16:25:21 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:25:22 [Verbose] Rest: POST channels/744480279275634748/messages: 253,81 ms
+19.08.2020 16:25:22 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:25:23 [Verbose] Rest: POST channels/744480279275634748/messages: 248,45 ms
+19.08.2020 16:25:23 [Verbose] Rest: POST channels/744480279275634748/messages: 250,05 ms
+19.08.2020 16:25:23 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:25:25 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:25:25 [Verbose] Rest: POST channels/744480279275634748/messages: 276,37 ms
+19.08.2020 16:25:27 [Verbose] Rest: POST channels/744480279275634748/messages: 1538,72 ms
+19.08.2020 16:25:27 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 16:26:12 [Verbose] Rest: GET voice/regions: 614,88 ms
+19.08.2020 16:26:12 [Verbose] Rest: GET users/@me: 275,4 ms
+19.08.2020 16:26:12 [Info] Gateway: Connecting
+19.08.2020 16:26:12 [Verbose] Rest: GET gateway: 79,52 ms
+19.08.2020 16:26:13 [Info] Gateway: Connected
+19.08.2020 16:26:13 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 16:26:14 [Info] Gateway: Ready
+19.08.2020 16:26:18 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:26:19 [Verbose] Rest: POST channels/744480279275634748/messages: 352,56 ms
+19.08.2020 16:26:19 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:19 [Verbose] Rest: POST channels/744480279275634748/messages: 762,34 ms
+19.08.2020 16:26:20 [Verbose] Rest: POST channels/744480279275634748/messages: 235,05 ms
+19.08.2020 16:26:20 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:24 [Verbose] Rest: POST channels/744480279275634748/messages: 303,82 ms
+19.08.2020 16:26:24 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:25 [Verbose] Rest: POST channels/744480279275634748/messages: 260,97 ms
+19.08.2020 16:26:25 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:27 [Verbose] Rest: POST channels/744480279275634748/messages: 236,28 ms
+19.08.2020 16:26:27 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:31 [Verbose] Rest: POST channels/744480279275634748/messages: 268,06 ms
+19.08.2020 16:26:31 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:32 [Verbose] Rest: POST channels/744480279275634748/messages: 255,83 ms
+19.08.2020 16:26:32 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:33 [Verbose] Rest: POST channels/744480279275634748/messages: 284,27 ms
+19.08.2020 16:26:33 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:34 [Verbose] Rest: POST channels/744480279275634748/messages: 266,67 ms
+19.08.2020 16:26:34 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:35 [Verbose] Rest: POST channels/744480279275634748/messages: 298,66 ms
+19.08.2020 16:26:35 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:37 [Verbose] Rest: POST channels/744480279275634748/messages: 376,79 ms
+19.08.2020 16:26:37 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:38 [Verbose] Rest: POST channels/744480279275634748/messages: 307,47 ms
+19.08.2020 16:26:38 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:39 [Verbose] Rest: POST channels/744480279275634748/messages: 232,97 ms
+19.08.2020 16:26:39 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:40 [Verbose] Rest: POST channels/744480279275634748/messages: 262,48 ms
+19.08.2020 16:26:40 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:41 [Verbose] Rest: POST channels/744480279275634748/messages: 229,6 ms
+19.08.2020 16:26:41 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:42 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:26:42 [Verbose] Rest: POST channels/744480279275634748/messages: 340,74 ms
+19.08.2020 16:26:42 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:44 [Verbose] Rest: POST channels/744480279275634748/messages: 273,05 ms
+19.08.2020 16:26:44 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:45 [Verbose] Rest: POST channels/744480279275634748/messages: 245,49 ms
+19.08.2020 16:26:45 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:46 [Verbose] Rest: POST channels/744480279275634748/messages: 238,33 ms
+19.08.2020 16:26:46 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:47 [Verbose] Rest: POST channels/744480279275634748/messages: 324,92 ms
+19.08.2020 16:26:47 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:48 [Verbose] Rest: POST channels/744480279275634748/messages: 241,08 ms
+19.08.2020 16:26:48 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:49 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:26:54 [Verbose] Rest: POST channels/744480279275634748/messages: 5196,11 ms
+19.08.2020 16:26:54 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:26:57 [Verbose] Rest: POST channels/744480279275634748/messages: 249,24 ms
+19.08.2020 16:26:57 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:35:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 16:35:31 [Verbose] Rest: GET voice/regions: 642,34 ms
+19.08.2020 16:35:32 [Verbose] Rest: GET users/@me: 220,72 ms
+19.08.2020 16:35:32 [Info] Gateway: Connecting
+19.08.2020 16:35:32 [Verbose] Rest: GET gateway: 76,86 ms
+19.08.2020 16:35:33 [Info] Gateway: Connected
+19.08.2020 16:35:33 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 16:35:34 [Info] Gateway: Ready
+19.08.2020 16:35:36 [Verbose] Rest: POST channels/744480279275634748/messages: 328,41 ms
+19.08.2020 16:35:36 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:35:38 [Verbose] Rest: POST channels/744480279275634748/messages: 262,36 ms
+19.08.2020 16:35:38 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:35:39 [Verbose] Rest: POST channels/744480279275634748/messages: 292,53 ms
+19.08.2020 16:35:39 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:35:40 [Verbose] Rest: POST channels/744480279275634748/messages: 312,7 ms
+19.08.2020 16:35:40 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:35:41 [Verbose] Rest: POST channels/744480279275634748/messages: 289,75 ms
+19.08.2020 16:35:41 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:35:42 [Verbose] Rest: POST channels/744480279275634748/messages: 282,35 ms
+19.08.2020 16:35:42 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:35:43 [Verbose] Rest: POST channels/744480279275634748/messages: 233,3 ms
+19.08.2020 16:35:43 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:35:44 [Verbose] Rest: POST channels/744480279275634748/messages: 264,69 ms
+19.08.2020 16:35:44 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:35:44 [Verbose] Rest: POST channels/744480279275634748/messages: 283,64 ms
+19.08.2020 16:35:44 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:35:45 [Verbose] Rest: POST channels/744480279275634748/messages: 302,39 ms
+19.08.2020 16:35:45 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:35:46 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:35:47 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 16:35:48 [Verbose] Rest: POST channels/744480279275634748/messages: 1248,41 ms
+19.08.2020 16:35:48 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 16:35:48 [Verbose] Rest: POST channels/744480279275634748/messages: 2543,77 ms
+19.08.2020 16:35:48 [Verbose] Command: Executed "addc" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+19.08.2020 17:38:48 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+19.08.2020 17:38:49 [Verbose] Rest: GET voice/regions: 887,99 ms
+19.08.2020 17:38:49 [Verbose] Rest: GET users/@me: 279,16 ms
+19.08.2020 17:38:49 [Info] Gateway: Connecting
+19.08.2020 17:38:49 [Verbose] Rest: GET gateway: 74,64 ms
+19.08.2020 17:38:51 [Info] Gateway: Connected
+19.08.2020 17:38:51 [Verbose] Gateway: Connected to DarlingBotInfo
+19.08.2020 17:38:52 [Info] Gateway: Ready
+19.08.2020 17:39:00 [Verbose] Rest: POST channels/744480279275634748/messages: 241,66 ms
+19.08.2020 17:39:00 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:01 [Verbose] Rest: POST channels/744480279275634748/messages: 227,7 ms
+19.08.2020 17:39:01 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:02 [Verbose] Rest: POST channels/744480279275634748/messages: 388,61 ms
+19.08.2020 17:39:02 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:02 [Verbose] Rest: POST channels/744480279275634748/messages: 364,89 ms
+19.08.2020 17:39:02 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:03 [Verbose] Rest: POST channels/744480279275634748/messages: 236,63 ms
+19.08.2020 17:39:03 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:03 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 17:39:04 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 17:39:05 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 17:39:06 [Verbose] Rest: POST channels/744480279275634748/messages: 2610,36 ms
+19.08.2020 17:39:06 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:06 [Verbose] Rest: POST channels/744480279275634748/messages: 1226,37 ms
+19.08.2020 17:39:06 [Verbose] Rest: POST channels/744480279275634748/messages: 2139,88 ms
+19.08.2020 17:39:06 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:06 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:08 [Verbose] Rest: POST channels/744480279275634748/messages: 323,08 ms
+19.08.2020 17:39:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:08 [Verbose] Rest: POST channels/744480279275634748/messages: 340,61 ms
+19.08.2020 17:39:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:09 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 17:39:10 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 17:39:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 17:39:10 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 17:39:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 17:39:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 17:39:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 17:39:11 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+19.08.2020 17:39:12 [Verbose] Rest: POST channels/744480279275634748/messages: 1662,81 ms
+19.08.2020 17:39:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:12 [Verbose] Rest: POST channels/744480279275634748/messages: 2216,9 ms
+19.08.2020 17:39:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:12 [Verbose] Rest: POST channels/744480279275634748/messages: 1961,82 ms
+19.08.2020 17:39:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:12 [Verbose] Rest: POST channels/744480279275634748/messages: 1111,56 ms
+19.08.2020 17:39:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+19.08.2020 17:39:12 [Verbose] Rest: POST channels/744480279275634748/messages: 2669,3 ms
+19.08.2020 17:39:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ

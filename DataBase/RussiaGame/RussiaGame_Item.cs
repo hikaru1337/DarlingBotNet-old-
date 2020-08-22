@@ -14,13 +14,14 @@ namespace DarlingBotNet.DataBase.RussiaGame
         public ulong startprestije { get; set; }
         public ulong countTrade { get; set; }
         public ulong userid { get; set; }
+        public ulong guildid { get; set; }
         public bool traded { get; set; }
         public ulong NowPrice
         {
             get
             {
                 if (countTrade != 0) return startprice / countTrade;
-                else return startprice;
+                return startprice;
             }
         }
         public ulong NowPrestije
@@ -28,8 +29,27 @@ namespace DarlingBotNet.DataBase.RussiaGame
             get
             {
                 if (countTrade != 0) return startprestije / countTrade;
-                else return startprestije;
+                return startprestije;
             }
+        }
+        public ItemType ItemTypes { get; set; }
+        //public DateTime DateCreate { get; set; }
+
+        public enum ItemType
+        {
+            none,
+            blackshop,
+            food,
+            technology,
+            domian
+        }
+
+        public enum ItemProperties
+        {
+            none,
+            hacking,
+            antihacking,
+            Drugs,
         }
     }
 }

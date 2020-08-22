@@ -12,5 +12,6 @@ namespace DarlingBotNet.DataBase.RussiaGame
         public string workName { get; set; }
         public ulong studyid { get; set; }
         public ulong money { get; set; }
+        public bool Invise { get; set; }
     }
 }

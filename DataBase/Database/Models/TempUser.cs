@@ -5,10 +5,10 @@ using System.Text;
 
 namespace DarlingBotNet.DataBase
 {
-    public class TempUser : DbEntity
+    public class TempUser
     {
-        
-        public ulong guildId { get; set; }
+        public ulong Id { get; set; }
+        public ulong guildid { get; set; }
         public ulong userId { get; set; }
         public DateTime ToTime { get; set; }
         public string Reason { get; set; }

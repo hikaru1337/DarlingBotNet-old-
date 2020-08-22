@@ -21,7 +21,7 @@ namespace DarlingBotNet.DataBase
         public Users GetOrCreate(ulong userId, ulong guildId)
         {
             //EnsureCreated(userId, guildId);
-            var gg = _set.FirstOrDefault(u => u.userid == userId && u.guildId == guildId);
+            var gg = _set.AsNoTracking().FirstOrDefault(u => u.userid == userId && u.guildId == guildId);
             if (gg == null)
             {
                 gg = new Users() { userid = userId, guildId = guildId, ZeroCoin = 1000 };
@@ -32,8 +32,7 @@ namespace DarlingBotNet.DataBase
 
         public Users GetOrCreate(SocketGuildUser user)
         {
-            //EnsureCreated(userId, guildId);
-            var usr = _set.AsNoTracking().FirstOrDefault(u => u.userid == user.Id && u.guildId == user.Guild.Id);
+            var usr = _set.AsNoTracking().Where(u => u.userid == user.Id && u.guildId == user.Guild.Id).First();
             if (usr == null)
             {
                 usr = _set.Add(new Users() { userid = user.Id, ZeroCoin = 1000, guildId = user.Guild.Id }).Entity;

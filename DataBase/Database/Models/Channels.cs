@@ -5,8 +5,10 @@ using System.Linq;
 
 namespace DarlingBotNet.DataBase
 {
-    public class Channels: DbEntity
+    public class Channels
     {
+        [Key]
+        public ulong Id { get; set; }
         public ulong channelid { get; set; }
         public ulong guildid { get; set; }
         public bool UseCommand { get; set; }
@@ -57,7 +59,6 @@ namespace DarlingBotNet.DataBase
             }
         }
         public string csUrlWhiteListString { get; set; }
-        public bool antiMat { get; set; }
         public bool InviteMessage { get; set; }
     }
 }

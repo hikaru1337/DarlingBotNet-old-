@@ -1,5 +1,5 @@
 ﻿using DarlingBotNet.DataBase;
-using DarlingBotNet.DataBase.Database;
+
 using DarlingBotNet.Services;
 using DarlingBotNet.Services.Sys;
 using Discord;
@@ -20,23 +20,23 @@ namespace DarlingBotNet.Modules
         private readonly DiscordSocketClient _discord;
         private readonly CommandService _commands;
         private readonly IServiceProvider _provider;
-        private readonly DbService _db;
+        
 
-        public Settings(DiscordSocketClient discord, CommandService commands, DbService db, IServiceProvider provider)
+        public Settings(DiscordSocketClient discord, CommandService commands,  IServiceProvider provider)
         {
             _discord = discord;
             _commands = commands;
             _provider = provider;
-            _db = db;
+            
         } // Подключение компонентов
 
         [Aliases, Commands, Usage, Descriptions]
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task violationsystem()
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.Get(Context.Guild);
+                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var embed = new EmbedBuilder().WithColor(255, 0, 94)
                                               .WithFooter($"Выбор системы - **{Guild.Prefix}ViolationSystemSet [WarnSystem/OFF]**\n" +
                                                           $"💤**OFF** - отключить систему");
@@ -81,9 +81,9 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task violationsystemset(string System = "off")
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var glds = DBcontext.Guilds.Get(Context.Guild);
+                var glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var embed = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨ReportSystemSet").WithFooter($"Для настройки напишите {glds.Prefix}violationsystem"); ;
                 if (System.ToLower() == "off")
                 {
@@ -114,10 +114,10 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner, PermissionViolation]
         public async Task addwarn(ulong CountWarn, string report)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.Get(Context.Guild);
-                var warn = DBcontext.Warns.Get(Context.Guild.Id, CountWarn);
+                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var warn = DBcontext.Warns.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id && x.CountWarn == CountWarn);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("AddWarn");
 
                 if (CountWarn <= 15)
@@ -134,7 +134,7 @@ namespace DarlingBotNet.Modules
                         else
                         {
                             emb.WithDescription($"Варн {CountWarn} был успешно добавлен.");
-                            var newwarn = new Warns() { guildId = Context.Guild.Id, CountWarn = CountWarn, ReportWarn = report };
+                            var newwarn = new Warns() { guildid = Context.Guild.Id, CountWarn = CountWarn, ReportWarn = report };
                             DBcontext.Warns.Add(newwarn);
 
                         }
@@ -158,10 +158,10 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner, PermissionViolation]
         public async Task delwarn(ulong CountWarn)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.Get(Context.Guild);
-                var warn = DBcontext.Warns.Get(Context.Guild.Id, CountWarn);
+                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var warn = DBcontext.Warns.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id && x.CountWarn == CountWarn);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("AddWarn");
                 if (warn != null)
                 {
@@ -180,9 +180,9 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task prefix(string prefix = null)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.Get(Context.Guild);
+                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Prefix");
                 if (prefix == null) emb.WithDescription($"Префикс сервера - {Guild.Prefix}");
                 else
@@ -205,9 +205,9 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task commandinvise(string commandname = null)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.Get(Context.Guild);
+                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("CommandInvise - Отключенные команды");
 
                 if (commandname == null)
@@ -266,12 +266,12 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task levelroleadd(SocketRole role, uint level)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
 
-                var glds = DBcontext.Guilds.Get(Context.Guild);
+                var glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨lr.Add");
-                var lvlrole = DBcontext.LVLROLES.GetId(role.Id, Context.Guild.Id);
+                var lvlrole = DBcontext.LVLROLES.AsNoTracking().FirstOrDefault(x=>x.roleid == role.Id && x.guildid == Context.Guild.Id);
                 if (lvlrole == null)
                 {
                     var rolepos = Context.Guild.GetUser(Context.Client.CurrentUser.Id).Roles.FirstOrDefault(x => x.Position > role.Position);
@@ -280,7 +280,7 @@ namespace DarlingBotNet.Modules
                         if (!role.IsManaged)
                         {
                             emb.WithDescription($"Роль {role.Mention} выставлена за {level} уровень").WithFooter($"Посмотреть ваши уровневые роли {glds.Prefix}lr");
-                            DBcontext.LVLROLES.GetOrCreate(role, level);
+                            DBcontext.LVLROLES.Add(new LVLROLES() { roleid = role.Id,guildid = role.Guild.Id,countlvl = level });
                             await DBcontext.SaveChangesAsync();
                         }
                         else emb.WithDescription("Роль бота или Boost, нельзя сделать уровневыми!");
@@ -299,10 +299,10 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task levelroledel(SocketRole role)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨lr.Del");
-                var lvlrole = DBcontext.LVLROLES.Get(role);
+                var lvlrole = DBcontext.LVLROLES.AsNoTracking().FirstOrDefault(x=>x.roleid == role.Id && x.guildid == role.Guild.Id);
                 emb.WithDescription($"Уровневая роль {role.Mention} {(lvlrole != null ? "удалена" : "не является уровневой")}.");
                 if (lvlrole != null)
                 {
@@ -318,10 +318,10 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task channelsettings(SocketTextChannel channel = null, float number = 0)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
                 var emb = new EmbedBuilder().WithColor(255, 0, 94);
-                var prefix = DBcontext.Guilds.Get(Context.Guild).Prefix;
+                var prefix = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
                 var chnl = new Channels();
                 //if (channelz as SocketTextChannel == null)
                 //{
@@ -353,7 +353,7 @@ namespace DarlingBotNet.Modules
                 //{
                 //var channel = channelz as SocketTextChannel;
                 emb.WithAuthor($"🔨ChannelSettings {(channel == null ? " " : $"- {channel.Name}")}");
-                if (channel != null) chnl = DBcontext.Channels.Get(channel);
+                if (channel != null) chnl = DBcontext.Channels.AsNoTracking().FirstOrDefault(x => x.channelid == channel.Id && x.guildid == channel.Guild.Id);
                 if (channel != null && number == 0)
                 {
                     if (chnl != null)
@@ -450,12 +450,12 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task channelsettingsbadword(SocketTextChannel channel, string word)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                Guilds glds = DBcontext.Guilds.Get(Context.Guild);
+                Guilds glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨cs.badword")
                                             .WithFooter($"Добавить/Удалить - {glds.Prefix}cs.bw {channel.Name} [слово]");
-                Channels chnl = DBcontext.Channels.Get(channel);
+                Channels chnl = DBcontext.Channels.AsNoTracking().FirstOrDefault(x => x.channelid == channel.Id && x.guildid == channel.Guild.Id);
 
                 if (chnl.SendBadWord)
                 {
@@ -484,9 +484,9 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task channelsettingsgivexp()
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                Guilds glds = DBcontext.Guilds.Get(Context.Guild);
+                Guilds glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨cs.givexp");
                 glds.GiveXPnextChannel = !glds.GiveXPnextChannel;
                 DBcontext.Guilds.Update(glds);
@@ -500,12 +500,12 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task channelsettingsurlwhitelist(SocketTextChannel channel, string url)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var prefix = DBcontext.Guilds.Get(Context.Guild).Prefix;
+                var prefix = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨cs.UrlWhiteList")
                                             .WithFooter($"Добавить/Удалить - {prefix}cs.uwl #{channel.Name} [url]");
-                Channels chnl = DBcontext.Channels.Get(channel);
+                Channels chnl = DBcontext.Channels.AsNoTracking().FirstOrDefault(x=>x.channelid == channel.Id && x.guildid == channel.Guild.Id);
 
                 if (chnl.SendUrl)
                 {
@@ -534,9 +534,9 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task logsettings(uint selection = 0, SocketTextChannel channel = null)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                Guilds Guild = DBcontext.Guilds.Get(Context.Guild);
+                Guilds Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(" - LogsServer", Context.Guild.IconUrl);
                 if (selection == 0 && channel == null)
                 {
@@ -630,9 +630,9 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task messagesettings(uint selection = 0, [Remainder] string text = null)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                Guilds Guild = DBcontext.Guilds.Get(Context.Guild);
+                Guilds Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(" - MessageSettings", Context.Guild.IconUrl);
                 ulong point = 1;
                 if (selection == 0 && text == null)
@@ -869,9 +869,9 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task privatechannelcreate()
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                Guilds Guild = DBcontext.Guilds.Get(Context.Guild);
+                Guilds Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var embed = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨PrivateCreate");
 
                 if (Context.Guild.GetVoiceChannel(Guild.PrivateChannelID) == null)
@@ -893,9 +893,9 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task setmuterole()
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                Guilds glds = DBcontext.Guilds.Get(Context.Guild);
+                Guilds glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithAuthor("🔨MuteRole").WithColor(255, 0, 94).WithDescription("Роли для нарушений уже созданы!");
                 var chatrole = Context.Guild.GetRole(glds.chatmuterole);
                 var voicerole = Context.Guild.GetRole(glds.voicemuterole);
@@ -905,7 +905,7 @@ namespace DarlingBotNet.Modules
                 var mes = await Context.Channel.SendMessageAsync("", false, emb.Build());
                 if (chatrole == null || voicerole == null)
                 {
-                    glds = await new SystemLoading(_discord, _db).CreateMuteRole(Context.Guild);
+                    glds = await new SystemLoading(_discord).CreateMuteRole(Context.Guild);
                     chatrole = Context.Guild.GetRole(glds.chatmuterole);
                     voicerole = Context.Guild.GetRole(glds.voicemuterole);
                     await mes.ModifyAsync(x => x.Embed = emb.WithDescription($"Созданы роли {chatrole.Mention},{voicerole.Mention} и уже привязаны к каналам!").Build());
@@ -918,9 +918,9 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task raidsettings(uint select = 0, uint point = 0)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                Guilds glds = DBcontext.Guilds.Get(Context.Guild);
+                Guilds glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithAuthor("🔨RaidSettings").WithColor(255, 0, 94);
                 string raidus = "Для подробной настройки Anti-Raid системы используйте -> [инструкцию](https://docs.darlingbot.ru/commands/settings-server/anti-raid-sistema)";
                 if (select == 0 && point == 0)
@@ -983,12 +983,12 @@ namespace DarlingBotNet.Modules
         [PermissionBlockCommand, PermissionServerOwner]
         public async Task getroletoemote(ulong messageid = 0, string emote = null, SocketRole role = null, bool GetOrRemove = false)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
                 var emb = new EmbedBuilder().WithAuthor("🔨GetRoleToEmote").WithColor(255, 0, 94);
                 if (messageid == 0 && emote == null && role == null && GetOrRemove == false)
                 {
-                    Guilds glds = DBcontext.Guilds.Get(Context.Guild);
+                    Guilds glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                     emb.WithDescription("Команда способствует выдачи/удалению роли участника по нажатию на эмодзи в сообщении!\n\n" +
                     "**messageid** - ваше сообщение в котором будут отслеживаться эмодзи\n" +
                     "**emote** - id эмодзи по нажатию на которое будет выдаваться/удаляться роль[использовать только серверные эмодзи]\n" +
@@ -1007,7 +1007,7 @@ namespace DarlingBotNet.Modules
                         {
                             if (Context.Guild.Emotes.Where(x => x.Name == emote) != null)
                             {
-                                DBcontext.EmoteClick.GetOrCreate(Context.Guild.Id, mes.Id, emote, GetOrRemove, role.Id, messageid);
+                                DBcontext.EmoteClick.Add(new EmoteClick() { guildid = Context.Guild.Id, messageid = messageid, emote = emote, get = GetOrRemove, roleid = role.Id, channelid = mes.Id });
                                 await DBcontext.SaveChangesAsync();
                                 emb.WithDescription($"Вы успешно создали {(GetOrRemove == false ? "выдачу" : "удаление")} {role.Mention} за нажатие {Emote.Parse(emote)}");
                                 await mes.GetMessageAsync(messageid).Result.AddReactionAsync(Emote.Parse(emote));

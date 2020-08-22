@@ -1,5 +1,5 @@
 ﻿using DarlingBotNet.DataBase;
-using DarlingBotNet.DataBase.Database;
+
 using DarlingBotNet.Services;
 using Discord;
 using Discord.Commands;
@@ -16,21 +16,21 @@ namespace DarlingBotNet.Modules
     {
         private readonly CommandService _service;
         private readonly IServiceProvider _provider;
-        private readonly DbService _db;
+        
 
-        public Help(CommandService service, IServiceProvider provider, DbService db)
+        public Help(CommandService service, IServiceProvider provider)
         {
             _service = service;
             _provider = provider;
-            _db = db;
+            
         }
 
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task modules()
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                string prefix = DBcontext.Guilds.Get(Context.Guild).Prefix;
+                string prefix = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("📚Все Модули")
                                             .WithFooter($"Выбрать модуль - {prefix}c [Имя модуля]");
                 string description = null;
@@ -53,9 +53,9 @@ namespace DarlingBotNet.Modules
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task commands(string modules)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.Get(Context.Guild);
+                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"📜{modules} - Команды");
                 string description = "";
 
@@ -98,9 +98,9 @@ namespace DarlingBotNet.Modules
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task info(string command)
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.Get(Context.Guild);
+                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var Command = _service.Commands.Where(x => x.Aliases.ElementAt(0).ToLower() == command.ToLower() || (x.Aliases.Count > 1 ? x.Aliases.ElementAt(1) : x.Aliases.ElementAt(0)).ToLower() == command.ToLower()).FirstOrDefault();
                 var emb = new EmbedBuilder().WithAuthor($"📋Информация о {command}");
 
@@ -126,9 +126,9 @@ namespace DarlingBotNet.Modules
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task use()
         {
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                string prefix = DBcontext.Guilds.Get(Context.Guild).Prefix;
+                string prefix = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
                 await Context.Channel.SendMessageAsync("", false, new EmbedBuilder().WithColor(255, 0, 94)
                                                                                     .WithAuthor($"Информация о боте {Context.Client.CurrentUser.Username}🌏", Context.Client.CurrentUser.GetAvatarUrl())
                                                                                     .WithDescription(string.Format(SystemLoading.WelcomeText, prefix))

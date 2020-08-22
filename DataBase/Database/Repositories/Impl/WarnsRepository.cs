@@ -18,27 +18,27 @@ namespace DarlingBotNet.DataBase
 
         public Warns GetOrCreate(ulong CountWarn, ulong guildId,string report)
         {
-            var warn = _set.FirstOrDefault(u => u.guildId == guildId && u.CountWarn == CountWarn && u.ReportWarn == report);
+            var warn = _set.FirstOrDefault(u => u.guildid == guildId && u.CountWarn == CountWarn && u.ReportWarn == report);
             if (warn == null)
             {
-                warn = new Warns() { guildId = guildId, CountWarn = CountWarn, ReportWarn = report };
+                warn = new Warns() { guildid = guildId, CountWarn = CountWarn, ReportWarn = report };
                 _set.Add(warn);
             }
             return warn;
         }
         public IEnumerable<Warns> Get(ulong guildId)
         {
-            return _set.AsNoTracking().Where(u => u.guildId == guildId);
+            return _set.AsNoTracking().Where(u => u.guildid == guildId);
         }
 
         public Warns Get(ulong guildId, ulong CountWarn)
         {
-            return _set.FirstOrDefault(u => u.guildId == guildId && u.CountWarn == CountWarn);
+            return _set.FirstOrDefault(u => u.guildid == guildId && u.CountWarn == CountWarn);
         }
 
         public void RemoveRange(ulong GuildId)
         {
-            var lists = _set.AsNoTracking().Where(x => x.guildId == GuildId);
+            var lists = _set.AsNoTracking().Where(x => x.guildid == GuildId);
             _set.RemoveRange(lists);
         }
     }

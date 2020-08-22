@@ -6,10 +6,11 @@ using System.Linq;
 
 namespace DarlingBotNet.DataBase
 {
-    public class Guilds : DbEntity
+    public class Guilds
     {
-        
-        public ulong guildId { get; set; }
+        public ulong Id { get; set; }
+
+        public ulong guildid { get; set; }
         public bool Leaved { get; set; }
         public string Prefix { get; set; }
         public ulong chatmuterole { get; set; }

@@ -1,0 +1,1237 @@
+18.08.2020 8:56:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 8:56:11 [Verbose] Rest: GET voice/regions: 779,76 ms
+18.08.2020 8:56:12 [Verbose] Rest: GET users/@me: 221,64 ms
+18.08.2020 8:56:12 [Info] Gateway: Connecting
+18.08.2020 8:56:12 [Verbose] Rest: GET gateway: 117,16 ms
+18.08.2020 8:56:13 [Info] Gateway: Connected
+18.08.2020 8:56:13 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 8:56:14 [Info] Gateway: Ready
+18.08.2020 8:56:18 [Verbose] Rest: POST channels/744480279275634748/messages: 232,98 ms
+18.08.2020 8:56:18 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 8:56:19 [Verbose] Rest: POST channels/744480279275634748/messages: 271,53 ms
+18.08.2020 8:56:19 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 8:56:20 [Verbose] Rest: POST channels/744480279275634748/messages: 238,38 ms
+18.08.2020 8:56:20 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 8:56:21 [Verbose] Rest: POST channels/744480279275634748/messages: 332,78 ms
+18.08.2020 8:56:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 8:56:23 [Verbose] Rest: POST channels/744480279275634748/messages: 230,91 ms
+18.08.2020 8:56:23 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 8:56:24 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 8:56:29 [Verbose] Rest: POST channels/744480279275634748/messages: 4655,16 ms
+18.08.2020 8:56:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 9:04:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 9:04:13 [Verbose] Rest: GET voice/regions: 878,79 ms
+18.08.2020 9:04:13 [Verbose] Rest: GET users/@me: 222,81 ms
+18.08.2020 9:04:13 [Info] Gateway: Connecting
+18.08.2020 9:04:13 [Verbose] Rest: GET gateway: 78,97 ms
+18.08.2020 9:04:15 [Info] Gateway: Connected
+18.08.2020 9:04:15 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 9:04:16 [Info] Gateway: Ready
+18.08.2020 9:04:18 [Verbose] Rest: POST channels/744480279275634748/messages: 289,7 ms
+18.08.2020 9:04:18 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 9:04:19 [Verbose] Rest: POST channels/744480279275634748/messages: 272,94 ms
+18.08.2020 9:04:19 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 9:04:20 [Verbose] Rest: POST channels/744480279275634748/messages: 273,28 ms
+18.08.2020 9:04:20 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 9:04:21 [Verbose] Rest: POST channels/744480279275634748/messages: 261,52 ms
+18.08.2020 9:04:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 9:04:22 [Verbose] Rest: POST channels/744480279275634748/messages: 256,07 ms
+18.08.2020 9:04:22 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 9:04:23 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 9:04:24 [Verbose] Rest: POST channels/744480279275634748/messages: 935,36 ms
+18.08.2020 9:04:24 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 9:04:25 [Verbose] Rest: POST channels/744480279275634748/messages: 330,73 ms
+18.08.2020 9:04:25 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 9:04:27 [Verbose] Rest: POST channels/744480279275634748/messages: 244,56 ms
+18.08.2020 9:04:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 9:04:29 [Verbose] Rest: POST channels/744480279275634748/messages: 275,2 ms
+18.08.2020 9:04:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 9:04:30 [Verbose] Rest: POST channels/744480279275634748/messages: 251,9 ms
+18.08.2020 9:04:30 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 9:04:32 [Verbose] Rest: POST channels/744480279275634748/messages: 237,55 ms
+18.08.2020 9:04:32 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:38:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 14:38:39 [Verbose] Rest: GET voice/regions: 785,19 ms
+18.08.2020 14:38:39 [Verbose] Rest: GET users/@me: 232,74 ms
+18.08.2020 14:38:39 [Info] Gateway: Connecting
+18.08.2020 14:38:39 [Verbose] Rest: GET gateway: 81,38 ms
+18.08.2020 14:38:40 [Info] Gateway: Connected
+18.08.2020 14:38:41 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 14:38:41 [Info] Gateway: Ready
+18.08.2020 14:38:43 [Verbose] Rest: POST channels/744480279275634748/messages: 755,58 ms
+18.08.2020 14:38:43 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:38:44 [Verbose] Rest: POST channels/744480279275634748/messages: 256,96 ms
+18.08.2020 14:38:44 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:38:46 [Verbose] Rest: POST channels/744480279275634748/messages: 295,13 ms
+18.08.2020 14:38:46 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:38:46 [Verbose] Rest: POST channels/744480279275634748/messages: 266,73 ms
+18.08.2020 14:38:46 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:38:48 [Verbose] Rest: POST channels/744480279275634748/messages: 278,03 ms
+18.08.2020 14:38:48 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:38:49 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 14:38:54 [Verbose] Rest: POST channels/744480279275634748/messages: 4748,46 ms
+18.08.2020 14:38:54 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:38:55 [Verbose] Rest: POST channels/744480279275634748/messages: 258,99 ms
+18.08.2020 14:38:55 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:20 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 14:41:21 [Verbose] Rest: GET voice/regions: 715,4 ms
+18.08.2020 14:41:22 [Verbose] Rest: GET users/@me: 321,83 ms
+18.08.2020 14:41:22 [Info] Gateway: Connecting
+18.08.2020 14:41:22 [Verbose] Rest: GET gateway: 82,53 ms
+18.08.2020 14:41:23 [Info] Gateway: Connected
+18.08.2020 14:41:23 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 14:41:24 [Info] Gateway: Ready
+18.08.2020 14:41:26 [Verbose] Rest: POST channels/744480279275634748/messages: 279,16 ms
+18.08.2020 14:41:26 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:28 [Verbose] Rest: POST channels/744480279275634748/messages: 272,12 ms
+18.08.2020 14:41:28 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:29 [Verbose] Rest: POST channels/744480279275634748/messages: 288,64 ms
+18.08.2020 14:41:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:31 [Verbose] Rest: POST channels/744480279275634748/messages: 280,55 ms
+18.08.2020 14:41:31 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:35 [Verbose] Rest: POST channels/744480279275634748/messages: 275,33 ms
+18.08.2020 14:41:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:36 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 14:41:37 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 14:41:38 [Verbose] Rest: POST channels/744480279275634748/messages: 1072,54 ms
+18.08.2020 14:41:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:38 [Verbose] Rest: POST channels/744480279275634748/messages: 627,24 ms
+18.08.2020 14:41:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:38 [Verbose] Rest: POST channels/744480279275634748/messages: 410,05 ms
+18.08.2020 14:41:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:38 [Verbose] Rest: POST channels/744480279275634748/messages: 304,87 ms
+18.08.2020 14:41:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:38 [Verbose] Rest: POST channels/744480279275634748/messages: 331,05 ms
+18.08.2020 14:41:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:38 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 14:41:38 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 14:41:43 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 14:41:44 [Verbose] Rest: POST channels/744480279275634748/messages: 5333,92 ms
+18.08.2020 14:41:44 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:44 [Verbose] Rest: POST channels/744480279275634748/messages: 830,71 ms
+18.08.2020 14:41:44 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:47 [Verbose] Rest: POST channels/744480279275634748/messages: 279,82 ms
+18.08.2020 14:41:47 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:49 [Verbose] Rest: POST channels/744480279275634748/messages: 354,42 ms
+18.08.2020 14:41:49 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:50 [Verbose] Rest: POST channels/744480279275634748/messages: 261,5 ms
+18.08.2020 14:41:50 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:41:52 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 14:41:55 [Verbose] Rest: POST channels/744480279275634748/messages: 2589,46 ms
+18.08.2020 14:41:55 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:42:08 [Verbose] Rest: POST channels/744480279275634748/messages: 268,26 ms
+18.08.2020 14:42:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:42:09 [Verbose] Rest: POST channels/744480279275634748/messages: 280,08 ms
+18.08.2020 14:42:09 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:42:11 [Verbose] Rest: POST channels/744480279275634748/messages: 291,07 ms
+18.08.2020 14:42:11 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:42:13 [Verbose] Rest: POST channels/744480279275634748/messages: 299,98 ms
+18.08.2020 14:42:13 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:42:15 [Verbose] Rest: POST channels/744480279275634748/messages: 286,04 ms
+18.08.2020 14:42:15 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:42:18 [Verbose] Rest: POST channels/744480279275634748/messages: 269,09 ms
+18.08.2020 14:42:18 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:42:20 [Verbose] Rest: POST channels/744480279275634748/messages: 261,77 ms
+18.08.2020 14:42:20 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:44:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 14:44:06 [Verbose] Rest: GET voice/regions: 636,24 ms
+18.08.2020 14:44:06 [Verbose] Rest: GET users/@me: 257,95 ms
+18.08.2020 14:44:06 [Info] Gateway: Connecting
+18.08.2020 14:44:07 [Verbose] Rest: GET gateway: 81,59 ms
+18.08.2020 14:44:08 [Info] Gateway: Connected
+18.08.2020 14:44:08 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 14:44:08 [Info] Gateway: Ready
+18.08.2020 14:44:12 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 14:44:12 [Verbose] Rest: POST channels/744480279275634748/messages: 355,01 ms
+18.08.2020 14:44:13 [Verbose] Rest: POST channels/744480279275634748/messages: 740,16 ms
+18.08.2020 14:44:13 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:44:14 [Verbose] Rest: POST channels/744480279275634748/messages: 244,86 ms
+18.08.2020 14:44:14 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:44:16 [Verbose] Rest: POST channels/744480279275634748/messages: 245,15 ms
+18.08.2020 14:44:16 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:44:17 [Verbose] Rest: POST channels/744480279275634748/messages: 241,55 ms
+18.08.2020 14:44:17 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:44:18 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 14:44:21 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 14:44:23 [Verbose] Rest: POST channels/744480279275634748/messages: 4828,45 ms
+18.08.2020 14:44:23 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:44:23 [Verbose] Rest: POST channels/744480279275634748/messages: 2427,03 ms
+18.08.2020 14:44:23 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:44:27 [Verbose] Rest: POST channels/744480279275634748/messages: 357,88 ms
+18.08.2020 14:44:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:44:27 [Verbose] Rest: POST channels/744480279275634748/messages: 333,14 ms
+18.08.2020 14:44:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:44:28 [Verbose] Rest: POST channels/744480279275634748/messages: 269,4 ms
+18.08.2020 14:44:28 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:44:28 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 14:44:28 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 14:44:28 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 14:44:29 [Verbose] Rest: POST channels/744480279275634748/messages: 1331,6 ms
+18.08.2020 14:44:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 14:44:29 [Verbose] Rest: POST channels/744480279275634748/messages: 1143,31 ms
+18.08.2020 14:44:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:20:33 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:20:34 [Verbose] Rest: GET voice/regions: 681,49 ms
+18.08.2020 21:20:35 [Verbose] Rest: GET users/@me: 231,33 ms
+18.08.2020 21:20:35 [Info] Gateway: Connecting
+18.08.2020 21:20:35 [Verbose] Rest: GET gateway: 85,38 ms
+18.08.2020 21:20:36 [Info] Gateway: Connected
+18.08.2020 21:20:36 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:20:37 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<Guilds>
+    .Where(g => ___discord_0.GetGuild(g.guildId) == null)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at DarlingBotNet.Services.SystemLoading.GuildCheck() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 142
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 414
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:20:37 [Info] Gateway: Ready
+18.08.2020 21:25:01 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:25:02 [Verbose] Rest: GET voice/regions: 663,02 ms
+18.08.2020 21:25:03 [Verbose] Rest: GET users/@me: 273,66 ms
+18.08.2020 21:25:03 [Info] Gateway: Connecting
+18.08.2020 21:25:03 [Verbose] Rest: GET gateway: 78,55 ms
+18.08.2020 21:25:04 [Info] Gateway: Connected
+18.08.2020 21:25:04 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:25:05 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<Channels>
+    .Where(c => c.guildid == __8__locals1_Guild_guildId_0 && __glds_1.GetChannel(c.channelid) == null)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.DbContext.RemoveRange(IEnumerable`1 entities)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 196
+   at DarlingBotNet.Services.SystemLoading.GuildCheck() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 148
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 414
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:25:05 [Info] Gateway: Ready
+18.08.2020 21:26:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:26:22 [Verbose] Rest: GET voice/regions: 622,93 ms
+18.08.2020 21:26:22 [Verbose] Rest: GET users/@me: 249,29 ms
+18.08.2020 21:26:22 [Info] Gateway: Connecting
+18.08.2020 21:26:22 [Verbose] Rest: GET gateway: 85,61 ms
+18.08.2020 21:26:23 [Info] Gateway: Connected
+18.08.2020 21:26:23 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:26:24 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<Channels>
+    .Where(c => c.guildid == __8__locals1_Guild_guildId_0)
+    .Where(c => __glds_1.GetChannel(c.channelid) == null)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.DbContext.RemoveRange(IEnumerable`1 entities)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 196
+   at DarlingBotNet.Services.SystemLoading.GuildCheck() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 148
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 414
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:26:24 [Info] Gateway: Ready
+18.08.2020 21:27:00 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:27:01 [Verbose] Rest: GET voice/regions: 747,34 ms
+18.08.2020 21:27:01 [Verbose] Rest: GET users/@me: 240,35 ms
+18.08.2020 21:27:01 [Info] Gateway: Connecting
+18.08.2020 21:27:02 [Verbose] Rest: GET gateway: 82,87 ms
+18.08.2020 21:27:03 [Info] Gateway: Connected
+18.08.2020 21:27:03 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:27:03 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<Channels>
+    .Where(c => c.guildid == __8__locals1_Guild_guildId_0)
+    .Where(c => __glds_1.GetChannel(c.channelid) == null)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.DbContext.RemoveRange(IEnumerable`1 entities)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 196
+   at DarlingBotNet.Services.SystemLoading.GuildCheck() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 148
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 414
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:27:04 [Info] Gateway: Ready
+18.08.2020 21:29:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:29:21 [Verbose] Rest: GET voice/regions: 604,21 ms
+18.08.2020 21:29:22 [Verbose] Rest: GET users/@me: 240,35 ms
+18.08.2020 21:29:22 [Info] Gateway: Connecting
+18.08.2020 21:29:22 [Verbose] Rest: GET gateway: 73,21 ms
+18.08.2020 21:29:23 [Info] Gateway: Connected
+18.08.2020 21:29:23 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:29:24 [Info] Gateway: Ready
+18.08.2020 21:29:30 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:30 [Verbose] Rest: POST channels/744480279275634748/messages: 263,2 ms
+18.08.2020 21:29:30 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:31 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:31 [Verbose] Rest: POST channels/744480279275634748/messages: 247,99 ms
+18.08.2020 21:29:31 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:32 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:32 [Verbose] Rest: POST channels/744480279275634748/messages: 231,1 ms
+18.08.2020 21:29:32 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:33 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:33 [Verbose] Rest: POST channels/744480279275634748/messages: 336,01 ms
+18.08.2020 21:29:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:34 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:34 [Verbose] Rest: POST channels/744480279275634748/messages: 259,22 ms
+18.08.2020 21:29:34 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:35 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:35 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 21:29:36 [Verbose] Rest: POST channels/744480279275634748/messages: 1015,99 ms
+18.08.2020 21:29:36 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:37 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:37 [Verbose] Rest: POST channels/744480279275634748/messages: 231,48 ms
+18.08.2020 21:29:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:37 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:38 [Verbose] Rest: POST channels/744480279275634748/messages: 267,53 ms
+18.08.2020 21:29:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:38 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:38 [Verbose] Rest: POST channels/744480279275634748/messages: 237,49 ms
+18.08.2020 21:29:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:38 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:39 [Verbose] Rest: POST channels/744480279275634748/messages: 231,86 ms
+18.08.2020 21:29:39 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:39 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:40 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 21:29:40 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 21:29:40 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:40 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 21:29:40 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:40 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 21:29:40 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:40 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 21:29:40 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:40 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 21:29:42 [Verbose] Rest: POST channels/744480279275634748/messages: 2170,1 ms
+18.08.2020 21:29:42 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:42 [Verbose] Rest: POST channels/744480279275634748/messages: 2478,84 ms
+18.08.2020 21:29:42 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:42 [Verbose] Rest: POST channels/744480279275634748/messages: 2868,3 ms
+18.08.2020 21:29:42 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:42 [Verbose] Rest: POST channels/744480279275634748/messages: 1800,66 ms
+18.08.2020 21:29:42 [Verbose] Rest: POST channels/744480279275634748/messages: 2076,8 ms
+18.08.2020 21:29:42 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:42 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:29:45 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:29:46 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 21:29:46 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 21:29:48 [Verbose] Rest: POST channels/744480279275634748/messages: 2359,74 ms
+18.08.2020 21:29:48 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:31:02 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:31:03 [Verbose] Rest: GET voice/regions: 635,27 ms
+18.08.2020 21:31:04 [Verbose] Rest: GET users/@me: 237,34 ms
+18.08.2020 21:31:04 [Info] Gateway: Connecting
+18.08.2020 21:31:04 [Verbose] Rest: GET gateway: 76 ms
+18.08.2020 21:31:05 [Info] Gateway: Connected
+18.08.2020 21:31:05 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:31:06 [Info] Gateway: Ready
+18.08.2020 21:31:08 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 332
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:31:08 [Verbose] Rest: POST channels/744480279275634748/messages: 237,08 ms
+18.08.2020 21:31:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:32:03 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:32:03 [Verbose] Rest: GET voice/regions: 619,86 ms
+18.08.2020 21:32:04 [Verbose] Rest: GET users/@me: 226,94 ms
+18.08.2020 21:32:04 [Info] Gateway: Connecting
+18.08.2020 21:32:04 [Verbose] Rest: GET gateway: 78,35 ms
+18.08.2020 21:32:05 [Info] Gateway: Connected
+18.08.2020 21:32:05 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:32:06 [Info] Gateway: Ready
+18.08.2020 21:32:07 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 333
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 438
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:32:07 [Verbose] Rest: POST channels/744480279275634748/messages: 243,12 ms
+18.08.2020 21:32:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:32:25 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:32:25 [Verbose] Rest: GET voice/regions: 634,71 ms
+18.08.2020 21:32:26 [Verbose] Rest: GET users/@me: 228,1 ms
+18.08.2020 21:32:26 [Info] Gateway: Connecting
+18.08.2020 21:32:26 [Verbose] Rest: GET gateway: 78,74 ms
+18.08.2020 21:32:27 [Info] Gateway: Connected
+18.08.2020 21:32:27 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:32:28 [Info] Gateway: Ready
+18.08.2020 21:32:29 [Verbose] Rest: POST channels/744480279275634748/messages: 244,14 ms
+18.08.2020 21:32:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:33:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:33:39 [Verbose] Rest: GET voice/regions: 599,34 ms
+18.08.2020 21:33:40 [Verbose] Rest: GET users/@me: 235,54 ms
+18.08.2020 21:33:40 [Info] Gateway: Connecting
+18.08.2020 21:33:40 [Verbose] Rest: GET gateway: 75,58 ms
+18.08.2020 21:33:41 [Info] Gateway: Connected
+18.08.2020 21:33:41 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:33:42 [Info] Gateway: Ready
+18.08.2020 21:33:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:33:57 [Verbose] Rest: GET voice/regions: 615,73 ms
+18.08.2020 21:33:57 [Verbose] Rest: GET users/@me: 280,36 ms
+18.08.2020 21:33:57 [Info] Gateway: Connecting
+18.08.2020 21:33:57 [Verbose] Rest: GET gateway: 80,9 ms
+18.08.2020 21:33:58 [Info] Gateway: Connected
+18.08.2020 21:33:58 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:33:59 [Info] Gateway: Ready
+18.08.2020 21:34:00 [Verbose] Rest: POST guilds/663380088188043274/channels: 252,97 ms
+18.08.2020 21:34:01 [Verbose] Rest: POST guilds/663380088188043274/channels: 240,34 ms
+18.08.2020 21:34:01 [Verbose] Rest: POST channels/744480279275634748/messages: 231,09 ms
+18.08.2020 21:34:01 [Verbose] Command: Executed "privatechannelcreate" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 21:34:04 [Verbose] Rest: PUT channels/745395100095479983/permissions/551373471536513024: 267,12 ms
+18.08.2020 21:34:04 [Verbose] Rest: POST guilds/663380088188043274/channels: 263,72 ms
+18.08.2020 21:34:04 [Verbose] Rest: PUT channels/745395113840214156/permissions/663380088188043274: 258,93 ms
+18.08.2020 21:34:04 [Verbose] Rest: PUT channels/745395113840214156/permissions/551373471536513024: 227,55 ms
+18.08.2020 21:34:05 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 235,99 ms
+18.08.2020 21:34:06 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 21:34:07 [Verbose] Rest: DELETE channels/745395100095479983/permissions/551373471536513024: 249,18 ms
+18.08.2020 21:34:09 [Verbose] Rest: DELETE channels/745395113840214156: 231,98 ms
+18.08.2020 21:34:09 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 10003: Unknown Channel
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync[TResponse](String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.DeleteChannelAsync(UInt64 channelId, RequestOptions options)
+   at Discord.Rest.ChannelHelper.DeleteAsync(IChannel channel, BaseDiscordClient client, RequestOptions options)
+   at DarlingBotNet.Services.Sys.Privates.Privatemethod(SocketVoiceChannel chnl, PrivateChannels PC) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 75
+   at DarlingBotNet.Services.Sys.Privates.CheckPrivate(UInt64 glds, SocketGuild _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 28
+   at DarlingBotNet.Services.CommandHandler.UserVoiceUpdate(SocketUser user, SocketVoiceState ot, SocketVoiceState to) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 371
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:35:41 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:35:41 [Verbose] Rest: GET voice/regions: 637,69 ms
+18.08.2020 21:35:42 [Verbose] Rest: GET users/@me: 250,31 ms
+18.08.2020 21:35:42 [Info] Gateway: Connecting
+18.08.2020 21:35:42 [Verbose] Rest: GET gateway: 81 ms
+18.08.2020 21:35:43 [Info] Gateway: Connected
+18.08.2020 21:35:43 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:35:44 [Info] Gateway: Ready
+18.08.2020 21:35:51 [Verbose] Rest: PUT channels/745395100095479983/permissions/551373471536513024: 228,06 ms
+18.08.2020 21:35:51 [Verbose] Rest: POST guilds/663380088188043274/channels: 243,26 ms
+18.08.2020 21:35:51 [Verbose] Rest: PUT channels/745395563360419900/permissions/663380088188043274: 215,46 ms
+18.08.2020 21:35:51 [Verbose] Rest: PUT channels/745395563360419900/permissions/551373471536513024: 235,48 ms
+18.08.2020 21:35:52 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 267,29 ms
+18.08.2020 21:35:53 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 21:35:54 [Verbose] Rest: DELETE channels/745395100095479983/permissions/551373471536513024: 382,18 ms
+18.08.2020 21:36:08 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 21:36:08 [Verbose] Rest: DELETE channels/745395563360419900: 239,47 ms
+18.08.2020 21:36:11 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 10003: Unknown Channel
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync[TResponse](String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.DeleteChannelAsync(UInt64 channelId, RequestOptions options)
+   at Discord.Rest.ChannelHelper.DeleteAsync(IChannel channel, BaseDiscordClient client, RequestOptions options)
+   at DarlingBotNet.Services.Sys.Privates.Privatemethod(SocketVoiceChannel chnl, PrivateChannels PC) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 75
+   at DarlingBotNet.Services.Sys.Privates.CheckPrivate(UInt64 glds, SocketGuild _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 28
+   at DarlingBotNet.Services.CommandHandler.UserVoiceUpdate(SocketUser user, SocketVoiceState ot, SocketVoiceState to) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 371
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:39:52 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:39:53 [Verbose] Rest: GET voice/regions: 659,91 ms
+18.08.2020 21:39:53 [Verbose] Rest: GET users/@me: 236,78 ms
+18.08.2020 21:39:53 [Info] Gateway: Connecting
+18.08.2020 21:39:54 [Verbose] Rest: GET gateway: 80,02 ms
+18.08.2020 21:39:55 [Info] Gateway: Connected
+18.08.2020 21:39:55 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:39:56 [Info] Gateway: Ready
+18.08.2020 21:39:59 [Verbose] Rest: PUT channels/745395100095479983/permissions/551373471536513024: 264,23 ms
+18.08.2020 21:39:59 [Verbose] Rest: POST guilds/663380088188043274/channels: 260,42 ms
+18.08.2020 21:39:59 [Verbose] Rest: PUT channels/745396604055453736/permissions/663380088188043274: 232,1 ms
+18.08.2020 21:40:00 [Verbose] Rest: PUT channels/745396604055453736/permissions/551373471536513024: 237,02 ms
+18.08.2020 21:40:00 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 297,43 ms
+18.08.2020 21:40:02 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 21:40:02 [Verbose] Rest: DELETE channels/745395100095479983/permissions/551373471536513024: 231,58 ms
+18.08.2020 21:40:05 [Verbose] Rest: PUT channels/745395100095479983/permissions/551373471536513024: 239,45 ms
+18.08.2020 21:40:05 [Verbose] Rest: POST guilds/663380088188043274/channels: 260,37 ms
+18.08.2020 21:40:05 [Verbose] Rest: PUT channels/745396628520697918/permissions/663380088188043274: 231,56 ms
+18.08.2020 21:40:05 [Verbose] Rest: PUT channels/745396628520697918/permissions/551373471536513024: 221,28 ms
+18.08.2020 21:40:06 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 234,89 ms
+18.08.2020 21:40:07 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 21:40:08 [Verbose] Rest: DELETE channels/745395100095479983/permissions/551373471536513024: 223,98 ms
+18.08.2020 21:40:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:40:35 [Verbose] Rest: GET voice/regions: 627,12 ms
+18.08.2020 21:40:35 [Verbose] Rest: GET users/@me: 223,13 ms
+18.08.2020 21:40:35 [Info] Gateway: Connecting
+18.08.2020 21:40:36 [Verbose] Rest: GET gateway: 77,25 ms
+18.08.2020 21:40:37 [Info] Gateway: Connected
+18.08.2020 21:40:37 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:40:38 [Info] Gateway: Ready
+18.08.2020 21:40:45 [Verbose] Rest: PUT channels/745395100095479983/permissions/551373471536513024: 236,18 ms
+18.08.2020 21:40:46 [Verbose] Rest: POST guilds/663380088188043274/channels: 221,6 ms
+18.08.2020 21:40:46 [Verbose] Rest: PUT channels/745396799186927656/permissions/663380088188043274: 236,66 ms
+18.08.2020 21:40:46 [Verbose] Rest: PUT channels/745396799186927656/permissions/551373471536513024: 208,69 ms
+18.08.2020 21:40:46 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 291,86 ms
+18.08.2020 21:40:48 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 21:40:49 [Verbose] Rest: DELETE channels/745395100095479983/permissions/551373471536513024: 221,38 ms
+18.08.2020 21:40:51 [Verbose] Rest: DELETE channels/745396799186927656: 223,1 ms
+18.08.2020 21:40:52 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 10003: Unknown Channel
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync[TResponse](String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.DeleteChannelAsync(UInt64 channelId, RequestOptions options)
+   at Discord.Rest.ChannelHelper.DeleteAsync(IChannel channel, BaseDiscordClient client, RequestOptions options)
+   at DarlingBotNet.Services.Sys.Privates.Privatemethod(SocketVoiceChannel chnl, PrivateChannels PC) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 75
+   at DarlingBotNet.Services.Sys.Privates.CheckPrivate(UInt64 glds, SocketGuild _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 28
+   at DarlingBotNet.Services.CommandHandler.UserVoiceUpdate(SocketUser user, SocketVoiceState ot, SocketVoiceState to) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 375
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 21:47:00 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 21:47:00 [Verbose] Rest: GET voice/regions: 604,41 ms
+18.08.2020 21:47:01 [Verbose] Rest: GET users/@me: 229,65 ms
+18.08.2020 21:47:01 [Info] Gateway: Connecting
+18.08.2020 21:47:01 [Verbose] Rest: GET gateway: 80,65 ms
+18.08.2020 21:47:02 [Info] Gateway: Connected
+18.08.2020 21:47:02 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 21:47:03 [Info] Gateway: Ready
+18.08.2020 21:47:05 [Verbose] Rest: PUT channels/745395100095479983/permissions/551373471536513024: 226,55 ms
+18.08.2020 21:47:05 [Verbose] Rest: POST guilds/663380088188043274/channels: 333,21 ms
+18.08.2020 21:47:06 [Verbose] Rest: PUT channels/745398391189798965/permissions/663380088188043274: 249,63 ms
+18.08.2020 21:47:06 [Verbose] Rest: PUT channels/745398391189798965/permissions/551373471536513024: 209,44 ms
+18.08.2020 21:47:06 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 263,55 ms
+18.08.2020 21:47:08 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 21:47:08 [Verbose] Rest: DELETE channels/745395100095479983/permissions/551373471536513024: 254,58 ms
+18.08.2020 21:47:11 [Verbose] Rest: DELETE channels/745398391189798965: 229,61 ms
+18.08.2020 21:47:12 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 10003: Unknown Channel
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync[TResponse](String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.DeleteChannelAsync(UInt64 channelId, RequestOptions options)
+   at Discord.Rest.ChannelHelper.DeleteAsync(IChannel channel, BaseDiscordClient client, RequestOptions options)
+   at DarlingBotNet.Services.Sys.Privates.Privatemethod(SocketVoiceChannel chnl, PrivateChannels PC) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 75
+   at DarlingBotNet.Services.Sys.Privates.CheckPrivate(UInt64 glds, SocketGuild _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 28
+   at DarlingBotNet.Services.CommandHandler.UserVoiceUpdate(SocketUser user, SocketVoiceState ot, SocketVoiceState to) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 375
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 22:04:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:04:57 [Verbose] Rest: GET voice/regions: 651,75 ms
+18.08.2020 22:04:57 [Verbose] Rest: GET users/@me: 205,64 ms
+18.08.2020 22:04:57 [Info] Gateway: Connecting
+18.08.2020 22:04:57 [Verbose] Rest: GET gateway: 75,21 ms
+18.08.2020 22:04:59 [Info] Gateway: Connected
+18.08.2020 22:04:59 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:05:00 [Info] Gateway: Ready
+18.08.2020 22:05:02 [Verbose] Rest: PUT channels/745395100095479983/permissions/551373471536513024: 341,54 ms
+18.08.2020 22:05:03 [Verbose] Rest: PUT channels/745395099361607820/permissions/663380088188043274: 238,44 ms
+18.08.2020 22:05:03 [Verbose] Rest: POST guilds/663380088188043274/channels: 266,4 ms
+18.08.2020 22:05:03 [Verbose] Rest: PUT channels/745402911558860901/permissions/551373471536513024: 293,85 ms
+18.08.2020 22:05:05 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 22:05:05 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 273,8 ms
+18.08.2020 22:05:05 [Verbose] Rest: DELETE channels/745395100095479983/permissions/551373471536513024: 207,64 ms
+18.08.2020 22:05:25 [Verbose] Rest: DELETE channels/745402911558860901: 318,64 ms
+18.08.2020 22:05:30 [Verbose] Rest: PUT channels/745395100095479983/permissions/551373471536513024: 261,88 ms
+18.08.2020 22:05:31 [Verbose] Rest: POST guilds/663380088188043274/channels: 224,9 ms
+18.08.2020 22:05:31 [Verbose] Rest: PUT channels/745403027397279815/permissions/551373471536513024: 219,99 ms
+18.08.2020 22:05:33 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 331,96 ms
+18.08.2020 22:05:33 [Verbose] Rest: DELETE channels/745395100095479983/permissions/551373471536513024: 216,49 ms
+18.08.2020 22:05:36 [Verbose] Rest: DELETE channels/745403027397279815: 219,9 ms
+18.08.2020 22:05:36 [Warning] Gateway: Discord.Net.HttpException: The server responded with error 10003: Unknown Channel
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync[TResponse](String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.DeleteChannelAsync(UInt64 channelId, RequestOptions options)
+   at Discord.Rest.ChannelHelper.DeleteAsync(IChannel channel, BaseDiscordClient client, RequestOptions options)
+   at DarlingBotNet.Services.Sys.Privates.Privatemethod(SocketVoiceChannel chnl, PrivateChannels PC) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 79
+   at DarlingBotNet.Services.Sys.Privates.CheckPrivate(UInt64 glds, SocketGuild _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 28
+   at DarlingBotNet.Services.CommandHandler.UserVoiceUpdate(SocketUser user, SocketVoiceState ot, SocketVoiceState to) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 375
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 22:06:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:06:59 [Verbose] Rest: GET voice/regions: 603,58 ms
+18.08.2020 22:07:00 [Verbose] Rest: GET users/@me: 226,4 ms
+18.08.2020 22:07:00 [Info] Gateway: Connecting
+18.08.2020 22:07:00 [Verbose] Rest: GET gateway: 77,8 ms
+18.08.2020 22:07:01 [Info] Gateway: Connected
+18.08.2020 22:07:01 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:07:02 [Info] Gateway: Ready
+18.08.2020 22:07:06 [Verbose] Rest: PUT channels/745395100095479983/permissions/551373471536513024: 229,79 ms
+18.08.2020 22:07:06 [Verbose] Rest: POST guilds/663380088188043274/channels: 302,47 ms
+18.08.2020 22:07:07 [Verbose] Rest: PUT channels/745403429106614333/permissions/551373471536513024: 221,98 ms
+18.08.2020 22:07:09 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 448,87 ms
+18.08.2020 22:07:09 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 22:07:09 [Verbose] Rest: DELETE channels/745395100095479983/permissions/551373471536513024: 272,23 ms
+18.08.2020 22:07:33 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 22:07:33 [Verbose] Rest: DELETE channels/745403429106614333: 236,27 ms
+18.08.2020 22:07:56 [Verbose] Rest: POST channels/744480279275634748/messages: 403,07 ms
+18.08.2020 22:07:56 [Verbose] Command: Executed "privatechannelcreate" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:08:08 [Verbose] Rest: POST guilds/663380088188043274/channels: 231,15 ms
+18.08.2020 22:08:09 [Verbose] Rest: POST guilds/663380088188043274/channels: 282,33 ms
+18.08.2020 22:08:09 [Verbose] Rest: POST channels/744480279275634748/messages: 284,37 ms
+18.08.2020 22:08:09 [Verbose] Command: Executed "privatechannelcreate" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:08:25 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:08:26 [Verbose] Rest: GET voice/regions: 715,97 ms
+18.08.2020 22:08:26 [Verbose] Rest: GET users/@me: 240,13 ms
+18.08.2020 22:08:26 [Info] Gateway: Connecting
+18.08.2020 22:08:26 [Verbose] Rest: GET gateway: 82,29 ms
+18.08.2020 22:08:28 [Info] Gateway: Connected
+18.08.2020 22:08:28 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:08:29 [Info] Gateway: Ready
+18.08.2020 22:11:53 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:11:54 [Verbose] Rest: GET voice/regions: 634,57 ms
+18.08.2020 22:11:54 [Verbose] Rest: GET users/@me: 232,07 ms
+18.08.2020 22:11:54 [Info] Gateway: Connecting
+18.08.2020 22:11:54 [Verbose] Rest: GET gateway: 76,64 ms
+18.08.2020 22:11:55 [Info] Gateway: Connected
+18.08.2020 22:11:55 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:11:56 [Info] Gateway: Ready
+18.08.2020 22:12:22 [Verbose] Rest: POST guilds/663380088188043274/channels: 256,23 ms
+18.08.2020 22:12:23 [Verbose] Rest: POST guilds/663380088188043274/channels: 288,25 ms
+18.08.2020 22:12:23 [Verbose] Rest: POST channels/744480279275634748/messages: 272,06 ms
+18.08.2020 22:12:23 [Verbose] Command: Executed "privatechannelcreate" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:13:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:13:11 [Verbose] Rest: GET voice/regions: 601,26 ms
+18.08.2020 22:13:12 [Verbose] Rest: GET users/@me: 221,53 ms
+18.08.2020 22:13:12 [Info] Gateway: Connecting
+18.08.2020 22:13:12 [Verbose] Rest: GET gateway: 86,58 ms
+18.08.2020 22:13:13 [Info] Gateway: Connected
+18.08.2020 22:13:13 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:13:14 [Info] Gateway: Ready
+18.08.2020 22:13:44 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 22:14:16 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 22:16:33 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:16:34 [Verbose] Rest: GET voice/regions: 616,46 ms
+18.08.2020 22:16:34 [Verbose] Rest: GET users/@me: 235,61 ms
+18.08.2020 22:16:34 [Info] Gateway: Connecting
+18.08.2020 22:16:34 [Verbose] Rest: GET gateway: 71,82 ms
+18.08.2020 22:16:35 [Info] Gateway: Connected
+18.08.2020 22:16:35 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:16:36 [Info] Gateway: Ready
+18.08.2020 22:16:58 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:16:59 [Verbose] Rest: GET voice/regions: 628,05 ms
+18.08.2020 22:16:59 [Verbose] Rest: GET users/@me: 207,45 ms
+18.08.2020 22:16:59 [Info] Gateway: Connecting
+18.08.2020 22:16:59 [Verbose] Rest: GET gateway: 70,88 ms
+18.08.2020 22:17:00 [Info] Gateway: Connected
+18.08.2020 22:17:00 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:17:25 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:17:26 [Verbose] Rest: GET voice/regions: 640,71 ms
+18.08.2020 22:17:26 [Verbose] Rest: GET users/@me: 235,58 ms
+18.08.2020 22:17:26 [Info] Gateway: Connecting
+18.08.2020 22:17:26 [Verbose] Rest: GET gateway: 69,26 ms
+18.08.2020 22:17:27 [Info] Gateway: Connected
+18.08.2020 22:17:27 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:18:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:18:39 [Verbose] Rest: GET voice/regions: 755,42 ms
+18.08.2020 22:18:39 [Verbose] Rest: GET users/@me: 240,39 ms
+18.08.2020 22:18:39 [Info] Gateway: Connecting
+18.08.2020 22:18:39 [Verbose] Rest: GET gateway: 77,05 ms
+18.08.2020 22:18:40 [Info] Gateway: Connected
+18.08.2020 22:18:41 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:19:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:19:11 [Verbose] Rest: GET voice/regions: 593,16 ms
+18.08.2020 22:19:11 [Verbose] Rest: GET users/@me: 230,89 ms
+18.08.2020 22:19:11 [Info] Gateway: Connecting
+18.08.2020 22:19:11 [Verbose] Rest: GET gateway: 75,05 ms
+18.08.2020 22:19:12 [Info] Gateway: Connected
+18.08.2020 22:19:12 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:19:13 [Info] Gateway: Ready
+18.08.2020 22:19:16 [Verbose] Rest: PUT channels/745404755316310186/permissions/551373471536513024: 224,69 ms
+18.08.2020 22:19:16 [Verbose] Rest: PUT channels/745404753751572572/permissions/663380088188043274: 253,94 ms
+18.08.2020 22:19:16 [Verbose] Rest: POST guilds/663380088188043274/channels: 255,54 ms
+18.08.2020 22:19:17 [Verbose] Rest: PUT channels/745406490743144538/permissions/551373471536513024: 269,04 ms
+18.08.2020 22:19:18 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 22:19:19 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 747,44 ms
+18.08.2020 22:19:19 [Verbose] Rest: DELETE channels/745404755316310186/permissions/551373471536513024: 211,68 ms
+18.08.2020 22:19:29 [Verbose] Rest: DELETE channels/745406490743144538: 241,27 ms
+18.08.2020 22:19:39 [Verbose] Rest: PUT channels/745404755316310186/permissions/551373471536513024: 307,8 ms
+18.08.2020 22:19:40 [Verbose] Rest: POST guilds/663380088188043274/channels: 279,97 ms
+18.08.2020 22:19:40 [Verbose] Rest: PUT channels/745406587841151087/permissions/551373471536513024: 331,1 ms
+18.08.2020 22:19:42 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 292,97 ms
+18.08.2020 22:19:42 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 22:19:42 [Verbose] Rest: DELETE channels/745404755316310186/permissions/551373471536513024: 347,35 ms
+18.08.2020 22:19:44 [Verbose] Rest: DELETE channels/745406587841151087: 216,64 ms
+18.08.2020 22:19:45 [Verbose] Rest: PUT channels/745404755316310186/permissions/551373471536513024: 285,81 ms
+18.08.2020 22:19:45 [Verbose] Rest: POST guilds/663380088188043274/channels: 287,22 ms
+18.08.2020 22:19:45 [Verbose] Rest: PUT channels/745406611069075538/permissions/551373471536513024: 256,63 ms
+18.08.2020 22:19:47 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 358,15 ms
+18.08.2020 22:19:47 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 22:19:48 [Verbose] Rest: DELETE channels/745404755316310186/permissions/551373471536513024: 328,64 ms
+18.08.2020 22:19:51 [Verbose] Rest: DELETE channels/745406611069075538: 241,2 ms
+18.08.2020 22:19:52 [Verbose] Rest: PUT channels/745404755316310186/permissions/551373471536513024: 246,49 ms
+18.08.2020 22:19:52 [Verbose] Rest: POST guilds/663380088188043274/channels: 337,34 ms
+18.08.2020 22:19:52 [Verbose] Rest: PUT channels/745406640148316190/permissions/551373471536513024: 308,37 ms
+18.08.2020 22:19:54 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 22:19:55 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 761,99 ms
+18.08.2020 22:19:55 [Verbose] Rest: DELETE channels/745404755316310186/permissions/551373471536513024: 283,84 ms
+18.08.2020 22:19:57 [Verbose] Rest: DELETE channels/745406640148316190: 423,97 ms
+18.08.2020 22:20:01 [Verbose] Rest: PUT channels/745404755316310186/permissions/617261910139600896: 255,01 ms
+18.08.2020 22:20:01 [Verbose] Rest: POST guilds/663380088188043274/channels: 431,97 ms
+18.08.2020 22:20:02 [Verbose] Rest: PUT channels/745406678333259795/permissions/617261910139600896: 381,58 ms
+18.08.2020 22:20:03 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 22:20:04 [Verbose] Rest: PATCH guilds/663380088188043274/members/617261910139600896: 560,36 ms
+18.08.2020 22:20:04 [Verbose] Rest: DELETE channels/745404755316310186/permissions/617261910139600896: 303,38 ms
+18.08.2020 22:21:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:21:24 [Verbose] Rest: GET voice/regions: 697,15 ms
+18.08.2020 22:21:25 [Verbose] Rest: GET users/@me: 406,24 ms
+18.08.2020 22:21:25 [Info] Gateway: Connecting
+18.08.2020 22:21:25 [Verbose] Rest: GET gateway: 77,49 ms
+18.08.2020 22:21:27 [Info] Gateway: Connected
+18.08.2020 22:21:27 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:21:28 [Info] Gateway: Ready
+18.08.2020 22:21:29 [Verbose] Rest: DELETE channels/745406678333259795: 278,4 ms
+18.08.2020 22:21:33 [Verbose] Rest: PUT channels/745404755316310186/permissions/617261910139600896: 293,11 ms
+18.08.2020 22:21:33 [Verbose] Rest: POST guilds/663380088188043274/channels: 246,54 ms
+18.08.2020 22:21:34 [Verbose] Rest: PUT channels/745407065077579828/permissions/617261910139600896: 383,97 ms
+18.08.2020 22:21:34 [Verbose] Rest: PATCH guilds/663380088188043274/members/617261910139600896: 391,32 ms
+18.08.2020 22:21:36 [Verbose] Rest: DELETE channels/745404755316310186/permissions/617261910139600896: 391,87 ms
+18.08.2020 22:21:39 [Verbose] Rest: DELETE channels/745407065077579828: 684,24 ms
+18.08.2020 22:21:40 [Verbose] Rest: PUT channels/745404755316310186/permissions/617261910139600896: 1043,92 ms
+18.08.2020 22:21:40 [Verbose] Rest: POST guilds/663380088188043274/channels: 509,47 ms
+18.08.2020 22:21:41 [Verbose] Rest: PUT channels/745407093556641813/permissions/617261910139600896: 424,97 ms
+18.08.2020 22:21:41 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 22:21:45 [Verbose] Rest: PATCH guilds/663380088188043274/members/617261910139600896: 4529,34 ms
+18.08.2020 22:21:46 [Verbose] Rest: DELETE channels/745404755316310186/permissions/617261910139600896: 354,96 ms
+18.08.2020 22:21:51 [Verbose] Rest: DELETE channels/745407093556641813: 669,75 ms
+18.08.2020 22:21:52 [Verbose] Rest: PUT channels/745404755316310186/permissions/617261910139600896: 483,93 ms
+18.08.2020 22:21:52 [Verbose] Rest: POST guilds/663380088188043274/channels: 574,75 ms
+18.08.2020 22:21:53 [Verbose] Rest: PUT channels/745407143708065794/permissions/617261910139600896: 617,81 ms
+18.08.2020 22:21:53 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+18.08.2020 22:21:55 [Verbose] Rest: PATCH guilds/663380088188043274/members/617261910139600896: 2621,54 ms
+18.08.2020 22:21:57 [Verbose] Rest: DELETE channels/745404755316310186/permissions/617261910139600896: 763,35 ms
+18.08.2020 22:21:57 [Verbose] Rest: DELETE channels/745407143708065794: 244,84 ms
+18.08.2020 22:26:54 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:26:54 [Verbose] Rest: GET voice/regions: 625,98 ms
+18.08.2020 22:26:55 [Verbose] Rest: GET users/@me: 223,06 ms
+18.08.2020 22:26:55 [Info] Gateway: Connecting
+18.08.2020 22:26:55 [Verbose] Rest: GET gateway: 79,02 ms
+18.08.2020 22:26:56 [Info] Gateway: Connected
+18.08.2020 22:26:56 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:26:57 [Info] Gateway: Ready
+18.08.2020 22:26:58 [Verbose] Rest: POST channels/744480279275634748/messages: 234,24 ms
+18.08.2020 22:26:58 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:27:00 [Verbose] Rest: POST channels/744480279275634748/messages: 310,24 ms
+18.08.2020 22:27:00 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:27:01 [Verbose] Rest: POST channels/744480279275634748/messages: 240,06 ms
+18.08.2020 22:27:01 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:27:04 [Verbose] Rest: POST channels/744480279275634748/messages: 279,58 ms
+18.08.2020 22:27:04 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:27:06 [Verbose] Rest: POST channels/744480279275634748/messages: 241,82 ms
+18.08.2020 22:27:06 [Verbose] Command: Executed "kazino" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:28:50 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:28:51 [Verbose] Rest: GET voice/regions: 663,54 ms
+18.08.2020 22:28:52 [Verbose] Rest: GET users/@me: 229,24 ms
+18.08.2020 22:28:52 [Info] Gateway: Connecting
+18.08.2020 22:28:52 [Verbose] Rest: GET gateway: 80,52 ms
+18.08.2020 22:28:53 [Info] Gateway: Connected
+18.08.2020 22:28:53 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:28:54 [Info] Gateway: Ready
+18.08.2020 22:28:58 [Verbose] Rest: POST channels/744480279275634748/messages: 316,12 ms
+18.08.2020 22:28:58 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:28:59 [Verbose] Rest: POST channels/744480279275634748/messages: 253,26 ms
+18.08.2020 22:28:59 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:29:00 [Verbose] Rest: POST channels/744480279275634748/messages: 288,26 ms
+18.08.2020 22:29:00 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:29:01 [Verbose] Rest: POST channels/744480279275634748/messages: 261,17 ms
+18.08.2020 22:29:01 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:29:02 [Verbose] Rest: POST channels/744480279275634748/messages: 239,37 ms
+18.08.2020 22:29:02 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:29:03 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+18.08.2020 22:29:04 [Verbose] Rest: POST channels/744480279275634748/messages: 1056,92 ms
+18.08.2020 22:29:04 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:29:05 [Verbose] Rest: POST channels/744480279275634748/messages: 266,53 ms
+18.08.2020 22:29:05 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:29:07 [Verbose] Rest: POST channels/744480279275634748/messages: 233,18 ms
+18.08.2020 22:29:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:29:08 [Verbose] Rest: POST channels/744480279275634748/messages: 266,85 ms
+18.08.2020 22:29:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:29:10 [Verbose] Rest: POST channels/744480279275634748/messages: 233,45 ms
+18.08.2020 22:29:10 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:29:12 [Verbose] Rest: POST channels/744480279275634748/messages: 246,9 ms
+18.08.2020 22:29:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:29:14 [Verbose] Rest: POST channels/744480279275634748/messages: 278,13 ms
+18.08.2020 22:29:14 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:35:19 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:35:20 [Verbose] Rest: GET voice/regions: 692,5 ms
+18.08.2020 22:35:21 [Verbose] Rest: GET users/@me: 222,94 ms
+18.08.2020 22:35:21 [Info] Gateway: Connecting
+18.08.2020 22:35:21 [Verbose] Rest: GET gateway: 79,41 ms
+18.08.2020 22:35:22 [Info] Gateway: Connected
+18.08.2020 22:35:22 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:35:23 [Info] Gateway: Ready
+18.08.2020 22:35:27 [Verbose] Rest: POST channels/744480279275634748/messages: 241,32 ms
+18.08.2020 22:36:55 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:36:55 [Verbose] Rest: GET voice/regions: 625,2 ms
+18.08.2020 22:36:56 [Verbose] Rest: GET users/@me: 214,05 ms
+18.08.2020 22:36:56 [Info] Gateway: Connecting
+18.08.2020 22:36:56 [Verbose] Rest: GET gateway: 74,85 ms
+18.08.2020 22:36:57 [Info] Gateway: Connected
+18.08.2020 22:36:57 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:36:58 [Info] Gateway: Ready
+18.08.2020 22:37:00 [Verbose] Rest: POST channels/744480279275634748/messages: 258,57 ms
+18.08.2020 22:37:00 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:37:01 [Verbose] Rest: POST channels/744480279275634748/messages: 254,37 ms
+18.08.2020 22:37:01 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:37:02 [Verbose] Rest: POST channels/744480279275634748/messages: 270,73 ms
+18.08.2020 22:37:02 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:37:03 [Verbose] Rest: POST channels/744480279275634748/messages: 241,36 ms
+18.08.2020 22:37:03 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:37:05 [Verbose] Rest: POST channels/744480279275634748/messages: 233,09 ms
+18.08.2020 22:37:05 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:37:07 [Verbose] Rest: POST channels/744480279275634748/messages: 277,2 ms
+18.08.2020 22:37:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:37:08 [Verbose] Rest: POST channels/744480279275634748/messages: 241,7 ms
+18.08.2020 22:37:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:37:10 [Verbose] Rest: POST channels/744480279275634748/messages: 227,89 ms
+18.08.2020 22:37:10 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+18.08.2020 22:40:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:40:15 [Verbose] Rest: GET voice/regions: 639,32 ms
+18.08.2020 22:40:16 [Verbose] Rest: GET users/@me: 230,42 ms
+18.08.2020 22:40:16 [Info] Gateway: Connecting
+18.08.2020 22:40:16 [Verbose] Rest: GET gateway: 77,48 ms
+18.08.2020 22:40:17 [Info] Gateway: Connected
+18.08.2020 22:40:17 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:40:18 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Guilds'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.GuildCheck() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 137
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 415
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 22:40:18 [Info] Gateway: Ready
+18.08.2020 22:41:33 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:41:33 [Verbose] Rest: GET voice/regions: 619,67 ms
+18.08.2020 22:41:34 [Verbose] Rest: GET users/@me: 232,04 ms
+18.08.2020 22:41:34 [Info] Gateway: Connecting
+18.08.2020 22:41:34 [Verbose] Rest: GET gateway: 77,49 ms
+18.08.2020 22:41:35 [Info] Gateway: Connected
+18.08.2020 22:41:35 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:41:36 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Guilds'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.GuildCheck() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 137
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 415
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+18.08.2020 22:41:36 [Info] Gateway: Ready
+18.08.2020 22:42:18 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:42:18 [Verbose] Rest: GET voice/regions: 636,1 ms
+18.08.2020 22:42:19 [Verbose] Rest: GET users/@me: 208,03 ms
+18.08.2020 22:42:19 [Info] Gateway: Connecting
+18.08.2020 22:42:19 [Verbose] Rest: GET gateway: 71,22 ms
+18.08.2020 22:42:20 [Info] Gateway: Connected
+18.08.2020 22:42:20 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:42:21 [Info] Gateway: Ready
+18.08.2020 22:43:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:43:12 [Verbose] Rest: GET voice/regions: 630,75 ms
+18.08.2020 22:43:12 [Verbose] Rest: GET users/@me: 251,69 ms
+18.08.2020 22:43:12 [Info] Gateway: Connecting
+18.08.2020 22:43:12 [Verbose] Rest: GET gateway: 74,3 ms
+18.08.2020 22:43:13 [Info] Gateway: Connected
+18.08.2020 22:43:13 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:43:14 [Info] Gateway: Ready
+18.08.2020 22:44:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:44:04 [Verbose] Rest: GET voice/regions: 578,15 ms
+18.08.2020 22:44:05 [Verbose] Rest: GET users/@me: 241,62 ms
+18.08.2020 22:44:05 [Info] Gateway: Connecting
+18.08.2020 22:44:05 [Verbose] Rest: GET gateway: 71,33 ms
+18.08.2020 22:44:06 [Info] Gateway: Connected
+18.08.2020 22:44:06 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:44:09 [Warning] Gateway: A Ready handler is blocking the gateway task.
+18.08.2020 22:44:09 [Info] Gateway: Ready
+18.08.2020 22:44:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:44:35 [Verbose] Rest: GET voice/regions: 644,76 ms
+18.08.2020 22:44:35 [Verbose] Rest: GET users/@me: 224,12 ms
+18.08.2020 22:44:35 [Info] Gateway: Connecting
+18.08.2020 22:44:35 [Verbose] Rest: GET gateway: 74,99 ms
+18.08.2020 22:44:36 [Info] Gateway: Connected
+18.08.2020 22:44:36 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:45:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:45:34 [Verbose] Rest: GET voice/regions: 678,62 ms
+18.08.2020 22:45:35 [Verbose] Rest: GET users/@me: 277,09 ms
+18.08.2020 22:45:35 [Info] Gateway: Connecting
+18.08.2020 22:45:35 [Verbose] Rest: GET gateway: 80,33 ms
+18.08.2020 22:45:36 [Info] Gateway: Connected
+18.08.2020 22:45:36 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:47:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+18.08.2020 22:47:50 [Verbose] Rest: GET voice/regions: 643,5 ms
+18.08.2020 22:47:50 [Verbose] Rest: GET users/@me: 448,98 ms
+18.08.2020 22:47:51 [Info] Gateway: Connecting
+18.08.2020 22:47:51 [Verbose] Rest: GET gateway: 77,66 ms
+18.08.2020 22:47:52 [Info] Gateway: Connected
+18.08.2020 22:47:52 [Verbose] Gateway: Connected to DarlingBotInfo
+18.08.2020 22:47:53 [Info] Gateway: Ready

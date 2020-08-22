@@ -1,5 +1,5 @@
 ﻿using DarlingBotNet.DataBase;
-using DarlingBotNet.DataBase.Database;
+
 using DarlingBotNet.Services;
 using Discord;
 using Discord.Commands;
@@ -18,12 +18,12 @@ namespace DarlingBotNet.Modules
     public class Bot : ModuleBase<SocketCommandContext>
     {
         private readonly DiscordSocketClient _discord;
-        private readonly DbService _db;
+        
 
-        public Bot(DiscordSocketClient discord, DbService db)
+        public Bot(DiscordSocketClient discord)
         {
             _discord = discord;
-            _db = db;
+            
         }
 
         private class UserPays
@@ -179,9 +179,9 @@ namespace DarlingBotNet.Modules
         public async Task setlevel(SocketUser user, uint level)
         {
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"SetLevel {user}");
-            using (var uow = _db.GetDbContext())
+            using (var uow = new DBcontext())
             {
-                var usr = uow.Users.GetOrCreate(user.Id,Context.Guild.Id);
+                var usr = await SystemLoading.UserCreate(user.Id,Context.Guild.Id);
                 usr.XP = level * (80 * level);
                 uow.Users.Update(usr);
                 await uow.SaveChangesAsync();
@@ -195,9 +195,9 @@ namespace DarlingBotNet.Modules
         public async Task setcoin(SocketUser user, uint Coin)
         {
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"SetCoin {user}");
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
-                var usr = DBcontext.Users.GetOrCreate(user.Id,Context.Guild.Id);
+                var usr = await SystemLoading.UserCreate(user.Id,Context.Guild.Id);
                 emb.WithDescription($"Zercoin's выставлен с {usr.ZeroCoin} на {Coin}");
                 usr.ZeroCoin = Coin;
                 DBcontext.Users.Update(usr);

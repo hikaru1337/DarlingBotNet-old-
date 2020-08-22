@@ -1,5 +1,5 @@
 ﻿using DarlingBotNet.DataBase;
-using DarlingBotNet.DataBase.Database;
+
 using Discord;
 using Discord.WebSocket;
 using System;
@@ -12,20 +12,15 @@ namespace DarlingBotNet.Services
 {
     public class WarnSystem
     {
-        private readonly DbService _db;
-
-        public WarnSystem(DbService db)
-        {
-            _db = db;
-        }
+        
         public async Task<(Users, EmbedBuilder)> WarnUser(SocketGuildUser user)
         {
             
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
                 var emb = new EmbedBuilder();
                 await Task.Delay(1);
-                var usr = DBcontext.Users.GetOrCreate(user);
+                var usr = await SystemLoading.UserCreate(user.Id,user.Guild.Id);
                 if (usr.countwarns >= 15)
                     usr.countwarns = 1;
                 else
@@ -40,11 +35,11 @@ namespace DarlingBotNet.Services
         public async Task<(Users,EmbedBuilder)> UnWarnUser(SocketGuildUser user)
         {
             
-            using (var DBcontext = _db.GetDbContext())
+            using (var DBcontext = new DBcontext())
             {
                 var emb = new EmbedBuilder();
                 await Task.Delay(1);
-                var usr = DBcontext.Users.GetOrCreate(user);
+                var usr = await SystemLoading.UserCreate(user.Id,user.Guild.Id);
                 if (usr.countwarns != 0)
                 {
                     emb.WithDescription($"У пользователя {user.Mention} снято {usr.countwarns} нарушение.");

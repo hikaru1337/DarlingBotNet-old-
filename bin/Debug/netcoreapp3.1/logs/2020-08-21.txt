@@ -1,0 +1,472 @@
+21.08.2020 13:57:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 13:57:24 [Verbose] Rest: GET voice/regions: 994,65 ms
+21.08.2020 13:57:24 [Verbose] Rest: GET users/@me: 236,44 ms
+21.08.2020 13:57:24 [Info] Gateway: Connecting
+21.08.2020 13:57:25 [Verbose] Rest: GET gateway: 79,14 ms
+21.08.2020 13:57:26 [Info] Gateway: Connected
+21.08.2020 13:57:26 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 13:57:27 [Info] Gateway: Ready
+21.08.2020 13:57:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 13:57:44 [Verbose] Rest: GET voice/regions: 692,84 ms
+21.08.2020 13:57:44 [Verbose] Rest: GET users/@me: 238,76 ms
+21.08.2020 13:57:44 [Info] Gateway: Connecting
+21.08.2020 13:57:44 [Verbose] Rest: GET gateway: 118,76 ms
+21.08.2020 13:57:45 [Info] Gateway: Connected
+21.08.2020 13:57:45 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 13:57:46 [Info] Gateway: Ready
+21.08.2020 13:57:48 [Verbose] Rest: POST channels/744480279275634748/messages: 295,68 ms
+21.08.2020 13:57:48 [Verbose] Command: Executed "rgprofile" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 20:52:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 20:52:31 [Verbose] Rest: GET voice/regions: 782,2 ms
+21.08.2020 20:52:31 [Verbose] Rest: GET users/@me: 232,5 ms
+21.08.2020 20:52:31 [Info] Gateway: Connecting
+21.08.2020 20:52:31 [Verbose] Rest: GET gateway: 77,66 ms
+21.08.2020 20:52:33 [Info] Gateway: Connected
+21.08.2020 20:52:33 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 20:52:33 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Guilds'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.GuildCheck() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 148
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 416
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+21.08.2020 20:52:33 [Info] Gateway: Ready
+21.08.2020 20:54:07 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 20:54:08 [Verbose] Rest: GET voice/regions: 677,58 ms
+21.08.2020 20:54:08 [Verbose] Rest: GET users/@me: 215,66 ms
+21.08.2020 20:54:08 [Info] Gateway: Connecting
+21.08.2020 20:54:08 [Verbose] Rest: GET gateway: 79,68 ms
+21.08.2020 20:54:09 [Info] Gateway: Connected
+21.08.2020 20:54:09 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 20:54:10 [Info] Gateway: Ready
+21.08.2020 20:54:15 [Verbose] Rest: POST channels/744480279275634748/messages: 255,59 ms
+21.08.2020 20:54:16 [Verbose] Rest: POST channels/744480279275634748/messages: 239,18 ms
+21.08.2020 20:54:16 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 20:54:20 [Verbose] Rest: POST channels/744480279275634748/messages: 249,83 ms
+21.08.2020 20:54:20 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 20:54:29 [Verbose] Rest: POST channels/744480279275634748/messages: 340,89 ms
+21.08.2020 20:54:29 [Verbose] Command: Executed "rgprofile" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 20:54:41 [Verbose] Rest: POST channels/744480279275634748/messages: 232,83 ms
+21.08.2020 20:54:41 [Verbose] Command: Executed "rgstudy" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 20:54:45 [Verbose] Rest: POST channels/744480279275634748/messages: 290,34 ms
+21.08.2020 20:54:45 [Verbose] Command: Executed "rgwork" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 20:54:56 [Verbose] Rest: POST channels/744480279275634748/messages: 240,69 ms
+21.08.2020 20:54:56 [Verbose] Command: Executed "rgstudys" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 21:09:01 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 21:09:02 [Verbose] Rest: GET voice/regions: 646,73 ms
+21.08.2020 21:09:02 [Verbose] Rest: GET users/@me: 215,12 ms
+21.08.2020 21:09:03 [Info] Gateway: Connecting
+21.08.2020 21:09:03 [Verbose] Rest: GET gateway: 74,99 ms
+21.08.2020 21:09:04 [Info] Gateway: Connected
+21.08.2020 21:09:04 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 21:09:05 [Info] Gateway: Ready
+21.08.2020 21:09:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 21:09:16 [Verbose] Rest: GET voice/regions: 682,63 ms
+21.08.2020 21:09:16 [Verbose] Rest: GET users/@me: 239,67 ms
+21.08.2020 21:09:16 [Info] Gateway: Connecting
+21.08.2020 21:09:16 [Verbose] Rest: GET gateway: 67,28 ms
+21.08.2020 21:09:17 [Info] Gateway: Connected
+21.08.2020 21:09:18 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 21:09:19 [Info] Gateway: Ready
+21.08.2020 21:11:24 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:11:24 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:11:24 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:11:24 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:11:24 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:11:24 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:11:24 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:11:25 [Verbose] Rest: GET oauth2/applications/@me: 206,26 ms
+21.08.2020 21:11:25 [Verbose] Rest: GET oauth2/applications/@me: 722,3 ms
+21.08.2020 21:11:25 [Verbose] Rest: GET oauth2/applications/@me: 855,87 ms
+21.08.2020 21:11:25 [Verbose] Rest: GET oauth2/applications/@me: 877,95 ms
+21.08.2020 21:11:25 [Verbose] Rest: GET oauth2/applications/@me: 853,4 ms
+21.08.2020 21:11:25 [Verbose] Rest: GET oauth2/applications/@me: 870,75 ms
+21.08.2020 21:11:25 [Verbose] Rest: GET oauth2/applications/@me: 864,88 ms
+21.08.2020 21:11:25 [Verbose] Rest: GET oauth2/applications/@me: 907,63 ms
+21.08.2020 21:11:26 [Verbose] Rest: POST channels/744480279275634748/messages: 244,1 ms
+21.08.2020 21:11:26 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 21:11:33 [Verbose] Rest: POST channels/744480279275634748/messages: 245,1 ms
+21.08.2020 21:11:33 [Verbose] Command: Executed "commands" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 21:12:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 21:12:27 [Verbose] Rest: GET voice/regions: 620,08 ms
+21.08.2020 21:12:28 [Verbose] Rest: GET users/@me: 213,42 ms
+21.08.2020 21:12:28 [Info] Gateway: Connecting
+21.08.2020 21:12:28 [Verbose] Rest: GET gateway: 74,73 ms
+21.08.2020 21:12:29 [Info] Gateway: Connected
+21.08.2020 21:12:29 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 21:12:30 [Info] Gateway: Ready
+21.08.2020 21:12:32 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:12:32 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:12:32 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:12:32 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:12:32 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:12:32 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:12:32 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:12:32 [Verbose] Rest: GET oauth2/applications/@me: 220,64 ms
+21.08.2020 21:12:33 [Verbose] Rest: GET oauth2/applications/@me: 729,85 ms
+21.08.2020 21:12:33 [Verbose] Rest: GET oauth2/applications/@me: 854,14 ms
+21.08.2020 21:12:33 [Verbose] Rest: GET oauth2/applications/@me: 845,91 ms
+21.08.2020 21:12:33 [Verbose] Rest: GET oauth2/applications/@me: 855,41 ms
+21.08.2020 21:12:33 [Verbose] Rest: GET oauth2/applications/@me: 867,21 ms
+21.08.2020 21:12:33 [Verbose] Rest: GET oauth2/applications/@me: 855,2 ms
+21.08.2020 21:12:33 [Verbose] Rest: GET oauth2/applications/@me: 966,32 ms
+21.08.2020 21:12:33 [Verbose] Rest: POST channels/744480279275634748/messages: 246,8 ms
+21.08.2020 21:12:33 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 21:12:38 [Verbose] Rest: POST channels/744480279275634748/messages: 284,41 ms
+21.08.2020 21:12:38 [Verbose] Command: Executed "commands" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 21:26:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 21:26:24 [Verbose] Rest: GET voice/regions: 667,83 ms
+21.08.2020 21:26:24 [Verbose] Rest: GET users/@me: 221,27 ms
+21.08.2020 21:26:24 [Info] Gateway: Connecting
+21.08.2020 21:26:24 [Verbose] Rest: GET gateway: 97,74 ms
+21.08.2020 21:26:26 [Info] Gateway: Connected
+21.08.2020 21:26:26 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 21:26:27 [Info] Gateway: Ready
+21.08.2020 21:26:29 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:26:29 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:26:29 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:26:29 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:26:29 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:26:29 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:26:29 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:26:30 [Verbose] Rest: GET oauth2/applications/@me: 231,38 ms
+21.08.2020 21:26:30 [Verbose] Rest: GET oauth2/applications/@me: 738,31 ms
+21.08.2020 21:26:30 [Verbose] Rest: GET oauth2/applications/@me: 864,78 ms
+21.08.2020 21:26:30 [Verbose] Rest: GET oauth2/applications/@me: 865,49 ms
+21.08.2020 21:26:30 [Verbose] Rest: GET oauth2/applications/@me: 856,85 ms
+21.08.2020 21:26:30 [Verbose] Rest: GET oauth2/applications/@me: 871,96 ms
+21.08.2020 21:26:30 [Verbose] Rest: GET oauth2/applications/@me: 874,05 ms
+21.08.2020 21:26:30 [Verbose] Rest: GET oauth2/applications/@me: 890,93 ms
+21.08.2020 21:26:31 [Verbose] Rest: POST channels/744480279275634748/messages: 340,71 ms
+21.08.2020 21:26:31 [Verbose] Command: Executed "commands" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 21:26:37 [Verbose] Rest: POST channels/744480279275634748/messages: 259,69 ms
+21.08.2020 21:26:37 [Verbose] Command: Executed "rgprofile" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 21:26:49 [Verbose] Rest: POST channels/744480279275634748/messages: 247,06 ms
+21.08.2020 21:26:54 [Verbose] Rest: POST channels/744480279275634748/messages: 258,7 ms
+21.08.2020 21:36:06 [Verbose] Rest: POST channels/744480279275634748/messages: 393,29 ms
+21.08.2020 21:36:06 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 21:53:35 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+21.08.2020 21:53:36 [Verbose] Rest: POST channels/744480279275634748/messages: 368,07 ms
+21.08.2020 21:53:36 [Verbose] Rest: POST channels/744480279275634748/messages: 770,27 ms
+21.08.2020 21:53:36 [Verbose] Command: Executed "commands" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 21:54:17 [Verbose] Rest: POST channels/744480279275634748/messages: 263,86 ms
+21.08.2020 21:54:17 [Verbose] Command: Executed "rgstudyadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 21:54:50 [Verbose] Rest: POST channels/744480279275634748/messages: 236,86 ms
+21.08.2020 21:54:50 [Verbose] Command: Executed "rgstudy" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 21:56:20 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 21:56:20 [Verbose] Rest: GET voice/regions: 623,98 ms
+21.08.2020 21:56:21 [Verbose] Rest: GET users/@me: 257,97 ms
+21.08.2020 21:56:21 [Info] Gateway: Connecting
+21.08.2020 21:56:21 [Verbose] Rest: GET gateway: 73,62 ms
+21.08.2020 21:56:22 [Info] Gateway: Connected
+21.08.2020 21:56:22 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 21:56:23 [Info] Gateway: Ready
+21.08.2020 21:56:42 [Verbose] Rest: POST channels/744480279275634748/messages: 290,25 ms
+21.08.2020 21:56:42 [Verbose] Command: Executed "rgstudy" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 21:57:08 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:57:08 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:57:08 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:57:08 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:57:08 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:57:08 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:57:08 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 21:57:09 [Verbose] Rest: GET oauth2/applications/@me: 217,87 ms
+21.08.2020 21:57:09 [Verbose] Rest: GET oauth2/applications/@me: 728,18 ms
+21.08.2020 21:57:09 [Verbose] Rest: GET oauth2/applications/@me: 846,37 ms
+21.08.2020 21:57:09 [Verbose] Rest: GET oauth2/applications/@me: 845,53 ms
+21.08.2020 21:57:09 [Verbose] Rest: GET oauth2/applications/@me: 871,11 ms
+21.08.2020 21:57:09 [Verbose] Rest: GET oauth2/applications/@me: 867,53 ms
+21.08.2020 21:57:09 [Verbose] Rest: GET oauth2/applications/@me: 865,32 ms
+21.08.2020 21:57:09 [Verbose] Rest: GET oauth2/applications/@me: 875,62 ms
+21.08.2020 21:57:10 [Verbose] Rest: POST channels/744480279275634748/messages: 307,3 ms
+21.08.2020 21:57:10 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 21:57:45 [Verbose] Rest: POST channels/744480279275634748/messages: 259,08 ms
+21.08.2020 21:57:45 [Verbose] Rest: POST channels/744480279275634748/messages: 249,31 ms
+21.08.2020 21:57:45 [Verbose] Command: Executed "rgworkadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 21:58:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 21:58:50 [Verbose] Rest: GET voice/regions: 637,69 ms
+21.08.2020 21:58:50 [Verbose] Rest: GET users/@me: 209,26 ms
+21.08.2020 21:58:51 [Info] Gateway: Connecting
+21.08.2020 21:58:51 [Verbose] Rest: GET gateway: 69,57 ms
+21.08.2020 21:58:52 [Info] Gateway: Connected
+21.08.2020 21:58:52 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 21:58:53 [Info] Gateway: Ready
+21.08.2020 21:58:55 [Verbose] Rest: GET oauth2/applications/@me: 238,15 ms
+21.08.2020 21:58:55 [Verbose] Rest: POST channels/744480279275634748/messages: 268,23 ms
+21.08.2020 21:58:55 [Verbose] Command: Executed "rgworkadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 21:59:03 [Verbose] Rest: POST channels/744480279275634748/messages: 233,4 ms
+21.08.2020 21:59:03 [Verbose] Command: Executed "rgworkadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 21:59:15 [Verbose] Rest: POST channels/744480279275634748/messages: 264,29 ms
+21.08.2020 21:59:15 [Verbose] Command: Executed "rgworkadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 21:59:29 [Verbose] Rest: POST channels/744480279275634748/messages: 333,84 ms
+21.08.2020 21:59:29 [Verbose] Command: Executed "rgwork" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 21:59:42 [Verbose] Rest: POST channels/744480279275634748/messages: 284,11 ms
+21.08.2020 21:59:42 [Verbose] Command: Executed "rgwork" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:00:03 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:00:04 [Verbose] Rest: GET voice/regions: 617,34 ms
+21.08.2020 22:00:04 [Verbose] Rest: GET users/@me: 224,33 ms
+21.08.2020 22:00:04 [Info] Gateway: Connecting
+21.08.2020 22:00:04 [Verbose] Rest: GET gateway: 76,36 ms
+21.08.2020 22:00:05 [Info] Gateway: Connected
+21.08.2020 22:00:05 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:00:07 [Info] Gateway: Ready
+21.08.2020 22:00:08 [Verbose] Rest: POST channels/744480279275634748/messages: 335,82 ms
+21.08.2020 22:00:08 [Verbose] Command: Executed "rgwork" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:01:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:01:25 [Verbose] Rest: GET voice/regions: 638,81 ms
+21.08.2020 22:01:25 [Verbose] Rest: GET users/@me: 215,08 ms
+21.08.2020 22:01:25 [Info] Gateway: Connecting
+21.08.2020 22:01:25 [Verbose] Rest: GET gateway: 72,42 ms
+21.08.2020 22:01:26 [Info] Gateway: Connected
+21.08.2020 22:01:26 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:01:27 [Info] Gateway: Ready
+21.08.2020 22:05:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:05:13 [Verbose] Rest: GET voice/regions: 680,08 ms
+21.08.2020 22:05:14 [Verbose] Rest: GET users/@me: 237,06 ms
+21.08.2020 22:05:14 [Info] Gateway: Connecting
+21.08.2020 22:05:14 [Verbose] Rest: GET gateway: 78,41 ms
+21.08.2020 22:05:15 [Info] Gateway: Connected
+21.08.2020 22:05:15 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:05:16 [Info] Gateway: Ready
+21.08.2020 22:05:17 [Verbose] Rest: POST channels/744480279275634748/messages: 241,92 ms
+21.08.2020 22:05:17 [Verbose] Command: Executed "rgwork" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 22:05:30 [Verbose] Rest: POST channels/744480279275634748/messages: 214,97 ms
+21.08.2020 22:05:30 [Verbose] Command: Executed "rgwork" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 22:09:52 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:09:53 [Verbose] Rest: GET voice/regions: 670,72 ms
+21.08.2020 22:09:54 [Verbose] Rest: GET users/@me: 237,05 ms
+21.08.2020 22:09:54 [Info] Gateway: Connecting
+21.08.2020 22:09:54 [Verbose] Rest: GET gateway: 78,58 ms
+21.08.2020 22:09:55 [Info] Gateway: Connected
+21.08.2020 22:09:55 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:09:56 [Info] Gateway: Ready
+21.08.2020 22:09:57 [Verbose] Rest: POST channels/744480279275634748/messages: 246,58 ms
+21.08.2020 22:09:57 [Verbose] Command: Executed "rgwork" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:10:03 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:10:03 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:10:04 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:10:04 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:10:04 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:10:04 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:10:04 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:10:04 [Verbose] Rest: GET oauth2/applications/@me: 218,67 ms
+21.08.2020 22:10:04 [Verbose] Rest: GET oauth2/applications/@me: 721,48 ms
+21.08.2020 22:10:04 [Verbose] Rest: GET oauth2/applications/@me: 823,16 ms
+21.08.2020 22:10:04 [Verbose] Rest: GET oauth2/applications/@me: 840,42 ms
+21.08.2020 22:10:04 [Verbose] Rest: GET oauth2/applications/@me: 875,69 ms
+21.08.2020 22:10:04 [Verbose] Rest: GET oauth2/applications/@me: 867,22 ms
+21.08.2020 22:10:04 [Verbose] Rest: GET oauth2/applications/@me: 872,43 ms
+21.08.2020 22:10:08 [Verbose] Rest: POST channels/744480279275634748/messages: 236,97 ms
+21.08.2020 22:10:08 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:10:20 [Verbose] Rest: POST channels/744480279275634748/messages: 245,07 ms
+21.08.2020 22:10:20 [Verbose] Command: Executed "rgwork" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 22:10:25 [Verbose] Rest: POST channels/744480279275634748/messages: 243,02 ms
+21.08.2020 22:10:25 [Verbose] Command: Executed "commands" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 22:11:16 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:11:17 [Verbose] Rest: GET voice/regions: 610,82 ms
+21.08.2020 22:11:17 [Verbose] Rest: GET users/@me: 207,57 ms
+21.08.2020 22:11:18 [Info] Gateway: Connecting
+21.08.2020 22:11:18 [Verbose] Rest: GET gateway: 70,09 ms
+21.08.2020 22:11:19 [Info] Gateway: Connected
+21.08.2020 22:11:19 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:11:20 [Info] Gateway: Ready
+21.08.2020 22:11:21 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:11:21 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:11:21 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:11:21 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:11:21 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:11:21 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:11:21 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+21.08.2020 22:11:45 [Verbose] Rest: GET oauth2/applications/@me: 23846,64 ms
+21.08.2020 22:11:46 [Verbose] Rest: GET oauth2/applications/@me: 24505,88 ms
+21.08.2020 22:11:46 [Verbose] Rest: GET oauth2/applications/@me: 24677,95 ms
+21.08.2020 22:11:46 [Verbose] Rest: GET oauth2/applications/@me: 24691,64 ms
+21.08.2020 22:11:46 [Verbose] Rest: GET oauth2/applications/@me: 24705,23 ms
+21.08.2020 22:11:46 [Verbose] Rest: GET oauth2/applications/@me: 24693,98 ms
+21.08.2020 22:11:46 [Verbose] Rest: GET oauth2/applications/@me: 24718,99 ms
+21.08.2020 22:11:46 [Verbose] Rest: GET oauth2/applications/@me: 24713,49 ms
+21.08.2020 22:12:14 [Verbose] Rest: POST channels/744480279275634748/messages: 243,93 ms
+21.08.2020 22:12:14 [Verbose] Command: Executed "commands" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 22:12:14 [Verbose] Rest: POST channels/744480279275634748/messages: 223,96 ms
+21.08.2020 22:12:14 [Verbose] Command: Executed "rgwork" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 22:12:25 [Verbose] Rest: POST channels/744480279275634748/messages: 283,43 ms
+21.08.2020 22:12:25 [Verbose] Command: Executed "commands" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 22:12:29 [Verbose] Rest: POST channels/744480279275634748/messages: 301,08 ms
+21.08.2020 22:12:29 [Verbose] Command: Executed "rgworking" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 22:12:45 [Verbose] Rest: POST channels/744480279275634748/messages: 293,45 ms
+21.08.2020 22:12:45 [Verbose] Command: Executed "rgprofile" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 22:17:17 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:17:18 [Verbose] Rest: GET voice/regions: 685,14 ms
+21.08.2020 22:17:18 [Verbose] Rest: GET users/@me: 216,7 ms
+21.08.2020 22:17:19 [Info] Gateway: Connecting
+21.08.2020 22:17:19 [Verbose] Rest: GET gateway: 79,73 ms
+21.08.2020 22:17:20 [Info] Gateway: Connected
+21.08.2020 22:17:20 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:17:21 [Info] Gateway: Ready
+21.08.2020 22:17:22 [Verbose] Rest: POST channels/744480279275634748/messages: 256,4 ms
+21.08.2020 22:17:22 [Verbose] Command: Executed "rgworking" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 22:17:26 [Verbose] Rest: POST channels/744480279275634748/messages: 257,08 ms
+21.08.2020 22:17:26 [Verbose] Command: Executed "rgworking" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+21.08.2020 22:18:01 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:18:01 [Verbose] Rest: GET voice/regions: 631,28 ms
+21.08.2020 22:18:02 [Verbose] Rest: GET users/@me: 217,02 ms
+21.08.2020 22:18:02 [Info] Gateway: Connecting
+21.08.2020 22:18:02 [Verbose] Rest: GET gateway: 76,4 ms
+21.08.2020 22:18:03 [Info] Gateway: Connected
+21.08.2020 22:18:03 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:18:04 [Info] Gateway: Ready
+21.08.2020 22:18:13 [Verbose] Rest: GET oauth2/applications/@me: 216,42 ms
+21.08.2020 22:18:13 [Verbose] Rest: POST channels/744480279275634748/messages: 284,71 ms
+21.08.2020 22:18:13 [Verbose] Command: Executed "rgworkadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:18:19 [Verbose] Rest: POST channels/744480279275634748/messages: 264,1 ms
+21.08.2020 22:18:19 [Verbose] Command: Executed "rgwork" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:18:24 [Verbose] Rest: POST channels/744480279275634748/messages: 233,13 ms
+21.08.2020 22:18:24 [Verbose] Command: Executed "rgwork" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:18:54 [Error] Command: Discord.Commands.CommandException: Error occurred executing "rgworking" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DarlingBotNet.Modules.RussiaGame.RGworking()
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+21.08.2020 22:18:54 [Verbose] Command: Executed "rgworking" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:19:08 [Verbose] Rest: POST channels/744480279275634748/messages: 265,78 ms
+21.08.2020 22:19:08 [Verbose] Command: Executed "rgworking" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:21:07 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:21:07 [Verbose] Rest: GET voice/regions: 632,66 ms
+21.08.2020 22:21:08 [Verbose] Rest: GET users/@me: 236 ms
+21.08.2020 22:21:08 [Info] Gateway: Connecting
+21.08.2020 22:21:08 [Verbose] Rest: GET gateway: 87,77 ms
+21.08.2020 22:21:09 [Info] Gateway: Connected
+21.08.2020 22:21:09 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:21:10 [Info] Gateway: Ready
+21.08.2020 22:21:17 [Verbose] Rest: GET oauth2/applications/@me: 236,93 ms
+21.08.2020 22:21:18 [Verbose] Rest: POST channels/744480279275634748/messages: 253,77 ms
+21.08.2020 22:21:18 [Verbose] Command: Executed "rgworkadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:21:22 [Verbose] Rest: POST channels/744480279275634748/messages: 231,86 ms
+21.08.2020 22:21:22 [Verbose] Command: Executed "rgwork" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:21:26 [Verbose] Rest: POST channels/744480279275634748/messages: 297,02 ms
+21.08.2020 22:21:26 [Verbose] Command: Executed "rgworking" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:22:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:22:33 [Verbose] Rest: GET voice/regions: 660,18 ms
+21.08.2020 22:22:33 [Verbose] Rest: GET users/@me: 248,51 ms
+21.08.2020 22:22:33 [Info] Gateway: Connecting
+21.08.2020 22:22:34 [Verbose] Rest: GET gateway: 86,13 ms
+21.08.2020 22:22:34 [Info] Gateway: Connected
+21.08.2020 22:22:35 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:22:36 [Info] Gateway: Ready
+21.08.2020 22:22:38 [Verbose] Rest: POST channels/744480279275634748/messages: 260,82 ms
+21.08.2020 22:22:38 [Verbose] Command: Executed "rgworking" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:22:52 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:22:52 [Verbose] Rest: GET voice/regions: 667,98 ms
+21.08.2020 22:22:53 [Verbose] Rest: GET users/@me: 226,55 ms
+21.08.2020 22:22:53 [Info] Gateway: Connecting
+21.08.2020 22:22:53 [Verbose] Rest: GET gateway: 76,88 ms
+21.08.2020 22:22:54 [Info] Gateway: Connected
+21.08.2020 22:22:54 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:22:55 [Info] Gateway: Ready
+21.08.2020 22:22:58 [Verbose] Rest: GET oauth2/applications/@me: 215,49 ms
+21.08.2020 22:22:59 [Verbose] Rest: POST channels/744480279275634748/messages: 236,85 ms
+21.08.2020 22:22:59 [Verbose] Command: Executed "rgworkadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:23:04 [Verbose] Rest: POST channels/744480279275634748/messages: 292,65 ms
+21.08.2020 22:23:04 [Verbose] Command: Executed "rgwork" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:23:07 [Verbose] Rest: POST channels/744480279275634748/messages: 225,73 ms
+21.08.2020 22:23:07 [Verbose] Command: Executed "rgworking" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:25:29 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:25:30 [Verbose] Rest: GET voice/regions: 708,83 ms
+21.08.2020 22:25:30 [Verbose] Rest: GET users/@me: 231,94 ms
+21.08.2020 22:25:30 [Info] Gateway: Connecting
+21.08.2020 22:25:31 [Verbose] Rest: GET gateway: 83,43 ms
+21.08.2020 22:25:32 [Info] Gateway: Connected
+21.08.2020 22:25:32 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:25:33 [Info] Gateway: Ready
+21.08.2020 22:26:18 [Verbose] Rest: GET oauth2/applications/@me: 244,47 ms
+21.08.2020 22:26:18 [Verbose] Rest: POST channels/744480279275634748/messages: 303,92 ms
+21.08.2020 22:26:18 [Verbose] Command: Executed "rgworkadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:26:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:26:31 [Verbose] Rest: GET voice/regions: 635,95 ms
+21.08.2020 22:26:32 [Verbose] Rest: GET users/@me: 244,18 ms
+21.08.2020 22:26:32 [Info] Gateway: Connecting
+21.08.2020 22:26:32 [Verbose] Rest: GET gateway: 84,49 ms
+21.08.2020 22:26:33 [Info] Gateway: Connected
+21.08.2020 22:26:33 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:26:34 [Info] Gateway: Ready
+21.08.2020 22:26:35 [Verbose] Rest: GET oauth2/applications/@me: 212,11 ms
+21.08.2020 22:26:36 [Verbose] Rest: POST channels/744480279275634748/messages: 278,12 ms
+21.08.2020 22:26:36 [Verbose] Command: Executed "rgworkadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:26:40 [Verbose] Rest: POST channels/744480279275634748/messages: 223,86 ms
+21.08.2020 22:26:40 [Verbose] Command: Executed "rgwork" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:26:43 [Verbose] Rest: POST channels/744480279275634748/messages: 247,35 ms
+21.08.2020 22:26:43 [Verbose] Command: Executed "rgworking" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:28:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:28:06 [Verbose] Rest: GET voice/regions: 624,8 ms
+21.08.2020 22:28:06 [Verbose] Rest: GET users/@me: 226,29 ms
+21.08.2020 22:28:06 [Info] Gateway: Connecting
+21.08.2020 22:28:07 [Verbose] Rest: GET gateway: 78,13 ms
+21.08.2020 22:28:08 [Info] Gateway: Connected
+21.08.2020 22:28:08 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:28:09 [Info] Gateway: Ready
+21.08.2020 22:28:26 [Verbose] Rest: GET oauth2/applications/@me: 216,17 ms
+21.08.2020 22:28:27 [Verbose] Rest: POST channels/744480279275634748/messages: 336,62 ms
+21.08.2020 22:28:27 [Verbose] Command: Executed "rgworkadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:28:30 [Verbose] Rest: POST channels/744480279275634748/messages: 273,71 ms
+21.08.2020 22:28:30 [Verbose] Command: Executed "rgwork" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:28:36 [Verbose] Rest: POST channels/744480279275634748/messages: 227,77 ms
+21.08.2020 22:28:36 [Verbose] Command: Executed "rgworkadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:28:45 [Verbose] Rest: POST channels/744480279275634748/messages: 231,8 ms
+21.08.2020 22:28:45 [Verbose] Command: Executed "rgworking" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:29:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:29:32 [Verbose] Rest: GET voice/regions: 609,04 ms
+21.08.2020 22:29:33 [Verbose] Rest: GET users/@me: 237,62 ms
+21.08.2020 22:29:33 [Info] Gateway: Connecting
+21.08.2020 22:29:33 [Verbose] Rest: GET gateway: 72,16 ms
+21.08.2020 22:29:34 [Info] Gateway: Connected
+21.08.2020 22:29:34 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:29:35 [Info] Gateway: Ready
+21.08.2020 22:29:41 [Verbose] Rest: GET oauth2/applications/@me: 213,53 ms
+21.08.2020 22:29:42 [Verbose] Rest: POST channels/744480279275634748/messages: 254,1 ms
+21.08.2020 22:29:42 [Verbose] Command: Executed "rgworkadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:29:46 [Verbose] Rest: POST channels/744480279275634748/messages: 311,41 ms
+21.08.2020 22:29:46 [Verbose] Command: Executed "rgwork" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:29:48 [Verbose] Rest: POST channels/744480279275634748/messages: 321,95 ms
+21.08.2020 22:29:48 [Verbose] Command: Executed "rgworking" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:32:43 [Verbose] Rest: POST channels/744480279275634748/messages: 462,62 ms
+21.08.2020 22:32:43 [Verbose] Command: Executed "rgstudyadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:32:48 [Verbose] Rest: POST channels/744480279275634748/messages: 261,35 ms
+21.08.2020 22:32:48 [Verbose] Command: Executed "rgstudy" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:32:52 [Verbose] Rest: POST channels/744480279275634748/messages: 283,91 ms
+21.08.2020 22:32:52 [Verbose] Command: Executed "rgstudy" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:32:56 [Verbose] Rest: POST channels/744480279275634748/messages: 253,65 ms
+21.08.2020 22:32:56 [Verbose] Command: Executed "rgstudys" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:33:02 [Verbose] Rest: POST channels/744480279275634748/messages: 225,41 ms
+21.08.2020 22:33:02 [Verbose] Rest: POST channels/744480279275634748/messages: 431,99 ms
+21.08.2020 22:33:02 [Verbose] Command: Executed "rgstudys" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:33:05 [Verbose] Rest: POST channels/744480279275634748/messages: 220,56 ms
+21.08.2020 22:33:05 [Verbose] Command: Executed "rgstudys" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:33:06 [Verbose] Rest: POST channels/744480279275634748/messages: 263,18 ms
+21.08.2020 22:33:06 [Verbose] Command: Executed "rgstudys" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:35:14 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+21.08.2020 22:35:14 [Verbose] Rest: GET voice/regions: 671,05 ms
+21.08.2020 22:35:15 [Verbose] Rest: GET users/@me: 226,8 ms
+21.08.2020 22:35:15 [Info] Gateway: Connecting
+21.08.2020 22:35:15 [Verbose] Rest: GET gateway: 78,35 ms
+21.08.2020 22:35:16 [Info] Gateway: Connected
+21.08.2020 22:35:16 [Verbose] Gateway: Connected to DarlingBotInfo
+21.08.2020 22:35:17 [Info] Gateway: Ready
+21.08.2020 22:35:34 [Verbose] Rest: POST channels/744480279275634748/messages: 244,92 ms
+21.08.2020 22:35:34 [Verbose] Command: Executed "rgstudys" for h1kkaru.#2627 in DarlingBotInfo/эээ
+21.08.2020 22:35:38 [Verbose] Rest: POST channels/744480279275634748/messages: 233,27 ms
+21.08.2020 22:35:38 [Verbose] Command: Executed "rgstudys" for h1kkaru.#2627 in DarlingBotInfo/эээ

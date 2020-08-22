@@ -1,0 +1,1780 @@
+17.08.2020 14:09:07 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 14:09:08 [Verbose] Rest: GET voice/regions: 887,02 ms
+17.08.2020 14:09:08 [Verbose] Rest: GET users/@me: 245,51 ms
+17.08.2020 14:09:09 [Info] Gateway: Connecting
+17.08.2020 14:09:09 [Verbose] Rest: GET gateway: 76,69 ms
+17.08.2020 14:09:10 [Info] Gateway: Connected
+17.08.2020 14:09:10 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 14:09:11 [Info] Gateway: Ready
+17.08.2020 14:09:15 [Verbose] Rest: POST channels/744480279275634748/messages: 247,81 ms
+17.08.2020 14:09:15 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:09:16 [Verbose] Rest: POST channels/744480279275634748/messages: 241,88 ms
+17.08.2020 14:09:16 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:09:18 [Verbose] Rest: POST channels/744480279275634748/messages: 281,37 ms
+17.08.2020 14:09:18 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:09:19 [Verbose] Rest: POST channels/744480279275634748/messages: 248,82 ms
+17.08.2020 14:09:19 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:09:20 [Verbose] Rest: POST channels/744480279275634748/messages: 227,85 ms
+17.08.2020 14:09:20 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:09:21 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:09:26 [Verbose] Rest: POST channels/744480279275634748/messages: 5090,9 ms
+17.08.2020 14:09:26 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:28 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 14:10:28 [Verbose] Rest: GET voice/regions: 651,81 ms
+17.08.2020 14:10:29 [Verbose] Rest: GET users/@me: 308,07 ms
+17.08.2020 14:10:29 [Info] Gateway: Connecting
+17.08.2020 14:10:29 [Verbose] Rest: GET gateway: 87,72 ms
+17.08.2020 14:10:30 [Info] Gateway: Connected
+17.08.2020 14:10:30 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 14:10:31 [Info] Gateway: Ready
+17.08.2020 14:10:33 [Verbose] Rest: POST channels/744480279275634748/messages: 263,38 ms
+17.08.2020 14:10:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:35 [Verbose] Rest: POST channels/744480279275634748/messages: 275,15 ms
+17.08.2020 14:10:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:36 [Verbose] Rest: POST channels/744480279275634748/messages: 291,34 ms
+17.08.2020 14:10:36 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:37 [Verbose] Rest: POST channels/744480279275634748/messages: 250,44 ms
+17.08.2020 14:10:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:38 [Verbose] Rest: POST channels/744480279275634748/messages: 355,57 ms
+17.08.2020 14:10:39 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:39 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:10:45 [Verbose] Rest: POST channels/744480279275634748/messages: 5262,69 ms
+17.08.2020 14:10:45 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:46 [Verbose] Rest: POST channels/744480279275634748/messages: 362,46 ms
+17.08.2020 14:10:46 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:47 [Verbose] Rest: POST channels/744480279275634748/messages: 257,6 ms
+17.08.2020 14:10:47 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:48 [Verbose] Rest: POST channels/744480279275634748/messages: 276,14 ms
+17.08.2020 14:10:48 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:48 [Verbose] Rest: POST channels/744480279275634748/messages: 226,54 ms
+17.08.2020 14:10:48 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:49 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:10:49 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:10:49 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:10:50 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:10:51 [Verbose] Rest: POST channels/744480279275634748/messages: 1544,9 ms
+17.08.2020 14:10:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:51 [Verbose] Rest: POST channels/744480279275634748/messages: 2312,06 ms
+17.08.2020 14:10:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:51 [Verbose] Rest: POST channels/744480279275634748/messages: 1089,42 ms
+17.08.2020 14:10:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:54 [Verbose] Rest: POST channels/744480279275634748/messages: 292,58 ms
+17.08.2020 14:10:54 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:57 [Verbose] Rest: POST channels/744480279275634748/messages: 296,29 ms
+17.08.2020 14:10:57 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:10:58 [Verbose] Rest: POST channels/744480279275634748/messages: 396,23 ms
+17.08.2020 14:10:58 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:11:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 14:11:31 [Verbose] Rest: GET voice/regions: 665,96 ms
+17.08.2020 14:11:31 [Verbose] Rest: GET users/@me: 248,8 ms
+17.08.2020 14:11:31 [Info] Gateway: Connecting
+17.08.2020 14:11:32 [Verbose] Rest: GET gateway: 78,14 ms
+17.08.2020 14:11:33 [Info] Gateway: Connected
+17.08.2020 14:11:33 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 14:11:34 [Info] Gateway: Ready
+17.08.2020 14:11:35 [Verbose] Rest: POST channels/744480279275634748/messages: 320,3 ms
+17.08.2020 14:11:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:11:36 [Verbose] Rest: POST channels/744480279275634748/messages: 253,12 ms
+17.08.2020 14:11:36 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:11:37 [Verbose] Rest: POST channels/744480279275634748/messages: 278,85 ms
+17.08.2020 14:11:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:11:38 [Verbose] Rest: POST channels/744480279275634748/messages: 256,71 ms
+17.08.2020 14:11:39 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:11:40 [Verbose] Rest: POST channels/744480279275634748/messages: 267,33 ms
+17.08.2020 14:11:40 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:11:40 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:11:41 [Verbose] Rest: POST channels/744480279275634748/messages: 976,63 ms
+17.08.2020 14:11:41 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:11:41 [Verbose] Rest: POST channels/744480279275634748/messages: 402,67 ms
+17.08.2020 14:11:41 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:11:43 [Verbose] Rest: POST channels/744480279275634748/messages: 243,86 ms
+17.08.2020 14:11:43 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:14:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 14:14:06 [Verbose] Rest: GET voice/regions: 631,73 ms
+17.08.2020 14:14:06 [Verbose] Rest: GET users/@me: 241,03 ms
+17.08.2020 14:14:06 [Info] Gateway: Connecting
+17.08.2020 14:14:07 [Verbose] Rest: GET gateway: 73,99 ms
+17.08.2020 14:14:08 [Info] Gateway: Connected
+17.08.2020 14:14:08 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 14:14:09 [Info] Gateway: Ready
+17.08.2020 14:14:10 [Verbose] Rest: POST channels/744480279275634748/messages: 255,13 ms
+17.08.2020 14:14:10 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:14:11 [Verbose] Rest: POST channels/744480279275634748/messages: 281,74 ms
+17.08.2020 14:14:11 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:14:12 [Verbose] Rest: POST channels/744480279275634748/messages: 253,68 ms
+17.08.2020 14:14:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 14:15:22 [Verbose] Rest: GET voice/regions: 665,7 ms
+17.08.2020 14:15:22 [Verbose] Rest: GET users/@me: 226,79 ms
+17.08.2020 14:15:22 [Info] Gateway: Connecting
+17.08.2020 14:15:22 [Verbose] Rest: GET gateway: 80,31 ms
+17.08.2020 14:15:23 [Info] Gateway: Connected
+17.08.2020 14:15:23 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 14:15:24 [Info] Gateway: Ready
+17.08.2020 14:15:26 [Verbose] Rest: POST channels/744480279275634748/messages: 248,06 ms
+17.08.2020 14:15:26 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:27 [Verbose] Rest: POST channels/744480279275634748/messages: 252,31 ms
+17.08.2020 14:15:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:28 [Verbose] Rest: POST channels/744480279275634748/messages: 283,93 ms
+17.08.2020 14:15:28 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:29 [Verbose] Rest: POST channels/744480279275634748/messages: 253,94 ms
+17.08.2020 14:15:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:30 [Verbose] Rest: POST channels/744480279275634748/messages: 333,72 ms
+17.08.2020 14:15:30 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:31 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:15:32 [Verbose] Rest: POST channels/744480279275634748/messages: 992,57 ms
+17.08.2020 14:15:32 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:33 [Verbose] Rest: POST channels/744480279275634748/messages: 247,15 ms
+17.08.2020 14:15:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:34 [Verbose] Rest: POST channels/744480279275634748/messages: 283,14 ms
+17.08.2020 14:15:34 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:35 [Verbose] Rest: POST channels/744480279275634748/messages: 310,57 ms
+17.08.2020 14:15:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:37 [Verbose] Rest: POST channels/744480279275634748/messages: 235,35 ms
+17.08.2020 14:15:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:38 [Verbose] Rest: POST channels/744480279275634748/messages: 258,53 ms
+17.08.2020 14:15:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:39 [Verbose] Rest: POST channels/744480279275634748/messages: 282,37 ms
+17.08.2020 14:15:39 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:45 [Verbose] Rest: POST channels/744480279275634748/messages: 325,14 ms
+17.08.2020 14:15:45 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:46 [Verbose] Rest: POST channels/744480279275634748/messages: 319,13 ms
+17.08.2020 14:15:46 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:47 [Verbose] Rest: POST channels/744480279275634748/messages: 336,39 ms
+17.08.2020 14:15:47 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:49 [Verbose] Rest: POST channels/744480279275634748/messages: 269,6 ms
+17.08.2020 14:15:49 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:15:50 [Verbose] Rest: POST channels/744480279275634748/messages: 237,74 ms
+17.08.2020 14:15:50 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:16:01 [Verbose] Rest: POST channels/744480279275634748/messages: 283,6 ms
+17.08.2020 14:16:01 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:16:02 [Verbose] Rest: POST channels/744480279275634748/messages: 264,91 ms
+17.08.2020 14:16:02 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:16:04 [Verbose] Rest: POST channels/744480279275634748/messages: 255,27 ms
+17.08.2020 14:16:04 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:16:05 [Verbose] Rest: POST channels/744480279275634748/messages: 254,58 ms
+17.08.2020 14:16:05 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:16:11 [Verbose] Rest: POST channels/744480279275634748/messages: 298,37 ms
+17.08.2020 14:16:11 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:16:13 [Verbose] Rest: POST channels/744480279275634748/messages: 321,9 ms
+17.08.2020 14:16:13 [Verbose] Rest: POST channels/744480279275634748/messages: 447,8 ms
+17.08.2020 14:16:13 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:16:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 14:16:39 [Verbose] Rest: GET voice/regions: 655,03 ms
+17.08.2020 14:16:39 [Verbose] Rest: GET users/@me: 228,96 ms
+17.08.2020 14:16:39 [Info] Gateway: Connecting
+17.08.2020 14:16:39 [Verbose] Rest: GET gateway: 77,9 ms
+17.08.2020 14:16:40 [Info] Gateway: Connected
+17.08.2020 14:16:40 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 14:16:41 [Info] Gateway: Ready
+17.08.2020 14:16:43 [Verbose] Rest: POST channels/744480279275634748/messages: 251,48 ms
+17.08.2020 14:16:43 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:17:01 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 14:17:01 [Verbose] Rest: GET voice/regions: 626,72 ms
+17.08.2020 14:17:02 [Verbose] Rest: GET users/@me: 250,98 ms
+17.08.2020 14:17:02 [Info] Gateway: Connecting
+17.08.2020 14:17:02 [Verbose] Rest: GET gateway: 76,73 ms
+17.08.2020 14:17:03 [Info] Gateway: Connected
+17.08.2020 14:17:03 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 14:17:04 [Info] Gateway: Ready
+17.08.2020 14:17:09 [Verbose] Rest: POST channels/744480279275634748/messages: 243,36 ms
+17.08.2020 14:17:09 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:17:10 [Verbose] Rest: POST channels/744480279275634748/messages: 272,04 ms
+17.08.2020 14:17:10 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:17:12 [Verbose] Rest: POST channels/744480279275634748/messages: 418,08 ms
+17.08.2020 14:17:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:17:13 [Verbose] Rest: POST channels/744480279275634748/messages: 234,65 ms
+17.08.2020 14:17:13 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:17:14 [Verbose] Rest: POST channels/744480279275634748/messages: 250,69 ms
+17.08.2020 14:17:14 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:18:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 14:18:24 [Verbose] Rest: GET voice/regions: 662,63 ms
+17.08.2020 14:18:25 [Verbose] Rest: GET users/@me: 252,94 ms
+17.08.2020 14:18:25 [Info] Gateway: Connecting
+17.08.2020 14:18:25 [Verbose] Rest: GET gateway: 80 ms
+17.08.2020 14:18:26 [Info] Gateway: Connected
+17.08.2020 14:18:26 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 14:18:27 [Info] Gateway: Ready
+17.08.2020 14:18:34 [Verbose] Rest: POST channels/744480279275634748/messages: 252,1 ms
+17.08.2020 14:18:34 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:18:35 [Verbose] Rest: POST channels/744480279275634748/messages: 275,87 ms
+17.08.2020 14:18:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:18:37 [Verbose] Rest: POST channels/744480279275634748/messages: 253,84 ms
+17.08.2020 14:18:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:18:38 [Verbose] Rest: POST channels/744480279275634748/messages: 277,75 ms
+17.08.2020 14:18:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:18:57 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 14:18:58 [Verbose] Rest: GET voice/regions: 649,41 ms
+17.08.2020 14:18:58 [Verbose] Rest: GET users/@me: 257,83 ms
+17.08.2020 14:18:58 [Info] Gateway: Connecting
+17.08.2020 14:18:58 [Verbose] Rest: GET gateway: 74,82 ms
+17.08.2020 14:19:00 [Info] Gateway: Connected
+17.08.2020 14:19:00 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 14:19:00 [Info] Gateway: Ready
+17.08.2020 14:19:04 [Verbose] Rest: POST channels/744480279275634748/messages: 242,21 ms
+17.08.2020 14:19:04 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:19:05 [Verbose] Rest: POST channels/744480279275634748/messages: 316,16 ms
+17.08.2020 14:19:05 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:19:06 [Verbose] Rest: POST channels/744480279275634748/messages: 254,02 ms
+17.08.2020 14:19:06 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:19:07 [Verbose] Rest: POST channels/744480279275634748/messages: 244,7 ms
+17.08.2020 14:19:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:19:08 [Verbose] Rest: POST channels/744480279275634748/messages: 373,28 ms
+17.08.2020 14:19:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:19:09 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:19:09 [Verbose] Rest: POST channels/744480279275634748/messages: 346,34 ms
+17.08.2020 14:19:09 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:19:54 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 14:19:55 [Verbose] Rest: GET voice/regions: 701,67 ms
+17.08.2020 14:19:55 [Verbose] Rest: GET users/@me: 234,66 ms
+17.08.2020 14:19:55 [Info] Gateway: Connecting
+17.08.2020 14:19:55 [Verbose] Rest: GET gateway: 78,37 ms
+17.08.2020 14:19:56 [Info] Gateway: Connected
+17.08.2020 14:19:57 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 14:19:57 [Info] Gateway: Ready
+17.08.2020 14:19:59 [Verbose] Rest: POST channels/744480279275634748/messages: 297,91 ms
+17.08.2020 14:19:59 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:01 [Verbose] Rest: POST channels/744480279275634748/messages: 257,44 ms
+17.08.2020 14:20:01 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:03 [Verbose] Rest: POST channels/744480279275634748/messages: 356,4 ms
+17.08.2020 14:20:03 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:04 [Verbose] Rest: POST channels/744480279275634748/messages: 237,08 ms
+17.08.2020 14:20:04 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:06 [Verbose] Rest: POST channels/744480279275634748/messages: 271,1 ms
+17.08.2020 14:20:06 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:07 [Verbose] Rest: POST channels/744480279275634748/messages: 292,02 ms
+17.08.2020 14:20:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:09 [Verbose] Rest: POST channels/744480279275634748/messages: 280,76 ms
+17.08.2020 14:20:09 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:11 [Verbose] Rest: POST channels/744480279275634748/messages: 245,8 ms
+17.08.2020 14:20:11 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:12 [Verbose] Rest: POST channels/744480279275634748/messages: 242,31 ms
+17.08.2020 14:20:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:13 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:20:16 [Verbose] Rest: POST channels/744480279275634748/messages: 3098,33 ms
+17.08.2020 14:20:16 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 14:20:43 [Verbose] Rest: GET voice/regions: 636,16 ms
+17.08.2020 14:20:44 [Verbose] Rest: GET users/@me: 217,07 ms
+17.08.2020 14:20:44 [Info] Gateway: Connecting
+17.08.2020 14:20:44 [Verbose] Rest: GET gateway: 72,62 ms
+17.08.2020 14:20:45 [Info] Gateway: Connected
+17.08.2020 14:20:45 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 14:20:46 [Info] Gateway: Ready
+17.08.2020 14:20:48 [Verbose] Rest: POST channels/744480279275634748/messages: 412,34 ms
+17.08.2020 14:20:48 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:49 [Verbose] Rest: POST channels/744480279275634748/messages: 351,12 ms
+17.08.2020 14:20:49 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:51 [Verbose] Rest: POST channels/744480279275634748/messages: 234,08 ms
+17.08.2020 14:20:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:52 [Verbose] Rest: POST channels/744480279275634748/messages: 290,1 ms
+17.08.2020 14:20:52 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:53 [Verbose] Rest: POST channels/744480279275634748/messages: 284,07 ms
+17.08.2020 14:20:53 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:20:58 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:20:59 [Verbose] Rest: POST channels/744480279275634748/messages: 279,37 ms
+17.08.2020 14:20:59 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:21:00 [Verbose] Rest: POST channels/744480279275634748/messages: 295,65 ms
+17.08.2020 14:21:00 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:29:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 14:30:00 [Verbose] Rest: GET voice/regions: 653,49 ms
+17.08.2020 14:30:00 [Verbose] Rest: GET users/@me: 264,71 ms
+17.08.2020 14:30:00 [Info] Gateway: Connecting
+17.08.2020 14:30:00 [Verbose] Rest: GET gateway: 75,05 ms
+17.08.2020 14:30:02 [Info] Gateway: Connected
+17.08.2020 14:30:02 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 14:30:03 [Info] Gateway: Ready
+17.08.2020 14:30:04 [Verbose] Rest: POST channels/744480279275634748/messages: 241,79 ms
+17.08.2020 14:30:04 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:30:06 [Verbose] Rest: POST channels/744480279275634748/messages: 545,26 ms
+17.08.2020 14:30:06 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:30:07 [Verbose] Rest: POST channels/744480279275634748/messages: 273,86 ms
+17.08.2020 14:30:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:30:08 [Verbose] Rest: POST channels/744480279275634748/messages: 330,26 ms
+17.08.2020 14:30:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:30:09 [Verbose] Rest: POST channels/744480279275634748/messages: 242,78 ms
+17.08.2020 14:30:09 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:30:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:30:15 [Verbose] Rest: POST channels/744480279275634748/messages: 5084,7 ms
+17.08.2020 14:30:15 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:30:17 [Verbose] Rest: POST channels/744480279275634748/messages: 224,96 ms
+17.08.2020 14:30:17 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:30:19 [Verbose] Rest: POST channels/744480279275634748/messages: 273,91 ms
+17.08.2020 14:30:19 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:30:21 [Verbose] Rest: POST channels/744480279275634748/messages: 246,76 ms
+17.08.2020 14:30:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:30:23 [Verbose] Rest: POST channels/744480279275634748/messages: 303,4 ms
+17.08.2020 14:30:23 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:30:24 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:30:26 [Verbose] Rest: POST channels/744480279275634748/messages: 2005,03 ms
+17.08.2020 14:30:26 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:31:26 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 14:31:27 [Verbose] Rest: GET voice/regions: 661,89 ms
+17.08.2020 14:31:27 [Verbose] Rest: GET users/@me: 244,76 ms
+17.08.2020 14:31:27 [Info] Gateway: Connecting
+17.08.2020 14:31:27 [Verbose] Rest: GET gateway: 83,12 ms
+17.08.2020 14:31:29 [Info] Gateway: Connected
+17.08.2020 14:31:29 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 14:31:30 [Info] Gateway: Ready
+17.08.2020 14:31:31 [Verbose] Rest: POST channels/744480279275634748/messages: 244,76 ms
+17.08.2020 14:31:31 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:31:32 [Verbose] Rest: POST channels/744480279275634748/messages: 253,03 ms
+17.08.2020 14:31:32 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:31:33 [Verbose] Rest: POST channels/744480279275634748/messages: 274,6 ms
+17.08.2020 14:31:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:31:34 [Verbose] Rest: POST channels/744480279275634748/messages: 258,53 ms
+17.08.2020 14:31:34 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:31:35 [Verbose] Rest: POST channels/744480279275634748/messages: 226,57 ms
+17.08.2020 14:31:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:31:36 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:31:37 [Verbose] Rest: POST channels/744480279275634748/messages: 595,1 ms
+17.08.2020 14:31:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:31:39 [Verbose] Rest: POST channels/744480279275634748/messages: 268,09 ms
+17.08.2020 14:31:39 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:31:40 [Verbose] Rest: POST channels/744480279275634748/messages: 242,72 ms
+17.08.2020 14:31:40 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:31:41 [Verbose] Rest: POST channels/744480279275634748/messages: 313,83 ms
+17.08.2020 14:31:41 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:31:42 [Verbose] Rest: POST channels/744480279275634748/messages: 405,66 ms
+17.08.2020 14:31:42 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 14:31:42 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 14:31:43 [Verbose] Rest: POST channels/744480279275634748/messages: 622,13 ms
+17.08.2020 14:31:43 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:29:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 15:29:39 [Verbose] Rest: GET voice/regions: 792,69 ms
+17.08.2020 15:29:40 [Verbose] Rest: GET users/@me: 246,55 ms
+17.08.2020 15:29:40 [Info] Gateway: Connecting
+17.08.2020 15:29:40 [Verbose] Rest: GET gateway: 89,64 ms
+17.08.2020 15:29:41 [Info] Gateway: Connected
+17.08.2020 15:29:41 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 15:29:42 [Info] Gateway: Ready
+17.08.2020 15:29:47 [Verbose] Rest: POST channels/744480279275634748/messages: 256,79 ms
+17.08.2020 15:29:47 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:29:49 [Verbose] Rest: POST channels/744480279275634748/messages: 256,67 ms
+17.08.2020 15:29:49 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:29:50 [Verbose] Rest: POST channels/744480279275634748/messages: 241,7 ms
+17.08.2020 15:29:50 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:29:52 [Verbose] Rest: POST channels/744480279275634748/messages: 773,66 ms
+17.08.2020 15:29:52 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:29:53 [Verbose] Rest: POST channels/744480279275634748/messages: 380,8 ms
+17.08.2020 15:29:53 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:29:55 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 15:29:58 [Verbose] Rest: POST channels/744480279275634748/messages: 3688,78 ms
+17.08.2020 15:29:58 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:00 [Verbose] Rest: POST channels/744480279275634748/messages: 307,7 ms
+17.08.2020 15:30:00 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:02 [Verbose] Rest: POST channels/744480279275634748/messages: 377 ms
+17.08.2020 15:30:02 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:04 [Verbose] Rest: POST channels/744480279275634748/messages: 256,45 ms
+17.08.2020 15:30:04 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:20 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 15:30:21 [Verbose] Rest: GET voice/regions: 665,5 ms
+17.08.2020 15:30:21 [Verbose] Rest: GET users/@me: 232,56 ms
+17.08.2020 15:30:21 [Info] Gateway: Connecting
+17.08.2020 15:30:22 [Verbose] Rest: GET gateway: 70,64 ms
+17.08.2020 15:30:23 [Info] Gateway: Connected
+17.08.2020 15:30:23 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 15:30:24 [Info] Gateway: Ready
+17.08.2020 15:30:28 [Verbose] Rest: POST channels/744480279275634748/messages: 256,72 ms
+17.08.2020 15:30:28 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:29 [Verbose] Rest: POST channels/744480279275634748/messages: 293,72 ms
+17.08.2020 15:30:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:30 [Verbose] Rest: POST channels/744480279275634748/messages: 255,96 ms
+17.08.2020 15:30:30 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:31 [Verbose] Rest: POST channels/744480279275634748/messages: 270,56 ms
+17.08.2020 15:30:31 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:33 [Verbose] Rest: POST channels/744480279275634748/messages: 270,53 ms
+17.08.2020 15:30:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:34 [Verbose] Rest: POST channels/744480279275634748/messages: 230,35 ms
+17.08.2020 15:30:34 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:36 [Verbose] Rest: POST channels/744480279275634748/messages: 227,04 ms
+17.08.2020 15:30:36 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:38 [Verbose] Rest: POST channels/744480279275634748/messages: 242,74 ms
+17.08.2020 15:30:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:39 [Verbose] Rest: POST channels/744480279275634748/messages: 296,86 ms
+17.08.2020 15:30:39 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:40 [Verbose] Rest: POST channels/744480279275634748/messages: 283,49 ms
+17.08.2020 15:30:40 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:30:41 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 15:30:45 [Verbose] Rest: POST channels/744480279275634748/messages: 4445,87 ms
+17.08.2020 15:30:45 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 15:42:16 [Verbose] Rest: GET voice/regions: 716,52 ms
+17.08.2020 15:42:16 [Verbose] Rest: GET users/@me: 304,7 ms
+17.08.2020 15:42:17 [Info] Gateway: Connecting
+17.08.2020 15:42:17 [Verbose] Rest: GET gateway: 83,23 ms
+17.08.2020 15:42:18 [Info] Gateway: Connected
+17.08.2020 15:42:18 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 15:42:19 [Info] Gateway: Ready
+17.08.2020 15:42:21 [Verbose] Rest: POST channels/744480279275634748/messages: 298,3 ms
+17.08.2020 15:42:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:22 [Verbose] Rest: POST channels/744480279275634748/messages: 265,37 ms
+17.08.2020 15:42:22 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:24 [Verbose] Rest: POST channels/744480279275634748/messages: 248,98 ms
+17.08.2020 15:42:24 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:25 [Verbose] Rest: POST channels/744480279275634748/messages: 258,53 ms
+17.08.2020 15:42:25 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:26 [Verbose] Rest: POST channels/744480279275634748/messages: 261,51 ms
+17.08.2020 15:42:26 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:28 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 15:42:32 [Verbose] Rest: POST channels/744480279275634748/messages: 3643,26 ms
+17.08.2020 15:42:32 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:34 [Verbose] Rest: POST channels/744480279275634748/messages: 232,26 ms
+17.08.2020 15:42:34 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:36 [Verbose] Rest: POST channels/744480279275634748/messages: 247,87 ms
+17.08.2020 15:42:36 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:37 [Verbose] Rest: POST channels/744480279275634748/messages: 369,46 ms
+17.08.2020 15:42:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:43 [Verbose] Rest: POST channels/744480279275634748/messages: 361,11 ms
+17.08.2020 15:42:43 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:47 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 15:42:48 [Verbose] Rest: POST channels/744480279275634748/messages: 832,36 ms
+17.08.2020 15:42:48 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:50 [Verbose] Rest: POST channels/744480279275634748/messages: 405,67 ms
+17.08.2020 15:42:50 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:53 [Verbose] Rest: POST channels/744480279275634748/messages: 318,93 ms
+17.08.2020 15:42:53 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:54 [Verbose] Rest: POST channels/744480279275634748/messages: 373,92 ms
+17.08.2020 15:42:54 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:55 [Verbose] Rest: POST channels/744480279275634748/messages: 265,6 ms
+17.08.2020 15:42:55 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:57 [Verbose] Rest: POST channels/744480279275634748/messages: 315,17 ms
+17.08.2020 15:42:57 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:42:58 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 15:43:00 [Verbose] Rest: POST channels/744480279275634748/messages: 2501,38 ms
+17.08.2020 15:43:00 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:43:02 [Verbose] Rest: POST channels/744480279275634748/messages: 277,64 ms
+17.08.2020 15:43:02 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:43:04 [Verbose] Rest: POST channels/744480279275634748/messages: 323,45 ms
+17.08.2020 15:43:04 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:43:33 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 15:43:34 [Verbose] Rest: GET voice/regions: 624,43 ms
+17.08.2020 15:43:34 [Verbose] Rest: GET users/@me: 290,83 ms
+17.08.2020 15:43:34 [Info] Gateway: Connecting
+17.08.2020 15:43:34 [Verbose] Rest: GET gateway: 70,79 ms
+17.08.2020 15:43:36 [Info] Gateway: Connected
+17.08.2020 15:43:36 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 15:43:37 [Info] Gateway: Ready
+17.08.2020 15:44:03 [Verbose] Rest: POST channels/744480279275634748/messages: 327,25 ms
+17.08.2020 15:44:03 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:44:05 [Verbose] Rest: POST channels/744480279275634748/messages: 457,53 ms
+17.08.2020 15:44:05 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:44:06 [Verbose] Rest: POST channels/744480279275634748/messages: 276,03 ms
+17.08.2020 15:44:06 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:44:07 [Verbose] Rest: POST channels/744480279275634748/messages: 671,73 ms
+17.08.2020 15:44:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:44:08 [Verbose] Rest: POST channels/744480279275634748/messages: 310,55 ms
+17.08.2020 15:44:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:44:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 15:44:14 [Verbose] Rest: POST channels/744480279275634748/messages: 4500,49 ms
+17.08.2020 15:44:14 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:59:41 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 15:59:41 [Verbose] Rest: GET voice/regions: 647,84 ms
+17.08.2020 15:59:42 [Verbose] Rest: GET users/@me: 260,84 ms
+17.08.2020 15:59:42 [Info] Gateway: Connecting
+17.08.2020 15:59:42 [Verbose] Rest: GET gateway: 83,17 ms
+17.08.2020 15:59:43 [Info] Gateway: Connected
+17.08.2020 15:59:43 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 15:59:44 [Info] Gateway: Ready
+17.08.2020 15:59:46 [Verbose] Rest: POST channels/744480279275634748/messages: 269,64 ms
+17.08.2020 15:59:46 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:59:47 [Verbose] Rest: POST channels/744480279275634748/messages: 262,05 ms
+17.08.2020 15:59:47 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:59:48 [Verbose] Rest: POST channels/744480279275634748/messages: 230,55 ms
+17.08.2020 15:59:48 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:59:50 [Verbose] Rest: POST channels/744480279275634748/messages: 225,62 ms
+17.08.2020 15:59:50 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:59:51 [Verbose] Rest: POST channels/744480279275634748/messages: 309,15 ms
+17.08.2020 15:59:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:59:51 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 15:59:52 [Verbose] Rest: POST channels/744480279275634748/messages: 785,23 ms
+17.08.2020 15:59:52 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:59:53 [Verbose] Rest: POST channels/744480279275634748/messages: 283,83 ms
+17.08.2020 15:59:53 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:59:55 [Verbose] Rest: POST channels/744480279275634748/messages: 265,77 ms
+17.08.2020 15:59:55 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:59:56 [Verbose] Rest: POST channels/744480279275634748/messages: 235,5 ms
+17.08.2020 15:59:56 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 15:59:57 [Verbose] Rest: POST channels/744480279275634748/messages: 223,69 ms
+17.08.2020 15:59:57 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:00:02 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:00:03 [Verbose] Rest: POST channels/744480279275634748/messages: 1356,45 ms
+17.08.2020 16:00:03 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:00:05 [Verbose] Rest: POST channels/744480279275634748/messages: 238,44 ms
+17.08.2020 16:00:05 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:00:08 [Verbose] Rest: POST channels/744480279275634748/messages: 398,61 ms
+17.08.2020 16:00:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:00:26 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 16:00:26 [Verbose] Rest: GET voice/regions: 664,18 ms
+17.08.2020 16:00:27 [Verbose] Rest: GET users/@me: 239,08 ms
+17.08.2020 16:00:27 [Info] Gateway: Connecting
+17.08.2020 16:00:27 [Verbose] Rest: GET gateway: 82,22 ms
+17.08.2020 16:00:28 [Info] Gateway: Connected
+17.08.2020 16:00:28 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 16:00:29 [Info] Gateway: Ready
+17.08.2020 16:00:31 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source)
+   at DarlingBotNet.DataBase.UsersRepository.GetOrCreate(UInt64 userId, UInt64 guildId) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\Database\Repositories\Impl\UsersRepository.cs:line 24
+   at DarlingBotNet.Services.SystemLoading.ChatSystem(SocketCommandContext msg) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 413
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 424
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+17.08.2020 16:01:09 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 16:01:10 [Verbose] Rest: GET voice/regions: 708,83 ms
+17.08.2020 16:01:11 [Verbose] Rest: GET users/@me: 245,85 ms
+17.08.2020 16:01:11 [Info] Gateway: Connecting
+17.08.2020 16:01:11 [Verbose] Rest: GET gateway: 82,45 ms
+17.08.2020 16:01:12 [Info] Gateway: Connected
+17.08.2020 16:01:12 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 16:01:13 [Info] Gateway: Ready
+17.08.2020 16:01:15 [Verbose] Rest: POST channels/744480279275634748/messages: 275,78 ms
+17.08.2020 16:01:15 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:01:16 [Verbose] Rest: POST channels/744480279275634748/messages: 261,03 ms
+17.08.2020 16:01:16 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:01:17 [Verbose] Rest: POST channels/744480279275634748/messages: 318,84 ms
+17.08.2020 16:01:17 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:01:18 [Verbose] Rest: POST channels/744480279275634748/messages: 513,37 ms
+17.08.2020 16:01:18 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:01:19 [Verbose] Rest: POST channels/744480279275634748/messages: 598,46 ms
+17.08.2020 16:01:19 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:01:20 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:01:21 [Verbose] Rest: POST channels/744480279275634748/messages: 462,87 ms
+17.08.2020 16:01:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:01:21 [Verbose] Rest: POST channels/744480279275634748/messages: 308,57 ms
+17.08.2020 16:01:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:01:23 [Verbose] Rest: POST channels/744480279275634748/messages: 287,86 ms
+17.08.2020 16:01:23 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:01:23 [Verbose] Rest: POST channels/744480279275634748/messages: 290,23 ms
+17.08.2020 16:01:23 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:01:24 [Verbose] Rest: POST channels/744480279275634748/messages: 251,64 ms
+17.08.2020 16:01:24 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:01:25 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:01:25 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:01:25 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:01:27 [Verbose] Rest: POST channels/744480279275634748/messages: 2008,17 ms
+17.08.2020 16:01:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:01:27 [Verbose] Rest: POST channels/744480279275634748/messages: 2217,5 ms
+17.08.2020 16:01:27 [Verbose] Rest: POST channels/744480279275634748/messages: 354,64 ms
+17.08.2020 16:01:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:01:27 [Verbose] Rest: POST channels/744480279275634748/messages: 303,98 ms
+17.08.2020 16:01:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:04:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 16:04:05 [Verbose] Rest: GET voice/regions: 612,47 ms
+17.08.2020 16:04:06 [Verbose] Rest: GET users/@me: 217,56 ms
+17.08.2020 16:04:06 [Info] Gateway: Connecting
+17.08.2020 16:04:06 [Verbose] Rest: GET gateway: 70,03 ms
+17.08.2020 16:04:07 [Info] Gateway: Connected
+17.08.2020 16:04:07 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 16:04:08 [Info] Gateway: Ready
+17.08.2020 16:04:09 [Verbose] Rest: POST channels/744480279275634748/messages: 298,75 ms
+17.08.2020 16:04:09 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:04:10 [Verbose] Rest: POST channels/744480279275634748/messages: 218,43 ms
+17.08.2020 16:04:10 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:04:12 [Verbose] Rest: POST channels/744480279275634748/messages: 269,26 ms
+17.08.2020 16:04:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:04:13 [Verbose] Rest: POST channels/744480279275634748/messages: 237,46 ms
+17.08.2020 16:04:13 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:04:14 [Verbose] Rest: POST channels/744480279275634748/messages: 239,17 ms
+17.08.2020 16:04:14 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:09:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 16:09:16 [Verbose] Rest: GET voice/regions: 764,36 ms
+17.08.2020 16:09:16 [Verbose] Rest: GET users/@me: 219,39 ms
+17.08.2020 16:09:16 [Info] Gateway: Connecting
+17.08.2020 16:09:16 [Verbose] Rest: GET gateway: 81,83 ms
+17.08.2020 16:13:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 16:13:05 [Verbose] Rest: GET voice/regions: 645,52 ms
+17.08.2020 16:13:05 [Verbose] Rest: GET users/@me: 255,05 ms
+17.08.2020 16:13:06 [Info] Gateway: Connecting
+17.08.2020 16:13:06 [Verbose] Rest: GET gateway: 75,66 ms
+17.08.2020 16:13:07 [Info] Gateway: Connected
+17.08.2020 16:13:07 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 16:13:08 [Info] Gateway: Ready
+17.08.2020 16:13:10 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 16:13:24 [Verbose] Rest: GET voice/regions: 725,92 ms
+17.08.2020 16:13:25 [Verbose] Rest: GET users/@me: 252,22 ms
+17.08.2020 16:13:25 [Info] Gateway: Connecting
+17.08.2020 16:13:25 [Verbose] Rest: GET gateway: 74,61 ms
+17.08.2020 16:13:26 [Info] Gateway: Connected
+17.08.2020 16:13:26 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 16:13:27 [Info] Gateway: Ready
+17.08.2020 16:13:30 [Verbose] Rest: POST channels/744480279275634748/messages: 254,28 ms
+17.08.2020 16:13:30 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:31 [Verbose] Rest: POST channels/744480279275634748/messages: 238,6 ms
+17.08.2020 16:13:31 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:32 [Verbose] Rest: POST channels/744480279275634748/messages: 229,6 ms
+17.08.2020 16:13:32 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:33 [Verbose] Rest: POST channels/744480279275634748/messages: 245,4 ms
+17.08.2020 16:13:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:34 [Verbose] Rest: POST channels/744480279275634748/messages: 227,47 ms
+17.08.2020 16:13:34 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:35 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:36 [Verbose] Rest: POST channels/744480279275634748/messages: 773,6 ms
+17.08.2020 16:13:36 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:36 [Verbose] Rest: POST channels/744480279275634748/messages: 251,41 ms
+17.08.2020 16:13:36 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:37 [Verbose] Rest: POST channels/744480279275634748/messages: 269,6 ms
+17.08.2020 16:13:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:38 [Verbose] Rest: POST channels/744480279275634748/messages: 236,87 ms
+17.08.2020 16:13:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:39 [Verbose] Rest: POST channels/744480279275634748/messages: 267,25 ms
+17.08.2020 16:13:39 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:40 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:40 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:42 [Verbose] Rest: POST channels/744480279275634748/messages: 1565,19 ms
+17.08.2020 16:13:42 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:43 [Verbose] Rest: POST channels/744480279275634748/messages: 290,44 ms
+17.08.2020 16:13:43 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:44 [Verbose] Rest: POST channels/744480279275634748/messages: 260,81 ms
+17.08.2020 16:13:44 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:45 [Verbose] Rest: POST channels/744480279275634748/messages: 278,58 ms
+17.08.2020 16:13:45 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:50 [Verbose] Rest: POST channels/744480279275634748/messages: 255,71 ms
+17.08.2020 16:13:51 [Verbose] Rest: POST channels/744480279275634748/messages: 283,69 ms
+17.08.2020 16:13:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:51 [Verbose] Rest: POST channels/744480279275634748/messages: 297,39 ms
+17.08.2020 16:13:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:51 [Verbose] Rest: POST channels/744480279275634748/messages: 489,51 ms
+17.08.2020 16:13:51 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:51 [Verbose] Rest: POST channels/744480279275634748/messages: 279,41 ms
+17.08.2020 16:13:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:52 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:52 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:53 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:53 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:53 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:54 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:56 [Verbose] Rest: POST channels/744480279275634748/messages: 3901,79 ms
+17.08.2020 16:13:56 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:56 [Verbose] Rest: POST channels/744480279275634748/messages: 4705,65 ms
+17.08.2020 16:13:56 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:56 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:56 [Verbose] Rest: POST channels/744480279275634748/messages: 3634,48 ms
+17.08.2020 16:13:56 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:56 [Verbose] Rest: POST channels/744480279275634748/messages: 4655,41 ms
+17.08.2020 16:13:56 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:56 [Verbose] Rest: POST channels/744480279275634748/messages: 3486,61 ms
+17.08.2020 16:13:56 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:13:56 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:57 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:57 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:57 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:57 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:57 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:57 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:13:57 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:14:02 [Verbose] Rest: POST channels/744480279275634748/messages: 8113,5 ms
+17.08.2020 16:14:02 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:14:02 [Verbose] Rest: POST channels/744480279275634748/messages: 8526,48 ms
+17.08.2020 16:14:02 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:14:20 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 16:14:20 [Verbose] Rest: GET voice/regions: 686,69 ms
+17.08.2020 16:14:21 [Verbose] Rest: GET users/@me: 297,17 ms
+17.08.2020 16:14:21 [Info] Gateway: Connecting
+17.08.2020 16:14:21 [Verbose] Rest: GET gateway: 82,1 ms
+17.08.2020 16:14:22 [Info] Gateway: Connected
+17.08.2020 16:14:22 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 16:14:23 [Info] Gateway: Ready
+17.08.2020 16:14:26 [Verbose] Rest: POST channels/744480279275634748/messages: 264,5 ms
+17.08.2020 16:14:26 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:14:27 [Verbose] Rest: POST channels/744480279275634748/messages: 296,78 ms
+17.08.2020 16:14:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:14:28 [Verbose] Rest: POST channels/744480279275634748/messages: 257,27 ms
+17.08.2020 16:14:28 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:14:29 [Verbose] Rest: POST channels/744480279275634748/messages: 350,3 ms
+17.08.2020 16:14:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:14:30 [Verbose] Rest: POST channels/744480279275634748/messages: 250,99 ms
+17.08.2020 16:14:30 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:14:34 [Verbose] Rest: POST channels/744480279275634748/messages: 263 ms
+17.08.2020 16:14:34 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:14:36 [Verbose] Rest: POST channels/744480279275634748/messages: 258,43 ms
+17.08.2020 16:14:36 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:14:37 [Verbose] Rest: POST channels/744480279275634748/messages: 229,41 ms
+17.08.2020 16:14:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:14:54 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 16:14:54 [Verbose] Rest: GET voice/regions: 674,66 ms
+17.08.2020 16:14:55 [Verbose] Rest: GET users/@me: 250,42 ms
+17.08.2020 16:14:55 [Info] Gateway: Connecting
+17.08.2020 16:14:55 [Verbose] Rest: GET gateway: 77,92 ms
+17.08.2020 16:14:56 [Info] Gateway: Connected
+17.08.2020 16:14:56 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 16:14:57 [Info] Gateway: Ready
+17.08.2020 16:14:59 [Verbose] Rest: POST channels/744480279275634748/messages: 324,22 ms
+17.08.2020 16:14:59 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:00 [Verbose] Rest: POST channels/744480279275634748/messages: 593,83 ms
+17.08.2020 16:15:00 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:01 [Verbose] Rest: POST channels/744480279275634748/messages: 299,73 ms
+17.08.2020 16:15:01 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:03 [Verbose] Rest: POST channels/744480279275634748/messages: 311,44 ms
+17.08.2020 16:15:03 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:03 [Verbose] Rest: POST channels/744480279275634748/messages: 242,52 ms
+17.08.2020 16:15:03 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:04 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:15:05 [Verbose] Rest: POST channels/744480279275634748/messages: 402,69 ms
+17.08.2020 16:15:05 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:06 [Verbose] Rest: POST channels/744480279275634748/messages: 320,06 ms
+17.08.2020 16:15:06 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:07 [Verbose] Rest: POST channels/744480279275634748/messages: 294,87 ms
+17.08.2020 16:15:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:08 [Verbose] Rest: POST channels/744480279275634748/messages: 311,4 ms
+17.08.2020 16:15:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:09 [Verbose] Rest: POST channels/744480279275634748/messages: 222,65 ms
+17.08.2020 16:15:09 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:10 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:15:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:15:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 16:15:11 [Verbose] Rest: POST channels/744480279275634748/messages: 734,15 ms
+17.08.2020 16:15:11 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:11 [Verbose] Rest: POST channels/744480279275634748/messages: 1514,46 ms
+17.08.2020 16:15:11 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:15 [Verbose] Rest: POST channels/744480279275634748/messages: 264,46 ms
+17.08.2020 16:15:15 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:17 [Verbose] Rest: POST channels/744480279275634748/messages: 410,82 ms
+17.08.2020 16:15:17 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:18 [Verbose] Rest: POST channels/744480279275634748/messages: 223,69 ms
+17.08.2020 16:15:18 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:19 [Verbose] Rest: POST channels/744480279275634748/messages: 274,35 ms
+17.08.2020 16:15:19 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:15:21 [Verbose] Rest: POST channels/744480279275634748/messages: 270,34 ms
+17.08.2020 16:15:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 16:59:53 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 16:59:54 [Verbose] Rest: GET voice/regions: 628,1 ms
+17.08.2020 16:59:55 [Verbose] Rest: GET users/@me: 257,79 ms
+17.08.2020 16:59:55 [Info] Gateway: Connecting
+17.08.2020 16:59:55 [Verbose] Rest: GET gateway: 80,99 ms
+17.08.2020 16:59:56 [Info] Gateway: Connected
+17.08.2020 16:59:56 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 16:59:57 [Info] Gateway: Ready
+17.08.2020 17:00:00 [Verbose] Rest: POST channels/744480279275634748/messages: 279,23 ms
+17.08.2020 17:00:00 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:01 [Verbose] Rest: POST channels/744480279275634748/messages: 255,69 ms
+17.08.2020 17:00:01 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:02 [Verbose] Rest: POST channels/744480279275634748/messages: 305,45 ms
+17.08.2020 17:00:02 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:03 [Verbose] Rest: POST channels/744480279275634748/messages: 242,62 ms
+17.08.2020 17:00:03 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 17:00:31 [Verbose] Rest: GET voice/regions: 671,25 ms
+17.08.2020 17:00:32 [Verbose] Rest: GET users/@me: 227,77 ms
+17.08.2020 17:00:32 [Info] Gateway: Connecting
+17.08.2020 17:00:32 [Verbose] Rest: GET gateway: 80,05 ms
+17.08.2020 17:00:33 [Info] Gateway: Connected
+17.08.2020 17:00:33 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 17:00:34 [Info] Gateway: Ready
+17.08.2020 17:00:35 [Verbose] Rest: POST channels/744480279275634748/messages: 242,73 ms
+17.08.2020 17:00:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:36 [Verbose] Rest: POST channels/744480279275634748/messages: 300,63 ms
+17.08.2020 17:00:36 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:37 [Verbose] Rest: POST channels/744480279275634748/messages: 285,3 ms
+17.08.2020 17:00:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:38 [Verbose] Rest: POST channels/744480279275634748/messages: 258,35 ms
+17.08.2020 17:00:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:38 [Verbose] Rest: POST channels/744480279275634748/messages: 406,33 ms
+17.08.2020 17:00:39 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 17:00:41 [Verbose] Rest: POST channels/744480279275634748/messages: 1923,45 ms
+17.08.2020 17:00:41 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:42 [Verbose] Rest: POST channels/744480279275634748/messages: 253,61 ms
+17.08.2020 17:00:42 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:43 [Verbose] Rest: POST channels/744480279275634748/messages: 267,57 ms
+17.08.2020 17:00:43 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:45 [Verbose] Rest: POST channels/744480279275634748/messages: 249,08 ms
+17.08.2020 17:00:45 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:46 [Verbose] Rest: POST channels/744480279275634748/messages: 242,96 ms
+17.08.2020 17:00:46 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:47 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 17:00:51 [Verbose] Rest: POST channels/744480279275634748/messages: 4630,31 ms
+17.08.2020 17:00:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:57 [Verbose] Rest: POST channels/744480279275634748/messages: 256,9 ms
+17.08.2020 17:00:57 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:00:58 [Verbose] Rest: POST channels/744480279275634748/messages: 340,63 ms
+17.08.2020 17:00:58 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:05:01 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 17:05:02 [Verbose] Rest: GET voice/regions: 779,82 ms
+17.08.2020 17:05:02 [Verbose] Rest: GET users/@me: 234,4 ms
+17.08.2020 17:05:02 [Info] Gateway: Connecting
+17.08.2020 17:05:02 [Verbose] Rest: GET gateway: 75,23 ms
+17.08.2020 17:05:04 [Info] Gateway: Connected
+17.08.2020 17:05:04 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 17:05:05 [Info] Gateway: Ready
+17.08.2020 17:05:45 [Verbose] Rest: POST channels/744480279275634748/messages: 297,82 ms
+17.08.2020 17:05:45 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:05:46 [Verbose] Rest: POST channels/744480279275634748/messages: 226,94 ms
+17.08.2020 17:05:46 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:05:47 [Verbose] Rest: POST channels/744480279275634748/messages: 251,55 ms
+17.08.2020 17:05:47 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:05:48 [Verbose] Rest: POST channels/744480279275634748/messages: 234,84 ms
+17.08.2020 17:05:48 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:05:49 [Verbose] Rest: POST channels/744480279275634748/messages: 253,31 ms
+17.08.2020 17:05:49 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:05:50 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 17:05:51 [Verbose] Rest: POST channels/744480279275634748/messages: 365,74 ms
+17.08.2020 17:05:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:05:52 [Verbose] Rest: POST channels/744480279275634748/messages: 263 ms
+17.08.2020 17:05:52 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:05:54 [Verbose] Rest: POST channels/744480279275634748/messages: 226,49 ms
+17.08.2020 17:05:54 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:05:55 [Verbose] Rest: POST channels/744480279275634748/messages: 293,25 ms
+17.08.2020 17:05:55 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:05:56 [Verbose] Rest: POST channels/744480279275634748/messages: 264,95 ms
+17.08.2020 17:05:56 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:05:58 [Verbose] Rest: POST channels/744480279275634748/messages: 311,36 ms
+17.08.2020 17:05:58 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:05:59 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 17:06:02 [Verbose] Rest: POST channels/744480279275634748/messages: 2933,96 ms
+17.08.2020 17:06:02 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:06:25 [Verbose] Rest: POST channels/744480279275634748/messages: 352,34 ms
+17.08.2020 17:06:25 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:06:27 [Verbose] Rest: POST channels/744480279275634748/messages: 387,35 ms
+17.08.2020 17:06:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:06:30 [Verbose] Rest: POST channels/744480279275634748/messages: 270,15 ms
+17.08.2020 17:06:30 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:07:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 17:07:27 [Verbose] Rest: GET voice/regions: 696,44 ms
+17.08.2020 17:07:28 [Verbose] Rest: GET users/@me: 213,56 ms
+17.08.2020 17:07:28 [Info] Gateway: Connecting
+17.08.2020 17:07:28 [Verbose] Rest: GET gateway: 89,48 ms
+17.08.2020 17:07:29 [Info] Gateway: Connected
+17.08.2020 17:07:29 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 17:07:30 [Info] Gateway: Ready
+17.08.2020 17:07:34 [Error] Command: Discord.Commands.CommandException: Error occurred executing "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.ObjectDisposedException: Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'DBcontext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at DarlingBotNet.DataBase.Rep`1..ctor(DbContext context) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\Rep.cs:line 15
+   at DarlingBotNet.DataBase.UR..ctor(DbContext context) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\UR.cs:line 12
+   at DarlingBotNet.DataBase.UOW.get_Users() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\UOW.cs:line 16
+   at DarlingBotNet.Modules.User.addc() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\User.cs:line 203
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+17.08.2020 17:07:34 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:08:01 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 17:08:02 [Verbose] Rest: GET voice/regions: 678,51 ms
+17.08.2020 17:08:02 [Verbose] Rest: GET users/@me: 242,99 ms
+17.08.2020 17:08:02 [Info] Gateway: Connecting
+17.08.2020 17:08:02 [Verbose] Rest: GET gateway: 76,09 ms
+17.08.2020 17:08:03 [Info] Gateway: Connected
+17.08.2020 17:08:03 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 17:08:04 [Info] Gateway: Ready
+17.08.2020 17:08:05 [Error] Command: Discord.Commands.CommandException: Error occurred executing "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.ObjectDisposedException: Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'DBcontext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at DarlingBotNet.DataBase.Rep`1..ctor(DbContext context) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\Rep.cs:line 15
+   at DarlingBotNet.DataBase.UR..ctor(DbContext context) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\UR.cs:line 12
+   at DarlingBotNet.DataBase.UOW.get_Users() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\UOW.cs:line 16
+   at DarlingBotNet.Modules.User.addc() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\User.cs:line 203
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+17.08.2020 17:08:05 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:09:09 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 17:09:10 [Verbose] Rest: GET voice/regions: 685,76 ms
+17.08.2020 17:09:10 [Verbose] Rest: GET users/@me: 268,97 ms
+17.08.2020 17:09:10 [Info] Gateway: Connecting
+17.08.2020 17:09:10 [Verbose] Rest: GET gateway: 73,62 ms
+17.08.2020 17:09:11 [Info] Gateway: Connected
+17.08.2020 17:09:11 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 17:09:12 [Info] Gateway: Ready
+17.08.2020 17:09:14 [Error] Command: Discord.Commands.CommandException: Error occurred executing "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.ObjectDisposedException: Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'DBcontext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at DarlingBotNet.DataBase.Rep`1..ctor(DbContext context) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\Rep.cs:line 15
+   at DarlingBotNet.DataBase.UR..ctor(DbContext context) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\UR.cs:line 12
+   at DarlingBotNet.DataBase.UOW.get_Users() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\UOW.cs:line 16
+   at DarlingBotNet.Modules.User.addc() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\User.cs:line 203
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+17.08.2020 17:09:14 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:09:26 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 17:09:27 [Verbose] Rest: GET voice/regions: 679,98 ms
+17.08.2020 17:09:27 [Verbose] Rest: GET users/@me: 223,01 ms
+17.08.2020 17:09:28 [Info] Gateway: Connecting
+17.08.2020 17:09:28 [Verbose] Rest: GET gateway: 80,59 ms
+17.08.2020 17:09:29 [Info] Gateway: Connected
+17.08.2020 17:09:29 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 17:09:30 [Info] Gateway: Ready
+17.08.2020 17:09:36 [Verbose] Rest: POST channels/744480279275634748/messages: 319,12 ms
+17.08.2020 17:09:36 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:09:38 [Verbose] Rest: POST channels/744480279275634748/messages: 299,55 ms
+17.08.2020 17:09:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:10:30 [Verbose] Rest: POST channels/744480279275634748/messages: 268,05 ms
+17.08.2020 17:10:30 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:10:31 [Verbose] Rest: POST channels/744480279275634748/messages: 275,68 ms
+17.08.2020 17:10:31 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:10:32 [Verbose] Rest: POST channels/744480279275634748/messages: 272,54 ms
+17.08.2020 17:10:32 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:10:33 [Verbose] Rest: POST channels/744480279275634748/messages: 243,12 ms
+17.08.2020 17:10:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:11:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 17:11:13 [Verbose] Rest: GET voice/regions: 779,35 ms
+17.08.2020 17:11:14 [Verbose] Rest: GET users/@me: 334,89 ms
+17.08.2020 17:11:14 [Info] Gateway: Connecting
+17.08.2020 17:11:14 [Verbose] Rest: GET gateway: 76,85 ms
+17.08.2020 17:11:15 [Info] Gateway: Connected
+17.08.2020 17:11:15 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 17:11:16 [Info] Gateway: Ready
+17.08.2020 17:11:18 [Verbose] Rest: POST channels/744480279275634748/messages: 328,53 ms
+17.08.2020 17:11:18 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:11:19 [Verbose] Rest: POST channels/744480279275634748/messages: 340,77 ms
+17.08.2020 17:11:19 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:11:20 [Verbose] Rest: POST channels/744480279275634748/messages: 231,7 ms
+17.08.2020 17:11:20 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:11:21 [Verbose] Rest: POST channels/744480279275634748/messages: 347,4 ms
+17.08.2020 17:11:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:11:22 [Verbose] Rest: POST channels/744480279275634748/messages: 267,54 ms
+17.08.2020 17:11:22 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:11:23 [Verbose] Rest: POST channels/744480279275634748/messages: 289,81 ms
+17.08.2020 17:11:23 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:11:26 [Verbose] Rest: POST channels/744480279275634748/messages: 306,74 ms
+17.08.2020 17:11:26 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:11:28 [Verbose] Rest: POST channels/744480279275634748/messages: 417,95 ms
+17.08.2020 17:11:28 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:11:29 [Verbose] Rest: POST channels/744480279275634748/messages: 240,56 ms
+17.08.2020 17:11:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:11:30 [Verbose] Rest: POST channels/744480279275634748/messages: 345,99 ms
+17.08.2020 17:11:30 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:11:32 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 17:11:35 [Verbose] Rest: POST channels/744480279275634748/messages: 3221,8 ms
+17.08.2020 17:11:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:13:12 [Verbose] Rest: POST channels/744480279275634748/messages: 300,11 ms
+17.08.2020 17:13:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:14:14 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 17:14:15 [Verbose] Rest: GET voice/regions: 663,43 ms
+17.08.2020 17:14:15 [Verbose] Rest: GET users/@me: 231,8 ms
+17.08.2020 17:14:15 [Info] Gateway: Connecting
+17.08.2020 17:14:15 [Verbose] Rest: GET gateway: 80,78 ms
+17.08.2020 17:14:16 [Info] Gateway: Connected
+17.08.2020 17:14:17 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 17:14:17 [Info] Gateway: Ready
+17.08.2020 17:14:19 [Verbose] Rest: POST channels/744480279275634748/messages: 320,21 ms
+17.08.2020 17:14:19 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:14:20 [Verbose] Rest: POST channels/744480279275634748/messages: 282,47 ms
+17.08.2020 17:14:20 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:14:22 [Verbose] Rest: POST channels/744480279275634748/messages: 250,13 ms
+17.08.2020 17:14:22 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:14:23 [Verbose] Rest: POST channels/744480279275634748/messages: 252,63 ms
+17.08.2020 17:14:23 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:14:24 [Verbose] Rest: POST channels/744480279275634748/messages: 245,84 ms
+17.08.2020 17:14:24 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:14:25 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 17:14:25 [Verbose] Rest: POST channels/744480279275634748/messages: 378,58 ms
+17.08.2020 17:14:25 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:14:28 [Verbose] Rest: POST channels/744480279275634748/messages: 242,94 ms
+17.08.2020 17:14:28 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 17:14:29 [Verbose] Rest: POST channels/744480279275634748/messages: 275,92 ms
+17.08.2020 17:14:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:45:06 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 19:45:07 [Verbose] Rest: GET voice/regions: 836,21 ms
+17.08.2020 19:45:07 [Verbose] Rest: GET users/@me: 236,18 ms
+17.08.2020 19:45:07 [Info] Gateway: Connecting
+17.08.2020 19:45:07 [Verbose] Rest: GET gateway: 78,15 ms
+17.08.2020 19:45:08 [Info] Gateway: Connected
+17.08.2020 19:45:08 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 19:45:09 [Info] Gateway: Ready
+17.08.2020 19:45:11 [Verbose] Rest: POST channels/744480279275634748/messages: 277,55 ms
+17.08.2020 19:45:11 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:45:13 [Verbose] Rest: POST channels/744480279275634748/messages: 245,47 ms
+17.08.2020 19:45:13 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:45:14 [Verbose] Rest: POST channels/744480279275634748/messages: 322,7 ms
+17.08.2020 19:45:14 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:45:15 [Verbose] Rest: POST channels/744480279275634748/messages: 252,44 ms
+17.08.2020 19:45:15 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:45:17 [Verbose] Rest: POST channels/744480279275634748/messages: 378,05 ms
+17.08.2020 19:45:17 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:45:17 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 19:45:22 [Verbose] Rest: POST channels/744480279275634748/messages: 4990,51 ms
+17.08.2020 19:45:22 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:45:24 [Verbose] Rest: POST channels/744480279275634748/messages: 263,75 ms
+17.08.2020 19:45:24 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:45:25 [Verbose] Rest: POST channels/744480279275634748/messages: 245,55 ms
+17.08.2020 19:45:25 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:45:27 [Verbose] Rest: POST channels/744480279275634748/messages: 289,9 ms
+17.08.2020 19:45:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:45:29 [Verbose] Rest: POST channels/744480279275634748/messages: 249,32 ms
+17.08.2020 19:45:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:45:35 [Verbose] Rest: POST channels/744480279275634748/messages: 265,52 ms
+17.08.2020 19:45:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:45:38 [Verbose] Rest: POST channels/744480279275634748/messages: 255,52 ms
+17.08.2020 19:45:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:46:55 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 19:46:56 [Verbose] Rest: GET voice/regions: 660,63 ms
+17.08.2020 19:46:56 [Verbose] Rest: GET users/@me: 319,12 ms
+17.08.2020 19:46:56 [Info] Gateway: Connecting
+17.08.2020 19:46:56 [Verbose] Rest: GET gateway: 73,25 ms
+17.08.2020 19:46:57 [Info] Gateway: Connected
+17.08.2020 19:46:58 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 19:46:58 [Info] Gateway: Ready
+17.08.2020 19:47:03 [Verbose] Rest: POST channels/744480279275634748/messages: 327,16 ms
+17.08.2020 19:47:03 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:04 [Verbose] Rest: POST channels/744480279275634748/messages: 231,54 ms
+17.08.2020 19:47:04 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:05 [Verbose] Rest: POST channels/744480279275634748/messages: 304,58 ms
+17.08.2020 19:47:05 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:06 [Verbose] Rest: POST channels/744480279275634748/messages: 351,34 ms
+17.08.2020 19:47:06 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:07 [Verbose] Rest: POST channels/744480279275634748/messages: 302,39 ms
+17.08.2020 19:47:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:08 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 19:47:08 [Verbose] Rest: POST channels/744480279275634748/messages: 315,73 ms
+17.08.2020 19:47:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:09 [Verbose] Rest: POST channels/744480279275634748/messages: 303,83 ms
+17.08.2020 19:47:09 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:10 [Verbose] Rest: POST channels/744480279275634748/messages: 267,31 ms
+17.08.2020 19:47:10 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:11 [Verbose] Rest: POST channels/744480279275634748/messages: 240,39 ms
+17.08.2020 19:47:11 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:13 [Verbose] Rest: POST channels/744480279275634748/messages: 248,05 ms
+17.08.2020 19:47:13 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:14 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 19:47:14 [Verbose] Rest: POST channels/744480279275634748/messages: 405,89 ms
+17.08.2020 19:47:14 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:15 [Verbose] Rest: POST channels/744480279275634748/messages: 249,87 ms
+17.08.2020 19:47:15 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:16 [Verbose] Rest: POST channels/744480279275634748/messages: 339,79 ms
+17.08.2020 19:47:16 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:17 [Verbose] Rest: POST channels/744480279275634748/messages: 275,48 ms
+17.08.2020 19:47:17 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:18 [Verbose] Rest: POST channels/744480279275634748/messages: 293,72 ms
+17.08.2020 19:47:18 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:20 [Verbose] Rest: POST channels/744480279275634748/messages: 264,81 ms
+17.08.2020 19:47:20 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:20 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 19:47:25 [Verbose] Rest: POST channels/744480279275634748/messages: 5208,46 ms
+17.08.2020 19:47:25 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:27 [Verbose] Rest: POST channels/744480279275634748/messages: 239,47 ms
+17.08.2020 19:47:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 19:47:40 [Verbose] Rest: GET voice/regions: 681,19 ms
+17.08.2020 19:47:40 [Verbose] Rest: GET users/@me: 226,07 ms
+17.08.2020 19:47:40 [Info] Gateway: Connecting
+17.08.2020 19:47:40 [Verbose] Rest: GET gateway: 89,89 ms
+17.08.2020 19:47:42 [Info] Gateway: Connected
+17.08.2020 19:47:42 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 19:47:43 [Info] Gateway: Ready
+17.08.2020 19:47:46 [Verbose] Rest: POST channels/744480279275634748/messages: 327,6 ms
+17.08.2020 19:47:46 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:47 [Verbose] Rest: POST channels/744480279275634748/messages: 312,83 ms
+17.08.2020 19:47:47 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:48 [Verbose] Rest: POST channels/744480279275634748/messages: 260,76 ms
+17.08.2020 19:47:48 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:49 [Verbose] Rest: POST channels/744480279275634748/messages: 259,12 ms
+17.08.2020 19:47:49 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:47:50 [Verbose] Rest: POST channels/744480279275634748/messages: 261,12 ms
+17.08.2020 19:47:50 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:48:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 19:48:36 [Verbose] Rest: GET voice/regions: 650,54 ms
+17.08.2020 19:48:37 [Verbose] Rest: GET users/@me: 238,5 ms
+17.08.2020 19:48:37 [Info] Gateway: Connecting
+17.08.2020 19:48:37 [Verbose] Rest: GET gateway: 75,02 ms
+17.08.2020 19:48:38 [Info] Gateway: Connected
+17.08.2020 19:48:38 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 19:48:39 [Info] Gateway: Ready
+17.08.2020 19:48:44 [Verbose] Rest: POST channels/744480279275634748/messages: 294,38 ms
+17.08.2020 19:48:44 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:48:46 [Verbose] Rest: POST channels/744480279275634748/messages: 252,03 ms
+17.08.2020 19:48:46 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:48:47 [Verbose] Rest: POST channels/744480279275634748/messages: 471,64 ms
+17.08.2020 19:48:47 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:48:52 [Verbose] Rest: POST channels/744480279275634748/messages: 296,37 ms
+17.08.2020 19:48:52 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:48:55 [Verbose] Rest: POST channels/744480279275634748/messages: 364,37 ms
+17.08.2020 19:48:55 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:05 [Verbose] Rest: POST channels/744480279275634748/messages: 237,08 ms
+17.08.2020 19:49:05 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:06 [Verbose] Rest: POST channels/744480279275634748/messages: 245,96 ms
+17.08.2020 19:49:06 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:08 [Verbose] Rest: POST channels/744480279275634748/messages: 287,75 ms
+17.08.2020 19:49:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:10 [Verbose] Rest: POST channels/744480279275634748/messages: 247,48 ms
+17.08.2020 19:49:10 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:14 [Verbose] Rest: POST channels/744480279275634748/messages: 250,91 ms
+17.08.2020 19:49:14 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:17 [Verbose] Rest: POST channels/744480279275634748/messages: 262,27 ms
+17.08.2020 19:49:17 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:17 [Verbose] Rest: POST channels/744480279275634748/messages: 447,21 ms
+17.08.2020 19:49:25 [Verbose] Rest: POST channels/744480279275634748/messages: 266,62 ms
+17.08.2020 19:49:25 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:27 [Verbose] Rest: POST channels/744480279275634748/messages: 262,23 ms
+17.08.2020 19:49:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:28 [Verbose] Rest: POST channels/744480279275634748/messages: 262,26 ms
+17.08.2020 19:49:28 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:46 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 19:49:47 [Verbose] Rest: GET voice/regions: 644,55 ms
+17.08.2020 19:49:47 [Verbose] Rest: GET users/@me: 325,85 ms
+17.08.2020 19:49:47 [Info] Gateway: Connecting
+17.08.2020 19:49:47 [Verbose] Rest: GET gateway: 84,23 ms
+17.08.2020 19:49:48 [Info] Gateway: Connected
+17.08.2020 19:49:48 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 19:49:49 [Info] Gateway: Ready
+17.08.2020 19:49:51 [Verbose] Rest: POST channels/744480279275634748/messages: 262,61 ms
+17.08.2020 19:49:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:52 [Verbose] Rest: POST channels/744480279275634748/messages: 225,12 ms
+17.08.2020 19:49:52 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:53 [Verbose] Rest: POST channels/744480279275634748/messages: 236,25 ms
+17.08.2020 19:49:53 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:55 [Verbose] Rest: POST channels/744480279275634748/messages: 277,69 ms
+17.08.2020 19:49:55 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:57 [Verbose] Rest: POST channels/744480279275634748/messages: 350,09 ms
+17.08.2020 19:49:57 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:49:57 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 19:50:02 [Verbose] Rest: POST channels/744480279275634748/messages: 4859,07 ms
+17.08.2020 19:50:02 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:50:06 [Verbose] Rest: POST channels/744480279275634748/messages: 259,91 ms
+17.08.2020 19:50:06 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:50:08 [Verbose] Rest: POST channels/744480279275634748/messages: 267,44 ms
+17.08.2020 19:50:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:50:12 [Verbose] Rest: POST channels/744480279275634748/messages: 229,95 ms
+17.08.2020 19:50:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:50:14 [Verbose] Rest: POST channels/744480279275634748/messages: 241,86 ms
+17.08.2020 19:50:14 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:50:17 [Verbose] Rest: POST channels/744480279275634748/messages: 246,36 ms
+17.08.2020 19:50:17 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:50:20 [Verbose] Rest: POST channels/744480279275634748/messages: 447,94 ms
+17.08.2020 19:50:20 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:50:25 [Verbose] Rest: POST channels/744480279275634748/messages: 246,37 ms
+17.08.2020 19:50:25 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:50:36 [Verbose] Rest: POST channels/744480279275634748/messages: 255,51 ms
+17.08.2020 19:50:36 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:50:38 [Verbose] Rest: POST channels/744480279275634748/messages: 271,91 ms
+17.08.2020 19:50:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:50:41 [Verbose] Rest: POST channels/744480279275634748/messages: 231,19 ms
+17.08.2020 19:50:41 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:50:43 [Verbose] Rest: POST channels/744480279275634748/messages: 256,62 ms
+17.08.2020 19:50:43 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:50:44 [Verbose] Rest: POST channels/744480279275634748/messages: 243,02 ms
+17.08.2020 19:50:44 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:54:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 19:54:06 [Verbose] Rest: GET voice/regions: 627,58 ms
+17.08.2020 19:54:06 [Verbose] Rest: GET users/@me: 229,1 ms
+17.08.2020 19:54:07 [Info] Gateway: Connecting
+17.08.2020 19:54:07 [Verbose] Rest: GET gateway: 80,79 ms
+17.08.2020 19:54:08 [Info] Gateway: Connected
+17.08.2020 19:54:08 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 19:54:09 [Info] Gateway: Ready
+17.08.2020 19:54:12 [Verbose] Rest: POST channels/744480279275634748/messages: 268,39 ms
+17.08.2020 19:54:12 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:54:15 [Verbose] Rest: POST channels/744480279275634748/messages: 236,98 ms
+17.08.2020 19:54:15 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:54:16 [Verbose] Rest: POST channels/744480279275634748/messages: 345,24 ms
+17.08.2020 19:54:16 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:54:17 [Verbose] Rest: POST channels/744480279275634748/messages: 285,83 ms
+17.08.2020 19:54:17 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:54:20 [Verbose] Rest: POST channels/744480279275634748/messages: 306,21 ms
+17.08.2020 19:54:20 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:54:21 [Verbose] Rest: POST channels/744480279275634748/messages: 242,87 ms
+17.08.2020 19:54:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:54:23 [Verbose] Rest: POST channels/744480279275634748/messages: 609,62 ms
+17.08.2020 19:54:23 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:54:25 [Verbose] Rest: POST channels/744480279275634748/messages: 291,96 ms
+17.08.2020 19:54:25 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:54:27 [Verbose] Rest: POST channels/744480279275634748/messages: 302,9 ms
+17.08.2020 19:54:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:54:31 [Verbose] Rest: POST channels/744480279275634748/messages: 260,15 ms
+17.08.2020 19:54:31 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:54:34 [Verbose] Rest: POST channels/744480279275634748/messages: 228,44 ms
+17.08.2020 19:54:34 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:56:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 19:56:12 [Verbose] Rest: GET voice/regions: 617,46 ms
+17.08.2020 19:56:13 [Verbose] Rest: GET users/@me: 222,12 ms
+17.08.2020 19:56:13 [Info] Gateway: Connecting
+17.08.2020 19:56:13 [Verbose] Rest: GET gateway: 73,03 ms
+17.08.2020 19:56:14 [Info] Gateway: Connected
+17.08.2020 19:56:14 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 19:56:15 [Info] Gateway: Ready
+17.08.2020 19:56:22 [Verbose] Rest: POST channels/744480279275634748/messages: 246,66 ms
+17.08.2020 19:56:22 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:57:17 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 19:57:18 [Verbose] Rest: GET voice/regions: 723,5 ms
+17.08.2020 19:57:18 [Verbose] Rest: GET users/@me: 241,06 ms
+17.08.2020 19:57:18 [Info] Gateway: Connecting
+17.08.2020 19:57:19 [Verbose] Rest: GET gateway: 88,64 ms
+17.08.2020 19:57:20 [Info] Gateway: Connected
+17.08.2020 19:57:20 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 19:57:21 [Info] Gateway: Ready
+17.08.2020 19:57:24 [Verbose] Rest: POST channels/744480279275634748/messages: 329,92 ms
+17.08.2020 19:57:24 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:57:26 [Verbose] Rest: POST channels/744480279275634748/messages: 277,03 ms
+17.08.2020 19:57:26 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:57:27 [Verbose] Rest: POST channels/744480279275634748/messages: 299,92 ms
+17.08.2020 19:57:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:57:29 [Verbose] Rest: POST channels/744480279275634748/messages: 387,05 ms
+17.08.2020 19:57:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:57:30 [Verbose] Rest: POST channels/744480279275634748/messages: 444,08 ms
+17.08.2020 19:57:33 [Verbose] Rest: POST channels/744480279275634748/messages: 288,82 ms
+17.08.2020 19:57:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:57:35 [Verbose] Rest: POST channels/744480279275634748/messages: 297,52 ms
+17.08.2020 19:57:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:57:39 [Verbose] Rest: POST channels/744480279275634748/messages: 346,52 ms
+17.08.2020 19:57:39 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:57:41 [Verbose] Rest: POST channels/744480279275634748/messages: 327,8 ms
+17.08.2020 19:57:41 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:58:28 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 19:58:28 [Verbose] Rest: GET voice/regions: 669,03 ms
+17.08.2020 19:58:29 [Verbose] Rest: GET users/@me: 254,44 ms
+17.08.2020 19:58:29 [Info] Gateway: Connecting
+17.08.2020 19:58:29 [Verbose] Rest: GET gateway: 92,34 ms
+17.08.2020 19:58:30 [Info] Gateway: Connected
+17.08.2020 19:58:30 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 19:58:31 [Info] Gateway: Ready
+17.08.2020 19:58:35 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+17.08.2020 19:58:35 [Verbose] Rest: POST channels/744480279275634748/messages: 248,76 ms
+17.08.2020 19:58:36 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:58:40 [Verbose] Rest: POST channels/744480279275634748/messages: 252,71 ms
+17.08.2020 19:58:40 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:58:42 [Verbose] Rest: POST channels/744480279275634748/messages: 250,91 ms
+17.08.2020 19:58:42 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:58:43 [Verbose] Rest: POST channels/744480279275634748/messages: 256,47 ms
+17.08.2020 19:58:43 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:58:44 [Verbose] Rest: POST channels/744480279275634748/messages: 324,67 ms
+17.08.2020 19:58:44 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:58:47 [Verbose] Rest: POST channels/744480279275634748/messages: 269,32 ms
+17.08.2020 19:58:47 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:58:52 [Verbose] Rest: POST channels/744480279275634748/messages: 269,54 ms
+17.08.2020 19:58:52 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:58:54 [Verbose] Rest: POST channels/744480279275634748/messages: 303,67 ms
+17.08.2020 19:58:54 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:59:05 [Verbose] Rest: POST channels/744480279275634748/messages: 295,51 ms
+17.08.2020 19:59:05 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:59:06 [Verbose] Rest: POST channels/744480279275634748/messages: 246,46 ms
+17.08.2020 19:59:06 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 19:59:07 [Verbose] Rest: POST channels/744480279275634748/messages: 248,35 ms
+17.08.2020 19:59:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:07:41 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 20:07:42 [Verbose] Rest: GET voice/regions: 663,57 ms
+17.08.2020 20:07:43 [Verbose] Rest: GET users/@me: 217,21 ms
+17.08.2020 20:07:43 [Info] Gateway: Connecting
+17.08.2020 20:07:43 [Verbose] Rest: GET gateway: 81,41 ms
+17.08.2020 20:07:44 [Info] Gateway: Connected
+17.08.2020 20:07:44 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 20:07:45 [Info] Gateway: Ready
+17.08.2020 20:07:51 [Verbose] Rest: POST channels/744480279275634748/messages: 234,54 ms
+17.08.2020 20:07:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:07:53 [Verbose] Rest: POST channels/744480279275634748/messages: 345,41 ms
+17.08.2020 20:07:53 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:07:54 [Verbose] Rest: POST channels/744480279275634748/messages: 472,65 ms
+17.08.2020 20:07:54 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:07:55 [Verbose] Rest: POST channels/744480279275634748/messages: 453,27 ms
+17.08.2020 20:07:55 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:07:57 [Verbose] Rest: POST channels/744480279275634748/messages: 327,25 ms
+17.08.2020 20:07:57 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:07:58 [Verbose] Rest: POST channels/744480279275634748/messages: 287,3 ms
+17.08.2020 20:07:58 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:08:00 [Verbose] Rest: POST channels/744480279275634748/messages: 248,14 ms
+17.08.2020 20:08:00 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:09:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 20:09:13 [Verbose] Rest: GET voice/regions: 665,52 ms
+17.08.2020 20:09:14 [Verbose] Rest: GET users/@me: 280,28 ms
+17.08.2020 20:09:14 [Info] Gateway: Connecting
+17.08.2020 20:09:14 [Verbose] Rest: GET gateway: 71,22 ms
+17.08.2020 20:09:15 [Info] Gateway: Connected
+17.08.2020 20:09:15 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 20:09:16 [Info] Gateway: Ready
+17.08.2020 20:09:18 [Verbose] Rest: POST channels/744480279275634748/messages: 268,66 ms
+17.08.2020 20:09:18 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:09:19 [Verbose] Rest: POST channels/744480279275634748/messages: 338,51 ms
+17.08.2020 20:09:19 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:09:21 [Verbose] Rest: POST channels/744480279275634748/messages: 310,36 ms
+17.08.2020 20:09:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:09:22 [Verbose] Rest: POST channels/744480279275634748/messages: 300,81 ms
+17.08.2020 20:09:22 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:09:23 [Verbose] Rest: POST channels/744480279275634748/messages: 259,38 ms
+17.08.2020 20:09:23 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:09:24 [Verbose] Rest: POST channels/744480279275634748/messages: 244,8 ms
+17.08.2020 20:09:24 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:09:26 [Verbose] Rest: POST channels/744480279275634748/messages: 342,95 ms
+17.08.2020 20:09:26 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:10:18 [Warning] Gateway: System.Exception: WebSocket connection was closed
+ ---> System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..
+ ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.ReadBufferedAsyncCore(Memory`1 destination)
+   at System.Net.Http.HttpConnection.RawConnectionStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken, Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at Discord.Net.WebSockets.DefaultWebSocketClient.RunAsync(CancellationToken cancelToken)
+   --- End of inner exception stack trace ---
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+17.08.2020 20:10:18 [Info] Gateway: Disconnecting
+17.08.2020 20:10:18 [Verbose] Gateway: Disconnected from DarlingBotInfo
+17.08.2020 20:10:18 [Info] Gateway: Disconnected
+17.08.2020 20:10:19 [Info] Gateway: Connecting
+17.08.2020 20:10:59 [Warning] Gateway: System.Net.Http.HttpRequestException: Сделана попытка выполнить операцию на сокете для недоступного хоста.
+ ---> System.Net.Sockets.SocketException (10065): Сделана попытка выполнить операцию на сокете для недоступного хоста.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Discord.Net.Rest.DefaultRestClient.SendInternalAsync(HttpRequestMessage request, CancellationToken cancelToken, Boolean headerOnly)
+   at Discord.Net.Rest.DefaultRestClient.SendAsync(String method, String endpoint, CancellationToken cancelToken, Boolean headerOnly, String reason)
+   at Discord.Net.Queue.RestRequest.SendAsync()
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync[TResponse](String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.GetGatewayAsync(RequestOptions options)
+   at Discord.API.DiscordSocketApiClient.ConnectInternalAsync()
+   at Discord.API.DiscordSocketApiClient.ConnectInternalAsync()
+   at Discord.API.DiscordSocketApiClient.ConnectAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.ConnectionManager.ConnectAsync(CancellationTokenSource reconnectCancelToken)
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+17.08.2020 20:10:59 [Info] Gateway: Disconnecting
+17.08.2020 20:10:59 [Info] Gateway: Disconnected
+17.08.2020 20:11:01 [Info] Gateway: Connecting
+17.08.2020 20:11:01 [Warning] Gateway: System.Net.Http.HttpRequestException: Этот хост неизвестен.
+ ---> System.Net.Sockets.SocketException (11001): Этот хост неизвестен.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Discord.Net.Rest.DefaultRestClient.SendInternalAsync(HttpRequestMessage request, CancellationToken cancelToken, Boolean headerOnly)
+   at Discord.Net.Rest.DefaultRestClient.SendAsync(String method, String endpoint, CancellationToken cancelToken, Boolean headerOnly, String reason)
+   at Discord.Net.Queue.RestRequest.SendAsync()
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync[TResponse](String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.GetGatewayAsync(RequestOptions options)
+   at Discord.API.DiscordSocketApiClient.ConnectInternalAsync()
+   at Discord.API.DiscordSocketApiClient.ConnectInternalAsync()
+   at Discord.API.DiscordSocketApiClient.ConnectAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.ConnectionManager.ConnectAsync(CancellationTokenSource reconnectCancelToken)
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+17.08.2020 20:11:01 [Info] Gateway: Disconnecting
+17.08.2020 20:11:01 [Info] Gateway: Disconnected
+17.08.2020 20:11:05 [Info] Gateway: Connecting
+17.08.2020 20:11:05 [Warning] Gateway: System.Net.Http.HttpRequestException: Этот хост неизвестен.
+ ---> System.Net.Sockets.SocketException (11001): Этот хост неизвестен.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Discord.Net.Rest.DefaultRestClient.SendInternalAsync(HttpRequestMessage request, CancellationToken cancelToken, Boolean headerOnly)
+   at Discord.Net.Rest.DefaultRestClient.SendAsync(String method, String endpoint, CancellationToken cancelToken, Boolean headerOnly, String reason)
+   at Discord.Net.Queue.RestRequest.SendAsync()
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync[TResponse](String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.GetGatewayAsync(RequestOptions options)
+   at Discord.API.DiscordSocketApiClient.ConnectInternalAsync()
+   at Discord.API.DiscordSocketApiClient.ConnectInternalAsync()
+   at Discord.API.DiscordSocketApiClient.ConnectAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.ConnectionManager.ConnectAsync(CancellationTokenSource reconnectCancelToken)
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+17.08.2020 20:11:05 [Info] Gateway: Disconnecting
+17.08.2020 20:11:05 [Info] Gateway: Disconnected
+17.08.2020 20:11:12 [Info] Gateway: Connecting
+17.08.2020 20:11:12 [Warning] Gateway: System.Net.Http.HttpRequestException: Этот хост неизвестен.
+ ---> System.Net.Sockets.SocketException (11001): Этот хост неизвестен.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Discord.Net.Rest.DefaultRestClient.SendInternalAsync(HttpRequestMessage request, CancellationToken cancelToken, Boolean headerOnly)
+   at Discord.Net.Rest.DefaultRestClient.SendAsync(String method, String endpoint, CancellationToken cancelToken, Boolean headerOnly, String reason)
+   at Discord.Net.Queue.RestRequest.SendAsync()
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync[TResponse](String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.GetGatewayAsync(RequestOptions options)
+   at Discord.API.DiscordSocketApiClient.ConnectInternalAsync()
+   at Discord.API.DiscordSocketApiClient.ConnectInternalAsync()
+   at Discord.API.DiscordSocketApiClient.ConnectAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.ConnectionManager.ConnectAsync(CancellationTokenSource reconnectCancelToken)
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+17.08.2020 20:11:12 [Info] Gateway: Disconnecting
+17.08.2020 20:11:12 [Info] Gateway: Disconnected
+17.08.2020 20:11:27 [Info] Gateway: Connecting
+17.08.2020 20:11:27 [Warning] Gateway: System.Net.Http.HttpRequestException: Этот хост неизвестен.
+ ---> System.Net.Sockets.SocketException (11001): Этот хост неизвестен.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Discord.Net.Rest.DefaultRestClient.SendInternalAsync(HttpRequestMessage request, CancellationToken cancelToken, Boolean headerOnly)
+   at Discord.Net.Rest.DefaultRestClient.SendAsync(String method, String endpoint, CancellationToken cancelToken, Boolean headerOnly, String reason)
+   at Discord.Net.Queue.RestRequest.SendAsync()
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync[TResponse](String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.GetGatewayAsync(RequestOptions options)
+   at Discord.API.DiscordSocketApiClient.ConnectInternalAsync()
+   at Discord.API.DiscordSocketApiClient.ConnectInternalAsync()
+   at Discord.API.DiscordSocketApiClient.ConnectAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.ConnectionManager.ConnectAsync(CancellationTokenSource reconnectCancelToken)
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+17.08.2020 20:11:27 [Info] Gateway: Disconnecting
+17.08.2020 20:11:27 [Info] Gateway: Disconnected
+17.08.2020 20:11:57 [Info] Gateway: Connecting
+17.08.2020 20:11:57 [Warning] Gateway: System.Net.Http.HttpRequestException: Этот хост неизвестен.
+ ---> System.Net.Sockets.SocketException (11001): Этот хост неизвестен.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Discord.Net.Rest.DefaultRestClient.SendInternalAsync(HttpRequestMessage request, CancellationToken cancelToken, Boolean headerOnly)
+   at Discord.Net.Rest.DefaultRestClient.SendAsync(String method, String endpoint, CancellationToken cancelToken, Boolean headerOnly, String reason)
+   at Discord.Net.Queue.RestRequest.SendAsync()
+   at Discord.Net.Queue.RequestBucket.SendAsync(RestRequest request)
+   at Discord.Net.Queue.RequestQueue.SendAsync(RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendInternalAsync(String method, String endpoint, RestRequest request)
+   at Discord.API.DiscordRestApiClient.SendAsync[TResponse](String method, String endpoint, String bucketId, ClientBucketType clientBucket, RequestOptions options)
+   at Discord.API.DiscordRestApiClient.GetGatewayAsync(RequestOptions options)
+   at Discord.API.DiscordSocketApiClient.ConnectInternalAsync()
+   at Discord.API.DiscordSocketApiClient.ConnectInternalAsync()
+   at Discord.API.DiscordSocketApiClient.ConnectAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.ConnectionManager.ConnectAsync(CancellationTokenSource reconnectCancelToken)
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+17.08.2020 20:11:57 [Info] Gateway: Disconnecting
+17.08.2020 20:11:57 [Info] Gateway: Disconnected
+17.08.2020 20:12:56 [Info] Gateway: Connecting
+17.08.2020 20:12:56 [Verbose] Rest: GET gateway: 207,94 ms
+17.08.2020 20:12:57 [Warning] Gateway: Failed to resume previous session
+17.08.2020 20:12:57 [Info] Gateway: Connected
+17.08.2020 20:12:57 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 20:12:58 [Info] Gateway: Ready
+17.08.2020 20:14:20 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 20:14:21 [Verbose] Rest: GET voice/regions: 722,24 ms
+17.08.2020 20:14:22 [Verbose] Rest: GET users/@me: 235,14 ms
+17.08.2020 20:14:22 [Info] Gateway: Connecting
+17.08.2020 20:14:22 [Verbose] Rest: GET gateway: 70,95 ms
+17.08.2020 20:14:23 [Info] Gateway: Connected
+17.08.2020 20:14:23 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 20:14:24 [Info] Gateway: Ready
+17.08.2020 20:14:26 [Verbose] Rest: POST channels/744480279275634748/messages: 259,93 ms
+17.08.2020 20:14:26 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:14:27 [Verbose] Rest: POST channels/744480279275634748/messages: 240,53 ms
+17.08.2020 20:14:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:14:28 [Verbose] Rest: POST channels/744480279275634748/messages: 249,05 ms
+17.08.2020 20:14:28 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:14:30 [Verbose] Rest: POST channels/744480279275634748/messages: 273,06 ms
+17.08.2020 20:14:30 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:14:32 [Verbose] Rest: POST channels/744480279275634748/messages: 266,88 ms
+17.08.2020 20:14:32 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:14:32 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 20:14:38 [Verbose] Rest: POST channels/744480279275634748/messages: 5069,91 ms
+17.08.2020 20:14:38 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:14:44 [Verbose] Rest: POST channels/744480279275634748/messages: 282,36 ms
+17.08.2020 20:14:45 [Verbose] Rest: POST channels/744480279275634748/messages: 517,03 ms
+17.08.2020 20:14:45 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:39:28 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 20:39:29 [Verbose] Rest: GET voice/regions: 655,02 ms
+17.08.2020 20:39:30 [Verbose] Rest: GET users/@me: 241,98 ms
+17.08.2020 20:39:30 [Info] Gateway: Connecting
+17.08.2020 20:39:30 [Verbose] Rest: GET gateway: 84,22 ms
+17.08.2020 20:39:31 [Info] Gateway: Connected
+17.08.2020 20:39:31 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 20:39:32 [Info] Gateway: Ready
+17.08.2020 20:39:39 [Verbose] Rest: POST channels/744480279275634748/messages: 244,79 ms
+17.08.2020 20:39:39 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:39:40 [Verbose] Rest: POST channels/744480279275634748/messages: 250,67 ms
+17.08.2020 20:39:40 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:39:41 [Verbose] Rest: POST channels/744480279275634748/messages: 330,03 ms
+17.08.2020 20:39:41 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:39:42 [Verbose] Rest: POST channels/744480279275634748/messages: 298,28 ms
+17.08.2020 20:39:42 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:39:43 [Verbose] Rest: POST channels/744480279275634748/messages: 280,93 ms
+17.08.2020 20:39:43 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:39:44 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 20:39:45 [Verbose] Rest: POST channels/744480279275634748/messages: 727,94 ms
+17.08.2020 20:39:45 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:39:46 [Verbose] Rest: POST channels/744480279275634748/messages: 237,62 ms
+17.08.2020 20:39:46 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:39:47 [Verbose] Rest: POST channels/744480279275634748/messages: 244,18 ms
+17.08.2020 20:39:47 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:39:49 [Verbose] Rest: POST channels/744480279275634748/messages: 229,72 ms
+17.08.2020 20:39:49 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:39:50 [Verbose] Rest: POST channels/744480279275634748/messages: 328,7 ms
+17.08.2020 20:39:50 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:39:51 [Verbose] Rest: POST channels/744480279275634748/messages: 280,25 ms
+17.08.2020 20:39:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:39:52 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 20:39:56 [Verbose] Rest: POST channels/744480279275634748/messages: 3334,35 ms
+17.08.2020 20:39:56 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:46:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 20:46:37 [Verbose] Rest: GET voice/regions: 633,82 ms
+17.08.2020 20:46:38 [Verbose] Rest: GET users/@me: 244,73 ms
+17.08.2020 20:46:38 [Info] Gateway: Connecting
+17.08.2020 20:46:38 [Verbose] Rest: GET gateway: 82,91 ms
+17.08.2020 20:46:39 [Info] Gateway: Connected
+17.08.2020 20:46:39 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 20:46:40 [Info] Gateway: Ready
+17.08.2020 20:46:42 [Verbose] Rest: POST channels/744480279275634748/messages: 257,46 ms
+17.08.2020 20:46:42 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:46:45 [Verbose] Rest: POST channels/744480279275634748/messages: 246,56 ms
+17.08.2020 20:46:45 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:46:47 [Verbose] Rest: POST channels/744480279275634748/messages: 307,17 ms
+17.08.2020 20:46:47 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:46:48 [Verbose] Rest: POST channels/744480279275634748/messages: 281,29 ms
+17.08.2020 20:46:48 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:46:49 [Verbose] Rest: POST channels/744480279275634748/messages: 255,36 ms
+17.08.2020 20:46:49 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:46:51 [Verbose] Rest: POST channels/744480279275634748/messages: 248,68 ms
+17.08.2020 20:46:51 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:46:52 [Verbose] Rest: POST channels/744480279275634748/messages: 260,31 ms
+17.08.2020 20:46:52 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:46:54 [Verbose] Rest: POST channels/744480279275634748/messages: 295,76 ms
+17.08.2020 20:46:54 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:46:55 [Verbose] Rest: POST channels/744480279275634748/messages: 330,08 ms
+17.08.2020 20:46:55 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:46:57 [Verbose] Rest: POST channels/744480279275634748/messages: 285,16 ms
+17.08.2020 20:46:57 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:47:00 [Verbose] Rest: POST channels/744480279275634748/messages: 248,21 ms
+17.08.2020 20:47:00 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:47:09 [Verbose] Rest: POST channels/744480279275634748/messages: 246,14 ms
+17.08.2020 20:47:09 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:47:11 [Verbose] Rest: POST channels/744480279275634748/messages: 244,53 ms
+17.08.2020 20:47:11 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:47:21 [Verbose] Rest: POST channels/744480279275634748/messages: 224,97 ms
+17.08.2020 20:47:21 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:47:29 [Verbose] Rest: POST channels/744480279275634748/messages: 221,52 ms
+17.08.2020 20:47:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:47:30 [Verbose] Rest: POST channels/744480279275634748/messages: 217,96 ms
+17.08.2020 20:47:30 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:49:01 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 20:49:02 [Verbose] Rest: GET voice/regions: 693,7 ms
+17.08.2020 20:49:03 [Verbose] Rest: GET users/@me: 228,22 ms
+17.08.2020 20:49:03 [Info] Gateway: Connecting
+17.08.2020 20:49:03 [Verbose] Rest: GET gateway: 78,19 ms
+17.08.2020 20:49:04 [Info] Gateway: Connected
+17.08.2020 20:49:04 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 20:49:05 [Info] Gateway: Ready
+17.08.2020 20:49:07 [Verbose] Rest: POST channels/744480279275634748/messages: 383,75 ms
+17.08.2020 20:49:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:49:07 [Verbose] Rest: POST channels/744480279275634748/messages: 248,85 ms
+17.08.2020 20:49:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:49:09 [Verbose] Rest: POST channels/744480279275634748/messages: 278,15 ms
+17.08.2020 20:49:09 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:49:10 [Verbose] Rest: POST channels/744480279275634748/messages: 309,98 ms
+17.08.2020 20:49:10 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:49:11 [Verbose] Rest: POST channels/744480279275634748/messages: 244,05 ms
+17.08.2020 20:49:11 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:49:18 [Verbose] Rest: POST channels/744480279275634748/messages: 236,4 ms
+17.08.2020 20:49:18 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 20:49:22 [Verbose] Rest: POST channels/744480279275634748/messages: 224,21 ms
+17.08.2020 20:49:22 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:40:00 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 21:40:01 [Verbose] Rest: GET voice/regions: 706,12 ms
+17.08.2020 21:40:02 [Verbose] Rest: GET users/@me: 411,23 ms
+17.08.2020 21:40:02 [Info] Gateway: Connecting
+17.08.2020 21:40:02 [Verbose] Rest: GET gateway: 84,13 ms
+17.08.2020 21:40:03 [Info] Gateway: Connected
+17.08.2020 21:40:03 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 21:40:04 [Info] Gateway: Ready
+17.08.2020 21:40:05 [Verbose] Rest: POST channels/744480279275634748/messages: 257,23 ms
+17.08.2020 21:40:05 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:40:07 [Verbose] Rest: POST channels/744480279275634748/messages: 543,92 ms
+17.08.2020 21:40:07 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:40:08 [Verbose] Rest: POST channels/744480279275634748/messages: 439,22 ms
+17.08.2020 21:40:08 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:40:10 [Verbose] Rest: POST channels/744480279275634748/messages: 583,61 ms
+17.08.2020 21:40:10 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:40:11 [Verbose] Rest: POST channels/744480279275634748/messages: 597,61 ms
+17.08.2020 21:40:11 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:40:13 [Verbose] Rest: POST channels/744480279275634748/messages: 237,99 ms
+17.08.2020 21:40:13 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:40:15 [Verbose] Rest: POST channels/744480279275634748/messages: 497,3 ms
+17.08.2020 21:40:15 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:40:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 21:40:38 [Verbose] Rest: GET voice/regions: 670,89 ms
+17.08.2020 21:40:38 [Verbose] Rest: GET users/@me: 219,22 ms
+17.08.2020 21:40:38 [Info] Gateway: Connecting
+17.08.2020 21:40:38 [Verbose] Rest: GET gateway: 88,62 ms
+17.08.2020 21:40:39 [Info] Gateway: Connected
+17.08.2020 21:40:39 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 21:40:40 [Info] Gateway: Ready
+17.08.2020 21:40:54 [Verbose] Rest: POST channels/744480279275634748/messages: 497,97 ms
+17.08.2020 21:40:54 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:40:55 [Verbose] Rest: POST channels/744480279275634748/messages: 289,64 ms
+17.08.2020 21:40:55 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:40:56 [Verbose] Rest: POST channels/744480279275634748/messages: 238,22 ms
+17.08.2020 21:40:56 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:40:57 [Verbose] Rest: POST channels/744480279275634748/messages: 294,56 ms
+17.08.2020 21:40:57 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:40:58 [Verbose] Rest: POST channels/744480279275634748/messages: 247,86 ms
+17.08.2020 21:40:58 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:41:00 [Verbose] Rest: POST channels/744480279275634748/messages: 479,94 ms
+17.08.2020 21:41:00 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:41:01 [Verbose] Rest: POST channels/744480279275634748/messages: 318,02 ms
+17.08.2020 21:41:01 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:41:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 21:41:22 [Verbose] Rest: GET voice/regions: 632,86 ms
+17.08.2020 21:41:22 [Verbose] Rest: GET users/@me: 298,14 ms
+17.08.2020 21:41:22 [Info] Gateway: Connecting
+17.08.2020 21:41:22 [Verbose] Rest: GET gateway: 82,88 ms
+17.08.2020 21:41:23 [Info] Gateway: Connected
+17.08.2020 21:41:24 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 21:41:24 [Info] Gateway: Ready
+17.08.2020 21:41:26 [Verbose] Rest: POST channels/744480279275634748/messages: 553,86 ms
+17.08.2020 21:41:26 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:41:27 [Verbose] Rest: POST channels/744480279275634748/messages: 241,94 ms
+17.08.2020 21:41:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:41:28 [Verbose] Rest: POST channels/744480279275634748/messages: 287,97 ms
+17.08.2020 21:41:28 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:41:30 [Verbose] Rest: POST channels/744480279275634748/messages: 283,17 ms
+17.08.2020 21:41:30 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:41:31 [Verbose] Rest: POST channels/744480279275634748/messages: 359,51 ms
+17.08.2020 21:41:31 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:41:32 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 21:41:32 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 21:41:32 [Verbose] Rest: POST channels/744480279275634748/messages: 346,61 ms
+17.08.2020 21:41:32 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:41:32 [Verbose] Rest: POST channels/744480279275634748/messages: 381,82 ms
+17.08.2020 21:41:33 [Verbose] Rest: POST channels/744480279275634748/messages: 234,5 ms
+17.08.2020 21:41:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:41:35 [Verbose] Rest: POST channels/744480279275634748/messages: 268,96 ms
+17.08.2020 21:41:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 21:43:16 [Verbose] Rest: GET voice/regions: 648,2 ms
+17.08.2020 21:43:16 [Verbose] Rest: GET users/@me: 618,57 ms
+17.08.2020 21:43:16 [Info] Gateway: Connecting
+17.08.2020 21:43:17 [Verbose] Rest: GET gateway: 76,07 ms
+17.08.2020 21:43:18 [Info] Gateway: Connected
+17.08.2020 21:43:18 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 21:43:19 [Info] Gateway: Ready
+17.08.2020 21:43:23 [Verbose] Rest: POST channels/744480279275634748/messages: 371,25 ms
+17.08.2020 21:43:23 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:24 [Verbose] Rest: POST channels/744480279275634748/messages: 237,02 ms
+17.08.2020 21:43:24 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:26 [Verbose] Rest: POST channels/744480279275634748/messages: 390,36 ms
+17.08.2020 21:43:26 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:27 [Verbose] Rest: POST channels/744480279275634748/messages: 246,25 ms
+17.08.2020 21:43:27 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:28 [Verbose] Rest: POST channels/744480279275634748/messages: 250,09 ms
+17.08.2020 21:43:28 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:29 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 21:43:29 [Verbose] Rest: POST channels/744480279275634748/messages: 661,95 ms
+17.08.2020 21:43:29 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:35 [Verbose] Rest: POST channels/744480279275634748/messages: 231,36 ms
+17.08.2020 21:43:35 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:41 [Verbose] Rest: POST channels/744480279275634748/messages: 245,27 ms
+17.08.2020 21:43:41 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:42 [Verbose] Rest: POST channels/744480279275634748/messages: 251,18 ms
+17.08.2020 21:43:42 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:43 [Verbose] Rest: POST channels/744480279275634748/messages: 359,08 ms
+17.08.2020 21:43:43 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:45 [Verbose] Rest: POST channels/744480279275634748/messages: 495,7 ms
+17.08.2020 21:43:45 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:48 [Verbose] Rest: POST channels/744480279275634748/messages: 224,51 ms
+17.08.2020 21:43:48 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:49 [Verbose] Rest: POST channels/744480279275634748/messages: 464,87 ms
+17.08.2020 21:43:49 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:43:50 [Verbose] Rest: POST channels/744480279275634748/messages: 241,55 ms
+17.08.2020 21:43:50 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:14 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+17.08.2020 21:45:15 [Verbose] Rest: GET voice/regions: 707,22 ms
+17.08.2020 21:45:15 [Verbose] Rest: GET users/@me: 238,4 ms
+17.08.2020 21:45:15 [Info] Gateway: Connecting
+17.08.2020 21:45:15 [Verbose] Rest: GET gateway: 85,31 ms
+17.08.2020 21:45:17 [Info] Gateway: Connected
+17.08.2020 21:45:17 [Verbose] Gateway: Connected to DarlingBotInfo
+17.08.2020 21:45:18 [Info] Gateway: Ready
+17.08.2020 21:45:20 [Verbose] Rest: POST channels/744480279275634748/messages: 265,01 ms
+17.08.2020 21:45:20 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:22 [Verbose] Rest: POST channels/744480279275634748/messages: 266,73 ms
+17.08.2020 21:45:22 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:23 [Verbose] Rest: POST channels/744480279275634748/messages: 296,96 ms
+17.08.2020 21:45:23 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:24 [Verbose] Rest: POST channels/744480279275634748/messages: 233,2 ms
+17.08.2020 21:45:24 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:25 [Verbose] Rest: POST channels/744480279275634748/messages: 236,58 ms
+17.08.2020 21:45:25 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:27 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 21:45:29 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 21:45:31 [Verbose] Rest: POST channels/744480279275634748/messages: 1801,49 ms
+17.08.2020 21:45:31 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:31 [Verbose] Rest: POST channels/744480279275634748/messages: 4257,53 ms
+17.08.2020 21:45:31 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:33 [Verbose] Rest: POST channels/744480279275634748/messages: 363,24 ms
+17.08.2020 21:45:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:33 [Verbose] Rest: POST channels/744480279275634748/messages: 375,1 ms
+17.08.2020 21:45:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:33 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 21:45:33 [Verbose] Rest: POST channels/744480279275634748/messages: 273,18 ms
+17.08.2020 21:45:33 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:34 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 21:45:34 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 21:45:35 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 21:45:35 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+17.08.2020 21:45:37 [Verbose] Rest: POST channels/744480279275634748/messages: 1785,68 ms
+17.08.2020 21:45:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:37 [Verbose] Rest: POST channels/744480279275634748/messages: 3757,07 ms
+17.08.2020 21:45:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:37 [Verbose] Rest: POST channels/744480279275634748/messages: 3042,84 ms
+17.08.2020 21:45:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:37 [Verbose] Rest: POST channels/744480279275634748/messages: 2398,2 ms
+17.08.2020 21:45:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ
+17.08.2020 21:45:37 [Verbose] Rest: POST channels/744480279275634748/messages: 3553,73 ms
+17.08.2020 21:45:37 [Verbose] Command: Executed "addc" for h1kkaru.#2627 in DarlingBotInfo/эээ

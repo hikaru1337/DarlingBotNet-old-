@@ -1,4 +1,5 @@
-﻿using DarlingBotNet.DataBase.Database;
+﻿
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,8 +8,9 @@ using System.Linq;
 
 namespace DarlingBotNet.DataBase
 {
-    public class Clans : DbEntity
+    public class Clans
     {
+        public ulong Id { get; set; }
         public string ClanName { get; set; }
         public ulong guildId { get; set; }
         public ulong OwnerId { get; set; }
@@ -17,12 +19,22 @@ namespace DarlingBotNet.DataBase
         public string LogoUrl { get; set; }
         public ulong ClanRole { get; set; }
         public DateTime DateOfCreate { get; set; }
+
+        //public ulong ClanTop
+        //{
+        //    get
+        //    {
+        //        var clancount = new DBcontext().Clans.AsEnumerable().Where(x => x.DefUsers.Count() >= DefUsers.Count());
+
+        //    }
+        //}
+
         [NotMapped]
         public IEnumerable<Users> DefUsers
         {
             get
             {
-                return new DbService().GetDbContext().Users.Where(x => x.clanId == (ulong)Id && x.clanInfo != "wait");
+                return new DBcontext().Users.AsNoTracking().Where(x => x.clanId == (ulong)Id && x.clanInfo != Users.UserClanRole.wait);
             }
         }
 
@@ -31,7 +43,7 @@ namespace DarlingBotNet.DataBase
         {
             get
             {
-                return new DbService().GetDbContext().Users.Where(x => x.clanId == (ulong)Id && x.clanInfo == "wait");
+                return new DBcontext().Users.AsNoTracking().Where(x => x.clanId == (ulong)Id && x.clanInfo == Users.UserClanRole.wait);
             }
         }
 
@@ -40,7 +52,7 @@ namespace DarlingBotNet.DataBase
         {
             get
             {
-                return new DbService().GetDbContext().Users.Where(x => x.clanId == (ulong)Id && x.clanInfo == "moder");
+                return new DBcontext().Users.AsNoTracking().Where(x => x.clanId == (ulong)Id && x.clanInfo == Users.UserClanRole.moder);
             }
         }
 

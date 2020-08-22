@@ -6,6 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DataBase\Database\Repositories\**" />
+    <EmbeddedResource Remove="DataBase\Database\Repositories\**" />
+    <None Remove="DataBase\Database\Repositories\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="DataBase\Database\DarlingContext.cs" />
+    <Compile Remove="DataBase\Database\DbService.cs" />
+    <Compile Remove="DataBase\Database\IUnitOfWork.cs" />
+    <Compile Remove="DataBase\Database\UnitOfWork.cs" />
     <Compile Remove="Migrations\20200627133443_DailyUpdate.cs" />
     <Compile Remove="Migrations\20200627133443_DailyUpdate.Designer.cs" />
   </ItemGroup>
