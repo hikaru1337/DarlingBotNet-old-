@@ -1,0 +1,124 @@
+25.08.2020 12:44:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.08.2020 12:44:27 [Verbose] Rest: GET voice/regions: 711,44 ms
+25.08.2020 12:44:28 [Verbose] Rest: GET users/@me: 213,04 ms
+25.08.2020 12:44:28 [Info] Gateway: Connecting
+25.08.2020 12:44:28 [Verbose] Rest: GET gateway: 77,73 ms
+25.08.2020 12:44:29 [Info] Gateway: Connected
+25.08.2020 12:44:29 [Verbose] Gateway: Connected to DarlingBotInfo
+25.08.2020 12:44:30 [Info] Gateway: Ready
+25.08.2020 12:44:42 [Warning] Gateway: System.IO.FileNotFoundException: Could not load file or assembly 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'. Не удается найти указанный файл.
+File name: 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.ParameterInfo.ParseAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.CommandParser.ParseArgsAsync(CommandInfo command, ICommandContext context, Boolean ignoreExtraArgs, IServiceProvider services, String input, Int32 startPos, IReadOnlyDictionary`2 aliasMap)
+   at Discord.Commands.CommandInfo.ParseAsync(ICommandContext context, Int32 startIndex, SearchResult searchResult, PreconditionResult preconditionResult, IServiceProvider services)
+   at Discord.Commands.CommandService.ExecuteAsync(ICommandContext context, String input, IServiceProvider services, MultiMatchHandling multiMatchHandling)
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 446
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+
+
+25.08.2020 12:50:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.08.2020 12:51:00 [Verbose] Rest: GET voice/regions: 779,72 ms
+25.08.2020 12:51:01 [Verbose] Rest: GET users/@me: 236,13 ms
+25.08.2020 12:51:01 [Info] Gateway: Connecting
+25.08.2020 12:51:01 [Verbose] Rest: GET gateway: 80,4 ms
+25.08.2020 12:51:02 [Info] Gateway: Connected
+25.08.2020 12:51:02 [Verbose] Gateway: Connected to DarlingBotInfo
+25.08.2020 12:51:03 [Info] Gateway: Ready
+25.08.2020 12:51:06 [Warning] Gateway: System.IO.FileNotFoundException: Could not load file or assembly 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'. Не удается найти указанный файл.
+File name: 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.ParameterInfo.ParseAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.CommandParser.ParseArgsAsync(CommandInfo command, ICommandContext context, Boolean ignoreExtraArgs, IServiceProvider services, String input, Int32 startPos, IReadOnlyDictionary`2 aliasMap)
+   at Discord.Commands.CommandInfo.ParseAsync(ICommandContext context, Int32 startIndex, SearchResult searchResult, PreconditionResult preconditionResult, IServiceProvider services)
+   at Discord.Commands.CommandService.ExecuteAsync(ICommandContext context, String input, IServiceProvider services, MultiMatchHandling multiMatchHandling)
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 446
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+
+
+25.08.2020 14:44:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.08.2020 14:44:37 [Verbose] Rest: GET voice/regions: 619,62 ms
+25.08.2020 14:44:38 [Verbose] Rest: GET users/@me: 321,07 ms
+25.08.2020 14:44:38 [Info] Gateway: Connecting
+25.08.2020 14:44:38 [Verbose] Rest: GET gateway: 73,92 ms
+25.08.2020 14:44:39 [Info] Gateway: Connected
+25.08.2020 14:44:39 [Verbose] Gateway: Connected to DarlingBotInfo
+25.08.2020 14:44:40 [Info] Gateway: Ready
+25.08.2020 14:44:46 [Warning] Gateway: System.IO.FileNotFoundException: Could not load file or assembly 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'. Не удается найти указанный файл.
+File name: 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.ParameterInfo.ParseAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.CommandParser.ParseArgsAsync(CommandInfo command, ICommandContext context, Boolean ignoreExtraArgs, IServiceProvider services, String input, Int32 startPos, IReadOnlyDictionary`2 aliasMap)
+   at Discord.Commands.CommandInfo.ParseAsync(ICommandContext context, Int32 startIndex, SearchResult searchResult, PreconditionResult preconditionResult, IServiceProvider services)
+   at Discord.Commands.CommandService.ExecuteAsync(ICommandContext context, String input, IServiceProvider services, MultiMatchHandling multiMatchHandling)
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 446
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+
+
+25.08.2020 14:45:59 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.08.2020 14:45:59 [Warning] Gateway: System.IO.FileNotFoundException: Could not load file or assembly 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'. Не удается найти указанный файл.
+File name: 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.ParameterInfo.ParseAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.CommandParser.ParseArgsAsync(CommandInfo command, ICommandContext context, Boolean ignoreExtraArgs, IServiceProvider services, String input, Int32 startPos, IReadOnlyDictionary`2 aliasMap)
+   at Discord.Commands.CommandInfo.ParseAsync(ICommandContext context, Int32 startIndex, SearchResult searchResult, PreconditionResult preconditionResult, IServiceProvider services)
+   at Discord.Commands.CommandService.ExecuteAsync(ICommandContext context, String input, IServiceProvider services, MultiMatchHandling multiMatchHandling)
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 446
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+
+
+25.08.2020 14:46:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.08.2020 14:46:32 [Verbose] Rest: GET voice/regions: 717,1 ms
+25.08.2020 14:46:32 [Verbose] Rest: GET users/@me: 225,72 ms
+25.08.2020 14:46:32 [Info] Gateway: Connecting
+25.08.2020 14:46:32 [Verbose] Rest: GET gateway: 72,1 ms
+25.08.2020 14:46:33 [Info] Gateway: Connected
+25.08.2020 14:46:34 [Verbose] Gateway: Connected to DarlingBotInfo
+25.08.2020 14:46:35 [Info] Gateway: Ready
+25.08.2020 14:55:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.08.2020 14:55:31 [Verbose] Rest: GET voice/regions: 648,86 ms
+25.08.2020 14:55:31 [Verbose] Rest: GET users/@me: 251,14 ms
+25.08.2020 14:55:31 [Info] Gateway: Connecting
+25.08.2020 14:55:31 [Verbose] Rest: GET gateway: 85,81 ms
+25.08.2020 14:55:33 [Info] Gateway: Connected
+25.08.2020 14:55:33 [Verbose] Gateway: Connected to DarlingBotInfo
+25.08.2020 14:55:34 [Info] Gateway: Ready
+25.08.2020 14:56:20 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.08.2020 14:56:21 [Verbose] Rest: GET voice/regions: 726,79 ms
+25.08.2020 14:56:22 [Verbose] Rest: GET users/@me: 265,06 ms
+25.08.2020 14:56:22 [Info] Gateway: Connecting
+25.08.2020 14:56:22 [Verbose] Rest: GET gateway: 80,89 ms
+25.08.2020 14:56:23 [Info] Gateway: Connected
+25.08.2020 14:56:23 [Verbose] Gateway: Connected to DarlingBotInfo
+25.08.2020 14:56:24 [Info] Gateway: Ready
+25.08.2020 14:58:28 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.08.2020 14:58:28 [Verbose] Rest: GET voice/regions: 590,19 ms
+25.08.2020 14:58:29 [Verbose] Rest: GET users/@me: 269,58 ms
+25.08.2020 14:58:29 [Info] Gateway: Connecting
+25.08.2020 14:58:29 [Verbose] Rest: GET gateway: 72,28 ms
+25.08.2020 14:58:30 [Info] Gateway: Connected
+25.08.2020 14:58:30 [Verbose] Gateway: Connected to DarlingBotInfo
+25.08.2020 14:58:31 [Info] Gateway: Ready
+25.08.2020 15:15:29 [Warning] Gateway: System.Exception: Server requested a reconnect
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+25.08.2020 15:15:29 [Info] Gateway: Disconnecting
+25.08.2020 15:15:29 [Verbose] Gateway: Disconnected from DarlingBotInfo
+25.08.2020 15:15:29 [Info] Gateway: Disconnected
+25.08.2020 15:15:30 [Info] Gateway: Connecting
+25.08.2020 15:15:30 [Verbose] Rest: GET gateway: 212,87 ms
+25.08.2020 15:15:31 [Warning] Gateway: Failed to resume previous session
+25.08.2020 15:15:31 [Info] Gateway: Connected
+25.08.2020 15:15:31 [Verbose] Gateway: Connected to DarlingBotInfo
+25.08.2020 15:15:32 [Info] Gateway: Ready

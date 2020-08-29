@@ -7,7 +7,6 @@ C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\obj\Debug\netcoreapp3.1\
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\Discord.Net.Commands.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\Discord.Net.Core.dll
-C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\Discord.Net.Providers.WS4Net.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\Discord.Net.Rest.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\Discord.Net.Webhook.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\Discord.Net.WebSocket.dll
@@ -82,7 +81,6 @@ C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\PcgRandom.dll
-C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\System.Linq.Async.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\Nekos-Sharp.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\SixLabors.Core.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\SixLabors.ImageSharp.dll
@@ -96,13 +94,8 @@ C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\ServiceStack.Text.dll
-C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
-C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\EntityFramework.dll
-C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\System.CodeDom.dll
-C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
-C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
-C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\obj\Debug\netcoreapp3.1\DarlingBotNet.csproj.CoreCompileInputs.cache
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\obj\Debug\netcoreapp3.1\DarlingBotNet.csprojAssemblyReference.cache
+C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\Discord.Net.Providers.WS4Net.dll
+C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\System.Linq.Async.dll
+C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\obj\Debug\netcoreapp3.1\DarlingBotNet.csproj.CoreCompileInputs.cache
+C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ObjectPool.dll

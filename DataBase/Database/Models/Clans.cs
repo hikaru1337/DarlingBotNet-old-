@@ -1,8 +1,6 @@
-﻿
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 
@@ -34,7 +32,7 @@ namespace DarlingBotNet.DataBase
         {
             get
             {
-                return new DBcontext().Users.AsNoTracking().Where(x => x.clanId == (ulong)Id && x.clanInfo != Users.UserClanRole.wait);
+                return new DBcontext().Users.AsQueryable().Where(x => x.clanId == (ulong)Id && x.clanInfo != Users.UserClanRole.wait);
             }
         }
 
@@ -43,7 +41,7 @@ namespace DarlingBotNet.DataBase
         {
             get
             {
-                return new DBcontext().Users.AsNoTracking().Where(x => x.clanId == (ulong)Id && x.clanInfo == Users.UserClanRole.wait);
+                return new DBcontext().Users.AsQueryable().Where(x => x.clanId == (ulong)Id && x.clanInfo == Users.UserClanRole.wait);
             }
         }
 
@@ -52,7 +50,7 @@ namespace DarlingBotNet.DataBase
         {
             get
             {
-                return new DBcontext().Users.AsNoTracking().Where(x => x.clanId == (ulong)Id && x.clanInfo == Users.UserClanRole.moder);
+                return new DBcontext().Users.AsQueryable().Where(x => x.clanId == (ulong)Id && x.clanInfo == Users.UserClanRole.moder);
             }
         }
 

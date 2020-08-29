@@ -1,15 +1,15 @@
 ﻿using DarlingBotNet.DataBase;
-
 using DarlingBotNet.Services;
 using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using static DarlingBotNet.Services.CommandHandler;
 
 namespace DarlingBotNet.Modules
 {
@@ -18,13 +18,63 @@ namespace DarlingBotNet.Modules
 
 
 
+        //[Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
+        //public async Task osuStat([Remainder] string username)
+        //{
+        //    Stopwatch sw = new Stopwatch();
+        //    sw.Start();
+        //    OsuSharp.User usr;
+        //    //var osuSharpClient = new OsuClient(new OsuSharpConfiguration { ApiKey = "97185d75deafb555d2785390405d121875a5a77f" });
+        //    //usr = osuSharpClient.GetUserByUsernameAsync(username, GameMode.Standard).Result;
+        //    var OsuChrapClient = new CSharpOsu.OsuClient("97185d75deafb555d2785390405d121875a5a77f");
+        //    var user = OsuChrapClient.GetUser(username).First();
+        //    //var score = osuSharpClient.GetUserBestsByUsernameAsync(usr.Username, GameMode.Standard).Result.FirstOrDefault();
+        //    sw.Stop();
+        //    Console.WriteLine(sw.Elapsed);
+        //    return;
+        //    if (usr == null) await Context.Channel.SendMessageAsync("", false, new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("OsuStat").WithDescription("Пользователь не найден").Build());
+        //    else
+        //    {
+        //        //using (var img = new Image<Rgba32>(1320,352))
+        //        //{
+        //        //    FontFamily GothamSSm = new FontCollection().Install("images/GothamSSm.ttf");
+        //        //    var RedUserName = GothamSSm.CreateFont(86, FontStyle.Italic);
+        //        //    var RedTopSocre = GothamSSm.CreateFont(60, FontStyle.Italic);
+        //        //    var Scores = GothamSSm.CreateFont(30, FontStyle.Italic);
+        //        //    var usravatardown = Image.Load(new WebClient().DownloadData(OsuChrapClient.GetUser(usr.UserId.ToString()).FirstOrDefault().image));
+        //        //    var avatar = SixLaborsImage.ApplyRoundedCorners(usravatardown, Math.Max(usravatardown.Width, usravatardown.Width) / 2);
+
+        //        //    img.Mutate(x => x.DrawImage(Image.Load("images/osustat.jpg"),1)
+        //        //                   .DrawImage(avatar, new Point(20,19), 1)
+        //        //                   .DrawImage(Image.Load("images/circleosustat.png"), new Point(0, 1), 1)
+        //        //                   .DrawText($"PP: {usr.PerformancePoints}", GothamSSm.CreateFont(22.24f, FontStyle.Italic), new Rgba32(255, 255, 255), new PointF(323.1f, 192.8f))
+        //        //                   .DrawText($"АККУРАТНОСТЬ: {Math.Round(usr.Accuracy, 1)}%", GothamSSm.CreateFont(22.24f, FontStyle.Italic), new Rgba32(255, 255, 255), new PointF(323.1f, 169.5f))
+        //        //                   .DrawText($"РЕЙТИНГ В СТРАНЕ: {usr.CountryRank}", GothamSSm.CreateFont(18.81f, FontStyle.Italic), new Rgba32(255, 255, 255), new PointF(323.1f, 147.3f))
+        //        //                   .DrawText($"РЕЙТИНГ В МИРЕ: {usr.Rank}", GothamSSm.CreateFont(20.25f, FontStyle.Italic), new Rgba32(255, 255, 255), new PointF(323.1f, 124.1f))
+        //        //                   .DrawText(usr.Username, RedUserName, new Rgba32(242, 14, 68), new PointF(323.1f, 30.2f))
+        //        //                   .DrawText($"В ИГРЕ: {usr.TimePlayed.Days}D {usr.TimePlayed.Hours}H {usr.TimePlayed.Minutes}M ", GothamSSm.CreateFont(22.24f, FontStyle.Italic), new Rgba32(255, 255, 255), new PointF(323.1f, 237.3f))
+        //        //                   .DrawText("TOP SCORE", RedTopSocre, new Rgba32(242, 14, 68), new PointF(916.8f, 40.5f))
+        //        //                   .DrawText(score.GetBeatmapAsync().Result.Title, GothamSSm.CreateFont(20.25f, FontStyle.Italic), new Rgba32(255, 255, 255), new PointF(916.8f, 103.8f))
+        //        //                   .DrawText($"300: {score.Count300}", Scores, new Rgba32(255, 255, 255), new PointF(916.8f, 144.1f))
+        //        //                   .DrawText($"100: {score.Count100}", Scores, new Rgba32(255, 255, 255), new PointF(1107.7f, 144.1f))
+        //        //                   .DrawText($"50: {score.Count50}", Scores, new Rgba32(255, 255, 255), new PointF(916.8f, 189.1f))
+        //        //                   .DrawText($"MISS: {score.Miss}", Scores, new Rgba32(255, 255, 255), new PointF(1107.7f, 189.1f))
+        //        //                   .DrawText($"{Math.Round(score.Accuracy,1)}% acc", Scores, new Rgba32(255, 255, 255), new PointF(916.8f, 237.2f))
+        //        //                   .DrawText($"{Math.Round(Convert.ToDouble(score.PerformancePoints),0)} pp", Scores, new Rgba32(255, 255, 255), new PointF(1107.7f, 237.2f))
+        //        //                   );
+        //        //    await Context.Channel.SendFileAsync(img.ToStream(), "gg.png");
+        //        //}
+
+        //    }
+        //}
+
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task level(SocketUser user = null)
         {
             using (var DBcontext = new DBcontext())
             {
                 if (user == null) user = Context.User;
-                var usr = DBcontext.Users.AsNoTracking().FirstOrDefault(x=>x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
+                var usr = DBcontext.Users.FirstOrDefault(x => x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
                 ulong count = (usr.Level * 80 * usr.Level);
                 await Context.Channel.SendMessageAsync("", false, new EmbedBuilder()
                                                          .WithColor(255, 0, 94)
@@ -36,62 +86,66 @@ namespace DarlingBotNet.Modules
 
         }
 
-        public class marryz
-        {
-            public ulong messid { get; set; }
-            public ulong marryedid { get; set; }
-            public ushort tar { get; set; }
-        }
 
-        public static readonly List<marryz> list = new List<marryz>();
+
+        public static readonly List<Checking> list = new List<Checking>();
 
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task marry(SocketUser user)
         {
             using (var DBcontext = new DBcontext())
             {
-                var emb = new EmbedBuilder().WithColor(255, 0, 94);
+                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Marry");
                 if (Context.User != user)
                 {
-                    var marryuser = await SystemLoading.UserCreate(user.Id,(user as SocketGuildUser).Guild.Id);
-                    await DBcontext.SaveChangesAsync();
-                    var ContextUser = DBcontext.Users.AsNoTracking().FirstOrDefault(x=>x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
+                    var marryuser = DBcontext.Users.GetOrCreate((user as SocketGuildUser)).Result;
+                    var ContextUser = DBcontext.Users.FirstOrDefault(x => x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
                     if (ContextUser.marryedid != marryuser.userid)
                     {
-                        var Prefix = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
+                        var Prefix = SystemLoading.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
                         if (ContextUser.marryedid == 0)
                         {
                             if (marryuser.marryedid == 0)
                             {
-                                var mes = await Context.Channel.SendMessageAsync("", false, emb.WithAuthor($"{Context.User} 💞 {user}").WithDescription($"Заявка отправлена {user.Mention}\nПринять: :white_check_mark: Отклонить: :negative_squared_cross_mark: ").Build());
+
+                                var time = DateTime.Now.AddSeconds(30);
+                                string text = $"Заявка отправлена {user.Mention}\nПринять: :white_check_mark: Отклонить: :negative_squared_cross_mark:";
+                                var mes = await Context.Channel.SendMessageAsync("", false, emb.WithAuthor($"{Context.User} 💞 {user}").WithDescription(text).Build());
                                 await mes.AddReactionAsync(new Emoji("✅"));
                                 await mes.AddReactionAsync(new Emoji("❎"));
-                                list.Add(new marryz() { marryedid = user.Id, messid = mes.Id });
-                                uint timer = 60;
-                                while (timer >= 0)
+                                var check = new Checking() { userid = user.Id, messid = mes.Id };
+                                list.Add(check);
+                                while (time > DateTime.Now)
                                 {
-                                    await Task.Delay(5000);
-                                    timer -= 10;
-                                    if (list.FirstOrDefault(x => x.marryedid == user.Id && x.messid == mes.Id).tar != 0) break;
-                                    if (timer == 0) break;
-                                    await mes.ModifyAsync(x => x.Embed = emb.WithDescription($"Заявка отправлена {user.Mention}\nПринять: :white_check_mark: Отклонить: :negative_squared_cross_mark: \nОсталось: {timer} секунд").Build());
-                                }
-                                await mes.DeleteAsync();
-                                if (list.FirstOrDefault(x => x.marryedid == user.Id && x.messid == mes.Id).tar == 2 && timer != 0)
-                                {
-                                    ContextUser.marryedid = marryuser.userid;
-                                    marryuser.marryedid = ContextUser.userid;
-                                    DBcontext.Users.Update(ContextUser);
-                                    DBcontext.Users.Update(marryuser);
-                                    await DBcontext.SaveChangesAsync();
-                                    await Context.Channel.SendMessageAsync("", false, emb.WithAuthor($"{Context.User} 💞 {user}").WithDescription($"Теперь вы женаты!").Build());
+                                    if ((time - DateTime.Now).Seconds % 10 == 0)
+                                        await mes.ModifyAsync(x => x.Embed = emb.WithDescription($"{text}\nОсталось: {(time - DateTime.Now).Seconds} секунд").Build());
+                                    
+                                    var res = list.FirstOrDefault(x => x == check).clicked;
+                                    if (res != 0)
+                                    {
+                                        if (res == 2)
+                                        {
+                                            ContextUser.marryedid = marryuser.userid;
+                                            marryuser.marryedid = ContextUser.userid;
+                                            DBcontext.Users.Update(ContextUser);
+                                            DBcontext.Users.Update(marryuser);
+                                            await DBcontext.SaveChangesAsync();
+                                            emb.WithDescription($"Теперь вы женаты!");
+                                        }
+                                        else
+                                            emb.WithDescription($"{user.Mention} отказался от свадьбы!");
 
+                                        break;
+                                    }
+                                    else if ((time - DateTime.Now).Seconds < 2)
+                                    {
+                                        emb.WithDescription($"{user.Mention} не успел принять заявку!");
+                                        break;
+                                    }
                                 }
-                                else if (list.FirstOrDefault(x => x.marryedid == user.Id && x.messid == mes.Id).tar == 1 && timer != 0)
-                                    await Context.Channel.SendMessageAsync("", false, emb.WithAuthor($"{Context.User} 💞 {user}").WithDescription($"{user.Mention} отказался от свадьбы!").Build());
-                                else if (list.FirstOrDefault(x => x.marryedid == user.Id && x.messid == mes.Id).tar == 0 && timer == 0)
-                                    await Context.Channel.SendMessageAsync("", false, emb.WithAuthor($"{Context.User} 💞 {user}").WithDescription($"{user.Mention} не успел принять заявку!").Build());
-                                list.Remove(list.FirstOrDefault(x => x.marryedid == user.Id && x.messid == mes.Id));
+                                await mes.RemoveAllReactionsAsync();
+                                await mes.ModifyAsync(x => x.Embed = emb.Build());
+                                list.Remove(check);
                             }
                             else await Context.Channel.SendMessageAsync("", false, emb.WithDescription($"{user} женат, нужно сначала развестись!").WithFooter($"Развестить - {Prefix}divorce").WithAuthor($"💞 - Ошибка").Build());
                         }
@@ -103,17 +157,19 @@ namespace DarlingBotNet.Modules
             }
         }
 
+
+
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task divorce()
         {
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(" - divorce", Context.User.GetAvatarUrl());
             using (var DBcontext = new DBcontext())
             {
-                Users ContextUser = DBcontext.Users.AsNoTracking().FirstOrDefault(x=>x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
+                Users ContextUser = DBcontext.Users.FirstOrDefault(x => x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
                 if (ContextUser.marryedid == 0) emb.WithDescription($"Вы не женаты!");
                 else
                 {
-                    Users marryed = await SystemLoading.UserCreate(ContextUser.marryedid, Context.Guild.Id);
+                    var marryed = DBcontext.Users.GetOrCreate(ContextUser.marryedid, Context.Guild.Id).Result;
                     marryed.marryedid = 0;
                     ContextUser.marryedid = 0;
                     DBcontext.Users.Update(marryed);
@@ -131,7 +187,7 @@ namespace DarlingBotNet.Modules
             if (user == null) user = Context.User;
             using (var DBcontext = new DBcontext())
             {
-                var usr = await SystemLoading.UserCreate(user.Id, Context.Guild.Id);
+                var usr = DBcontext.Users.GetOrCreate(user as SocketGuildUser).Result;
                 await Context.Channel.SendMessageAsync("", false, new EmbedBuilder()
                                                          .WithColor(255, 0, 94)
                                                          .WithAuthor($" - ZeroCoin {user}", user.GetAvatarUrl())
@@ -147,7 +203,8 @@ namespace DarlingBotNet.Modules
             EmbedBuilder emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(" - Kazino", Context.User.GetAvatarUrl());
             using (var DBcontext = new DBcontext())
             {
-                Users account = DBcontext.Users.AsNoTracking().FirstOrDefault(x=>x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
+                Users account = DBcontext.Users.FirstOrDefault(x => x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
+
 
                 ulong Coins = 0;
 
@@ -155,8 +212,6 @@ namespace DarlingBotNet.Modules
                     Coins = account.ZeroCoin;
                 else if (Stavka.Count(x => x >= 48 && x <= 57) >= 3 && Stavka.Count(x => x >= 48 && x <= 57) <= 4)
                     Coins = Convert.ToUInt64(String.Concat(Stavka.Where(x => x >= 48 && x <= 57)));
-
-
 
                 if (Coins >= 100 && Coins <= 9999)
                 {
@@ -180,7 +235,7 @@ namespace DarlingBotNet.Modules
                         }
                         else
                         {
-                            var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
+                            var Guild = SystemLoading.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
                             emb.WithDescription("Ваша ставка должна быть black,zero или red").WithFooter($"Пример - {Guild}kz [black/zero/red] [Кол-во ZeroCoin's]");
                         }
                     }
@@ -196,18 +251,16 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var usr = DBcontext.Users.AsNoTracking().FirstOrDefault(x => x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
+                var usr = DBcontext.Users.FirstOrDefault(x => x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(" - daily 🏧", Context.User.GetAvatarUrl());
-                
+
 
                 if (DateTime.Now > usr.Daily)
                 {
-
                     if (Math.Abs(DateTime.Now.Day - usr.Daily.Day) > 1)
                         usr.Streak = 1;
                     else
                         usr.Streak++;
-
 
                     ulong amt = 500 + ((500 / 35) * usr.Streak);
                     usr.ZeroCoin += amt;
@@ -248,15 +301,14 @@ namespace DarlingBotNet.Modules
             EmbedBuilder emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"{Context.User} 💱 {user}");
             using (var DBcontext = new DBcontext())
             {
-                var transfuser = DBcontext.Users.AsNoTracking().FirstOrDefault(x=>x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
-                Users usr = DBcontext.Users.AsNoTracking().FirstOrDefault(x=>x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
                 if (user != Context.User)
                 {
+                    Users usr = DBcontext.Users.FirstOrDefault(x => x.guildId == Context.Guild.Id && x.userid == Context.User.Id);
                     if (usr.ZeroCoin >= coin)
                     {
                         if (coin <= 10000)
                         {
-
+                            var transfuser = DBcontext.Users.FirstOrDefault(x => x.guildId == Context.Guild.Id && x.userid == user.Id);
                             usr.ZeroCoin -= coin;
                             transfuser.ZeroCoin += coin;
                             emb.WithDescription($"Перевод в размере {coin} zerocoin успешно прошел.");
@@ -292,25 +344,18 @@ namespace DarlingBotNet.Modules
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Warns");
             using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
-                if (Guild.ViolationSystem == 0) emb.WithDescription("На сервере не включена система нарушений.");
-                else if (Guild.ViolationSystem == 1) emb.WithDescription("На сервере выбрана другая система нарушений");
-                else
+                var warns = DBcontext.Warns.AsQueryable().Where(x => x.guildid == Context.Guild.Id);
+                foreach (var warn in warns)
                 {
-                    var warns = DBcontext.Warns.AsNoTracking().Where(x=>x.guildid == Context.Guild.Id);
-                    foreach (var warn in warns)
-                    {
-                        if (warn.ReportWarn.Contains("tban"))
-                            warn.ReportWarn = $"Бан на {warn.ReportWarn.Substring(4, warn.ReportWarn.Length - 4)} минут";
+                    if (warn.ReportWarn.Contains("tban"))
+                        warn.ReportWarn = $"Бан на {warn.ReportWarn.Substring(4, warn.ReportWarn.Length - 4)} минут";
 
-                        else if (warn.ReportWarn.Contains("tmute"))
-                            warn.ReportWarn = $"Мут на {warn.ReportWarn.Substring(5, warn.ReportWarn.Length - 5)} минут";
+                    else if (warn.ReportWarn.Contains("tmute"))
+                        warn.ReportWarn = $"Мут на {warn.ReportWarn.Substring(5, warn.ReportWarn.Length - 5)} минут";
 
-                        emb.Description += $"{warn.CountWarn}.{warn.ReportWarn}";
-                        emb.Description += "\n";
-                    }
-                    if (emb.Description == null) emb.WithDescription("На сервере еще нет варнов!");
+                    emb.Description += $"{warn.CountWarn}.{warn.ReportWarn}\n";
                 }
+                if (emb.Description.Length == 0) emb.WithDescription("На сервере еще нет варнов!");
             }
             await Context.Channel.SendMessageAsync("", false, emb.Build());
         }
@@ -321,21 +366,19 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var embed = new EmbedBuilder().WithAuthor("🔨LevelRole - уровневые роли отсутствуют ⚠️").WithColor(255, 0, 94);
-
-                var lvl = DBcontext.LVLROLES.AsNoTracking().Where(x=>x.guildid == Context.Guild.Id);
+                var lvl = DBcontext.LVLROLES.AsQueryable().Where(x => x.guildid == Context.Guild.Id).OrderByDescending(u => u.countlvl);
                 if (lvl.Count() != 0)
                 {
                     embed.WithAuthor($"🔨LevelRole - уровневые роли");
-                    lvl = lvl.OrderByDescending(u => u.countlvl);
                     foreach (var LVL in lvl)
                         embed.Description += $"{LVL.countlvl} уровень - {Context.Guild.GetRole(LVL.roleid).Mention}\n";
                 }
                 if (Context.Guild.Owner == Context.User)
                 {
-                    embed.AddField("Добавить роль", $"{glds.Prefix}lr.Add [ROLE] [LEVEL]");
-                    embed.AddField("Удалить роль", $"{glds.Prefix}lr.Del [ROLE]");
+                    var glds = SystemLoading.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
+                    embed.AddField("Добавить роль", $"{glds}lr.Add [ROLE] [LEVEL]");
+                    embed.AddField("Удалить роль", $"{glds}lr.Del [ROLE]");
                 }
 
                 await Context.Channel.SendMessageAsync("", false, embed.Build());

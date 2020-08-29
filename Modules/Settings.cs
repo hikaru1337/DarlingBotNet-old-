@@ -5,12 +5,10 @@ using DarlingBotNet.Services.Sys;
 using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
-using ServiceStack;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
-using System.Net.Sockets;
 using System.Threading.Tasks;
 
 namespace DarlingBotNet.Modules
@@ -36,7 +34,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var embed = new EmbedBuilder().WithColor(255, 0, 94)
                                               .WithFooter($"Выбор системы - **{Guild.Prefix}ViolationSystemSet [WarnSystem/OFF]**\n" +
                                                           $"💤**OFF** - отключить систему");
@@ -83,7 +81,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var embed = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨ReportSystemSet").WithFooter($"Для настройки напишите {glds.Prefix}violationsystem"); ;
                 if (System.ToLower() == "off")
                 {
@@ -116,14 +114,14 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
-                var warn = DBcontext.Warns.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id && x.CountWarn == CountWarn);
+                var Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var warn = DBcontext.Warns.FirstOrDefault(x=>x.guildid == Context.Guild.Id && x.CountWarn == CountWarn);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("AddWarn");
 
                 if (CountWarn <= 15)
                 {
                     var Text = SystemLoading.CheckText(report);
-                    if (Text.Result.Item1)
+                    if (Text.Item1)
                     {
                         if (warn != null)
                         {
@@ -143,9 +141,9 @@ namespace DarlingBotNet.Modules
                     }
                     else
                     {
-                        emb.Description += Text.Result.Item2.Description;
-                        if (Text.Result.Item2.Footer != null)
-                            emb.Footer = Text.Result.Item2.Footer;
+                        emb.Description += Text.Item2.Description;
+                        if (Text.Item2.Footer != null)
+                            emb.Footer = Text.Item2.Footer;
                     }
                 }
                 else emb.WithFooter($"Количество варнов не может быть больше 15");
@@ -160,8 +158,8 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
-                var warn = DBcontext.Warns.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id && x.CountWarn == CountWarn);
+                var Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var warn = DBcontext.Warns.FirstOrDefault(x=>x.guildid == Context.Guild.Id && x.CountWarn == CountWarn);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("AddWarn");
                 if (warn != null)
                 {
@@ -182,7 +180,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Prefix");
                 if (prefix == null) emb.WithDescription($"Префикс сервера - {Guild.Prefix}");
                 else
@@ -207,7 +205,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("CommandInvise - Отключенные команды");
 
                 if (commandname == null)
@@ -269,9 +267,9 @@ namespace DarlingBotNet.Modules
             using (var DBcontext = new DBcontext())
             {
 
-                var glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨lr.Add");
-                var lvlrole = DBcontext.LVLROLES.AsNoTracking().FirstOrDefault(x=>x.roleid == role.Id && x.guildid == Context.Guild.Id);
+                var lvlrole = DBcontext.LVLROLES.FirstOrDefault(x=>x.roleid == role.Id && x.guildid == Context.Guild.Id);
                 if (lvlrole == null)
                 {
                     var rolepos = Context.Guild.GetUser(Context.Client.CurrentUser.Id).Roles.FirstOrDefault(x => x.Position > role.Position);
@@ -302,7 +300,7 @@ namespace DarlingBotNet.Modules
             using (var DBcontext = new DBcontext())
             {
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨lr.Del");
-                var lvlrole = DBcontext.LVLROLES.AsNoTracking().FirstOrDefault(x=>x.roleid == role.Id && x.guildid == role.Guild.Id);
+                var lvlrole = DBcontext.LVLROLES.FirstOrDefault(x=>x.roleid == role.Id && x.guildid == role.Guild.Id);
                 emb.WithDescription($"Уровневая роль {role.Mention} {(lvlrole != null ? "удалена" : "не является уровневой")}.");
                 if (lvlrole != null)
                 {
@@ -321,7 +319,7 @@ namespace DarlingBotNet.Modules
             using (var DBcontext = new DBcontext())
             {
                 var emb = new EmbedBuilder().WithColor(255, 0, 94);
-                var prefix = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
+                var prefix = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
                 var chnl = new Channels();
                 //if (channelz as SocketTextChannel == null)
                 //{
@@ -353,7 +351,7 @@ namespace DarlingBotNet.Modules
                 //{
                 //var channel = channelz as SocketTextChannel;
                 emb.WithAuthor($"🔨ChannelSettings {(channel == null ? " " : $"- {channel.Name}")}");
-                if (channel != null) chnl = DBcontext.Channels.AsNoTracking().FirstOrDefault(x => x.channelid == channel.Id && x.guildid == channel.Guild.Id);
+                if (channel != null) chnl = DBcontext.Channels.FirstOrDefault(x => x.channelid == channel.Id && x.guildid == channel.Guild.Id);
                 if (channel != null && number == 0)
                 {
                     if (chnl != null)
@@ -452,10 +450,10 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                Guilds glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨cs.badword")
                                             .WithFooter($"Добавить/Удалить - {glds.Prefix}cs.bw {channel.Name} [слово]");
-                Channels chnl = DBcontext.Channels.AsNoTracking().FirstOrDefault(x => x.channelid == channel.Id && x.guildid == channel.Guild.Id);
+                Channels chnl = DBcontext.Channels.FirstOrDefault(x => x.channelid == channel.Id && x.guildid == channel.Guild.Id);
 
                 if (chnl.SendBadWord)
                 {
@@ -486,7 +484,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                Guilds glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨cs.givexp");
                 glds.GiveXPnextChannel = !glds.GiveXPnextChannel;
                 DBcontext.Guilds.Update(glds);
@@ -502,10 +500,10 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var prefix = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
+                var prefix = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨cs.UrlWhiteList")
                                             .WithFooter($"Добавить/Удалить - {prefix}cs.uwl #{channel.Name} [url]");
-                Channels chnl = DBcontext.Channels.AsNoTracking().FirstOrDefault(x=>x.channelid == channel.Id && x.guildid == channel.Guild.Id);
+                Channels chnl = DBcontext.Channels.FirstOrDefault(x=>x.channelid == channel.Id && x.guildid == channel.Guild.Id);
 
                 if (chnl.SendUrl)
                 {
@@ -536,7 +534,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                Guilds Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(" - LogsServer", Context.Guild.IconUrl);
                 if (selection == 0 && channel == null)
                 {
@@ -632,7 +630,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                Guilds Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(" - MessageSettings", Context.Guild.IconUrl);
                 ulong point = 1;
                 if (selection == 0 && text == null)
@@ -871,7 +869,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds Guild = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                Guilds Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var embed = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨PrivateCreate");
 
                 if (Context.Guild.GetVoiceChannel(Guild.PrivateChannelID) == null)
@@ -895,7 +893,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                Guilds glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithAuthor("🔨MuteRole").WithColor(255, 0, 94).WithDescription("Роли для нарушений уже созданы!");
                 var chatrole = Context.Guild.GetRole(glds.chatmuterole);
                 var voicerole = Context.Guild.GetRole(glds.voicemuterole);
@@ -905,7 +903,7 @@ namespace DarlingBotNet.Modules
                 var mes = await Context.Channel.SendMessageAsync("", false, emb.Build());
                 if (chatrole == null || voicerole == null)
                 {
-                    glds = await new SystemLoading(_discord).CreateMuteRole(Context.Guild);
+                    glds = await SystemLoading.CreateMuteRole(Context.Guild);
                     chatrole = Context.Guild.GetRole(glds.chatmuterole);
                     voicerole = Context.Guild.GetRole(glds.voicemuterole);
                     await mes.ModifyAsync(x => x.Embed = emb.WithDescription($"Созданы роли {chatrole.Mention},{voicerole.Mention} и уже привязаны к каналам!").Build());
@@ -920,7 +918,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                Guilds glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                 var emb = new EmbedBuilder().WithAuthor("🔨RaidSettings").WithColor(255, 0, 94);
                 string raidus = "Для подробной настройки Anti-Raid системы используйте -> [инструкцию](https://docs.darlingbot.ru/commands/settings-server/anti-raid-sistema)";
                 if (select == 0 && point == 0)
@@ -988,7 +986,7 @@ namespace DarlingBotNet.Modules
                 var emb = new EmbedBuilder().WithAuthor("🔨GetRoleToEmote").WithColor(255, 0, 94);
                 if (messageid == 0 && emote == null && role == null && GetOrRemove == false)
                 {
-                    Guilds glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                    Guilds glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
                     emb.WithDescription("Команда способствует выдачи/удалению роли участника по нажатию на эмодзи в сообщении!\n\n" +
                     "**messageid** - ваше сообщение в котором будут отслеживаться эмодзи\n" +
                     "**emote** - id эмодзи по нажатию на которое будет выдаваться/удаляться роль[использовать только серверные эмодзи]\n" +
@@ -1007,10 +1005,19 @@ namespace DarlingBotNet.Modules
                         {
                             if (Context.Guild.Emotes.Where(x => x.Name == emote) != null)
                             {
-                                DBcontext.EmoteClick.Add(new EmoteClick() { guildid = Context.Guild.Id, messageid = messageid, emote = emote, get = GetOrRemove, roleid = role.Id, channelid = mes.Id });
-                                await DBcontext.SaveChangesAsync();
-                                emb.WithDescription($"Вы успешно создали {(GetOrRemove == false ? "выдачу" : "удаление")} {role.Mention} за нажатие {Emote.Parse(emote)}");
-                                await mes.GetMessageAsync(messageid).Result.AddReactionAsync(Emote.Parse(emote));
+                                var rolepos = Context.Guild.GetUser(Context.Client.CurrentUser.Id).Roles.FirstOrDefault(x => x.Position > role.Position);
+                                if (rolepos != null)
+                                {
+                                    if (!role.IsManaged)
+                                    {
+                                        DBcontext.EmoteClick.Add(new EmoteClick() { guildid = Context.Guild.Id, messageid = messageid, emote = emote, get = GetOrRemove, roleid = role.Id, channelid = mes.Id });
+                                        await DBcontext.SaveChangesAsync();
+                                        emb.WithDescription($"Вы успешно создали {(GetOrRemove == false ? "выдачу" : "удаление")} {role.Mention} за нажатие {Emote.Parse(emote)}");
+                                        await mes.GetMessageAsync(messageid).Result.AddReactionAsync(Emote.Parse(emote));
+                                    }
+                                    else emb.WithDescription("Роль бота или Boost, нельзя сделать для выдачи!");
+                                }
+                                else emb.WithDescription("Роль бота ниже этой роли, из-за чего бот не сможет выдавать ее.").WithFooter("Поднимите роль бота выше выдаваемой роли.");
                             }
                             else emb.WithDescription("Эмодзи не найдено. Возможно вы используете не серверные эмодзи?\n");
                         }

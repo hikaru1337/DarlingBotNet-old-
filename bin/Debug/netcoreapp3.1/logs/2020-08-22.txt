@@ -70,3 +70,58 @@
    at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
    at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
 22.08.2020 13:11:52 [Info] Gateway: Ready
+22.08.2020 22:29:53 [Info] Discord: Discord.Net v2.2.0 (API v6)
+22.08.2020 22:29:54 [Verbose] Rest: GET voice/regions: 699,32 ms
+22.08.2020 22:29:54 [Verbose] Rest: GET users/@me: 217,77 ms
+22.08.2020 22:29:55 [Info] Gateway: Connecting
+22.08.2020 22:29:55 [Verbose] Rest: GET gateway: 66,55 ms
+22.08.2020 22:29:56 [Info] Gateway: Connected
+22.08.2020 22:29:56 [Verbose] Gateway: Connected to DarlingBotInfo
+22.08.2020 22:29:57 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: g.Id'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.GuildCheck() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 148
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 416
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+22.08.2020 22:29:57 [Info] Gateway: Ready
+22.08.2020 22:32:40 [Info] Discord: Discord.Net v2.2.0 (API v6)
+22.08.2020 22:32:41 [Verbose] Rest: GET voice/regions: 674,13 ms
+22.08.2020 22:32:41 [Verbose] Rest: GET users/@me: 214,7 ms
+22.08.2020 22:32:41 [Info] Gateway: Connecting
+22.08.2020 22:32:41 [Verbose] Rest: GET gateway: 72,19 ms
+22.08.2020 22:32:42 [Info] Gateway: Connected
+22.08.2020 22:32:42 [Verbose] Gateway: Connected to DarlingBotInfo
+22.08.2020 22:32:44 [Info] Gateway: Ready
+22.08.2020 22:32:48 [Verbose] Rest: POST channels/744480279275634748/messages: 248,18 ms
+22.08.2020 22:32:48 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+22.08.2020 22:32:58 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+22.08.2020 22:32:58 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+22.08.2020 22:32:58 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+22.08.2020 22:32:58 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+22.08.2020 22:32:58 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+22.08.2020 22:32:58 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+22.08.2020 22:32:58 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+22.08.2020 22:32:58 [Verbose] Rest: GET oauth2/applications/@me: 232,99 ms
+22.08.2020 22:32:59 [Verbose] Rest: GET oauth2/applications/@me: 722,81 ms
+22.08.2020 22:32:59 [Verbose] Rest: GET oauth2/applications/@me: 870,97 ms
+22.08.2020 22:32:59 [Verbose] Rest: GET oauth2/applications/@me: 868,59 ms
+22.08.2020 22:32:59 [Verbose] Rest: GET oauth2/applications/@me: 863,28 ms
+22.08.2020 22:32:59 [Verbose] Rest: GET oauth2/applications/@me: 882,36 ms
+22.08.2020 22:32:59 [Verbose] Rest: GET oauth2/applications/@me: 884,34 ms
+22.08.2020 22:32:59 [Verbose] Rest: GET oauth2/applications/@me: 965,17 ms
+22.08.2020 22:32:59 [Verbose] Rest: POST channels/744480279275634748/messages: 235,15 ms
+22.08.2020 22:32:59 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ

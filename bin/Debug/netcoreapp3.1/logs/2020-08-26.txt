@@ -1,0 +1,837 @@
+26.08.2020 10:10:53 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:10:54 [Verbose] Rest: GET voice/regions: 984,16 ms
+26.08.2020 10:11:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:11:12 [Verbose] Rest: GET voice/regions: 718,64 ms
+26.08.2020 10:11:13 [Verbose] Rest: GET users/@me: 217,74 ms
+26.08.2020 10:11:13 [Info] Gateway: Connecting
+26.08.2020 10:11:13 [Verbose] Rest: GET gateway: 86,11 ms
+26.08.2020 10:11:14 [Info] Gateway: Connected
+26.08.2020 10:11:14 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:11:16 [Info] Gateway: Ready
+26.08.2020 10:11:18 [Verbose] Rest: POST channels/744480279275634748/messages: 328,57 ms
+26.08.2020 10:11:18 [Verbose] Rest: PUT channels/744480279275634748/messages/748122394341670982/reactions/✅/@me: 221,11 ms
+26.08.2020 10:11:18 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 10:11:19 [Verbose] Rest: PUT channels/744480279275634748/messages/748122394341670982/reactions/❎/@me: 1001,57 ms
+26.08.2020 10:11:25 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122394341670982: 302,33 ms
+26.08.2020 10:11:26 [Verbose] Command: Executed "marry" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 10:12:17 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:12:18 [Verbose] Rest: GET voice/regions: 655,43 ms
+26.08.2020 10:12:18 [Verbose] Rest: GET users/@me: 238,2 ms
+26.08.2020 10:12:19 [Info] Gateway: Connecting
+26.08.2020 10:12:19 [Verbose] Rest: GET gateway: 73,89 ms
+26.08.2020 10:12:20 [Info] Gateway: Connected
+26.08.2020 10:12:20 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:12:21 [Info] Gateway: Ready
+26.08.2020 10:12:55 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:12:55 [Verbose] Rest: GET voice/regions: 639,09 ms
+26.08.2020 10:12:56 [Verbose] Rest: GET users/@me: 257,32 ms
+26.08.2020 10:12:56 [Info] Gateway: Connecting
+26.08.2020 10:12:56 [Verbose] Rest: GET gateway: 88,56 ms
+26.08.2020 10:12:57 [Info] Gateway: Connected
+26.08.2020 10:12:57 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:12:58 [Info] Gateway: Ready
+26.08.2020 10:12:59 [Verbose] Rest: POST channels/744480279275634748/messages: 275,03 ms
+26.08.2020 10:13:00 [Verbose] Rest: PUT channels/744480279275634748/messages/748122820768432129/reactions/✅/@me: 238,7 ms
+26.08.2020 10:13:00 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 10:13:00 [Verbose] Rest: PUT channels/744480279275634748/messages/748122820768432129/reactions/❎/@me: 691,79 ms
+26.08.2020 10:13:01 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 244,42 ms
+26.08.2020 10:13:01 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 255,23 ms
+26.08.2020 10:13:01 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 228,81 ms
+26.08.2020 10:13:01 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 256,46 ms
+26.08.2020 10:13:01 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:13:07 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 5154,37 ms
+26.08.2020 10:13:07 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 239,78 ms
+26.08.2020 10:13:07 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 228,19 ms
+26.08.2020 10:13:07 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 317,68 ms
+26.08.2020 10:13:08 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 280,93 ms
+26.08.2020 10:13:08 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:13:13 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 5184,89 ms
+26.08.2020 10:13:13 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 226,79 ms
+26.08.2020 10:13:13 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 259,82 ms
+26.08.2020 10:13:14 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 295,73 ms
+26.08.2020 10:13:14 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 271,28 ms
+26.08.2020 10:13:14 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:13:19 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 4951,79 ms
+26.08.2020 10:13:19 [Verbose] Rest: DELETE channels/744480279275634748/messages/748122820768432129/reactions: 223,02 ms
+26.08.2020 10:13:19 [Verbose] Rest: PATCH channels/744480279275634748/messages/748122820768432129: 221,16 ms
+26.08.2020 10:13:19 [Verbose] Command: Executed "marry" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 10:14:48 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:14:49 [Verbose] Rest: GET voice/regions: 666,31 ms
+26.08.2020 10:14:50 [Verbose] Rest: GET users/@me: 278,13 ms
+26.08.2020 10:14:50 [Info] Gateway: Connecting
+26.08.2020 10:14:50 [Verbose] Rest: GET gateway: 76,64 ms
+26.08.2020 10:14:51 [Info] Gateway: Connected
+26.08.2020 10:14:51 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:14:52 [Info] Gateway: Ready
+26.08.2020 10:15:01 [Verbose] Rest: POST channels/744480279275634748/messages: 239,08 ms
+26.08.2020 10:15:01 [Verbose] Rest: PUT channels/744480279275634748/messages/748123329558216715/reactions/✅/@me: 250,33 ms
+26.08.2020 10:15:01 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 10:15:02 [Verbose] Rest: PUT channels/744480279275634748/messages/748123329558216715/reactions/❎/@me: 1152,03 ms
+26.08.2020 10:15:26 [Verbose] Rest: DELETE channels/744480279275634748/messages/748123329558216715/reactions: 223,49 ms
+26.08.2020 10:15:26 [Verbose] Rest: PATCH channels/744480279275634748/messages/748123329558216715: 215,83 ms
+26.08.2020 10:15:26 [Verbose] Command: Executed "marry" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 10:15:56 [Verbose] Rest: POST channels/744480279275634748/messages: 235,03 ms
+26.08.2020 10:15:57 [Verbose] Rest: PUT channels/744480279275634748/messages/748123563038343188/reactions/✅/@me: 261,7 ms
+26.08.2020 10:15:57 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 10:15:57 [Verbose] Rest: PUT channels/744480279275634748/messages/748123563038343188/reactions/❎/@me: 640,95 ms
+26.08.2020 10:16:20 [Verbose] Rest: DELETE channels/744480279275634748/messages/748123563038343188/reactions: 391,95 ms
+26.08.2020 10:16:20 [Verbose] Rest: PATCH channels/744480279275634748/messages/748123563038343188: 219,19 ms
+26.08.2020 10:16:20 [Verbose] Command: Executed "marry" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 10:16:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:16:35 [Verbose] Rest: GET voice/regions: 691,26 ms
+26.08.2020 10:16:35 [Verbose] Rest: GET users/@me: 228,93 ms
+26.08.2020 10:16:35 [Info] Gateway: Connecting
+26.08.2020 10:16:35 [Verbose] Rest: GET gateway: 77,28 ms
+26.08.2020 10:16:36 [Info] Gateway: Connected
+26.08.2020 10:16:36 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:16:37 [Info] Gateway: Ready
+26.08.2020 10:16:44 [Verbose] Rest: POST channels/744480279275634748/messages: 255,45 ms
+26.08.2020 10:16:44 [Verbose] Command: Executed "marry" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 10:16:48 [Verbose] Rest: POST channels/744480279275634748/messages: 243,4 ms
+26.08.2020 10:16:48 [Verbose] Command: Executed "divorce" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 10:16:53 [Verbose] Rest: POST channels/744480279275634748/messages: 248,01 ms
+26.08.2020 10:16:53 [Verbose] Rest: PUT channels/744480279275634748/messages/748123800473960488/reactions/✅/@me: 219,76 ms
+26.08.2020 10:16:53 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 10:16:54 [Verbose] Rest: PUT channels/744480279275634748/messages/748123800473960488/reactions/❎/@me: 1208,61 ms
+26.08.2020 10:17:23 [Verbose] Rest: DELETE channels/744480279275634748/messages/748123800473960488/reactions: 240,14 ms
+26.08.2020 10:17:23 [Verbose] Rest: PATCH channels/744480279275634748/messages/748123800473960488: 227,19 ms
+26.08.2020 10:17:23 [Verbose] Command: Executed "marry" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 10:20:01 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:20:01 [Verbose] Rest: GET voice/regions: 640,56 ms
+26.08.2020 10:20:02 [Verbose] Rest: GET users/@me: 218,81 ms
+26.08.2020 10:20:02 [Info] Gateway: Connecting
+26.08.2020 10:20:02 [Verbose] Rest: GET gateway: 71,95 ms
+26.08.2020 10:20:03 [Info] Gateway: Connected
+26.08.2020 10:20:03 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:20:04 [Info] Gateway: Ready
+26.08.2020 10:20:08 [Verbose] Rest: POST channels/744480279275634748/messages: 252,94 ms
+26.08.2020 10:20:08 [Verbose] Rest: PUT channels/744480279275634748/messages/748124618363240490/reactions/✅/@me: 225,8 ms
+26.08.2020 10:20:08 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 10:20:10 [Verbose] Rest: PUT channels/744480279275634748/messages/748124618363240490/reactions/❎/@me: 1320,19 ms
+26.08.2020 10:20:10 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 227,62 ms
+26.08.2020 10:20:10 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 237,6 ms
+26.08.2020 10:20:10 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 240,9 ms
+26.08.2020 10:20:11 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 239,85 ms
+26.08.2020 10:20:11 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:20:16 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 5452,62 ms
+26.08.2020 10:20:16 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 229,32 ms
+26.08.2020 10:20:17 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 224,23 ms
+26.08.2020 10:20:17 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 231,03 ms
+26.08.2020 10:20:17 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 218,49 ms
+26.08.2020 10:20:17 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:20:22 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 5076,54 ms
+26.08.2020 10:20:22 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 238,13 ms
+26.08.2020 10:20:23 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 241,02 ms
+26.08.2020 10:20:23 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 244,83 ms
+26.08.2020 10:20:23 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 236,07 ms
+26.08.2020 10:20:23 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:20:28 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 5101,38 ms
+26.08.2020 10:20:28 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 233,45 ms
+26.08.2020 10:20:29 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 254,17 ms
+26.08.2020 10:20:29 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 226,05 ms
+26.08.2020 10:20:29 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 243,92 ms
+26.08.2020 10:20:29 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:20:34 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 4868,18 ms
+26.08.2020 10:20:34 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 254,34 ms
+26.08.2020 10:20:35 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 234,03 ms
+26.08.2020 10:20:35 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 270,83 ms
+26.08.2020 10:20:35 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 234,15 ms
+26.08.2020 10:20:35 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:20:35 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:20:40 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 5058,78 ms
+26.08.2020 10:20:40 [Verbose] Rest: DELETE channels/744480279275634748/messages/748124618363240490/reactions: 248,42 ms
+26.08.2020 10:20:41 [Verbose] Rest: PATCH channels/744480279275634748/messages/748124618363240490: 218,27 ms
+26.08.2020 10:20:41 [Verbose] Command: Executed "marry" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 10:21:19 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:21:19 [Verbose] Rest: GET voice/regions: 658,11 ms
+26.08.2020 10:21:20 [Verbose] Rest: GET users/@me: 231,76 ms
+26.08.2020 10:21:20 [Info] Gateway: Connecting
+26.08.2020 10:21:20 [Verbose] Rest: GET gateway: 82,34 ms
+26.08.2020 10:21:21 [Info] Gateway: Connected
+26.08.2020 10:21:21 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:21:22 [Info] Gateway: Ready
+26.08.2020 10:21:36 [Verbose] Rest: POST channels/744480279275634748/messages: 267,91 ms
+26.08.2020 10:21:36 [Verbose] Rest: PUT channels/744480279275634748/messages/748124985746522213/reactions/✅/@me: 215,92 ms
+26.08.2020 10:21:36 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 10:21:37 [Verbose] Rest: PUT channels/744480279275634748/messages/748124985746522213/reactions/❎/@me: 898,76 ms
+26.08.2020 10:21:57 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:21:58 [Verbose] Rest: GET voice/regions: 609,24 ms
+26.08.2020 10:21:58 [Verbose] Rest: GET users/@me: 225,29 ms
+26.08.2020 10:21:58 [Info] Gateway: Connecting
+26.08.2020 10:21:58 [Verbose] Rest: GET gateway: 71,24 ms
+26.08.2020 10:21:59 [Info] Gateway: Connected
+26.08.2020 10:22:00 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:22:01 [Info] Gateway: Ready
+26.08.2020 10:22:04 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:22:04 [Verbose] Rest: POST channels/744480279275634748/messages: 266,42 ms
+26.08.2020 10:22:04 [Verbose] Rest: PUT channels/744480279275634748/messages/748125104164044841/reactions/✅/@me: 217,83 ms
+26.08.2020 10:22:04 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 10:22:04 [Verbose] Rest: POST channels/744480279275634748/messages: 879,67 ms
+26.08.2020 10:22:05 [Verbose] Rest: PUT channels/744480279275634748/messages/748125104164044841/reactions/❎/@me: 1120,88 ms
+26.08.2020 10:22:25 [Verbose] Rest: DELETE channels/744480279275634748/messages/748125104164044841/reactions: 222,97 ms
+26.08.2020 10:22:25 [Verbose] Rest: PATCH channels/744480279275634748/messages/748125104164044841: 265,84 ms
+26.08.2020 10:22:25 [Verbose] Command: Executed "marry" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 10:23:08 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:23:09 [Verbose] Rest: GET voice/regions: 692,41 ms
+26.08.2020 10:23:09 [Verbose] Rest: GET users/@me: 227,65 ms
+26.08.2020 10:23:09 [Info] Gateway: Connecting
+26.08.2020 10:23:09 [Verbose] Rest: GET gateway: 79,53 ms
+26.08.2020 10:23:10 [Info] Gateway: Connected
+26.08.2020 10:23:10 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:23:11 [Info] Gateway: Ready
+26.08.2020 10:23:52 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:23:53 [Verbose] Rest: GET voice/regions: 654,11 ms
+26.08.2020 10:23:53 [Verbose] Rest: GET users/@me: 220,85 ms
+26.08.2020 10:23:53 [Info] Gateway: Connecting
+26.08.2020 10:23:54 [Verbose] Rest: GET gateway: 77,79 ms
+26.08.2020 10:23:54 [Info] Gateway: Connected
+26.08.2020 10:23:55 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:23:56 [Info] Gateway: Ready
+26.08.2020 10:24:00 [Verbose] Rest: POST channels/744480279275634748/messages: 253,68 ms
+26.08.2020 10:24:00 [Verbose] Rest: PUT channels/744480279275634748/messages/748125589734686821/reactions/✅/@me: 236,83 ms
+26.08.2020 10:24:00 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 10:24:01 [Verbose] Rest: PUT channels/744480279275634748/messages/748125589734686821/reactions/❎/@me: 970,87 ms
+26.08.2020 10:24:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:24:24 [Verbose] Rest: GET voice/regions: 746,58 ms
+26.08.2020 10:24:24 [Verbose] Rest: GET users/@me: 223,51 ms
+26.08.2020 10:24:24 [Info] Gateway: Connecting
+26.08.2020 10:24:24 [Verbose] Rest: GET gateway: 76,15 ms
+26.08.2020 10:24:25 [Info] Gateway: Connected
+26.08.2020 10:24:25 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:24:26 [Info] Gateway: Ready
+26.08.2020 10:24:28 [Verbose] Rest: POST channels/744480279275634748/messages: 280,64 ms
+26.08.2020 10:24:29 [Verbose] Rest: PUT channels/744480279275634748/messages/748125710178058241/reactions/✅/@me: 221,7 ms
+26.08.2020 10:24:29 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 10:24:29 [Verbose] Rest: PUT channels/744480279275634748/messages/748125710178058241/reactions/❎/@me: 568,74 ms
+26.08.2020 10:24:57 [Verbose] Rest: DELETE channels/744480279275634748/messages/748125710178058241/reactions: 233,22 ms
+26.08.2020 10:24:58 [Verbose] Rest: PATCH channels/744480279275634748/messages/748125710178058241: 243,07 ms
+26.08.2020 10:24:58 [Verbose] Command: Executed "marry" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 10:25:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:25:47 [Verbose] Rest: GET voice/regions: 669,38 ms
+26.08.2020 10:25:48 [Verbose] Rest: GET users/@me: 238,34 ms
+26.08.2020 10:25:48 [Info] Gateway: Connecting
+26.08.2020 10:25:48 [Verbose] Rest: GET gateway: 77,81 ms
+26.08.2020 10:25:49 [Info] Gateway: Connected
+26.08.2020 10:25:49 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:25:50 [Info] Gateway: Ready
+26.08.2020 10:25:52 [Verbose] Rest: POST channels/744480279275634748/messages: 250,38 ms
+26.08.2020 10:25:53 [Verbose] Rest: PUT channels/744480279275634748/messages/748126063145517066/reactions/✅/@me: 224,88 ms
+26.08.2020 10:25:53 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 10:25:53 [Verbose] Rest: PUT channels/744480279275634748/messages/748126063145517066/reactions/❎/@me: 732,74 ms
+26.08.2020 10:26:03 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126063145517066: 223,28 ms
+26.08.2020 10:26:03 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126063145517066: 273,65 ms
+26.08.2020 10:26:03 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126063145517066: 235,57 ms
+26.08.2020 10:26:04 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126063145517066: 330,67 ms
+26.08.2020 10:26:13 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126063145517066: 243,71 ms
+26.08.2020 10:26:13 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126063145517066: 264,28 ms
+26.08.2020 10:26:13 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126063145517066: 240,4 ms
+26.08.2020 10:26:13 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126063145517066: 227,47 ms
+26.08.2020 10:26:22 [Verbose] Rest: DELETE channels/744480279275634748/messages/748126063145517066/reactions: 250,82 ms
+26.08.2020 10:26:22 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126063145517066: 219,77 ms
+26.08.2020 10:26:22 [Verbose] Command: Executed "marry" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 10:27:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:27:25 [Verbose] Rest: GET voice/regions: 619,81 ms
+26.08.2020 10:27:25 [Verbose] Rest: GET users/@me: 233,2 ms
+26.08.2020 10:27:25 [Info] Gateway: Connecting
+26.08.2020 10:27:25 [Verbose] Rest: GET gateway: 75,25 ms
+26.08.2020 10:27:26 [Info] Gateway: Connected
+26.08.2020 10:27:26 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:27:27 [Info] Gateway: Ready
+26.08.2020 10:27:29 [Verbose] Rest: POST channels/744480279275634748/messages: 242,08 ms
+26.08.2020 10:27:29 [Verbose] Rest: PUT channels/744480279275634748/messages/748126468130996225/reactions/✅/@me: 216,15 ms
+26.08.2020 10:27:29 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 10:27:31 [Verbose] Rest: PUT channels/744480279275634748/messages/748126468130996225/reactions/❎/@me: 1296,23 ms
+26.08.2020 10:27:33 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126468130996225: 248,62 ms
+26.08.2020 10:27:33 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126468130996225: 216,02 ms
+26.08.2020 10:27:34 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126468130996225: 261,27 ms
+26.08.2020 10:27:34 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126468130996225: 253,55 ms
+26.08.2020 10:28:07 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 10:28:08 [Verbose] Rest: GET voice/regions: 623,84 ms
+26.08.2020 10:28:08 [Verbose] Rest: GET users/@me: 242,39 ms
+26.08.2020 10:28:08 [Info] Gateway: Connecting
+26.08.2020 10:28:08 [Verbose] Rest: GET gateway: 90,18 ms
+26.08.2020 10:28:09 [Info] Gateway: Connected
+26.08.2020 10:28:09 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 10:28:10 [Info] Gateway: Ready
+26.08.2020 10:28:12 [Verbose] Rest: POST channels/744480279275634748/messages: 249,9 ms
+26.08.2020 10:28:12 [Verbose] Command: Executed "marry" for KiTKAt`k#9618 in DarlingBotInfo/эээ
+26.08.2020 10:28:21 [Verbose] Rest: POST channels/744480279275634748/messages: 243,12 ms
+26.08.2020 10:28:21 [Verbose] Rest: PUT channels/744480279275634748/messages/748126685114794014/reactions/✅/@me: 221,72 ms
+26.08.2020 10:28:21 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 10:28:22 [Verbose] Rest: PUT channels/744480279275634748/messages/748126685114794014/reactions/❎/@me: 1010,65 ms
+26.08.2020 10:28:25 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 222,11 ms
+26.08.2020 10:28:25 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 271,01 ms
+26.08.2020 10:28:25 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 222,15 ms
+26.08.2020 10:28:25 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 267,25 ms
+26.08.2020 10:28:29 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:28:31 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 1315,39 ms
+26.08.2020 10:28:35 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 236,45 ms
+26.08.2020 10:28:35 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 213,78 ms
+26.08.2020 10:28:35 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 243,73 ms
+26.08.2020 10:28:35 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 238,53 ms
+26.08.2020 10:28:36 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:28:36 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:28:37 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 1263,57 ms
+26.08.2020 10:28:40 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 242,79 ms
+26.08.2020 10:28:40 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 242,01 ms
+26.08.2020 10:28:40 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 221,45 ms
+26.08.2020 10:28:40 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 240,26 ms
+26.08.2020 10:28:41 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:28:41 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 10:28:43 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 2262,1 ms
+26.08.2020 10:28:45 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 245,03 ms
+26.08.2020 10:28:45 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 235,45 ms
+26.08.2020 10:28:45 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 237,51 ms
+26.08.2020 10:28:46 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 256,2 ms
+26.08.2020 10:28:49 [Verbose] Rest: DELETE channels/744480279275634748/messages/748126685114794014/reactions: 229,77 ms
+26.08.2020 10:28:49 [Verbose] Rest: PATCH channels/744480279275634748/messages/748126685114794014: 221,17 ms
+26.08.2020 10:28:49 [Verbose] Command: Executed "marry" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 11:04:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 11:04:39 [Verbose] Rest: GET voice/regions: 671,77 ms
+26.08.2020 11:04:39 [Verbose] Rest: GET users/@me: 228,34 ms
+26.08.2020 11:04:40 [Info] Gateway: Connecting
+26.08.2020 11:04:40 [Verbose] Rest: GET gateway: 78,55 ms
+26.08.2020 11:04:41 [Info] Gateway: Connected
+26.08.2020 11:04:41 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 11:04:42 [Info] Gateway: Ready
+26.08.2020 11:05:53 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+26.08.2020 11:05:53 [Verbose] Rest: POST channels/744480279275634748/messages: 261,41 ms
+26.08.2020 11:05:53 [Verbose] Command: Executed "divorce" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 12:23:58 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 12:23:59 [Verbose] Rest: GET voice/regions: 679,27 ms
+26.08.2020 12:24:00 [Verbose] Rest: GET users/@me: 220,22 ms
+26.08.2020 12:24:00 [Info] Gateway: Connecting
+26.08.2020 12:24:00 [Verbose] Rest: GET gateway: 89,07 ms
+26.08.2020 12:24:01 [Info] Gateway: Connected
+26.08.2020 12:24:01 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 12:24:02 [Info] Gateway: Ready
+26.08.2020 14:45:53 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 14:45:54 [Verbose] Rest: GET voice/regions: 642,83 ms
+26.08.2020 14:45:54 [Verbose] Rest: GET users/@me: 257,05 ms
+26.08.2020 14:45:54 [Info] Gateway: Connecting
+26.08.2020 14:45:54 [Verbose] Rest: GET gateway: 78,43 ms
+26.08.2020 14:45:56 [Info] Gateway: Connected
+26.08.2020 14:45:56 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 14:45:57 [Info] Gateway: Ready
+26.08.2020 14:46:16 [Verbose] Rest: POST channels/744480279275634748/messages: 283,02 ms
+26.08.2020 14:46:16 [Verbose] Rest: PUT channels/744480279275634748/messages/748191593055518781/reactions/✅/@me: 237,7 ms
+26.08.2020 14:46:16 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+26.08.2020 14:46:18 [Verbose] Rest: PUT channels/744480279275634748/messages/748191593055518781/reactions/❎/@me: 1306,61 ms
+26.08.2020 14:46:25 [Verbose] Rest: PATCH channels/744480279275634748/messages/748191593055518781: 276,16 ms
+26.08.2020 14:46:25 [Verbose] Rest: PATCH channels/744480279275634748/messages/748191593055518781: 229,86 ms
+26.08.2020 14:46:26 [Verbose] Rest: PATCH channels/744480279275634748/messages/748191593055518781: 323,34 ms
+26.08.2020 14:46:26 [Verbose] Rest: PATCH channels/744480279275634748/messages/748191593055518781: 270,62 ms
+26.08.2020 14:47:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 14:47:35 [Verbose] Rest: GET voice/regions: 631,05 ms
+26.08.2020 14:47:35 [Verbose] Rest: GET users/@me: 233,19 ms
+26.08.2020 14:47:35 [Info] Gateway: Connecting
+26.08.2020 14:47:35 [Verbose] Rest: GET gateway: 73,74 ms
+26.08.2020 14:47:36 [Info] Gateway: Connected
+26.08.2020 14:47:37 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 14:47:37 [Info] Gateway: Ready
+26.08.2020 14:47:50 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:47:50 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:47:50 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:47:50 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:47:50 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:47:50 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:47:50 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:47:50 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:47:50 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:47:50 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:47:50 [Verbose] Rest: GET oauth2/applications/@me: 218,38 ms
+26.08.2020 14:47:51 [Verbose] Rest: GET oauth2/applications/@me: 225,26 ms
+26.08.2020 14:47:51 [Verbose] Rest: GET oauth2/applications/@me: 735,14 ms
+26.08.2020 14:47:51 [Verbose] Rest: GET oauth2/applications/@me: 884,54 ms
+26.08.2020 14:47:51 [Verbose] Rest: GET oauth2/applications/@me: 880,8 ms
+26.08.2020 14:47:51 [Verbose] Rest: GET oauth2/applications/@me: 899,83 ms
+26.08.2020 14:47:51 [Verbose] Rest: GET oauth2/applications/@me: 897,89 ms
+26.08.2020 14:47:51 [Verbose] Rest: GET oauth2/applications/@me: 878,75 ms
+26.08.2020 14:47:51 [Verbose] Rest: GET oauth2/applications/@me: 888,13 ms
+26.08.2020 14:47:51 [Verbose] Rest: GET oauth2/applications/@me: 902,15 ms
+26.08.2020 14:47:51 [Verbose] Rest: GET oauth2/applications/@me: 896,14 ms
+26.08.2020 14:47:51 [Verbose] Rest: POST channels/744480279275634748/messages: 253,01 ms
+26.08.2020 14:47:51 [Verbose] Rest: GET oauth2/applications/@me: 908,09 ms
+26.08.2020 14:47:51 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 14:48:10 [Verbose] Rest: POST channels/744480279275634748/messages: 302,98 ms
+26.08.2020 14:48:10 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 14:49:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 14:49:06 [Verbose] Rest: GET voice/regions: 609,81 ms
+26.08.2020 14:49:07 [Verbose] Rest: GET users/@me: 292,47 ms
+26.08.2020 14:49:07 [Info] Gateway: Connecting
+26.08.2020 14:49:07 [Verbose] Rest: GET gateway: 86,3 ms
+26.08.2020 14:49:08 [Info] Gateway: Connected
+26.08.2020 14:49:08 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 14:49:09 [Info] Gateway: Ready
+26.08.2020 14:49:19 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:49:19 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:49:19 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:49:19 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 14:49:20 [Verbose] Rest: GET oauth2/applications/@me: 229,08 ms
+26.08.2020 14:49:20 [Verbose] Rest: GET oauth2/applications/@me: 727,99 ms
+26.08.2020 14:49:20 [Verbose] Rest: GET oauth2/applications/@me: 881,84 ms
+26.08.2020 14:49:20 [Verbose] Rest: GET oauth2/applications/@me: 875,1 ms
+26.08.2020 14:49:23 [Verbose] Rest: POST channels/744480279275634748/messages: 340,19 ms
+26.08.2020 14:49:23 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 20:30:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 20:30:31 [Verbose] Rest: GET voice/regions: 646,03 ms
+26.08.2020 20:30:31 [Verbose] Rest: GET users/@me: 263,13 ms
+26.08.2020 20:30:31 [Info] Gateway: Connecting
+26.08.2020 20:30:32 [Verbose] Rest: GET gateway: 84,66 ms
+26.08.2020 20:30:33 [Info] Gateway: Connected
+26.08.2020 20:30:33 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 20:30:34 [Info] Gateway: Ready
+26.08.2020 20:31:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 20:31:40 [Verbose] Rest: GET voice/regions: 927,8 ms
+26.08.2020 20:31:41 [Verbose] Rest: GET users/@me: 257,33 ms
+26.08.2020 20:31:41 [Info] Gateway: Connecting
+26.08.2020 20:31:41 [Verbose] Rest: GET gateway: 74,56 ms
+26.08.2020 20:31:42 [Info] Gateway: Connected
+26.08.2020 20:31:42 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 20:31:43 [Info] Gateway: Ready
+26.08.2020 20:33:40 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 20:33:40 [Verbose] Rest: GET voice/regions: 863,64 ms
+26.08.2020 20:33:41 [Verbose] Rest: GET users/@me: 260,67 ms
+26.08.2020 20:33:41 [Info] Gateway: Connecting
+26.08.2020 20:33:41 [Verbose] Rest: GET gateway: 76,97 ms
+26.08.2020 20:33:42 [Info] Gateway: Connected
+26.08.2020 20:33:42 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 20:33:43 [Info] Gateway: Ready
+26.08.2020 20:34:08 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+26.08.2020 20:34:08 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 20:34:08 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 20:34:08 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 20:34:08 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 20:34:08 [Verbose] Rest: GET oauth2/applications/@me: 235,09 ms
+26.08.2020 20:34:09 [Verbose] Rest: GET oauth2/applications/@me: 756,18 ms
+26.08.2020 20:34:09 [Verbose] Rest: GET oauth2/applications/@me: 895,13 ms
+26.08.2020 20:34:09 [Verbose] Rest: GET oauth2/applications/@me: 930,26 ms
+26.08.2020 20:34:09 [Verbose] Rest: GET oauth2/applications/@me: 946,28 ms
+26.08.2020 20:34:11 [Verbose] Rest: POST channels/744480279275634748/messages: 254,3 ms
+26.08.2020 20:34:11 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 20:34:47 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+26.08.2020 20:34:51 [Verbose] Rest: POST channels/744480279275634748/messages: 278,45 ms
+26.08.2020 20:34:51 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 20:36:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 20:36:14 [Verbose] Rest: GET voice/regions: 655,58 ms
+26.08.2020 20:36:14 [Verbose] Rest: GET users/@me: 226,08 ms
+26.08.2020 20:36:14 [Info] Gateway: Connecting
+26.08.2020 20:36:15 [Verbose] Rest: GET gateway: 79,82 ms
+26.08.2020 20:36:15 [Info] Gateway: Connected
+26.08.2020 20:36:16 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 20:36:17 [Info] Gateway: Ready
+26.08.2020 20:36:34 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+26.08.2020 20:36:34 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 20:36:34 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 20:36:34 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 20:36:34 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 20:36:34 [Verbose] Rest: GET oauth2/applications/@me: 224,78 ms
+26.08.2020 20:36:35 [Verbose] Rest: GET oauth2/applications/@me: 749,31 ms
+26.08.2020 20:36:35 [Verbose] Rest: GET oauth2/applications/@me: 877,01 ms
+26.08.2020 20:36:35 [Verbose] Rest: GET oauth2/applications/@me: 880,09 ms
+26.08.2020 20:36:35 [Verbose] Rest: GET oauth2/applications/@me: 901,02 ms
+26.08.2020 20:36:38 [Verbose] Rest: POST channels/744480279275634748/messages: 295,06 ms
+26.08.2020 20:36:38 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 20:37:06 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+26.08.2020 20:37:10 [Verbose] Rest: POST channels/744480279275634748/messages: 250,89 ms
+26.08.2020 20:37:10 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 21:00:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 21:00:40 [Verbose] Rest: GET voice/regions: 659,27 ms
+26.08.2020 21:00:41 [Verbose] Rest: GET users/@me: 216,5 ms
+26.08.2020 21:00:41 [Info] Gateway: Connecting
+26.08.2020 21:00:41 [Verbose] Rest: GET gateway: 76,62 ms
+26.08.2020 21:00:42 [Info] Gateway: Connected
+26.08.2020 21:00:42 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 21:00:43 [Info] Gateway: Ready
+26.08.2020 21:08:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 21:08:23 [Verbose] Rest: GET voice/regions: 635,87 ms
+26.08.2020 21:08:24 [Verbose] Rest: GET users/@me: 252,63 ms
+26.08.2020 21:08:24 [Info] Gateway: Connecting
+26.08.2020 21:08:24 [Verbose] Rest: GET gateway: 81,14 ms
+26.08.2020 21:08:25 [Info] Gateway: Connected
+26.08.2020 21:08:25 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 21:08:26 [Info] Gateway: Ready
+26.08.2020 21:10:02 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 21:10:02 [Verbose] Rest: GET voice/regions: 604,93 ms
+26.08.2020 21:10:03 [Verbose] Rest: GET users/@me: 235,37 ms
+26.08.2020 21:10:03 [Info] Gateway: Connecting
+26.08.2020 21:10:03 [Verbose] Rest: GET gateway: 73,89 ms
+26.08.2020 21:10:04 [Info] Gateway: Connected
+26.08.2020 21:10:04 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 21:10:05 [Info] Gateway: Ready
+26.08.2020 21:39:50 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 21:39:51 [Verbose] Rest: GET voice/regions: 717,42 ms
+26.08.2020 21:39:52 [Verbose] Rest: GET users/@me: 244,71 ms
+26.08.2020 21:39:52 [Info] Gateway: Connecting
+26.08.2020 21:39:52 [Verbose] Rest: GET gateway: 75,33 ms
+26.08.2020 21:39:53 [Info] Gateway: Connected
+26.08.2020 21:39:53 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 21:39:54 [Info] Gateway: Ready
+26.08.2020 21:39:55 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:39:55 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:39:55 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:39:55 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:39:55 [Verbose] Rest: GET oauth2/applications/@me: 219,82 ms
+26.08.2020 21:39:56 [Verbose] Rest: GET oauth2/applications/@me: 719,49 ms
+26.08.2020 21:39:56 [Verbose] Rest: GET oauth2/applications/@me: 843,45 ms
+26.08.2020 21:39:56 [Verbose] Rest: GET oauth2/applications/@me: 897,02 ms
+26.08.2020 21:39:56 [Verbose] Rest: GET oauth2/applications/@me: 866,56 ms
+26.08.2020 21:39:59 [Verbose] Rest: POST channels/744480279275634748/messages: 274,2 ms
+26.08.2020 21:39:59 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 21:40:08 [Verbose] Rest: POST channels/744480279275634748/messages: 219,82 ms
+26.08.2020 21:40:08 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 21:41:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 21:41:39 [Verbose] Rest: GET voice/regions: 633,27 ms
+26.08.2020 21:41:40 [Verbose] Rest: GET users/@me: 228,03 ms
+26.08.2020 21:41:40 [Info] Gateway: Connecting
+26.08.2020 21:41:40 [Verbose] Rest: GET gateway: 72,41 ms
+26.08.2020 21:41:41 [Info] Gateway: Connected
+26.08.2020 21:41:41 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 21:41:42 [Info] Gateway: Ready
+26.08.2020 21:41:43 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:41:43 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:41:43 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:41:43 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:41:44 [Verbose] Rest: GET oauth2/applications/@me: 231,15 ms
+26.08.2020 21:41:44 [Verbose] Rest: GET oauth2/applications/@me: 774,24 ms
+26.08.2020 21:41:44 [Verbose] Rest: GET oauth2/applications/@me: 887,28 ms
+26.08.2020 21:41:44 [Verbose] Rest: GET oauth2/applications/@me: 900,02 ms
+26.08.2020 21:41:44 [Verbose] Rest: GET oauth2/applications/@me: 920,13 ms
+26.08.2020 21:41:47 [Verbose] Rest: POST channels/744480279275634748/messages: 270,32 ms
+26.08.2020 21:41:47 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 21:43:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 21:43:48 [Verbose] Rest: GET voice/regions: 607,55 ms
+26.08.2020 21:43:48 [Verbose] Rest: GET users/@me: 291,25 ms
+26.08.2020 21:43:48 [Info] Gateway: Connecting
+26.08.2020 21:43:48 [Verbose] Rest: GET gateway: 71,49 ms
+26.08.2020 21:43:49 [Info] Gateway: Connected
+26.08.2020 21:43:49 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 21:43:50 [Info] Gateway: Ready
+26.08.2020 21:43:56 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:43:56 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:43:56 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:43:56 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:43:56 [Verbose] Rest: GET oauth2/applications/@me: 231,69 ms
+26.08.2020 21:43:57 [Verbose] Rest: GET oauth2/applications/@me: 735,16 ms
+26.08.2020 21:43:57 [Verbose] Rest: GET oauth2/applications/@me: 873,91 ms
+26.08.2020 21:43:57 [Verbose] Rest: GET oauth2/applications/@me: 872,87 ms
+26.08.2020 21:43:57 [Verbose] Rest: GET oauth2/applications/@me: 863,54 ms
+26.08.2020 21:44:00 [Verbose] Rest: POST channels/744480279275634748/messages: 346,37 ms
+26.08.2020 21:44:00 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 21:44:58 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 21:44:59 [Verbose] Rest: GET voice/regions: 803,41 ms
+26.08.2020 21:44:59 [Verbose] Rest: GET users/@me: 229,86 ms
+26.08.2020 21:45:00 [Info] Gateway: Connecting
+26.08.2020 21:45:00 [Verbose] Rest: GET gateway: 75,41 ms
+26.08.2020 21:45:01 [Info] Gateway: Connected
+26.08.2020 21:45:01 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 21:45:02 [Info] Gateway: Ready
+26.08.2020 21:45:04 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:45:05 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:45:05 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:45:05 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:45:05 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:45:05 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:45:05 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:45:05 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:45:05 [Verbose] Rest: GET oauth2/applications/@me: 261,27 ms
+26.08.2020 21:45:05 [Verbose] Rest: GET oauth2/applications/@me: 230,39 ms
+26.08.2020 21:45:05 [Verbose] Rest: GET oauth2/applications/@me: 379,89 ms
+26.08.2020 21:45:05 [Verbose] Rest: GET oauth2/applications/@me: 733,32 ms
+26.08.2020 21:45:05 [Verbose] Rest: GET oauth2/applications/@me: 848,18 ms
+26.08.2020 21:45:05 [Verbose] Rest: GET oauth2/applications/@me: 861,74 ms
+26.08.2020 21:45:05 [Verbose] Rest: GET oauth2/applications/@me: 865,18 ms
+26.08.2020 21:45:05 [Verbose] Rest: GET oauth2/applications/@me: 722,08 ms
+26.08.2020 21:45:05 [Verbose] Rest: GET oauth2/applications/@me: 737,4 ms
+26.08.2020 21:45:06 [Verbose] Rest: GET oauth2/applications/@me: 858,44 ms
+26.08.2020 21:45:06 [Verbose] Rest: GET oauth2/applications/@me: 892,72 ms
+26.08.2020 21:45:06 [Verbose] Rest: POST channels/744480279275634748/messages: 297,68 ms
+26.08.2020 21:45:06 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 21:51:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 21:51:31 [Verbose] Rest: GET voice/regions: 651,3 ms
+26.08.2020 21:51:31 [Verbose] Rest: GET users/@me: 220,83 ms
+26.08.2020 21:51:31 [Info] Gateway: Connecting
+26.08.2020 21:51:31 [Verbose] Rest: GET gateway: 79,41 ms
+26.08.2020 21:51:32 [Info] Gateway: Connected
+26.08.2020 21:51:33 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 21:51:34 [Info] Gateway: Ready
+26.08.2020 21:51:35 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:51:35 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:51:35 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:51:35 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 21:51:35 [Verbose] Rest: GET oauth2/applications/@me: 220,64 ms
+26.08.2020 21:51:36 [Verbose] Rest: GET oauth2/applications/@me: 745,86 ms
+26.08.2020 21:51:36 [Verbose] Rest: GET oauth2/applications/@me: 846,3 ms
+26.08.2020 21:51:36 [Verbose] Rest: GET oauth2/applications/@me: 863 ms
+26.08.2020 21:51:36 [Verbose] Rest: GET oauth2/applications/@me: 892,13 ms
+26.08.2020 21:51:39 [Verbose] Rest: POST channels/744480279275634748/messages: 352,75 ms
+26.08.2020 21:51:39 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:15:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 22:15:39 [Verbose] Rest: GET voice/regions: 887,86 ms
+26.08.2020 22:15:40 [Verbose] Rest: GET users/@me: 316,09 ms
+26.08.2020 22:15:40 [Info] Gateway: Connecting
+26.08.2020 22:15:40 [Verbose] Rest: GET gateway: 65,28 ms
+26.08.2020 22:15:41 [Info] Gateway: Connected
+26.08.2020 22:15:41 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 22:15:42 [Info] Gateway: Ready
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:15:47 [Verbose] Rest: GET oauth2/applications/@me: 215,24 ms
+26.08.2020 22:15:47 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+26.08.2020 22:15:47 [Verbose] Rest: POST channels/744480279275634748/messages: 397,03 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 726,07 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 775,67 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 843,58 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 845,28 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 842,94 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 855,71 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 861,42 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 857,2 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 934,84 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 885,82 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 836,26 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 889,93 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 886,25 ms
+26.08.2020 22:15:48 [Verbose] Rest: POST channels/744480279275634748/messages: 760,58 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 857,29 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 850,77 ms
+26.08.2020 22:15:48 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 858,56 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 866,74 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 838,77 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 854,2 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 849,18 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 847,7 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 853,97 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 858,82 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 849,86 ms
+26.08.2020 22:15:48 [Verbose] Rest: GET oauth2/applications/@me: 853,35 ms
+26.08.2020 22:15:59 [Verbose] Rest: POST channels/744480279275634748/messages: 225,22 ms
+26.08.2020 22:15:59 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:18:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 22:18:40 [Verbose] Rest: GET voice/regions: 761,85 ms
+26.08.2020 22:18:40 [Verbose] Rest: GET users/@me: 216,56 ms
+26.08.2020 22:18:40 [Info] Gateway: Connecting
+26.08.2020 22:18:40 [Verbose] Rest: GET gateway: 77,06 ms
+26.08.2020 22:18:41 [Info] Gateway: Connected
+26.08.2020 22:18:42 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 22:18:43 [Info] Gateway: Ready
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:18:44 [Verbose] Rest: GET oauth2/applications/@me: 212,06 ms
+26.08.2020 22:18:45 [Verbose] Rest: POST channels/744480279275634748/messages: 431,95 ms
+26.08.2020 22:18:45 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 751,76 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 839,86 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 851,07 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 854,64 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 736,29 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 848,34 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 858,14 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 861,31 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 865,51 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 861,11 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 865,81 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 862,43 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 874,53 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 860,41 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 873,34 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 873,44 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 891,58 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 856,29 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 852,43 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 860,34 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 865,99 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 866,73 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 875,54 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 918,07 ms
+26.08.2020 22:18:45 [Verbose] Rest: GET oauth2/applications/@me: 891,18 ms
+26.08.2020 22:18:56 [Verbose] Rest: POST channels/744480279275634748/messages: 260,94 ms
+26.08.2020 22:18:56 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:19:07 [Verbose] Rest: POST channels/744480279275634748/messages: 229,69 ms
+26.08.2020 22:19:07 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:19:13 [Verbose] Rest: POST channels/744480279275634748/messages: 233,41 ms
+26.08.2020 22:19:13 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:38:09 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 22:38:09 [Verbose] Rest: GET voice/regions: 674,29 ms
+26.08.2020 22:38:10 [Verbose] Rest: GET users/@me: 258,59 ms
+26.08.2020 22:38:10 [Info] Gateway: Connecting
+26.08.2020 22:38:10 [Verbose] Rest: GET gateway: 69,62 ms
+26.08.2020 22:38:11 [Info] Gateway: Connected
+26.08.2020 22:38:11 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 22:38:12 [Info] Gateway: Ready
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:38:22 [Verbose] Rest: GET oauth2/applications/@me: 215,42 ms
+26.08.2020 22:38:22 [Verbose] Rest: POST channels/744480279275634748/messages: 384,43 ms
+26.08.2020 22:38:22 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 744,7 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 719,73 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 858,47 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 857,01 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 839,01 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 888,77 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 843,66 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 842,47 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 857,87 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 862,09 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 868,82 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 876,86 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 852,92 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 859,59 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 830,73 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 838 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 835,47 ms
+26.08.2020 22:38:23 [Verbose] Rest: GET oauth2/applications/@me: 874,99 ms
+26.08.2020 22:38:26 [Verbose] Rest: GET oauth2/applications/@me: 916,82 ms
+26.08.2020 22:38:26 [Verbose] Rest: GET oauth2/applications/@me: 959,73 ms
+26.08.2020 22:38:26 [Verbose] Rest: GET oauth2/applications/@me: 4158,35 ms
+26.08.2020 22:38:26 [Verbose] Rest: GET oauth2/applications/@me: 4123,8 ms
+26.08.2020 22:38:26 [Verbose] Rest: GET oauth2/applications/@me: 4119,02 ms
+26.08.2020 22:38:33 [Verbose] Rest: POST channels/744480279275634748/messages: 313,93 ms
+26.08.2020 22:38:33 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:38:38 [Verbose] Rest: POST channels/744480279275634748/messages: 265,27 ms
+26.08.2020 22:38:38 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:38:41 [Verbose] Rest: POST channels/744480279275634748/messages: 259,64 ms
+26.08.2020 22:38:41 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:38:43 [Verbose] Rest: POST channels/744480279275634748/messages: 238,36 ms
+26.08.2020 22:38:43 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:38:45 [Verbose] Rest: POST channels/744480279275634748/messages: 261,82 ms
+26.08.2020 22:38:45 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:40:45 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 22:40:46 [Verbose] Rest: GET voice/regions: 704,35 ms
+26.08.2020 22:40:46 [Verbose] Rest: GET users/@me: 218,94 ms
+26.08.2020 22:40:46 [Info] Gateway: Connecting
+26.08.2020 22:40:46 [Verbose] Rest: GET gateway: 73,62 ms
+26.08.2020 22:40:47 [Info] Gateway: Connected
+26.08.2020 22:40:47 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 22:40:48 [Info] Gateway: Ready
+26.08.2020 22:40:54 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:40:54 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:40:54 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:40:54 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:40:54 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:40:54 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:40:54 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:40:54 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:40:54 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:40:54 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:40:54 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:40:54 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:40:55 [Verbose] Rest: GET oauth2/applications/@me: 218,68 ms
+26.08.2020 22:40:55 [Verbose] Rest: GET oauth2/applications/@me: 732,36 ms
+26.08.2020 22:40:55 [Verbose] Rest: GET oauth2/applications/@me: 872,53 ms
+26.08.2020 22:40:55 [Verbose] Rest: GET oauth2/applications/@me: 874,48 ms
+26.08.2020 22:40:55 [Verbose] Rest: GET oauth2/applications/@me: 923,29 ms
+26.08.2020 22:40:55 [Verbose] Rest: POST channels/744480279275634748/messages: 366,63 ms
+26.08.2020 22:40:55 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:40:55 [Verbose] Rest: GET oauth2/applications/@me: 859,53 ms
+26.08.2020 22:40:55 [Verbose] Rest: GET oauth2/applications/@me: 859,85 ms
+26.08.2020 22:40:55 [Verbose] Rest: GET oauth2/applications/@me: 856,03 ms
+26.08.2020 22:40:55 [Verbose] Rest: GET oauth2/applications/@me: 890,15 ms
+26.08.2020 22:40:55 [Verbose] Rest: GET oauth2/applications/@me: 860,98 ms
+26.08.2020 22:40:55 [Verbose] Rest: GET oauth2/applications/@me: 850,28 ms
+26.08.2020 22:40:55 [Verbose] Rest: GET oauth2/applications/@me: 860,52 ms
+26.08.2020 22:40:55 [Verbose] Rest: GET oauth2/applications/@me: 891,22 ms
+26.08.2020 22:40:58 [Verbose] Rest: POST channels/744480279275634748/messages: 307,06 ms
+26.08.2020 22:40:58 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:41:00 [Verbose] Rest: POST channels/744480279275634748/messages: 301,33 ms
+26.08.2020 22:41:00 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:41:02 [Verbose] Rest: POST channels/744480279275634748/messages: 278,82 ms
+26.08.2020 22:41:02 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:44:53 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.08.2020 22:44:54 [Verbose] Rest: GET voice/regions: 839,55 ms
+26.08.2020 22:44:54 [Verbose] Rest: GET users/@me: 238,73 ms
+26.08.2020 22:44:54 [Info] Gateway: Connecting
+26.08.2020 22:44:54 [Verbose] Rest: GET gateway: 71,5 ms
+26.08.2020 22:44:55 [Info] Gateway: Connected
+26.08.2020 22:44:55 [Verbose] Gateway: Connected to DarlingBotInfo
+26.08.2020 22:44:56 [Info] Gateway: Ready
+26.08.2020 22:44:58 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:44:58 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:44:58 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:44:58 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:44:58 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:44:58 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+26.08.2020 22:45:00 [Verbose] Rest: GET oauth2/applications/@me: 1761,4 ms
+26.08.2020 22:45:00 [Verbose] Rest: GET oauth2/applications/@me: 340,81 ms
+26.08.2020 22:45:00 [Verbose] Rest: GET oauth2/applications/@me: 2090,09 ms
+26.08.2020 22:45:00 [Verbose] Rest: GET oauth2/applications/@me: 2102,17 ms
+26.08.2020 22:45:00 [Verbose] Rest: GET oauth2/applications/@me: 1934,99 ms
+26.08.2020 22:45:00 [Verbose] Rest: GET oauth2/applications/@me: 2103,38 ms
+26.08.2020 22:45:00 [Verbose] Rest: GET oauth2/applications/@me: 2116,53 ms
+26.08.2020 22:45:00 [Verbose] Rest: POST channels/744480279275634748/messages: 252,47 ms
+26.08.2020 22:45:00 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:45:06 [Verbose] Rest: POST channels/744480279275634748/messages: 243,82 ms
+26.08.2020 22:45:06 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+26.08.2020 22:45:09 [Verbose] Rest: POST channels/744480279275634748/messages: 251,12 ms
+26.08.2020 22:45:09 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ

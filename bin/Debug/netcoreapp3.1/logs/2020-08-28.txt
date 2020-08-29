@@ -1,0 +1,967 @@
+28.08.2020 17:47:35 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 17:47:36 [Verbose] Rest: GET voice/regions: 748,22 ms
+28.08.2020 17:47:37 [Verbose] Rest: GET users/@me: 242,41 ms
+28.08.2020 17:47:37 [Info] Gateway: Connecting
+28.08.2020 17:47:37 [Verbose] Rest: GET gateway: 85,22 ms
+28.08.2020 17:47:38 [Info] Gateway: Connected
+28.08.2020 17:47:38 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 17:47:39 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: c.SendUrlImage'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.DbContext.RemoveRange(IEnumerable`1 entities)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at DarlingBotNet.Services.SystemLoading.GuildDelete(Guilds Guild) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 150
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 140
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 431
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 17:47:39 [Info] Gateway: Ready
+28.08.2020 17:53:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 17:53:05 [Verbose] Rest: GET voice/regions: 653,85 ms
+28.08.2020 17:53:06 [Verbose] Rest: GET users/@me: 221,8 ms
+28.08.2020 17:53:06 [Info] Gateway: Connecting
+28.08.2020 17:53:06 [Verbose] Rest: GET gateway: 76,72 ms
+28.08.2020 17:53:07 [Info] Gateway: Connected
+28.08.2020 17:53:07 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 17:53:09 [Info] Gateway: Ready
+28.08.2020 17:56:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 17:56:47 [Verbose] Rest: GET voice/regions: 676,23 ms
+28.08.2020 17:56:48 [Verbose] Rest: GET users/@me: 254,3 ms
+28.08.2020 17:56:48 [Info] Gateway: Connecting
+28.08.2020 17:56:48 [Verbose] Rest: GET gateway: 84,08 ms
+28.08.2020 17:56:49 [Info] Gateway: Connected
+28.08.2020 17:56:49 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 17:56:50 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: g.RaidMuted'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.GuildCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 132
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 431
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 17:56:50 [Info] Gateway: Ready
+28.08.2020 18:02:35 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 18:02:36 [Verbose] Rest: GET voice/regions: 642,29 ms
+28.08.2020 18:02:36 [Verbose] Rest: GET users/@me: 248,87 ms
+28.08.2020 18:02:37 [Info] Gateway: Connecting
+28.08.2020 18:02:37 [Verbose] Rest: GET gateway: 76,18 ms
+28.08.2020 18:02:38 [Info] Gateway: Connected
+28.08.2020 18:02:38 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 18:02:39 [Info] Gateway: Ready
+28.08.2020 18:36:16 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 18:36:17 [Verbose] Rest: GET voice/regions: 746,02 ms
+28.08.2020 18:36:18 [Verbose] Rest: GET users/@me: 261,04 ms
+28.08.2020 18:36:18 [Info] Gateway: Connecting
+28.08.2020 18:36:18 [Verbose] Rest: GET gateway: 69,59 ms
+28.08.2020 18:36:19 [Info] Gateway: Connected
+28.08.2020 18:36:19 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 18:36:20 [Info] Gateway: Ready
+28.08.2020 18:37:46 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 18:37:46 [Verbose] Rest: GET voice/regions: 624,11 ms
+28.08.2020 18:37:47 [Verbose] Rest: GET users/@me: 275,82 ms
+28.08.2020 18:37:47 [Info] Gateway: Connecting
+28.08.2020 18:37:47 [Verbose] Rest: GET gateway: 68,03 ms
+28.08.2020 18:37:48 [Info] Gateway: Connected
+28.08.2020 18:37:48 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 18:37:56 [Warning] Gateway: A Ready handler is blocking the gateway task.
+28.08.2020 18:37:56 [Info] Gateway: Ready
+28.08.2020 18:49:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 18:49:48 [Verbose] Rest: GET voice/regions: 619,63 ms
+28.08.2020 18:49:48 [Verbose] Rest: GET users/@me: 237,14 ms
+28.08.2020 18:49:48 [Info] Gateway: Connecting
+28.08.2020 18:49:48 [Verbose] Rest: GET gateway: 75,13 ms
+28.08.2020 19:01:00 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 19:01:01 [Verbose] Rest: GET voice/regions: 650,56 ms
+28.08.2020 19:01:01 [Verbose] Rest: GET users/@me: 235,25 ms
+28.08.2020 19:01:01 [Info] Gateway: Connecting
+28.08.2020 19:01:01 [Verbose] Rest: GET gateway: 77,03 ms
+28.08.2020 19:01:02 [Info] Gateway: Connected
+28.08.2020 19:01:02 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 19:01:07 [Warning] Gateway: A Ready handler is blocking the gateway task.
+28.08.2020 19:01:07 [Info] Gateway: Ready
+28.08.2020 19:38:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 19:38:40 [Verbose] Rest: GET voice/regions: 643,61 ms
+28.08.2020 19:38:40 [Verbose] Rest: GET users/@me: 230,85 ms
+28.08.2020 19:38:40 [Info] Gateway: Connecting
+28.08.2020 19:38:40 [Verbose] Rest: GET gateway: 72,34 ms
+28.08.2020 19:38:41 [Info] Gateway: Connected
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to 🖤🔞69SQUAD🔞🖤
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to Аниме
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to Pisecord
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to Плантация №13
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to Убежище Debilov
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to просто
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to AMYF
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to atel - мерзость
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to 2D
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to Darling Emoji One
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to New Project C78
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to test.server
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to Dark Empire🔮
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to Сервер ну давай, нападай
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to KiTKAt`k's server
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to Тихий Омут
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to Сервер FARID
+28.08.2020 19:38:41 [Verbose] Gateway: Connected to чо блятб
+28.08.2020 19:38:46 [Warning] Gateway: A Ready handler is blocking the gateway task.
+28.08.2020 19:38:46 [Info] Gateway: Ready
+28.08.2020 19:40:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 19:40:13 [Verbose] Rest: GET voice/regions: 769,48 ms
+28.08.2020 19:40:14 [Verbose] Rest: GET users/@me: 256,36 ms
+28.08.2020 19:40:14 [Info] Gateway: Connecting
+28.08.2020 19:40:14 [Verbose] Rest: GET gateway: 89,54 ms
+28.08.2020 19:40:15 [Info] Gateway: Connected
+28.08.2020 19:40:16 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 19:40:18 [Info] Gateway: Ready
+28.08.2020 19:46:17 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 19:46:18 [Verbose] Rest: GET voice/regions: 770,82 ms
+28.08.2020 19:46:19 [Verbose] Rest: GET users/@me: 229,58 ms
+28.08.2020 19:46:20 [Info] Gateway: Connecting
+28.08.2020 19:46:20 [Verbose] Rest: GET gateway: 66,84 ms
+28.08.2020 19:46:21 [Info] Gateway: Connected
+28.08.2020 19:46:21 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 19:46:23 [Info] Gateway: Ready
+28.08.2020 19:46:52 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 19:46:53 [Verbose] Rest: GET voice/regions: 694,89 ms
+28.08.2020 19:46:53 [Verbose] Rest: GET users/@me: 219,99 ms
+28.08.2020 19:46:53 [Info] Gateway: Connecting
+28.08.2020 19:46:53 [Verbose] Rest: GET gateway: 69,19 ms
+28.08.2020 19:46:55 [Info] Gateway: Connected
+28.08.2020 19:46:55 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 19:46:57 [Info] Gateway: Ready
+28.08.2020 19:49:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 19:49:13 [Verbose] Rest: GET voice/regions: 664,66 ms
+28.08.2020 19:49:14 [Verbose] Rest: GET users/@me: 216,54 ms
+28.08.2020 19:49:14 [Info] Gateway: Connecting
+28.08.2020 19:49:14 [Verbose] Rest: GET gateway: 67,6 ms
+28.08.2020 19:49:15 [Info] Gateway: Connected
+28.08.2020 19:49:15 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 19:49:17 [Info] Gateway: Ready
+28.08.2020 19:54:14 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 19:54:14 [Verbose] Rest: GET voice/regions: 629,96 ms
+28.08.2020 19:54:15 [Verbose] Rest: GET users/@me: 250,63 ms
+28.08.2020 19:54:15 [Info] Gateway: Connecting
+28.08.2020 19:54:15 [Verbose] Rest: GET gateway: 73,03 ms
+28.08.2020 19:54:16 [Info] Gateway: Connected
+28.08.2020 19:54:16 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 19:55:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 19:55:50 [Verbose] Rest: GET voice/regions: 715,7 ms
+28.08.2020 19:55:51 [Verbose] Rest: GET users/@me: 247,09 ms
+28.08.2020 19:55:51 [Info] Gateway: Connecting
+28.08.2020 19:55:51 [Verbose] Rest: GET gateway: 72,41 ms
+28.08.2020 19:55:52 [Info] Gateway: Connected
+28.08.2020 19:55:52 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 19:55:54 [Info] Gateway: Ready
+28.08.2020 19:56:19 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 19:56:20 [Verbose] Rest: GET voice/regions: 685,55 ms
+28.08.2020 19:56:20 [Verbose] Rest: GET users/@me: 250,86 ms
+28.08.2020 19:56:20 [Info] Gateway: Connecting
+28.08.2020 19:56:21 [Verbose] Rest: GET gateway: 74,1 ms
+28.08.2020 19:56:21 [Info] Gateway: Connected
+28.08.2020 19:56:22 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 19:56:23 [Info] Gateway: Ready
+28.08.2020 19:59:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 19:59:13 [Verbose] Rest: GET voice/regions: 614,18 ms
+28.08.2020 19:59:13 [Verbose] Rest: GET users/@me: 231,38 ms
+28.08.2020 19:59:13 [Info] Gateway: Connecting
+28.08.2020 19:59:13 [Verbose] Rest: GET gateway: 75,98 ms
+28.08.2020 19:59:14 [Info] Gateway: Connected
+28.08.2020 19:59:14 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:00:26 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:00:27 [Verbose] Rest: GET voice/regions: 633,6 ms
+28.08.2020 20:00:27 [Verbose] Rest: GET users/@me: 258,48 ms
+28.08.2020 20:00:27 [Info] Gateway: Connecting
+28.08.2020 20:00:27 [Verbose] Rest: GET gateway: 78,58 ms
+28.08.2020 20:00:28 [Info] Gateway: Connected
+28.08.2020 20:00:28 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:00:45 [Warning] Gateway: A Ready handler is blocking the gateway task.
+28.08.2020 20:00:45 [Info] Gateway: Ready
+28.08.2020 20:01:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:02:00 [Verbose] Rest: GET voice/regions: 653,65 ms
+28.08.2020 20:02:00 [Verbose] Rest: GET users/@me: 225,06 ms
+28.08.2020 20:02:00 [Info] Gateway: Connecting
+28.08.2020 20:02:00 [Verbose] Rest: GET gateway: 77,21 ms
+28.08.2020 20:02:01 [Info] Gateway: Connected
+28.08.2020 20:02:02 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:02:03 [Info] Gateway: Ready
+28.08.2020 20:02:11 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+28.08.2020 20:02:11 [Verbose] Rest: POST channels/744480279275634748/messages: 287,64 ms
+28.08.2020 20:02:18 [Verbose] Rest: POST channels/744480279275634748/messages: 235,79 ms
+28.08.2020 20:02:29 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 219,07 ms
+28.08.2020 20:02:29 [Verbose] Rest: POST channels/744480279275634748/messages: 294,89 ms
+28.08.2020 20:02:29 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 20:02:40 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 258,8 ms
+28.08.2020 20:02:40 [Verbose] Rest: POST channels/744480279275634748/messages: 251,11 ms
+28.08.2020 20:02:40 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 20:02:56 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 212,38 ms
+28.08.2020 20:03:00 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 224,29 ms
+28.08.2020 20:03:00 [Verbose] Rest: PUT channels/744480279275634748/messages/748974266929905674/reactions/twelve:748991511881842759/@me: 252,5 ms
+28.08.2020 20:03:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:03:57 [Verbose] Rest: GET voice/regions: 606,41 ms
+28.08.2020 20:03:57 [Verbose] Rest: GET users/@me: 215,62 ms
+28.08.2020 20:03:57 [Info] Gateway: Connecting
+28.08.2020 20:03:57 [Verbose] Rest: GET gateway: 80,68 ms
+28.08.2020 20:03:58 [Info] Gateway: Connected
+28.08.2020 20:03:58 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:04:00 [Info] Gateway: Ready
+28.08.2020 20:04:02 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 324,49 ms
+28.08.2020 20:04:02 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 229,38 ms
+28.08.2020 20:04:03 [Verbose] Rest: PUT channels/744480279275634748/messages/748974266929905674/reactions/twelve:748991511881842759/@me: 223,29 ms
+28.08.2020 20:04:03 [Verbose] Rest: POST channels/744480279275634748/messages: 304,22 ms
+28.08.2020 20:04:03 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 20:05:07 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 225,46 ms
+28.08.2020 20:05:07 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 210,36 ms
+28.08.2020 20:05:07 [Verbose] Rest: PUT channels/744480279275634748/messages/748974284969607267/reactions/twelve:748991511881842759/@me: 229,44 ms
+28.08.2020 20:05:08 [Verbose] Rest: POST channels/744480279275634748/messages: 292,15 ms
+28.08.2020 20:05:08 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 20:05:31 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 247,75 ms
+28.08.2020 20:05:38 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 279,48 ms
+28.08.2020 20:05:44 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 239,95 ms
+28.08.2020 20:06:10 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 234,56 ms
+28.08.2020 20:07:14 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:07:15 [Verbose] Rest: GET voice/regions: 605,96 ms
+28.08.2020 20:07:15 [Verbose] Rest: GET users/@me: 248,98 ms
+28.08.2020 20:07:15 [Info] Gateway: Connecting
+28.08.2020 20:07:15 [Verbose] Rest: GET gateway: 70,69 ms
+28.08.2020 20:07:16 [Info] Gateway: Connected
+28.08.2020 20:07:17 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:07:18 [Info] Gateway: Ready
+28.08.2020 20:07:31 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 230,83 ms
+28.08.2020 20:11:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:11:16 [Verbose] Rest: GET voice/regions: 722,2 ms
+28.08.2020 20:11:17 [Verbose] Rest: GET users/@me: 233,87 ms
+28.08.2020 20:11:17 [Info] Gateway: Connecting
+28.08.2020 20:11:17 [Verbose] Rest: GET gateway: 71,22 ms
+28.08.2020 20:11:18 [Info] Gateway: Connected
+28.08.2020 20:11:18 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:11:20 [Info] Gateway: Ready
+28.08.2020 20:11:22 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 229,63 ms
+28.08.2020 20:11:22 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__3(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 144
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 144
+   at DarlingBotNet.Services.CommandHandler.ReactAdd(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 118
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:12:10 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 277,67 ms
+28.08.2020 20:13:13 [Warning] Gateway: A ReactionRemoved handler is blocking the gateway task.
+28.08.2020 20:13:13 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__4(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 149
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 149
+   at DarlingBotNet.Services.CommandHandler.ReactRem(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 124
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:13:39 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 265,66 ms
+28.08.2020 20:13:39 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__3(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 144
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 144
+   at DarlingBotNet.Services.CommandHandler.ReactAdd(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 118
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:14:02 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:14:03 [Verbose] Rest: GET voice/regions: 684,09 ms
+28.08.2020 20:14:03 [Verbose] Rest: GET users/@me: 231,33 ms
+28.08.2020 20:14:03 [Info] Gateway: Connecting
+28.08.2020 20:14:03 [Verbose] Rest: GET gateway: 78,07 ms
+28.08.2020 20:14:04 [Info] Gateway: Connected
+28.08.2020 20:14:05 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:14:06 [Info] Gateway: Ready
+28.08.2020 20:14:10 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 252,18 ms
+28.08.2020 20:14:10 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__4(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 149
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 149
+   at DarlingBotNet.Services.CommandHandler.ReactRem(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 124
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:14:12 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 245,89 ms
+28.08.2020 20:14:12 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__3(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 144
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 144
+   at DarlingBotNet.Services.CommandHandler.ReactAdd(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 118
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:15:14 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 229,85 ms
+28.08.2020 20:15:15 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__4(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 149
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 149
+   at DarlingBotNet.Services.CommandHandler.ReactRem(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 124
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:15:16 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 226,21 ms
+28.08.2020 20:15:16 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__3(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 144
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 144
+   at DarlingBotNet.Services.CommandHandler.ReactAdd(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 118
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:15:28 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:15:29 [Verbose] Rest: GET voice/regions: 617,87 ms
+28.08.2020 20:15:29 [Verbose] Rest: GET users/@me: 258,71 ms
+28.08.2020 20:15:29 [Info] Gateway: Connecting
+28.08.2020 20:15:29 [Verbose] Rest: GET gateway: 72,24 ms
+28.08.2020 20:15:30 [Info] Gateway: Connected
+28.08.2020 20:15:30 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:15:32 [Info] Gateway: Ready
+28.08.2020 20:15:35 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 249,9 ms
+28.08.2020 20:16:17 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:16:18 [Verbose] Rest: GET voice/regions: 712,76 ms
+28.08.2020 20:16:18 [Verbose] Rest: GET users/@me: 216,66 ms
+28.08.2020 20:16:18 [Info] Gateway: Connecting
+28.08.2020 20:16:18 [Verbose] Rest: GET gateway: 76,42 ms
+28.08.2020 20:16:19 [Info] Gateway: Connected
+28.08.2020 20:16:19 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:16:21 [Info] Gateway: Ready
+28.08.2020 20:16:22 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 211,31 ms
+28.08.2020 20:16:35 [Warning] Gateway: A ReactionAdded handler is blocking the gateway task.
+28.08.2020 20:16:35 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__3(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 143
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 143
+   at DarlingBotNet.Services.CommandHandler.ReactAdd(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 118
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:18:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:18:15 [Verbose] Rest: GET voice/regions: 639,22 ms
+28.08.2020 20:18:16 [Verbose] Rest: GET users/@me: 219,41 ms
+28.08.2020 20:18:16 [Info] Gateway: Connecting
+28.08.2020 20:18:16 [Verbose] Rest: GET gateway: 74,91 ms
+28.08.2020 20:18:17 [Info] Gateway: Connected
+28.08.2020 20:18:17 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:18:19 [Info] Gateway: Ready
+28.08.2020 20:18:22 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 218,36 ms
+28.08.2020 20:21:45 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:21:45 [Verbose] Rest: GET voice/regions: 628,48 ms
+28.08.2020 20:21:46 [Verbose] Rest: GET users/@me: 217,03 ms
+28.08.2020 20:21:46 [Info] Gateway: Connecting
+28.08.2020 20:21:46 [Verbose] Rest: GET gateway: 78,52 ms
+28.08.2020 20:21:47 [Info] Gateway: Connected
+28.08.2020 20:21:47 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:21:48 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 209,83 ms
+28.08.2020 20:21:48 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__4(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 148
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 148
+   at DarlingBotNet.Services.CommandHandler.ReactRem(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 124
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:22:03 [Warning] Gateway: A Ready handler is blocking the gateway task.
+28.08.2020 20:22:03 [Info] Gateway: Ready
+28.08.2020 20:22:03 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 240,76 ms
+28.08.2020 20:22:03 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__4(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 148
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 148
+   at DarlingBotNet.Services.CommandHandler.ReactRem(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 124
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:22:04 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 211,32 ms
+28.08.2020 20:22:04 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__4(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 148
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 148
+   at DarlingBotNet.Services.CommandHandler.ReactRem(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 124
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:22:16 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:22:17 [Verbose] Rest: GET voice/regions: 628,63 ms
+28.08.2020 20:22:17 [Verbose] Rest: GET users/@me: 227,56 ms
+28.08.2020 20:22:17 [Info] Gateway: Connecting
+28.08.2020 20:22:17 [Verbose] Rest: GET gateway: 79,04 ms
+28.08.2020 20:22:18 [Info] Gateway: Connected
+28.08.2020 20:22:18 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:22:20 [Info] Gateway: Ready
+28.08.2020 20:22:30 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 266,88 ms
+28.08.2020 20:22:30 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 221,15 ms
+28.08.2020 20:22:30 [Verbose] Rest: PUT channels/744480279275634748/messages/748974266929905674/reactions/twelve:748991511881842759/@me: 222,73 ms
+28.08.2020 20:22:31 [Verbose] Rest: POST channels/744480279275634748/messages: 268,99 ms
+28.08.2020 20:22:31 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 20:22:34 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 242,03 ms
+28.08.2020 20:22:34 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 243,3 ms
+28.08.2020 20:22:34 [Verbose] Rest: PUT channels/744480279275634748/messages/748974284969607267/reactions/twelve:748991511881842759/@me: 236,61 ms
+28.08.2020 20:22:35 [Verbose] Rest: POST channels/744480279275634748/messages: 300,98 ms
+28.08.2020 20:22:35 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 20:22:40 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 232,89 ms
+28.08.2020 20:22:40 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__3(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 143
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 143
+   at DarlingBotNet.Services.CommandHandler.ReactAdd(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 118
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:24:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:24:04 [Verbose] Rest: GET voice/regions: 618,65 ms
+28.08.2020 20:24:05 [Verbose] Rest: GET users/@me: 231,62 ms
+28.08.2020 20:24:05 [Info] Gateway: Connecting
+28.08.2020 20:24:05 [Verbose] Rest: GET gateway: 78,33 ms
+28.08.2020 20:24:06 [Info] Gateway: Connected
+28.08.2020 20:24:06 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:24:14 [Warning] Gateway: A Ready handler is blocking the gateway task.
+28.08.2020 20:24:14 [Info] Gateway: Ready
+28.08.2020 20:25:00 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:25:01 [Verbose] Rest: GET voice/regions: 725,01 ms
+28.08.2020 20:25:01 [Verbose] Rest: GET users/@me: 214,58 ms
+28.08.2020 20:25:01 [Info] Gateway: Connecting
+28.08.2020 20:25:01 [Verbose] Rest: GET gateway: 66,81 ms
+28.08.2020 20:25:02 [Info] Gateway: Connected
+28.08.2020 20:25:02 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:25:06 [Warning] Gateway: A Ready handler is blocking the gateway task.
+28.08.2020 20:25:06 [Info] Gateway: Ready
+28.08.2020 20:25:12 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 289,69 ms
+28.08.2020 20:25:13 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 211,4 ms
+28.08.2020 20:25:13 [Verbose] Rest: PUT channels/744480279275634748/messages/748974266929905674/reactions/twelve:748991511881842759/@me: 295,88 ms
+28.08.2020 20:25:13 [Verbose] Rest: POST channels/744480279275634748/messages: 293,87 ms
+28.08.2020 20:25:13 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 20:25:17 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 261,38 ms
+28.08.2020 20:25:17 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 220,96 ms
+28.08.2020 20:25:17 [Verbose] Rest: PUT channels/744480279275634748/messages/748974284969607267/reactions/twelve:748991511881842759/@me: 250,96 ms
+28.08.2020 20:25:18 [Verbose] Rest: POST channels/744480279275634748/messages: 336,43 ms
+28.08.2020 20:25:18 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 20:25:23 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 219,18 ms
+28.08.2020 20:25:23 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__4(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 148
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 148
+   at DarlingBotNet.Services.CommandHandler.ReactRem(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 124
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:27:46 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:27:47 [Verbose] Rest: GET voice/regions: 722,98 ms
+28.08.2020 20:27:47 [Verbose] Rest: GET users/@me: 228,48 ms
+28.08.2020 20:27:47 [Info] Gateway: Connecting
+28.08.2020 20:27:47 [Verbose] Rest: GET gateway: 74,03 ms
+28.08.2020 20:27:48 [Info] Gateway: Connected
+28.08.2020 20:27:48 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:27:50 [Info] Gateway: Ready
+28.08.2020 20:28:53 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:28:54 [Verbose] Rest: GET voice/regions: 631,91 ms
+28.08.2020 20:28:54 [Verbose] Rest: GET users/@me: 289,27 ms
+28.08.2020 20:28:54 [Info] Gateway: Connecting
+28.08.2020 20:28:54 [Verbose] Rest: GET gateway: 68,74 ms
+28.08.2020 20:28:55 [Info] Gateway: Connected
+28.08.2020 20:28:55 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:28:57 [Info] Gateway: Ready
+28.08.2020 20:29:08 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 243,24 ms
+28.08.2020 20:29:08 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 233,44 ms
+28.08.2020 20:29:08 [Verbose] Rest: PUT channels/744480279275634748/messages/748974284969607267/reactions/twelve:748991511881842759/@me: 263,26 ms
+28.08.2020 20:29:09 [Verbose] Rest: POST channels/744480279275634748/messages: 284,11 ms
+28.08.2020 20:29:09 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 20:29:12 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 238,06 ms
+28.08.2020 20:29:12 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 243,21 ms
+28.08.2020 20:29:12 [Verbose] Rest: PUT channels/744480279275634748/messages/748974266929905674/reactions/twelve:748991511881842759/@me: 225,9 ms
+28.08.2020 20:29:13 [Verbose] Rest: POST channels/744480279275634748/messages: 342,66 ms
+28.08.2020 20:29:13 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 20:29:17 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 216,84 ms
+28.08.2020 20:29:18 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__3(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 143
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 143
+   at DarlingBotNet.Services.CommandHandler.ReactAdd(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 118
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:29:29 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 232,31 ms
+28.08.2020 20:29:29 [Warning] Gateway: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at DarlingBotNet.Services.CommandHandler.<>c__DisplayClass10_1.<GetOrRemoveRole>b__3(SocketRole x) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 143
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 143
+   at DarlingBotNet.Services.CommandHandler.ReactAdd(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 118
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+28.08.2020 20:29:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:29:37 [Verbose] Rest: GET voice/regions: 631,12 ms
+28.08.2020 20:29:37 [Verbose] Rest: GET users/@me: 224,5 ms
+28.08.2020 20:29:37 [Info] Gateway: Connecting
+28.08.2020 20:29:38 [Verbose] Rest: GET gateway: 74,37 ms
+28.08.2020 20:29:38 [Info] Gateway: Connected
+28.08.2020 20:29:39 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:29:40 [Info] Gateway: Ready
+28.08.2020 20:39:08 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:39:09 [Verbose] Rest: GET voice/regions: 633,13 ms
+28.08.2020 20:39:09 [Verbose] Rest: GET users/@me: 217,15 ms
+28.08.2020 20:39:09 [Info] Gateway: Connecting
+28.08.2020 20:39:09 [Verbose] Rest: GET gateway: 71,76 ms
+28.08.2020 20:39:10 [Info] Gateway: Connected
+28.08.2020 20:39:10 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:39:12 [Info] Gateway: Ready
+28.08.2020 20:39:14 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 207,77 ms
+28.08.2020 20:39:14 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 229,33 ms
+28.08.2020 20:39:14 [Verbose] Rest: PUT channels/744480279275634748/messages/748974284969607267/reactions/twelve:748991511881842759/@me: 265,05 ms
+28.08.2020 20:39:15 [Verbose] Rest: POST channels/744480279275634748/messages: 258,42 ms
+28.08.2020 20:39:15 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 20:39:15 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 218,26 ms
+28.08.2020 20:39:16 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 251,11 ms
+28.08.2020 20:39:16 [Verbose] Rest: PUT channels/744480279275634748/messages/748974266929905674/reactions/twelve:748991511881842759/@me: 276,51 ms
+28.08.2020 20:39:16 [Verbose] Rest: POST channels/744480279275634748/messages: 273,96 ms
+28.08.2020 20:39:16 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 20:39:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:39:24 [Verbose] Rest: GET voice/regions: 623,01 ms
+28.08.2020 20:39:24 [Verbose] Rest: GET users/@me: 259,71 ms
+28.08.2020 20:39:24 [Info] Gateway: Connecting
+28.08.2020 20:39:24 [Verbose] Rest: GET gateway: 79,31 ms
+28.08.2020 20:39:25 [Info] Gateway: Connected
+28.08.2020 20:39:25 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:39:27 [Info] Gateway: Ready
+28.08.2020 20:40:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:40:38 [Verbose] Rest: GET voice/regions: 616,13 ms
+28.08.2020 20:40:38 [Verbose] Rest: GET users/@me: 219,79 ms
+28.08.2020 20:40:38 [Info] Gateway: Connecting
+28.08.2020 20:40:39 [Verbose] Rest: GET gateway: 75,76 ms
+28.08.2020 20:40:39 [Info] Gateway: Connected
+28.08.2020 20:40:40 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:40:41 [Info] Gateway: Ready
+28.08.2020 20:41:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:41:13 [Verbose] Rest: GET voice/regions: 704,38 ms
+28.08.2020 20:41:14 [Verbose] Rest: GET users/@me: 229,48 ms
+28.08.2020 20:41:14 [Info] Gateway: Connecting
+28.08.2020 20:41:14 [Verbose] Rest: GET gateway: 72,2 ms
+28.08.2020 20:41:15 [Info] Gateway: Connected
+28.08.2020 20:41:15 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:41:16 [Info] Gateway: Ready
+28.08.2020 20:42:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:42:14 [Verbose] Rest: GET voice/regions: 762,34 ms
+28.08.2020 20:42:14 [Verbose] Rest: GET users/@me: 211,32 ms
+28.08.2020 20:42:14 [Info] Gateway: Connecting
+28.08.2020 20:42:14 [Verbose] Rest: GET gateway: 68,82 ms
+28.08.2020 20:42:15 [Info] Gateway: Connected
+28.08.2020 20:42:15 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:42:17 [Info] Gateway: Ready
+28.08.2020 20:48:19 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:48:20 [Verbose] Rest: GET voice/regions: 625,52 ms
+28.08.2020 20:48:20 [Verbose] Rest: GET users/@me: 289,96 ms
+28.08.2020 20:48:20 [Info] Gateway: Connecting
+28.08.2020 20:48:20 [Verbose] Rest: GET gateway: 78,16 ms
+28.08.2020 20:48:21 [Info] Gateway: Connected
+28.08.2020 20:48:21 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:48:23 [Info] Gateway: Ready
+28.08.2020 20:48:31 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 229,12 ms
+28.08.2020 20:51:35 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:51:36 [Verbose] Rest: GET voice/regions: 617,93 ms
+28.08.2020 20:51:36 [Verbose] Rest: GET users/@me: 238,49 ms
+28.08.2020 20:51:36 [Info] Gateway: Connecting
+28.08.2020 20:51:36 [Verbose] Rest: GET gateway: 81,24 ms
+28.08.2020 20:51:37 [Info] Gateway: Connected
+28.08.2020 20:51:37 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:51:39 [Info] Gateway: Ready
+28.08.2020 20:52:06 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 238,72 ms
+28.08.2020 20:52:15 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 265,99 ms
+28.08.2020 20:52:17 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 229,11 ms
+28.08.2020 20:52:22 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 212,63 ms
+28.08.2020 20:52:23 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 223,94 ms
+28.08.2020 20:52:26 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 206,78 ms
+28.08.2020 20:52:42 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 227,58 ms
+28.08.2020 20:52:45 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 222,42 ms
+28.08.2020 20:52:48 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 227,58 ms
+28.08.2020 20:57:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:57:35 [Verbose] Rest: GET voice/regions: 764,42 ms
+28.08.2020 20:57:35 [Verbose] Rest: GET users/@me: 230,08 ms
+28.08.2020 20:57:35 [Info] Gateway: Connecting
+28.08.2020 20:57:35 [Verbose] Rest: GET gateway: 74,93 ms
+28.08.2020 20:57:36 [Info] Gateway: Connected
+28.08.2020 20:57:36 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:57:38 [Info] Gateway: Ready
+28.08.2020 20:57:42 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 278,85 ms
+28.08.2020 20:57:53 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 20:57:54 [Verbose] Rest: GET voice/regions: 664,9 ms
+28.08.2020 20:57:54 [Verbose] Rest: GET users/@me: 220,41 ms
+28.08.2020 20:57:54 [Info] Gateway: Connecting
+28.08.2020 20:57:54 [Verbose] Rest: GET gateway: 74,8 ms
+28.08.2020 20:57:55 [Info] Gateway: Connected
+28.08.2020 20:57:55 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 20:57:57 [Info] Gateway: Ready
+28.08.2020 20:58:05 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 219,06 ms
+28.08.2020 21:00:41 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:00:42 [Verbose] Rest: GET voice/regions: 628,45 ms
+28.08.2020 21:00:42 [Verbose] Rest: GET users/@me: 267,81 ms
+28.08.2020 21:00:42 [Info] Gateway: Connecting
+28.08.2020 21:00:42 [Verbose] Rest: GET gateway: 74,07 ms
+28.08.2020 21:00:43 [Info] Gateway: Connected
+28.08.2020 21:00:43 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:00:45 [Info] Gateway: Ready
+28.08.2020 21:00:46 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 228,79 ms
+28.08.2020 21:02:18 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:02:19 [Verbose] Rest: GET voice/regions: 654,88 ms
+28.08.2020 21:02:19 [Verbose] Rest: GET users/@me: 254,57 ms
+28.08.2020 21:02:19 [Info] Gateway: Connecting
+28.08.2020 21:02:20 [Verbose] Rest: GET gateway: 77,92 ms
+28.08.2020 21:02:20 [Info] Gateway: Connected
+28.08.2020 21:02:21 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:02:22 [Info] Gateway: Ready
+28.08.2020 21:02:25 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 219,37 ms
+28.08.2020 21:03:33 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:03:33 [Verbose] Rest: GET voice/regions: 620,73 ms
+28.08.2020 21:03:34 [Verbose] Rest: GET users/@me: 214,77 ms
+28.08.2020 21:03:34 [Info] Gateway: Connecting
+28.08.2020 21:03:34 [Verbose] Rest: GET gateway: 72,14 ms
+28.08.2020 21:03:35 [Info] Gateway: Connected
+28.08.2020 21:03:35 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:03:36 [Info] Gateway: Ready
+28.08.2020 21:03:38 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 227,19 ms
+28.08.2020 21:13:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:13:49 [Verbose] Rest: GET voice/regions: 612,78 ms
+28.08.2020 21:13:50 [Verbose] Rest: GET users/@me: 308,77 ms
+28.08.2020 21:13:50 [Info] Gateway: Connecting
+28.08.2020 21:13:50 [Verbose] Rest: GET gateway: 69,4 ms
+28.08.2020 21:13:51 [Info] Gateway: Connected
+28.08.2020 21:13:51 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:13:53 [Info] Gateway: Ready
+28.08.2020 21:13:54 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 273,78 ms
+28.08.2020 21:17:51 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:17:52 [Verbose] Rest: GET voice/regions: 752,13 ms
+28.08.2020 21:17:53 [Verbose] Rest: GET users/@me: 222,58 ms
+28.08.2020 21:17:53 [Info] Gateway: Connecting
+28.08.2020 21:17:53 [Verbose] Rest: GET gateway: 77,02 ms
+28.08.2020 21:17:54 [Info] Gateway: Connected
+28.08.2020 21:17:54 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:17:55 [Info] Gateway: Ready
+28.08.2020 21:18:04 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 292,11 ms
+28.08.2020 21:18:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:18:31 [Verbose] Rest: GET voice/regions: 648,88 ms
+28.08.2020 21:18:32 [Verbose] Rest: GET users/@me: 217,4 ms
+28.08.2020 21:18:32 [Info] Gateway: Connecting
+28.08.2020 21:18:32 [Verbose] Rest: GET gateway: 79,77 ms
+28.08.2020 21:18:33 [Info] Gateway: Connected
+28.08.2020 21:18:33 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:18:34 [Info] Gateway: Ready
+28.08.2020 21:18:36 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 258,42 ms
+28.08.2020 21:19:46 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:19:46 [Verbose] Rest: GET voice/regions: 642,84 ms
+28.08.2020 21:19:47 [Verbose] Rest: GET users/@me: 250,42 ms
+28.08.2020 21:19:47 [Info] Gateway: Connecting
+28.08.2020 21:19:47 [Verbose] Rest: GET gateway: 77,99 ms
+28.08.2020 21:19:48 [Info] Gateway: Connected
+28.08.2020 21:19:48 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:19:50 [Info] Gateway: Ready
+28.08.2020 21:19:57 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 231,14 ms
+28.08.2020 21:20:00 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 251,46 ms
+28.08.2020 21:20:00 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 215,5 ms
+28.08.2020 21:20:35 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:20:36 [Verbose] Rest: GET voice/regions: 691,53 ms
+28.08.2020 21:20:36 [Verbose] Rest: GET users/@me: 216,7 ms
+28.08.2020 21:20:37 [Info] Gateway: Connecting
+28.08.2020 21:20:37 [Verbose] Rest: GET gateway: 78,23 ms
+28.08.2020 21:20:38 [Info] Gateway: Connected
+28.08.2020 21:20:38 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:20:40 [Info] Gateway: Ready
+28.08.2020 21:20:57 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 277,27 ms
+28.08.2020 21:21:05 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 241,99 ms
+28.08.2020 21:21:05 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 266,81 ms
+28.08.2020 21:21:10 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 264,5 ms
+28.08.2020 21:21:13 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 250,78 ms
+28.08.2020 21:21:13 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 251,3 ms
+28.08.2020 21:21:16 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 253,5 ms
+28.08.2020 21:21:19 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 231,43 ms
+28.08.2020 21:21:31 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 289,08 ms
+28.08.2020 21:21:31 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 239,84 ms
+28.08.2020 21:21:35 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 224,89 ms
+28.08.2020 21:21:35 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 209,1 ms
+28.08.2020 21:21:37 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 239,46 ms
+28.08.2020 21:21:41 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 285,09 ms
+28.08.2020 21:21:41 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 273,29 ms
+28.08.2020 21:21:43 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 217,76 ms
+28.08.2020 21:21:45 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 261,88 ms
+28.08.2020 21:21:46 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 226,28 ms
+28.08.2020 21:21:48 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 245,14 ms
+28.08.2020 21:21:50 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 221,55 ms
+28.08.2020 21:21:50 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 476,95 ms
+28.08.2020 21:21:52 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 325,77 ms
+28.08.2020 21:21:54 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 232,75 ms
+28.08.2020 21:21:54 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 250,81 ms
+28.08.2020 21:21:56 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 275,86 ms
+28.08.2020 21:22:48 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:22:49 [Verbose] Rest: GET voice/regions: 654,48 ms
+28.08.2020 21:22:49 [Verbose] Rest: GET users/@me: 219,57 ms
+28.08.2020 21:22:49 [Info] Gateway: Connecting
+28.08.2020 21:22:49 [Verbose] Rest: GET gateway: 71,31 ms
+28.08.2020 21:22:50 [Info] Gateway: Connected
+28.08.2020 21:22:50 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:22:52 [Info] Gateway: Ready
+28.08.2020 21:22:54 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 259,29 ms
+28.08.2020 21:23:01 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 212,24 ms
+28.08.2020 21:23:03 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 205,9 ms
+28.08.2020 21:23:05 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 214,31 ms
+28.08.2020 21:23:06 [Verbose] Rest: GET channels/744480279275634748/messages/748974266929905674: 240,44 ms
+28.08.2020 21:23:09 [Verbose] Rest: GET channels/744480279275634748/messages/748974284969607267: 221,71 ms
+28.08.2020 21:23:09 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 201 ms
+28.08.2020 21:23:30 [Verbose] Rest: PUT channels/744480279275634748/messages/749016294728138814/reactions/twelve:748991511881842759/@me: 212,25 ms
+28.08.2020 21:23:30 [Verbose] Rest: POST channels/744480279275634748/messages: 267,57 ms
+28.08.2020 21:23:30 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 21:23:38 [Verbose] Rest: PUT channels/744480279275634748/messages/749016284217475214/reactions/twelve:748991511881842759/@me: 265,9 ms
+28.08.2020 21:23:38 [Verbose] Rest: POST channels/744480279275634748/messages: 554,91 ms
+28.08.2020 21:23:38 [Verbose] Command: Executed "getroletoemote" for h1kkaru.#2627 in DarlingBotInfo/эээ
+28.08.2020 21:23:45 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 233,23 ms
+28.08.2020 21:23:55 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 217,57 ms
+28.08.2020 21:25:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:25:32 [Verbose] Rest: GET voice/regions: 649,21 ms
+28.08.2020 21:25:32 [Verbose] Rest: GET users/@me: 215,75 ms
+28.08.2020 21:25:32 [Info] Gateway: Connecting
+28.08.2020 21:25:32 [Verbose] Rest: GET gateway: 68,47 ms
+28.08.2020 21:25:33 [Info] Gateway: Connected
+28.08.2020 21:25:33 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:25:35 [Info] Gateway: Ready
+28.08.2020 21:25:40 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 273,38 ms
+28.08.2020 21:25:42 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 249,32 ms
+28.08.2020 21:25:42 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 234,01 ms
+28.08.2020 21:25:45 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 226,85 ms
+28.08.2020 21:25:53 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 251,27 ms
+28.08.2020 21:28:16 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:28:16 [Verbose] Rest: GET voice/regions: 599,14 ms
+28.08.2020 21:28:17 [Verbose] Rest: GET users/@me: 214,1 ms
+28.08.2020 21:28:17 [Info] Gateway: Connecting
+28.08.2020 21:28:17 [Verbose] Rest: GET gateway: 75,56 ms
+28.08.2020 21:28:18 [Info] Gateway: Connected
+28.08.2020 21:28:18 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:28:19 [Info] Gateway: Ready
+28.08.2020 21:28:35 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 232,3 ms
+28.08.2020 21:28:38 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 327,09 ms
+28.08.2020 21:28:38 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 266,89 ms
+28.08.2020 21:28:41 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 238,63 ms
+28.08.2020 21:28:41 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 219,11 ms
+28.08.2020 21:28:48 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 228,33 ms
+28.08.2020 21:28:48 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 223,86 ms
+28.08.2020 21:29:17 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:29:18 [Verbose] Rest: GET voice/regions: 612,65 ms
+28.08.2020 21:29:18 [Verbose] Rest: GET users/@me: 217,62 ms
+28.08.2020 21:29:18 [Info] Gateway: Connecting
+28.08.2020 21:29:19 [Verbose] Rest: GET gateway: 72,95 ms
+28.08.2020 21:29:19 [Info] Gateway: Connected
+28.08.2020 21:29:20 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:29:21 [Info] Gateway: Ready
+28.08.2020 21:29:29 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 217,7 ms
+28.08.2020 21:29:32 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 234,11 ms
+28.08.2020 21:29:32 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 240,94 ms
+28.08.2020 21:29:36 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 218,85 ms
+28.08.2020 21:29:36 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 205,07 ms
+28.08.2020 21:29:50 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 228,94 ms
+28.08.2020 21:29:50 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 218,23 ms
+28.08.2020 21:29:53 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 243,92 ms
+28.08.2020 21:29:53 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 207,59 ms
+28.08.2020 21:29:56 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 330,67 ms
+28.08.2020 21:29:56 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 207,09 ms
+28.08.2020 21:29:58 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 253,12 ms
+28.08.2020 21:30:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:30:30 [Verbose] Rest: GET voice/regions: 656,66 ms
+28.08.2020 21:30:31 [Verbose] Rest: GET users/@me: 249,76 ms
+28.08.2020 21:30:31 [Info] Gateway: Connecting
+28.08.2020 21:30:31 [Verbose] Rest: GET gateway: 74,97 ms
+28.08.2020 21:30:32 [Info] Gateway: Connected
+28.08.2020 21:30:32 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:30:34 [Info] Gateway: Ready
+28.08.2020 21:31:12 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 295,76 ms
+28.08.2020 21:31:12 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 208,25 ms
+28.08.2020 21:31:13 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 232,75 ms
+28.08.2020 21:31:14 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 213,46 ms
+28.08.2020 21:31:18 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 241,29 ms
+28.08.2020 21:31:18 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 302,22 ms
+28.08.2020 21:31:20 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 247,89 ms
+28.08.2020 21:32:07 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 357,27 ms
+28.08.2020 21:32:11 [Warning] Gateway: A ReactionAdded handler is blocking the gateway task.
+28.08.2020 21:32:11 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 241 ms
+28.08.2020 21:32:14 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 207,77 ms
+28.08.2020 21:32:14 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 224,19 ms
+28.08.2020 21:32:35 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 239,81 ms
+28.08.2020 21:32:38 [Warning] Gateway: A ReactionAdded handler is blocking the gateway task.
+28.08.2020 21:32:38 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 253 ms
+28.08.2020 21:33:01 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 225,13 ms
+28.08.2020 21:33:03 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 278,01 ms
+28.08.2020 21:33:03 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 246,82 ms
+28.08.2020 21:33:05 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 227,24 ms
+28.08.2020 21:33:06 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 214,61 ms
+28.08.2020 21:33:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:33:22 [Verbose] Rest: GET voice/regions: 606,37 ms
+28.08.2020 21:33:23 [Verbose] Rest: GET users/@me: 248,23 ms
+28.08.2020 21:33:23 [Info] Gateway: Connecting
+28.08.2020 21:33:23 [Verbose] Rest: GET gateway: 69,47 ms
+28.08.2020 21:33:24 [Info] Gateway: Connected
+28.08.2020 21:33:24 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:33:25 [Info] Gateway: Ready
+28.08.2020 21:34:28 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 257,3 ms
+28.08.2020 21:34:36 [Warning] Gateway: A ReactionAdded handler is blocking the gateway task.
+28.08.2020 21:34:36 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 246,07 ms
+28.08.2020 21:34:42 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 217,09 ms
+28.08.2020 21:34:47 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 235,65 ms
+28.08.2020 21:34:49 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 220,99 ms
+28.08.2020 21:35:19 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:35:20 [Verbose] Rest: GET voice/regions: 639,51 ms
+28.08.2020 21:35:20 [Verbose] Rest: GET users/@me: 235,05 ms
+28.08.2020 21:35:20 [Info] Gateway: Connecting
+28.08.2020 21:35:20 [Verbose] Rest: GET gateway: 75,79 ms
+28.08.2020 21:35:21 [Info] Gateway: Connected
+28.08.2020 21:35:21 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:35:23 [Info] Gateway: Ready
+28.08.2020 21:35:24 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 210,07 ms
+28.08.2020 21:35:24 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 213,22 ms
+28.08.2020 21:35:27 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 221,06 ms
+28.08.2020 21:35:27 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 212,31 ms
+28.08.2020 21:35:30 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 214,05 ms
+28.08.2020 21:35:31 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 230,65 ms
+28.08.2020 21:35:34 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 274,25 ms
+28.08.2020 21:35:34 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 232,95 ms
+28.08.2020 21:35:37 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 231,37 ms
+28.08.2020 21:35:37 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 218,12 ms
+28.08.2020 21:35:43 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 240,09 ms
+28.08.2020 21:35:43 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 210,11 ms
+28.08.2020 21:35:47 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 290,42 ms
+28.08.2020 21:35:47 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 236,54 ms
+28.08.2020 21:35:56 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 226,23 ms
+28.08.2020 21:35:57 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 209,37 ms
+28.08.2020 21:36:02 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 294,35 ms
+28.08.2020 21:36:02 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 217,62 ms
+28.08.2020 21:38:17 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:38:17 [Verbose] Rest: GET voice/regions: 630,99 ms
+28.08.2020 21:38:18 [Verbose] Rest: GET users/@me: 277,44 ms
+28.08.2020 21:38:18 [Info] Gateway: Connecting
+28.08.2020 21:38:18 [Verbose] Rest: GET gateway: 68,09 ms
+28.08.2020 21:38:19 [Info] Gateway: Connected
+28.08.2020 21:38:19 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:38:20 [Info] Gateway: Ready
+28.08.2020 21:38:23 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 209,22 ms
+28.08.2020 21:38:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:38:48 [Verbose] Rest: GET voice/regions: 644,47 ms
+28.08.2020 21:38:48 [Verbose] Rest: GET users/@me: 288,39 ms
+28.08.2020 21:38:48 [Info] Gateway: Connecting
+28.08.2020 21:38:48 [Verbose] Rest: GET gateway: 85,75 ms
+28.08.2020 21:38:49 [Info] Gateway: Connected
+28.08.2020 21:38:50 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:38:51 [Info] Gateway: Ready
+28.08.2020 21:39:03 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 259,1 ms
+28.08.2020 21:39:04 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 226,6 ms
+28.08.2020 21:39:06 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 219,43 ms
+28.08.2020 21:39:07 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 233,25 ms
+28.08.2020 21:39:39 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 227,2 ms
+28.08.2020 21:39:39 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 266,7 ms
+28.08.2020 21:39:48 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 226,6 ms
+28.08.2020 21:39:50 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 235,19 ms
+28.08.2020 21:39:50 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 222,37 ms
+28.08.2020 21:39:56 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 237,48 ms
+28.08.2020 21:39:57 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 254,22 ms
+28.08.2020 21:40:01 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 221,19 ms
+28.08.2020 21:41:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:41:14 [Verbose] Rest: GET voice/regions: 653,22 ms
+28.08.2020 21:41:14 [Verbose] Rest: GET users/@me: 241 ms
+28.08.2020 21:41:14 [Info] Gateway: Connecting
+28.08.2020 21:41:14 [Verbose] Rest: GET gateway: 68,77 ms
+28.08.2020 21:41:15 [Info] Gateway: Connected
+28.08.2020 21:41:15 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:41:17 [Info] Gateway: Ready
+28.08.2020 21:41:20 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 265,81 ms
+28.08.2020 21:41:20 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 220,7 ms
+28.08.2020 21:41:22 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 247,04 ms
+28.08.2020 21:41:23 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 222,69 ms
+28.08.2020 21:41:24 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 220,6 ms
+28.08.2020 21:41:33 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 214,19 ms
+28.08.2020 21:41:33 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 247,17 ms
+28.08.2020 21:43:50 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 21:43:51 [Verbose] Rest: GET voice/regions: 642,13 ms
+28.08.2020 21:43:51 [Verbose] Rest: GET users/@me: 234,72 ms
+28.08.2020 21:43:51 [Info] Gateway: Connecting
+28.08.2020 21:43:51 [Verbose] Rest: GET gateway: 75,33 ms
+28.08.2020 21:43:52 [Info] Gateway: Connected
+28.08.2020 21:43:52 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 21:43:54 [Info] Gateway: Ready
+28.08.2020 21:44:02 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 223,66 ms
+28.08.2020 21:44:06 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 206,07 ms
+28.08.2020 21:44:06 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 249,64 ms
+28.08.2020 21:44:09 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 215,96 ms
+28.08.2020 21:44:09 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 213,65 ms
+28.08.2020 21:44:12 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 228,75 ms
+28.08.2020 21:44:12 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 214,14 ms
+28.08.2020 21:44:16 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 228,69 ms
+28.08.2020 21:44:16 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 231,45 ms
+28.08.2020 21:44:21 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 249,07 ms
+28.08.2020 21:44:21 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 223,19 ms
+28.08.2020 21:45:15 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 230,21 ms
+28.08.2020 21:45:17 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 244,7 ms
+28.08.2020 21:45:17 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 212,8 ms
+28.08.2020 21:45:19 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 300,29 ms
+28.08.2020 21:45:19 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 213,42 ms
+28.08.2020 21:45:22 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 232,37 ms
+28.08.2020 21:45:22 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 214,99 ms
+28.08.2020 21:45:24 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 217,2 ms
+28.08.2020 21:45:24 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 211,44 ms
+28.08.2020 21:45:26 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 228,08 ms
+28.08.2020 21:45:27 [Verbose] Rest: GET channels/744480279275634748/messages/749016284217475214: 222,6 ms
+28.08.2020 22:01:29 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+28.08.2020 22:01:30 [Verbose] Rest: GET voice/regions: 933,09 ms
+28.08.2020 22:01:31 [Verbose] Rest: GET users/@me: 239,85 ms
+28.08.2020 22:01:31 [Info] Gateway: Connecting
+28.08.2020 22:01:31 [Verbose] Rest: GET gateway: 79,5 ms
+28.08.2020 22:01:32 [Info] Gateway: Connected
+28.08.2020 22:01:32 [Verbose] Gateway: Connected to DarlingBotInfo
+28.08.2020 22:01:34 [Info] Gateway: Ready
+28.08.2020 22:01:41 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 217,47 ms
+28.08.2020 22:01:41 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 216,05 ms
+28.08.2020 22:01:43 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 238,78 ms
+28.08.2020 22:01:44 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 212,23 ms
+28.08.2020 22:01:46 [Verbose] Rest: GET channels/744480279275634748/messages/749016294728138814: 232,63 ms
+28.08.2020 22:01:46 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736694530392326215: 247,98 ms

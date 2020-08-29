@@ -1,9 +1,8 @@
 ﻿using DarlingBotNet.DataBase.RussiaGame;
+using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Data.Entity;
 using System.Linq;
 
 namespace DarlingBotNet.DataBase
@@ -19,7 +18,7 @@ namespace DarlingBotNet.DataBase
         {
             get
             {
-                var items = new DBcontext().RG_Item.AsNoTracking().Where(x => x.userid == userid && x.guildid == guildid);
+                var items = new DBcontext().RG_Item.AsQueryable().Where(x => x.userid == userid && x.guildid == guildid);
                 if(items.Count() > 0)
                     return (ulong)items.Sum(p => (float)p.NowPrestije);
                 return 0;
@@ -37,7 +36,7 @@ namespace DarlingBotNet.DataBase
         {
             get
             {
-                return new DBcontext().RG_Item.AsNoTracking().Where(x => x.userid == userid && x.guildid == guildid && !x.traded);
+                return new DBcontext().RG_Item.AsQueryable().Where(x => x.userid == userid && x.guildid == guildid && !x.traded);
             }
         }
 
@@ -46,7 +45,7 @@ namespace DarlingBotNet.DataBase
         {
             get
             {
-                return new DBcontext().RG_Item.AsNoTracking().Where(x => x.userid == userid && x.guildid == guildid && x.traded);
+                return new DBcontext().RG_Item.AsQueryable().Where(x => x.userid == userid && x.guildid == guildid && x.traded);
             }
         }
 
@@ -55,7 +54,7 @@ namespace DarlingBotNet.DataBase
         {
             get
             {
-                return new DBcontext().RG_Studys.AsNoTracking().Where(x => x.userid == userid && x.guildid == guildid);
+                return new DBcontext().RG_Studys.AsQueryable().Where(x => x.userid == userid && x.guildid == guildid);
             }
         }
     }

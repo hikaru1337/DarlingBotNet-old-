@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace DarlingBotNet.DataBase.RussiaGame
 {
@@ -13,14 +10,5 @@ namespace DarlingBotNet.DataBase.RussiaGame
         public ulong StudyMoney { get; set; }
         public ushort DayStudying { get; set; }
         public bool Invise { get; set; }
-        public Proffesion Proffesion_Study {get;set;}
-
-        public enum Proffesion
-        {
-            none,
-            hacker,
-            information_security,
-            police,
-        }
     }
 }

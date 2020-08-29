@@ -18,6 +18,24 @@ namespace DarlingBotNet.Migrations
             //    );
 
             migrationBuilder.AddColumn<int>(
+                name: "UseRPcommand",
+                table: "Channels",
+                nullable: false,
+                defaultValue: false);
+
+            migrationBuilder.AddColumn<int>(
+                name: "SendUrlImage",
+                table: "Channels",
+                nullable: false,
+                defaultValue: false);
+
+            migrationBuilder.AddColumn<int>(
+                name: "csUrlWhiteListString",
+                table: "Channels",
+                nullable: true,
+                defaultValue: null);
+
+            migrationBuilder.AddColumn<int>(
                 name: "RaidStop",
                 table: "Guilds",
                 nullable: false,

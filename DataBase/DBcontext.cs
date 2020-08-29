@@ -1,12 +1,6 @@
 ﻿using DarlingBotNet.DataBase.RussiaGame;
-using DarlingBotNet.Modules;
 using DarlingBotNet.Services;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity.ModelConfiguration;
-using System.Linq;
-using System.Linq.Expressions;
 
 namespace DarlingBotNet.DataBase
 {
@@ -38,6 +32,8 @@ namespace DarlingBotNet.DataBase
 
         }
     }
+
+
 
     //public interface IGenericRepository<TEntity> where TEntity : class
     //{
@@ -76,23 +72,23 @@ namespace DarlingBotNet.DataBase
 
     //    private IQueryable<TEntity> Include(params Expression<Func<TEntity, object>>[] includeProperties)
     //    {
-    //        IQueryable<TEntity> query = _dbSet.AsNoTracking();
+    //        IQueryable<TEntity> query = _dbSet;
     //        return includeProperties
     //            .Aggregate(query, (current, includeProperty) => current.Include(includeProperty));
     //    }
 
     //    public IEnumerable<TEntity> Get()
     //    {
-    //        return _dbSet.AsNoTracking().ToListAsync().Result;
+    //        return _dbSet.ToListAsync().Result;
     //    }
 
     //    public IEnumerable<TEntity> Get(Func<TEntity, bool> predicate)
     //    {
-    //        return _dbSet.AsNoTracking().Where(predicate).ToList();
+    //        return _dbSet.Where(predicate).ToList();
     //    }
     //    public TEntity GetF(Func<TEntity, bool> predicate)
     //    {
-    //        return _dbSet.AsNoTracking().FirstOrDefault(predicate);
+    //        return _dbSet.FirstOrDefault(predicate);
     //    }
 
     //    public TEntity Create(TEntity item)

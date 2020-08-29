@@ -1,17 +1,18 @@
 ﻿using System;
 using System.IO;
+using System.Reflection;
 using System.Threading.Tasks;
 using DarlingBotNet.DataBase;
-
 using DarlingBotNet.Services;
 using DarlingBotNet.Services.Sys;
 using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-
+using Microsoft.Extensions.ObjectPool;
 
 namespace DarlingBotNet
 {
@@ -34,13 +35,12 @@ namespace DarlingBotNet
 
         public async Task RunAsync()
         {
-            
+            //Assembly.LoadFile(@"C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\System.Linq.Async.dll");
             var services = ConfigureServices();             // Create a new instance of a service collection
             //ConfigureServices(services);
 
             services.GetRequiredService<LoggingService>();      // Start the logging service
             services.GetRequiredService<CommandHandler>(); 		// Start the command handler service
-
             await services.GetRequiredService<StartUpService>().StartAsync();       // Start the startup service
             var client = services.GetRequiredService<DiscordSocketClient>();
             //client.Log += LogAsync;
@@ -54,12 +54,11 @@ namespace DarlingBotNet
         //    return Task.CompletedTask;
         //}
 
+
         private ServiceProvider ConfigureServices()
         {
-
-
-            
                     return new ServiceCollection()
+                    .AddMemoryCache()
                     .AddSingleton(new DiscordSocketClient(new DiscordSocketConfig
                     {                                       // Add discord to the collection
                         LogLevel = LogSeverity.Verbose,     // Tell the logger to give Verbose amount of info
@@ -67,6 +66,12 @@ namespace DarlingBotNet
                         DefaultRetryMode = RetryMode.Retry502,
                         ExclusiveBulkDelete = true
                     }))
+                    //.AddSingleton<ObjectPoolProvider, DefaultObjectPoolProvider>()
+                    //.AddSingleton(s =>
+                    //{
+                    //    var provider = s.GetRequiredService<ObjectPoolProvider>();
+                    //    return provider.Create(new DbContext());
+                    //})
                     .AddSingleton(new CommandService(new CommandServiceConfig
                     {                                       // Add the command service to the collection
                         LogLevel = LogSeverity.Verbose,     // Tell the logger to give Verbose amount of info
@@ -81,5 +86,7 @@ namespace DarlingBotNet
                     .BuildServiceProvider();
             
         }
+
+
     }
 }

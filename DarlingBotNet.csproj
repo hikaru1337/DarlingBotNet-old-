@@ -7,8 +7,11 @@
 
   <ItemGroup>
     <Compile Remove="DataBase\Database\Repositories\**" />
+    <Compile Remove="discord.net\**" />
     <EmbeddedResource Remove="DataBase\Database\Repositories\**" />
+    <EmbeddedResource Remove="discord.net\**" />
     <None Remove="DataBase\Database\Repositories\**" />
+    <None Remove="discord.net\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,9 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="EntityFramework" Version="6.4.4" />
-    <PackageReference Include="EntityFrameworkCore.CommonTools" Version="2.0.2" />
-    <PackageReference Include="Microsoft.Data.Sqlite" Version="3.1.6" />
+
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />
@@ -34,19 +35,32 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.6" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.6" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.6" />
-    <PackageReference Include="Nekos-Sharp" Version="3.3.1" />
+
+    <PackageReference Include="EntityFrameworkCore.CommonTools" Version="2.0.2" />
+
+    <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="3.1.7" />
+
+
     <PackageReference Include="NetEscapades.Configuration.Yaml" Version="2.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    <PackageReference Include="PcgRandom" Version="1.1.0" />
+
     <PackageReference Include="ServiceStack.Text" Version="5.9.2" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+    <PackageReference Include="System.Linq.Async" Version="4.1.1" />
+    
+    <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
+
+    <PackageReference Include="PcgRandom" Version="1.1.0" />
+
+
     <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0005" />
     <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta0005" />
     <PackageReference Include="SixLabors.Shapes.Text" Version="1.0.0-beta0009" />
-    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
-    <PackageReference Include="System.Linq.Async" Version="4.1.1" />
+    <PackageReference Include="Nekos-Sharp" Version="3.3.1" />
+
   </ItemGroup>
 
-    <ItemGroup>
+  <ItemGroup>
     <Reference Include="Discord.Net.Commands">
       <HintPath>discord.net\Discord.Net.Commands.dll</HintPath>
     </Reference>
@@ -59,15 +73,12 @@
     <Reference Include="Discord.Net.Rest">
       <HintPath>discord.net\Discord.Net.Rest.dll</HintPath>
     </Reference>
-    <Reference Include="Discord.Net.Webhook">
-      <HintPath>discord.net\Discord.Net.Webhook.dll</HintPath>
-    </Reference>
     <Reference Include="Discord.Net.WebSocket">
       <HintPath>discord.net\Discord.Net.WebSocket.dll</HintPath>
     </Reference>
-      <None Update="oppai.dll">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
+    <Reference Include="Discord.Net.Webhook">
+      <HintPath>discord.net\Discord.Net.Webhook.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
     <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>

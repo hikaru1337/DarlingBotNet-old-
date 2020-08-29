@@ -1,0 +1,211 @@
+23.08.2020 19:05:35 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 19:05:36 [Verbose] Rest: GET voice/regions: 732,31 ms
+23.08.2020 19:05:36 [Verbose] Rest: GET users/@me: 235,19 ms
+23.08.2020 19:05:36 [Info] Gateway: Connecting
+23.08.2020 19:05:36 [Verbose] Rest: GET gateway: 74,65 ms
+23.08.2020 19:05:37 [Info] Gateway: Connected
+23.08.2020 19:05:37 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 19:05:38 [Info] Gateway: Ready
+23.08.2020 19:06:25 [Verbose] Rest: POST channels/744480279275634748/messages: 301,16 ms
+23.08.2020 19:06:38 [Verbose] Rest: GET oauth2/applications/@me: 227,22 ms
+23.08.2020 19:06:38 [Verbose] Rest: POST channels/744480279275634748/messages: 387,22 ms
+23.08.2020 19:06:38 [Verbose] Command: Executed "rgitemadd" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 19:06:58 [Verbose] Rest: POST channels/744480279275634748/messages: 313,8 ms
+23.08.2020 19:07:11 [Verbose] Rest: POST channels/744480279275634748/messages: 250,75 ms
+23.08.2020 20:49:43 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 20:49:44 [Verbose] Rest: GET voice/regions: 665,97 ms
+23.08.2020 20:49:45 [Verbose] Rest: GET users/@me: 228,01 ms
+23.08.2020 20:49:45 [Info] Gateway: Connecting
+23.08.2020 20:49:45 [Verbose] Rest: GET gateway: 86,65 ms
+23.08.2020 20:49:46 [Info] Gateway: Connected
+23.08.2020 20:49:46 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 20:49:47 [Info] Gateway: Ready
+23.08.2020 20:49:49 [Verbose] Rest: POST channels/744480279275634748/messages: 266,57 ms
+23.08.2020 20:49:49 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 20:54:44 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 20:54:45 [Verbose] Rest: GET voice/regions: 657,87 ms
+23.08.2020 20:54:45 [Verbose] Rest: GET users/@me: 298,06 ms
+23.08.2020 20:54:45 [Info] Gateway: Connecting
+23.08.2020 20:54:45 [Verbose] Rest: GET gateway: 81,25 ms
+23.08.2020 20:54:46 [Info] Gateway: Connected
+23.08.2020 20:54:47 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 20:54:48 [Warning] Gateway: System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at Microsoft.Data.Sqlite.SqliteValueReader.GetDateTime(Int32 ordinal)
+   at Microsoft.Data.Sqlite.SqliteDataReader.GetDateTime(Int32 ordinal)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at DarlingBotNet.Services.SystemLoading.ChannelCheck(DiscordSocketClient _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 206
+   at DarlingBotNet.Services.SystemLoading.GuildCheck() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 159
+   at DarlingBotNet.Services.CommandHandler.Ready() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 416
+   at Discord.EventExtensions.InvokeAsync(AsyncEvent`1 eventHandler)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+23.08.2020 20:54:48 [Info] Gateway: Ready
+23.08.2020 20:55:31 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 20:55:31 [Verbose] Rest: GET voice/regions: 677,24 ms
+23.08.2020 20:55:32 [Verbose] Rest: GET users/@me: 220,25 ms
+23.08.2020 20:55:32 [Info] Gateway: Connecting
+23.08.2020 20:55:32 [Verbose] Rest: GET gateway: 73,09 ms
+23.08.2020 20:55:33 [Info] Gateway: Connected
+23.08.2020 20:55:33 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 20:55:34 [Info] Gateway: Ready
+23.08.2020 20:55:37 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+23.08.2020 20:55:37 [Verbose] Rest: POST channels/744480279275634748/messages: 274,07 ms
+23.08.2020 20:55:38 [Verbose] Rest: POST channels/744480279275634748/messages: 803,79 ms
+23.08.2020 20:55:38 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 20:57:12 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 20:57:13 [Verbose] Rest: GET voice/regions: 664,78 ms
+23.08.2020 20:57:14 [Verbose] Rest: GET users/@me: 226,12 ms
+23.08.2020 20:57:14 [Info] Gateway: Connecting
+23.08.2020 20:57:14 [Verbose] Rest: GET gateway: 85,53 ms
+23.08.2020 20:57:15 [Info] Gateway: Connected
+23.08.2020 20:57:15 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 20:57:16 [Info] Gateway: Ready
+23.08.2020 20:57:18 [Error] Command: Discord.Commands.CommandException: Error occurred executing "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.ArgumentException: Field count must be less than or equal to 25. (Parameter 'field')
+   at Discord.EmbedBuilder.AddField(EmbedFieldBuilder field)
+   at Discord.EmbedBuilder.AddField(String name, Object value, Boolean inline)
+   at DarlingBotNet.Modules.RussiaGame.RGEmoji() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\RussiaGame.cs:line 513
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+23.08.2020 20:57:18 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 20:58:22 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 20:58:23 [Verbose] Rest: GET voice/regions: 730,58 ms
+23.08.2020 20:58:23 [Verbose] Rest: GET users/@me: 238,34 ms
+23.08.2020 20:58:23 [Info] Gateway: Connecting
+23.08.2020 20:58:23 [Verbose] Rest: GET gateway: 82,48 ms
+23.08.2020 20:58:24 [Info] Gateway: Connected
+23.08.2020 20:58:24 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 20:58:25 [Info] Gateway: Ready
+23.08.2020 20:58:26 [Error] Command: Discord.Commands.CommandException: Error occurred executing "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.ArgumentException: Field count must be less than or equal to 25. (Parameter 'field')
+   at Discord.EmbedBuilder.AddField(EmbedFieldBuilder field)
+   at Discord.EmbedBuilder.AddField(String name, Object value, Boolean inline)
+   at DarlingBotNet.Modules.RussiaGame.RGEmoji() in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\RussiaGame.cs:line 513
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+23.08.2020 20:58:26 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 20:59:04 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+23.08.2020 20:59:35 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 20:59:36 [Verbose] Rest: GET voice/regions: 668,63 ms
+23.08.2020 20:59:36 [Verbose] Rest: GET users/@me: 224,14 ms
+23.08.2020 20:59:36 [Info] Gateway: Connecting
+23.08.2020 20:59:36 [Verbose] Rest: GET gateway: 75,03 ms
+23.08.2020 20:59:37 [Info] Gateway: Connected
+23.08.2020 20:59:37 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 20:59:38 [Info] Gateway: Ready
+23.08.2020 21:00:22 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 21:00:23 [Verbose] Rest: GET voice/regions: 705,45 ms
+23.08.2020 21:00:23 [Verbose] Rest: GET users/@me: 229,61 ms
+23.08.2020 21:00:23 [Info] Gateway: Connecting
+23.08.2020 21:00:23 [Verbose] Rest: GET gateway: 83,29 ms
+23.08.2020 21:00:24 [Info] Gateway: Connected
+23.08.2020 21:00:25 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 21:00:25 [Info] Gateway: Ready
+23.08.2020 21:00:54 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 21:00:55 [Verbose] Rest: GET voice/regions: 627,13 ms
+23.08.2020 21:00:55 [Verbose] Rest: GET users/@me: 237,86 ms
+23.08.2020 21:00:55 [Info] Gateway: Connecting
+23.08.2020 21:00:55 [Verbose] Rest: GET gateway: 82,57 ms
+23.08.2020 21:00:56 [Info] Gateway: Connected
+23.08.2020 21:00:56 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 21:00:57 [Info] Gateway: Ready
+23.08.2020 21:03:21 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 21:03:22 [Verbose] Rest: GET voice/regions: 735,73 ms
+23.08.2020 21:03:23 [Verbose] Rest: GET users/@me: 261,54 ms
+23.08.2020 21:03:23 [Info] Gateway: Connecting
+23.08.2020 21:03:23 [Verbose] Rest: GET gateway: 67,12 ms
+23.08.2020 21:03:25 [Info] Gateway: Connected
+23.08.2020 21:03:25 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 21:03:26 [Info] Gateway: Ready
+23.08.2020 21:03:28 [Verbose] Rest: POST channels/744480279275634748/messages: 263,85 ms
+23.08.2020 21:03:28 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 21:03:38 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 21:03:38 [Verbose] Rest: GET voice/regions: 641,35 ms
+23.08.2020 21:03:39 [Verbose] Rest: GET users/@me: 217,88 ms
+23.08.2020 21:03:39 [Info] Gateway: Connecting
+23.08.2020 21:03:39 [Verbose] Rest: GET gateway: 81,26 ms
+23.08.2020 21:03:40 [Info] Gateway: Connected
+23.08.2020 21:03:40 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 21:03:41 [Info] Gateway: Ready
+23.08.2020 21:03:43 [Verbose] Rest: POST channels/744480279275634748/messages: 283,11 ms
+23.08.2020 21:03:43 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 21:03:47 [Verbose] Rest: POST channels/744480279275634748/messages: 243,2 ms
+23.08.2020 21:03:47 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 21:03:59 [Verbose] Rest: POST channels/744480279275634748/messages: 222,89 ms
+23.08.2020 21:03:59 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 21:04:45 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 21:04:46 [Verbose] Rest: GET voice/regions: 631,96 ms
+23.08.2020 21:04:46 [Verbose] Rest: GET users/@me: 223,26 ms
+23.08.2020 21:04:46 [Info] Gateway: Connecting
+23.08.2020 21:04:46 [Verbose] Rest: GET gateway: 73,03 ms
+23.08.2020 21:04:47 [Info] Gateway: Connected
+23.08.2020 21:04:47 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 21:04:48 [Info] Gateway: Ready
+23.08.2020 21:04:50 [Verbose] Rest: POST channels/744480279275634748/messages: 310,08 ms
+23.08.2020 21:04:50 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 21:12:09 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 21:12:09 [Verbose] Rest: GET voice/regions: 680,95 ms
+23.08.2020 21:12:10 [Verbose] Rest: GET users/@me: 233,99 ms
+23.08.2020 21:12:10 [Info] Gateway: Connecting
+23.08.2020 21:12:10 [Verbose] Rest: GET gateway: 85,93 ms
+23.08.2020 21:12:11 [Info] Gateway: Connected
+23.08.2020 21:12:11 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 21:12:12 [Info] Gateway: Ready
+23.08.2020 21:12:13 [Verbose] Rest: POST channels/744480279275634748/messages: 501,16 ms
+23.08.2020 21:12:13 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 21:29:18 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 21:29:19 [Verbose] Rest: GET voice/regions: 678,78 ms
+23.08.2020 21:29:20 [Verbose] Rest: GET users/@me: 232,49 ms
+23.08.2020 21:29:20 [Info] Gateway: Connecting
+23.08.2020 21:29:20 [Verbose] Rest: GET gateway: 73,36 ms
+23.08.2020 21:29:21 [Info] Gateway: Connected
+23.08.2020 21:29:21 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 21:29:22 [Info] Gateway: Ready
+23.08.2020 21:29:24 [Verbose] Rest: POST channels/744480279275634748/messages: 258,96 ms
+23.08.2020 21:29:24 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 21:38:53 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 21:38:54 [Verbose] Rest: GET voice/regions: 659,24 ms
+23.08.2020 21:38:54 [Verbose] Rest: GET users/@me: 218,85 ms
+23.08.2020 21:38:55 [Info] Gateway: Connecting
+23.08.2020 21:38:55 [Verbose] Rest: GET gateway: 82,58 ms
+23.08.2020 21:38:56 [Info] Gateway: Connected
+23.08.2020 21:38:56 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 21:38:57 [Info] Gateway: Ready
+23.08.2020 21:38:58 [Verbose] Rest: POST channels/744480279275634748/messages: 274,47 ms
+23.08.2020 21:38:58 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 21:40:27 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 21:40:28 [Verbose] Rest: GET voice/regions: 636,11 ms
+23.08.2020 21:40:29 [Verbose] Rest: GET users/@me: 220,9 ms
+23.08.2020 21:40:29 [Info] Gateway: Connecting
+23.08.2020 21:40:29 [Verbose] Rest: GET gateway: 75 ms
+23.08.2020 21:40:30 [Info] Gateway: Connected
+23.08.2020 21:40:30 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 21:40:31 [Info] Gateway: Ready
+23.08.2020 21:40:35 [Verbose] Rest: POST channels/744480279275634748/messages: 297,52 ms
+23.08.2020 21:40:35 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 21:52:34 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 21:52:35 [Verbose] Rest: GET voice/regions: 642,04 ms
+23.08.2020 21:52:35 [Verbose] Rest: GET users/@me: 244,16 ms
+23.08.2020 21:52:35 [Info] Gateway: Connecting
+23.08.2020 21:52:35 [Verbose] Rest: GET gateway: 70,22 ms
+23.08.2020 21:52:36 [Info] Gateway: Connected
+23.08.2020 21:52:36 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 21:52:37 [Info] Gateway: Ready
+23.08.2020 21:52:39 [Verbose] Rest: POST channels/744480279275634748/messages: 248,59 ms
+23.08.2020 21:52:39 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+23.08.2020 22:11:25 [Info] Discord: Discord.Net v2.2.0 (API v6)
+23.08.2020 22:11:26 [Verbose] Rest: GET voice/regions: 653,93 ms
+23.08.2020 22:11:26 [Verbose] Rest: GET users/@me: 217,8 ms
+23.08.2020 22:11:26 [Info] Gateway: Connecting
+23.08.2020 22:11:26 [Verbose] Rest: GET gateway: 85,81 ms
+23.08.2020 22:11:27 [Info] Gateway: Connected
+23.08.2020 22:11:27 [Verbose] Gateway: Connected to DarlingBotInfo
+23.08.2020 22:11:28 [Info] Gateway: Ready
+23.08.2020 22:11:30 [Verbose] Rest: POST channels/744480279275634748/messages: 278,9 ms
+23.08.2020 22:11:30 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ

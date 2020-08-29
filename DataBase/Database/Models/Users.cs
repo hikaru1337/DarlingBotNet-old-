@@ -1,9 +1,5 @@
-﻿
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 
 namespace DarlingBotNet.DataBase
@@ -33,7 +29,7 @@ namespace DarlingBotNet.DataBase
         {
             get
             {
-                var clan = new DBcontext().Clans.AsNoTracking().Where(x => x.OwnerId == userid);
+                var clan = new DBcontext().Clans.AsQueryable().Where(x => x.OwnerId == userid);
                 if (clan.Count() == 0) return 0;
                 return (uint)clan.First().Id;
             }

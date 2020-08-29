@@ -1,0 +1,1104 @@
+24.08.2020 0:02:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 0:02:14 [Verbose] Rest: GET voice/regions: 605,54 ms
+24.08.2020 0:02:14 [Verbose] Rest: GET users/@me: 245,3 ms
+24.08.2020 0:02:14 [Info] Gateway: Connecting
+24.08.2020 0:02:15 [Verbose] Rest: GET gateway: 71,48 ms
+24.08.2020 0:02:16 [Info] Gateway: Connected
+24.08.2020 0:02:16 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 0:02:17 [Info] Gateway: Ready
+24.08.2020 0:02:58 [Verbose] Rest: POST channels/744480279275634748/messages: 335,72 ms
+24.08.2020 0:02:58 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 0:06:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 0:06:22 [Verbose] Rest: GET voice/regions: 618,97 ms
+24.08.2020 0:06:22 [Verbose] Rest: GET users/@me: 211,25 ms
+24.08.2020 0:06:22 [Info] Gateway: Connecting
+24.08.2020 0:06:22 [Verbose] Rest: GET gateway: 70,46 ms
+24.08.2020 0:06:23 [Info] Gateway: Connected
+24.08.2020 0:06:23 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 0:06:24 [Info] Gateway: Ready
+24.08.2020 0:06:32 [Verbose] Rest: POST channels/744480279275634748/messages: 277,31 ms
+24.08.2020 0:06:32 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 0:06:35 [Verbose] Rest: POST channels/744480279275634748/messages: 219,61 ms
+24.08.2020 0:06:35 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 0:22:29 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 0:22:30 [Verbose] Rest: GET voice/regions: 635,2 ms
+24.08.2020 0:22:30 [Verbose] Rest: GET users/@me: 237,66 ms
+24.08.2020 0:22:30 [Info] Gateway: Connecting
+24.08.2020 0:22:30 [Verbose] Rest: GET gateway: 74,83 ms
+24.08.2020 0:22:31 [Info] Gateway: Connected
+24.08.2020 0:22:32 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 0:22:33 [Info] Gateway: Ready
+24.08.2020 0:22:38 [Verbose] Rest: POST channels/744480279275634748/messages: 252,03 ms
+24.08.2020 0:22:38 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 0:23:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 0:23:40 [Verbose] Rest: GET voice/regions: 610,39 ms
+24.08.2020 0:23:40 [Verbose] Rest: GET users/@me: 223,88 ms
+24.08.2020 0:23:40 [Info] Gateway: Connecting
+24.08.2020 0:23:40 [Verbose] Rest: GET gateway: 74,33 ms
+24.08.2020 0:23:41 [Info] Gateway: Connected
+24.08.2020 0:23:41 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 0:23:42 [Info] Gateway: Ready
+24.08.2020 0:23:44 [Verbose] Rest: POST channels/744480279275634748/messages: 324,48 ms
+24.08.2020 0:23:44 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 0:24:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 0:24:05 [Verbose] Rest: GET voice/regions: 673,69 ms
+24.08.2020 0:24:05 [Verbose] Rest: GET users/@me: 231,11 ms
+24.08.2020 0:24:06 [Info] Gateway: Connecting
+24.08.2020 0:24:06 [Verbose] Rest: GET gateway: 76,84 ms
+24.08.2020 0:24:07 [Info] Gateway: Connected
+24.08.2020 0:24:07 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 0:24:08 [Info] Gateway: Ready
+24.08.2020 0:24:39 [Verbose] Rest: POST channels/744480279275634748/messages: 311,01 ms
+24.08.2020 0:24:39 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 0:25:26 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 0:25:26 [Verbose] Rest: GET voice/regions: 647,95 ms
+24.08.2020 0:25:27 [Verbose] Rest: GET users/@me: 229,16 ms
+24.08.2020 0:25:27 [Info] Gateway: Connecting
+24.08.2020 0:25:27 [Verbose] Rest: GET gateway: 80,65 ms
+24.08.2020 0:25:28 [Info] Gateway: Connected
+24.08.2020 0:25:28 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 0:25:29 [Info] Gateway: Ready
+24.08.2020 0:25:33 [Verbose] Rest: POST channels/744480279275634748/messages: 284,48 ms
+24.08.2020 0:25:33 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 0:27:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 0:27:22 [Verbose] Rest: GET voice/regions: 629,22 ms
+24.08.2020 0:27:23 [Verbose] Rest: GET users/@me: 240,74 ms
+24.08.2020 0:27:23 [Info] Gateway: Connecting
+24.08.2020 0:27:23 [Verbose] Rest: GET gateway: 72,19 ms
+24.08.2020 0:27:24 [Info] Gateway: Connected
+24.08.2020 0:27:24 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 0:27:25 [Info] Gateway: Ready
+24.08.2020 0:27:26 [Verbose] Rest: POST channels/744480279275634748/messages: 255,36 ms
+24.08.2020 0:27:26 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 0:31:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 0:31:38 [Verbose] Rest: GET voice/regions: 651,43 ms
+24.08.2020 0:31:38 [Verbose] Rest: GET users/@me: 234,27 ms
+24.08.2020 0:31:39 [Info] Gateway: Connecting
+24.08.2020 0:31:39 [Verbose] Rest: GET gateway: 79,15 ms
+24.08.2020 0:31:40 [Info] Gateway: Connected
+24.08.2020 0:31:40 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 0:31:41 [Info] Gateway: Ready
+24.08.2020 0:31:42 [Verbose] Rest: POST channels/744480279275634748/messages: 233,7 ms
+24.08.2020 0:31:42 [Verbose] Command: Executed "info" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 0:32:04 [Verbose] Rest: POST channels/744480279275634748/messages: 274,26 ms
+24.08.2020 0:32:04 [Verbose] Command: Executed "commands" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 0:32:07 [Error] Command: Discord.Commands.CommandException: Error occurred executing "info" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DarlingBotNet.Modules.Help.info(String command) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Help.cs:line 89
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+24.08.2020 0:32:07 [Verbose] Command: Executed "info" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 0:32:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 0:32:31 [Verbose] Rest: GET voice/regions: 603,13 ms
+24.08.2020 0:32:31 [Verbose] Rest: GET users/@me: 233,47 ms
+24.08.2020 0:32:31 [Info] Gateway: Connecting
+24.08.2020 0:32:31 [Verbose] Rest: GET gateway: 74,18 ms
+24.08.2020 0:32:32 [Info] Gateway: Connected
+24.08.2020 0:32:32 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 0:32:33 [Info] Gateway: Ready
+24.08.2020 0:32:39 [Verbose] Rest: POST channels/744480279275634748/messages: 294,4 ms
+24.08.2020 0:32:39 [Verbose] Command: Executed "info" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 16:52:25 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 16:52:26 [Verbose] Rest: GET voice/regions: 884,57 ms
+24.08.2020 16:52:26 [Verbose] Rest: GET users/@me: 239,49 ms
+24.08.2020 16:52:26 [Info] Gateway: Connecting
+24.08.2020 16:52:27 [Verbose] Rest: GET gateway: 81,97 ms
+24.08.2020 16:52:28 [Info] Gateway: Connected
+24.08.2020 16:52:28 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 16:52:29 [Info] Gateway: Ready
+24.08.2020 16:52:30 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+24.08.2020 16:52:30 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+24.08.2020 16:52:30 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+24.08.2020 16:52:30 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+24.08.2020 16:52:30 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+24.08.2020 16:52:30 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+24.08.2020 16:52:30 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+24.08.2020 16:52:30 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+24.08.2020 16:52:30 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+24.08.2020 16:52:30 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+24.08.2020 16:52:30 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+24.08.2020 16:52:30 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+24.08.2020 16:52:30 [Verbose] Rest: GET oauth2/applications/@me: 379,92 ms
+24.08.2020 16:52:31 [Verbose] Rest: GET oauth2/applications/@me: 224,74 ms
+24.08.2020 16:52:31 [Verbose] Rest: GET oauth2/applications/@me: 882,24 ms
+24.08.2020 16:52:31 [Verbose] Rest: GET oauth2/applications/@me: 869,44 ms
+24.08.2020 16:52:31 [Verbose] Rest: GET oauth2/applications/@me: 878,78 ms
+24.08.2020 16:52:31 [Verbose] Rest: GET oauth2/applications/@me: 711,86 ms
+24.08.2020 16:52:31 [Verbose] Rest: GET oauth2/applications/@me: 964,08 ms
+24.08.2020 16:52:31 [Verbose] Rest: GET oauth2/applications/@me: 849,91 ms
+24.08.2020 16:52:31 [Verbose] Rest: GET oauth2/applications/@me: 858,01 ms
+24.08.2020 16:52:31 [Verbose] Rest: GET oauth2/applications/@me: 866,99 ms
+24.08.2020 16:52:31 [Verbose] Rest: GET oauth2/applications/@me: 885,31 ms
+24.08.2020 16:52:34 [Verbose] Rest: GET oauth2/applications/@me: 3695,33 ms
+24.08.2020 16:52:34 [Verbose] Rest: GET oauth2/applications/@me: 3700,16 ms
+24.08.2020 16:52:34 [Verbose] Rest: POST channels/744480279275634748/messages: 3224,46 ms
+24.08.2020 16:52:34 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 17:37:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 17:37:43 [Verbose] Rest: GET voice/regions: 650,11 ms
+24.08.2020 17:37:44 [Verbose] Rest: GET users/@me: 294,86 ms
+24.08.2020 17:37:44 [Info] Gateway: Connecting
+24.08.2020 17:37:44 [Verbose] Rest: GET gateway: 82,2 ms
+24.08.2020 17:37:45 [Info] Gateway: Connected
+24.08.2020 17:37:45 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 17:37:46 [Info] Gateway: Ready
+24.08.2020 17:37:50 [Verbose] Rest: POST channels/744480279275634748/messages: 250,93 ms
+24.08.2020 17:37:50 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 17:37:51 [Verbose] Rest: PUT channels/744480279275634748/messages/747509993976234044/reactions/◀️/@me: 534 ms
+24.08.2020 17:37:51 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<EmoteClick>
+    .Where(e => e.guildid == __Guild_Id_0 && e.channelid == __mess_Id_1 && __emj_Emote_Name_2 == Emote.Parse(e.emote).Name)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 125
+   at DarlingBotNet.Services.CommandHandler.ReactAdd(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 112
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+24.08.2020 17:37:51 [Verbose] Rest: PUT channels/744480279275634748/messages/747509993976234044/reactions/▶️/@me: 1302,47 ms
+24.08.2020 17:37:51 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<EmoteClick>
+    .Where(e => e.guildid == __Guild_Id_0 && e.channelid == __mess_Id_1 && __emj_Emote_Name_2 == Emote.Parse(e.emote).Name)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.CommandHandler.GetOrRemoveRole(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj, Boolean getOrRemove) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 125
+   at DarlingBotNet.Services.CommandHandler.ReactAdd(Cacheable`2 mess, ISocketMessageChannel chnl, SocketReaction emj) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 112
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+24.08.2020 17:39:00 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 17:39:02 [Verbose] Rest: GET voice/regions: 660,88 ms
+24.08.2020 17:39:02 [Verbose] Rest: GET users/@me: 274,57 ms
+24.08.2020 17:39:02 [Info] Gateway: Connecting
+24.08.2020 17:39:02 [Verbose] Rest: GET gateway: 76 ms
+24.08.2020 17:39:03 [Info] Gateway: Connected
+24.08.2020 17:39:03 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 17:39:04 [Info] Gateway: Ready
+24.08.2020 17:39:08 [Verbose] Rest: POST channels/744480279275634748/messages: 233,54 ms
+24.08.2020 17:39:08 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 17:39:09 [Verbose] Rest: PUT channels/744480279275634748/messages/747510322335580254/reactions/◀️/@me: 212,01 ms
+24.08.2020 17:39:09 [Verbose] Rest: PUT channels/744480279275634748/messages/747510322335580254/reactions/▶️/@me: 924,85 ms
+24.08.2020 17:39:13 [Verbose] Rest: PATCH channels/744480279275634748/messages/747510322335580254: 268,97 ms
+24.08.2020 17:39:13 [Verbose] Rest: DELETE channels/744480279275634748/messages/747510322335580254/reactions: 242,75 ms
+24.08.2020 17:39:13 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 17:40:02 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 17:40:03 [Verbose] Rest: GET voice/regions: 715,52 ms
+24.08.2020 17:40:03 [Verbose] Rest: GET users/@me: 219,71 ms
+24.08.2020 17:40:04 [Info] Gateway: Connecting
+24.08.2020 17:40:04 [Verbose] Rest: GET gateway: 78,1 ms
+24.08.2020 17:40:05 [Info] Gateway: Connected
+24.08.2020 17:40:05 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 17:40:06 [Info] Gateway: Ready
+24.08.2020 18:13:35 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 18:13:36 [Verbose] Rest: GET voice/regions: 662,49 ms
+24.08.2020 18:13:36 [Verbose] Rest: GET users/@me: 231,94 ms
+24.08.2020 18:13:36 [Info] Gateway: Connecting
+24.08.2020 18:13:36 [Verbose] Rest: GET gateway: 68,37 ms
+24.08.2020 18:13:38 [Info] Gateway: Connected
+24.08.2020 18:13:38 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 18:13:39 [Info] Gateway: Ready
+24.08.2020 18:13:42 [Verbose] Rest: POST channels/744480279275634748/messages: 272,32 ms
+24.08.2020 18:13:42 [Verbose] Rest: PUT channels/744480279275634748/messages/747519020848382002/reactions/◀️/@me: 281,73 ms
+24.08.2020 18:13:42 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 18:13:43 [Verbose] Rest: PUT channels/744480279275634748/messages/747519020848382002/reactions/▶️/@me: 635,45 ms
+24.08.2020 18:13:45 [Verbose] Rest: POST channels/744480279275634748/messages: 301,35 ms
+24.08.2020 18:13:45 [Verbose] Rest: PUT channels/744480279275634748/messages/747519033246482543/reactions/◀️/@me: 302,08 ms
+24.08.2020 18:13:45 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 18:13:46 [Verbose] Rest: PUT channels/744480279275634748/messages/747519033246482543/reactions/▶️/@me: 543,57 ms
+24.08.2020 18:13:50 [Error] Command: Discord.Commands.CommandException: Error occurred executing "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.ArgumentException: Field count must be less than or equal to 25. (Parameter 'field')
+   at Discord.EmbedBuilder.AddField(EmbedFieldBuilder field)
+   at Discord.EmbedBuilder.AddField(String name, Object value, Boolean inline)
+   at DarlingBotNet.Modules.RussiaGame.RGEmoji(Int32 page) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\RussiaGame.cs:line 516
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+24.08.2020 18:13:50 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 18:46:00 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 18:46:00 [Verbose] Rest: GET voice/regions: 692,55 ms
+24.08.2020 18:46:01 [Verbose] Rest: GET users/@me: 260,12 ms
+24.08.2020 18:46:01 [Info] Gateway: Connecting
+24.08.2020 18:46:01 [Verbose] Rest: GET gateway: 89,16 ms
+24.08.2020 18:46:02 [Info] Gateway: Connected
+24.08.2020 18:46:02 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 18:46:03 [Info] Gateway: Ready
+24.08.2020 18:47:01 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 18:47:02 [Verbose] Rest: GET voice/regions: 596,19 ms
+24.08.2020 18:47:02 [Verbose] Rest: GET users/@me: 246,57 ms
+24.08.2020 18:47:02 [Info] Gateway: Connecting
+24.08.2020 18:47:02 [Verbose] Rest: GET gateway: 76,2 ms
+24.08.2020 18:47:03 [Info] Gateway: Connected
+24.08.2020 18:47:03 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 18:47:05 [Info] Gateway: Ready
+24.08.2020 18:47:14 [Verbose] Rest: POST channels/744480279275634748/messages: 275,24 ms
+24.08.2020 18:47:14 [Verbose] Rest: PUT channels/744480279275634748/messages/747527457317453918/reactions/◀️/@me: 222,22 ms
+24.08.2020 18:47:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 18:47:36 [Verbose] Rest: GET voice/regions: 693,91 ms
+24.08.2020 18:47:37 [Verbose] Rest: GET users/@me: 224,52 ms
+24.08.2020 18:47:37 [Info] Gateway: Connecting
+24.08.2020 18:47:37 [Verbose] Rest: GET gateway: 82,53 ms
+24.08.2020 18:47:38 [Info] Gateway: Connected
+24.08.2020 18:47:38 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 18:47:39 [Info] Gateway: Ready
+24.08.2020 18:47:40 [Verbose] Rest: POST channels/744480279275634748/messages: 276,93 ms
+24.08.2020 18:47:41 [Verbose] Rest: PUT channels/744480279275634748/messages/747527568835477676/reactions/◀️/@me: 238,32 ms
+24.08.2020 18:47:41 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 18:47:41 [Verbose] Rest: PUT channels/744480279275634748/messages/747527568835477676/reactions/▶️/@me: 666,89 ms
+24.08.2020 18:47:44 [Verbose] Rest: PATCH channels/744480279275634748/messages/747527568835477676: 271,3 ms
+24.08.2020 18:47:49 [Verbose] Rest: PATCH channels/744480279275634748/messages/747527568835477676: 308,04 ms
+24.08.2020 18:47:54 [Verbose] Rest: PATCH channels/744480279275634748/messages/747527568835477676: 274,82 ms
+24.08.2020 18:48:02 [Verbose] Rest: PATCH channels/744480279275634748/messages/747527568835477676: 226,22 ms
+24.08.2020 18:48:40 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 18:48:41 [Verbose] Rest: GET voice/regions: 647,25 ms
+24.08.2020 18:48:41 [Verbose] Rest: GET users/@me: 234,89 ms
+24.08.2020 18:48:41 [Info] Gateway: Connecting
+24.08.2020 18:48:42 [Verbose] Rest: GET gateway: 89,74 ms
+24.08.2020 18:48:42 [Info] Gateway: Connected
+24.08.2020 18:48:43 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 18:48:43 [Info] Gateway: Ready
+24.08.2020 18:48:50 [Verbose] Rest: POST channels/744480279275634748/messages: 282,46 ms
+24.08.2020 18:48:50 [Verbose] Rest: PUT channels/744480279275634748/messages/747527860918681661/reactions/◀️/@me: 227,82 ms
+24.08.2020 18:48:50 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 18:48:51 [Verbose] Rest: PUT channels/744480279275634748/messages/747527860918681661/reactions/▶️/@me: 1267,52 ms
+24.08.2020 18:48:54 [Verbose] Rest: DELETE channels/744480279275634748/messages/747527860918681661/reactions: 268,11 ms
+24.08.2020 18:48:54 [Verbose] Rest: PATCH channels/744480279275634748/messages/747527860918681661: 340,89 ms
+24.08.2020 18:57:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 18:57:37 [Verbose] Rest: GET voice/regions: 682,14 ms
+24.08.2020 18:57:37 [Verbose] Rest: GET users/@me: 218,85 ms
+24.08.2020 18:57:37 [Info] Gateway: Connecting
+24.08.2020 18:57:37 [Verbose] Rest: GET gateway: 88,26 ms
+24.08.2020 18:57:39 [Info] Gateway: Connected
+24.08.2020 18:57:40 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 18:57:40 [Info] Gateway: Ready
+24.08.2020 19:48:06 [Warning] Gateway: System.Exception: Server requested a reconnect
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+24.08.2020 19:48:06 [Info] Gateway: Disconnecting
+24.08.2020 19:48:06 [Verbose] Gateway: Disconnected from DarlingBotInfo
+24.08.2020 19:48:06 [Info] Gateway: Disconnected
+24.08.2020 19:48:07 [Info] Gateway: Connecting
+24.08.2020 19:48:08 [Verbose] Rest: GET gateway: 211,84 ms
+24.08.2020 19:48:08 [Warning] Gateway: Failed to resume previous session
+24.08.2020 19:48:08 [Info] Gateway: Connected
+24.08.2020 19:48:08 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 19:48:09 [Info] Gateway: Ready
+24.08.2020 19:59:57 [Verbose] Rest: POST channels/744480279275634748/messages: 456,4 ms
+24.08.2020 19:59:57 [Verbose] Rest: PUT channels/744480279275634748/messages/747545757640556615/reactions/◀️/@me: 207,83 ms
+24.08.2020 19:59:57 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 19:59:58 [Verbose] Rest: PUT channels/744480279275634748/messages/747545757640556615/reactions/▶️/@me: 1147,36 ms
+24.08.2020 20:00:27 [Verbose] Rest: DELETE channels/744480279275634748/messages/747545757640556615/reactions: 243,94 ms
+24.08.2020 20:00:27 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 20:00:42 [Verbose] Rest: POST channels/744480279275634748/messages: 269,83 ms
+24.08.2020 20:00:42 [Verbose] Rest: PUT channels/744480279275634748/messages/747545946761593044/reactions/◀️/@me: 233,3 ms
+24.08.2020 20:00:42 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:00:43 [Verbose] Rest: PUT channels/744480279275634748/messages/747545946761593044/reactions/▶️/@me: 1162 ms
+24.08.2020 20:00:45 [Verbose] Rest: DELETE channels/744480279275634748/messages/747545946761593044/reactions: 212,83 ms
+24.08.2020 20:00:45 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:00:46 [Verbose] Rest: PUT channels/744480279275634748/messages/747545946761593044/reactions/◀️/@me: 1205,22 ms
+24.08.2020 20:00:47 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:00:47 [Verbose] Rest: PUT channels/744480279275634748/messages/747545946761593044/reactions/▶️/@me: 480,27 ms
+24.08.2020 20:00:47 [Verbose] Rest: PATCH channels/744480279275634748/messages/747545946761593044: 219,26 ms
+24.08.2020 20:02:07 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:02:07 [Verbose] Rest: GET voice/regions: 637,11 ms
+24.08.2020 20:02:08 [Verbose] Rest: GET users/@me: 258,06 ms
+24.08.2020 20:02:08 [Info] Gateway: Connecting
+24.08.2020 20:02:08 [Verbose] Rest: GET gateway: 74,19 ms
+24.08.2020 20:02:09 [Info] Gateway: Connected
+24.08.2020 20:02:09 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:02:10 [Info] Gateway: Ready
+24.08.2020 20:02:19 [Verbose] Rest: POST channels/744480279275634748/messages: 277,1 ms
+24.08.2020 20:02:20 [Verbose] Rest: PUT channels/744480279275634748/messages/747546355425214464/reactions/◀️/@me: 340,78 ms
+24.08.2020 20:02:20 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:02:20 [Verbose] Rest: PUT channels/744480279275634748/messages/747546355425214464/reactions/▶️/@me: 680,1 ms
+24.08.2020 20:02:29 [Warning] Gateway: A ReactionAdded handler is blocking the gateway task.
+24.08.2020 20:02:29 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546355425214464/reactions: 201,58 ms
+24.08.2020 20:02:29 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:02:30 [Verbose] Rest: PUT channels/744480279275634748/messages/747546355425214464/reactions/◀️/@me: 1160,45 ms
+24.08.2020 20:02:30 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:02:31 [Verbose] Rest: PUT channels/744480279275634748/messages/747546355425214464/reactions/▶️/@me: 1219,85 ms
+24.08.2020 20:02:32 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546355425214464: 226,43 ms
+24.08.2020 20:03:19 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:03:19 [Verbose] Rest: GET voice/regions: 629,63 ms
+24.08.2020 20:03:20 [Verbose] Rest: GET users/@me: 241,37 ms
+24.08.2020 20:03:20 [Info] Gateway: Connecting
+24.08.2020 20:03:20 [Verbose] Rest: GET gateway: 71,16 ms
+24.08.2020 20:03:21 [Info] Gateway: Connected
+24.08.2020 20:03:21 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:03:22 [Info] Gateway: Ready
+24.08.2020 20:03:24 [Verbose] Rest: POST channels/744480279275634748/messages: 262,86 ms
+24.08.2020 20:03:24 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/◀️/@me: 210,4 ms
+24.08.2020 20:03:24 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:03:26 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1451,36 ms
+24.08.2020 20:03:29 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 242,79 ms
+24.08.2020 20:03:29 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:03:30 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/◀️/@me: 1249,18 ms
+24.08.2020 20:03:31 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 239,52 ms
+24.08.2020 20:03:31 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 287,57 ms
+24.08.2020 20:03:38 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 236,46 ms
+24.08.2020 20:03:38 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:03:39 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1198,17 ms
+24.08.2020 20:03:40 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 226,27 ms
+24.08.2020 20:03:44 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 269,7 ms
+24.08.2020 20:03:44 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:03:44 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 718,1 ms
+24.08.2020 20:03:45 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 245,79 ms
+24.08.2020 20:03:48 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 232,68 ms
+24.08.2020 20:03:48 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:03:48 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 687,28 ms
+24.08.2020 20:03:49 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 284,51 ms
+24.08.2020 20:03:50 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 288,54 ms
+24.08.2020 20:03:51 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:03:51 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 567,41 ms
+24.08.2020 20:03:51 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 220,51 ms
+24.08.2020 20:03:53 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 266,4 ms
+24.08.2020 20:03:53 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:03:53 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 747,8 ms
+24.08.2020 20:03:54 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 320,34 ms
+24.08.2020 20:03:56 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 242,63 ms
+24.08.2020 20:03:56 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:03:57 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1014,97 ms
+24.08.2020 20:03:57 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 303,18 ms
+24.08.2020 20:03:59 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 224,25 ms
+24.08.2020 20:03:59 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:03:59 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 754,91 ms
+24.08.2020 20:04:00 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 270,27 ms
+24.08.2020 20:04:02 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 232,02 ms
+24.08.2020 20:04:02 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:03 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1021,41 ms
+24.08.2020 20:04:03 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 220,23 ms
+24.08.2020 20:04:05 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 232,32 ms
+24.08.2020 20:04:05 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:06 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1260,09 ms
+24.08.2020 20:04:07 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 239,26 ms
+24.08.2020 20:04:08 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 230,46 ms
+24.08.2020 20:04:08 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:10 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1369,58 ms
+24.08.2020 20:04:10 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 251,06 ms
+24.08.2020 20:04:12 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 256,18 ms
+24.08.2020 20:04:12 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:12 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 640,16 ms
+24.08.2020 20:04:12 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 242,6 ms
+24.08.2020 20:04:14 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 252,29 ms
+24.08.2020 20:04:14 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:15 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 566,98 ms
+24.08.2020 20:04:15 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 266,94 ms
+24.08.2020 20:04:17 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 220,5 ms
+24.08.2020 20:04:17 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:18 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 816,45 ms
+24.08.2020 20:04:18 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 271,11 ms
+24.08.2020 20:04:19 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 289,31 ms
+24.08.2020 20:04:19 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:21 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1275,11 ms
+24.08.2020 20:04:21 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 242,55 ms
+24.08.2020 20:04:22 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 246,63 ms
+24.08.2020 20:04:22 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:23 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 835,22 ms
+24.08.2020 20:04:23 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+24.08.2020 20:04:26 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 3841,94 ms
+24.08.2020 20:04:27 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 230,99 ms
+24.08.2020 20:04:27 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:28 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 795,88 ms
+24.08.2020 20:04:28 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 221,28 ms
+24.08.2020 20:04:30 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 235,67 ms
+24.08.2020 20:04:30 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:31 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 771,05 ms
+24.08.2020 20:04:31 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 268,99 ms
+24.08.2020 20:04:33 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 277,92 ms
+24.08.2020 20:04:33 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:35 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1301,11 ms
+24.08.2020 20:04:35 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 251,74 ms
+24.08.2020 20:04:36 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 247,23 ms
+24.08.2020 20:04:36 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:37 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 450,45 ms
+24.08.2020 20:04:37 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 322,29 ms
+24.08.2020 20:04:40 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 242,15 ms
+24.08.2020 20:04:40 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:41 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 882,62 ms
+24.08.2020 20:04:41 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 227,16 ms
+24.08.2020 20:04:43 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 243,59 ms
+24.08.2020 20:04:43 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:43 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 675,08 ms
+24.08.2020 20:04:43 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 229,69 ms
+24.08.2020 20:04:45 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 215,54 ms
+24.08.2020 20:04:45 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:46 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1277 ms
+24.08.2020 20:04:47 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 301,74 ms
+24.08.2020 20:04:48 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 244,54 ms
+24.08.2020 20:04:48 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:50 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1377,69 ms
+24.08.2020 20:04:50 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 278,4 ms
+24.08.2020 20:04:52 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 219,51 ms
+24.08.2020 20:04:52 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:52 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 624,54 ms
+24.08.2020 20:04:53 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 307,81 ms
+24.08.2020 20:04:54 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 241,15 ms
+24.08.2020 20:04:54 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:55 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1090,61 ms
+24.08.2020 20:04:55 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 261,46 ms
+24.08.2020 20:04:57 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 261,03 ms
+24.08.2020 20:04:57 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:04:58 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1020,65 ms
+24.08.2020 20:04:58 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 282,73 ms
+24.08.2020 20:05:00 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 238,28 ms
+24.08.2020 20:05:00 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:01 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 865,75 ms
+24.08.2020 20:05:01 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 258,31 ms
+24.08.2020 20:05:02 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 228,56 ms
+24.08.2020 20:05:02 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:04 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1337,66 ms
+24.08.2020 20:05:04 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 288,22 ms
+24.08.2020 20:05:05 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 287,68 ms
+24.08.2020 20:05:05 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:06 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 972,16 ms
+24.08.2020 20:05:06 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 245,86 ms
+24.08.2020 20:05:08 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 228,84 ms
+24.08.2020 20:05:08 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:08 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 579,04 ms
+24.08.2020 20:05:08 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 278,37 ms
+24.08.2020 20:05:10 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 246,25 ms
+24.08.2020 20:05:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:11 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 799,28 ms
+24.08.2020 20:05:11 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 277,04 ms
+24.08.2020 20:05:12 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 249,95 ms
+24.08.2020 20:05:12 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:13 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1005,69 ms
+24.08.2020 20:05:13 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 289,33 ms
+24.08.2020 20:05:14 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 223,86 ms
+24.08.2020 20:05:14 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:16 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1394,37 ms
+24.08.2020 20:05:16 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 244,47 ms
+24.08.2020 20:05:17 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 231,39 ms
+24.08.2020 20:05:17 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:18 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 980,57 ms
+24.08.2020 20:05:18 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 226,25 ms
+24.08.2020 20:05:20 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 222,07 ms
+24.08.2020 20:05:20 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:20 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 601,06 ms
+24.08.2020 20:05:20 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 274,71 ms
+24.08.2020 20:05:22 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 220,91 ms
+24.08.2020 20:05:22 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:22 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 774,4 ms
+24.08.2020 20:05:23 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 258,94 ms
+24.08.2020 20:05:24 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 227,55 ms
+24.08.2020 20:05:24 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:26 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1356,57 ms
+24.08.2020 20:05:26 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 239,92 ms
+24.08.2020 20:05:27 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 232,63 ms
+24.08.2020 20:05:27 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:28 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1115,79 ms
+24.08.2020 20:05:28 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 238,23 ms
+24.08.2020 20:05:30 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 262,66 ms
+24.08.2020 20:05:30 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:30 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 753,13 ms
+24.08.2020 20:05:31 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 245,86 ms
+24.08.2020 20:05:32 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 225,9 ms
+24.08.2020 20:05:32 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:33 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1133,09 ms
+24.08.2020 20:05:33 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 240,3 ms
+24.08.2020 20:05:35 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 225,82 ms
+24.08.2020 20:05:35 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:36 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 938,02 ms
+24.08.2020 20:05:36 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 268,61 ms
+24.08.2020 20:05:37 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 298,45 ms
+24.08.2020 20:05:37 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:39 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1285,37 ms
+24.08.2020 20:05:39 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 219,49 ms
+24.08.2020 20:05:40 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 242,27 ms
+24.08.2020 20:05:40 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:42 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1308,25 ms
+24.08.2020 20:05:42 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+24.08.2020 20:05:44 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 2941,39 ms
+24.08.2020 20:05:45 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 209,52 ms
+24.08.2020 20:05:45 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:45 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 764,65 ms
+24.08.2020 20:05:46 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 228,34 ms
+24.08.2020 20:05:48 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 256,04 ms
+24.08.2020 20:05:48 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:49 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 960,07 ms
+24.08.2020 20:05:49 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 237,45 ms
+24.08.2020 20:05:51 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 235,87 ms
+24.08.2020 20:05:51 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:52 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1387,72 ms
+24.08.2020 20:05:53 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 247,84 ms
+24.08.2020 20:05:54 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 236,57 ms
+24.08.2020 20:05:54 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:56 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1378,3 ms
+24.08.2020 20:05:56 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 217,8 ms
+24.08.2020 20:05:57 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 228,1 ms
+24.08.2020 20:05:57 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:05:59 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1356,11 ms
+24.08.2020 20:05:59 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 226,1 ms
+24.08.2020 20:06:00 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 363,85 ms
+24.08.2020 20:06:00 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:06:01 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 995,89 ms
+24.08.2020 20:06:01 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 301,07 ms
+24.08.2020 20:06:02 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 272,18 ms
+24.08.2020 20:06:02 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:06:03 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 547,42 ms
+24.08.2020 20:06:03 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 311,62 ms
+24.08.2020 20:06:05 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 249,95 ms
+24.08.2020 20:06:05 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:06:05 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 661,59 ms
+24.08.2020 20:06:06 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 276,81 ms
+24.08.2020 20:06:07 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 233,66 ms
+24.08.2020 20:06:07 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:06:07 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 768,84 ms
+24.08.2020 20:06:08 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 272,15 ms
+24.08.2020 20:06:09 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 219,99 ms
+24.08.2020 20:06:09 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:06:10 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1054,23 ms
+24.08.2020 20:06:10 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 224,93 ms
+24.08.2020 20:06:12 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 225,04 ms
+24.08.2020 20:06:12 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:06:12 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 603,08 ms
+24.08.2020 20:06:12 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 251,29 ms
+24.08.2020 20:06:14 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 237 ms
+24.08.2020 20:06:14 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:06:14 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 770,59 ms
+24.08.2020 20:06:15 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 278,45 ms
+24.08.2020 20:06:17 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 221,12 ms
+24.08.2020 20:06:17 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:06:18 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 849,06 ms
+24.08.2020 20:06:18 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 319,93 ms
+24.08.2020 20:06:22 [Verbose] Rest: DELETE channels/744480279275634748/messages/747546626985427075/reactions: 223,01 ms
+24.08.2020 20:06:22 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:06:23 [Verbose] Rest: PUT channels/744480279275634748/messages/747546626985427075/reactions/▶️/@me: 1132,45 ms
+24.08.2020 20:06:23 [Verbose] Rest: PATCH channels/744480279275634748/messages/747546626985427075: 247,76 ms
+24.08.2020 20:06:24 [Verbose] Rest: GET channels/744480279275634748/messages/747546355425214464: 264,99 ms
+24.08.2020 20:07:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:07:50 [Verbose] Rest: GET voice/regions: 652,01 ms
+24.08.2020 20:07:51 [Verbose] Rest: GET users/@me: 256,62 ms
+24.08.2020 20:07:51 [Info] Gateway: Connecting
+24.08.2020 20:07:51 [Verbose] Rest: GET gateway: 73,52 ms
+24.08.2020 20:07:52 [Info] Gateway: Connected
+24.08.2020 20:07:52 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:07:53 [Info] Gateway: Ready
+24.08.2020 20:07:55 [Verbose] Rest: POST channels/744480279275634748/messages: 291,77 ms
+24.08.2020 20:07:55 [Verbose] Rest: PUT channels/744480279275634748/messages/747547763138625778/reactions/◀️/@me: 270,34 ms
+24.08.2020 20:07:55 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:07:57 [Verbose] Rest: PUT channels/744480279275634748/messages/747547763138625778/reactions/▶️/@me: 1298,2 ms
+24.08.2020 20:07:59 [Verbose] Rest: PATCH channels/744480279275634748/messages/747547763138625778: 247,28 ms
+24.08.2020 20:07:59 [Verbose] Rest: DELETE channels/744480279275634748/messages/747547763138625778/reactions: 275,69 ms
+24.08.2020 20:07:59 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:08:00 [Verbose] Rest: PUT channels/744480279275634748/messages/747547763138625778/reactions/◀️/@me: 914,68 ms
+24.08.2020 20:08:00 [Verbose] Rest: PUT channels/744480279275634748/messages/747547763138625778/reactions/▶️/@me: 255,17 ms
+24.08.2020 20:08:02 [Verbose] Rest: PATCH channels/744480279275634748/messages/747547763138625778: 246,51 ms
+24.08.2020 20:08:02 [Verbose] Rest: DELETE channels/744480279275634748/messages/747547763138625778/reactions: 214,98 ms
+24.08.2020 20:08:02 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:08:04 [Verbose] Rest: PUT channels/744480279275634748/messages/747547763138625778/reactions/◀️/@me: 1344,92 ms
+24.08.2020 20:08:04 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:08:04 [Verbose] Rest: PUT channels/744480279275634748/messages/747547763138625778/reactions/▶️/@me: 693,73 ms
+24.08.2020 20:08:07 [Verbose] Rest: PATCH channels/744480279275634748/messages/747547763138625778: 233,77 ms
+24.08.2020 20:08:07 [Verbose] Rest: DELETE channels/744480279275634748/messages/747547763138625778/reactions: 223,43 ms
+24.08.2020 20:08:07 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:08:08 [Verbose] Rest: PUT channels/744480279275634748/messages/747547763138625778/reactions/◀️/@me: 811,4 ms
+24.08.2020 20:08:08 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:08:08 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:08:08 [Verbose] Rest: PUT channels/744480279275634748/messages/747547763138625778/reactions/▶️/@me: 645,46 ms
+24.08.2020 20:08:10 [Verbose] Rest: PATCH channels/744480279275634748/messages/747547763138625778: 228,4 ms
+24.08.2020 20:08:10 [Verbose] Rest: DELETE channels/744480279275634748/messages/747547763138625778/reactions: 229,84 ms
+24.08.2020 20:08:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:08:11 [Verbose] Rest: PUT channels/744480279275634748/messages/747547763138625778/reactions/◀️/@me: 1227,42 ms
+24.08.2020 20:08:12 [Verbose] Rest: PUT channels/744480279275634748/messages/747547763138625778/reactions/▶️/@me: 246,29 ms
+24.08.2020 20:09:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:10:00 [Verbose] Rest: GET voice/regions: 635,36 ms
+24.08.2020 20:10:00 [Verbose] Rest: GET users/@me: 239,11 ms
+24.08.2020 20:10:00 [Info] Gateway: Connecting
+24.08.2020 20:10:01 [Verbose] Rest: GET gateway: 82,03 ms
+24.08.2020 20:10:02 [Info] Gateway: Connected
+24.08.2020 20:10:02 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:10:03 [Info] Gateway: Ready
+24.08.2020 20:10:07 [Verbose] Rest: POST channels/744480279275634748/messages: 329,83 ms
+24.08.2020 20:10:07 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/◀️/@me: 258,44 ms
+24.08.2020 20:10:07 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:09 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/▶️/@me: 1357,26 ms
+24.08.2020 20:10:12 [Verbose] Rest: PATCH channels/744480279275634748/messages/747548316916514997: 318,84 ms
+24.08.2020 20:10:13 [Verbose] Rest: DELETE channels/744480279275634748/messages/747548316916514997/reactions: 268,32 ms
+24.08.2020 20:10:13 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:13 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/◀️/@me: 721,85 ms
+24.08.2020 20:10:13 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:14 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/▶️/@me: 409,46 ms
+24.08.2020 20:10:19 [Verbose] Rest: PATCH channels/744480279275634748/messages/747548316916514997: 248,43 ms
+24.08.2020 20:10:19 [Verbose] Rest: DELETE channels/744480279275634748/messages/747548316916514997/reactions: 246,81 ms
+24.08.2020 20:10:19 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:20 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/◀️/@me: 944,16 ms
+24.08.2020 20:10:20 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:21 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/▶️/@me: 914,85 ms
+24.08.2020 20:10:22 [Verbose] Rest: PATCH channels/744480279275634748/messages/747548316916514997: 242,4 ms
+24.08.2020 20:10:23 [Verbose] Rest: DELETE channels/744480279275634748/messages/747548316916514997/reactions: 215,24 ms
+24.08.2020 20:10:23 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:23 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/◀️/@me: 620,27 ms
+24.08.2020 20:10:23 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/▶️/@me: 264,57 ms
+24.08.2020 20:10:25 [Verbose] Rest: PATCH channels/744480279275634748/messages/747548316916514997: 222,45 ms
+24.08.2020 20:10:25 [Verbose] Rest: DELETE channels/744480279275634748/messages/747548316916514997/reactions: 283,13 ms
+24.08.2020 20:10:25 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:26 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/◀️/@me: 1283,57 ms
+24.08.2020 20:10:27 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:27 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:27 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/▶️/@me: 533,21 ms
+24.08.2020 20:10:29 [Verbose] Rest: PATCH channels/744480279275634748/messages/747548316916514997: 440,34 ms
+24.08.2020 20:10:29 [Verbose] Rest: DELETE channels/744480279275634748/messages/747548316916514997/reactions: 269,98 ms
+24.08.2020 20:10:29 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:30 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/◀️/@me: 498,67 ms
+24.08.2020 20:10:30 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/▶️/@me: 243,97 ms
+24.08.2020 20:10:32 [Verbose] Rest: PATCH channels/744480279275634748/messages/747548316916514997: 238,98 ms
+24.08.2020 20:10:32 [Verbose] Rest: DELETE channels/744480279275634748/messages/747548316916514997/reactions: 460,25 ms
+24.08.2020 20:10:32 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:33 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/◀️/@me: 1037,8 ms
+24.08.2020 20:10:33 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/▶️/@me: 250,57 ms
+24.08.2020 20:10:35 [Verbose] Rest: PATCH channels/744480279275634748/messages/747548316916514997: 254,64 ms
+24.08.2020 20:10:35 [Verbose] Rest: DELETE channels/744480279275634748/messages/747548316916514997/reactions: 218,76 ms
+24.08.2020 20:10:35 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:36 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/◀️/@me: 1017,6 ms
+24.08.2020 20:10:36 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:36 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:37 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/▶️/@me: 1068,24 ms
+24.08.2020 20:10:38 [Verbose] Rest: PATCH channels/744480279275634748/messages/747548316916514997: 283,65 ms
+24.08.2020 20:10:39 [Verbose] Rest: DELETE channels/744480279275634748/messages/747548316916514997/reactions: 238,78 ms
+24.08.2020 20:10:39 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:39 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/◀️/@me: 584,65 ms
+24.08.2020 20:10:39 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:39 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:10:40 [Verbose] Rest: PUT channels/744480279275634748/messages/747548316916514997/reactions/▶️/@me: 1194,39 ms
+24.08.2020 20:12:35 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:12:36 [Verbose] Rest: GET voice/regions: 657,29 ms
+24.08.2020 20:12:36 [Verbose] Rest: GET users/@me: 296,69 ms
+24.08.2020 20:12:36 [Info] Gateway: Connecting
+24.08.2020 20:12:37 [Verbose] Rest: GET gateway: 81,11 ms
+24.08.2020 20:12:37 [Info] Gateway: Connected
+24.08.2020 20:12:38 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:12:39 [Info] Gateway: Ready
+24.08.2020 20:12:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:12:56 [Verbose] Rest: GET voice/regions: 630,9 ms
+24.08.2020 20:12:57 [Verbose] Rest: GET users/@me: 232,83 ms
+24.08.2020 20:12:57 [Info] Gateway: Connecting
+24.08.2020 20:12:57 [Verbose] Rest: GET gateway: 82,9 ms
+24.08.2020 20:12:58 [Info] Gateway: Connected
+24.08.2020 20:12:58 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:12:59 [Info] Gateway: Ready
+24.08.2020 20:13:00 [Verbose] Rest: POST channels/744480279275634748/messages: 236,95 ms
+24.08.2020 20:13:00 [Verbose] Rest: PUT channels/744480279275634748/messages/747549043512705065/reactions/▶️/@me: 221,98 ms
+24.08.2020 20:13:03 [Verbose] Rest: PATCH channels/744480279275634748/messages/747549043512705065: 258,97 ms
+24.08.2020 20:13:03 [Verbose] Rest: DELETE channels/744480279275634748/messages/747549043512705065/reactions: 239,03 ms
+24.08.2020 20:13:03 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:05 [Verbose] Rest: PUT channels/744480279275634748/messages/747549043512705065/reactions/◀️/@me: 1398,38 ms
+24.08.2020 20:13:05 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:06 [Verbose] Rest: PUT channels/744480279275634748/messages/747549043512705065/reactions/▶️/@me: 783,56 ms
+24.08.2020 20:13:18 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:13:19 [Verbose] Rest: GET voice/regions: 636,64 ms
+24.08.2020 20:13:19 [Verbose] Rest: GET users/@me: 229,1 ms
+24.08.2020 20:13:19 [Info] Gateway: Connecting
+24.08.2020 20:13:19 [Verbose] Rest: GET gateway: 76,72 ms
+24.08.2020 20:13:21 [Info] Gateway: Connected
+24.08.2020 20:13:21 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:13:22 [Info] Gateway: Ready
+24.08.2020 20:13:28 [Verbose] Rest: POST channels/744480279275634748/messages: 286,92 ms
+24.08.2020 20:13:28 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/▶️/@me: 229,19 ms
+24.08.2020 20:13:30 [Verbose] Rest: PATCH channels/744480279275634748/messages/747549158738624654: 240,52 ms
+24.08.2020 20:13:30 [Verbose] Rest: DELETE channels/744480279275634748/messages/747549158738624654/reactions: 236,05 ms
+24.08.2020 20:13:30 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:31 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/◀️/@me: 583,99 ms
+24.08.2020 20:13:31 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/▶️/@me: 255,14 ms
+24.08.2020 20:13:33 [Verbose] Rest: PATCH channels/744480279275634748/messages/747549158738624654: 238,28 ms
+24.08.2020 20:13:34 [Verbose] Rest: DELETE channels/744480279275634748/messages/747549158738624654/reactions: 285,27 ms
+24.08.2020 20:13:34 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:34 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/▶️/@me: 682,54 ms
+24.08.2020 20:13:36 [Verbose] Rest: PATCH channels/744480279275634748/messages/747549158738624654: 234,18 ms
+24.08.2020 20:13:36 [Verbose] Rest: DELETE channels/744480279275634748/messages/747549158738624654/reactions: 248,51 ms
+24.08.2020 20:13:36 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:37 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/◀️/@me: 425,49 ms
+24.08.2020 20:13:37 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:38 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/▶️/@me: 915,59 ms
+24.08.2020 20:13:39 [Verbose] Rest: PATCH channels/744480279275634748/messages/747549158738624654: 269,99 ms
+24.08.2020 20:13:40 [Verbose] Rest: DELETE channels/744480279275634748/messages/747549158738624654/reactions: 303,95 ms
+24.08.2020 20:13:40 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:40 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/◀️/@me: 735,47 ms
+24.08.2020 20:13:41 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/▶️/@me: 293,9 ms
+24.08.2020 20:13:43 [Verbose] Rest: PATCH channels/744480279275634748/messages/747549158738624654: 245,13 ms
+24.08.2020 20:13:43 [Verbose] Rest: DELETE channels/744480279275634748/messages/747549158738624654/reactions: 226,68 ms
+24.08.2020 20:13:43 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:44 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/◀️/@me: 777,82 ms
+24.08.2020 20:13:44 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:44 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:44 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/▶️/@me: 674,78 ms
+24.08.2020 20:13:46 [Verbose] Rest: PATCH channels/744480279275634748/messages/747549158738624654: 235,96 ms
+24.08.2020 20:13:46 [Verbose] Rest: DELETE channels/744480279275634748/messages/747549158738624654/reactions: 220,84 ms
+24.08.2020 20:13:46 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:47 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/◀️/@me: 992,14 ms
+24.08.2020 20:13:47 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:48 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/▶️/@me: 1043,72 ms
+24.08.2020 20:13:54 [Verbose] Rest: PATCH channels/744480279275634748/messages/747549158738624654: 233,72 ms
+24.08.2020 20:13:55 [Verbose] Rest: DELETE channels/744480279275634748/messages/747549158738624654/reactions: 265,89 ms
+24.08.2020 20:13:55 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:55 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/◀️/@me: 602,33 ms
+24.08.2020 20:13:55 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:55 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:13:56 [Verbose] Rest: PUT channels/744480279275634748/messages/747549158738624654/reactions/▶️/@me: 1263,95 ms
+24.08.2020 20:14:27 [Verbose] Rest: DELETE channels/744480279275634748/messages/747549158738624654/reactions: 286,33 ms
+24.08.2020 20:14:27 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 20:18:45 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:18:46 [Verbose] Rest: GET voice/regions: 670,48 ms
+24.08.2020 20:18:46 [Verbose] Rest: GET users/@me: 256,02 ms
+24.08.2020 20:18:46 [Info] Gateway: Connecting
+24.08.2020 20:18:46 [Verbose] Rest: GET gateway: 83,85 ms
+24.08.2020 20:18:47 [Info] Gateway: Connected
+24.08.2020 20:18:47 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:18:48 [Info] Gateway: Ready
+24.08.2020 20:18:57 [Verbose] Rest: POST channels/744480279275634748/messages: 331,84 ms
+24.08.2020 20:18:57 [Verbose] Rest: PUT channels/744480279275634748/messages/747550539071357049/reactions/▶️/@me: 210,87 ms
+24.08.2020 20:19:03 [Verbose] Rest: PATCH channels/744480279275634748/messages/747550539071357049: 241,02 ms
+24.08.2020 20:19:03 [Verbose] Rest: DELETE channels/744480279275634748/messages/747550539071357049/reactions: 272,01 ms
+24.08.2020 20:19:03 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:19:04 [Verbose] Rest: PUT channels/744480279275634748/messages/747550539071357049/reactions/◀️/@me: 1049,42 ms
+24.08.2020 20:19:11 [Verbose] Rest: PATCH channels/744480279275634748/messages/747550539071357049: 362,77 ms
+24.08.2020 20:19:11 [Verbose] Rest: DELETE channels/744480279275634748/messages/747550539071357049/reactions: 227,03 ms
+24.08.2020 20:19:11 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:19:12 [Verbose] Rest: PUT channels/744480279275634748/messages/747550539071357049/reactions/◀️/@me: 811,97 ms
+24.08.2020 20:19:15 [Verbose] Rest: PATCH channels/744480279275634748/messages/747550539071357049: 244,62 ms
+24.08.2020 20:19:15 [Verbose] Rest: DELETE channels/744480279275634748/messages/747550539071357049/reactions: 267,55 ms
+24.08.2020 20:19:15 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:19:16 [Verbose] Rest: PUT channels/744480279275634748/messages/747550539071357049/reactions/◀️/@me: 792,18 ms
+24.08.2020 20:19:18 [Verbose] Rest: PATCH channels/744480279275634748/messages/747550539071357049: 324,43 ms
+24.08.2020 20:19:18 [Verbose] Rest: DELETE channels/744480279275634748/messages/747550539071357049/reactions: 244,64 ms
+24.08.2020 20:19:18 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:19:19 [Verbose] Rest: PUT channels/744480279275634748/messages/747550539071357049/reactions/◀️/@me: 898,72 ms
+24.08.2020 20:19:49 [Verbose] Rest: DELETE channels/744480279275634748/messages/747550539071357049/reactions: 282,13 ms
+24.08.2020 20:19:49 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 20:21:52 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:21:52 [Verbose] Rest: GET voice/regions: 625,38 ms
+24.08.2020 20:21:53 [Verbose] Rest: GET users/@me: 216,67 ms
+24.08.2020 20:21:53 [Info] Gateway: Connecting
+24.08.2020 20:21:53 [Verbose] Rest: GET gateway: 74,8 ms
+24.08.2020 20:21:54 [Info] Gateway: Connected
+24.08.2020 20:21:54 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:21:55 [Info] Gateway: Ready
+24.08.2020 20:21:56 [Verbose] Rest: POST channels/744480279275634748/messages: 269,24 ms
+24.08.2020 20:21:56 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/▶️/@me: 218,55 ms
+24.08.2020 20:21:59 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551291177172993: 230,91 ms
+24.08.2020 20:21:59 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551291177172993/reactions: 203,92 ms
+24.08.2020 20:21:59 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:22:00 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/◀️/@me: 935,67 ms
+24.08.2020 20:22:00 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:22:01 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/▶️/@me: 891,69 ms
+24.08.2020 20:22:02 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551291177172993: 272,07 ms
+24.08.2020 20:22:02 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551291177172993/reactions: 279,61 ms
+24.08.2020 20:22:02 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:22:04 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/▶️/@me: 1326,23 ms
+24.08.2020 20:22:06 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551291177172993: 313,42 ms
+24.08.2020 20:22:06 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551291177172993/reactions: 316,47 ms
+24.08.2020 20:22:06 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:22:07 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/◀️/@me: 1005,02 ms
+24.08.2020 20:22:07 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:22:08 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/▶️/@me: 1074,45 ms
+24.08.2020 20:22:10 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551291177172993: 233,08 ms
+24.08.2020 20:22:10 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551291177172993/reactions: 210,72 ms
+24.08.2020 20:22:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:22:11 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/◀️/@me: 904,95 ms
+24.08.2020 20:22:11 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/▶️/@me: 230,64 ms
+24.08.2020 20:22:12 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551291177172993: 312,16 ms
+24.08.2020 20:22:13 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551291177172993/reactions: 320,16 ms
+24.08.2020 20:22:13 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:22:13 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/◀️/@me: 571,71 ms
+24.08.2020 20:22:13 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:22:14 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/▶️/@me: 1251,98 ms
+24.08.2020 20:22:16 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551291177172993: 220,45 ms
+24.08.2020 20:22:16 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551291177172993/reactions: 200,74 ms
+24.08.2020 20:22:16 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:22:17 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/◀️/@me: 1075,76 ms
+24.08.2020 20:22:17 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:22:17 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:22:18 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/▶️/@me: 1098,95 ms
+24.08.2020 20:22:20 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551291177172993: 250,11 ms
+24.08.2020 20:22:20 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551291177172993/reactions: 222,58 ms
+24.08.2020 20:22:20 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:22:22 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/◀️/@me: 1279,34 ms
+24.08.2020 20:22:22 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:22:22 [Verbose] Rest: PUT channels/744480279275634748/messages/747551291177172993/reactions/▶️/@me: 593,06 ms
+24.08.2020 20:23:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:23:35 [Verbose] Rest: GET voice/regions: 664,29 ms
+24.08.2020 20:23:36 [Verbose] Rest: GET users/@me: 251,51 ms
+24.08.2020 20:23:36 [Info] Gateway: Connecting
+24.08.2020 20:23:36 [Verbose] Rest: GET gateway: 82,76 ms
+24.08.2020 20:23:37 [Info] Gateway: Connected
+24.08.2020 20:23:37 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:23:38 [Info] Gateway: Ready
+24.08.2020 20:23:41 [Verbose] Rest: POST channels/744480279275634748/messages: 289,83 ms
+24.08.2020 20:23:42 [Verbose] Rest: PUT channels/744480279275634748/messages/747551732434993232/reactions/▶️/@me: 266,08 ms
+24.08.2020 20:23:44 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551732434993232: 388,62 ms
+24.08.2020 20:23:44 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551732434993232/reactions: 237,55 ms
+24.08.2020 20:23:44 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:23:45 [Verbose] Rest: PUT channels/744480279275634748/messages/747551732434993232/reactions/◀️/@me: 965,69 ms
+24.08.2020 20:23:45 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:23:46 [Verbose] Rest: PUT channels/744480279275634748/messages/747551732434993232/reactions/▶️/@me: 818,94 ms
+24.08.2020 20:23:47 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551732434993232: 233,23 ms
+24.08.2020 20:23:47 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551732434993232/reactions: 213,37 ms
+24.08.2020 20:23:47 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:23:48 [Verbose] Rest: PUT channels/744480279275634748/messages/747551732434993232/reactions/◀️/@me: 1170,63 ms
+24.08.2020 20:23:48 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:23:50 [Verbose] Rest: PUT channels/744480279275634748/messages/747551732434993232/reactions/▶️/@me: 1303,84 ms
+24.08.2020 20:23:51 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551732434993232: 276,54 ms
+24.08.2020 20:23:51 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551732434993232/reactions: 217,94 ms
+24.08.2020 20:23:51 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:23:52 [Verbose] Rest: PUT channels/744480279275634748/messages/747551732434993232/reactions/◀️/@me: 1235,54 ms
+24.08.2020 20:23:53 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:23:53 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:23:53 [Verbose] Rest: PUT channels/744480279275634748/messages/747551732434993232/reactions/▶️/@me: 499,61 ms
+24.08.2020 20:23:54 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551732434993232: 259,14 ms
+24.08.2020 20:23:55 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551732434993232/reactions: 235,44 ms
+24.08.2020 20:23:55 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:23:55 [Verbose] Rest: PUT channels/744480279275634748/messages/747551732434993232/reactions/◀️/@me: 631,47 ms
+24.08.2020 20:23:55 [Verbose] Rest: PUT channels/744480279275634748/messages/747551732434993232/reactions/▶️/@me: 237,26 ms
+24.08.2020 20:23:58 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551732434993232: 270,79 ms
+24.08.2020 20:23:58 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551732434993232/reactions: 207,6 ms
+24.08.2020 20:23:58 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:23:59 [Verbose] Rest: PUT channels/744480279275634748/messages/747551732434993232/reactions/◀️/@me: 889,64 ms
+24.08.2020 20:23:59 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:24:00 [Verbose] Rest: PUT channels/744480279275634748/messages/747551732434993232/reactions/▶️/@me: 817,04 ms
+24.08.2020 20:24:15 [Verbose] Rest: POST channels/744480279275634748/messages: 303,24 ms
+24.08.2020 20:24:15 [Verbose] Rest: PUT channels/744480279275634748/messages/747551873069875214/reactions/▶️/@me: 239,01 ms
+24.08.2020 20:24:19 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551873069875214: 257,86 ms
+24.08.2020 20:24:19 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551873069875214/reactions: 219,43 ms
+24.08.2020 20:24:19 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:24:20 [Verbose] Rest: PUT channels/744480279275634748/messages/747551873069875214/reactions/◀️/@me: 902,64 ms
+24.08.2020 20:24:22 [Verbose] Rest: PUT channels/744480279275634748/messages/747551873069875214/reactions/▶️/@me: 224,21 ms
+24.08.2020 20:24:25 [Verbose] Rest: PATCH channels/744480279275634748/messages/747551873069875214: 323,45 ms
+24.08.2020 20:24:25 [Verbose] Rest: DELETE channels/744480279275634748/messages/747551873069875214/reactions: 218,58 ms
+24.08.2020 20:24:25 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:24:26 [Verbose] Rest: PUT channels/744480279275634748/messages/747551873069875214/reactions/◀️/@me: 796,18 ms
+24.08.2020 20:24:28 [Verbose] Rest: PUT channels/744480279275634748/messages/747551873069875214/reactions/▶️/@me: 222,83 ms
+24.08.2020 20:26:54 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:26:55 [Verbose] Rest: GET voice/regions: 713,21 ms
+24.08.2020 20:26:55 [Verbose] Rest: GET users/@me: 226,85 ms
+24.08.2020 20:26:55 [Info] Gateway: Connecting
+24.08.2020 20:26:56 [Verbose] Rest: GET gateway: 87,42 ms
+24.08.2020 20:26:57 [Info] Gateway: Connected
+24.08.2020 20:26:57 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:26:58 [Info] Gateway: Ready
+24.08.2020 20:26:59 [Verbose] Rest: POST channels/744480279275634748/messages: 342,84 ms
+24.08.2020 20:27:00 [Verbose] Rest: PUT channels/744480279275634748/messages/747552562600738836/reactions/▶️/@me: 280,16 ms
+24.08.2020 20:27:02 [Verbose] Rest: PATCH channels/744480279275634748/messages/747552562600738836: 272,8 ms
+24.08.2020 20:27:02 [Verbose] Rest: DELETE channels/744480279275634748/messages/747552562600738836/reactions: 209,11 ms
+24.08.2020 20:27:02 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:27:03 [Verbose] Rest: PUT channels/744480279275634748/messages/747552562600738836/reactions/◀️/@me: 1109,16 ms
+24.08.2020 20:27:03 [Verbose] Rest: PUT channels/744480279275634748/messages/747552562600738836/reactions/▶️/@me: 225,94 ms
+24.08.2020 20:27:05 [Verbose] Rest: PATCH channels/744480279275634748/messages/747552562600738836: 253,45 ms
+24.08.2020 20:27:05 [Verbose] Rest: DELETE channels/744480279275634748/messages/747552562600738836/reactions: 220,65 ms
+24.08.2020 20:27:05 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:27:06 [Verbose] Rest: PUT channels/744480279275634748/messages/747552562600738836/reactions/◀️/@me: 1172,09 ms
+24.08.2020 20:27:06 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:27:07 [Verbose] Rest: PUT channels/744480279275634748/messages/747552562600738836/reactions/▶️/@me: 1203,91 ms
+24.08.2020 20:27:09 [Verbose] Rest: PATCH channels/744480279275634748/messages/747552562600738836: 244,4 ms
+24.08.2020 20:27:09 [Verbose] Rest: DELETE channels/744480279275634748/messages/747552562600738836/reactions: 230,16 ms
+24.08.2020 20:27:09 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:27:10 [Verbose] Rest: PUT channels/744480279275634748/messages/747552562600738836/reactions/◀️/@me: 987,7 ms
+24.08.2020 20:27:10 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:27:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:27:11 [Verbose] Rest: PUT channels/744480279275634748/messages/747552562600738836/reactions/▶️/@me: 1002,33 ms
+24.08.2020 20:27:13 [Verbose] Rest: PATCH channels/744480279275634748/messages/747552562600738836: 301,7 ms
+24.08.2020 20:27:13 [Verbose] Rest: DELETE channels/744480279275634748/messages/747552562600738836/reactions: 212,82 ms
+24.08.2020 20:27:13 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:27:14 [Verbose] Rest: PUT channels/744480279275634748/messages/747552562600738836/reactions/◀️/@me: 1029,92 ms
+24.08.2020 20:27:14 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:27:14 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:27:15 [Verbose] Rest: PUT channels/744480279275634748/messages/747552562600738836/reactions/▶️/@me: 1054,51 ms
+24.08.2020 20:29:40 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:29:41 [Verbose] Rest: GET voice/regions: 628,77 ms
+24.08.2020 20:29:42 [Verbose] Rest: GET users/@me: 234,98 ms
+24.08.2020 20:29:42 [Info] Gateway: Connecting
+24.08.2020 20:29:42 [Verbose] Rest: GET gateway: 74,67 ms
+24.08.2020 20:29:43 [Info] Gateway: Connected
+24.08.2020 20:29:43 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:29:44 [Info] Gateway: Ready
+24.08.2020 20:30:04 [Verbose] Rest: POST channels/744480279275634748/messages: 249,79 ms
+24.08.2020 20:30:04 [Verbose] Rest: PUT channels/744480279275634748/messages/747553335955030116/reactions/▶️/@me: 214,77 ms
+24.08.2020 20:30:08 [Verbose] Rest: PATCH channels/744480279275634748/messages/747553335955030116: 219,31 ms
+24.08.2020 20:30:08 [Verbose] Rest: DELETE channels/744480279275634748/messages/747553335955030116/reactions: 327,65 ms
+24.08.2020 20:30:08 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:30:09 [Verbose] Rest: PUT channels/744480279275634748/messages/747553335955030116/reactions/◀️/@me: 1192,89 ms
+24.08.2020 20:30:10 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:30:10 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:30:10 [Verbose] Rest: PUT channels/744480279275634748/messages/747553335955030116/reactions/▶️/@me: 475,11 ms
+24.08.2020 20:30:13 [Verbose] Rest: PATCH channels/744480279275634748/messages/747553335955030116: 240,09 ms
+24.08.2020 20:30:13 [Verbose] Rest: DELETE channels/744480279275634748/messages/747553335955030116/reactions: 223,08 ms
+24.08.2020 20:30:13 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:30:14 [Verbose] Rest: PUT channels/744480279275634748/messages/747553335955030116/reactions/◀️/@me: 824,73 ms
+24.08.2020 20:30:14 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:30:14 [Verbose] Rest: PUT channels/744480279275634748/messages/747553335955030116/reactions/▶️/@me: 595,81 ms
+24.08.2020 20:30:18 [Verbose] Rest: PATCH channels/744480279275634748/messages/747553335955030116: 227,52 ms
+24.08.2020 20:30:18 [Verbose] Rest: DELETE channels/744480279275634748/messages/747553335955030116/reactions: 273,34 ms
+24.08.2020 20:30:18 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:30:19 [Verbose] Rest: PUT channels/744480279275634748/messages/747553335955030116/reactions/◀️/@me: 1051,85 ms
+24.08.2020 20:30:19 [Verbose] Rest: PUT channels/744480279275634748/messages/747553335955030116/reactions/▶️/@me: 235,39 ms
+24.08.2020 20:30:22 [Verbose] Rest: PATCH channels/744480279275634748/messages/747553335955030116: 276,54 ms
+24.08.2020 20:30:22 [Verbose] Rest: DELETE channels/744480279275634748/messages/747553335955030116/reactions: 298,59 ms
+24.08.2020 20:30:22 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:30:23 [Verbose] Rest: PUT channels/744480279275634748/messages/747553335955030116/reactions/◀️/@me: 468,69 ms
+24.08.2020 20:30:23 [Verbose] Rest: PUT channels/744480279275634748/messages/747553335955030116/reactions/▶️/@me: 269 ms
+24.08.2020 20:32:45 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:32:45 [Verbose] Rest: GET voice/regions: 651,77 ms
+24.08.2020 20:32:46 [Verbose] Rest: GET users/@me: 232,77 ms
+24.08.2020 20:32:46 [Info] Gateway: Connecting
+24.08.2020 20:32:46 [Verbose] Rest: GET gateway: 74,09 ms
+24.08.2020 20:32:47 [Info] Gateway: Connected
+24.08.2020 20:32:47 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:32:48 [Info] Gateway: Ready
+24.08.2020 20:32:51 [Verbose] Rest: POST channels/744480279275634748/messages: 238,32 ms
+24.08.2020 20:32:51 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/▶️/@me: 222,39 ms
+24.08.2020 20:32:53 [Verbose] Rest: PATCH channels/744480279275634748/messages/747554036961509547: 236,13 ms
+24.08.2020 20:32:53 [Verbose] Rest: DELETE channels/744480279275634748/messages/747554036961509547/reactions: 211,04 ms
+24.08.2020 20:32:53 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:32:54 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/◀️/@me: 439,93 ms
+24.08.2020 20:32:54 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:32:55 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/▶️/@me: 851,19 ms
+24.08.2020 20:32:56 [Verbose] Rest: PATCH channels/744480279275634748/messages/747554036961509547: 235,53 ms
+24.08.2020 20:32:57 [Verbose] Rest: DELETE channels/744480279275634748/messages/747554036961509547/reactions: 213,64 ms
+24.08.2020 20:32:57 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:32:57 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/◀️/@me: 711,4 ms
+24.08.2020 20:32:57 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:32:59 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/▶️/@me: 1267,53 ms
+24.08.2020 20:33:00 [Verbose] Rest: PATCH channels/744480279275634748/messages/747554036961509547: 230,67 ms
+24.08.2020 20:33:00 [Verbose] Rest: DELETE channels/744480279275634748/messages/747554036961509547/reactions: 222,08 ms
+24.08.2020 20:33:00 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:01 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/◀️/@me: 1235,84 ms
+24.08.2020 20:33:02 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:02 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:02 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/▶️/@me: 470,34 ms
+24.08.2020 20:33:03 [Verbose] Rest: PATCH channels/744480279275634748/messages/747554036961509547: 228,57 ms
+24.08.2020 20:33:04 [Verbose] Rest: DELETE channels/744480279275634748/messages/747554036961509547/reactions: 226,8 ms
+24.08.2020 20:33:04 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:04 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/◀️/@me: 728,81 ms
+24.08.2020 20:33:08 [Verbose] Rest: PATCH channels/744480279275634748/messages/747554036961509547: 228,94 ms
+24.08.2020 20:33:08 [Verbose] Rest: DELETE channels/744480279275634748/messages/747554036961509547/reactions: 279,63 ms
+24.08.2020 20:33:08 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:09 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/◀️/@me: 868,02 ms
+24.08.2020 20:33:09 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:09 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:10 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/▶️/@me: 796,45 ms
+24.08.2020 20:33:14 [Verbose] Rest: PATCH channels/744480279275634748/messages/747554036961509547: 228,93 ms
+24.08.2020 20:33:14 [Verbose] Rest: DELETE channels/744480279275634748/messages/747554036961509547/reactions: 233,26 ms
+24.08.2020 20:33:14 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:15 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/◀️/@me: 403,18 ms
+24.08.2020 20:33:19 [Verbose] Rest: PATCH channels/744480279275634748/messages/747554036961509547: 259,41 ms
+24.08.2020 20:33:19 [Verbose] Rest: DELETE channels/744480279275634748/messages/747554036961509547/reactions: 229,11 ms
+24.08.2020 20:33:19 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:20 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/◀️/@me: 1218,47 ms
+24.08.2020 20:33:20 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:21 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/▶️/@me: 437,29 ms
+24.08.2020 20:33:22 [Verbose] Rest: PATCH channels/744480279275634748/messages/747554036961509547: 319,34 ms
+24.08.2020 20:33:22 [Verbose] Rest: DELETE channels/744480279275634748/messages/747554036961509547/reactions: 222,48 ms
+24.08.2020 20:33:22 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:23 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/◀️/@me: 396,3 ms
+24.08.2020 20:33:23 [Warning] Rest: Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:23 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:24 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/▶️/@me: 816,04 ms
+24.08.2020 20:33:25 [Verbose] Rest: PATCH channels/744480279275634748/messages/747554036961509547: 247,98 ms
+24.08.2020 20:33:25 [Verbose] Rest: DELETE channels/744480279275634748/messages/747554036961509547/reactions: 225,04 ms
+24.08.2020 20:33:25 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:27 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/◀️/@me: 1368,2 ms
+24.08.2020 20:33:27 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:27 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/▶️/@me: 648,03 ms
+24.08.2020 20:33:29 [Verbose] Rest: PATCH channels/744480279275634748/messages/747554036961509547: 232,52 ms
+24.08.2020 20:33:29 [Verbose] Rest: DELETE channels/744480279275634748/messages/747554036961509547/reactions: 212,91 ms
+24.08.2020 20:33:29 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:33:30 [Verbose] Rest: PUT channels/744480279275634748/messages/747554036961509547/reactions/▶️/@me: 1023,46 ms
+24.08.2020 20:34:00 [Verbose] Rest: DELETE channels/744480279275634748/messages/747554036961509547/reactions: 231,61 ms
+24.08.2020 20:34:00 [Verbose] Command: Executed "rgemoji" for h1kkaru.#2627 in DarlingBotInfo/эээ
+24.08.2020 20:43:46 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 20:43:47 [Verbose] Rest: GET voice/regions: 656,12 ms
+24.08.2020 20:43:47 [Verbose] Rest: GET users/@me: 270,76 ms
+24.08.2020 20:43:47 [Info] Gateway: Connecting
+24.08.2020 20:43:48 [Verbose] Rest: GET gateway: 81,98 ms
+24.08.2020 20:43:49 [Info] Gateway: Connected
+24.08.2020 20:43:49 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 20:43:50 [Info] Gateway: Ready
+24.08.2020 20:43:54 [Verbose] Rest: POST channels/744480279275634748/messages: 361,2 ms
+24.08.2020 20:43:54 [Verbose] Rest: PUT channels/744480279275634748/messages/747556816635822120/reactions/▶️/@me: 230,87 ms
+24.08.2020 20:44:05 [Verbose] Rest: PATCH channels/744480279275634748/messages/747556816635822120: 267,25 ms
+24.08.2020 20:44:05 [Verbose] Rest: DELETE channels/744480279275634748/messages/747556816635822120/reactions: 249,32 ms
+24.08.2020 20:44:05 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:44:06 [Verbose] Rest: PUT channels/744480279275634748/messages/747556816635822120/reactions/◀️/@me: 1083,68 ms
+24.08.2020 20:44:06 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages/reactions
+24.08.2020 20:44:07 [Verbose] Rest: PUT channels/744480279275634748/messages/747556816635822120/reactions/▶️/@me: 1217,75 ms
+24.08.2020 21:15:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 21:15:32 [Verbose] Rest: GET voice/regions: 620,63 ms
+24.08.2020 21:15:33 [Verbose] Rest: GET users/@me: 226,94 ms
+24.08.2020 21:15:33 [Info] Gateway: Connecting
+24.08.2020 21:15:33 [Verbose] Rest: GET gateway: 71,39 ms
+24.08.2020 21:15:34 [Info] Gateway: Connected
+24.08.2020 21:15:34 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 21:15:35 [Info] Gateway: Ready
+24.08.2020 21:16:14 [Warning] Gateway: System.IO.FileNotFoundException: Could not load file or assembly 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'. Не удается найти указанный файл.
+File name: 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.ParameterInfo.ParseAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.CommandParser.ParseArgsAsync(CommandInfo command, ICommandContext context, Boolean ignoreExtraArgs, IServiceProvider services, String input, Int32 startPos, IReadOnlyDictionary`2 aliasMap)
+   at Discord.Commands.CommandInfo.ParseAsync(ICommandContext context, Int32 startIndex, SearchResult searchResult, PreconditionResult preconditionResult, IServiceProvider services)
+   at Discord.Commands.CommandService.ExecuteAsync(ICommandContext context, String input, IServiceProvider services, MultiMatchHandling multiMatchHandling)
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 446
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+
+
+24.08.2020 21:38:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.08.2020 21:38:05 [Verbose] Rest: GET voice/regions: 661,59 ms
+24.08.2020 21:38:05 [Verbose] Rest: GET users/@me: 219,88 ms
+24.08.2020 21:38:05 [Info] Gateway: Connecting
+24.08.2020 21:38:05 [Verbose] Rest: GET gateway: 83,65 ms
+24.08.2020 21:38:07 [Info] Gateway: Connected
+24.08.2020 21:38:07 [Verbose] Gateway: Connected to DarlingBotInfo
+24.08.2020 21:38:08 [Info] Gateway: Ready
+24.08.2020 21:38:10 [Warning] Gateway: System.IO.FileNotFoundException: Could not load file or assembly 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'. Не удается найти указанный файл.
+File name: 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.ParameterInfo.ParseAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.CommandParser.ParseArgsAsync(CommandInfo command, ICommandContext context, Boolean ignoreExtraArgs, IServiceProvider services, String input, Int32 startPos, IReadOnlyDictionary`2 aliasMap)
+   at Discord.Commands.CommandInfo.ParseAsync(ICommandContext context, Int32 startIndex, SearchResult searchResult, PreconditionResult preconditionResult, IServiceProvider services)
+   at Discord.Commands.CommandService.ExecuteAsync(ICommandContext context, String input, IServiceProvider services, MultiMatchHandling multiMatchHandling)
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 446
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+
+
+24.08.2020 21:39:44 [Warning] Gateway: System.IO.FileNotFoundException: Could not load file or assembly 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'. Не удается найти указанный файл.
+File name: 'System.Linq.Async, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263'
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Discord.Commands.UserTypeReader`1.ReadAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.ParameterInfo.ParseAsync(ICommandContext context, String input, IServiceProvider services)
+   at Discord.Commands.CommandParser.ParseArgsAsync(CommandInfo command, ICommandContext context, Boolean ignoreExtraArgs, IServiceProvider services, String input, Int32 startPos, IReadOnlyDictionary`2 aliasMap)
+   at Discord.Commands.CommandInfo.ParseAsync(ICommandContext context, Int32 startIndex, SearchResult searchResult, PreconditionResult preconditionResult, IServiceProvider services)
+   at Discord.Commands.CommandService.ExecuteAsync(ICommandContext context, String input, IServiceProvider services, MultiMatchHandling multiMatchHandling)
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 446
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+
+

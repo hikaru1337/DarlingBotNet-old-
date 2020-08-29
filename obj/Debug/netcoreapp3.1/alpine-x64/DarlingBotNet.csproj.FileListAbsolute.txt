@@ -256,3 +256,7 @@ C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\obj\Debug\netcoreapp3.1\
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\obj\Debug\netcoreapp3.1\alpine-x64\DarlingBotNet.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\obj\Debug\netcoreapp3.1\alpine-x64\DarlingBotNet.pdb
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\obj\Debug\netcoreapp3.1\alpine-x64\DarlingBotNet.genruntimeconfig.cache
+C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\alpine-x64\Microsoft.Extensions.ObjectPool.dll
+C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\alpine-x64\Microsoft.Win32.SystemEvents.dll
+C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\alpine-x64\ServiceStack.Text.dll
+C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\alpine-x64\System.Drawing.Common.dll

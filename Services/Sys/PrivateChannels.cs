@@ -1,15 +1,10 @@
 ﻿using DarlingBotNet.DataBase;
-
 using Discord;
 using Discord.Rest;
 using Discord.WebSocket;
+using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
-using System.Net;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace DarlingBotNet.Services.Sys
@@ -21,7 +16,7 @@ namespace DarlingBotNet.Services.Sys
         {
             using (var DBcontext = new DBcontext())
             {
-                var prv = DBcontext.PrivateChannels.AsNoTracking().Where(x => x.guildid == _discord.Id);
+                var prv = DBcontext.PrivateChannels.AsQueryable().Where(x => x.guildid == _discord.Id);
                 foreach (var PC in prv) // Проверка Приваток
                 {
                     SocketVoiceChannel chnl = _discord.GetVoiceChannel(PC.channelid);
@@ -34,7 +29,7 @@ namespace DarlingBotNet.Services.Sys
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds glds = DBcontext.Guilds.AsNoTracking().FirstOrDefault(x => x.guildid == user.Guild.Id);
+                Guilds glds = DBcontext.Guilds.FirstOrDefault(x => x.guildid == user.Guild.Id);
                 SocketVoiceChannel chnl = user.Guild.GetVoiceChannel(glds.PrivateChannelID);
                 await chnl.AddPermissionOverwriteAsync(user, permissions: new OverwritePermissions(connect: PermValue.Deny));
                 if (chnl.Category == null)
@@ -60,7 +55,7 @@ namespace DarlingBotNet.Services.Sys
                 }
                 catch (Exception)
                 {
-                    //var prv =  DBcontext.PrivateChannels.AsNoTracking().FirstOrDefault(x=>x.userid == user.Id && x.guildid == user.Guild.Id && x.channelid == voiceChannel.Id);
+                    //var prv =  DBcontext.PrivateChannels.FirstOrDefault(x=>x.userid == user.Id && x.guildid == user.Guild.Id && x.channelid == voiceChannel.Id);
                     if (prv != null) DBcontext.PrivateChannels.Remove(prv);
                     await voiceChannel.DeleteAsync();
                 }
@@ -99,7 +94,7 @@ namespace DarlingBotNet.Services.Sys
         {
             using (var DBcontext = new DBcontext())
             {
-                PrivateChannels prv = DBcontext.PrivateChannels.AsNoTracking().FirstOrDefault(x => x.userid == user.Id && x.guildid == user.Guild.Id && x.channelid == ot.VoiceChannel.Id);
+                PrivateChannels prv = DBcontext.PrivateChannels.FirstOrDefault(x => x.userid == user.Id && x.guildid == user.Guild.Id && x.channelid == ot.VoiceChannel.Id);
                 if (prv != null)
                 {
                     SocketVoiceChannel chnl = user.Guild.GetVoiceChannel(prv.channelid);

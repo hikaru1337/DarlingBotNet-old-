@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace DarlingBotNet.DataBase
+﻿namespace DarlingBotNet.DataBase
 {
     public class Warns
     {

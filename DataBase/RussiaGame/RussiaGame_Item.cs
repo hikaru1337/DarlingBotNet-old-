@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace DarlingBotNet.DataBase.RussiaGame
 {
@@ -33,6 +30,7 @@ namespace DarlingBotNet.DataBase.RussiaGame
             }
         }
         public ItemType ItemTypes { get; set; }
+        public ItemProperties ItemPropertieses { get; set; }
         //public DateTime DateCreate { get; set; }
 
         public enum ItemType
@@ -50,6 +48,7 @@ namespace DarlingBotNet.DataBase.RussiaGame
             hacking,
             antihacking,
             Drugs,
+            house
         }
     }
 }
