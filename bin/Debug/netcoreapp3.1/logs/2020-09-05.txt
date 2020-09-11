@@ -1,0 +1,9 @@
+05.09.2020 10:38:58 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+05.09.2020 10:38:59 [Verbose] Rest: GET voice/regions: 962,55 ms
+05.09.2020 10:38:59 [Verbose] Rest: GET users/@me: 265,9 ms
+05.09.2020 10:39:00 [Info] Gateway: Connecting
+05.09.2020 10:39:00 [Verbose] Rest: GET gateway: 78,06 ms
+05.09.2020 10:39:01 [Info] Gateway: Connected
+05.09.2020 10:39:01 [Verbose] Gateway: Connected to DarlingBotInfo
+05.09.2020 10:39:02 [Info] Gateway: Ready
+05.09.2020 10:39:32 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.

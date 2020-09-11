@@ -1,0 +1,28 @@
+04.09.2020 11:28:54 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+04.09.2020 11:28:55 [Verbose] Rest: GET voice/regions: 919,54 ms
+04.09.2020 11:28:56 [Verbose] Rest: GET users/@me: 270,72 ms
+04.09.2020 11:28:56 [Info] Gateway: Connecting
+04.09.2020 11:28:56 [Verbose] Rest: GET gateway: 74,72 ms
+04.09.2020 11:28:57 [Info] Gateway: Connected
+04.09.2020 11:28:57 [Verbose] Gateway: Connected to DarlingBotInfo
+04.09.2020 11:28:59 [Info] Gateway: Ready
+04.09.2020 14:32:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+04.09.2020 14:32:11 [Verbose] Rest: GET voice/regions: 797,28 ms
+04.09.2020 14:32:12 [Verbose] Rest: GET users/@me: 223,46 ms
+04.09.2020 14:32:12 [Info] Gateway: Connecting
+04.09.2020 14:32:12 [Verbose] Rest: GET gateway: 77,56 ms
+04.09.2020 14:32:13 [Info] Gateway: Connected
+04.09.2020 14:32:13 [Verbose] Gateway: Connected to DarlingBotInfo
+04.09.2020 14:32:14 [Info] Gateway: Ready
+04.09.2020 14:32:52 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+04.09.2020 14:33:12 [Verbose] Rest: POST channels/744480279275634748/messages: 266,3 ms
+04.09.2020 14:33:12 [Verbose] Command: Executed "channelsettings" for h1kkaru.#1337 in DarlingBotInfo/эээ
+04.09.2020 14:49:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+04.09.2020 14:49:16 [Verbose] Rest: GET voice/regions: 746,62 ms
+04.09.2020 14:49:16 [Verbose] Rest: GET users/@me: 262,45 ms
+04.09.2020 14:49:16 [Info] Gateway: Connecting
+04.09.2020 14:49:16 [Verbose] Rest: GET gateway: 81,54 ms
+04.09.2020 14:49:17 [Info] Gateway: Connected
+04.09.2020 14:49:17 [Verbose] Gateway: Connected to DarlingBotInfo
+04.09.2020 14:49:19 [Info] Gateway: Ready
+04.09.2020 14:49:30 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.

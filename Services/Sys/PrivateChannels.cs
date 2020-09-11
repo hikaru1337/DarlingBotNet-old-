@@ -11,7 +11,6 @@ namespace DarlingBotNet.Services.Sys
 {
     public class Privates
     {
-
         public async Task CheckPrivate(SocketGuild _discord)
         {
             using (var DBcontext = new DBcontext())

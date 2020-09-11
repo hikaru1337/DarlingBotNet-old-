@@ -213,23 +213,13 @@ namespace DarlingBotNet.Services
             var lowerSentece = sentence.ToLower();
             foreach (var c in lowerSentece)
             {
-                if (IsNormalChar(c))
+                if (char.IsLetterOrDigit(c) || c == ' ')
                 {
                     resultContainer.Append(c);
                 }
             }
 
             return resultContainer.ToString();
-        }
-
-        /// <summary>
-        /// Возвращает признак подходящего символа.
-        /// </summary>
-        /// <param name="c">Символ.</param>
-        /// <returns>True - если символ буква или цифра или пробел, False - иначе.</returns>
-        private bool IsNormalChar(char c)
-        {
-            return char.IsLetterOrDigit(c) || c == ' ';
         }
     }
 }

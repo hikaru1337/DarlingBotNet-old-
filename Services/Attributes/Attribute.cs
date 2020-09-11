@@ -11,6 +11,7 @@ using DarlingBotNet.Modules;
 using Discord.WebSocket;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
+using DarlingBotNet.DataBase.Database;
 
 namespace DarlingBotNet.Services
 {
@@ -25,7 +26,8 @@ namespace DarlingBotNet.Services
         
         public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
         {
-            var glds = SystemLoading.GetOrCreateGuldsCache(context.Guild.Id);
+            var cache = (IMemoryCache)services.GetService(typeof(IMemoryCache));
+            var glds = cache.GetOrCreateGuldsCache(context.Guild.Id);
             bool es = false;
             if (command.Aliases.Count == 1)
             {
@@ -61,7 +63,8 @@ namespace DarlingBotNet.Services
     {
         public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
         {
-            var glds = SystemLoading.GetOrCreateGuldsCache(context.Guild.Id);
+            var cache = (IMemoryCache)services.GetService(typeof(IMemoryCache));
+            var glds = cache.GetOrCreateGuldsCache(context.Guild.Id);
             if (glds.ViolationSystem != 2)
                 return Task.FromResult(PreconditionResult.FromError($"У вас не выбрана warn система!\n{glds.Prefix}vs"));
                 
@@ -91,40 +94,40 @@ namespace DarlingBotNet.Services
     //    }
     //}
 
-    //public class PermissionClan : PreconditionAttribute
-    //{
+    public class PermissionClan : PreconditionAttribute
+    {
 
-    //    public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
-    //    {
+        public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
+        {
 
-    //        using (var Xontext = new DBcontext())
-    //        {
-    //            var usr = Xontext.Users.FirstOrDefault(x => x.guildId == context.Guild.Id && x.userid == context.User.Id);
-    //            var myclan = Xontext.Clans.FirstOrDefault(x => x.guildId == context.Guild.Id && x.OwnerId == context.User.Id);
-    //            if ((command.Name == "clandelete" || command.Name == "clanperm" || command.Name == "clanownertake") && myclan == null)
-    //                return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана!"));
-    //            else if (command.Name == "clanclaims" || command.Name == "clankick")
-    //            {
-    //                if (myclan == null && usr.clanInfo != Users.UserClanRole.moder)
-    //                    return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана или вы не являетесь модератором в который вступили!"));
-    //            }
-    //            else if (command.Name == "claninfo")
-    //            {
-    //                if (myclan == null && (usr.clanInfo == Users.UserClanRole.wait || usr.clanInfo == Users.UserClanRole.ready))
-    //                    return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана или вы не вступили чтобы посмотреть информацию!"));
-    //            }
-    //            else if (command.Name == "clanleave")
-    //            {
-    //                if (usr.clanInfo == Users.UserClanRole.wait || usr.clanInfo == Users.UserClanRole.ready)
-    //                    return Task.FromResult(PreconditionResult.FromError($"Вы не вступили в клан, чтобы выходить откуда либо!"));
-    //            }
-    //            else if (command.Name == "clancreate" && myclan != null)
-    //                return Task.FromResult(PreconditionResult.FromError($"Для того чтобы создать новый клан, удалите или передайте существующий!"));
+            using (var Xontext = new DBcontext())
+            {
+                var usr = Xontext.Users.FirstOrDefault(x => x.guildId == context.Guild.Id && x.userid == context.User.Id);
+                var myclan = Xontext.Clans.FirstOrDefault(x => x.guildId == context.Guild.Id && x.OwnerId == context.User.Id);
+                if ((command.Name == "clandelete" || command.Name == "clanperm" || command.Name == "clanownertake") && myclan == null)
+                    return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана!"));
+                else if (command.Name == "clanclaims" || command.Name == "clankick")
+                {
+                    if (myclan == null && usr.clanInfo != Users.UserClanRole.moder)
+                        return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана или вы не являетесь модератором в который вступили!"));
+                }
+                else if (command.Name == "claninfo")
+                {
+                    if (myclan == null && (usr.clanInfo == Users.UserClanRole.wait || usr.clanInfo == Users.UserClanRole.ready))
+                        return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана или вы не вступили чтобы посмотреть информацию!"));
+                }
+                else if (command.Name == "clanleave")
+                {
+                    if (usr.clanInfo == Users.UserClanRole.wait || usr.clanInfo == Users.UserClanRole.ready)
+                        return Task.FromResult(PreconditionResult.FromError($"Вы не вступили в клан, чтобы выходить откуда либо!"));
+                }
+                else if (command.Name == "clancreate" && myclan != null)
+                    return Task.FromResult(PreconditionResult.FromError($"Для того чтобы создать новый клан, удалите или передайте существующий!"));
 
-    //            return Task.FromResult(PreconditionResult.FromSuccess());
-    //        }
-    //    }
-    //}
+                return Task.FromResult(PreconditionResult.FromSuccess());
+            }
+        }
+    }
 
     public class CommandsAttribute : CommandAttribute
     {

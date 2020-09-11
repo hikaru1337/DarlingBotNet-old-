@@ -1,0 +1,535 @@
+01.09.2020 7:19:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 7:19:48 [Verbose] Rest: GET voice/regions: 859,21 ms
+01.09.2020 7:19:49 [Verbose] Rest: GET users/@me: 769,51 ms
+01.09.2020 7:19:49 [Info] Gateway: Connecting
+01.09.2020 7:19:49 [Verbose] Rest: GET gateway: 77,5 ms
+01.09.2020 7:19:50 [Info] Gateway: Connected
+01.09.2020 7:19:50 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 7:19:52 [Info] Gateway: Ready
+01.09.2020 7:19:56 [Verbose] Rest: POST channels/744480279275634748/messages: 359,58 ms
+01.09.2020 7:19:56 [Verbose] Command: Executed "levelrole" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:19:56 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 366
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 487
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+01.09.2020 7:21:20 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 7:21:21 [Verbose] Rest: GET voice/regions: 637,42 ms
+01.09.2020 7:21:21 [Verbose] Rest: GET users/@me: 241,31 ms
+01.09.2020 7:21:21 [Info] Gateway: Connecting
+01.09.2020 7:21:21 [Verbose] Rest: GET gateway: 76,37 ms
+01.09.2020 7:21:22 [Info] Gateway: Connected
+01.09.2020 7:21:22 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 7:21:24 [Info] Gateway: Ready
+01.09.2020 7:21:30 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 221,57 ms
+01.09.2020 7:21:30 [Verbose] Rest: POST channels/744480279275634748/messages: 378,61 ms
+01.09.2020 7:21:30 [Verbose] Command: Executed "levelrole" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:21:38 [Verbose] Rest: POST channels/744480279275634748/messages: 225,57 ms
+01.09.2020 7:21:38 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:21:38 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 252,98 ms
+01.09.2020 7:21:43 [Verbose] Rest: GET oauth2/applications/@me: 250,24 ms
+01.09.2020 7:21:43 [Verbose] Rest: POST channels/744480279275634748/messages: 292,27 ms
+01.09.2020 7:21:44 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 239,13 ms
+01.09.2020 7:21:49 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 220,53 ms
+01.09.2020 7:21:49 [Verbose] Rest: POST channels/744480279275634748/messages: 237,51 ms
+01.09.2020 7:21:49 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:21:56 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 203,95 ms
+01.09.2020 7:21:56 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 214,74 ms
+01.09.2020 7:21:56 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 202,59 ms
+01.09.2020 7:21:57 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 229,48 ms
+01.09.2020 7:21:58 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 203,69 ms
+01.09.2020 7:22:06 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 220,8 ms
+01.09.2020 7:22:06 [Verbose] Rest: POST channels/744480279275634748/messages: 229,25 ms
+01.09.2020 7:22:06 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:22:07 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 222,9 ms
+01.09.2020 7:22:08 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 210,21 ms
+01.09.2020 7:22:51 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 7:22:52 [Verbose] Rest: GET voice/regions: 644,33 ms
+01.09.2020 7:22:52 [Verbose] Rest: GET users/@me: 245,77 ms
+01.09.2020 7:22:52 [Info] Gateway: Connecting
+01.09.2020 7:22:52 [Verbose] Rest: GET gateway: 79,22 ms
+01.09.2020 7:22:53 [Info] Gateway: Connected
+01.09.2020 7:22:53 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 7:22:55 [Info] Gateway: Ready
+01.09.2020 7:23:08 [Verbose] Rest: POST channels/744480279275634748/messages: 264,63 ms
+01.09.2020 7:23:08 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:23:47 [Verbose] Rest: POST channels/744480279275634748/messages: 297,17 ms
+01.09.2020 7:23:47 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:24:07 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 231,48 ms
+01.09.2020 7:24:07 [Verbose] Rest: POST channels/744480279275634748/messages: 260,95 ms
+01.09.2020 7:24:28 [Verbose] Rest: POST channels/744480279275634748/messages: 248,02 ms
+01.09.2020 7:24:28 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:24:41 [Verbose] Rest: GET oauth2/applications/@me: 270,82 ms
+01.09.2020 7:24:41 [Verbose] Rest: POST channels/744480279275634748/messages: 237,06 ms
+01.09.2020 7:24:41 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:24:43 [Verbose] Rest: POST channels/744480279275634748/messages: 258,34 ms
+01.09.2020 7:24:43 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:29:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 7:29:25 [Verbose] Rest: GET voice/regions: 645,65 ms
+01.09.2020 7:29:26 [Verbose] Rest: GET users/@me: 235,5 ms
+01.09.2020 7:29:26 [Info] Gateway: Connecting
+01.09.2020 7:29:26 [Verbose] Rest: GET gateway: 79,21 ms
+01.09.2020 7:29:27 [Info] Gateway: Connected
+01.09.2020 7:29:27 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 7:29:28 [Info] Gateway: Ready
+01.09.2020 7:29:29 [Verbose] Rest: POST channels/744480279275634748/messages: 248,73 ms
+01.09.2020 7:29:29 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:29:35 [Verbose] Rest: GET oauth2/applications/@me: 239,83 ms
+01.09.2020 7:29:35 [Verbose] Rest: POST channels/744480279275634748/messages: 384,54 ms
+01.09.2020 7:29:35 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:29:37 [Verbose] Rest: POST channels/744480279275634748/messages: 217,71 ms
+01.09.2020 7:29:37 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:55:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 7:55:24 [Verbose] Rest: GET voice/regions: 672,4 ms
+01.09.2020 7:55:25 [Verbose] Rest: GET users/@me: 239,31 ms
+01.09.2020 7:55:25 [Info] Gateway: Connecting
+01.09.2020 7:55:25 [Verbose] Rest: GET gateway: 79,37 ms
+01.09.2020 7:55:26 [Info] Gateway: Connected
+01.09.2020 7:55:26 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 7:55:28 [Info] Gateway: Ready
+01.09.2020 7:55:32 [Verbose] Rest: POST channels/744480279275634748/messages: 294,2 ms
+01.09.2020 7:55:32 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:55:39 [Verbose] Rest: GET oauth2/applications/@me: 222 ms
+01.09.2020 7:55:40 [Verbose] Rest: POST channels/744480279275634748/messages: 233,52 ms
+01.09.2020 7:55:40 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:55:44 [Verbose] Rest: POST channels/744480279275634748/messages: 249,31 ms
+01.09.2020 7:55:44 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:55:55 [Verbose] Rest: POST channels/744480279275634748/messages: 259,09 ms
+01.09.2020 7:55:55 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:55:57 [Verbose] Rest: POST channels/744480279275634748/messages: 288,9 ms
+01.09.2020 7:55:57 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:56:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 7:56:33 [Verbose] Rest: GET voice/regions: 655,57 ms
+01.09.2020 7:56:33 [Verbose] Rest: GET users/@me: 235,17 ms
+01.09.2020 7:56:33 [Info] Gateway: Connecting
+01.09.2020 7:56:33 [Verbose] Rest: GET gateway: 88,31 ms
+01.09.2020 7:56:34 [Info] Gateway: Connected
+01.09.2020 7:56:34 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 7:56:36 [Info] Gateway: Ready
+01.09.2020 7:56:40 [Verbose] Rest: GET oauth2/applications/@me: 261,31 ms
+01.09.2020 7:56:41 [Verbose] Rest: POST channels/744480279275634748/messages: 266,55 ms
+01.09.2020 7:56:41 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:56:46 [Verbose] Rest: POST channels/744480279275634748/messages: 237,28 ms
+01.09.2020 7:56:46 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:56:48 [Verbose] Rest: POST channels/744480279275634748/messages: 244,32 ms
+01.09.2020 7:56:48 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:56:55 [Verbose] Rest: POST channels/744480279275634748/messages: 251,43 ms
+01.09.2020 7:56:55 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:57:00 [Verbose] Rest: POST channels/744480279275634748/messages: 239,54 ms
+01.09.2020 7:57:02 [Verbose] Rest: POST channels/744480279275634748/messages: 323,71 ms
+01.09.2020 7:57:02 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:57:18 [Verbose] Rest: POST channels/744480279275634748/messages: 236,03 ms
+01.09.2020 7:57:18 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:57:21 [Verbose] Rest: POST channels/744480279275634748/messages: 284,26 ms
+01.09.2020 7:57:21 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:57:25 [Verbose] Rest: POST channels/744480279275634748/messages: 255,69 ms
+01.09.2020 7:57:25 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:57:27 [Verbose] Rest: POST channels/744480279275634748/messages: 273,65 ms
+01.09.2020 7:57:27 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 7:57:29 [Verbose] Rest: POST channels/744480279275634748/messages: 287,97 ms
+01.09.2020 7:57:29 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:10:55 [Verbose] Rest: POST channels/744480279275634748/messages: 434,71 ms
+01.09.2020 8:10:55 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:10:58 [Verbose] Rest: POST channels/744480279275634748/messages: 236,53 ms
+01.09.2020 8:10:58 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:11:03 [Verbose] Rest: POST channels/744480279275634748/messages: 229,73 ms
+01.09.2020 8:11:03 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:11:04 [Verbose] Rest: POST channels/744480279275634748/messages: 235,75 ms
+01.09.2020 8:11:04 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:26:55 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 8:26:56 [Verbose] Rest: GET voice/regions: 646,43 ms
+01.09.2020 8:26:56 [Verbose] Rest: GET users/@me: 236,68 ms
+01.09.2020 8:26:56 [Info] Gateway: Connecting
+01.09.2020 8:26:56 [Verbose] Rest: GET gateway: 77,07 ms
+01.09.2020 8:26:57 [Info] Gateway: Connected
+01.09.2020 8:26:57 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 8:26:59 [Info] Gateway: Ready
+01.09.2020 8:27:15 [Verbose] Rest: GET oauth2/applications/@me: 246,82 ms
+01.09.2020 8:27:16 [Verbose] Rest: POST channels/744480279275634748/messages: 258,16 ms
+01.09.2020 8:27:21 [Verbose] Rest: POST channels/744480279275634748/messages: 237,43 ms
+01.09.2020 8:27:21 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:27:22 [Verbose] Rest: POST channels/744480279275634748/messages: 235,06 ms
+01.09.2020 8:27:22 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:27:24 [Verbose] Rest: POST channels/744480279275634748/messages: 249,26 ms
+01.09.2020 8:27:24 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:27:30 [Verbose] Rest: POST channels/744480279275634748/messages: 219,68 ms
+01.09.2020 8:27:30 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:27:34 [Verbose] Rest: POST channels/744480279275634748/messages: 247,22 ms
+01.09.2020 8:27:34 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:27:35 [Verbose] Rest: POST channels/744480279275634748/messages: 246,53 ms
+01.09.2020 8:27:35 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:27:36 [Verbose] Rest: POST channels/744480279275634748/messages: 224,96 ms
+01.09.2020 8:27:36 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:27:37 [Verbose] Rest: POST channels/744480279275634748/messages: 254,59 ms
+01.09.2020 8:27:37 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:27:42 [Verbose] Rest: POST channels/744480279275634748/messages: 236,71 ms
+01.09.2020 8:27:42 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:27:43 [Verbose] Rest: POST channels/744480279275634748/messages: 233,86 ms
+01.09.2020 8:27:43 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:27:45 [Verbose] Rest: POST channels/744480279275634748/messages: 242,49 ms
+01.09.2020 8:27:45 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:27:46 [Verbose] Rest: POST channels/744480279275634748/messages: 251,53 ms
+01.09.2020 8:27:46 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:27:47 [Verbose] Rest: POST channels/744480279275634748/messages: 267,2 ms
+01.09.2020 8:27:47 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:27:49 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+01.09.2020 8:27:53 [Verbose] Rest: POST channels/744480279275634748/messages: 4098,87 ms
+01.09.2020 8:27:53 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:51:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 8:51:57 [Verbose] Rest: GET voice/regions: 642,37 ms
+01.09.2020 8:51:57 [Verbose] Rest: GET users/@me: 231,62 ms
+01.09.2020 8:51:57 [Info] Gateway: Connecting
+01.09.2020 8:51:57 [Verbose] Rest: GET gateway: 75,49 ms
+01.09.2020 8:51:58 [Info] Gateway: Connected
+01.09.2020 8:51:58 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 8:52:00 [Info] Gateway: Ready
+01.09.2020 8:52:06 [Verbose] Rest: POST channels/744480279275634748/messages: 266,97 ms
+01.09.2020 8:52:06 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:52:11 [Verbose] Rest: GET oauth2/applications/@me: 226,73 ms
+01.09.2020 8:52:12 [Verbose] Rest: POST channels/744480279275634748/messages: 237,54 ms
+01.09.2020 8:52:12 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 8:52:13 [Verbose] Rest: POST channels/744480279275634748/messages: 245,42 ms
+01.09.2020 8:52:13 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:36:51 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 10:36:51 [Verbose] Rest: GET voice/regions: 647,97 ms
+01.09.2020 10:36:52 [Verbose] Rest: GET users/@me: 227,95 ms
+01.09.2020 10:36:52 [Info] Gateway: Connecting
+01.09.2020 10:36:52 [Verbose] Rest: GET gateway: 82,15 ms
+01.09.2020 10:36:53 [Info] Gateway: Connected
+01.09.2020 10:36:53 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 10:36:55 [Info] Gateway: Ready
+01.09.2020 10:38:20 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+01.09.2020 10:38:20 [Warning] Gateway: System.Exception: WebSocket connection was closed
+ ---> Discord.Net.WebSocketClosedException: The server sent close 1000: ""
+   at Discord.Net.WebSockets.DefaultWebSocketClient.RunAsync(CancellationToken cancelToken)
+   --- End of inner exception stack trace ---
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+01.09.2020 10:38:20 [Info] Gateway: Disconnecting
+01.09.2020 10:38:20 [Verbose] Gateway: Disconnected from DarlingBotInfo
+01.09.2020 10:38:20 [Info] Gateway: Disconnected
+01.09.2020 10:38:20 [Verbose] Rest: POST channels/744480279275634748/messages: 270,37 ms
+01.09.2020 10:38:21 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:38:21 [Info] Gateway: Connecting
+01.09.2020 10:38:21 [Verbose] Rest: GET gateway: 80,13 ms
+01.09.2020 10:38:22 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 10:38:22 [Info] Gateway: Connected
+01.09.2020 10:38:22 [Info] Gateway: Resumed previous session
+01.09.2020 10:39:52 [Verbose] Rest: POST channels/744480279275634748/messages: 242,12 ms
+01.09.2020 10:39:52 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:39:56 [Verbose] Rest: POST channels/744480279275634748/messages: 270,34 ms
+01.09.2020 10:39:56 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:40:07 [Verbose] Rest: POST channels/744480279275634748/messages: 290,7 ms
+01.09.2020 10:40:07 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:40:13 [Verbose] Rest: GET oauth2/applications/@me: 221,33 ms
+01.09.2020 10:40:14 [Verbose] Rest: POST channels/744480279275634748/messages: 233,21 ms
+01.09.2020 10:40:14 [Verbose] Command: Executed "setcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:40:16 [Verbose] Rest: POST channels/744480279275634748/messages: 343,4 ms
+01.09.2020 10:40:16 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:56:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 10:56:34 [Verbose] Rest: GET voice/regions: 667,71 ms
+01.09.2020 10:56:35 [Verbose] Rest: GET users/@me: 234,47 ms
+01.09.2020 10:56:35 [Info] Gateway: Connecting
+01.09.2020 10:56:35 [Verbose] Rest: GET gateway: 88,89 ms
+01.09.2020 10:56:36 [Info] Gateway: Connected
+01.09.2020 10:56:36 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 10:56:38 [Info] Gateway: Ready
+01.09.2020 10:56:38 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+01.09.2020 10:56:38 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+01.09.2020 10:56:38 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+01.09.2020 10:56:38 [Verbose] Rest: Preemptive Rate limit triggered: oauth2/applications/@me
+01.09.2020 10:56:38 [Verbose] Rest: GET oauth2/applications/@me: 238,67 ms
+01.09.2020 10:56:39 [Verbose] Rest: GET oauth2/applications/@me: 744,88 ms
+01.09.2020 10:56:39 [Verbose] Rest: GET oauth2/applications/@me: 871,2 ms
+01.09.2020 10:56:39 [Verbose] Rest: GET oauth2/applications/@me: 905,41 ms
+01.09.2020 10:56:39 [Verbose] Rest: GET oauth2/applications/@me: 911,57 ms
+01.09.2020 10:56:39 [Verbose] Rest: POST channels/744480279275634748/messages: 264,37 ms
+01.09.2020 10:56:39 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:56:42 [Verbose] Rest: POST channels/744480279275634748/messages: 263,03 ms
+01.09.2020 10:56:42 [Verbose] Command: Executed "modules" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:56:50 [Verbose] Rest: POST channels/744480279275634748/messages: 240,38 ms
+01.09.2020 10:56:50 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:56:57 [Verbose] Rest: POST channels/744480279275634748/messages: 226,52 ms
+01.09.2020 10:56:57 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:57:02 [Verbose] Rest: POST channels/744480279275634748/messages: 234,66 ms
+01.09.2020 10:57:02 [Verbose] Command: Executed "zcoin" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:57:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 10:57:49 [Verbose] Rest: GET voice/regions: 684,96 ms
+01.09.2020 10:57:50 [Verbose] Rest: GET users/@me: 228,5 ms
+01.09.2020 10:57:50 [Info] Gateway: Connecting
+01.09.2020 10:57:50 [Verbose] Rest: GET gateway: 86,03 ms
+01.09.2020 10:57:51 [Info] Gateway: Connected
+01.09.2020 10:57:51 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 10:57:52 [Info] Gateway: Ready
+01.09.2020 10:57:55 [Verbose] Rest: POST channels/744480279275634748/messages: 332,06 ms
+01.09.2020 10:57:55 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:57:59 [Verbose] Rest: POST channels/744480279275634748/messages: 243,86 ms
+01.09.2020 10:57:59 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:58:01 [Verbose] Rest: POST channels/744480279275634748/messages: 255,55 ms
+01.09.2020 10:58:01 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 10:58:03 [Verbose] Rest: POST channels/744480279275634748/messages: 267,24 ms
+01.09.2020 10:58:03 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 11:04:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 11:04:32 [Verbose] Rest: GET voice/regions: 668,97 ms
+01.09.2020 11:04:32 [Verbose] Rest: GET users/@me: 235,2 ms
+01.09.2020 11:04:32 [Info] Gateway: Connecting
+01.09.2020 11:04:32 [Verbose] Rest: GET gateway: 88,38 ms
+01.09.2020 11:04:33 [Info] Gateway: Connected
+01.09.2020 11:04:33 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 11:04:35 [Info] Gateway: Ready
+01.09.2020 11:06:54 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 11:06:55 [Verbose] Rest: GET voice/regions: 707,98 ms
+01.09.2020 11:06:55 [Verbose] Rest: GET users/@me: 224,45 ms
+01.09.2020 11:06:55 [Info] Gateway: Connecting
+01.09.2020 11:06:56 [Verbose] Rest: GET gateway: 77,53 ms
+01.09.2020 11:06:57 [Info] Gateway: Connected
+01.09.2020 11:06:57 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 11:06:58 [Info] Gateway: Ready
+01.09.2020 11:07:03 [Verbose] Rest: POST channels/744480279275634748/messages: 336,01 ms
+01.09.2020 11:07:03 [Verbose] Command: Executed "levelrole" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 11:17:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 11:17:32 [Verbose] Rest: GET voice/regions: 876,72 ms
+01.09.2020 11:17:32 [Verbose] Rest: GET users/@me: 217,06 ms
+01.09.2020 11:17:32 [Info] Gateway: Connecting
+01.09.2020 11:17:32 [Verbose] Rest: GET gateway: 73,11 ms
+01.09.2020 11:17:33 [Info] Gateway: Connected
+01.09.2020 11:17:34 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 11:17:35 [Info] Gateway: Ready
+01.09.2020 11:17:40 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 367
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 475
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+01.09.2020 11:18:46 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 11:18:47 [Verbose] Rest: GET voice/regions: 618,91 ms
+01.09.2020 11:18:47 [Verbose] Rest: GET users/@me: 233,06 ms
+01.09.2020 11:18:47 [Info] Gateway: Connecting
+01.09.2020 11:18:47 [Verbose] Rest: GET gateway: 75,16 ms
+01.09.2020 11:18:48 [Info] Gateway: Connected
+01.09.2020 11:18:48 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 11:18:50 [Info] Gateway: Ready
+01.09.2020 11:18:51 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 367
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 475
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+01.09.2020 11:31:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 11:31:16 [Verbose] Rest: GET voice/regions: 635,25 ms
+01.09.2020 11:31:16 [Verbose] Rest: GET users/@me: 249,69 ms
+01.09.2020 11:31:16 [Info] Gateway: Connecting
+01.09.2020 11:31:16 [Verbose] Rest: GET gateway: 70,89 ms
+01.09.2020 11:31:17 [Info] Gateway: Connected
+01.09.2020 11:31:17 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 11:31:19 [Info] Gateway: Ready
+01.09.2020 11:31:27 [Warning] Gateway: System.NotSupportedException: SQLite cannot order by expressions of type 'ulong'. Convert the values to a supported type or use LINQ to Objects to order the results.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 367
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 475
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+01.09.2020 11:31:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 11:31:44 [Verbose] Rest: GET voice/regions: 661,51 ms
+01.09.2020 11:31:45 [Verbose] Rest: GET users/@me: 212,58 ms
+01.09.2020 11:31:45 [Info] Gateway: Connecting
+01.09.2020 11:31:45 [Verbose] Rest: GET gateway: 72,55 ms
+01.09.2020 11:31:46 [Info] Gateway: Connected
+01.09.2020 11:31:46 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 11:31:47 [Info] Gateway: Ready
+01.09.2020 11:31:48 [Warning] Gateway: System.InvalidOperationException: The LINQ expression 'DbSet<LVLROLES>
+    .Where(l => l.guildid == __user_Guild_Id_0)
+    .OrderBy(l => (uint)l.countlvl)
+    .Where(l => l.countlvl <= __usr_Level_1)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source)
+   at DarlingBotNet.Services.SystemLoading.LVL(SocketUserMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\SystemLoading.cs:line 367
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 475
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+01.09.2020 11:32:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 11:32:23 [Verbose] Rest: GET voice/regions: 655,59 ms
+01.09.2020 11:32:24 [Verbose] Rest: GET users/@me: 227,57 ms
+01.09.2020 11:32:24 [Info] Gateway: Connecting
+01.09.2020 11:32:24 [Verbose] Rest: GET gateway: 82,79 ms
+01.09.2020 11:32:25 [Info] Gateway: Connected
+01.09.2020 11:32:25 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 11:32:27 [Info] Gateway: Ready
+01.09.2020 11:32:30 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 244,91 ms
+01.09.2020 11:32:39 [Verbose] Rest: POST channels/744480279275634748/messages: 255,61 ms
+01.09.2020 11:32:39 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 11:33:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 11:33:33 [Verbose] Rest: GET voice/regions: 600,9 ms
+01.09.2020 11:33:33 [Verbose] Rest: GET users/@me: 214,67 ms
+01.09.2020 11:33:33 [Info] Gateway: Connecting
+01.09.2020 11:33:33 [Verbose] Rest: GET gateway: 79,2 ms
+01.09.2020 11:33:34 [Info] Gateway: Connected
+01.09.2020 11:33:35 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 11:33:36 [Info] Gateway: Ready
+01.09.2020 11:33:37 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 231,35 ms
+01.09.2020 11:33:58 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 11:33:59 [Verbose] Rest: GET voice/regions: 651,8 ms
+01.09.2020 11:34:00 [Verbose] Rest: GET users/@me: 232,63 ms
+01.09.2020 11:34:00 [Info] Gateway: Connecting
+01.09.2020 11:34:00 [Verbose] Rest: GET gateway: 81,72 ms
+01.09.2020 11:34:01 [Info] Gateway: Connected
+01.09.2020 11:34:01 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 11:34:02 [Info] Gateway: Ready
+01.09.2020 11:37:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 11:37:05 [Verbose] Rest: GET voice/regions: 609,2 ms
+01.09.2020 11:37:06 [Verbose] Rest: GET users/@me: 229,07 ms
+01.09.2020 11:37:06 [Info] Gateway: Connecting
+01.09.2020 11:37:06 [Verbose] Rest: GET gateway: 71,69 ms
+01.09.2020 11:37:07 [Info] Gateway: Connected
+01.09.2020 11:37:07 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 11:37:09 [Info] Gateway: Ready
+01.09.2020 12:03:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 13:21:58 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 13:21:58 [Verbose] Rest: GET voice/regions: 702,59 ms
+01.09.2020 13:21:59 [Verbose] Rest: GET users/@me: 212,82 ms
+01.09.2020 13:21:59 [Info] Gateway: Connecting
+01.09.2020 13:21:59 [Verbose] Rest: GET gateway: 85,07 ms
+01.09.2020 13:22:00 [Info] Gateway: Connected
+01.09.2020 13:22:00 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 13:22:02 [Info] Gateway: Ready
+01.09.2020 13:22:20 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 13:22:20 [Verbose] Rest: GET voice/regions: 610,7 ms
+01.09.2020 13:22:21 [Verbose] Rest: GET users/@me: 226,98 ms
+01.09.2020 13:22:21 [Info] Gateway: Connecting
+01.09.2020 13:22:21 [Verbose] Rest: GET gateway: 77,17 ms
+01.09.2020 13:22:22 [Info] Gateway: Connected
+01.09.2020 13:22:22 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 13:22:23 [Info] Gateway: Ready
+01.09.2020 13:22:25 [Verbose] Rest: POST channels/744480279275634748/messages: 261,54 ms
+01.09.2020 13:22:25 [Verbose] Command: Executed "warns" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 13:22:29 [Verbose] Rest: POST channels/744480279275634748/messages: 229,91 ms
+01.09.2020 13:22:33 [Verbose] Rest: POST channels/744480279275634748/messages: 277,66 ms
+01.09.2020 13:22:33 [Verbose] Command: Executed "info" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 13:22:50 [Verbose] Rest: POST channels/744480279275634748/messages: 264,02 ms
+01.09.2020 13:22:50 [Verbose] Command: Executed "addwarn" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 13:22:55 [Verbose] Rest: POST channels/744480279275634748/messages: 239,74 ms
+01.09.2020 13:22:55 [Error] Command: Discord.Commands.CommandException: Error occurred executing "warn" for h1kkaru.#2627 in DarlingBotInfo/эээ.
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DarlingBotNet.Modules.Admins.warn(SocketGuildUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Admins.cs:line 217
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+01.09.2020 13:22:55 [Verbose] Command: Executed "warn" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 13:25:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 13:25:22 [Verbose] Rest: GET voice/regions: 638,4 ms
+01.09.2020 13:25:22 [Verbose] Rest: GET users/@me: 246,48 ms
+01.09.2020 13:25:22 [Info] Gateway: Connecting
+01.09.2020 13:25:22 [Verbose] Rest: GET gateway: 80,6 ms
+01.09.2020 13:25:23 [Info] Gateway: Connected
+01.09.2020 13:25:23 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 13:25:25 [Info] Gateway: Ready
+01.09.2020 13:25:32 [Verbose] Rest: POST channels/744480279275634748/messages: 330,92 ms
+01.09.2020 13:25:32 [Verbose] Rest: POST channels/744480279275634748/messages: 243,14 ms
+01.09.2020 13:25:32 [Verbose] Command: Executed "warn" for h1kkaru.#2627 in DarlingBotInfo/эээ
+01.09.2020 13:26:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+01.09.2020 13:26:57 [Verbose] Rest: GET voice/regions: 624,6 ms
+01.09.2020 13:26:58 [Verbose] Rest: GET users/@me: 242,42 ms
+01.09.2020 13:26:58 [Info] Gateway: Connecting
+01.09.2020 13:26:58 [Verbose] Rest: GET gateway: 74,31 ms
+01.09.2020 13:26:59 [Info] Gateway: Connected
+01.09.2020 13:26:59 [Verbose] Gateway: Connected to DarlingBotInfo
+01.09.2020 13:27:00 [Info] Gateway: Ready
+01.09.2020 13:27:18 [Verbose] Rest: POST channels/744480279275634748/messages: 309,03 ms
+01.09.2020 13:27:18 [Verbose] Rest: POST guilds/663380088188043274/roles: 231,9 ms
+01.09.2020 13:27:19 [Verbose] Rest: PATCH guilds/663380088188043274/roles/750346047535972502: 227,44 ms
+01.09.2020 13:27:19 [Verbose] Rest: PUT channels/745404753751572572/permissions/750346047535972502: 230,06 ms
+01.09.2020 13:27:19 [Verbose] Rest: PUT channels/663380088188043276/permissions/750346047535972502: 224,53 ms
+01.09.2020 13:27:19 [Verbose] Rest: PUT channels/744480279275634748/permissions/750346047535972502: 221 ms
+01.09.2020 13:27:20 [Verbose] Rest: POST guilds/663380088188043274/roles: 225,38 ms
+01.09.2020 13:27:20 [Verbose] Rest: PATCH guilds/663380088188043274/roles/750346052464279693: 321 ms
+01.09.2020 13:27:20 [Verbose] Rest: PUT channels/745404753751572572/permissions/750346052464279693: 275,51 ms
+01.09.2020 13:27:20 [Verbose] Rest: PUT channels/663380088188043276/permissions/750346052464279693: 226,08 ms
+01.09.2020 13:27:21 [Verbose] Rest: GET channels/745404753751572572: 208,7 ms
+01.09.2020 13:27:21 [Verbose] Rest: PATCH channels/745404755316310186: 226,26 ms
+01.09.2020 13:27:21 [Verbose] Rest: PUT channels/735751329955315733/permissions/750346052464279693: 222,44 ms
+01.09.2020 13:27:21 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/750346047535972502: 262,23 ms
+01.09.2020 13:27:22 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/750346052464279693: 226,36 ms

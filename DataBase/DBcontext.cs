@@ -21,7 +21,7 @@ namespace DarlingBotNet.DataBase
         public DbSet<RussiaGame_Studys> RG_Studys { get; set; }
         public DbSet<RussiaGame_Work> RG_Work { get; set; }
 
-        public void ApplicationContext() => Database.EnsureCreated();
+        //public void ApplicationContext() => Database.EnsureCreated();
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

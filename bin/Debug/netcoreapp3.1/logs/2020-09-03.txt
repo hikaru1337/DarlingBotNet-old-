@@ -1,0 +1,143 @@
+03.09.2020 0:46:29 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.09.2020 0:46:31 [Verbose] Rest: GET voice/regions: 1033,54 ms
+03.09.2020 0:46:31 [Verbose] Rest: GET users/@me: 240,54 ms
+03.09.2020 0:46:31 [Info] Gateway: Connecting
+03.09.2020 0:46:31 [Verbose] Rest: GET gateway: 76,78 ms
+03.09.2020 0:46:32 [Info] Gateway: Connected
+03.09.2020 0:46:32 [Verbose] Gateway: Connected to DarlingBotInfo
+03.09.2020 0:46:35 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/750346047535972502: 522,64 ms
+03.09.2020 0:46:35 [Verbose] Rest: DELETE guilds/663380088188043274/members/551373471536513024/roles/750346052464279693: 224,97 ms
+03.09.2020 0:46:35 [Info] Gateway: Ready
+03.09.2020 0:46:47 [Verbose] Rest: POST channels/744480279275634748/messages: 236,69 ms
+03.09.2020 0:46:47 [Verbose] Command: Executed "daily" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:46:58 [Verbose] Rest: POST channels/744480279275634748/messages: 257,85 ms
+03.09.2020 0:46:58 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:47:03 [Verbose] Rest: POST channels/744480279275634748/messages: 281,27 ms
+03.09.2020 0:47:03 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:47:08 [Verbose] Rest: POST channels/744480279275634748/messages: 226,07 ms
+03.09.2020 0:47:08 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:47:10 [Verbose] Rest: POST channels/744480279275634748/messages: 228,47 ms
+03.09.2020 0:47:10 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:47:11 [Verbose] Rest: POST channels/744480279275634748/messages: 247,3 ms
+03.09.2020 0:47:11 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:47:14 [Verbose] Rest: POST channels/744480279275634748/messages: 249,65 ms
+03.09.2020 0:47:14 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:47:15 [Verbose] Rest: POST channels/744480279275634748/messages: 270,13 ms
+03.09.2020 0:47:15 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:47:16 [Verbose] Rest: POST channels/744480279275634748/messages: 254,93 ms
+03.09.2020 0:47:16 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:47:19 [Verbose] Rest: POST channels/744480279275634748/messages: 301,27 ms
+03.09.2020 0:47:19 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:47:24 [Verbose] Rest: POST channels/744480279275634748/messages: 258,01 ms
+03.09.2020 0:47:24 [Verbose] Command: Executed "daily" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:47:42 [Verbose] Rest: POST channels/744480279275634748/messages: 243,05 ms
+03.09.2020 0:47:42 [Verbose] Command: Executed "transfer" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:47:45 [Verbose] Rest: POST channels/744480279275634748/messages: 274,7 ms
+03.09.2020 0:47:45 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:47:54 [Verbose] Rest: POST channels/744480279275634748/messages: 306,94 ms
+03.09.2020 0:47:54 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:48:05 [Verbose] Rest: POST channels/744480279275634748/messages: 300,73 ms
+03.09.2020 0:48:05 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:48:09 [Verbose] Rest: POST channels/744480279275634748/messages: 288,89 ms
+03.09.2020 0:48:09 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:48:10 [Verbose] Rest: POST channels/744480279275634748/messages: 240,17 ms
+03.09.2020 0:48:10 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:48:11 [Verbose] Rest: POST channels/744480279275634748/messages: 246,28 ms
+03.09.2020 0:48:11 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:48:12 [Verbose] Rest: POST channels/744480279275634748/messages: 245,94 ms
+03.09.2020 0:48:12 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:48:13 [Verbose] Rest: Preemptive Rate limit triggered: channels/744480279275634748/messages
+03.09.2020 0:48:16 [Verbose] Rest: POST channels/744480279275634748/messages: 2889,96 ms
+03.09.2020 0:48:16 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:48:17 [Verbose] Rest: POST channels/744480279275634748/messages: 227,03 ms
+03.09.2020 0:48:17 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:48:18 [Verbose] Rest: POST channels/744480279275634748/messages: 260,55 ms
+03.09.2020 0:48:18 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:48:19 [Verbose] Rest: POST channels/744480279275634748/messages: 269,31 ms
+03.09.2020 0:48:19 [Verbose] Command: Executed "kazino" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 0:48:22 [Verbose] Rest: POST channels/744480279275634748/messages: 275,99 ms
+03.09.2020 0:48:22 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotInfo/эээ
+03.09.2020 1:47:03 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.09.2020 1:47:03 [Verbose] Rest: GET voice/regions: 658,52 ms
+03.09.2020 1:47:04 [Verbose] Rest: GET users/@me: 242,11 ms
+03.09.2020 1:47:04 [Info] Gateway: Connecting
+03.09.2020 1:47:04 [Verbose] Rest: GET gateway: 84,69 ms
+03.09.2020 1:47:05 [Info] Gateway: Connected
+03.09.2020 1:47:05 [Verbose] Gateway: Connected to DarlingBotInfo
+03.09.2020 1:47:07 [Info] Gateway: Ready
+03.09.2020 2:11:58 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.09.2020 2:11:59 [Verbose] Rest: GET voice/regions: 893,44 ms
+03.09.2020 2:11:59 [Verbose] Rest: GET users/@me: 257,68 ms
+03.09.2020 2:11:59 [Info] Gateway: Connecting
+03.09.2020 2:11:59 [Verbose] Rest: GET gateway: 69,96 ms
+03.09.2020 2:12:00 [Info] Gateway: Connected
+03.09.2020 2:12:00 [Verbose] Gateway: Connected to DarlingBotInfo
+03.09.2020 2:12:02 [Info] Gateway: Ready
+03.09.2020 2:14:18 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.09.2020 2:14:19 [Verbose] Rest: GET voice/regions: 693,89 ms
+03.09.2020 2:14:19 [Verbose] Rest: GET users/@me: 210,16 ms
+03.09.2020 2:14:19 [Info] Gateway: Connecting
+03.09.2020 2:14:19 [Verbose] Rest: GET gateway: 71,41 ms
+03.09.2020 2:14:20 [Info] Gateway: Connected
+03.09.2020 2:14:20 [Verbose] Gateway: Connected to DarlingBotInfo
+03.09.2020 2:14:22 [Info] Gateway: Ready
+03.09.2020 2:15:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.09.2020 2:15:37 [Verbose] Rest: GET voice/regions: 710,75 ms
+03.09.2020 2:15:37 [Verbose] Rest: GET users/@me: 209,79 ms
+03.09.2020 2:15:38 [Info] Gateway: Connecting
+03.09.2020 2:15:38 [Verbose] Rest: GET gateway: 81,49 ms
+03.09.2020 2:15:39 [Info] Gateway: Connected
+03.09.2020 2:15:39 [Verbose] Gateway: Connected to DarlingBotInfo
+03.09.2020 2:15:40 [Info] Gateway: Ready
+03.09.2020 2:16:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.09.2020 2:16:23 [Verbose] Rest: GET voice/regions: 691,02 ms
+03.09.2020 2:16:24 [Verbose] Rest: GET users/@me: 220,8 ms
+03.09.2020 2:16:24 [Info] Gateway: Connecting
+03.09.2020 2:16:24 [Verbose] Rest: GET gateway: 81,04 ms
+03.09.2020 2:16:26 [Info] Gateway: Connected
+03.09.2020 2:16:26 [Verbose] Gateway: Connected to DarlingBotInfo
+03.09.2020 2:16:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.09.2020 2:16:37 [Verbose] Rest: GET voice/regions: 662,1 ms
+03.09.2020 2:16:37 [Verbose] Rest: GET users/@me: 225,77 ms
+03.09.2020 2:16:37 [Info] Gateway: Connecting
+03.09.2020 2:16:37 [Verbose] Rest: GET gateway: 73,15 ms
+03.09.2020 2:16:38 [Info] Gateway: Connected
+03.09.2020 2:16:38 [Verbose] Gateway: Connected to DarlingBotInfo
+03.09.2020 2:16:40 [Info] Gateway: Ready
+03.09.2020 2:17:28 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.09.2020 2:17:28 [Verbose] Rest: GET voice/regions: 629,74 ms
+03.09.2020 2:17:29 [Verbose] Rest: GET users/@me: 212,71 ms
+03.09.2020 2:17:29 [Info] Gateway: Connecting
+03.09.2020 2:17:29 [Verbose] Rest: GET gateway: 70,09 ms
+03.09.2020 2:17:30 [Info] Gateway: Connected
+03.09.2020 2:17:30 [Verbose] Gateway: Connected to DarlingBotInfo
+03.09.2020 2:17:31 [Info] Gateway: Ready
+03.09.2020 2:26:22 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.09.2020 2:26:23 [Verbose] Rest: GET voice/regions: 663,88 ms
+03.09.2020 2:26:23 [Verbose] Rest: GET users/@me: 221,34 ms
+03.09.2020 2:26:23 [Info] Gateway: Connecting
+03.09.2020 2:26:23 [Verbose] Rest: GET gateway: 76,86 ms
+03.09.2020 2:26:24 [Warning] Gateway: System.Exception: WebSocket connection was closed
+ ---> Discord.Net.WebSocketClosedException: The server sent close 4000: "Unknown error."
+   at Discord.Net.WebSockets.DefaultWebSocketClient.RunAsync(CancellationToken cancelToken)
+   --- End of inner exception stack trace ---
+   at Discord.ConnectionManager.WaitAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.WebSocket.DiscordSocketClient.OnConnectingAsync()
+   at Discord.ConnectionManager.ConnectAsync(CancellationTokenSource reconnectCancelToken)
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+03.09.2020 2:26:24 [Info] Gateway: Disconnecting
+03.09.2020 2:26:24 [Info] Gateway: Disconnected
+03.09.2020 2:26:25 [Info] Gateway: Connecting
+03.09.2020 2:26:26 [Verbose] Rest: GET gateway: 73,55 ms
+03.09.2020 2:26:26 [Info] Gateway: Connected
+03.09.2020 2:26:26 [Verbose] Gateway: Connected to DarlingBotInfo
+03.09.2020 2:26:28 [Info] Gateway: Ready
+03.09.2020 2:26:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+03.09.2020 2:26:37 [Verbose] Rest: GET voice/regions: 752,24 ms
+03.09.2020 2:26:38 [Verbose] Rest: GET users/@me: 228,1 ms
+03.09.2020 2:26:38 [Info] Gateway: Connecting
+03.09.2020 2:26:38 [Verbose] Rest: GET gateway: 68,21 ms
+03.09.2020 2:26:39 [Info] Gateway: Connected
+03.09.2020 2:26:39 [Verbose] Gateway: Connected to DarlingBotInfo
+03.09.2020 2:26:40 [Info] Gateway: Ready

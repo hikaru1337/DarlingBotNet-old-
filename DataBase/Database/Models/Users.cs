@@ -37,6 +37,7 @@ namespace DarlingBotNet.DataBase
 
         public enum UserClanRole
         {
+            none,
             user,
             moder,
             wait,

@@ -1,0 +1,8 @@
+09.09.2020 16:25:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+09.09.2020 16:26:01 [Verbose] Rest: GET voice/regions: 952,82 ms
+09.09.2020 16:26:01 [Verbose] Rest: GET users/@me: 226,24 ms
+09.09.2020 16:26:01 [Info] Gateway: Connecting
+09.09.2020 16:26:01 [Verbose] Rest: GET gateway: 76,93 ms
+09.09.2020 16:26:02 [Info] Gateway: Connected
+09.09.2020 16:26:02 [Verbose] Gateway: Connected to DarlingBotInfo
+09.09.2020 16:26:04 [Info] Gateway: Ready

@@ -1,8 +1,10 @@
 ﻿using DarlingBotNet.DataBase;
+using DarlingBotNet.DataBase.Database;
 using DarlingBotNet.Services;
 using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
+using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,12 +15,13 @@ namespace DarlingBotNet.Modules
     public class Bot : ModuleBase<SocketCommandContext>
     {
         private readonly DiscordSocketClient _discord;
+        private readonly IMemoryCache _cache;
         
 
-        public Bot(DiscordSocketClient discord)
+        public Bot(DiscordSocketClient discord, IMemoryCache cache)
         {
             _discord = discord;
-            
+            _cache = cache;
         }
 
         private class UserPays
@@ -171,34 +174,39 @@ namespace DarlingBotNet.Modules
 
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         [RequireOwner]
-        public async Task setlevel(SocketUser user, uint level)
+        public async Task setlevel(SocketGuildUser user, uint level)
         {
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"SetLevel {user}");
             using (var DBcontext = new DBcontext())
             {
-                var usr = DBcontext.Users.GetOrCreate((user as SocketGuildUser)).Result;
-                usr.XP = level * (80 * level);
-                DBcontext.Update(usr);
-                await DBcontext.SaveChangesAsync();
+                var usr = _cache.GetOrCreateUserCache(user.Id, user.Guild.Id);
+                //var usr = DBcontext.Users.GetOrCreate((user as SocketGuildUser)).Result;
                 emb.WithDescription($"Уровень с {usr.Level} выставлен на {level}");
+                usr.XP = level * (80 * level);
+                _cache.Update(usr);
+                DBcontext.Users.Update(usr);
+                await DBcontext.SaveChangesAsync();
+                await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
-            await Context.Channel.SendMessageAsync("", false, emb.Build());
+            
         }
 
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         [RequireOwner]
-        public async Task setcoin(SocketUser user, uint Coin)
+        public async Task setcoin(SocketGuildUser user, uint Coin)
         {
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"SetCoin {user}");
             using (var DBcontext = new DBcontext())
             {
-                var usr = DBcontext.Users.GetOrCreate((user as SocketGuildUser)).Result;
+                var usr = _cache.GetOrCreateUserCache(user.Id, user.Guild.Id);
                 emb.WithDescription($"Zercoin's выставлен с {usr.ZeroCoin} на {Coin}");
                 usr.ZeroCoin = Coin;
+                _cache.Update(usr);
                 DBcontext.Users.Update(usr);
                 await DBcontext.SaveChangesAsync();
+                await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
-            await Context.Channel.SendMessageAsync("", false, emb.Build());
+            
         }
     }
 }

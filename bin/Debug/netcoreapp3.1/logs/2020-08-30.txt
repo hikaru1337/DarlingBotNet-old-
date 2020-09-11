@@ -1,0 +1,64 @@
+30.08.2020 10:53:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.08.2020 10:53:12 [Verbose] Rest: GET voice/regions: 788,11 ms
+30.08.2020 10:53:13 [Verbose] Rest: GET users/@me: 243,51 ms
+30.08.2020 10:53:13 [Info] Gateway: Connecting
+30.08.2020 10:53:13 [Verbose] Rest: GET gateway: 76,21 ms
+30.08.2020 10:53:14 [Info] Gateway: Connected
+30.08.2020 10:53:14 [Verbose] Gateway: Connected to DarlingBotInfo
+30.08.2020 10:53:15 [Info] Gateway: Ready
+30.08.2020 10:53:22 [Verbose] Rest: POST channels/744480279275634748/messages: 289,07 ms
+30.08.2020 10:53:22 [Verbose] Command: Executed "levelrole" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:53:32 [Verbose] Rest: POST channels/744480279275634748/messages: 272,11 ms
+30.08.2020 10:53:32 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:53:40 [Verbose] Rest: POST channels/744480279275634748/messages: 227,72 ms
+30.08.2020 10:53:40 [Verbose] Command: Executed "levelrole.add" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:53:46 [Verbose] Rest: GET oauth2/applications/@me: 207,93 ms
+30.08.2020 10:53:46 [Verbose] Rest: POST channels/744480279275634748/messages: 228,29 ms
+30.08.2020 10:53:46 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:54:16 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.08.2020 10:54:17 [Verbose] Rest: GET voice/regions: 598,35 ms
+30.08.2020 10:54:17 [Verbose] Rest: GET users/@me: 229,61 ms
+30.08.2020 10:54:17 [Info] Gateway: Connecting
+30.08.2020 10:54:17 [Verbose] Rest: GET gateway: 69,7 ms
+30.08.2020 10:54:18 [Info] Gateway: Connected
+30.08.2020 10:54:18 [Verbose] Gateway: Connected to DarlingBotInfo
+30.08.2020 10:54:20 [Info] Gateway: Ready
+30.08.2020 10:54:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.08.2020 10:54:50 [Verbose] Rest: GET voice/regions: 641,6 ms
+30.08.2020 10:54:50 [Verbose] Rest: GET users/@me: 224,37 ms
+30.08.2020 10:54:50 [Info] Gateway: Connecting
+30.08.2020 10:54:50 [Verbose] Rest: GET gateway: 80,13 ms
+30.08.2020 10:54:51 [Info] Gateway: Connected
+30.08.2020 10:54:52 [Verbose] Gateway: Connected to DarlingBotInfo
+30.08.2020 10:54:53 [Info] Gateway: Ready
+30.08.2020 10:54:56 [Verbose] Rest: GET oauth2/applications/@me: 219,14 ms
+30.08.2020 10:54:56 [Verbose] Rest: POST channels/744480279275634748/messages: 247,27 ms
+30.08.2020 10:54:56 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:55:23 [Verbose] Rest: POST channels/744480279275634748/messages: 306,93 ms
+30.08.2020 10:55:23 [Verbose] Command: Executed "levelrole.add" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:55:32 [Verbose] Rest: POST channels/744480279275634748/messages: 268,88 ms
+30.08.2020 10:55:32 [Verbose] Command: Executed "setlevel" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:55:49 [Verbose] Rest: POST channels/744480279275634748/messages: 276,25 ms
+30.08.2020 10:55:49 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:55:54 [Verbose] Rest: POST channels/744480279275634748/messages: 262,81 ms
+30.08.2020 10:55:54 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:55:59 [Verbose] Rest: POST channels/744480279275634748/messages: 245,23 ms
+30.08.2020 10:55:59 [Verbose] Command: Executed "channelsettings" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:56:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+30.08.2020 10:56:50 [Verbose] Rest: GET voice/regions: 623,14 ms
+30.08.2020 10:56:50 [Verbose] Rest: GET users/@me: 220,65 ms
+30.08.2020 10:56:50 [Info] Gateway: Connecting
+30.08.2020 10:56:50 [Verbose] Rest: GET gateway: 69,93 ms
+30.08.2020 10:56:51 [Info] Gateway: Connected
+30.08.2020 10:56:51 [Verbose] Gateway: Connected to DarlingBotInfo
+30.08.2020 10:56:53 [Info] Gateway: Ready
+30.08.2020 10:58:16 [Verbose] Rest: POST channels/744480279275634748/messages: 247,84 ms
+30.08.2020 10:58:16 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:58:26 [Verbose] Rest: POST channels/744480279275634748/messages: 231,51 ms
+30.08.2020 10:58:26 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:59:02 [Verbose] Rest: POST channels/744480279275634748/messages: 305,49 ms
+30.08.2020 10:59:02 [Verbose] Command: Executed "level" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:59:10 [Verbose] Rest: POST channels/744480279275634748/messages: 244,76 ms
+30.08.2020 10:59:10 [Verbose] Command: Executed "levelrole" for h1kkaru.#2627 in DarlingBotInfo/эээ
+30.08.2020 10:59:17 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/736685221981847684: 229,2 ms
+30.08.2020 10:59:18 [Verbose] Rest: POST channels/744480279275634748/messages: 256,18 ms

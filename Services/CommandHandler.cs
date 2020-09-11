@@ -1,4 +1,5 @@
 ﻿using DarlingBotNet.DataBase;
+using DarlingBotNet.DataBase.Database;
 using DarlingBotNet.Modules;
 using DarlingBotNet.Services.Sys;
 using Discord;
@@ -121,6 +122,8 @@ namespace DarlingBotNet.Services
 
         private async Task ReactRem(Cacheable<IUserMessage, ulong> mess, ISocketMessageChannel chnl, SocketReaction emj)
         {
+            if (emj.User.Value.IsBot) return;
+
             if (mess.GetOrDownloadAsync().Result != null)
                 await GetOrRemoveRole(mess, chnl, emj, true);
         }
@@ -157,7 +160,7 @@ namespace DarlingBotNet.Services
             {
                 using (var DBcontext = new DBcontext())
                 {
-                    var glds = SystemLoading.GetOrCreateGuldsCache((chnl as SocketTextChannel).Guild.Id).GiveXPnextChannel;
+                    var glds = cache.GetOrCreateGuldsCache((chnl as SocketTextChannel).Guild.Id).GiveXPnextChannel;
                     DBcontext.Channels.Add(new Channels() { guildid = (chnl as SocketTextChannel).Guild.Id, channelid = chnl.Id, GiveXP = glds, UseCommand = true });
                     await DBcontext.SaveChangesAsync();
                 }
@@ -171,7 +174,7 @@ namespace DarlingBotNet.Services
                 IMessage msg = await before.GetOrDownloadAsync();
                 if (msg == null || msg.Author.IsBot || msg.Content.Length > 1023 || after.Content.Length > 1023) return;
                 var chnl = channelmes as SocketGuildChannel;
-                var glds = SystemLoading.GetOrCreateGuldsCache(chnl.Guild.Id);
+                var glds = cache.GetOrCreateGuldsCache(chnl.Guild.Id);
                 if (chnl.Guild.GetTextChannel(glds.mesdelchannel) != null)
                 {
                     var builder = new EmbedBuilder().WithColor(255, 0, 94).WithTimestamp(DateTimeOffset.Now.ToUniversalTime())
@@ -191,11 +194,10 @@ namespace DarlingBotNet.Services
         {
             using (var DBcontext = new DBcontext())
             {
-
                 IMessage msg = await cachemess.GetOrDownloadAsync();
                 if (msg == null || msg.Author.IsBot || msg.Content.Length > 1023) return;
                 var chnl = channelmes as SocketGuildChannel;
-                var glds = SystemLoading.GetOrCreateGuldsCache(chnl.Guild.Id);
+                var glds = cache.GetOrCreateGuldsCache(chnl.Guild.Id);
 
                 var emjmess = DBcontext.EmoteClick.FirstOrDefault(x => x.guildid == chnl.Guild.Id && x.channelid == channelmes.Id && x.messageid == msg.Id);
                 if (emjmess != null) DBcontext.EmoteClick.Remove(emjmess);
@@ -228,7 +230,7 @@ namespace DarlingBotNet.Services
         {
             using (var DBcontext = new DBcontext())
             {
-                var glds = SystemLoading.GetOrCreateGuldsCache(guild.Id);
+                var glds = cache.GetOrCreateGuldsCache(guild.Id);
                 if (guild.GetChannel(glds.unbanchannel) != null)
                 {
                     var builder = new EmbedBuilder().WithColor(255, 0, 94)
@@ -245,7 +247,7 @@ namespace DarlingBotNet.Services
         {
             using (var DBcontext = new DBcontext())
             {
-                var glds = SystemLoading.GetOrCreateGuldsCache(user.Guild.Id);
+                var glds = cache.GetOrCreateGuldsCache(user.Guild.Id);
                 if (user.Guild.GetChannel(glds.leftchannel) != null)
                 {
                     var builder = new EmbedBuilder().WithColor(255, 0, 94)
@@ -277,12 +279,13 @@ namespace DarlingBotNet.Services
 
         private async Task UserJoined(SocketGuildUser user)
         {
+            
             using (var DBcontext = new DBcontext())
             {
-                var Guild = SystemLoading.GetOrCreateGuldsCache(user.Guild.Id);
+                var Guild = cache.GetOrCreateGuldsCache(user.Guild.Id);
                 if (Guild.WelcomeRole != 0)
                     await user.AddRoleAsync(user.Guild.GetRole(Guild.WelcomeRole));
-
+                
                 if (Guild.RaidStop)
                 {
                     if (Guild.RaidMuted > DateTime.Now)
@@ -314,12 +317,29 @@ namespace DarlingBotNet.Services
                     }
                 }
 
-                var usr = DBcontext.Users.FirstOrDefault(x => x.userid == user.Id && x.guildId == user.Guild.Id);
-                if (usr != null)
+                if (!user.IsBot)
                 {
-                    var role = DBcontext.LVLROLES.AsQueryable().Where(x => x.guildid == user.Guild.Id).AsEnumerable().Where(x => x.countlvl <= usr.Level).OrderBy(x => x.countlvl).LastOrDefault();
-                    if (role != null && user.Guild.GetRole(role.roleid) != null)
-                        await user.AddRoleAsync(user.Guild.GetRole(role.roleid));
+                    var usr = DBcontext.Users.FirstOrDefault(x => x.userid == user.Id && x.guildId == user.Guild.Id);
+                    if (usr != null)
+                    {
+                        var role = DBcontext.LVLROLES.AsQueryable().Where(x => x.guildid == user.Guild.Id).AsEnumerable().Where(x => x.countlvl <= usr.Level).OrderBy(x => x.countlvl).LastOrDefault();
+                        if (role != null && user.Guild.GetRole(role.roleid) != null)
+                            await user.AddRoleAsync(user.Guild.GetRole(role.roleid));
+                    }
+
+                    if (Guild.WelcomeDMmessage != null)
+                    {
+                        var mes = MessageBuilder.EmbedUserBuilder(Guild.WelcomeDMmessage);
+                        mes.Item1.Description = mes.Item1.Description.Replace("%user%", user.Mention);
+                        try
+                        {
+                            await user.SendMessageAsync(mes.Item2, false, mes.Item1.Build());
+                        }
+                        catch (Exception)
+                        {
+
+                        }
+                    }
                 }
 
                 if (user.Guild.GetChannel(Guild.joinchannel) != null)
@@ -337,12 +357,6 @@ namespace DarlingBotNet.Services
                     mes.Item1.Description = mes.Item1.Description.Replace("%user%", user.Mention);
                     await (user.Guild.GetChannel(Guild.WelcomeChannel) as ISocketMessageChannel).SendMessageAsync(mes.Item2, false, mes.Item1.Build());
 
-                }
-                if (Guild.WelcomeDMmessage != null && user.GetOrCreateDMChannelAsync().Result != null)
-                {
-                    var mes = MessageBuilder.EmbedUserBuilder(Guild.WelcomeDMmessage);
-                    mes.Item1.Description = mes.Item1.Description.Replace("%user%", user.Mention);
-                    await user.SendMessageAsync(mes.Item2, false, mes.Item1.Build());
                 }
             }
         }  // Вход пользователя Logging
@@ -396,7 +410,8 @@ namespace DarlingBotNet.Services
                         if (((user as SocketGuildUser).Guild.Users.Where(x => x.Status == UserStatus.Online || x.Status == UserStatus.DoNotDisturb).Count() / 0.6) > prv)
                         {
                             //await new Privates().CheckPrivate(glds.guildId, (user as SocketGuildUser).Guild);
-                            await new Privates().PrivateCreate(user as SocketGuildUser);
+                            if (!user.IsBot)
+                                await new Privates().PrivateCreate(user as SocketGuildUser);
                         }// Проверка приваток
                     }
 
@@ -436,20 +451,18 @@ namespace DarlingBotNet.Services
 
         private async Task Ready()
         {
-            await SystemLoading.GuildCheck(_discord, _provider);
+            Loadingdb.GuildCheck(_discord, _provider);
         }
 
         private async Task MessageReceived(SocketMessage message)
         {
             var msg = message as SocketUserMessage;
-            if (msg == null || msg.Author.IsBot || msg.MentionedUsers.FirstOrDefault(x => x.IsBot) != null || SystemLoading.loading == false) return;
+            if (msg == null || msg.Author.IsBot || msg.MentionedUsers.FirstOrDefault(x => x.IsBot) != null || Loadingdb.loading == false) return;
             var Context = new SocketCommandContext(_discord, msg);
 
-            var User = SystemLoading.GetOrCreateUserCache(Context.User.Id,Context.Guild.Id);
-            var Guild = SystemLoading.GetOrCreateGuldsCache(Context.Guild.Id);
-            var Channel = SystemLoading.GetOrCreateChannelCache(Context.Channel.Id, Context.Guild.Id);
+            var Guild = cache.GetOrCreateGuldsCache(Context.Guild.Id);
+            var Channel = cache.GetOrCreateChannelCache(Context.Channel.Id, Context.Guild.Id);
             if (await SystemLoading.ChatSystem(Context, Channel, Guild.Prefix)) return;
-
             int argPos = 0;
             if ((Channel.UseCommand || (Channel.UseRPcommand && _commands.Modules.FirstOrDefault(x => x.Name == "RPgif").Commands.FirstOrDefault(x => msg.Content.Contains(x.Name)) != null)) && msg.HasStringPrefix(Guild.Prefix, ref argPos))
             {
@@ -461,20 +474,11 @@ namespace DarlingBotNet.Services
                 }
                 else
                 {
-                    if ((Guilds)cache.Get(Guild.guildid) == null)
-                        cache.Set(Guild.guildid, Guild, new MemoryCacheEntryOptions()
-                        { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30) });
-
-                    if ((Users)cache.Get((User.userid, Guild.guildid)) == null)
-                        cache.Set((User.userid, Guild.guildid), User, new MemoryCacheEntryOptions()
-                        { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30) });
-
-                    if ((Channels)cache.Get((Channel.channelid, Guild.guildid)) == null)
-                        cache.Set((Channel.channelid, Guild.guildid), Channel, new MemoryCacheEntryOptions()
-                        { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30) });
+                    Users User = cache.GetOrCreateUserCache(Context.User.Id, Context.Guild.Id);
                 }
             }
-            if (Channel.GiveXP) await SystemLoading.LVL(msg);
+            if (Channel.GiveXP) 
+                await SystemLoading.LVL(msg);
         }
 
         private async Task LeftGuild(SocketGuild Guild)
@@ -482,7 +486,7 @@ namespace DarlingBotNet.Services
             using (var DBcontext = new DBcontext())
             {
                 var glds = DBcontext.Guilds.FirstOrDefault(x => x.guildid == Guild.Id);
-                await SystemLoading.GuildDelete(glds);
+                Loadingdb.GuildDelete(glds);
             }
         }
 
@@ -490,7 +494,7 @@ namespace DarlingBotNet.Services
         {
             using (var DBcontext = new DBcontext())
             {
-                var guild = SystemLoading.GuildCreate(Guild).Result;
+                var guild = Loadingdb.GuildCreate(Guild).Result;
                 var emb = new EmbedBuilder().WithColor(255, 0, 94)
                                             .WithAuthor($"Информация о боте {Guild.CurrentUser.Username}🌏", Guild.CurrentUser.GetAvatarUrl())
                                             .WithDescription(string.Format(SystemLoading.WelcomeText, guild.Prefix))

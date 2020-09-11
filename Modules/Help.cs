@@ -1,8 +1,10 @@
 ﻿using DarlingBotNet.DataBase;
+using DarlingBotNet.DataBase.Database;
 using DarlingBotNet.Services;
 using Discord;
 using Discord.Commands;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using ServiceStack;
 using System;
 using System.Linq;
@@ -15,12 +17,14 @@ namespace DarlingBotNet.Modules
     {
         private readonly CommandService _service;
         private readonly IServiceProvider _provider;
+        private readonly IMemoryCache _cache;
 
 
-        public Help(CommandService service, IServiceProvider provider)
+        public Help(CommandService service, IServiceProvider provider, IMemoryCache cache)
         {
             _service = service;
             _provider = provider;
+            _cache = cache;
         }
 
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
@@ -28,7 +32,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                string prefix = SystemLoading.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
+                string prefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("📚Модули бота")
                                             .WithFooter($"Команды модуля - {prefix}c [Имя модуля]");
                 var mdls = _service.Modules;
@@ -47,7 +51,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.FirstOrDefault(x => x.guildid == Context.Guild.Id);
+                var Guild = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"📜{modules} - Команды");
 
                 var mdls = _service.Modules.FirstOrDefault(x => x.Name.ToLower() == modules.ToLower());

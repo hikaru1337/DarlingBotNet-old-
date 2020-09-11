@@ -9,6 +9,8 @@ using DarlingBotNet.Services;
 using System.Numerics;
 using DarlingBotNet.Services.Sys;
 using DarlingBotNet.DataBase;
+using Microsoft.Extensions.Caching.Memory;
+using DarlingBotNet.DataBase.Database;
 
 namespace DarlingBotNet.Modules
 {
@@ -16,32 +18,38 @@ namespace DarlingBotNet.Modules
     {
         private readonly DiscordSocketClient _discord;
         private readonly IServiceProvider _provider;
-        public Admins(DiscordSocketClient discord, IServiceProvider provider)
+        private readonly IMemoryCache _cache;
+        public Admins(DiscordSocketClient discord, IServiceProvider provider, IMemoryCache cache)
         {
             _provider = provider;
             _discord = discord;
+            _cache = cache;
         }
 
         [Aliases, Commands, Usage, Descriptions]
         [PermissionBlockCommand]
         [RequireUserPermission(GuildPermission.BanMembers)]
-        public async Task ban(IGuildUser user, uint DeleteMessageDays = 0, [Remainder] string reason = null)
+        public async Task ban(SocketGuildUser user, uint DeleteMessageDays = 0, [Remainder] string reason = null)
         {
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"{user.Mention} ban");
             if (DeleteMessageDays <= 7)
             {
-                emb.WithDescription($"Пользователь {user.Mention} получил Ban{(reason != null ? $"\nПричина: {reason}" : "")}").WithAuthor($"{user.Mention} Banned");
-                try
+                if (user.Hierarchy < Context.Guild.GetUser(Context.Client.CurrentUser.Id).Hierarchy)
                 {
-                    var embb = new EmbedBuilder().WithDescription($"Вы были забанены на сервере {Context.Guild.Name}{(reason != null ? $"\nПричина: {reason}" : "")}").WithAuthor($"Banned");
-                    await user.SendMessageAsync("", false, embb.Build());
-                    emb.Description += "\nСообщение было доставлено пользователю!";
+                    emb.WithDescription($"Пользователь {user.Mention} получил Ban{(reason != null ? $"\nПричина: {reason}" : "")}").WithAuthor($"{user.Mention} Banned");
+                    try
+                    {
+                        var embb = new EmbedBuilder().WithDescription($"Вы были забанены на сервере {Context.Guild.Name}{(reason != null ? $"\nПричина: {reason}" : "")}").WithAuthor($"Banned",user.GetAvatarUrl());
+                        await user.SendMessageAsync("", false, embb.Build());
+                        emb.Description += "\nСообщение было доставлено пользователю!";
+                    }
+                    catch (Exception)
+                    {
+                        emb.Description += "\nСообщение не было доставлено пользователю!";
+                    }
+                    await user.Guild.AddBanAsync(user, (int)DeleteMessageDays, reason);
                 }
-                catch (Exception)
-                {
-                    emb.Description += "\nСообщение не было доставлено пользователю!";
-                }
-                await user.Guild.AddBanAsync(user, (int)DeleteMessageDays, reason);
+                else emb.WithDescription($"Пользователь {user.Mention} имеет права выше бота!\nБот не может забанить пользователя");
             }
             else emb.WithDescription("Вы не можете удалить сообщения больше чем за 7 дней").WithAuthor("Ban Error");
             await Context.Channel.SendMessageAsync("", false, emb.Build());
@@ -66,22 +74,27 @@ namespace DarlingBotNet.Modules
         [Aliases, Commands, Usage, Descriptions]
         [PermissionBlockCommand]
         [RequireUserPermission(GuildPermission.KickMembers)]
-        public async Task kick(IGuildUser user, [Remainder] string reason = null)
+        public async Task kick(SocketGuildUser user, [Remainder] string reason = null)
         {
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Kick");
-            emb.WithDescription($"Пользователь {user.Mention} был кикнут{(reason != null ? $"\nПричина: {reason}" : "")}").WithAuthor($"{user.Mention} Kicked");
-            try
+            if (user.Hierarchy < Context.Guild.GetUser(Context.Client.CurrentUser.Id).Hierarchy)
             {
-                var embb = new EmbedBuilder().WithDescription($"Вы были кикнуты с сервера {Context.Guild.Name}{(reason != null ? $"\nПричина: {reason}" : "")}").WithAuthor($"Kicked");
-                await user.SendMessageAsync("", false, embb.Build());
-                emb.Description += "\nСообщение было доставлено пользователю!";
+                emb.WithDescription($"Пользователь {user.Mention} был кикнут{(reason != null ? $"\nПричина: {reason}" : "")}").WithAuthor($"{user.Mention} Kicked", user.GetAvatarUrl());
+                try
+                {
+                    var embb = new EmbedBuilder().WithDescription($"Вы были кикнуты с сервера {Context.Guild.Name}{(reason != null ? $"\nПричина: {reason}" : "")}").WithAuthor($"Kicked",user.GetAvatarUrl());
+                    await user.SendMessageAsync("", false, embb.Build());
+                    emb.Description += "\nСообщение было доставлено пользователю!";
+                }
+                catch (Exception)
+                {
+                    emb.Description += "\nСообщение не было доставлено пользователю!";
+                }
+                await user.KickAsync(reason);
             }
-            catch (Exception)
-            {
-                emb.Description += "\nСообщение не было доставлено пользователю!";
-            }
+            else emb.WithDescription($"Пользователь {user.Mention} имеет права выше бота!\nБот не может кикнуть пользователя");
             await Context.Channel.SendMessageAsync("", false, emb.Build());
-            await user.KickAsync(reason);
+            
         }
 
         [Aliases, Commands, Usage, Descriptions]
@@ -98,7 +111,7 @@ namespace DarlingBotNet.Modules
                 emb.WithDescription($"Пользователь {user.Mention} получил мут").WithAuthor($"{user.Mention} Muted");
                 try
                 {
-                    var embb = new EmbedBuilder().WithDescription($"Вы были замучены на сервере {Context.Guild.Name}").WithAuthor($"Muted");
+                    var embb = new EmbedBuilder().WithDescription($"Вы были замучены на сервере {Context.Guild.Name}").WithAuthor($"Muted", user.GetAvatarUrl());
                     await user.SendMessageAsync("", false, embb.Build());
                     emb.Description += "\nСообщение было доставлено пользователю!";
                 }
@@ -199,80 +212,91 @@ namespace DarlingBotNet.Modules
             using (var DBcontext = new DBcontext())
             {
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Warn");
-                var wrn = new WarnSystem().WarnUser(user).Result;
-                var usr = wrn.Item1;
-                emb.Description += wrn.Item2.Description;
+                //var wrn = new WarnSystem().WarnUser(user,_cache).Result;
+
+                var glds = _cache.GetOrCreateGuldsCache(user.Guild.Id);
+                var GuildWarnCount = DBcontext.Warns.AsQueryable().Count(x => x.guildid == user.Guild.Id);
+                var usr = _cache.GetOrCreateUserCache(user.Id, user.Guild.Id);
+                if (usr.countwarns >= 15 || usr.countwarns >= GuildWarnCount)
+                    usr.countwarns = 1;
+                else
+                    usr.countwarns++;
+                emb.WithDescription($"Пользователь {user.Mention} получил {usr.countwarns} нарушение");
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
-                var glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == user.Guild.Id);
+                //var usr = wrn.Item1;
+                //emb.Description += wrn.Item2.Description;
+
                 var warn = DBcontext.Warns.FirstOrDefault(x=>x.guildid == user.Guild.Id && x.CountWarn == usr.countwarns);
                 if (warn != null)
                 {
-                    if (warn.ReportWarn == "kick")
-                        await user.KickAsync();
-                    else if (warn.ReportWarn == "ban")
+                    var rep = string.Concat(warn.ReportWarn.ToCharArray().Where(x => !(x >= 48 && x <= 57)));
+                    var times = string.Concat(warn.ReportWarn.ToCharArray().Where(x => x >= 48 && x <= 57));
+                    var time = Convert.ToInt32(times);
+                    var DateTimes = DateTime.Now.AddMinutes(time);
+                    TempUser xz = null;
+
+
+                    if (rep == "tban" || rep == "tmute")
                     {
-                        var usrtban = DBcontext.TempUser.AsQueryable().Where(x => x.userId == Context.User.Id && x.guildid == Context.Guild.Id && x.Reason.Contains("tban"));
+                        var usrtban = DBcontext.TempUser.AsQueryable().Where(x => x.userId == Context.User.Id && x.guildid == Context.Guild.Id && x.Reason.Contains(rep));
                         DBcontext.TempUser.RemoveRange(usrtban);
-                        await user.BanAsync();
+                        xz = DBcontext.TempUser.Add(new TempUser() { guildid = Context.Guild.Id, userId = user.Id, ToTime = DateTimes, Reason = warn.ReportWarn }).Entity;
+                        await DBcontext.SaveChangesAsync();
                     }
-                    else if (warn.ReportWarn == "mute" || warn.ReportWarn.Substring(0, 4) == "tban" || warn.ReportWarn.Contains("tmute"))
+                    if (rep == "kick")
                     {
-                        if (warn.ReportWarn == "mute" || warn.ReportWarn.Contains("tmute"))
+                        if (user.Hierarchy < Context.Guild.GetUser(Context.Client.CurrentUser.Id).Hierarchy)
+                            await user.KickAsync();
+                        else emb.WithDescription($"Пользователь {user.Mention} имеет права выше бота!\nБот не может кикнуть пользователя");
+                    }
+                    else
+                    {
+                        if (rep == "ban" || rep == "tban")
                         {
-                            var usrtmute = DBcontext.TempUser.AsQueryable().Where(x => x.userId == Context.User.Id && x.guildid == Context.Guild.Id && x.Reason.Contains("tmute"));
-                            DBcontext.TempUser.RemoveRange(usrtmute);
+                            if (user.Hierarchy < Context.Guild.GetUser(Context.Client.CurrentUser.Id).Hierarchy)
+                                await user.BanAsync();
+                            else emb.WithDescription($"Пользователь {user.Mention} имеет права выше бота!\nБот не может кикнуть пользователя");
+                        }
+                        else if (rep == "mute" || rep == "tmute")
+                        {
                             glds = await SystemLoading.CreateMuteRole(Context.Guild);
                             await user.AddRoleAsync(user.Guild.GetRole(glds.chatmuterole));
                             await user.AddRoleAsync(user.Guild.GetRole(glds.voicemuterole));
                         }
-                        if (warn.ReportWarn != "mute")
+
+                        if (rep == "tban" || rep == "tmute")
                         {
-                            int minute = 0;
-                            if (warn.ReportWarn.Contains("tban"))
+                            await Task.Delay(time * 60000);
+                            if (DBcontext.TempUser.FirstOrDefault(x => x.guildid == xz.guildid && x.ToTime == xz.ToTime && x.userId == xz.userId) != null)
                             {
-                                var usrtban = DBcontext.TempUser.AsQueryable().Where(x => x.userId == Context.User.Id && x.guildid == Context.Guild.Id && x.Reason.Contains("tban"));
-                                DBcontext.TempUser.RemoveRange(usrtban);
-                                minute = Convert.ToInt32(warn.ReportWarn.ToLower().Substring(4, warn.ReportWarn.ToLower().Length - 4));
-                            }
-                            else if (warn.ReportWarn.Contains("tmute"))
-                            {
-                                var usrtmute = DBcontext.TempUser.AsQueryable().Where(x => x.userId == Context.User.Id && x.guildid == Context.Guild.Id && x.Reason.Contains("tmute"));
-                                DBcontext.TempUser.RemoveRange(usrtmute);
-                                minute = Convert.ToInt32(warn.ReportWarn.ToLower().Substring(5, warn.ReportWarn.ToLower().Length - 5));
-                            }
-                            var time = DateTime.Now.AddMinutes(minute);
-                            var xz = DBcontext.TempUser.Add(new TempUser() { guildid = Context.Guild.Id, userId = user.Id, ToTime = time, Reason = warn.ReportWarn }).Entity;
-                            await DBcontext.SaveChangesAsync();
-                            if (warn.ReportWarn.Substring(0, 4) == "tban")
-                            {
-                                await user.BanAsync();
-                                await Task.Delay(minute * 60000);
-                                if (DBcontext.TempUser.FirstOrDefault(x => x == xz) != null)
+                                DBcontext.TempUser.Remove(xz);
+                                await DBcontext.SaveChangesAsync();
+                                bool success = false;
+                                if (rep == "tban")
                                 {
-                                    DBcontext.TempUser.Remove(xz);
-                                    await DBcontext.SaveChangesAsync();
-                                    emb.WithDescription($"Пользователь {user.Mention} получил разбан");
+                                    var ban = await user.Guild.GetBanAsync(user);
+                                    if (ban != null)
+                                    {
+                                        await user.Guild.RemoveBanAsync(user);
+                                        success = true;
+                                        emb.WithDescription($"Пользователь {user.Mention} получил разбан");
+                                    }
                                 }
-                            }
-                            else if (warn.ReportWarn.Substring(0, 5) == "tmute")
-                            {
-                                await Task.Delay(minute * 60000);
-                                if (DBcontext.TempUser.FirstOrDefault(x => x == xz) != null)
+                                else
                                 {
-                                    DBcontext.TempUser.Remove(xz);
-                                    await DBcontext.SaveChangesAsync();
                                     glds = await SystemLoading.CreateMuteRole(Context.Guild);
-                                    if (user.Roles.Where(x => x.Id == glds.chatmuterole || x.Id == glds.voicemuterole) != null)
+                                    if (user.Roles.Count(x => x.Id == glds.chatmuterole || x.Id == glds.voicemuterole) > 0)
                                     {
                                         emb.WithDescription($"Пользователь {user.Mention} получил размут");
+                                        success = true;
                                         await user.RemoveRoleAsync(user.Guild.GetRole(glds.chatmuterole));
                                         await user.RemoveRoleAsync(user.Guild.GetRole(glds.voicemuterole));
                                     }
                                 }
+                                if (success)
+                                    await Context.Channel.SendMessageAsync("", false, emb.Build());
                             }
-                            await Context.Channel.SendMessageAsync("", false, emb.Build());
                         }
-
                     }
                 }
             }
@@ -286,32 +310,40 @@ namespace DarlingBotNet.Modules
             using (var DBcontext = new DBcontext())
             {
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("UnWarn");
-                var wrn = new WarnSystem().UnWarnUser(user).Result;
-                uint i = wrn.Item1.countwarns++;
-                var Warn = DBcontext.Warns.FirstOrDefault(x=>x.guildid == user.Guild.Id && x.CountWarn == i);
+                var usr = _cache.GetOrCreateUserCache(user.Id, user.Guild.Id);
+                var Warn = DBcontext.Warns.FirstOrDefault(x=>x.guildid == user.Guild.Id && x.CountWarn == usr.countwarns);
                 if (Warn != null)
                 {
-                    var glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == user.Guild.Id);
-                    if (Warn.ReportWarn == "ban")
+                    var rep = string.Concat(Warn.ReportWarn.ToCharArray().Where(x => !(x >= 48 && x <= 57)));
+                    if (rep == "ban")
                         await Context.Guild.RemoveBanAsync(user);
-                    else if (Warn.ReportWarn == "mute")
+                    else if (rep == "tban" || rep == "tmute" || rep == "mute")
                     {
-                        glds = await SystemLoading.CreateMuteRole(Context.Guild);
-                        await user.RemoveRoleAsync(user.Guild.GetRole(glds.chatmuterole));
-                        await user.RemoveRoleAsync(user.Guild.GetRole(glds.voicemuterole));
-                    }
-                    else if (Warn.ReportWarn.Substring(0, 4) == "tban" || Warn.ReportWarn.Substring(0, 5) == "tmute")
-                    {
-                        var time = DBcontext.TempUser.FirstOrDefault(x=>x.guildid == Context.Guild.Id && x.userId == user.Id && x.ToTime < DateTime.Now);
-                        if (time != null)
+                        if(rep != "tban")
                         {
-                            DBcontext.TempUser.Remove(time);
-                            await DBcontext.SaveChangesAsync();
+                            var glds = await SystemLoading.CreateMuteRole(Context.Guild);
+                            await user.RemoveRoleAsync(user.Guild.GetRole(glds.chatmuterole));
+                            await user.RemoveRoleAsync(user.Guild.GetRole(glds.voicemuterole));
                         }
-
+                        else
+                            await Context.Guild.RemoveBanAsync(user);
+                        if (rep != "mute")
+                        {
+                            var time = DBcontext.TempUser.FirstOrDefault(x => x.guildid == Context.Guild.Id && x.userId == user.Id && x.ToTime < DateTime.Now);
+                            if (time != null)
+                            {
+                                DBcontext.TempUser.Remove(time);
+                                await DBcontext.SaveChangesAsync();
+                            }
+                        }
                     }
                 }
-                emb.Description = wrn.Item2.Description;
+                if (usr.countwarns != 0)
+                {
+                    emb.WithDescription($"У пользователя {user.Mention} снято {usr.countwarns} нарушение.");
+                    usr.countwarns--;
+                }
+                else emb.WithDescription($"У пользователя {user.Mention} нету нарушений.");
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
         }

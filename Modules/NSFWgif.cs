@@ -50,7 +50,7 @@ namespace DarlingBotNet.Modules
             var nsfw = checkNSFW(Context);
             if (nsfw.Description == null)
             {
-                Request Gif = await NekoClient.Nsfw_v3.AnalGif();
+                var Gif = await NekoClient.Nsfw_v3.AnalGif();
                 if (Gif.Success) embed.WithImageUrl(Gif.ImageUrl);
                 else embed.WithDescription("Повторите попытку");
             }

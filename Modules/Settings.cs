@@ -1,11 +1,12 @@
 ﻿using DarlingBotNet.DataBase;
-
+using DarlingBotNet.DataBase.Database;
 using DarlingBotNet.Services;
 using DarlingBotNet.Services.Sys;
 using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,13 +19,14 @@ namespace DarlingBotNet.Modules
         private readonly DiscordSocketClient _discord;
         private readonly CommandService _commands;
         private readonly IServiceProvider _provider;
-        
+        private readonly IMemoryCache _cache;
 
-        public Settings(DiscordSocketClient discord, CommandService commands,  IServiceProvider provider)
+        public Settings(DiscordSocketClient discord, CommandService commands,  IServiceProvider provider, IMemoryCache cache)
         {
             _discord = discord;
             _commands = commands;
             _provider = provider;
+            _cache = cache;
             
         } // Подключение компонентов
 
@@ -34,7 +36,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var Guild = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var embed = new EmbedBuilder().WithColor(255, 0, 94)
                                               .WithFooter($"Выбор системы - **{Guild.Prefix}ViolationSystemSet [WarnSystem/OFF]**\n" +
                                                           $"💤**OFF** - отключить систему");
@@ -81,7 +83,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var glds = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var embed = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨ReportSystemSet").WithFooter($"Для настройки напишите {glds.Prefix}violationsystem"); ;
                 if (System.ToLower() == "off")
                 {
@@ -101,6 +103,7 @@ namespace DarlingBotNet.Modules
                 else
                     embed.WithDescription("⚠️ репорт система не найдена!").WithFooter("Все возможные режимы - warnsystem,OFF");
 
+                _cache.Update(glds);
                 DBcontext.Guilds.Update(glds);
                 await DBcontext.SaveChangesAsync();
                 await Context.Channel.SendMessageAsync("", false, embed.Build());
@@ -110,18 +113,44 @@ namespace DarlingBotNet.Modules
 
         [Aliases, Commands, Usage, Descriptions]
         [PermissionBlockCommand, PermissionServerOwner, PermissionViolation]
-        public async Task addwarn(ulong CountWarn, string report)
+        public async Task addwarn(uint CountWarn, string report)
         {
             using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var Guild = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var warn = DBcontext.Warns.FirstOrDefault(x=>x.guildid == Context.Guild.Id && x.CountWarn == CountWarn);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("AddWarn");
 
                 if (CountWarn <= 15)
                 {
-                    var Text = SystemLoading.CheckText(report);
-                    if (Text.Item1)
+                    bool es = false;
+                    bool error = false;
+                    if (report.ToLower() == "kick" || report.ToLower() == "ban" || report.ToLower() == "mute")
+                        es = true;
+                    else if (report.ToLower().Substring(0, 4) == "tban" || report.ToLower().Substring(0, 5) == "tmute")
+                    {
+                        int count = 5;
+                        if (report.ToLower().Substring(0, 4) == "tban") count = 4;
+                        try
+                        {
+                            if (Convert.ToUInt64(report.ToLower().Substring(count, report.Length - count)) <= 720)
+                                es = true;
+                            else
+                                emb.WithDescription("Время должно быть не больше 720 минут");
+                        }
+                        catch (Exception)
+                        {
+                            error = true;
+                        }
+                    }
+                    else error = true;
+
+                    if (error)
+                        emb.WithDescription("Используйте эти нарушения ban,kick,mute,tmute,tban.")
+                            .WithFooter("Инструкция о команде - [инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#vystavit-varn-na-servere)");
+
+                    //var Text = SystemLoading.CheckText(report);
+                    if (es)
                     {
                         if (warn != null)
                         {
@@ -137,14 +166,16 @@ namespace DarlingBotNet.Modules
 
                         }
                         emb.WithFooter($"Посмотреть все варны {Guild.Prefix}ws");
+                        _cache.Update(Guild);
+                        DBcontext.Guilds.Update(Guild);
                         await DBcontext.SaveChangesAsync();
                     }
-                    else
-                    {
-                        emb.Description += Text.Item2.Description;
-                        if (Text.Item2.Footer != null)
-                            emb.Footer = Text.Item2.Footer;
-                    }
+                    //else
+                    //{
+                    //    emb.Description += Text.Item2.Description;
+                    //    if (Text.Item2.Footer != null)
+                    //        emb.Footer = Text.Item2.Footer;
+                    //}
                 }
                 else emb.WithFooter($"Количество варнов не может быть больше 15");
 
@@ -158,7 +189,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var Guild = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var warn = DBcontext.Warns.FirstOrDefault(x=>x.guildid == Context.Guild.Id && x.CountWarn == CountWarn);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("AddWarn");
                 if (warn != null)
@@ -180,7 +211,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var Guild = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Prefix");
                 if (prefix == null) emb.WithDescription($"Префикс сервера - {Guild.Prefix}");
                 else
@@ -190,6 +221,8 @@ namespace DarlingBotNet.Modules
                     {
                         emb.WithDescription($"Префикс сервера изменен с `{Guild.Prefix}` на `{prefix}`");
                         Guild.Prefix = prefix;
+                        _cache.Update(Guild);
+                        DBcontext.Guilds.Update(Guild);
                         await DBcontext.SaveChangesAsync();
                     }
                 }
@@ -205,7 +238,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var Guild = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("CommandInvise - Отключенные команды");
 
                 if (commandname == null)
@@ -247,6 +280,7 @@ namespace DarlingBotNet.Modules
                         else liststring.Remove(commandname.ToLower());
 
                         Guild.CommandInviseList = liststring;
+                        _cache.Update(Guild);
                         DBcontext.Guilds.Update(Guild);
                         await DBcontext.SaveChangesAsync();
                     }
@@ -266,8 +300,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-
-                var glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                var glds = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨lr.Add");
                 var lvlrole = DBcontext.LVLROLES.FirstOrDefault(x=>x.roleid == role.Id && x.guildid == Context.Guild.Id);
                 if (lvlrole == null)
@@ -319,7 +352,7 @@ namespace DarlingBotNet.Modules
             using (var DBcontext = new DBcontext())
             {
                 var emb = new EmbedBuilder().WithColor(255, 0, 94);
-                var prefix = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
+                var prefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
                 var chnl = new Channels();
                 //if (channelz as SocketTextChannel == null)
                 //{
@@ -351,14 +384,14 @@ namespace DarlingBotNet.Modules
                 //{
                 //var channel = channelz as SocketTextChannel;
                 emb.WithAuthor($"🔨ChannelSettings {(channel == null ? " " : $"- {channel.Name}")}");
-                if (channel != null) chnl = DBcontext.Channels.FirstOrDefault(x => x.channelid == channel.Id && x.guildid == channel.Guild.Id);
+                if (channel != null) chnl = _cache.GetOrCreateChannelCache(channel.Id, channel.Guild.Id);
                 if (channel != null && number == 0)
                 {
                     if (chnl != null)
                     {
                         emb.AddField("1 Получение опыта", chnl.GiveXP ? "Вкл" : "Выкл", true);
                         emb.AddField("2 Удалять ссылки", chnl.SendUrl ? "Вкл" : "Выкл", true);
-                        if (chnl.SendUrl) emb.AddField("2,1 Удалять ссылки-изображения?", chnl.SendUrlImage ? "Вкл" : "Выкл", true);
+                        if (chnl.SendUrl) emb.AddField("2.1 Удалять ссылки-изображения?", chnl.SendUrlImage ? "Вкл" : "Выкл", true);
                         if (chnl.SendUrl) emb.AddField("Url White List:", chnl.csUrlWhiteListList.Count == 0 ? "-" : string.Join(",", chnl.csUrlWhiteListList), true);
                         emb.AddField("3 Удалять КАПС сообщения", chnl.SendCaps ? "Вкл" : "Выкл", true);
                         emb.AddField("4 Плохие слова", chnl.SendBadWord ? "Вкл" : "Выкл", true);
@@ -379,7 +412,7 @@ namespace DarlingBotNet.Modules
                         switch (number)
                         {
                             case 1:
-                                emb.WithDescription($"Получение уровней в {channel.Mention} {(chnl.GiveXP ? "выключено" : "включены")}");
+                                emb.WithDescription($"Получение уровней в {channel.Mention} {(chnl.GiveXP ? "выключено" : "включено")}");
                                 chnl.GiveXP = !chnl.GiveXP;
                                 break;
                             case 2:
@@ -432,6 +465,7 @@ namespace DarlingBotNet.Modules
                                 emb.WithDescription($"Команда с таким номером не найдена!");
                                 break;
                         }
+                        _cache.Update(chnl);
                         DBcontext.Channels.Update(chnl);
                         await DBcontext.SaveChangesAsync();
                     }
@@ -450,10 +484,10 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                Guilds glds = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨cs.badword")
                                             .WithFooter($"Добавить/Удалить - {glds.Prefix}cs.bw {channel.Name} [слово]");
-                Channels chnl = DBcontext.Channels.FirstOrDefault(x => x.channelid == channel.Id && x.guildid == channel.Guild.Id);
+                Channels chnl = _cache.GetOrCreateChannelCache(channel.Id, channel.Guild.Id);
 
                 if (chnl.SendBadWord)
                 {
@@ -470,6 +504,7 @@ namespace DarlingBotNet.Modules
                     }
 
                     chnl.BadWordList = badlist;
+                    _cache.Update(chnl);
                     DBcontext.Channels.Update(chnl);
                     await DBcontext.SaveChangesAsync();
                 }
@@ -484,9 +519,10 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                Guilds glds = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨cs.givexp");
                 glds.GiveXPnextChannel = !glds.GiveXPnextChannel;
+                _cache.Update(glds);
                 DBcontext.Guilds.Update(glds);
                 await DBcontext.SaveChangesAsync();
                 emb.WithDescription($"В дальнейшем в созданных каналах, опыт {(glds.GiveXPnextChannel ? "" : "не ")}будет получаться");
@@ -500,10 +536,10 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var prefix = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id).Prefix;
+                var prefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨cs.UrlWhiteList")
                                             .WithFooter($"Добавить/Удалить - {prefix}cs.uwl #{channel.Name} [url]");
-                Channels chnl = DBcontext.Channels.FirstOrDefault(x=>x.channelid == channel.Id && x.guildid == channel.Guild.Id);
+                Channels chnl = _cache.GetOrCreateChannelCache(channel.Id, channel.Guild.Id);
 
                 if (chnl.SendUrl)
                 {
@@ -520,6 +556,7 @@ namespace DarlingBotNet.Modules
                     }
 
                     chnl.csUrlWhiteListList = UrlWhiteList;
+                    _cache.Update(chnl);
                     DBcontext.Channels.Update(chnl);
                     await DBcontext.SaveChangesAsync();
                 }
@@ -534,7 +571,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                Guilds Guild = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(" - LogsServer", Context.Guild.IconUrl);
                 if (selection == 0 && channel == null)
                 {
@@ -606,6 +643,7 @@ namespace DarlingBotNet.Modules
                                 else if (func != 0) Guild.voiceUserActions = 0;
                                 break;
                         }
+                        _cache.Update(Guild);
                         DBcontext.Guilds.Update(Guild);
                         await DBcontext.SaveChangesAsync();
                         if (func == 0)
@@ -630,7 +668,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                Guilds Guild = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(" - MessageSettings", Context.Guild.IconUrl);
                 ulong point = 1;
                 if (selection == 0 && text == null)
@@ -854,6 +892,7 @@ namespace DarlingBotNet.Modules
                                 }
                                 break;
                         }
+                        _cache.Update(Guild);
                         DBcontext.Guilds.Update(Guild);
                         await DBcontext.SaveChangesAsync();
                     }
@@ -869,7 +908,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds Guild = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                Guilds Guild = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var embed = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨PrivateCreate");
 
                 if (Context.Guild.GetVoiceChannel(Guild.PrivateChannelID) == null)
@@ -878,6 +917,7 @@ namespace DarlingBotNet.Modules
                     var category = await Context.Guild.CreateCategoryChannelAsync("DARLING PRIVATE");
                     var pr = await Context.Guild.CreateVoiceChannelAsync("СОЗДАТЬ 🎉", x => x.CategoryId = category.Id);
                     Guild.PrivateChannelID = pr.Id;
+                    _cache.Update(Guild);
                     DBcontext.Guilds.Update(Guild);
                     await DBcontext.SaveChangesAsync();
                 }
@@ -893,7 +933,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                Guilds glds = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var emb = new EmbedBuilder().WithAuthor("🔨MuteRole").WithColor(255, 0, 94).WithDescription("Роли для нарушений уже созданы!");
                 var chatrole = Context.Guild.GetRole(glds.chatmuterole);
                 var voicerole = Context.Guild.GetRole(glds.voicemuterole);
@@ -912,70 +952,71 @@ namespace DarlingBotNet.Modules
         }
 
 
-        [Aliases, Commands, Usage, Descriptions]
-        [PermissionBlockCommand, PermissionServerOwner]
-        public async Task raidsettings(uint select = 0, uint point = 0)
-        {
-            using (var DBcontext = new DBcontext())
-            {
-                Guilds glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
-                var emb = new EmbedBuilder().WithAuthor("🔨RaidSettings").WithColor(255, 0, 94);
-                string raidus = "Для подробной настройки Anti-Raid системы используйте -> [инструкцию](https://docs.darlingbot.ru/commands/settings-server/anti-raid-sistema)";
-                if (select == 0 && point == 0)
-                {
-                    emb.WithDescription(raidus);
-                    emb.AddField("1.Анти-Raid система", $"{(glds.RaidStop == false ? "Выкл" : "Вкл")}", true);
-                    if (glds.RaidStop)
-                    {
-                        emb.AddField("2.Время срабатывания", $"{glds.RaidTime}", true);
-                        emb.AddField("3.Кол-во пользователей", $"{glds.RaidUserCount}", true);
-                    }
-                    else emb.WithFooter($"Включить систему - {glds.Prefix}rs 1");
-                }
-                else
-                {
-                    if (select == 1)
-                    {
-                        emb.WithDescription($"Anti-Raid система {(glds.RaidStop == true ? "выключена" : "включена")}");
-                        if (!glds.RaidStop)
-                        {
-                            emb.Description += "\nСамые оптимальные настройки уже были выставлены!";
-                            emb.WithFooter("Напишите команду без параметров если хотите настроить систему.");
-                            glds.RaidUserCount = 5;
-                            glds.RaidTime = 3;
-                        }
-                        glds.RaidStop = !glds.RaidStop;
-                    }
-                    else if ((select == 2 || select == 3) && glds.RaidStop)
-                    {
-                        if (select == 2)
-                        {
-                            if (point < 1 && point > 20)
-                                emb.WithDescription("Ради безопасности ваших пользователей, нельзя выставить время меньше 1 и больше 20 секунд.");
-                            else
-                            {
-                                emb.WithDescription($"Если в течении {point} секунд, зайдет {glds.RaidUserCount} человек, их и последующих зашедших пользователей в течении 30 секунд, замутит.\nВнимание, я выдам просто роль, вы самостоятельно ее можете снять, проверив пользователя.");
-                                glds.RaidTime = point;
-                            }
-                        }
-                        else
-                        {
-                            emb.WithDescription($"Если в течении {glds.RaidTime} секунд, зайдет {point} человек, их и последующих зашедших пользователей в течении 30 секунд, замутит.\nВнимание, я выдам просто роль, вы самостоятельно ее можете снять, проверив пользователя.");
-                            glds.RaidUserCount = point;
-                        }
-                    }
-                    else
-                    {
-                        if (glds.RaidStop) emb.WithDescription($"Первый параметр не может быть больше 3.\n{raidus}");
-                        else emb.WithDescription($"Для того чтобы пользовать Raid системой, нужно ее включить\n{raidus}").WithFooter($"Включить - {glds.Prefix}rs 1");
-                    }
+        //[Aliases, Commands, Usage, Descriptions]
+        //[PermissionBlockCommand, PermissionServerOwner]
+        //public async Task raidsettings(uint select = 0, uint point = 0)
+        //{
+        //    using (var DBcontext = new DBcontext())
+        //    {
+        //        Guilds glds = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
+        //        var emb = new EmbedBuilder().WithAuthor("🔨RaidSettings").WithColor(255, 0, 94);
+        //        string raidus = "Для подробной настройки Anti-Raid системы используйте -> [инструкцию](https://docs.darlingbot.ru/commands/settings-server/anti-raid-sistema)";
+        //        if (select == 0 && point == 0)
+        //        {
+        //            emb.WithDescription(raidus);
+        //            emb.AddField("1.Анти-Raid система", $"{(glds.RaidStop == false ? "Выкл" : "Вкл")}", true);
+        //            if (glds.RaidStop)
+        //            {
+        //                emb.AddField("2.Время срабатывания", $"{glds.RaidTime}", true);
+        //                emb.AddField("3.Кол-во пользователей", $"{glds.RaidUserCount}", true);
+        //            }
+        //            else emb.WithFooter($"Включить систему - {glds.Prefix}rs 1");
+        //        }
+        //        else
+        //        {
+        //            if (select == 1)
+        //            {
+        //                emb.WithDescription($"Anti-Raid система {(glds.RaidStop == true ? "выключена" : "включена")}");
+        //                if (!glds.RaidStop)
+        //                {
+        //                    emb.Description += "\nСамые оптимальные настройки уже были выставлены!";
+        //                    emb.WithFooter("Напишите команду без параметров если хотите настроить систему.");
+        //                    glds.RaidUserCount = 5;
+        //                    glds.RaidTime = 3;
+        //                }
+        //                glds.RaidStop = !glds.RaidStop;
+        //            }
+        //            else if ((select == 2 || select == 3) && glds.RaidStop)
+        //            {
+        //                if (select == 2)
+        //                {
+        //                    if (point < 1 && point > 20)
+        //                        emb.WithDescription("Ради безопасности ваших пользователей, нельзя выставить время меньше 1 и больше 20 секунд.");
+        //                    else
+        //                    {
+        //                        emb.WithDescription($"Если в течении {point} секунд, зайдет {glds.RaidUserCount} человек, их и последующих зашедших пользователей в течении 30 секунд, замутит.\nВнимание, я выдам просто роль, вы самостоятельно ее можете снять, проверив пользователя.");
+        //                        glds.RaidTime = point;
+        //                    }
+        //                }
+        //                else
+        //                {
+        //                    emb.WithDescription($"Если в течении {glds.RaidTime} секунд, зайдет {point} человек, их и последующих зашедших пользователей в течении 30 секунд, замутит.\nВнимание, я выдам просто роль, вы самостоятельно ее можете снять, проверив пользователя.");
+        //                    glds.RaidUserCount = point;
+        //                }
+        //            }
+        //            else
+        //            {
+        //                if (glds.RaidStop) emb.WithDescription($"Первый параметр не может быть больше 3.\n{raidus}");
+        //                else emb.WithDescription($"Для того чтобы пользовать Raid системой, нужно ее включить\n{raidus}").WithFooter($"Включить - {glds.Prefix}rs 1");
+        //            }
 
-                    DBcontext.Guilds.Update(glds);
-                    await DBcontext.SaveChangesAsync();
-                }
-                await Context.Channel.SendMessageAsync("", false, emb.Build());
-            }
-        }
+        //            _cache.Update(glds);
+        //            DBcontext.Guilds.Update(glds);
+        //            await DBcontext.SaveChangesAsync();
+        //        }
+        //        await Context.Channel.SendMessageAsync("", false, emb.Build());
+        //    }
+        //}
 
         [Aliases, Commands, Usage, Descriptions]
         [PermissionBlockCommand, PermissionServerOwner]
@@ -986,7 +1027,7 @@ namespace DarlingBotNet.Modules
                 var emb = new EmbedBuilder().WithAuthor("🔨GetRoleToEmote").WithColor(255, 0, 94);
                 if (messageid == 0 && emote == null && role == null && GetOrRemove == false)
                 {
-                    Guilds glds = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Context.Guild.Id);
+                    Guilds glds = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                     emb.WithDescription("Команда способствует выдачи/удалению роли участника по нажатию на эмодзи в сообщении!\n\n" +
                     "**messageid** - ваше сообщение в котором будут отслеживаться эмодзи\n" +
                     "**emote** - id эмодзи по нажатию на которое будет выдаваться/удаляться роль[использовать только серверные эмодзи]\n" +

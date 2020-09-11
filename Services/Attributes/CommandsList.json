@@ -380,7 +380,7 @@
   },
   "kazino": {
     "Cmd": "kazino",
-    "Desc": "Играть в казино. Для игры нужно сделать ставку [black/zero] после выставить нужную вам сумму [zerocoin]\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/user-commands/kazino)||[black/zero] [zerocoin's]",
+    "Desc": "Играть в казино. Для игры нужно сделать ставку [black/red/zero] после выставить нужную вам сумму [zerocoin]\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/user-commands/kazino)||[black/zero] [zerocoin's]",
     "Usage": [ "kazino", "kz" ]
   },
   "daily": {
