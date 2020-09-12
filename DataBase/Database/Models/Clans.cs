@@ -18,6 +18,8 @@ namespace DarlingBotNet.DataBase
         public ulong ClanRole { get; set; }
         public DateTime DateOfCreate { get; set; }
 
+        //public DateTime LastClanSlotPays{ get; set; }
+
         //public ulong ClanTop
         //{
         //    get

@@ -93,7 +93,7 @@ namespace DarlingBotNet.Services
         //        }
                     
 
-        //        DBcontext.SaveChanges();
+        //        await DBcontext.SaveChangesAsync();
 
         //        CreateChannelRange(Guild.TextChannels);
         //        return glds;
@@ -328,7 +328,6 @@ namespace DarlingBotNet.Services
             {
                 var user = message.Author as SocketGuildUser;
                 var usr = Loadingdb.cache.GetOrCreateUserCache(user.Id, user.Guild.Id);
-                //var usr = DBcontext.Users.FirstOrDefault(x=>x.userid == user.Id && x.guildId == user.Guild.Id);
                 if ((ulong)Math.Sqrt((usr.XP + 10) / 80) > usr.Level)
                 {
                     var roles = DBcontext.LVLROLES.AsQueryable().Where(x=>x.guildid == user.Guild.Id).AsEnumerable().Where(x=>x.countlvl <= (usr.Level +1)).OrderBy(x => x.countlvl);
@@ -479,31 +478,35 @@ namespace DarlingBotNet.Services
                     MessageList.Add(msg.Message);
                     MessageList.RemoveAll(x => (DateTime.Now - x.CreatedAt).TotalSeconds >= 5);
 
-                    var mew = new List<SocketUserMessage>();
-                    var mes = MessageList.Where(x => x.Author == msg.User && (x.Author as SocketGuildUser).Guild == (msg.User as SocketGuildUser).Guild);
-                    foreach (var Messes in mes)
+                    var mes = MessageList.Where(x => x.Author == msg.User && (x.Author as SocketGuildUser).Guild == msg.Guild);
+                    if (mes.Count() > 3)
                     {
-                        if (new SpamChecking().CalculateFuzzyEqualValue(msg.Message.Content, Messes.Content) == 1)
-                            mew.Add(Messes);
-                    }
-                    if (mew.Count() > 3)
-                    {
-                        await (msg.Channel as SocketTextChannel).AddPermissionOverwriteAsync(msg.Message.Author, new OverwritePermissions(sendMessages: PermValue.Deny));
-                        var messa = await msg.Message.Channel.GetMessagesAsync(mew.Count()).FlattenAsync();
-                        var result = messa.Where(x => x.Author.Id == msg.Message.Author.Id);
-                        await (msg.Channel as SocketTextChannel).DeleteMessagesAsync(result);
-                        await (msg.Channel as SocketTextChannel).RemovePermissionOverwriteAsync(msg.Message.Author);
-                        return true;
+                        int CountSumMessage = 0;
+                        foreach (var Messes in mes)
+                        {
+                            if (new SpamChecking().CalculateFuzzyEqualValue(msg.Message.Content, Messes.Content) == 1)
+                                CountSumMessage++;
+                        }
+                        if (CountSumMessage > 3)
+                        {
+                            await (msg.Channel as SocketTextChannel).AddPermissionOverwriteAsync(msg.Message.Author, new OverwritePermissions(sendMessages: PermValue.Deny));
+                            var messa = await msg.Message.Channel.GetMessagesAsync(CountSumMessage).FlattenAsync();
+                            var result = messa.Where(x => x.Author.Id == msg.Message.Author.Id);
+                            await (msg.Channel as SocketTextChannel).DeleteMessagesAsync(result);
+                            await (msg.Channel as SocketTextChannel).RemovePermissionOverwriteAsync(msg.Message.Author);
+                            return true;
+                        }
                     }
                 } // Проверка на спам
                 if (chnl.SendUrl)
                 {
                     if (chnl.SendUrlImage)
                     {
-                        if (new Regex(@"\b(?:https?://|www\.)\S+\b", RegexOptions.Compiled | RegexOptions.IgnoreCase).Matches(msg.Message.Content).Count > 0)
+                        string message = msg.Message.Content;
+                        if (new Regex(@"\b(?:https?://|www\.)\S+\b", RegexOptions.Compiled | RegexOptions.IgnoreCase).Matches(message).Count > 0)
                         {
-                            if (chnl.csUrlWhiteListList.FirstOrDefault(x => msg.Message.Content.Contains(x)) == null)
-                            {
+                            if (chnl.csUrlWhiteListList.Where(x => x.Contains(message) || message.Contains(x)).Count() == 0)
+                            { 
                                 await msg.Message.DeleteAsync();
                                 return true;
                             }

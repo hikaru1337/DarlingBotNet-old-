@@ -243,46 +243,50 @@ namespace DarlingBotNet.Modules
 
                 if (commandname == null)
                 {
-                    var CommandNameList = _commands.Commands;
-                    bool tr = false;
-                    if (Guild.CommandInviseList == null) tr = true;
-                    else
+                    foreach (var cmd in Guild.CommandInviseList)
                     {
-                        string info = "";
-                        foreach (var cmd in Guild.CommandInviseList)
+                        var x = _commands.Commands.FirstOrDefault(x => x.Aliases.FirstOrDefault().ToLower() == cmd || x.Aliases.LastOrDefault().ToLower() == cmd);
+                        if (x != null)
                         {
-                            var x = CommandNameList.Where(x => x.Aliases.First().ToLower() == cmd || x.Aliases.Skip(0).First().ToLower() == cmd).FirstOrDefault();
-                            if (x != null) info += $"**{cmd}/{x.Name}** - {x.Summary.Split("||")[0]}";
+                            emb.Description += $"**{cmd}/{x.Name}** - {x.Summary.Split("||")[0]}";
                         }
-                        if (info == "") tr = true;
-                        else emb.WithDescription(info);
-
                     }
-                    if (tr) emb.WithDescription("Команды еще не добавлены.").WithFooter($"Включить команду - {Guild.Prefix}CommandInvise [commandname]");
+                    if(emb.Description == null)
+                        emb.WithDescription("Команды еще не добавлены.").WithFooter($"Включить команду - {Guild.Prefix}CommandInvise [commandname]");
                 }
                 else
                 {
-                    var CommandName = _commands.Commands.Where(x => x.Aliases.First().ToLower() == commandname.ToLower() || x.Aliases.Skip(0).First().ToLower() == commandname.ToLower()).First();
+                    commandname = commandname.ToLower();
+
+                    var CommandName = _commands.Commands.FirstOrDefault(x => x.Aliases.First().ToLower() == commandname || x.Aliases.LastOrDefault().ToLower() == commandname);
 
                     if (CommandName == null)
                         emb.WithDescription("Такая команда не существует");
-                    else if (BotSettings.CommandNotInvise.Where(x => x == CommandName.Name.ToLower()).Count() != 0)
+                    else if (BotSettings.CommandNotInvise.Count(x => x == CommandName.Name.ToLower()) != 0)
                         emb.WithDescription("Эту команду нельзя отключить!");
                     else
                     {
                         List<string> liststring = Guild.CommandInviseList;
+                        if (liststring.Count(x => x == CommandName.Aliases.FirstOrDefault() || x == CommandName.Aliases.LastOrDefault()) == 0)
+                        {
 
-                        var Command = Guild.CommandInviseList.Where(x => x == commandname.ToLower()).FirstOrDefault();
+                            var Command = Guild.CommandInviseList.FirstOrDefault(x => x == commandname);
 
-                        emb.WithDescription($"Команда `{commandname}` {(Command == null ? "отключена" : "включена")}").WithFooter($"{(Command == null ? "Включить" : "Отключить")} команду - {Guild.Prefix}CommandInvise [commandname]");
+                            emb.WithDescription($"Команда `{commandname}` {(Command == null ? "отключена" : "включена")}")
+                                .WithFooter($"{(Command == null ? "Включить" : "Отключить")} команду - {Guild.Prefix}ci [commandname]");
 
-                        if (Command == null) liststring.Add(commandname.ToLower());
-                        else liststring.Remove(commandname.ToLower());
+                            if (Command == null)
+                                liststring.Add(commandname);
+                            else
+                                liststring.Remove(commandname);
 
-                        Guild.CommandInviseList = liststring;
-                        _cache.Update(Guild);
-                        DBcontext.Guilds.Update(Guild);
-                        await DBcontext.SaveChangesAsync();
+                            Guild.CommandInviseList = liststring;
+                            _cache.Update(Guild);
+                            DBcontext.Guilds.Update(Guild);
+                            await DBcontext.SaveChangesAsync();
+                        }
+                        else
+                            emb.WithDescription("Команда уже добавлена!");
                     }
                 }
 
@@ -300,7 +304,6 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var glds = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨lr.Add");
                 var lvlrole = DBcontext.LVLROLES.FirstOrDefault(x=>x.roleid == role.Id && x.guildid == Context.Guild.Id);
                 if (lvlrole == null)
@@ -310,7 +313,8 @@ namespace DarlingBotNet.Modules
                     {
                         if (!role.IsManaged)
                         {
-                            emb.WithDescription($"Роль {role.Mention} выставлена за {level} уровень").WithFooter($"Посмотреть ваши уровневые роли {glds.Prefix}lr");
+                            var GuildPrefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
+                            emb.WithDescription($"Роль {role.Mention} выставлена за {level} уровень").WithFooter($"Посмотреть ваши уровневые роли {GuildPrefix}lr");
                             DBcontext.LVLROLES.Add(new LVLROLES() { roleid = role.Id,guildid = role.Guild.Id,countlvl = level });
                             await DBcontext.SaveChangesAsync();
                         }
@@ -352,37 +356,8 @@ namespace DarlingBotNet.Modules
             using (var DBcontext = new DBcontext())
             {
                 var emb = new EmbedBuilder().WithColor(255, 0, 94);
-                var prefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
+                var GuildPrefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
                 var chnl = new Channels();
-                //if (channelz as SocketTextChannel == null)
-                //{
-                //    var channel = channelz as SocketVoiceChannel;
-                //    emb.WithAuthor($"🔨ChannelSettings {(channel == null ? " " : $"- {channel.Name}")}");
-
-                //    if (channel != null) chnl = new EEF<Channels>(new DBcontext()).GetF(x => x.guildid == Context.Guild.Id && x.channelid == channel.Id);
-
-                //    if (channel != null && number == 0)
-                //    {
-                //        if (chnl != null)
-                //            emb.AddField("1.Получение опыта", chnl.GiveXP.ToString().ToLower().Replace("true", "Вкл").Replace("false", "Выкл"), true);
-                //        else 
-                //            emb.WithDescription("Данный канал не найден!");
-                //    }
-                //    else if (channel != null && number != 0)
-                //    {
-                //        if (number >= 1 && number <= 1)
-                //        {
-                //            emb.WithDescription($"Получение уровней в {channel.Id} {(chnl.GiveXP == true ? "выключено" : "включены")}");
-                //            chnl.GiveXP = !chnl.GiveXP;
-                //            new EEF<Channels>(new DBcontext()).Update(chnl);
-                //        }
-                //        else emb.WithDescription("Номер может быть только 1.").WithFooter($"Подробнее - {glds.Prefix}cs [channel]");
-                //    }
-                //    else emb.WithDescription($"Введите нужный вам канал, пример - {glds.Prefix}cs [channel]");
-                //}
-                //else
-                //{
-                //var channel = channelz as SocketTextChannel;
                 emb.WithAuthor($"🔨ChannelSettings {(channel == null ? " " : $"- {channel.Name}")}");
                 if (channel != null) chnl = _cache.GetOrCreateChannelCache(channel.Id, channel.Guild.Id);
                 if (channel != null && number == 0)
@@ -401,7 +376,7 @@ namespace DarlingBotNet.Modules
                         emb.AddField("6 Спам [BETA]", chnl.Spaming ? "Вкл" : "Выкл", true);
                         emb.AddField("7 Удалять приглашения(кроме тех что сюда)", chnl.InviteMessage ? "Вкл" : "Выкл", true);
                         emb.AddField("Номер Чата", chnl.channelid, true);
-                        emb.WithFooter($"Вкл/Выкл опции канала - {prefix}ChannelSettings [channel] [number]");
+                        emb.WithFooter($"Вкл/Выкл опции канала - {GuildPrefix}ChannelSettings [channel] [number]");
                     }
                     else emb.WithDescription("Данный канал не найден!");
                 }
@@ -436,7 +411,7 @@ namespace DarlingBotNet.Modules
                             case 4:
                                 emb.WithDescription($"Плохие слова в {channel.Mention} теперь {(chnl.SendBadWord ? "не удаляются" : "удаляются")}");
                                 chnl.SendBadWord = !chnl.SendBadWord;
-                                emb.WithFooter($"Добавить/удалить плохие слова - {prefix}cs.bw [channel] [word]");
+                                emb.WithFooter($"Добавить/удалить плохие слова - {GuildPrefix}cs.bw [channel] [word]");
                                 break;
                             case 5:
                                 emb.WithDescription($"Команды в {channel.Mention} теперь {(chnl.UseCommand ? "выключены" : "включены")}");
@@ -469,10 +444,9 @@ namespace DarlingBotNet.Modules
                         DBcontext.Channels.Update(chnl);
                         await DBcontext.SaveChangesAsync();
                     }
-                    else emb.WithDescription("Номер может быть от 1 до 7.").WithFooter($"Подробнее - {prefix}cs [channel]");
+                    else emb.WithDescription("Номер может быть от 1 до 7.").WithFooter($"Подробнее - {GuildPrefix}cs [channel]");
                 }
-                else emb.WithDescription($"Введите нужный вам канал, пример - {prefix}cs [channel]");
-                //}
+                else emb.WithDescription($"Введите нужный вам канал, пример - {GuildPrefix}cs [channel]");
 
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
@@ -484,9 +458,9 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds glds = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
+                var GuildPrefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨cs.badword")
-                                            .WithFooter($"Добавить/Удалить - {glds.Prefix}cs.bw {channel.Name} [слово]");
+                                            .WithFooter($"Добавить/Удалить - {GuildPrefix}cs.bw {channel.Name} [слово]");
                 Channels chnl = _cache.GetOrCreateChannelCache(channel.Id, channel.Guild.Id);
 
                 if (chnl.SendBadWord)
@@ -502,13 +476,12 @@ namespace DarlingBotNet.Modules
                         emb.WithDescription($"Слово {word} включено в список");
                         badlist.Add(word);
                     }
-
                     chnl.BadWordList = badlist;
                     _cache.Update(chnl);
                     DBcontext.Channels.Update(chnl);
                     await DBcontext.SaveChangesAsync();
                 }
-                else emb.WithDescription($"Вы не включили проверку Плохих слов\n{glds.Prefix}cs {channel.Name} [4]");
+                else emb.WithDescription($"Вы не включили проверку Плохих слов\n{GuildPrefix}cs {channel.Name} [4]");
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
         }
@@ -519,13 +492,13 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds glds = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
+                Guilds Guild = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨cs.givexp");
-                glds.GiveXPnextChannel = !glds.GiveXPnextChannel;
-                _cache.Update(glds);
-                DBcontext.Guilds.Update(glds);
+                Guild.GiveXPnextChannel = !Guild.GiveXPnextChannel;
+                _cache.Update(Guild);
+                DBcontext.Guilds.Update(Guild);
                 await DBcontext.SaveChangesAsync();
-                emb.WithDescription($"В дальнейшем в созданных каналах, опыт {(glds.GiveXPnextChannel ? "" : "не ")}будет получаться");
+                emb.WithDescription($"В дальнейшем в созданных каналах, опыт {(Guild.GiveXPnextChannel ? "" : "не ")}будет получаться");
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
         }
@@ -536,15 +509,15 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var prefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
+                var GuildPrefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨cs.UrlWhiteList")
-                                            .WithFooter($"Добавить/Удалить - {prefix}cs.uwl #{channel.Name} [url]");
-                Channels chnl = _cache.GetOrCreateChannelCache(channel.Id, channel.Guild.Id);
+                                            .WithFooter($"Добавить/Удалить - {GuildPrefix}cs.uwl #{channel.Name} [url]");
+                Channels TextChannel = _cache.GetOrCreateChannelCache(channel.Id, channel.Guild.Id);
 
-                if (chnl.SendUrl)
+                if (TextChannel.SendUrl)
                 {
-                    List<string> UrlWhiteList = chnl.csUrlWhiteListList;
-                    if (chnl.csUrlWhiteListList.FirstOrDefault(x => x == url) != null)
+                    List<string> UrlWhiteList = TextChannel.csUrlWhiteListList;
+                    if (TextChannel.csUrlWhiteListList.FirstOrDefault(x => x == url) != null)
                     {
                         emb.WithDescription($"Url {url} удалено из White list");
                         UrlWhiteList.Remove(url);
@@ -555,12 +528,12 @@ namespace DarlingBotNet.Modules
                         UrlWhiteList.Add(url);
                     }
 
-                    chnl.csUrlWhiteListList = UrlWhiteList;
-                    _cache.Update(chnl);
-                    DBcontext.Channels.Update(chnl);
+                    TextChannel.csUrlWhiteListList = UrlWhiteList;
+                    _cache.Update(TextChannel);
+                    DBcontext.Channels.Update(TextChannel);
                     await DBcontext.SaveChangesAsync();
                 }
-                else emb.WithDescription($"Вы не включили Белый лист ссылок!\n{prefix}cs #{channel.Name} [4]");
+                else emb.WithDescription($"Вы не включили Белый лист ссылок!\n{GuildPrefix}cs #{channel.Name} [4]");
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
         }
@@ -597,50 +570,82 @@ namespace DarlingBotNet.Modules
                             case 1:
                                 whatz = "банах";
                                 func = Guild.banchannel;
-                                if (func == 0 && channel != null) Guild.banchannel = channel.Id;
-                                else if (func != 0) Guild.banchannel = 0;
+
+                                if (func == 0 && channel != null) 
+                                    Guild.banchannel = channel.Id;
+                                else if (func != 0) 
+                                    Guild.banchannel = 0;
+
                                 break;
                             case 2:
                                 whatz = "разбанах";
                                 func = Guild.unbanchannel;
-                                if (func == 0 && channel != null) Guild.unbanchannel = channel.Id;
-                                else if (func != 0) Guild.unbanchannel = 0;
+
+                                if (func == 0 && channel != null) 
+                                    Guild.unbanchannel = channel.Id;
+                                else if (func != 0) 
+                                    Guild.unbanchannel = 0;
+
                                 break;
                             case 3:
                                 whatz = "киках";
                                 func = Guild.kickchannel;
-                                if (func == 0 && channel != null) Guild.kickchannel = channel.Id;
-                                else if (func != 0) Guild.kickchannel = 0;
+
+                                if (func == 0 && channel != null) 
+                                    Guild.kickchannel = channel.Id;
+                                else if (func != 0) 
+                                    Guild.kickchannel = 0;
+
                                 break;
                             case 4:
                                 whatz = "входах пользователей";
                                 func = Guild.joinchannel;
-                                if (func == 0 && channel != null) Guild.joinchannel = channel.Id;
-                                else if (func != 0) Guild.joinchannel = 0;
+
+                                if (func == 0 && channel != null) 
+                                    Guild.joinchannel = channel.Id;
+                                else if (func != 0) 
+                                    Guild.joinchannel = 0;
+
                                 break;
                             case 5:
                                 whatz = "Выходах пользователей";
                                 func = Guild.leftchannel;
-                                if (func == 0 && channel != null) Guild.leftchannel = channel.Id;
-                                else if (func != 0) Guild.leftchannel = 0;
+
+                                if (func == 0 && channel != null) 
+                                    Guild.leftchannel = channel.Id;
+                                else if (func != 0) 
+                                    Guild.leftchannel = 0;
+
                                 break;
                             case 6:
                                 whatz = "Измененных сообщениях";
                                 func = Guild.meseditchannel;
-                                if (func == 0 && channel != null) Guild.meseditchannel = channel.Id;
-                                else if (func != 0) Guild.meseditchannel = 0;
+
+                                if (func == 0 && channel != null) 
+                                    Guild.meseditchannel = channel.Id;
+                                else if (func != 0) 
+                                    Guild.meseditchannel = 0;
+
                                 break;
                             case 7:
                                 whatz = "Удаленных сообщениях";
                                 func = Guild.mesdelchannel;
-                                if (func == 0 && channel != null) Guild.mesdelchannel = channel.Id;
-                                else if (func != 0) Guild.mesdelchannel = 0;
+
+                                if (func == 0 && channel != null) 
+                                    Guild.mesdelchannel = channel.Id;
+                                else if (func != 0) 
+                                    Guild.mesdelchannel = 0;
+
                                 break;
                             case 8:
                                 whatz = "действиях пользователей";
                                 func = Guild.voiceUserActions;
-                                if (func == 0 && channel != null) Guild.voiceUserActions = channel.Id;
-                                else if (func != 0) Guild.voiceUserActions = 0;
+
+                                if (func == 0 && channel != null) 
+                                    Guild.voiceUserActions = channel.Id;
+                                else if (func != 0) 
+                                    Guild.voiceUserActions = 0;
+
                                 break;
                         }
                         _cache.Update(Guild);
@@ -648,13 +653,17 @@ namespace DarlingBotNet.Modules
                         await DBcontext.SaveChangesAsync();
                         if (func == 0)
                         {
-                            if (channel == null) emb.WithDescription($"Функция и так отключена.").WithFooter($"Хотите включить уведомления? Тогда напишите и ознакомьтесь с {Guild.Prefix}LogSettings");
-                            else emb.WithDescription($"В канал {channel.Mention} будут приходить сообщения о {whatz}");
+                            if (channel == null) 
+                                emb.WithDescription($"Функция и так отключена.").WithFooter($"Хотите включить уведомления? Тогда напишите и ознакомьтесь с {Guild.Prefix}LogSettings");
+                            else 
+                                emb.WithDescription($"В канал {channel.Mention} будут приходить сообщения о {whatz}");
                         }
                         else
                         {
-                            if (Context.Guild.GetChannel(func) == null) emb.WithDescription($"В удаленный канал сообщения о {whatz} приходить не будут");
-                            else emb.WithDescription($"В {(Context.Guild.GetChannel(func) as SocketTextChannel).Mention} не будут приходить сообщения о {whatz}");
+                            if (Context.Guild.GetChannel(func) == null) 
+                                emb.WithDescription($"В удаленный канал сообщения о {whatz} приходить не будут");
+                            else 
+                                emb.WithDescription($"В {(Context.Guild.GetChannel(func) as SocketTextChannel).Mention} не будут приходить сообщения о {whatz}");
                         }
                     }
                 }
@@ -910,8 +919,9 @@ namespace DarlingBotNet.Modules
             {
                 Guilds Guild = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var embed = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("🔨PrivateCreate");
+                var PrivateVoiceChannel = Context.Guild.GetVoiceChannel(Guild.PrivateChannelID);
 
-                if (Context.Guild.GetVoiceChannel(Guild.PrivateChannelID) == null)
+                if (PrivateVoiceChannel == null)
                 {
                     embed.WithDescription($"Канал для создания приваток {(Guild.PrivateChannelID == 0 ? "создан" : "пересоздан")}!");
                     var category = await Context.Guild.CreateCategoryChannelAsync("DARLING PRIVATE");
@@ -921,7 +931,7 @@ namespace DarlingBotNet.Modules
                     DBcontext.Guilds.Update(Guild);
                     await DBcontext.SaveChangesAsync();
                 }
-                else embed.WithDescription($"У вас уже создан канал для приваток с именем {Context.Guild.GetVoiceChannel(Guild.PrivateChannelID).Name}");
+                else embed.WithDescription($"У вас уже создан канал для приваток с именем {PrivateVoiceChannel.Name}");
 
                 await Context.Channel.SendMessageAsync("", false, embed.Build());
             }
@@ -933,19 +943,19 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds glds = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
+                var Guild = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
                 var emb = new EmbedBuilder().WithAuthor("🔨MuteRole").WithColor(255, 0, 94).WithDescription("Роли для нарушений уже созданы!");
-                var chatrole = Context.Guild.GetRole(glds.chatmuterole);
-                var voicerole = Context.Guild.GetRole(glds.voicemuterole);
+                var chatrole = Context.Guild.GetRole(Guild.chatmuterole);
+                var voicerole = Context.Guild.GetRole(Guild.voicemuterole);
                 if (chatrole == null || voicerole == null)
                     emb.WithDescription("Роли для нарушений создаются...");
 
                 var mes = await Context.Channel.SendMessageAsync("", false, emb.Build());
                 if (chatrole == null || voicerole == null)
                 {
-                    glds = await SystemLoading.CreateMuteRole(Context.Guild);
-                    chatrole = Context.Guild.GetRole(glds.chatmuterole);
-                    voicerole = Context.Guild.GetRole(glds.voicemuterole);
+                    Guild = await SystemLoading.CreateMuteRole(Context.Guild);
+                    chatrole = Context.Guild.GetRole(Guild.chatmuterole);
+                    voicerole = Context.Guild.GetRole(Guild.voicemuterole);
                     await mes.ModifyAsync(x => x.Embed = emb.WithDescription($"Созданы роли {chatrole.Mention},{voicerole.Mention} и уже привязаны к каналам!").Build());
                 }
             }
@@ -1027,14 +1037,14 @@ namespace DarlingBotNet.Modules
                 var emb = new EmbedBuilder().WithAuthor("🔨GetRoleToEmote").WithColor(255, 0, 94);
                 if (messageid == 0 && emote == null && role == null && GetOrRemove == false)
                 {
-                    Guilds glds = _cache.GetOrCreateGuldsCache(Context.Guild.Id);
+                    var GuildPrefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
                     emb.WithDescription("Команда способствует выдачи/удалению роли участника по нажатию на эмодзи в сообщении!\n\n" +
-                    "**messageid** - ваше сообщение в котором будут отслеживаться эмодзи\n" +
-                    "**emote** - id эмодзи по нажатию на которое будет выдаваться/удаляться роль[использовать только серверные эмодзи]\n" +
+                    "**message id** - ваше сообщение в котором будут отслеживаться эмодзи\n" +
+                    "**emote** - эмодзи по нажатию на которое будет выдаваться/удаляться роль[использовать только серверные эмодзи]\n" +
                     "**role** - роль которая будет выдаваться/удаляться\n" +
                     "**GetOrRemove** - Имеет значения False/true, при false роль выдается, при true удаляется.\n\n" +
-                    $"Последнее значение можно оставить пустым, оно автоматически будет False\n" +
-                    $"Пример: {glds.Prefix}grte [message id] [emote] [role] [true/false/null]");
+                    $"Если GetOrRemove не введете, оно будет False\n" +
+                    $"Пример: {GuildPrefix}grte [message id] [emote] [role] [true/false/null]");
                 }
                 else
                 {

@@ -7,6 +7,7 @@ namespace DarlingBotNet.DataBase
 {
     public class Guilds
     {
+        
         public ulong Id { get; set; }
 
         public ulong guildid { get; set; }
@@ -63,5 +64,6 @@ namespace DarlingBotNet.DataBase
         public uint RaidTime { get; set; }
         public uint RaidUserCount { get; set; }
         public DateTime RaidMuted { get; set; }
+
     }
 }

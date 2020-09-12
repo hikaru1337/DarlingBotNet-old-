@@ -9,7 +9,6 @@ using SixLabors.ImageSharp.Processing;
 using SixLabors.Fonts;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
-using SixLabors.ImageSharp.Processing;
 using SixLabors.Primitives;
 using Image = SixLabors.ImageSharp.Image;
 using System;
@@ -19,6 +18,7 @@ using System.Net;
 using System.Threading.Tasks;
 using static DarlingBotNet.Services.CommandHandler;
 using System.Numerics;
+using Pcg;
 
 namespace DarlingBotNet.Modules
 {
@@ -106,19 +106,19 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Marry");
+                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"💞 - Ошибка");
                 if (Context.User != user)
                 {
                     var marryuser = _cache.GetOrCreateUserCache(user.Id,(user as SocketGuildUser).Guild.Id);
                     var ContextUser = _cache.GetOrCreateUserCache(Context.User.Id, Context.Guild.Id);
                     if (ContextUser.marryedid != marryuser.userid)
                     {
-                        var Prefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
+                        var GuildPrefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
                         if (ContextUser.marryedid == 0)
                         {
                             if (marryuser.marryedid == 0)
                             {
-
+                                emb.WithAuthor("Marry");
                                 var time = DateTime.Now.AddSeconds(30);
                                 string text = $"Заявка отправлена {user.Mention}\nПринять: :white_check_mark: Отклонить: :negative_squared_cross_mark:";
                                 var mes = await Context.Channel.SendMessageAsync("", false, emb.WithAuthor($"{Context.User} 💞 {user}").WithDescription(text).Build());
@@ -160,13 +160,13 @@ namespace DarlingBotNet.Modules
                                 await mes.ModifyAsync(x => x.Embed = emb.Build());
                                 list.Remove(check);
                             }
-                            else await Context.Channel.SendMessageAsync("", false, emb.WithDescription($"{user} женат, нужно сначала развестись!").WithFooter($"Развестить - {Prefix}divorce").WithAuthor($"💞 - Ошибка").Build());
+                            else await Context.Channel.SendMessageAsync("", false, emb.WithDescription($"{user} женат, нужно сначала развестись!").WithFooter($"Развестить - {GuildPrefix}divorce").Build());
                         }
-                        else await Context.Channel.SendMessageAsync("", false, emb.WithDescription("Вы уже женаты, сначала разведитесь!").WithFooter($"Развестить - {Prefix}divorce").WithAuthor($"💞 - Ошибка").Build());
+                        else await Context.Channel.SendMessageAsync("", false, emb.WithDescription("Вы уже женаты, сначала разведитесь!").WithFooter($"Развестить - {GuildPrefix}divorce").Build());
                     }
-                    else await Context.Channel.SendMessageAsync("", false, emb.WithDescription("Вы уже женаты на этом пользователе").WithAuthor($"💞 - Ошибка").Build());
+                    else await Context.Channel.SendMessageAsync("", false, emb.WithDescription("Вы уже женаты на этом пользователе").Build());
                 }
-                else await Context.Channel.SendMessageAsync("", false, emb.WithDescription("Вы не можете жениться на себе!").WithAuthor($"💞 - Ошибка").Build());
+                else await Context.Channel.SendMessageAsync("", false, emb.WithDescription("Вы не можете жениться на себе!").Build());
             }
         }
 
@@ -264,7 +264,7 @@ namespace DarlingBotNet.Modules
                     {
                         if (Fishka.ToLower() == "black" || Fishka.ToLower() == "zero" || Fishka.ToLower() == "red")
                         {
-                            int ches = new Pcg.PcgRandom().Next(11);
+                            int ches = new PcgRandom().Next(11);
                             emb.WithAuthor(" - Kazino - ✔️ Win", Context.User.GetAvatarUrl());
                             if (ches % 2 == 1 && Fishka.ToLower() == "black" || ches != 10 && ches % 2 == 0 && Fishka.ToLower() == "red")
                                 account.ZeroCoin += Coins;
@@ -276,6 +276,25 @@ namespace DarlingBotNet.Modules
                                 emb.WithAuthor(" - Kazino - ❌ Lose", Context.User.GetAvatarUrl());
                             }
                             emb.WithDescription($"Выпало: {(ches % 2 == 1 ? "black" : (ches != 10 && ches % 2 == 0) ? "red" : "zero")}\nZeroCoin: {account.ZeroCoin}");
+
+                            if(emb.Author.Name == " - Kazino - ✔️ Win")
+                            {
+                                int rnd = new PcgRandom(1488).Next(0, 1000);
+                                if (rnd <= 100)
+                                {
+                                    int moneyrnd = new PcgRandom(1488).Next(300, 3000);
+                                    account.ZeroCoin += (uint)moneyrnd;
+                                    if(rnd >= 0 && rnd <= 25)
+                                        emb.Description += $"\n\nSyst3mm er0r g1ved u {moneyrnd} coin's";
+                                    else if (rnd > 25 && rnd <= 50)
+                                        emb.Description += $"\n\nОш11бка, в2дан7 с2мма {moneyrnd} coin's";
+                                    else if (rnd > 50 && rnd <= 75)
+                                        emb.Description += $"\n\nПолучена сумма {moneyrnd} coin's";
+                                    else if (rnd > 75 && rnd <= 100)
+                                        emb.Description += $"\n\n{moneyrnd} coin's выдано {Context.User.Mention}";
+                                }
+                            }
+
                             _cache.Update(account);
                             DBcontext.Users.Update(account);
                             await DBcontext.SaveChangesAsync();
@@ -291,6 +310,7 @@ namespace DarlingBotNet.Modules
                 else emb.WithDescription($"Ставка может быть только больше 99 и меньше 9999, или же быть `all`").WithFooter("all - выставить все");
             }
             await Context.Channel.SendMessageAsync("", false, emb.Build());
+            
         }
 
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
@@ -313,6 +333,15 @@ namespace DarlingBotNet.Modules
                     usr.ZeroCoin += amt;
                     usr.Daily = DateTime.Now.AddDays(1);
                     emb.WithDescription($"Получено: {amt} ZeroCoin's!\nStreak: {usr.Streak}");
+
+                    int rnd = new PcgRandom(1488).Next(0, 1000);
+                    if (rnd <= 100)
+                    {
+                        int moneyrnd = new PcgRandom(1488).Next(300, 3000);
+                        usr.ZeroCoin += (uint)moneyrnd;
+                        emb.Description += $"\n\nВозвращаясь домой, на дороге вы нашли {moneyrnd} coin's";
+                    }
+
                     _cache.Update(usr);
                     DBcontext.Users.Update(usr);
                     await DBcontext.SaveChangesAsync();
@@ -352,29 +381,31 @@ namespace DarlingBotNet.Modules
             {
                 if (user != Context.User)
                 {
-                    Users usr = _cache.GetOrCreateUserCache(Context.User.Id,Context.Guild.Id);
-                    if (usr.ZeroCoin >= coin)
+                    if (coin <= 10000)
                     {
-                        if (coin <= 10000)
+                        Users usr = _cache.GetOrCreateUserCache(Context.User.Id,Context.Guild.Id);
+                        if (usr.ZeroCoin >= coin)
                         {
-                            var transfuser = _cache.GetOrCreateUserCache(user.Id, Context.Guild.Id);
-                            usr.ZeroCoin -= coin;
-                            transfuser.ZeroCoin += coin;
-                            emb.WithDescription($"Перевод в размере {coin} zerocoin успешно прошел.");
-                            _cache.Update(usr);
-                            _cache.Update(transfuser);
-                            DBcontext.Users.Update(usr);
-                            DBcontext.Users.Update(transfuser);
-                            await DBcontext.SaveChangesAsync();
+                                var transfuser = _cache.GetOrCreateUserCache(user.Id, Context.Guild.Id);
+                                usr.ZeroCoin -= coin;
+                                transfuser.ZeroCoin += coin;
+                                emb.WithDescription($"Перевод в размере {coin} zerocoin успешно прошел.");
+                                _cache.Update(usr);
+                                _cache.Update(transfuser);
+                                DBcontext.Users.Update(usr);
+                                DBcontext.Users.Update(transfuser);
+                                await DBcontext.SaveChangesAsync();
                         }
-                        else emb.WithDescription($"Перевести больше 10000 zerocoin нельзя.");
+                        else emb.WithDescription($"У вас недостаточно средств для перевода. Вам нехватает {coin - usr.ZeroCoin}");
                     }
-                    else emb.WithDescription($"У вас недостаточно средств для перевода. Вам нехватает {coin - usr.ZeroCoin}");
+                    else emb.WithDescription($"Перевести больше 10000 zerocoin нельзя.");
                 }
                 else emb.WithDescription("Переводить деньги самому себе нельзя!");
             }
             await Context.Channel.SendMessageAsync("", false, emb.Build());
         }
+
+
 
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task myinvite()
@@ -387,6 +418,8 @@ namespace DarlingBotNet.Modules
             if (emb.Fields.Count == 0) emb.WithDescription("Инвайты отсутствуют.");
             await Context.Channel.SendMessageAsync("", false, emb.Build());
         }
+
+
 
         [Aliases, Commands, Usage, Descriptions]
         [PermissionBlockCommand, PermissionViolation]
@@ -428,9 +461,9 @@ namespace DarlingBotNet.Modules
                 }
                 if (Context.Guild.Owner == Context.User)
                 {
-                    var glds = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
-                    embed.AddField("Добавить роль", $"{glds}lr.Add [ROLE] [LEVEL]");
-                    embed.AddField("Удалить роль", $"{glds}lr.Del [ROLE]");
+                    var GuildPrefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
+                    embed.AddField("Добавить роль", $"{GuildPrefix}lr.Add [ROLE] [LEVEL]");
+                    embed.AddField("Удалить роль", $"{GuildPrefix}lr.Del [ROLE]");
                 }
 
                 await Context.Channel.SendMessageAsync("", false, embed.Build());

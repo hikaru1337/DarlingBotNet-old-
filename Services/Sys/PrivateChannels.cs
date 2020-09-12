@@ -24,27 +24,26 @@ namespace DarlingBotNet.Services.Sys
             }
 
         } // ПРОВЕРКА ПРИВАТНЫХ КАНАЛОВ
-        public async Task PrivateCreate(SocketGuildUser user)
+        public async Task PrivateCreate(SocketGuildUser user,SocketVoiceChannel PrivateChannel)
         {
             using (var DBcontext = new DBcontext())
             {
-                Guilds glds = DBcontext.Guilds.FirstOrDefault(x => x.guildid == user.Guild.Id);
-                SocketVoiceChannel chnl = user.Guild.GetVoiceChannel(glds.PrivateChannelID);
-                await chnl.AddPermissionOverwriteAsync(user, permissions: new OverwritePermissions(connect: PermValue.Deny));
-                if (chnl.Category == null)
+                await PrivateChannel.AddPermissionOverwriteAsync(user, permissions: new OverwritePermissions(connect: PermValue.Deny));
+                if (PrivateChannel.Category == null)
                 {
-                    if (user.Guild.CategoryChannels.FirstOrDefault(x => x.Name == "DARLING PRIVATE") == null)
+                    var PrivateCategory = user.Guild.CategoryChannels.FirstOrDefault(x => x.Name.ToLower().Contains("private"));
+                    if (PrivateCategory == null)
                     {
                         RestCategoryChannel cat = await user.Guild.CreateCategoryChannelAsync("DARLING PRIVATE");
-                        await chnl.ModifyAsync(x => x.CategoryId = cat.Id);
+                        await PrivateChannel.ModifyAsync(x => x.CategoryId = cat.Id);
                     }
-                    else await chnl.ModifyAsync(x => x.CategoryId = user.Guild.CategoryChannels.First(x => x.Name == "DARLING PRIVATE").Id);
+                    else await PrivateChannel.ModifyAsync(x => x.CategoryId = PrivateCategory.Id);
                 }
 
-                if(chnl.Category.PermissionOverwrites.Where(x=>x.TargetId == user.Guild.EveryoneRole.Id && x.Permissions.Connect == PermValue.Deny).Count() == 0)
-                    await chnl.Category.AddPermissionOverwriteAsync(user.Guild.EveryoneRole, permissions: new OverwritePermissions(connect: PermValue.Deny));
+                if(PrivateChannel.Category.PermissionOverwrites.Where(x=>x.TargetId == user.Guild.EveryoneRole.Id && x.Permissions.Connect == PermValue.Deny).Count() == 0)
+                    await PrivateChannel.Category.AddPermissionOverwriteAsync(user.Guild.EveryoneRole, permissions: new OverwritePermissions(connect: PermValue.Deny));
 
-                var voiceChannel = await user.Guild.CreateVoiceChannelAsync($"{user}` VOICE", x => x.CategoryId = chnl.CategoryId);
+                var voiceChannel = await user.Guild.CreateVoiceChannelAsync($"{user}` VOICE", x => x.CategoryId = PrivateChannel.CategoryId);
                 await voiceChannel.AddPermissionOverwriteAsync(user, permissions: new OverwritePermissions(connect: PermValue.Allow, muteMembers: PermValue.Allow, deafenMembers: PermValue.Allow, moveMembers: PermValue.Allow, manageChannel: PermValue.Allow));
                 var prv = new PrivateChannels();
                 try
@@ -54,13 +53,13 @@ namespace DarlingBotNet.Services.Sys
                 }
                 catch (Exception)
                 {
-                    //var prv =  DBcontext.PrivateChannels.FirstOrDefault(x=>x.userid == user.Id && x.guildid == user.Guild.Id && x.channelid == voiceChannel.Id);
                     if (prv != null) DBcontext.PrivateChannels.Remove(prv);
                     await voiceChannel.DeleteAsync();
                 }
-                await Task.Delay(1000);
-                await chnl.RemovePermissionOverwriteAsync(user);
                 await DBcontext.SaveChangesAsync();
+                await Task.Delay(1000);
+                await PrivateChannel.RemovePermissionOverwriteAsync(user);
+                
             }
         } // Создание приваток
 

@@ -2,41 +2,63 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace DarlingBotNet.DataBase.Database
 {
+
     static class CacheMethods
     {
+
+        //public static bool HashChecking(Object one, Object two)
+        //{
+
+        //    byte[] tmpSource = ASCIIEncoding.ASCII.GetBytes(one.ToString());
+        //    byte[] tmpHash = ASCIIEncoding.ASCII.GetBytes(two.ToString());
+
+        //    byte[] tmpNewHash = new MD5CryptoServiceProvider().ComputeHash(tmpSource);
+        //    byte[] tmpNewSource = new MD5CryptoServiceProvider().ComputeHash(tmpSource);
+
+        //    bool bEqual = false;
+        //    if (tmpNewHash.Length == tmpNewSource.Length)
+        //    {
+        //        int i = 0;
+        //        while ((i < tmpNewHash.Length) && (tmpNewHash[i] == tmpNewSource[i]))
+        //            i += 1;
+
+        //        if (i == tmpNewHash.Length)
+        //            bEqual = true;
+
+        //    }
+        //    return bEqual;
+        //}
+
         public static void Update(this IMemoryCache cache, Users entity)
         {
-
             var us = (Users)cache.Get((entity.userid, entity.guildId));
             if (us != null)
             {
-                if (entity != us)
+
+                if (!Object.Equals(entity,us))
                 {
                     cache.Remove((entity.userid, entity.guildId));
-                    cache.Set((entity.userid, entity.guildId), entity, new MemoryCacheEntryOptions()
-                    { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30) });
-
+                    //cache.Set((entity.userid, entity.guildId), entity, new MemoryCacheEntryOptions()
+                    //{ AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30) });
                 }
             }
-
         }
 
         public static void Update(this IMemoryCache cache, Channels entity)
         {
-
             var us = (Channels)cache.Get((entity.channelid, entity.guildid));
             if (us != null)
             {
-                if (entity != us)
+                if (!Object.Equals(entity, us))
                 {
                     cache.Remove((entity.channelid, entity.guildid));
-                    cache.Set((entity.channelid, entity.guildid), entity, new MemoryCacheEntryOptions()
-                    { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30) });
-
+                    //cache.Set((entity.channelid, entity.guildid), entity, new MemoryCacheEntryOptions()
+                    //{ AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30) });
                 }
             }
 
@@ -47,15 +69,15 @@ namespace DarlingBotNet.DataBase.Database
             var us = (Guilds)cache.Get(entity.guildid);
             if (us != null)
             {
-                if (entity != us)
+                if(!Object.Equals(entity, us))
                 {
                     cache.Remove(entity.guildid);
-                    cache.Set(entity.guildid, entity, new MemoryCacheEntryOptions()
-                    { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(60) });
-
+                    //cache.Set(entity.guildid, entity, new MemoryCacheEntryOptions()
+                    //{ AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(60) });
                 }
             }
         }
+
 
         public static Guilds GetOrCreateGuldsCache(this IMemoryCache cache, ulong guildId)
         {

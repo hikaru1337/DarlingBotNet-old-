@@ -76,9 +76,6 @@ namespace DarlingBotNet.Services.Sys
                         if (Guild.voiceUserActions == channel.Id) Guild.voiceUserActions = 0;
                     }
 
-                    if (glds.GetRole(Guild.WelcomeRole) == null) Guild.WelcomeRole = 0;
-                    if (glds.GetRole(Guild.chatmuterole) == null) Guild.chatmuterole = 0;
-                    if (glds.GetRole(Guild.voicemuterole) == null) Guild.voicemuterole = 0;
 
                     var Emoteclickes = DBcontext.EmoteClick.AsQueryable().Where(x => x.guildid == Guild.guildid).AsEnumerable().Where(x => ChannelsDelete.Where(x => x.channelid == x.channelid).Count() > 0 || glds.GetRole(x.roleid) == null || glds.Emotes.Where(z => z.Name == x.emote) == null);
 
@@ -89,7 +86,7 @@ namespace DarlingBotNet.Services.Sys
                     DBcontext.Channels.RemoveRange(ChannelsDelete);
                     DBcontext.EmoteClick.RemoveRange(Emoteclickes);
                     DBcontext.Guilds.Update(Guild);
-                    await DBcontext.SaveChangesAsync();
+                    DBcontext.SaveChanges();
                 }
                 OtherCheck(_discord, Guilds);
             }
@@ -104,6 +101,10 @@ namespace DarlingBotNet.Services.Sys
                     var glds = _discord.GetGuild(Guild.guildid); // Выдача гильдии
                     var LVLROLE = DBcontext.LVLROLES.AsQueryable().Where(x => x.guildid == Guild.guildid).AsEnumerable().Where(x => glds.GetRole(x.roleid) == null); // Выдача недействительных Уровневых ролей
 
+                    if (glds.GetRole(Guild.WelcomeRole) == null) Guild.WelcomeRole = 0;
+                    if (glds.GetRole(Guild.chatmuterole) == null) Guild.chatmuterole = 0;
+                    if (glds.GetRole(Guild.voicemuterole) == null) Guild.voicemuterole = 0;
+
                     var UsersLeave = DBcontext.Users.AsQueryable().Where(x => x.guildId == Guild.guildid);
                     foreach (var user in UsersLeave)
                     {
@@ -113,7 +114,8 @@ namespace DarlingBotNet.Services.Sys
 
                     DBcontext.LVLROLES.RemoveRange(LVLROLE);
                     DBcontext.Users.UpdateRange(UsersLeave);
-                    await DBcontext.SaveChangesAsync();
+                    DBcontext.Guilds.Update(Guild);
+                    DBcontext.SaveChanges();
                     await new Privates().CheckPrivate(glds); // Проверка приваток
                     CheckTempUser(Guild, glds);
                 }
@@ -191,7 +193,7 @@ namespace DarlingBotNet.Services.Sys
                     DBcontext.Guilds.Update(glds);
                 }
 
-                DBcontext.SaveChanges();
+                await DBcontext.SaveChangesAsync();
 
                 await CreateChannelRange(Guild.TextChannels);
                 return glds;
