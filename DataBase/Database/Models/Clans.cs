@@ -12,13 +12,12 @@ namespace DarlingBotNet.DataBase
         public string ClanName { get; set; }
         public ulong guildId { get; set; }
         public ulong OwnerId { get; set; }
-        public ulong ClanMoney { get; set; }
-        public ulong ClanSlots { get; set; }
+        public long ClanMoney { get; set; }
+        public uint ClanSlots { get; set; }
         public string LogoUrl { get; set; }
         public ulong ClanRole { get; set; }
         public DateTime DateOfCreate { get; set; }
-
-        //public DateTime LastClanSlotPays{ get; set; }
+        public DateTime LastClanSlotPays { get; set; }
 
         //public ulong ClanTop
         //{

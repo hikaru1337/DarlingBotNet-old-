@@ -89,14 +89,10 @@ namespace DarlingBotNet.Services
         public double CalculateFuzzyEqualValue(string first, string second)
         {
             if (string.IsNullOrWhiteSpace(first) && string.IsNullOrWhiteSpace(second))
-            {
                 return 1.0;
-            }
 
             if (string.IsNullOrWhiteSpace(first) || string.IsNullOrWhiteSpace(second))
-            {
                 return 0.0;
-            }
 
             var normalizedFirst = NormalizeSentence(first);
             var normalizedSecond = NormalizeSentence(second);

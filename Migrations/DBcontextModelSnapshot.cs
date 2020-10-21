@@ -25,6 +25,15 @@ namespace DarlingBotNet.Migrations
                     b.Property<string>("BadWordString")
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("DelCaps")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("DelUrl")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("DelUrlImage")
+                        .HasColumnType("INTEGER");
+
                     b.Property<bool>("GiveXP")
                         .HasColumnType("INTEGER");
 
@@ -32,15 +41,6 @@ namespace DarlingBotNet.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<bool>("SendBadWord")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<bool>("SendCaps")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<bool>("SendUrl")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<bool>("SendUrlImage")
                         .HasColumnType("INTEGER");
 
                     b.Property<bool>("Spaming")
@@ -72,7 +72,7 @@ namespace DarlingBotNet.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("ClanMoney")
+                    b.Property<long>("ClanMoney")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("ClanName")
@@ -81,10 +81,13 @@ namespace DarlingBotNet.Migrations
                     b.Property<ulong>("ClanRole")
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("ClanSlots")
+                    b.Property<uint>("ClanSlots")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("DateOfCreate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("LastClanSlotPays")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("LogoUrl")
@@ -99,6 +102,32 @@ namespace DarlingBotNet.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Clans");
+                });
+
+            modelBuilder.Entity("DarlingBotNet.DataBase.Database.Models.Tasks", b =>
+                {
+                    b.Property<ulong>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<ulong>("ChannelId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<ulong>("GuildId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Message")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("Repeat")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("Times")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tasks");
                 });
 
             modelBuilder.Entity("DarlingBotNet.DataBase.EmoteClick", b =>
@@ -139,6 +168,9 @@ namespace DarlingBotNet.Migrations
                     b.Property<string>("CommandInviseString")
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("GiveClanRoles")
+                        .HasColumnType("INTEGER");
+
                     b.Property<bool>("GiveXPnextChannel")
                         .HasColumnType("INTEGER");
 
@@ -151,11 +183,14 @@ namespace DarlingBotNet.Migrations
                     b.Property<bool>("Leaved")
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("MafiaWaitChannel")
+                    b.Property<uint>("LimitRoleUserClan")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Prefix")
                         .HasColumnType("TEXT");
+
+                    b.Property<ulong>("PriceBuyRole")
+                        .HasColumnType("INTEGER");
 
                     b.Property<ulong>("PrivateChannelID")
                         .HasColumnType("INTEGER");
@@ -172,7 +207,7 @@ namespace DarlingBotNet.Migrations
                     b.Property<uint>("RaidUserCount")
                         .HasColumnType("INTEGER");
 
-                    b.Property<uint>("ViolationSystem")
+                    b.Property<byte>("ViolationSystem")
                         .HasColumnType("INTEGER");
 
                     b.Property<ulong>("WelcomeChannel")
@@ -237,7 +272,7 @@ namespace DarlingBotNet.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<uint>("countlvl")
+                    b.Property<ulong>("countlvl")
                         .HasColumnType("INTEGER");
 
                     b.Property<ulong>("guildid")
@@ -279,12 +314,6 @@ namespace DarlingBotNet.Migrations
 
                     b.Property<string>("ItemName")
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("ItemPropertieses")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("ItemTypes")
-                        .HasColumnType("INTEGER");
 
                     b.Property<ulong>("countTrade")
                         .HasColumnType("INTEGER");
@@ -336,9 +365,6 @@ namespace DarlingBotNet.Migrations
                 {
                     b.Property<ulong>("id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("Proffesion_Study")
                         .HasColumnType("INTEGER");
 
                     b.Property<ulong>("guildid")
@@ -445,6 +471,15 @@ namespace DarlingBotNet.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<ulong>("Bank")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("BankLastTransit")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("BankTimer")
+                        .HasColumnType("TEXT");
+
                     b.Property<DateTime>("Daily")
                         .HasColumnType("TEXT");
 
@@ -460,7 +495,7 @@ namespace DarlingBotNet.Migrations
                     b.Property<ulong>("ZeroCoin")
                         .HasColumnType("INTEGER");
 
-                    b.Property<uint>("clanId")
+                    b.Property<ulong>("clanId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("clanInfo")
@@ -489,7 +524,7 @@ namespace DarlingBotNet.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("CountWarn")
+                    b.Property<byte>("CountWarn")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("ReportWarn")

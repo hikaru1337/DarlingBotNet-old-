@@ -44,8 +44,10 @@ namespace DarlingBotNet
             await services.GetRequiredService<StartUpService>().StartAsync();       // Start the startup service
             var client = services.GetRequiredService<DiscordSocketClient>();
             //client.Log += LogAsync;
-                await Task.Delay(-1);      
+            await Task.Delay(-1);
+            
         }
+
 
 
         //private Task LogAsync(LogMessage log)
@@ -66,12 +68,6 @@ namespace DarlingBotNet
                         DefaultRetryMode = RetryMode.Retry502,
                         ExclusiveBulkDelete = true
                     }))
-                    //.AddSingleton<ObjectPoolProvider, DefaultObjectPoolProvider>()
-                    //.AddSingleton(s =>
-                    //{
-                    //    var provider = s.GetRequiredService<ObjectPoolProvider>();
-                    //    return provider.Create(new DbContext());
-                    //})
                     .AddSingleton(new CommandService(new CommandServiceConfig
                     {                                       // Add the command service to the collection
                         LogLevel = LogSeverity.Verbose,     // Tell the logger to give Verbose amount of info
@@ -85,9 +81,6 @@ namespace DarlingBotNet
                     //.AddSingleton<Random>()                 // Add random to the collection
                     .AddSingleton(Configuration)           // Add the configuration to the collection
                     .BuildServiceProvider();
-            
         }
-
-
     }
 }

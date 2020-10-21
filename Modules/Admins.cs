@@ -31,6 +31,7 @@ namespace DarlingBotNet.Modules
         [RequireUserPermission(GuildPermission.BanMembers)]
         public async Task ban(SocketGuildUser user, uint DeleteMessageDays = 0, [Remainder] string reason = null)
         {
+            _cache.Removes(Context);
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"{user.Mention} ban");
             if (DeleteMessageDays <= 7)
             {
@@ -60,6 +61,7 @@ namespace DarlingBotNet.Modules
         [RequireUserPermission(GuildPermission.BanMembers)]
         public async Task unban(ulong userid)
         {
+            _cache.Removes(Context);
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("UnBan");
             var usr = await Context.Guild.GetBanAsync(userid);
             if (usr != null)
@@ -76,6 +78,7 @@ namespace DarlingBotNet.Modules
         [RequireUserPermission(GuildPermission.KickMembers)]
         public async Task kick(SocketGuildUser user, [Remainder] string reason = null)
         {
+            _cache.Removes(Context);
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Kick");
             if (user.Hierarchy < Context.Guild.GetUser(Context.Client.CurrentUser.Id).Hierarchy)
             {
@@ -122,6 +125,7 @@ namespace DarlingBotNet.Modules
                 await (user as SocketGuildUser).AddRoleAsync(Context.Guild.GetRole(role.chatmuterole));
                 await (user as SocketGuildUser).AddRoleAsync(Context.Guild.GetRole(role.voicemuterole));
             }
+            _cache.Removes(Context);
             await Context.Channel.SendMessageAsync("", false, emb.Build());
         }
 
@@ -150,6 +154,7 @@ namespace DarlingBotNet.Modules
                 await (user as SocketGuildUser).RemoveRoleAsync(Context.Guild.GetRole(role.chatmuterole));
                 await (user as SocketGuildUser).RemoveRoleAsync(Context.Guild.GetRole(role.voicemuterole));
             }
+            _cache.Removes(Context);
             await Context.Channel.SendMessageAsync("", false, emb.Build());
         }
 
@@ -160,6 +165,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
+                _cache.Removes(Context);
                 var role = await SystemLoading.CreateMuteRole(Context.Guild);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("TempMute");
                 if (time < 720)
@@ -167,12 +173,14 @@ namespace DarlingBotNet.Modules
                     var times = DateTime.Now.AddMinutes(time);
                     var xz = DBcontext.TempUser.Add(new TempUser() { guildid = Context.Guild.Id,userId = user.Id, ToTime = times, Reason = "TempMute" }).Entity;
                     await DBcontext.SaveChangesAsync();
-                    emb.WithDescription($"Пользователь {user.Mention} получил мут");
+                    await user.AddRoleAsync(Context.Guild.GetRole(role.voicemuterole));
+                    await user.AddRoleAsync(Context.Guild.GetRole(role.chatmuterole));
+                    emb.WithDescription($"Пользователь {user.Mention} получил мут на {time} минут");
                     bool DMclose = false;
                     var embb = new EmbedBuilder().WithDescription($"Вы были замучены на сервере {Context.Guild.Name} на {time} минут").WithAuthor($"TempMuted");
                     try
                     {
-                        await user.SendMessageAsync("", false, emb.Build());
+                        await user.SendMessageAsync("", false, embb.Build());
                     }
                     catch (Exception)
                     {
@@ -196,10 +204,12 @@ namespace DarlingBotNet.Modules
                                 await user.SendMessageAsync("", false, embb.Build());
                         }
                     }
-                    else return;
+                    else 
+                        return;
 
                 }
                 else emb.WithDescription("Время мута должно быть не больше 720 минут");
+                
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
         }
@@ -212,19 +222,18 @@ namespace DarlingBotNet.Modules
             using (var DBcontext = new DBcontext())
             {
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Warn");
-                //var wrn = new WarnSystem().WarnUser(user,_cache).Result;
-
                 var glds = _cache.GetOrCreateGuldsCache(user.Guild.Id);
                 var GuildWarnCount = DBcontext.Warns.AsQueryable().Count(x => x.guildid == user.Guild.Id);
                 var usr = _cache.GetOrCreateUserCache(user.Id, user.Guild.Id);
-                if (usr.countwarns >= 15 || usr.countwarns >= GuildWarnCount)
+                _cache.Removes(Context);
+                if (usr.countwarns >= GuildWarnCount)
                     usr.countwarns = 1;
                 else
                     usr.countwarns++;
+                DBcontext.Users.Update(usr);
+                await DBcontext.SaveChangesAsync();
                 emb.WithDescription($"Пользователь {user.Mention} получил {usr.countwarns} нарушение");
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
-                //var usr = wrn.Item1;
-                //emb.Description += wrn.Item2.Description;
 
                 var warn = DBcontext.Warns.FirstOrDefault(x=>x.guildid == user.Guild.Id && x.CountWarn == usr.countwarns);
                 if (warn != null)
@@ -255,7 +264,7 @@ namespace DarlingBotNet.Modules
                         {
                             if (user.Hierarchy < Context.Guild.GetUser(Context.Client.CurrentUser.Id).Hierarchy)
                                 await user.BanAsync();
-                            else emb.WithDescription($"Пользователь {user.Mention} имеет права выше бота!\nБот не может кикнуть пользователя");
+                            else emb.WithDescription($"Пользователь {user.Mention} имеет права выше бота!\nБот не может забанить пользователя");
                         }
                         else if (rep == "mute" || rep == "tmute")
                         {
@@ -293,6 +302,7 @@ namespace DarlingBotNet.Modules
                                         await user.RemoveRoleAsync(user.Guild.GetRole(glds.voicemuterole));
                                     }
                                 }
+
                                 if (success)
                                     await Context.Channel.SendMessageAsync("", false, emb.Build());
                             }
@@ -342,8 +352,12 @@ namespace DarlingBotNet.Modules
                 {
                     emb.WithDescription($"У пользователя {user.Mention} снято {usr.countwarns} нарушение.");
                     usr.countwarns--;
+                    DBcontext.Users.Update(usr);
+                    await DBcontext.SaveChangesAsync();
                 }
-                else emb.WithDescription($"У пользователя {user.Mention} нету нарушений.");
+                else 
+                    emb.WithDescription($"У пользователя {user.Mention} нету нарушений.");
+                _cache.Removes(Context);
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
         }
@@ -351,46 +365,47 @@ namespace DarlingBotNet.Modules
         [Aliases, Commands, Usage, Descriptions]
         [PermissionBlockCommand]
         [RequireUserPermission(GuildPermission.ManageChannels)]
-        public async Task clear(uint MessageDelete = 0)
+        public async Task clear(uint MessageDelete)
         {
-            var emb = new EmbedBuilder().WithColor(255, 0, 94);
-            if (MessageDelete == 0)
-            {
-                emb.WithTitle("Ошибка").WithDescription("Введите количество сообщений которое требуется удалить.");
-                await Context.Channel.SendMessageAsync("", false, emb.Build());
-            }
-            else
-            {
-                if (MessageDelete > 100) emb.WithDescription("Удалить больше 100 сообщений нельзя!");
-                else
-                {
-                    await Context.Message.DeleteAsync();
-                    var messages = await Context.Message.Channel.GetMessagesAsync((int)MessageDelete).FlattenAsync();
-                    var result = messages.Where(x => x.CreatedAt >= DateTimeOffset.UtcNow.Subtract(TimeSpan.FromDays(14)));
-                    await ((ITextChannel)Context.Channel).DeleteMessagesAsync(result);
-                    emb.WithTitle("Успех").WithDescription($"Удалено {result.Count() + 1} сообщений").WithColor(255, 0, 94);
-                    var x = await Context.Channel.SendMessageAsync("", false, emb.Build());
-                    await Task.Delay(3000);
-                    await x.DeleteAsync();
-                }
-            }
-        }
+            _cache.Removes(Context);
+            var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Message Clear");
 
-        [Aliases, Commands, Usage, Descriptions]
-        [PermissionBlockCommand]
-        [RequireUserPermission(GuildPermission.ManageChannels)]
-        public async Task userclear(SocketGuildUser user, uint MessageDelete = 0)
-        {
-            var emb = new EmbedBuilder().WithColor(255, 0, 94);
-            if (MessageDelete == 0)
+            if (MessageDelete > 100)
             {
-                emb.WithTitle("Ошибка").WithDescription("Введите количество сообщений которое требуется удалить.");
+                emb.WithDescription("Удалить больше 100 сообщений нельзя!");
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
             else
             {
                 await Context.Message.DeleteAsync();
-                if (user == Context.User) MessageDelete++;
+                var messages = await Context.Message.Channel.GetMessagesAsync((int)MessageDelete).FlattenAsync();
+                var result = messages.Where(x => x.CreatedAt >= DateTimeOffset.UtcNow.Subtract(TimeSpan.FromDays(14)));
+                await ((ITextChannel)Context.Channel).DeleteMessagesAsync(result);
+                emb.WithTitle("Успех").WithDescription($"Удалено {result.Count() + 1} сообщений").WithColor(255, 0, 94);
+                var x = await Context.Channel.SendMessageAsync("", false, emb.Build());
+                await Task.Delay(3000);
+                await x.DeleteAsync();
+            }
+            
+        }
+
+        [Aliases, Commands, Usage, Descriptions]
+        [PermissionBlockCommand]
+        [RequireUserPermission(GuildPermission.ManageChannels)]
+        public async Task userclear(SocketGuildUser user, uint MessageDelete)
+        {
+            _cache.Removes(Context);
+            var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"{user} Message Clear");
+            if (MessageDelete > 100)
+            {
+                emb.WithDescription("Удалить больше 100 сообщений нельзя!");
+                await Context.Channel.SendMessageAsync("", false, emb.Build());
+            }
+            else
+            {
+                await Context.Message.DeleteAsync();
+                if (user == Context.User) 
+                    MessageDelete++;
                 var messages = await Context.Message.Channel.GetMessagesAsync((int)MessageDelete).FlattenAsync();
                 var result = messages.Where(x => x.Author.Id == user.Id && x.CreatedAt >= DateTimeOffset.UtcNow.Subtract(TimeSpan.FromDays(14)));
                 emb.WithTitle("Успех").WithDescription($"Удалено {result.Count() + 1} сообщений от {user.Mention}").WithColor(255, 0, 94);
@@ -399,6 +414,7 @@ namespace DarlingBotNet.Modules
                 await Task.Delay(3000);
                 await x.DeleteAsync();
             }
+            
 
         }
 
@@ -493,6 +509,7 @@ namespace DarlingBotNet.Modules
         [RequireUserPermission(GuildPermission.ManageChannels)]
         public async Task embedsay(SocketTextChannel channel, [Remainder] string text)
         {
+            _cache.Removes(Context);
             var mes = MessageBuilder.EmbedUserBuilder(text);
             await channel.SendMessageAsync(mes.Item2, false, mes.Item1.Build());
         }

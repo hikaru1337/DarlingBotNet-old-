@@ -1,4 +1,5 @@
-﻿using DarlingBotNet.DataBase.RussiaGame;
+﻿using DarlingBotNet.DataBase.Database.Models;
+using DarlingBotNet.DataBase.RussiaGame;
 using DarlingBotNet.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,7 +15,9 @@ namespace DarlingBotNet.DataBase
         public DbSet<PrivateChannels> PrivateChannels { get; set; }
         public DbSet<Clans> Clans { get; set; }
         public DbSet<Warns> Warns { get; set; }
+        public DbSet<Tasks> Tasks { get; set; }
         public DbSet<TempUser> TempUser { get; set; }
+        //public DbSet<GiveAways> GiveAways { get; set; }
         public DbSet<RussiaGame_Profile> RG_Profile { get; set; }
         public DbSet<RussiaGame_Item> RG_Item { get; set; }
         public DbSet<RussiaGame_Study> RG_Study { get; set; }

@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace DarlingBotNet.Modules
 {
     [Name("RPgif")]
+    [NotDBCommand]
     public class RPgif : ModuleBase<SocketCommandContext>
     {
         private NekoClient NekoClient = new NekoClient("DARLING");

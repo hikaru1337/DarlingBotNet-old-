@@ -6,10 +6,9 @@ using Discord.Commands;
 using Discord.WebSocket;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Internal;
-using Microsoft.Extensions.Caching.Memory;
+using ServiceStack;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -37,256 +36,14 @@ namespace DarlingBotNet.Services
         } // Подключение компонентов
 
 
-        //public static (bool, EmbedBuilder) CheckText(string report)
-        //{
-        //    bool es = false;
-        //    bool error = false;
-        //    var emb = new EmbedBuilder().WithColor(255, 0, 94);
-        //    try
-        //    {
-        //        if (report.ToLower() == "kick" || report.ToLower() == "ban" || report.ToLower() == "mute")
-        //            es = true;
-        //        else if (report.ToLower().Substring(0, 4) == "tban" || report.ToLower().Substring(0, 5) == "tmute")
-        //        {
-        //            int count = 5;
-        //            if (report.ToLower().Substring(0, 4) == "tban") count = 4;
-        //                try
-        //                {
-        //                    if (Convert.ToUInt64(report.ToLower().Substring(count, report.Length - count)) <= 720)
-        //                        es = true;
-        //                    else
-        //                        emb.WithDescription("Время должно быть не больше 720 минут");
-        //                }
-        //                catch (Exception)
-        //                {
-        //                    error = true;
-        //                }
-        //        }
-        //        else error = true;
-        //    }
-        //    catch (Exception)
-        //    {
-        //        error = true;
-        //    }
-
-        //    if(error)
-        //        emb.WithDescription("Используйте эти нарушения ban,kick,mute,tmute,tban.")
-        //            .WithFooter("Инструкция о команде - [инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#vystavit-varn-na-servere)");
-            
-        //    return (es, emb);
-        //}
-
-        //public static Guilds GuildCreate(SocketGuild Guild)
-        //{
-        //    using (var DBcontext = new DBcontext())
-        //    {
-        //        var glds = DBcontext.Guilds.FirstOrDefault(x => x.guildid == Guild.Id);
-        //        if (glds == null)
-        //        {
-        //            glds = new Guilds() { guildid = Guild.Id, GiveXPnextChannel = true, Prefix = BotSettings.Prefix };
-        //            DBcontext.Guilds.Add(glds);
-        //        }  
-        //        else if(glds.Leaved)
-        //        {
-        //            glds.Leaved = false;
-        //            DBcontext.Guilds.Update(glds);
-        //        }
-                    
-
-        //        await DBcontext.SaveChangesAsync();
-
-        //        CreateChannelRange(Guild.TextChannels);
-        //        return glds;
-        //    }
-        //}
-        //public static async Task CreateChannelRange(IEnumerable<SocketTextChannel> Channels)
-        //{
-        //    using (var DBcontext = new DBcontext())
-        //    {
-        //        var givexp = cache.GetOrCreateGuldsCache(Channels.First().Guild.Id).GiveXPnextChannel;
-        //        var lists = new List<Channels>();
-        //        foreach (var TextChannel in Channels)
-        //        {
-        //            lists.Add(new Channels() { guildid = TextChannel.Guild.Id, channelid = TextChannel.Id, GiveXP = givexp, UseCommand = true });
-        //        }
-        //        DBcontext.Channels.AddRange(lists);
-        //        await DBcontext.SaveChangesAsync();
-        //    }
-        //}
-        //static Stopwatch sw = new Stopwatch();
-        //public static async void GuildCheck(DiscordSocketClient _discord,IServiceProvider services)
-        //{
-        //    service = services;
-        //    cache = (IMemoryCache)services.GetService(typeof(IMemoryCache));
-        //    sw.Start();
-        //    using (var DBcontext = new DBcontext())
-        //    {
-        //        foreach (var Guild in _discord.Guilds)
-        //        {
-        //            var glds = DBcontext.Guilds.FirstOrDefault(x => x.guildid == Guild.Id);
-        //            if (glds == null || glds.Leaved)
-        //                GuildCreate(Guild);
-        //        } // Проверка Гильдий которые есть в боте но нету в базе
-
-
-        //        foreach (var glds in DBcontext.Guilds)
-        //        {
-        //            if(_discord.GetGuild(glds.guildid) == null)
-        //                GuildDelete(glds);
-        //        } // Проверка гильдий которые удалили бота во время его офлайна
-        //    }
-        //    ChannelCheck(_discord);
-        //} // МИГРАЦИЯ, ПРОВЕРКА ГИЛЬДИЙ
-        //public static async void GuildDelete(Guilds Guild)
-        //{
-        //    using (var DBcontext = new DBcontext())
-        //    {
-        //        DBcontext.Channels.RemoveRange(DBcontext.Channels.AsQueryable().Where(x=>x.guildid == Guild.guildid));
-        //        DBcontext.LVLROLES.RemoveRange(DBcontext.LVLROLES.AsQueryable().Where(x => x.guildid == Guild.guildid));
-        //        DBcontext.EmoteClick.RemoveRange(DBcontext.EmoteClick.AsQueryable().Where(x => x.guildid == Guild.guildid));
-        //        DBcontext.PrivateChannels.RemoveRange(DBcontext.PrivateChannels.AsQueryable().Where(x => x.guildid == Guild.guildid));
-        //        DBcontext.Warns.RemoveRange(DBcontext.Warns.AsQueryable().Where(x => x.guildid == Guild.guildid));
-        //        DBcontext.TempUser.RemoveRange(DBcontext.TempUser.AsQueryable().Where(x => x.guildid == Guild.guildid));
-
-        //        var UsersLeave = DBcontext.Users.AsQueryable().Where(x=>x.guildId == Guild.guildid);
-        //        foreach (var user in UsersLeave) user.Leaved = true;
-        //        DBcontext.Users.UpdateRange(UsersLeave);
-
-        //        Guild.Leaved = true;
-        //        DBcontext.Guilds.Update(Guild);
-        //        await DBcontext.SaveChangesAsync();
-        //    }
-        //} // УДАЛЕНИЕ ИНФОРМАЦИИ ГИЛЬДИИ
-        //public static async void ChannelCheck(DiscordSocketClient _discord)
-        //{
-        //    using (var DBcontext = new DBcontext())
-        //    {
-        //        var Guilds = DBcontext.Guilds.AsQueryable().Where(x => !x.Leaved);
-
-        //        foreach (var Guild in Guilds)
-        //        {
-        //            var glds = _discord.GetGuild(Guild.guildid); // Выдача гильдии
-
-        //            var ChannelsDelete = DBcontext.Channels.AsQueryable().Where(x=> x.guildid == Guild.guildid).AsEnumerable().Where(x=> glds.GetTextChannel(x.channelid) == null); // Удаление недействительных каналов
-
-        //            foreach (var channel in ChannelsDelete)
-        //            {
-        //                if (Guild.banchannel == channel.Id) Guild.banchannel = 0;
-        //                if (Guild.unbanchannel == channel.Id) Guild.unbanchannel = 0;
-        //                if (Guild.WelcomeChannel == channel.Id) Guild.WelcomeChannel = 0;
-        //                if (Guild.LeaveChannel == channel.Id) Guild.LeaveChannel = 0;
-        //                if (Guild.joinchannel == channel.Id) Guild.joinchannel = 0;
-        //                if (Guild.leftchannel == channel.Id) Guild.leftchannel = 0;
-        //                if (Guild.mesdelchannel == channel.Id) Guild.mesdelchannel = 0;
-        //                if (Guild.meseditchannel == channel.Id) Guild.meseditchannel = 0;
-        //                if (Guild.voiceUserActions == channel.Id) Guild.voiceUserActions = 0;
-        //            }
-
-        //            if (glds.GetRole(Guild.WelcomeRole) == null) Guild.WelcomeRole = 0;
-        //            if (glds.GetRole(Guild.chatmuterole) == null) Guild.chatmuterole = 0;
-        //            if (glds.GetRole(Guild.voicemuterole) == null) Guild.voicemuterole = 0;
-
-
-        //            var Emoteclickes = DBcontext.EmoteClick.AsQueryable().Where(x => x.guildid == Guild.guildid).AsEnumerable().Where(x => ChannelsDelete.Where(x => x.channelid == x.channelid).Count() > 0 || glds.GetRole(x.roleid) == null || glds.Emotes.Where(z => z.Name == x.emote) == null);
-
-        //            var LVLROLE = DBcontext.LVLROLES.AsQueryable().Where(x=> x.guildid == Guild.guildid).AsEnumerable().Where(x => glds.GetRole(x.roleid) == null); // Выдача недействительных Уровневых ролей
-
-        //            var chnlcrt = glds.TextChannels.Where(x => DBcontext.Channels.FirstOrDefault(z=> z.channelid == x.Id && z.guildid == x.Guild.Id) == null); // Выдача недействительных каналов
-
-        //            if (chnlcrt.Count() > 0) 
-        //                await CreateChannelRange(chnlcrt); // Создание недействительных каналов
-
-
-        //            var UsersLeave = DBcontext.Users.AsQueryable().Where(x => x.guildId == Guild.guildid);
-        //            foreach (var user in UsersLeave)
-        //            {
-        //                if (glds.GetUser(user.userid) != null) user.Leaved = false;
-        //                else user.Leaved = true;
-        //            }
-
-        //            DBcontext.Channels.RemoveRange(ChannelsDelete);
-        //            DBcontext.EmoteClick.RemoveRange(Emoteclickes);
-        //            DBcontext.LVLROLES.RemoveRange(LVLROLE);
-        //            DBcontext.Users.UpdateRange(UsersLeave);
-        //            DBcontext.Guilds.Update(Guild);
-        //            await DBcontext.SaveChangesAsync();
-        //            await new Privates().CheckPrivate(glds); // Проверка приваток
-
-
-
-        //            CheckTempUser(Guild, glds);
-        //        }
-        //        sw.Stop();
-        //        Console.WriteLine(sw.Elapsed);
-        //        sw.Reset();
-        //        loading = true;
-        //    }
-        //} // ПРОВЕРКА КАНАЛОВ И РОЛЕЙ
-        //private static async void CheckTempUser(Guilds glds, SocketGuild guild)
-        //{
-        //    using (var DBcontext = new DBcontext())
-        //    {
-        //        var users = DBcontext.TempUser.AsQueryable().Where(x => x.guildid == glds.guildid);
-        //        foreach (var user in users)
-        //            await UserMuteTime(user, guild,glds);
-        //    }
-        //} // Проверка активных нарушений
-        //private static async Task UserMuteTime(TempUser user, SocketGuild guild, Guilds gld)
-        //{
-        //    using (var DBcontext = new DBcontext())
-        //    {
-        //        if (user.ToTime < DateTime.Now)
-        //            await Task.Delay(user.ToTime.Millisecond);
-
-        //        var usr = guild.GetUser(user.userId);
-
-        //        if (user.Reason.Contains("tban"))
-        //        {
-        //            try
-        //            {
-        //                await guild.RemoveBanAsync(usr);
-        //            }
-        //            catch (Exception)
-        //            {
-        //                Console.WriteLine($"252 - бан не удалился\n{guild.Name}\n{usr}");
-        //            }
-        //        }   
-        //        else
-        //        {
-        //            var cmute = guild.GetRole(gld.chatmuterole);
-        //            var vmute = guild.GetRole(gld.voicemuterole);
-        //            try
-        //            {
-                        
-        //                if (cmute != null && usr != null && usr.Roles.Contains(cmute))
-        //                    await usr.RemoveRoleAsync(cmute);
-        //                if (vmute != null && usr != null && usr.Roles.Contains(vmute))
-        //                    await usr.RemoveRoleAsync(vmute);
-        //            }
-        //            catch (Exception)
-        //            {
-        //                Console.WriteLine($"257 - роли не удалились\n{guild.Name}\n{usr}");
-        //            }
-        //        }
-        //        var UserCheckMute = DBcontext.TempUser.FirstOrDefault(x => x.guildid == user.guildid && x.userId == user.userId && x.ToTime == user.ToTime);
-        //        if (UserCheckMute != null)
-        //        {
-        //            DBcontext.TempUser.Remove(UserCheckMute);
-        //            await DBcontext.SaveChangesAsync();
-        //        }
-        //    }
-
-        //} // Активация нарушений
-
         public static async Task<Guilds> CreateMuteRole(SocketGuild Context)
         {
             using (var DBcontext = new DBcontext())
             {
-                var Guild = Loadingdb.cache.GetOrCreateGuldsCache(Context.Id);
-
+                var Guild = Loadingdb._cache.GetOrCreateGuldsCache(Context.Id);
                 if (Context.GetRole(Guild.chatmuterole) == null)
                 {
-                    var MCC = await Context.CreateRoleAsync("ChatMute", new GuildPermissions(mentionEveryone: false), Color.Red, false, false);
+                    var MCC = await Context.CreateRoleAsync("ChatMute", new GuildPermissions(mentionEveryone: false), Discord.Color.Red, false, false);
 
                     foreach (var TC in Context.CategoryChannels)
                         await TC.AddPermissionOverwriteAsync(MCC, new OverwritePermissions(sendMessages: PermValue.Deny));
@@ -302,7 +59,7 @@ namespace DarlingBotNet.Services
 
                 if (Context.GetRole(Guild.voicemuterole) == null)
                 {
-                    var MCV = await Context.CreateRoleAsync("VoiceMute", new GuildPermissions(mentionEveryone: false), Color.Red, false, false);
+                    var MCV = await Context.CreateRoleAsync("VoiceMute", new GuildPermissions(mentionEveryone: false), Discord.Color.Red, false, false);
 
                     foreach (var TC in Context.CategoryChannels)
                         await TC.AddPermissionOverwriteAsync(MCV, new OverwritePermissions(sendMessages: PermValue.Deny));
@@ -327,18 +84,17 @@ namespace DarlingBotNet.Services
             using (var DBcontext = new DBcontext())
             {
                 var user = message.Author as SocketGuildUser;
-                var usr = Loadingdb.cache.GetOrCreateUserCache(user.Id, user.Guild.Id);
+                var usr = Loadingdb._cache.GetOrCreateUserCache(user.Id, user.Guild.Id);
                 if ((ulong)Math.Sqrt((usr.XP + 10) / 80) > usr.Level)
                 {
-                    var roles = DBcontext.LVLROLES.AsQueryable().Where(x=>x.guildid == user.Guild.Id).AsEnumerable().Where(x=>x.countlvl <= (usr.Level +1)).OrderBy(x => x.countlvl);
+                    var roles = DBcontext.LVLROLES.AsQueryable().Where(x=>x.guildid == user.Guild.Id).AsEnumerable().Where(x=> x.countlvl >= usr.Level && x.countlvl <= (usr.Level +1)).OrderBy(x => x.countlvl).ToList();
                     if (roles.Count() != 0)
                     {
                         var afterrole = roles.LastOrDefault();
                         if (afterrole != null)
                         {
-                            var beforerole = roles.ElementAtOrDefault((roles.Count() - 1));
-
-                            if (beforerole != null)
+                            var beforerole = roles.FirstOrDefault();
+                            if (beforerole != null && afterrole.roleid != beforerole.roleid)
                             {
                                 var befrole = user.Guild.GetRole(beforerole.roleid);
                                 if (user.Roles.Contains(befrole))
@@ -350,13 +106,18 @@ namespace DarlingBotNet.Services
                                 await user.AddRoleAsync(aftrole);
                         }
                     }
+
+                    ulong amt = 500 + ((500 / 35) * (usr.Level+1));
+                    usr.ZeroCoin += amt;
                     await message.Channel.SendMessageAsync("", false, new EmbedBuilder().WithColor(255, 0, 94).WithDescription($"{user.Mention} LEVEL UP")
                                                                                         .AddField("LEVEL", $"{usr.Level + 1}", true)
-                                                                                        .AddField("XP", $"{usr.XP + 10}", true).Build());
+                                                                                        .AddField("XP", $"{usr.XP + 10}", true)
+                                                                                        .AddField("ZeroCoins",$"+{amt}")
+                                                                                        .Build());
                 }
                 else
                 {
-                    var roles = DBcontext.LVLROLES.AsQueryable().Where(x => x.guildid == user.Guild.Id).AsEnumerable().OrderBy(x=> (uint)x.countlvl).LastOrDefault(x=>x.countlvl <= usr.Level);
+                    var roles = DBcontext.LVLROLES.AsQueryable().Where(x => x.guildid == user.Guild.Id).AsEnumerable().LastOrDefault(x=>x.countlvl <= usr.Level);
                     if (roles != null)
                     {
                         var role = user.Guild.GetRole(roles.roleid);
@@ -365,7 +126,6 @@ namespace DarlingBotNet.Services
                     }
                 }
                 usr.XP += 10;
-                Loadingdb.cache.Update(usr);
                 DBcontext.Users.Update(usr);
                 await DBcontext.SaveChangesAsync();
             }
@@ -486,34 +246,32 @@ namespace DarlingBotNet.Services
                         {
                             if (new SpamChecking().CalculateFuzzyEqualValue(msg.Message.Content, Messes.Content) == 1)
                                 CountSumMessage++;
+
+                            else if(msg.Message.Content.Contains(Messes.Content) || Messes.Content.Contains(msg.Message.Content))
+                                CountSumMessage++;
                         }
                         if (CountSumMessage > 3)
                         {
-                            await (msg.Channel as SocketTextChannel).AddPermissionOverwriteAsync(msg.Message.Author, new OverwritePermissions(sendMessages: PermValue.Deny));
+                            var CountTempsThisUser = DBcontext.TempUser.AsQueryable().Where(x => x.guildid == msg.Guild.Id && x.userId == msg.User.Id).AsEnumerable().Count(x=>(x.ToTime - DateTime.Now).TotalSeconds > 30);
+                            if (CountTempsThisUser == 0)
+                            {
+                                var TempUser = DBcontext.TempUser.Add(new TempUser() { guildid = msg.Guild.Id, userId = msg.User.Id, ToTime = DateTime.Now.AddMinutes(5), Reason = "TempMute" }).Entity;
+                                await DBcontext.SaveChangesAsync();
+                                var role = await CreateMuteRole(msg.Guild);
+                                var VoiceMuteRole = msg.Guild.GetRole(role.voicemuterole);
+                                var ChatMuteRole = msg.Guild.GetRole(role.chatmuterole);
+                                await (msg.User as SocketGuildUser).AddRoleAsync(VoiceMuteRole);
+                                await (msg.User as SocketGuildUser).AddRoleAsync(ChatMuteRole);
+                                await TaskTimer.StartTempMute(TempUser);
+                            }
                             var messa = await msg.Message.Channel.GetMessagesAsync(CountSumMessage).FlattenAsync();
                             var result = messa.Where(x => x.Author.Id == msg.Message.Author.Id);
                             await (msg.Channel as SocketTextChannel).DeleteMessagesAsync(result);
-                            await (msg.Channel as SocketTextChannel).RemovePermissionOverwriteAsync(msg.Message.Author);
                             return true;
                         }
                     }
                 } // Проверка на спам
-                if (chnl.SendUrl)
-                {
-                    if (chnl.SendUrlImage)
-                    {
-                        string message = msg.Message.Content;
-                        if (new Regex(@"\b(?:https?://|www\.)\S+\b", RegexOptions.Compiled | RegexOptions.IgnoreCase).Matches(message).Count > 0)
-                        {
-                            if (chnl.csUrlWhiteListList.Where(x => x.Contains(message) || message.Contains(x)).Count() == 0)
-                            { 
-                                await msg.Message.DeleteAsync();
-                                return true;
-                            }
-                        }
-                    }
-                } // Отправка ссылки
-                if (chnl.SendCaps && msg.Message.Content.Count(c => char.IsUpper(c)) == msg.Message.Content.Length)
+                if (chnl.DelCaps && msg.Message.Content.Count(c => char.IsUpper(c)) >= (msg.Message.Content.Length * 0.5))
                 {
                         await msg.Message.DeleteAsync();
                         return true;
@@ -541,6 +299,43 @@ namespace DarlingBotNet.Services
                         }
                     }
                 } // ИНВАЙТЫ
+                if (chnl.DelUrl)
+                {
+                    string message = msg.Message.Content;
+
+                    if (new Regex(@"\b(?:https?://|www\.)\S+\b", RegexOptions.Compiled | RegexOptions.IgnoreCase).Matches(message).Count > 0)
+                    {
+                        if (chnl.csUrlWhiteListList.Where(x => x.Contains(message) || message.Contains(x)).Count() == 0)
+                        {
+                            bool DeleteURL = false;
+                            if (chnl.DelUrlImage)
+                            {
+                                if( !(message.StartsWith("https://tenor.com") || message.StartsWith("http://tenor.com/") ) &&
+                                    !(message.StartsWith("https://media.discordapp.net/") || message.StartsWith("http://media.discordapp.net/") ) &&
+                                    !message.StartsWith("https://images-ext-1.discordapp.net/") && !message.StartsWith("https://cdn.discordapp.com/"))
+                                {
+                                    if(!message.EndsWith(".png") && !message.EndsWith(".gif") && !message.EndsWith(".jpg") && !message.EndsWith(".jpeg"))
+                                    {
+                                        if (!message.Contains("png") && !message.Contains(".gif") && !message.Contains(".jpg") && !message.Contains(".jpeg"))
+                                        {
+                                            DeleteURL = true;
+                                        }
+                                    }
+                                }
+
+                            }
+                            else
+                                DeleteURL = true;
+
+                            if (DeleteURL)
+                            {
+                                await msg.Message.DeleteAsync();
+                                return true;
+                            }
+                        }
+
+                    }
+                } // Отправка ссылки
                 return false;
             }
 

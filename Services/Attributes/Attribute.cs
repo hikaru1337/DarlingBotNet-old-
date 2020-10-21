@@ -21,9 +21,43 @@ namespace DarlingBotNet.Services
         public DescriptionsAttribute([CallerMemberName] string memberName = "") : base(Initiliaze.Load(memberName).Desc) { }
     }
 
+    public class NotDBCommand : PreconditionAttribute
+    {
+        public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
+        {
+            var cache = (IMemoryCache)services.GetService(typeof(IMemoryCache));
+            cache.Removes(context);
+            return Task.FromResult(PreconditionResult.FromSuccess());
+        }
+    }
+
+    public class PrivateChannelBlock : PreconditionAttribute
+    {
+        public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
+        {
+            using (var DBcontext = new DBcontext())
+            {
+                var prc = DBcontext.PrivateChannels.FirstOrDefault(x => x.userid == context.User.Id && x.guildid == context.Guild.Id);
+                bool es = false;
+                if (prc != null)
+                {
+                    var DiscordVoiceChannel = context.Guild.GetVoiceChannelAsync(prc.channelid);
+                    if (DiscordVoiceChannel == null)
+                        es = true;
+                }
+                else 
+                    es = true;
+
+                if (es)
+                    return Task.FromResult(PreconditionResult.FromError($"У вас нет приватного канала!"));
+
+                return Task.FromResult(PreconditionResult.FromSuccess());
+            }
+        }
+    }
+
     public class PermissionBlockCommand : PreconditionAttribute
     {
-        
         public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
         {
             var cache = (IMemoryCache)services.GetService(typeof(IMemoryCache));
@@ -90,7 +124,6 @@ namespace DarlingBotNet.Services
 
     //            return Task.FromResult(PreconditionResult.FromSuccess());
     //        }
-
     //    }
     //}
 
@@ -102,28 +135,55 @@ namespace DarlingBotNet.Services
 
             using (var Xontext = new DBcontext())
             {
-                var usr = Xontext.Users.FirstOrDefault(x => x.guildId == context.Guild.Id && x.userid == context.User.Id);
+                var cache = (IMemoryCache)services.GetService(typeof(IMemoryCache));
+                var usr = cache.GetOrCreateUserCache(context.User.Id,context.Guild.Id);
                 var myclan = Xontext.Clans.FirstOrDefault(x => x.guildId == context.Guild.Id && x.OwnerId == context.User.Id);
-                if ((command.Name == "clandelete" || command.Name == "clanperm" || command.Name == "clanownertake") && myclan == null)
+                if ((command.Name == "clandelete" || command.Name == "clanperm" || command.Name == "clanownertake" || command.Name == "clanshop") && myclan == null)
                     return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана!"));
                 else if (command.Name == "clanclaims" || command.Name == "clankick")
                 {
                     if (myclan == null && usr.clanInfo != Users.UserClanRole.moder)
                         return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана или вы не являетесь модератором в который вступили!"));
                 }
-                else if (command.Name == "claninfo")
+                else if (command.Name == "claninfo" || command.Name == "clantransaction")
                 {
                     if (myclan == null && (usr.clanInfo == Users.UserClanRole.wait || usr.clanInfo == Users.UserClanRole.ready))
                         return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана или вы не вступили чтобы посмотреть информацию!"));
                 }
                 else if (command.Name == "clanleave")
                 {
-                    if (usr.clanInfo == Users.UserClanRole.wait || usr.clanInfo == Users.UserClanRole.ready)
-                        return Task.FromResult(PreconditionResult.FromError($"Вы не вступили в клан, чтобы выходить откуда либо!"));
+                    if (myclan != null)
+                    {
+                        return Task.FromResult(PreconditionResult.FromError($"Вы не можете выйти из своего клана!"));
+                    }
+                    else
+                    {
+                        if (usr.clanInfo == Users.UserClanRole.wait || usr.clanInfo == Users.UserClanRole.ready)
+                            return Task.FromResult(PreconditionResult.FromError($"Вы не вступили в клан, чтобы выходить откуда либо!"));
+                    }
+                    
                 }
                 else if (command.Name == "clancreate" && myclan != null)
                     return Task.FromResult(PreconditionResult.FromError($"Для того чтобы создать новый клан, удалите или передайте существующий!"));
 
+                return Task.FromResult(PreconditionResult.FromSuccess());
+            }
+        }
+    }
+
+    public class PermissionClanMoneyMinus : PreconditionAttribute
+    {
+
+        public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
+        {
+            using (var Xontext = new DBcontext())
+            {
+                var cache = (IMemoryCache)services.GetService(typeof(IMemoryCache));
+                var myclan = Xontext.Clans.FirstOrDefault(x => x.guildId == context.Guild.Id && x.OwnerId == context.User.Id);
+                if(myclan != null && myclan.ClanMoney <= -50000)
+                {
+                    return Task.FromResult(PreconditionResult.FromError($"Ваш клан имеет баланс больше -50000 ZeroCoins.\nДля разморозки пополните баланс до суммы меньше -50000"));
+                }
                 return Task.FromResult(PreconditionResult.FromSuccess());
             }
         }

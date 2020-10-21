@@ -1,10 +1,12 @@
 ﻿//using DarlingBotNet.DataBase;
+//using DarlingBotNet.DataBase.Database;
 //using DarlingBotNet.DataBase.RussiaGame;
 //using DarlingBotNet.Services;
 //using Discord;
 //using Discord.Commands;
 //using Discord.WebSocket;
 //using Microsoft.EntityFrameworkCore;
+//using Microsoft.Extensions.Caching.Memory;
 //using Pcg;
 //using SixLabors.ImageSharp.Processing;
 //using System;
@@ -20,6 +22,13 @@
 //{
 //    public class RussiaGame : ModuleBase<SocketCommandContext>
 //    {
+//        private readonly IMemoryCache _cache;
+
+
+//        public RussiaGame(IMemoryCache cache)
+//        {
+//            _cache = cache;
+//        }
 
 //        public static async Task<RussiaGame_Profile> CreateUser(SocketUser user)
 //        {
@@ -33,12 +42,13 @@
 //        }
 
 //        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
-//        public async Task RGstudy(ulong page = 0, ulong studyid = 0)
+//        public async Task RGstudy(ulong studyid = 0)
 //        {
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Выбор учебы");
 //                var studys = DBcontext.RG_Study.AsEnumerable();
+//                int page = 0;
 //                if (page == 0 || studyid == 0)
 //                {
 //                    if (studys.Count() == 0) emb.WithDescription("Учебных заведений нет!");
@@ -47,15 +57,7 @@
 //                        if (page > Math.Ceiling(Convert.ToDouble(studys.Count()) / 5)) emb.WithDescription("404 Not Found. Вы зашли в темный район, тут никого нет.").WithFooter($"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(studys.Count()) / 5)}");
 //                        else
 //                        {
-//                            var glds = DBcontext.Guilds.FirstOrDefault(x => x.guildid == Context.Guild.Id).Prefix;
-//                            emb.WithFooter($"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(studys.Count()) / 5)}\nУчиться - {glds}rgs [page] [studyid]\n");
-//                            int circl = 0;
-//                            foreach (var us in studys.Skip(Convert.ToInt32(page > 0 ? --page : page) * 5))
-//                            {
-//                                circl++;
-//                                emb.AddField($"{us.studyid}.{us.studyName}", $"Цена: {us.StudyMoney} Время обучения: {us.DayStudying}", true);
-//                                if (circl >= 5) break;
-//                            }
+//                            await ListBuilder(page, studys, emb, "RGstudy");
 //                        }
 //                        emb.Footer.Text += $"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(studys.Count()) / 5)}";
 //                    }
@@ -88,15 +90,17 @@
 //                    else emb.WithDescription("Такого учебного заведения нет.");
 //                }
 //                await Context.Channel.SendMessageAsync("", false, emb.Build());
+//                _cache.Remove(_cache);
 //            }
 //        }
 
 //        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
-//        public async Task RGwork(ulong page = 0, ulong workid = 0)
+//        public async Task RGwork(ulong workid = 0)
 //        {
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Выбор работы");
+//                int page = 0;
 //                if (page == 0 || workid == 0)
 //                {
 //                    var studys = DBcontext.RG_Work.AsEnumerable();
@@ -106,16 +110,7 @@
 //                        if (page > Math.Ceiling(Convert.ToDouble(studys.Count()) / 5)) emb.WithDescription("404 Not Found. Вы зашли в темный район, тут никого нет.").WithFooter($"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(studys.Count()) / 5)}");
 //                        else
 //                        {
-//                            var glds = DBcontext.Guilds.FirstOrDefault(x => x.guildid == Context.Guild.Id).Prefix;
-//                            emb.WithFooter($"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(studys.Count()) / 5)}\nРаботать - {glds}rgs [page] [workid]\n");
-//                            int circl = 0;
-//                            foreach (var us in studys.Skip(Convert.ToInt32(page > 0 ? --page : page) * 5))
-//                            {
-//                                circl++;
-//                                var obr = DBcontext.RG_Study.FirstOrDefault(x => x.studyid == us.studyid);
-//                                emb.AddField($"{us.workid}.{us.workName}", $"Зарплата: {us.money} {(obr == null ? "" : $"Образование: {obr.studyName}")}", true);
-//                                if (circl >= 5) break;
-//                            }
+//                            await ListBuilder(page, studys, emb, "RGwork");
 //                        }
 //                    }
 //                }
@@ -157,6 +152,88 @@
 //                    else emb.WithDescription("Такой работы нет.");
 //                }
 //                await Context.Channel.SendMessageAsync("", false, emb.Build());
+//                _cache.Remove(_cache);
+//            }
+//        }
+
+//        private static readonly List<Checking> slide = new List<Checking>();
+
+//        private async Task ListBuilder(int page, IEnumerable<object> item, EmbedBuilder emb, string CommandName)
+//        {
+//            int countslots = 10;
+//            var GuildPrefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
+//            _cache.Removes(Context);
+//            emb = Lists(page, item.Skip(page * countslots).Take(countslots), GuildPrefix, CommandName, item.Count());
+//            var mes = await Context.Channel.SendMessageAsync("", false, emb.Build());
+//            if (item.Count() > countslots)
+//            {
+//                var check = new Checking() { userid = Context.User.Id, messid = mes.Id };
+//                IEmote emjto = new Emoji("▶️");
+//                IEmote emjot = new Emoji("◀️");
+//                var time = DateTime.Now.AddSeconds(30);
+//                slide.Add(check);
+//                await mes.AddReactionAsync(emjto);
+//                while (time > DateTime.Now)
+//                {
+//                    var res = slide.FirstOrDefault(x => x == check);
+//                    if (res.clicked != 0)
+//                    {
+//                        if (res.clicked == 2) page--;
+//                        else page++;
+
+//                        emb = Lists(page, item.Skip(page * countslots).Take(countslots), GuildPrefix, CommandName, item.Count());
+//                        await mes.ModifyAsync(x => x.Embed = emb.Build());
+//                        slide.FirstOrDefault(x => x == check).clicked = 0;
+
+//                        if (page > 1)
+//                            await mes.RemoveReactionAsync(emjot, Context.User);
+//                        if (page < Math.Ceiling(Convert.ToDouble(item.Count()) / 10))
+//                            await mes.RemoveReactionAsync(emjto, Context.User);
+
+//                        time = DateTime.Now.AddSeconds(30);
+//                    }
+//                }
+//                slide.Remove(check);
+//                await mes.RemoveAllReactionsAsync();
+//            }
+//        }
+//        private EmbedBuilder Lists(int page, IEnumerable<object> items, string GuildPrefix, string CommandName, int CountItems)
+//        {
+//            using (var DBcontext = new DBcontext())
+//            {
+//                var emb = new EmbedBuilder().WithColor(255, 0, 94);
+//                int countslot = 10;
+
+//                emb.WithFooter($"Страница {(page == 0 ? 1 : page)}/{Math.Ceiling(Convert.ToDouble(CountItems) / countslot)} - ");
+
+//                if (CommandName == "RGwork")
+//                {
+//                    emb.Footer.Text += $"Купить - {GuildPrefix}rgw [itemid]";
+
+//                    foreach (var us in items.OfType<RussiaGame_Work>().Skip(Convert.ToInt32(page > 0 ? --page : page) * countslot).Take(countslot))
+//                    {
+//                        var obr = DBcontext.RG_Study.FirstOrDefault(x => x.studyid == us.studyid);
+//                        emb.AddField($"{us.workid}.{us.workName}", $"Зарплата: {us.money} {(obr == null ? "" : $"Образование: {obr.studyName}")}", true);
+//                    }
+
+//                }
+//                else if(CommandName == "RGbazar")
+//                {
+//                    emb.Footer.Text += $"Работать - {GuildPrefix}rgb [workid]";
+//                    foreach (var us in items.OfType<RussiaGame_Item>().Skip(Convert.ToInt32(page > 0 ? --page : page) * countslot).Take(countslot))
+//                    {
+//                        emb.AddField($"{us.itemid}.{us.ItemName}", $"Цена: {us.NowPrice} Престиж: {us.NowPrestije}", true);
+//                    }
+//                }
+//                else if (CommandName == "RGshop")
+//                {
+//                    emb.Footer.Text += $"Работать - {GuildPrefix}rgs [workid]";
+//                    foreach (var us in items.OfType<RussiaGame_Item>().Skip(Convert.ToInt32(page > 0 ? --page : page) * countslot).Take(countslot))
+//                    {
+//                        emb.AddField($"{us.itemid}.{us.ItemName}", $"Цена: {us.NowPrice} Престиж: {us.NowPrestije}", true);
+//                    }
+//                }
+//                return emb;
 //            }
 //        }
 
@@ -164,6 +241,7 @@
 //        [RequireOwner]
 //        public async Task RGstudyadd(string studyname, ushort studymoney, ushort studyday)
 //        {
+//            _cache.Remove(_cache);
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($" - RG StudyAdd");
@@ -182,6 +260,7 @@
 //        [RequireOwner]
 //        public async Task RGstudyinvsee(ulong studyid)
 //        {
+//            _cache.Remove(_cache);
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($" - RG studyinvsee");
@@ -202,6 +281,7 @@
 //        [RequireOwner]
 //        public async Task RGstudydel(ulong studyid)
 //        {
+//            _cache.Remove(_cache);
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($" - RG StudyDel");
@@ -229,6 +309,7 @@
 //        [RequireOwner]
 //        public async Task RGworkadd(string workname, ushort workmoney, ushort studyid = 0)
 //        {
+//            _cache.Remove(_cache);
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($" - RG WorkAdd");
@@ -252,6 +333,7 @@
 //        [RequireOwner]
 //        public async Task RGworkinvsee(ulong workid)
 //        {
+//            _cache.Remove(_cache);
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($" - RG work invsee");
@@ -272,6 +354,7 @@
 //        [RequireOwner]
 //        public async Task RGworkdel(ulong workid)
 //        {
+//            _cache.Remove(_cache);
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($" - RG WorkDel");
@@ -297,14 +380,15 @@
 
 //        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
 //        [RequireOwner]
-//        public async Task RGitemadd(string itemname, ulong startprice, ulong startprestije, RussiaGame_Item.ItemType type, RussiaGame_Item.ItemProperties properties)
+//        public async Task RGitemadd(string itemname, ulong startprice, ulong startprestije)
 //        {
+//            _cache.Remove(_cache);
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($" - RG ItemAdd");
 //                if (DBcontext.RG_Item.FirstOrDefault(x => x.ItemName == itemname) == null)
 //                {
-//                    DBcontext.RG_Item.Add(new RussiaGame_Item() { guildid = 0, ItemName = itemname, userid = Context.Client.CurrentUser.Id, startprice = startprice, startprestije = startprestije, ItemTypes = type, ItemPropertieses = properties });
+//                    DBcontext.RG_Item.Add(new RussiaGame_Item() { guildid = 0, ItemName = itemname, userid = Context.Client.CurrentUser.Id, startprice = startprice, startprestije = startprestije });
 //                    emb.WithDescription($"Вещь успешно создана!\nИмя: {itemname}\nЦена: {startprice}\nПрестиж: {startprestije}");
 //                    await DBcontext.SaveChangesAsync();
 //                }
@@ -317,6 +401,7 @@
 //        [RequireOwner]
 //        public async Task RGitemdel(ulong itemid)
 //        {
+//            _cache.Remove(_cache);
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($" - RG ItemDel");
@@ -337,6 +422,7 @@
 //        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
 //        public async Task RGprofile(SocketUser user = null)
 //        {
+//            _cache.Remove(_cache);
 //            if (user == null) user = Context.User;
 //            using (var DBcontext = new DBcontext())
 //            {
@@ -358,6 +444,7 @@
 //        [PermissionRussiaGame]
 //        public async Task RGstudys()
 //        {
+//            _cache.Remove(_cache);
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var usr = await CreateUser(Context.User);
@@ -384,13 +471,9 @@
 //                            {
 //                                guildid = Context.Guild.Id,
 //                                userid = Context.User.Id,
-//                                studyid = usr.StudyNowid,
-//                                Proffesion_Study = RussiaGame_Studys.Proffesion.none
+//                                studyid = usr.StudyNowid
 //                            };
-//                            int count = new PcgRandom(1448).Next(1, 1001);
-//                            if (count >= 900 && count <= 933) rs.Proffesion_Study = RussiaGame_Studys.Proffesion.information_security;
-//                            else if (count >= 934 && count <= 966) rs.Proffesion_Study = RussiaGame_Studys.Proffesion.hacker;
-//                            else if (count >= 967 && count < 1000) rs.Proffesion_Study = RussiaGame_Studys.Proffesion.information_security;
+
 //                            usr.StudyNowid = 0;
 //                            usr.DaysStudy = 0;
 //                            usr.LastStudy.AddYears(-DateTime.Now.Year + 1);
@@ -423,10 +506,11 @@
 //            }
 //        }
 
-//        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
+//        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand, NotDBCommand]
 //        [PermissionRussiaGame]
 //        public async Task RGworking()
 //        {
+//            _cache.Remove(_cache);
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var usr = await CreateUser(Context.User);
@@ -493,72 +577,13 @@
 //            }
 //        }
 
-
-
-
-//        //public static readonly List<Checking> slide = new List<Checking>();
-
-//        //[Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
-//        //public async Task RGEmoji()
-//        //{
-//        //    using (var DBcontext = new DBcontext())
-//        //    {
-//        //        int page = 1;
-//        //        var time = DateTime.Now.AddSeconds(30);
-//        //        var items = DBcontext.Users.AsQueryable();
-//        //        var glds = DBcontext.Guilds.FirstOrDefault(x => x.guildid == Context.Guild.Id).Prefix;
-//        //        var emb = await RECS(page,items,glds);
-//        //        var mes = await Context.Channel.SendMessageAsync("", false, emb.Build());
-//        //        var check = new Checking() { userid = Context.User.Id, messid = mes.Id };
-//        //        slide.Add(check);
-//        //        await mes.AddReactionAsync(new Emoji("▶️"));
-//        //        while (time > DateTime.Now)
-//        //        {
-//        //            var res = slide.FirstOrDefault(x => x == check);
-//        //            if (res.clicked != 0)
-//        //            {
-//        //                if (res.clicked == 2) page--;
-//        //                else page++;
-//        //                emb = await RECS(page, items, glds);
-//        //                await mes.ModifyAsync(x => x.Embed = emb.Build());
-//        //                slide.FirstOrDefault(x => x == check).clicked = 0;
-//        //                await mes.RemoveAllReactionsAsync();
-//        //                if (page > 1)
-//        //                    await mes.AddReactionAsync(new Emoji("◀️"));
-//        //                if (page < Math.Ceiling(Convert.ToDouble(items.Count()) / 10))
-//        //                    await mes.AddReactionAsync(new Emoji("▶️"));
-//        //                time = DateTime.Now.AddSeconds(30);
-//        //            }
-//        //        }
-//        //        slide.Remove(check);
-//        //        await mes.RemoveAllReactionsAsync();
-//        //    }
-//        //}
-
-
-//        //private EmbedBuilder RECS(int page,IQueryable<Users> items,string glds)
-//        //{
-//        //        var emb = new EmbedBuilder().WithColor(255, 0, 94);
-//        //        int countslot = 10;
-                
-//        //        if (page > Math.Ceiling(Convert.ToDouble(items.Count()) / countslot)) emb.WithDescription("404 Not Found. Вы зашли в темный район, тут никого нет.").WithFooter($"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(items.Count()) / countslot)}");
-//        //        else
-//        //        {
-//        //            emb.WithFooter($"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(items.Count()) / countslot)}\nКупить - {glds}rgs [page] [itemid]\n");
-//        //            foreach (var us in items.Skip(Convert.ToInt32(page > 0 ? --page : page) * countslot).Take(countslot))
-//        //            {
-//        //                emb.AddField($"{us.Id}.{us.userid}", $"Цена: {us.XP} Престиж: {us.ZeroCoin}", true);
-//        //            }
-//        //        }
-//        //        return emb;
-//        //}
-
 //        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
-//        public async Task RGshop(ulong page = 0, ulong itemid = 0)
+//        public async Task RGshop(ulong itemid = 0)
 //        {
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Магазин вещей");
+//                int page = 0;
 //                if (page == 0 || itemid == 0)
 //                {
 //                    var items = DBcontext.RG_Item.AsQueryable().Where(x => x.userid == Context.Client.CurrentUser.Id);
@@ -568,15 +593,7 @@
 //                        if (page > Math.Ceiling(Convert.ToDouble(items.Count()) / 5)) emb.WithDescription("404 Not Found. Вы зашли в темный район, тут никого нет.").WithFooter($"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(items.Count()) / 5)}");
 //                        else
 //                        {
-//                            var glds = DBcontext.Guilds.FirstOrDefault(x => x.guildid == Context.Guild.Id).Prefix;
-//                            emb.WithFooter($"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(items.Count()) / 5)}\nКупить - {glds}rgs [page] [itemid]\n");
-//                            int circl = 0;
-//                            foreach (var us in items.Skip(Convert.ToInt32(page > 0 ? --page : page) * 5))
-//                            {
-//                                circl++;
-//                                emb.AddField($"{us.itemid}.{us.ItemName}", $"Цена: {us.NowPrice} Престиж: {us.NowPrestije}", true);
-//                                if (circl >= 5) break;
-//                            }
+//                            await ListBuilder(page, items, emb, "RGshop");
 //                        }
 //                        emb.Footer.Text += $"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(items.Count()) / 5)}";
 //                    }
@@ -598,63 +615,17 @@
 //                    else emb.WithDescription("Такой вещи нет в магазине.");
 //                }
 //                await Context.Channel.SendMessageAsync("", false, emb.Build());
+//                _cache.Remove(_cache);
 //            }
 //        }
 
 //        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
-//        public async Task RGblackshop(ulong page = 0, ulong itemid = 0)
-//        {
-//            using (var DBcontext = new DBcontext())
-//            {
-//                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Темный магазин вещей");
-//                if (page == 0 || itemid == 0)
-//                {
-//                    var items = DBcontext.RG_Item.AsQueryable().Where(x => x.userid == Context.Client.CurrentUser.Id && x.ItemTypes == RussiaGame_Item.ItemType.blackshop);
-//                    if (items.Count() == 0) emb.WithDescription("В магазине пока нет вещей!");
-//                    else
-//                    {
-//                        if (page > Math.Ceiling(Convert.ToDouble(items.Count()) / 5)) emb.WithDescription("404 Not Found. Вы зашли в более темный район, тут никого нет. Наверное... Я не проверял!").WithFooter($"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(items.Count()) / 5)}");
-//                        else
-//                        {
-//                            var glds = DBcontext.Guilds.FirstOrDefault(x => x.guildid == Context.Guild.Id).Prefix;
-//                            emb.WithFooter($"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(items.Count()) / 5)}\nКупить - {glds}rgbs [page] [itemid]\n");
-//                            int circl = 0;
-//                            foreach (var us in items.Skip(Convert.ToInt32(page > 0 ? --page : page) * 5))
-//                            {
-//                                circl++;
-//                                emb.AddField($"{us.itemid}.{us.ItemName}", $"Цена: {us.NowPrice} Престиж: {us.NowPrestije}", true);
-//                                if (circl >= 5) break;
-//                            }
-//                        }
-//                        emb.Footer.Text += $"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(items.Count()) / 5)}";
-//                    }
-//                }
-//                else
-//                {
-//                    var thisitem = DBcontext.RG_Item.FirstOrDefault(x => x.userid == Context.Client.CurrentUser.Id && x.itemid == itemid);
-//                    if (thisitem != null)
-//                    {
-//                        var usr = await CreateUser(Context.User);
-//                        if (usr.money >= (long)thisitem.NowPrice)
-//                        {
-//                            DBcontext.RG_Item.Add(new RussiaGame_Item() { guildid = Context.Guild.Id, userid = Context.User.Id, ItemName = thisitem.ItemName });
-//                            await DBcontext.SaveChangesAsync();
-//                            emb.WithDescription($"Вы успешно купили {thisitem.ItemName}");
-//                        }
-//                        else emb.WithDescription($"Вам не хватает {(long)thisitem.NowPrice - usr.money} для покупки {thisitem.ItemName}!");
-//                    }
-//                    else emb.WithDescription("Такой вещи нет в магазине.");
-//                }
-//                await Context.Channel.SendMessageAsync("", false, emb.Build());
-//            }
-//        }
-
-//        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
-//        public async Task RGbazar(ulong page = 0, ulong itemid = 0)
+//        public async Task RGbazar(ulong itemid = 0)
 //        {
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("Барахолка");
+//                int page = 0;
 //                if (page == 0 || itemid == 0)
 //                {
 //                    var items = DBcontext.RG_Item.AsQueryable().Where(x => x.guildid == Context.Guild.Id && x.traded);
@@ -664,15 +635,7 @@
 //                        if (page > Math.Ceiling(Convert.ToDouble(items.Count()) / 5)) emb.WithDescription("404 Not Found. Вы зашли в темный район, тут никого нет.").WithFooter($"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(items.Count()) / 5)}");
 //                        else
 //                        {
-//                            var glds = DBcontext.Guilds.FirstOrDefault(x => x.guildid == Context.Guild.Id).Prefix;
-//                            emb.WithFooter($"Страница { (page == 0 ? 1 : page)}/{ Math.Ceiling(Convert.ToDouble(items.Count()) / 5)}\nКупить - {glds}rgs [page] [itemid]\n");
-//                            int circl = 0;
-//                            foreach (var us in items.Skip(Convert.ToInt32(page > 0 ? --page : page) * 5))
-//                            {
-//                                circl++;
-//                                emb.AddField($"{us.itemid}.{us.ItemName}", $"Цена: {us.NowPrice} Престиж: {us.NowPrestije}", true);
-//                                if (circl >= 5) break;
-//                            }
+//                            await ListBuilder(page, items, emb, "RGbazar");
 //                        }
 //                    }
 //                }
@@ -696,12 +659,14 @@
 //                    else emb.WithDescription("Такой вещи нет в барахолке.");
 //                }
 //                await Context.Channel.SendMessageAsync("", false, emb.Build());
+//                _cache.Remove(_cache);
 //            }
 //        }
 
-//        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
+//        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand, NotDBCommand]
 //        public async Task RGbazaradd(ulong itemid)
 //        {
+//            _cache.Remove(_cache);
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var usr = await CreateUser(Context.User);
@@ -727,9 +692,10 @@
 
 //        }
 
-//        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
+//        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand, NotDBCommand]
 //        public async Task RGbazardel(ulong itemid)
 //        {
+//            _cache.Remove(_cache);
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var usr = await CreateUser(Context.User);
@@ -757,6 +723,7 @@
 //        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
 //        public async Task RGtransfer(SocketUser user, uint money)
 //        {
+//            _cache.Remove(_cache);
 //            using (var DBcontext = new DBcontext())
 //            {
 //                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($" - RGtransfer {Context.User} 💵 {user}", Context.User.GetAvatarUrl());

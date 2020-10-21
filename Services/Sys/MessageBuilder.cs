@@ -18,7 +18,7 @@ namespace DarlingBotNet.Services.Sys
             }
             catch (Exception)
             {
-                return (emb, null);
+                return (emb, "ERROR");
             }
 
             if (EB.title != null) emb.WithTitle(EB.title);

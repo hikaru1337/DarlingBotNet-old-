@@ -53,13 +53,12 @@ namespace DarlingBotNet.Services.Sys
                 }
                 catch (Exception)
                 {
-                    if (prv != null) DBcontext.PrivateChannels.Remove(prv);
                     await voiceChannel.DeleteAsync();
+                    if (prv != null) DBcontext.PrivateChannels.Remove(prv);
                 }
                 await DBcontext.SaveChangesAsync();
                 await Task.Delay(1000);
                 await PrivateChannel.RemovePermissionOverwriteAsync(user);
-                
             }
         } // Создание приваток
 
@@ -96,7 +95,6 @@ namespace DarlingBotNet.Services.Sys
                 if (prv != null)
                 {
                     SocketVoiceChannel chnl = user.Guild.GetVoiceChannel(prv.channelid);
-                    await Privatemethod(chnl, prv);
                     await CheckPrivate(user.Guild);
                 }
             }

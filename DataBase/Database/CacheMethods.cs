@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Caching.Memory;
+﻿using Discord.Commands;
+using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -88,7 +89,7 @@ namespace DarlingBotNet.DataBase.Database
                 {
                     x = DBcontext.Guilds.FirstOrDefault(x => x.guildid == guildId);
                     cache.Set(guildId, x, new MemoryCacheEntryOptions()
-                    { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(60) });
+                    { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(10) });
                 }
                 return x;
             }
@@ -103,7 +104,7 @@ namespace DarlingBotNet.DataBase.Database
                 {
                     x = DBcontext.Channels.FirstOrDefault(x => x.channelid == channelId && x.guildid == guildId);
                     cache.Set((channelId, guildId), x, new MemoryCacheEntryOptions()
-                    { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30) });
+                    { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(10) });
                 }
                 return x;
             }
@@ -118,10 +119,28 @@ namespace DarlingBotNet.DataBase.Database
                 {
                     x = DBcontext.Users.GetOrCreate(userId, guildId).Result;
                     cache.Set((userId, guildId), x, new MemoryCacheEntryOptions()
-                    { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30) });
+                    { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(10) });
                 }
                 return x;
             }
         }
+
+
+
+        public static void Removes(this IMemoryCache entity, ICommandContext context)
+        {
+            var UsersCache = (Users)entity.Get((context.User.Id, context.Guild.Id));
+            if (UsersCache != null)
+                entity.Remove((context.User.Id, context.Guild.Id));
+
+            var ChannelCache = (Channels)entity.Get((context.Channel.Id, context.Guild.Id));
+            if (ChannelCache != null)
+                entity.Remove((context.Channel.Id, context.Guild.Id));
+
+            var GuildCache = (Guilds)entity.Get(context.Guild.Id);
+            if (GuildCache != null)
+                entity.Remove(context.Guild.Id);
+        }
+
     }
 }

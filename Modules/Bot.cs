@@ -57,7 +57,7 @@ namespace DarlingBotNet.Modules
         //        }
         //    }
         //    else emb.WithDescription($"Вы еще не купили ни одно Boost!\nЧто дает Boost, вы можете прочитать тут:[КЛИК]()\n\n{buynow}").WithAuthor("Boost 🔴");
-           
+
         //    try
         //    {
         //        await Context.User.SendMessageAsync("", false, emb.Build());
@@ -72,9 +72,21 @@ namespace DarlingBotNet.Modules
 
         //}
 
+        /*
+        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
+        public async Task invitebot()
+        {
+            var application = await Context.Client.GetApplicationInfoAsync();
+            var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($" - Invite {application.Name}", application.IconUrl);
+            emb.WithDescription($"Добавить <@{application.Id}> на ваш сервер -> [Клик!](https://discordapp.com/oauth2/authorize?client_id={application.Id}&scope=bot)");
+            await Context.Channel.SendMessageAsync("",false,emb.Build());
+        }
+        */
+
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task bug([Remainder] string error)
         {
+            _cache.Removes(Context);
             var channel = Context.Client.GetChannel(BotSettings.darlingbug) as ISocketMessageChannel;
             if (channel != null)
             {
@@ -84,7 +96,7 @@ namespace DarlingBotNet.Modules
                                                                                     .Build());
 
                 var emb = new EmbedBuilder().WithAuthor($"📛bug", Context.Guild.IconUrl).WithDescription($"{error}")
-                                            .AddField("Отправитель: ", Context.User.Id, true).AddField("Сервер", Context.Guild.Id)
+                                            .AddField("Отправитель: ", Context.User.Id, true).AddField($"Сервер {Context.Guild.Name}", Context.Guild.Id)
                                             .WithFooter("Время отправки: " + DateTimeOffset.Now.ToUniversalTime()).WithColor(255, 0, 94);
                 await channel.SendMessageAsync("", false, emb.Build());
             }
@@ -93,9 +105,12 @@ namespace DarlingBotNet.Modules
                     .SendMessageAsync($"{Context.Channel.GetUserAsync(BotSettings.hikaruid).Result.Mention} канал для багов не действительный");
         }
 
+
+
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
         public async Task pre([Remainder] string predlojenie)
         {
+            _cache.Removes(Context);
             var channel = Context.Client.GetChannel(BotSettings.darlingpre) as ISocketMessageChannel;
             if (channel != null)
             {
@@ -118,6 +133,7 @@ namespace DarlingBotNet.Modules
         [RequireOwner]
         public async Task serverinfo(ulong serverid = 0)
         {
+            _cache.Removes(Context);
             if (serverid == 0) serverid = Context.Guild.Id;
             var emb = new EmbedBuilder().WithColor(255, 0, 94);
             var gldss = _discord.GetGuild(serverid);
@@ -141,14 +157,17 @@ namespace DarlingBotNet.Modules
         [RequireOwner]
         public async Task sendusermessage(ulong userid, string message)
         {
+            _cache.Removes(Context);
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor("SendUserMessage");
-            var usr = Context.Client.GetUser(userid).GetOrCreateDMChannelAsync();
-            if (usr == null)
-                emb.WithDescription("У пользователя закрыта личка.");
-            else
+            try
             {
+                var usr = Context.Client.GetUser(userid).GetOrCreateDMChannelAsync();
                 emb.WithDescription("Сообщение успешно отправлено пользователю.");
                 await usr.Result.SendMessageAsync(message);
+            }
+            catch (Exception)
+            {
+                emb.WithDescription("У пользователя закрыта личка.");
             }
             await Context.Channel.SendMessageAsync("", false, emb.Build());
         }
@@ -157,7 +176,8 @@ namespace DarlingBotNet.Modules
         [RequireOwner]
         public async Task getinvite([Remainder] string servername)
         {
-            var serv = Context.Client.Guilds.Where(x => x.Name == servername).First();
+            _cache.Removes(Context);
+            var serv = Context.Client.Guilds.FirstOrDefault(x => x.Name == servername);
             var emb = new EmbedBuilder().WithColor(255, 0, 94)
                                         .WithAuthor($"Invite {serv.Name}");
             if (serv == null)
@@ -176,19 +196,37 @@ namespace DarlingBotNet.Modules
         [RequireOwner]
         public async Task setlevel(SocketGuildUser user, uint level)
         {
+            _cache.Removes(Context);
             var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"SetLevel {user}");
             using (var DBcontext = new DBcontext())
             {
-                var usr = _cache.GetOrCreateUserCache(user.Id, user.Guild.Id);
-                //var usr = DBcontext.Users.GetOrCreate((user as SocketGuildUser)).Result;
+                var usr = DBcontext.Users.FirstOrDefault(x=>x.userid == user.Id && x.guildId == user.Guild.Id);
                 emb.WithDescription($"Уровень с {usr.Level} выставлен на {level}");
                 usr.XP = level * (80 * level);
-                _cache.Update(usr);
                 DBcontext.Users.Update(usr);
                 await DBcontext.SaveChangesAsync();
+                
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
             
+        }
+
+        [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
+        [RequireOwner]
+        public async Task setpoint(SocketGuildUser user, uint point)
+        {
+            var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"SetPoint {user}");
+            using (var DBcontext = new DBcontext())
+            {
+                var usr = _cache.GetOrCreateUserCache(user.Id, user.Guild.Id);
+                emb.WithDescription($"опыт с {usr.XP} выставлен на {point}");
+                usr.XP = point;
+                DBcontext.Users.Update(usr);
+                await DBcontext.SaveChangesAsync();
+                _cache.Removes(Context);
+                await Context.Channel.SendMessageAsync("", false, emb.Build());
+            }
+
         }
 
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
@@ -201,9 +239,9 @@ namespace DarlingBotNet.Modules
                 var usr = _cache.GetOrCreateUserCache(user.Id, user.Guild.Id);
                 emb.WithDescription($"Zercoin's выставлен с {usr.ZeroCoin} на {Coin}");
                 usr.ZeroCoin = Coin;
-                _cache.Update(usr);
                 DBcontext.Users.Update(usr);
                 await DBcontext.SaveChangesAsync();
+                _cache.Removes(Context);
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
             

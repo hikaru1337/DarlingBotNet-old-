@@ -1,5 +1,4 @@
 ﻿using DarlingBotNet.DataBase;
-
 using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
@@ -35,12 +34,13 @@ namespace DarlingBotNet.Services
                 mContext.Dispose();
             }
             string discordToken = _config["tokens:discord"];
-            if (string.IsNullOrWhiteSpace(discordToken)) throw new Exception("нет токена!");
+            if (string.IsNullOrWhiteSpace(discordToken)) 
+                throw new Exception("нет токена!");
             await _discord.LoginAsync(TokenType.Bot, discordToken);
             await _discord.StartAsync();
-            await _discord.SetGameAsync("docs.darlingbot.ru");
+            TaskTimer.client = _discord;
+            _discord.Ready += TaskTimer.StartTimer;
             await _commands.AddModulesAsync(Assembly.GetEntryAssembly(), _provider);
-            
         }
     }
 }

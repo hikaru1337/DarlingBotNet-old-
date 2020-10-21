@@ -363,6 +363,11 @@
     "Desc": "Узнать свой/участника уровень на сервере\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/user-commands/level)||[null/user]",
     "Usage": [ "level", "l" ]
   },
+    "usertop": {
+    "Cmd": "level",
+    "Desc": "Узнать топ 10 участников сервера. Топ составляется по кол-ву опыта участников!",
+    "Usage": [ "usertop", "ut" ]
+  },
   "marry": {
     "Cmd": "marry",
     "Desc": "Пожениться на пользователе на сервере\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/user-commands/marry)||[user]",

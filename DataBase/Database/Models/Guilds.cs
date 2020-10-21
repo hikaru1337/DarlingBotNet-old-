@@ -37,9 +37,8 @@ namespace DarlingBotNet.DataBase
         public string CommandInviseString { get; set; }
 
         public bool GiveXPnextChannel { get; set; }
-        public ulong MafiaWaitChannel { get; set; }
 
-        public uint ViolationSystem { get; set; }
+        public byte ViolationSystem { get; set; }
 
         public ulong banchannel { get; set; }
         public ulong unbanchannel { get; set; }
@@ -64,6 +63,10 @@ namespace DarlingBotNet.DataBase
         public uint RaidTime { get; set; }
         public uint RaidUserCount { get; set; }
         public DateTime RaidMuted { get; set; }
+
+        public uint LimitRoleUserClan { get; set; }
+        public ulong PriceBuyRole { get; set; }
+        public bool GiveClanRoles { get; set; }
 
     }
 }

@@ -9,6 +9,7 @@ using System.Linq;
 namespace DarlingBotNet.Modules
 {
     [Name("NSFWgif")]
+    [NotDBCommand]
     public class NSFW : ModuleBase<SocketCommandContext>
     {
         private NekoClient NekoClient = new NekoClient("DARLING");

@@ -16,7 +16,7 @@ namespace DarlingBotNet.DataBase
                 var gg = DBcontext.Users.FirstOrDefault(u => u.userid == userId && u.guildId == guildId);
                 if (gg == null)
                 {
-                    gg = new Users() { userid = userId, guildId = guildId, ZeroCoin = 1000, clanInfo = Users.UserClanRole.ready };
+                    gg = new Users() { userid = userId, guildId = guildId, ZeroCoin = 1000};
                     DBcontext.Add(gg);
                     await DBcontext.SaveChangesAsync();
                 }
@@ -31,7 +31,7 @@ namespace DarlingBotNet.DataBase
                 var gg = DBcontext.Users.FirstOrDefault(u => u.userid == user.Id && u.guildId == user.Guild.Id);
                 if (gg == null)
                 {
-                    gg = new Users() { userid = user.Id, guildId = user.Guild.Id, ZeroCoin = 1000, clanInfo = Users.UserClanRole.ready };
+                    gg = new Users() { userid = user.Id, guildId = user.Guild.Id, ZeroCoin = 1000 };
                     DBcontext.Add(gg);
                     await DBcontext.SaveChangesAsync();
                 }

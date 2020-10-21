@@ -23,25 +23,27 @@ namespace DarlingBotNet.DataBase
         public ulong Streak { get; set; }
         public uint countwarns { get; set; }
         public ulong marryedid { get; set; }
-        public uint clanId { get; set; }
+        public ulong clanId { get; set; }
         public UserClanRole clanInfo { get; set; }
+        public ulong Bank { get; set; }
+        public DateTime BankTimer { get; set; }
+        public DateTime BankLastTransit { get; set; }
         public uint ClanOwner
         {
             get
             {
-                var clan = new DBcontext().Clans.AsQueryable().Where(x => x.OwnerId == userid);
-                if (clan.Count() == 0) return 0;
-                return (uint)clan.First().Id;
+                var clan = new DBcontext().Clans.AsQueryable().FirstOrDefault(x => x.OwnerId == userid);
+                if (clan == null) return 0;
+                return (uint)clan.Id;
             }
         }
 
         public enum UserClanRole
         {
-            none,
+            ready,
             user,
             moder,
-            wait,
-            ready
+            wait
         }
     }
 }

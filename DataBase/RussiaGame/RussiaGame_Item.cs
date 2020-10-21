@@ -29,26 +29,7 @@ namespace DarlingBotNet.DataBase.RussiaGame
                 return startprestije;
             }
         }
-        public ItemType ItemTypes { get; set; }
-        public ItemProperties ItemPropertieses { get; set; }
         //public DateTime DateCreate { get; set; }
 
-        public enum ItemType
-        {
-            none,
-            blackshop,
-            food,
-            technology,
-            domian
-        }
-
-        public enum ItemProperties
-        {
-            none,
-            hacking,
-            antihacking,
-            Drugs,
-            house
-        }
     }
 }

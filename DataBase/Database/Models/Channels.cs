@@ -14,9 +14,9 @@ namespace DarlingBotNet.DataBase
         public bool UseCommand { get; set; }
         public bool UseRPcommand { get; set; }
         public bool GiveXP { get; set; }
-        public bool SendUrl { get; set; }
-        public bool SendUrlImage { get; set; }
-        public bool SendCaps { get; set; }
+        public bool DelUrl { get; set; }
+        public bool DelUrlImage { get; set; }
+        public bool DelCaps { get; set; }
         public bool Spaming { get; set; }
         public bool SendBadWord { get; set; }
         [NotMapped]
