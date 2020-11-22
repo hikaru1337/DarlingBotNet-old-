@@ -13,10 +13,10 @@ namespace DarlingBotNet.DataBase
         {
             using (var DBcontext = new DBcontext())
             {
-                var gg = DBcontext.Users.FirstOrDefault(u => u.userid == userId && u.guildId == guildId);
+                var gg = DBcontext.Users.FirstOrDefault(u => u.UserId == userId && u.GuildId == guildId);
                 if (gg == null)
                 {
-                    gg = new Users() { userid = userId, guildId = guildId, ZeroCoin = 1000};
+                    gg = new Users() { UserId = userId, GuildId = guildId, ZeroCoin = 1000};
                     DBcontext.Add(gg);
                     await DBcontext.SaveChangesAsync();
                 }
@@ -28,10 +28,10 @@ namespace DarlingBotNet.DataBase
         {
             using (var DBcontext = new DBcontext())
             {
-                var gg = DBcontext.Users.FirstOrDefault(u => u.userid == user.Id && u.guildId == user.Guild.Id);
+                var gg = DBcontext.Users.FirstOrDefault(u => u.UserId == user.Id && u.GuildId == user.Guild.Id);
                 if (gg == null)
                 {
-                    gg = new Users() { userid = user.Id, guildId = user.Guild.Id, ZeroCoin = 1000 };
+                    gg = new Users() { UserId = user.Id, GuildId = user.Guild.Id, ZeroCoin = 1000 };
                     DBcontext.Add(gg);
                     await DBcontext.SaveChangesAsync();
                 }

@@ -35,12 +35,12 @@ namespace DarlingBotNet.Modules
             { 
                 _cache.Removes(Context);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"{user.Mention} PrivateChannel blocked").WithDescription("Пользователю заблокирован доступ к каналу");
-                var prc = DBcontext.PrivateChannels.FirstOrDefault(x=>x.userid == user.Id && x.guildid == user.Guild.Id);
-                var chnl = Context.Guild.GetVoiceChannel(prc.channelid);
-                await chnl.AddPermissionOverwriteAsync(user, new OverwritePermissions(connect: PermValue.Deny));
-                if (chnl.Id == user.VoiceChannel.Id)
-                    await user.VoiceChannel.DisconnectAsync();
-                await Context.Channel.SendMessageAsync("", false, emb.Build());
+                var prc = DBcontext.PrivateChannels.FirstOrDefault(x=>x.UserId == user.Id && x.GuildId == user.Guild.Id);
+                    var chnl = Context.Guild.GetVoiceChannel(prc.ChannelId);
+                    await chnl.AddPermissionOverwriteAsync(user, new OverwritePermissions(connect: PermValue.Deny));
+                    if (chnl.Id == user.VoiceChannel.Id)
+                        await user.VoiceChannel.DisconnectAsync();
+                    await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
         }
 
@@ -52,8 +52,8 @@ namespace DarlingBotNet.Modules
             {
                 _cache.Removes(Context);
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($"{user.Mention} PrivateChannel Gived").WithDescription("Пользователю выдан доступ к каналу");
-                var prc = DBcontext.PrivateChannels.FirstOrDefault(x => x.userid == user.Id && x.guildid == user.Guild.Id);
-                var chnl = Context.Guild.GetVoiceChannel(prc.channelid);
+                var prc = DBcontext.PrivateChannels.FirstOrDefault(x => x.UserId == user.Id && x.GuildId == user.Guild.Id);
+                var chnl = Context.Guild.GetVoiceChannel(prc.ChannelId);
                 await chnl.AddPermissionOverwriteAsync(user, new OverwritePermissions(connect: PermValue.Allow));
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
             }

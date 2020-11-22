@@ -33,16 +33,13 @@ namespace DarlingBotNet.Services
         {
             using (var DBcontext = new DBcontext())
             {
-                var Temped = DBcontext.TempUser.FirstOrDefault(x=> UserTemped.FirstOrDefault(z=>z.ToTime == x.ToTime && z.userId == x.userId && z.guildid == x.guildid) != null);
-                var GuildDB = DBcontext.Guilds.FirstOrDefault(x=>x.guildid == Temped.guildid);
-                var Guild = client.GetGuild(Temped.guildid);
-                var usr = Guild.GetUser(Temped.userId);
-                var VoiceMuteRole = Guild.GetRole(GuildDB.voicemuterole);
-                var ChatMuteRole = Guild.GetRole(GuildDB.chatmuterole);
-                if(VoiceMuteRole != null)
-                    await usr.RemoveRoleAsync(VoiceMuteRole);
-                if (ChatMuteRole != null)
-                    await usr.RemoveRoleAsync(ChatMuteRole);
+                var Temped = DBcontext.TempUser.FirstOrDefault(x=> UserTemped.FirstOrDefault(z=>z.ToTime == x.ToTime && z.UserId == x.UserId && z.GuildId == x.GuildId) != null);
+                var GuildDB = DBcontext.Guilds.FirstOrDefault(x=>x.GuildId == Temped.GuildId);
+                var Guild = client.GetGuild(Temped.GuildId);
+                var usr = Guild.GetUser(Temped.UserId);
+                await OtherSettings.CheckRoleValid(usr, GuildDB.voicemuterole, true);
+                await OtherSettings.CheckRoleValid(usr, GuildDB.chatmuterole, true);
+
                 DBcontext.TempUser.Remove(Temped);
                 await DBcontext.SaveChangesAsync();
             }

@@ -53,9 +53,9 @@
     <PackageReference Include="PcgRandom" Version="1.1.0" />
 
 
-    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0005" />
-    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta0005" />
-    <PackageReference Include="SixLabors.Shapes.Text" Version="1.0.0-beta0009" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0007" />
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta0007" />
+    <PackageReference Include="SixLabors.Shapes.Text" Version="1.0.0-beta0007" />
     <PackageReference Include="Nekos-Sharp" Version="3.3.1" />
 
   </ItemGroup>

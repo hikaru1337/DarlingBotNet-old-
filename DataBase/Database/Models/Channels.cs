@@ -9,8 +9,8 @@ namespace DarlingBotNet.DataBase
     {
         [Key]
         public ulong Id { get; set; }
-        public ulong channelid { get; set; }
-        public ulong guildid { get; set; }
+        public ulong ChannelId { get; set; }
+        public ulong GuildId { get; set; }
         public bool UseCommand { get; set; }
         public bool UseRPcommand { get; set; }
         public bool GiveXP { get; set; }

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DarlingBotNet.Migrations
 {
-    public partial class adds : Migration
+    public partial class AddAll : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,8 +13,8 @@ namespace DarlingBotNet.Migrations
                 {
                     Id = table.Column<ulong>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    channelid = table.Column<ulong>(nullable: false),
-                    guildid = table.Column<ulong>(nullable: false),
+                    ChannelId = table.Column<ulong>(nullable: false),
+                    GuildId = table.Column<ulong>(nullable: false),
                     UseCommand = table.Column<bool>(nullable: false),
                     UseRPcommand = table.Column<bool>(nullable: false),
                     GiveXP = table.Column<bool>(nullable: false),
@@ -54,16 +54,31 @@ namespace DarlingBotNet.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "DarlingBoost",
+                columns: table => new
+                {
+                    Id = table.Column<ulong>(nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    UserId = table.Column<ulong>(nullable: false),
+                    Streak = table.Column<ulong>(nullable: false),
+                    Ends = table.Column<DateTime>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DarlingBoost", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "EmoteClick",
                 columns: table => new
                 {
                     Id = table.Column<ulong>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    guildid = table.Column<ulong>(nullable: false),
+                    GuildId = table.Column<ulong>(nullable: false),
                     emote = table.Column<string>(nullable: true),
-                    messageid = table.Column<ulong>(nullable: false),
-                    channelid = table.Column<ulong>(nullable: false),
-                    roleid = table.Column<ulong>(nullable: false),
+                    MessageId = table.Column<ulong>(nullable: false),
+                    ChannelId = table.Column<ulong>(nullable: false),
+                    RoleId = table.Column<ulong>(nullable: false),
                     get = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>
@@ -77,7 +92,8 @@ namespace DarlingBotNet.Migrations
                 {
                     Id = table.Column<ulong>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    guildid = table.Column<ulong>(nullable: false),
+                    GuildId = table.Column<ulong>(nullable: false),
+                    OwnerId = table.Column<ulong>(nullable: false),
                     Leaved = table.Column<bool>(nullable: false),
                     Prefix = table.Column<string>(nullable: true),
                     chatmuterole = table.Column<ulong>(nullable: false),
@@ -85,7 +101,7 @@ namespace DarlingBotNet.Migrations
                     PrivateChannelID = table.Column<ulong>(nullable: false),
                     CommandInviseString = table.Column<string>(nullable: true),
                     GiveXPnextChannel = table.Column<bool>(nullable: false),
-                    ViolationSystem = table.Column<byte>(nullable: false),
+                    VS = table.Column<int>(nullable: false),
                     banchannel = table.Column<ulong>(nullable: false),
                     unbanchannel = table.Column<ulong>(nullable: false),
                     kickchannel = table.Column<ulong>(nullable: false),
@@ -121,9 +137,9 @@ namespace DarlingBotNet.Migrations
                 {
                     Id = table.Column<ulong>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    guildid = table.Column<ulong>(nullable: false),
-                    roleid = table.Column<ulong>(nullable: false),
-                    countlvl = table.Column<ulong>(nullable: false)
+                    GuildId = table.Column<ulong>(nullable: false),
+                    RoleId = table.Column<ulong>(nullable: false),
+                    CountLvl = table.Column<ulong>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -136,9 +152,9 @@ namespace DarlingBotNet.Migrations
                 {
                     Id = table.Column<ulong>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    guildid = table.Column<ulong>(nullable: false),
-                    userid = table.Column<ulong>(nullable: false),
-                    channelid = table.Column<ulong>(nullable: false)
+                    GuildId = table.Column<ulong>(nullable: false),
+                    UserId = table.Column<ulong>(nullable: false),
+                    ChannelId = table.Column<ulong>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -146,90 +162,34 @@ namespace DarlingBotNet.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "RG_Item",
+                name: "QiwiTransaction",
                 columns: table => new
                 {
-                    itemid = table.Column<ulong>(nullable: false)
+                    Id = table.Column<ulong>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    ItemName = table.Column<string>(nullable: true),
-                    startprice = table.Column<ulong>(nullable: false),
-                    startprestije = table.Column<ulong>(nullable: false),
-                    countTrade = table.Column<ulong>(nullable: false),
-                    userid = table.Column<ulong>(nullable: false),
-                    guildid = table.Column<ulong>(nullable: false),
-                    traded = table.Column<bool>(nullable: false)
+                    discord_id = table.Column<ulong>(nullable: false),
+                    invoice_ammount = table.Column<ulong>(nullable: false),
+                    invoice_date_add = table.Column<DateTime>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_RG_Item", x => x.itemid);
+                    table.PrimaryKey("PK_QiwiTransaction", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "RG_Profile",
+                name: "RoleSwaps",
                 columns: table => new
                 {
-                    id = table.Column<ulong>(nullable: false)
+                    Id = table.Column<ulong>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    userid = table.Column<ulong>(nullable: false),
-                    guildid = table.Column<ulong>(nullable: false),
-                    money = table.Column<long>(nullable: false),
-                    StudyNowid = table.Column<ulong>(nullable: false),
-                    DaysStudy = table.Column<ushort>(nullable: false),
-                    LastStudy = table.Column<DateTime>(nullable: false),
-                    workid = table.Column<ulong>(nullable: false),
-                    workStreak = table.Column<ulong>(nullable: false),
-                    LastWork = table.Column<DateTime>(nullable: false)
+                    RoleId = table.Column<ulong>(nullable: false),
+                    GuildId = table.Column<ulong>(nullable: false),
+                    Price = table.Column<ulong>(nullable: false),
+                    type = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_RG_Profile", x => x.id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "RG_Study",
-                columns: table => new
-                {
-                    studyid = table.Column<ulong>(nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    studyName = table.Column<string>(nullable: true),
-                    StudyMoney = table.Column<ulong>(nullable: false),
-                    DayStudying = table.Column<ushort>(nullable: false),
-                    Invise = table.Column<bool>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_RG_Study", x => x.studyid);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "RG_Studys",
-                columns: table => new
-                {
-                    id = table.Column<ulong>(nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    studyid = table.Column<ulong>(nullable: false),
-                    userid = table.Column<ulong>(nullable: false),
-                    guildid = table.Column<ulong>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_RG_Studys", x => x.id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "RG_Work",
-                columns: table => new
-                {
-                    workid = table.Column<ulong>(nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    workName = table.Column<string>(nullable: true),
-                    studyid = table.Column<ulong>(nullable: false),
-                    money = table.Column<ulong>(nullable: false),
-                    Invise = table.Column<bool>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_RG_Work", x => x.workid);
+                    table.PrimaryKey("PK_RoleSwaps", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -255,10 +215,10 @@ namespace DarlingBotNet.Migrations
                 {
                     Id = table.Column<ulong>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    guildid = table.Column<ulong>(nullable: false),
-                    userId = table.Column<ulong>(nullable: false),
+                    GuildId = table.Column<ulong>(nullable: false),
+                    UserId = table.Column<ulong>(nullable: false),
                     ToTime = table.Column<DateTime>(nullable: false),
-                    Reason = table.Column<string>(nullable: true)
+                    Reason = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -271,16 +231,17 @@ namespace DarlingBotNet.Migrations
                 {
                     Id = table.Column<ulong>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    userid = table.Column<ulong>(nullable: false),
+                    UserId = table.Column<ulong>(nullable: false),
                     Leaved = table.Column<bool>(nullable: false),
-                    guildId = table.Column<ulong>(nullable: false),
+                    GuildId = table.Column<ulong>(nullable: false),
                     XP = table.Column<ulong>(nullable: false),
                     ZeroCoin = table.Column<ulong>(nullable: false),
+                    RealCoin = table.Column<ulong>(nullable: false),
                     Daily = table.Column<DateTime>(nullable: false),
                     Streak = table.Column<ulong>(nullable: false),
                     countwarns = table.Column<uint>(nullable: false),
                     marryedid = table.Column<ulong>(nullable: false),
-                    clanId = table.Column<ulong>(nullable: false),
+                    ClanId = table.Column<ulong>(nullable: false),
                     clanInfo = table.Column<int>(nullable: false),
                     Bank = table.Column<ulong>(nullable: false),
                     BankTimer = table.Column<DateTime>(nullable: false),
@@ -297,9 +258,10 @@ namespace DarlingBotNet.Migrations
                 {
                     Id = table.Column<ulong>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    guildid = table.Column<ulong>(nullable: false),
+                    GuildId = table.Column<ulong>(nullable: false),
                     CountWarn = table.Column<byte>(nullable: false),
-                    ReportWarn = table.Column<string>(nullable: true)
+                    MinutesWarn = table.Column<ulong>(nullable: false),
+                    ReportTypes = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -316,6 +278,9 @@ namespace DarlingBotNet.Migrations
                 name: "Clans");
 
             migrationBuilder.DropTable(
+                name: "DarlingBoost");
+
+            migrationBuilder.DropTable(
                 name: "EmoteClick");
 
             migrationBuilder.DropTable(
@@ -328,19 +293,10 @@ namespace DarlingBotNet.Migrations
                 name: "PrivateChannels");
 
             migrationBuilder.DropTable(
-                name: "RG_Item");
+                name: "QiwiTransaction");
 
             migrationBuilder.DropTable(
-                name: "RG_Profile");
-
-            migrationBuilder.DropTable(
-                name: "RG_Study");
-
-            migrationBuilder.DropTable(
-                name: "RG_Studys");
-
-            migrationBuilder.DropTable(
-                name: "RG_Work");
+                name: "RoleSwaps");
 
             migrationBuilder.DropTable(
                 name: "Tasks");

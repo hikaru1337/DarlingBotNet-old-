@@ -24,7 +24,7 @@
 //        {
 //            using (var DBcontext = new DBcontext())
 //            {
-//                var emb = new EmbedBuilder().WithColor(255,0,94).WithAuthor(":game_die: **РОЗЫГРЫШ**  :game_die:");
+//                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(":game_die: **РОЗЫГРЫШ**  :game_die:");
 //                var GiveAwaysCount = DBcontext.GiveAways.Count(x => x.GuildId == Context.Guild.Id);
 //                if (GiveAwaysCount > 5)
 //                {
@@ -49,7 +49,7 @@
 //                                if ((TimeToIvent - DateTime.Now).Minutes % 2 == 0)
 //                                {
 //                                    emb.WithDescription(text);
-//                                    await message.ModifyAsync(x=>x.Embed = emb.Build());
+//                                    await message.ModifyAsync(x => x.Embed = emb.Build());
 //                                }
 //                                var Tasks = ListGiveAway.FirstOrDefault(x => x == ListTask);
 //                                if (Tasks != null && Tasks.End)
@@ -59,17 +59,17 @@
 //                                }
 //                            }
 
-//                            if(ListTask.End)
+//                            if (ListTask.End)
 //                                emb.WithDescription("Розыгрыш завершен администрацией!");
 //                            else
 //                            {
 //                                var messageend = await message.Channel.GetMessageAsync(message.Id);
 
 //                                var users = messageend.GetReactionUsersAsync(ReactionDice, int.MaxValue);
-//                               if(users.CountAsync(x=>x.Count(x=>!x.IsBot) ) > winner)
+//                                if (users.CountAsync(x => x.Count(x => !x.IsBot)) > winner)
 //                            }
 
-                            
+
 
 //                        }
 //                        else
@@ -81,7 +81,7 @@
 //                else
 //                    emb.WithDescription("Кол-во одновременных розыгрышей, не может превышать 5!");
 //            }
-            
+
 
 
 //            var embz = new EmbedBuilder();

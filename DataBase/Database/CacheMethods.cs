@@ -37,13 +37,13 @@ namespace DarlingBotNet.DataBase.Database
 
         public static void Update(this IMemoryCache cache, Users entity)
         {
-            var us = (Users)cache.Get((entity.userid, entity.guildId));
+            var us = (Users)cache.Get((entity.UserId, entity.GuildId));
             if (us != null)
             {
 
                 if (!Object.Equals(entity,us))
                 {
-                    cache.Remove((entity.userid, entity.guildId));
+                    cache.Remove((entity.UserId, entity.GuildId));
                     //cache.Set((entity.userid, entity.guildId), entity, new MemoryCacheEntryOptions()
                     //{ AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30) });
                 }
@@ -52,12 +52,12 @@ namespace DarlingBotNet.DataBase.Database
 
         public static void Update(this IMemoryCache cache, Channels entity)
         {
-            var us = (Channels)cache.Get((entity.channelid, entity.guildid));
+            var us = (Channels)cache.Get((entity.ChannelId, entity.GuildId));
             if (us != null)
             {
                 if (!Object.Equals(entity, us))
                 {
-                    cache.Remove((entity.channelid, entity.guildid));
+                    cache.Remove((entity.ChannelId, entity.GuildId));
                     //cache.Set((entity.channelid, entity.guildid), entity, new MemoryCacheEntryOptions()
                     //{ AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30) });
                 }
@@ -67,12 +67,12 @@ namespace DarlingBotNet.DataBase.Database
 
         public static void Update(this IMemoryCache cache, Guilds entity)
         {
-            var us = (Guilds)cache.Get(entity.guildid);
+            var us = (Guilds)cache.Get(entity.GuildId);
             if (us != null)
             {
                 if(!Object.Equals(entity, us))
                 {
-                    cache.Remove(entity.guildid);
+                    cache.Remove(entity.GuildId);
                     //cache.Set(entity.guildid, entity, new MemoryCacheEntryOptions()
                     //{ AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(60) });
                 }
@@ -87,7 +87,7 @@ namespace DarlingBotNet.DataBase.Database
                 var x = (Guilds)cache.Get(guildId);
                 if (x == null)
                 {
-                    x = DBcontext.Guilds.FirstOrDefault(x => x.guildid == guildId);
+                    x = DBcontext.Guilds.FirstOrDefault(x => x.GuildId == guildId);
                     cache.Set(guildId, x, new MemoryCacheEntryOptions()
                     { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(10) });
                 }
@@ -102,7 +102,7 @@ namespace DarlingBotNet.DataBase.Database
                 var x = (Channels)cache.Get((channelId, guildId));
                 if (x == null)
                 {
-                    x = DBcontext.Channels.FirstOrDefault(x => x.channelid == channelId && x.guildid == guildId);
+                    x = DBcontext.Channels.FirstOrDefault(x => x.ChannelId == channelId && x.GuildId == guildId);
                     cache.Set((channelId, guildId), x, new MemoryCacheEntryOptions()
                     { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(10) });
                 }

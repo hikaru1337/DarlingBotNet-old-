@@ -3,8 +3,8 @@
     public class PrivateChannels
     {
         public ulong Id { get; set; }
-        public ulong guildid { get; set; }
-        public ulong userid { get; set; }
-        public ulong channelid { get; set; }
+        public ulong GuildId { get; set; }
+        public ulong UserId { get; set; }
+        public ulong ChannelId { get; set; }
     }
 }

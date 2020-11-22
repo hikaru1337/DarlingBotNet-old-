@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "EntityFrameworkCore.CommonTools": {
               "target": "Package",
@@ -98,15 +100,15 @@
             },
             "SixLabors.ImageSharp": {
               "target": "Package",
-              "version": "[1.0.0-beta0005, )"
+              "version": "[1.0.0-beta0007, )"
             },
             "SixLabors.ImageSharp.Drawing": {
               "target": "Package",
-              "version": "[1.0.0-beta0005, )"
+              "version": "[1.0.0-beta0007, )"
             },
             "SixLabors.Shapes.Text": {
               "target": "Package",
-              "version": "[1.0.0-beta0009, )"
+              "version": "[1.0.0-beta0007, )"
             },
             "System.Drawing.Common": {
               "target": "Package",
@@ -136,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

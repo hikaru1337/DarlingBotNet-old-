@@ -82,11 +82,18 @@ namespace DarlingBotNet.Modules
             {
                 if (Guild.CommandInviseList.FirstOrDefault(x => x == Command.Aliases.First()) == null)
                 {
-                    string scr1 = Command.Summary.Split("||").Count() == 1 ? "" : Command.Summary.Split("||")[1];
+                    string text = null;
+                    foreach (var Parameter in Command.Parameters)
+                    {
+                        if (Parameter.IsOptional)
+                            text += $"[{Parameter}/null] ";
+                        else
+                            text += $"[{Parameter}] ";
 
+                    }
                     emb.AddField($"Сокращение: {Command.Remarks.Replace('"', ' ')}",
-                                 $"Описание: {Command.Summary.Split("||")[0]}\n" +
-                                 $"Пример: {Guild.Prefix}{command} {scr1}");
+                                 $"Описание: {Command.Summary}\n" +
+                                 $"Пример: {Guild.Prefix}{Command.Name} {text}");
                 }
                 else emb.WithDescription($"Команда `{command}` отключена создаталем сервера!");
             }
@@ -103,7 +110,7 @@ namespace DarlingBotNet.Modules
             _cache.Removes(Context);
             await Context.Channel.SendMessageAsync("", false, new EmbedBuilder().WithColor(255, 0, 94)
                                                                                 .WithAuthor($"Информация о боте {Context.Client.CurrentUser.Username}🌏", Context.Client.CurrentUser.GetAvatarUrl())
-                                                                                .WithDescription(string.Format(SystemLoading.WelcomeText, GuildPrefix))
+                                                                                .WithDescription(string.Format(OtherSettings.WelcomeText, GuildPrefix))
                                                                                 .WithImageUrl(BotSettings.bannerBoturl)
                                                                                 .Build());
 

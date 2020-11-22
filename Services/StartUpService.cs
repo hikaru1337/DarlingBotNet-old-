@@ -27,17 +27,19 @@ namespace DarlingBotNet.Services
 
         public async Task StartAsync()
         {
-            using (var mContext = new DBcontext())
-            {
-                mContext.Database.Migrate();
-                mContext.SaveChanges();
-                mContext.Dispose();
-            }
+            //using (var mContext = new DBcontext())
+            //{
+            //    mContext.Database.Migrate();
+            //    mContext.SaveChanges();
+            //    mContext.Dispose();
+            //}
             string discordToken = _config["tokens:discord"];
             if (string.IsNullOrWhiteSpace(discordToken)) 
                 throw new Exception("нет токена!");
             await _discord.LoginAsync(TokenType.Bot, discordToken);
             await _discord.StartAsync();
+            await _discord.SetStatusAsync(status: UserStatus.DoNotDisturb);
+            await _discord.SetGameAsync("docs.darlingbot.ru", null, ActivityType.Playing);
             TaskTimer.client = _discord;
             _discord.Ready += TaskTimer.StartTimer;
             await _commands.AddModulesAsync(Assembly.GetEntryAssembly(), _provider);

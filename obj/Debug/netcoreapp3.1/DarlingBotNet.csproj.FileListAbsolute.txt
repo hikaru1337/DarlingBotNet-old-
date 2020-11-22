@@ -97,5 +97,5 @@ C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\obj\Debug\netcoreapp3.1\DarlingBotNet.csprojAssemblyReference.cache
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\Discord.Net.Providers.WS4Net.dll
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\System.Linq.Async.dll
-C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\obj\Debug\netcoreapp3.1\DarlingBotNet.csproj.CoreCompileInputs.cache
 C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ObjectPool.dll
+C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\obj\Debug\netcoreapp3.1\DarlingBotNet.csproj.CoreCompileInputs.cache

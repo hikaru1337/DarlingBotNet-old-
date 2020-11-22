@@ -9,8 +9,8 @@ namespace DarlingBotNet.DataBase
     {
         
         public ulong Id { get; set; }
-
-        public ulong guildid { get; set; }
+        public ulong GuildId { get; set; }
+        public ulong OwnerId { get; set; }
         public bool Leaved { get; set; }
         public string Prefix { get; set; }
         public ulong chatmuterole { get; set; }
@@ -21,24 +21,24 @@ namespace DarlingBotNet.DataBase
         {
             get
             {
-                if (CommandInviseString != null)
+                if (!string.IsNullOrWhiteSpace(CommandInviseString))
                 {
                     var comm = CommandInviseString.Split(',').ToList();
-                    if (comm == null || comm.Count == 0 || comm.First() == "") return new List<string>();
-                    return comm;
+                    if (comm != null && comm.Count != 0 && comm.First() != "")
+                        return comm;
                 }
                 return new List<string>();
             }
             set
             {
-                CommandInviseString = string.Join(",", value.ToArray());
+                CommandInviseString = string.Join(",", value);
             }
         }
         public string CommandInviseString { get; set; }
 
         public bool GiveXPnextChannel { get; set; }
 
-        public byte ViolationSystem { get; set; }
+        public ViolationSystem VS { get; set; }
 
         public ulong banchannel { get; set; }
         public ulong unbanchannel { get; set; }
@@ -67,6 +67,16 @@ namespace DarlingBotNet.DataBase
         public uint LimitRoleUserClan { get; set; }
         public ulong PriceBuyRole { get; set; }
         public bool GiveClanRoles { get; set; }
+
+        //public ulong Behavior_SendWantedJoinToChannelId { get; set; }
+        //public bool Behavior_TakeMuteRoleAfterJoin { get; set; }
+        public enum ViolationSystem
+        {
+            none,
+            off,
+            WarnSystem,
+            ReportSystem
+        }
 
     }
 }

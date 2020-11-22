@@ -1,416 +1,567 @@
 ﻿{
   "ban": {
     "Cmd": "ban",
-    "Desc": "Выдать бан пользователю.||[user] [DeleteMessages/null] [reason/null]",
+    "Desc": "Выдать бан пользователю.",
     "Usage": [ "ban", "bn" ]
   },
   "unban": {
     "Cmd": "unban",
-    "Desc": "Выдать разбан пользователю.||[userid]",
+    "Desc": "Выдать разбан пользователю.",
     "Usage": [ "unban", "ubn" ]
   },
   "kick": {
     "Cmd": "kick",
-    "Desc": "Кикнуть пользователя.||[user] [reason/null]",
+    "Desc": "Кикнуть пользователя.",
     "Usage": [ "kick", "kk" ]
   },
   "mute": {
     "Cmd": "mute",
-    "Desc": "Выдать мут пользователю.||[user]",
+    "Desc": "Выдать мут пользователю.",
     "Usage": [ "mute", "mt" ]
   },
   "unmute": {
     "Cmd": "unmute",
-    "Desc": "Убрать мут у пользователя.||[user]",
+    "Desc": "Убрать мут у пользователя.",
     "Usage": [ "unmute", "umt" ]
   },
   "tempmute": {
     "Cmd": "tempmute",
-    "Desc": "Выдать временный мут пользователю\ntime - время в минутах.||[user] [time]",
+    "Desc": "Выдать временный мут пользователю\ntime - время в минутах.",
     "Usage": [ "tempmute", "tpmt" ]
   },
   "warn": {
     "Cmd": "warn",
-    "Desc": "Выдать нарушение пользователю.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/system-violation#vydat-varn-polzovatelyu)||[user]",
+    "Desc": "Выдать нарушение пользователю.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#vydat-varn-polzovatelyu)",
     "Usage": [ "warn", "w" ]
   },
   "unwarn": {
     "Cmd": "unwarn",
-    "Desc": "Убрать нарушение у пользователя.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/system-violation#snyat-varn-s-polzovatelya)||[user] [Кол-во нарушений]",
+    "Desc": "Убрать нарушение у пользователя.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#snyat-varn-s-polzovatelya)",
     "Usage": [ "unwarn", "uw" ]
   },
   "clear": {
     "Cmd": "clear",
-    "Desc": "Очистить N количество сообщений.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/komandy-adminov/clear)||[CountMessage]",
+    "Desc": "Очистить N количество сообщений.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/komandy-adminov/clear)",
     "Usage": [ "clear", "clr" ]
   },
   "userclear": {
     "Cmd": "userclear",
-    "Desc": "Очистить N количество сообщений пользователя.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/komandy-adminov/userclear)||[user] [CountMessage]",
+    "Desc": "Очистить N количество сообщений пользователя.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/komandy-adminov/userclear)",
     "Usage": [ "userclear", "uclr" ]
   },
   "embedsay": {
     "Cmd": "embedsay",
-    "Desc": "Создание Embed сообщения.\nПрочтите инструкцию! - [инструкция по команде](https://docs.darlingbot.ru/commands/komandy-adminov/embedsay)||[channel] [embed message]",
+    "Desc": "Создать Embed сообщение.\nПрочтите инструкцию!!! - [инструкция](https://docs.darlingbot.ru/commands/komandy-adminov/embedsay)",
     "Usage": [ "embedsay", "es" ]
+  },
+    "boost": {
+    "Cmd": "boost",
+    "Desc": "Купить подписку на бота.",
+    "Usage": [ "boost", "boost" ]
   },
   "bug": {
     "Cmd": "bug",
-    "Desc": "Написать разработчику о баге.||[text]",
+    "Desc": "Написать разработчику о баге.",
     "Usage": [ "bug", "b" ]
   },
   "pre": {
     "Cmd": "pre",
-    "Desc": "Написать разработчику о предложении.||[text]",
+    "Desc": "Написать разработчику о предложении.",
     "Usage": [ "pre", "pr" ]
   },
   "serverinfo": {
     "Cmd": "serverinfo",
-    "Desc": "Узнать информацию о текущем/выбранном сервере.||[null/serverid]",
+    "Desc": "Узнать информацию о текущем/выбранном сервере.",
     "Usage": [ "serverinfo", "si" ]
   },
   "sendusermessage": {
     "Cmd": "sendusermessage",
-    "Desc": "Отправить личное сообщение пользователю.||[userid] [message]",
+    "Desc": "Отправить личное сообщение пользователю.",
     "Usage": [ "sendusermessage", "sum" ]
   },
   "getinvite": {
     "Cmd": "getinvite",
-    "Desc": "||",
+    "Desc": "",
     "Usage": [ "getinvite", "gi" ]
   },
   "setlevel": {
     "Cmd": "setlevel",
-    "Desc": "||",
+    "Desc": "",
     "Usage": [ "setlevel", "sl" ]
+  },
+    "setpoint": {
+    "Cmd": "setpoint",
+    "Desc": "",
+    "Usage": [ "setpoint", "sp" ]
   },
   "setcoin": {
     "Cmd": "setcoin",
-    "Desc": "||",
+    "Desc": "",
     "Usage": [ "setcoin", "sc" ]
+  },
+
+  "clanssettings": {
+    "Cmd": "clanssettings",
+    "Desc": "Команда для создателя сервера, нужна для настройки клановых ролей\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/clans/komandy-sozdatelya-klana/clanshop)",
+    "Usage": [ "clanssettings", "css" ]
+  },
+  "clanshop": {
+      "Cmd": "clanshop",
+      "Desc": "Команда предназначена для аренды слотов, а так же покупки ролей, если администратор выдал эту возможность\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/clans/komandy-sozdatelya-klana/clanshop)",
+      "Usage": [ "clanshop", "csp" ]
+  },
+  "clancreate": {
+    "Cmd": "clancreate",
+    "Desc": "Команда позволяет создать свой собственный клан на сервере!\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/clans/polzovatelskie-komandy/clancreate)",
+    "Usage": [ "clancreate", "cc" ]
+  },
+  "clantransaction": {
+    "Cmd": "clantransaction",
+    "Desc": "Команда предназначена для перевода ZeroCoin's с аккаунта, на счет клана.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/clans/polzovatelskie-komandy/clanttransaction)",
+    "Usage": [ "clantransaction", "ct" ]
+  },
+  "clans": {
+    "Cmd": "clans",
+    "Desc": "Команда предназначена для просмотра кланов сервера, а так же вступления в них.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/clans/polzovatelskie-komandy/clans)",
+    "Usage": [ "clans", "cls" ]
+  },
+  "clandelete": {
+    "Cmd": "clandelete",
+    "Desc": "Я думаю мне не нужно обьяснять, что команда удаляет клан...\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/clans/komandy-sozdatelya-klana/clandelete)",
+    "Usage": [ "clandelete", "cd" ]
+  },
+  "clanusers": {
+    "Cmd": "clanusers",
+    "Desc": "Команда используется для просмотра участников клана.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/clans/polzovatelskie-komandy/slanusers)",
+    "Usage": [ "clanusers", "cu" ]
+  },
+  "clanleave": {
+    "Cmd": "clanleave",
+    "Desc": "Команда предназначена для выхода с сервера в котором вы состоите.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/clans/polzovatelskie-komandy/clanleave)",
+    "Usage": [ "clanleave", "cl" ]
+  },
+  "claninfo": {
+    "Cmd": "claninfo",
+    "Desc": "Команда предназначена для просмотра информации о вашем клане или том в котором вы состоите.Так же краткую информацию можно узнать в профиле участника.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/clans/polzovatelskie-komandy/claninfo)",
+    "Usage": [ "claninfo", "cli" ]
+  },
+  "clanclaims": {
+    "Cmd": "clanclaims",
+    "Desc": "Команда предназначена для просмотра/решения заявок в ваш клан.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/clans/komandy-moderatora/clanclaims)",
+    "Usage": [ "clanclaims", "ccs" ]
+  },
+  "clankick": {
+    "Cmd": "clankick",
+    "Desc": "Команда предназначена для кика участника клана!\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/clans/komandy-moderatora/clankick)",
+    "Usage": [ "clankick", "ck" ]
+  },
+  "clanownertake": {
+    "Cmd": "clanownertake",
+    "Desc": "Команда предназначена для передачи прав клана другому пользователю!\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/clans/komandy-sozdatelya-klana/clanownertake)",
+    "Usage": [ "clanownertake", "cot" ]
+  },
+    "clanperm": {
+    "Cmd": "clanperm",
+    "Desc": "Команда предназначена для управления правами пользователей!\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/clans/komandy-moderatora/clanperm)",
+    "Usage": [ "clanperm", "cp" ]
   },
 
 
   "modules": {
     "Cmd": "modules",
-    "Desc": "Открыть все модули бота.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/first-commands/modules)||",
+    "Desc": "Открыть все модули бота.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/first-commands/modules)",
     "Usage": [ "modules", "m" ]
   },
   "commands": {
     "Cmd": "commands",
-    "Desc": "Открыть все команды модуля бота.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/first-commands/commands)||[module]",
+    "Desc": "Открыть все команды модуля бота.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/first-commands/commands)",
     "Usage": [ "commands", "c" ]
   },
   "info": {
     "Cmd": "info",
-    "Desc": "Узнать информацию о команде.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/first-commands/info)||[command]",
+    "Desc": "Узнать информацию о команде.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/first-commands/info)",
     "Usage": [ "info", "i" ]
   },
   "use": {
     "Cmd": "use",
-    "Desc": "Открыть информацию о боте.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/first-commands/use)||[command]",
+    "Desc": "Открыть информацию о боте.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/first-commands/use)",
     "Usage": [ "use", "u" ]
   },
 
 
   "Yuri": {
     "Cmd": "Yuri",
-    "Desc": "Yuri 18+ gif. Yuri - жанр манги и аниме, изображающий женские гомосексуальные отношения.||",
+    "Desc": "Yuri 18+ gif. Yuri - жанр манги и аниме, изображающий женские гомосексуальные отношения.",
     "Usage": [ "Yuri", "Yuri" ]
   },
   "Anal": {
     "Cmd": "Anal",
-    "Desc": "Anal 18+ gif.||",
+    "Desc": "Anal 18+ gif.",
     "Usage": [ "Anal", "Anal" ]
   },
   "Blowjob": {
     "Cmd": "Blowjob",
-    "Desc": "Blowjob 18+ gif. Blowjob - минет, или же оральный секс.||",
+    "Desc": "Blowjob 18+ gif. Blowjob - минет, или же оральный секс.",
     "Usage": [ "Blowjob", "Blowjob" ]
   },
   "Boobs": {
     "Cmd": "Boobs",
-    "Desc": "Boobs 18+ gif. Boobs - женская грудь||",
+    "Desc": "Boobs 18+ gif. Boobs - женская грудь.",
     "Usage": [ "Boobs", "Boobs" ]
   },
   "Classic": {
     "Cmd": "Classic",
-    "Desc": "Classic 18+ gif. Обычные 18+ гифки||",
+    "Desc": "Classic 18+ gif. Обычные 18+ гифки.",
     "Usage": [ "Classic", "Classic" ]
   },
   "Cum": {
     "Cmd": "Cum",
-    "Desc": "Cum 18+ gif. Cum - мужское выделение.||",
+    "Desc": "Cum 18+ gif. Cum - мужское выделение.",
     "Usage": [ "Cum", "Cum" ]
   },
   "Feet": {
     "Cmd": "Feet",
-    "Desc": "Feet 18+ gif. Женские ножки.||",
+    "Desc": "Feet 18+ gif. Женские ножки.",
     "Usage": [ "Feet", "Feet" ]
   },
   "Hentai": {
     "Cmd": "Hentai",
-    "Desc": "Hentai 18+ gif. Hentai -  жанр японской анимации, комиксов, а также изображений соответствующей стилистики, основным элементом которых являются содержащиеся в них эротические или порнографические сцены.||",
+    "Desc": "Hentai 18+ gif. Hentai -  жанр японской анимации, комиксов, а также изображений соответствующей стилистики, основным элементом которых являются содержащиеся в них эротические или порнографические сцены.",
     "Usage": [ "Hentai", "Hentai" ]
   },
   "Kuni": {
     "Cmd": "Kuni",
-    "Desc": "Kuni 18+ gif. Kuni - оральный секс со стороны мужской половины||",
+    "Desc": "Kuni 18+ gif. Kuni - оральный секс со стороны мужской половины",
     "Usage": [ "Kuni", "Kuni" ]
   },
   "Neko": {
     "Cmd": "Neko",
-    "Desc": "Neko 18+ gif. 18+ кошечки.||",
+    "Desc": "Neko 18+ gif. 18+ кошечки.",
     "Usage": [ "Neko", "Neko" ]
   },
   "Pussy": {
     "Cmd": "Pussy",
-    "Desc": "Pussy 18+ gif. Pussy - женский половой орган||",
+    "Desc": "Pussy 18+ gif. Pussy - женский половой орган.",
     "Usage": [ "Pussy", "Pussy" ]
   },
   "Pwank": {
     "Cmd": "Pwank",
-    "Desc": "Pwank 18+ gif. Женская мастурбация||",
+    "Desc": "Pwank 18+ gif. Женская мастурбация.",
     "Usage": [ "Pwank", "Pwank" ]
   },
   "Solo": {
     "Cmd": "Solo",
-    "Desc": "Solo 18+ gif. ||",
+    "Desc": "Solo 18+ gif.",
     "Usage": [ "Solo", "Solo" ]
   },
   "Spank": {
     "Cmd": "Spank",
-    "Desc": "Spank 18+ gif||",
+    "Desc": "Spank 18+ gif.",
     "Usage": [ "Spank", "Spank" ]
   },
   "EroNeko": {
     "Cmd": "EroNeko",
-    "Desc": "EroNeko 18+ PNG. Эротические фото кошечек.||",
+    "Desc": "EroNeko 18+ PNG. Эротические фото кошечек.",
     "Usage": [ "EroNeko", "EroNeko" ]
   },
   "Ahegao": {
     "Cmd": "Ahegao",
-    "Desc": "Ahegao 18+ PNG. Термин в японской порнографии, описывающий выражение лица во время секса.||",
+    "Desc": "Ahegao 18+ PNG. Термин в японской порнографии, описывающий выражение лица во время секса.",
     "Usage": [ "Ahegao", "Ahegao" ]
   },
   "Cosplay": {
     "Cmd": "Cosplay",
-    "Desc": "Cosplay 18+ PNG||",
+    "Desc": "Cosplay 18+ PNG.",
     "Usage": [ "Cosplay", "Cosplay" ]
   },
   "EroFeet": {
     "Cmd": "EroFeet",
-    "Desc": "EroFeet 18+ PNG||",
+    "Desc": "EroFeet 18+ PNG.",
     "Usage": [ "EroFeet", "EroFeet" ]
   },
   "Trap": {
     "Cmd": "Trap",
-    "Desc": "Trap 18+ PNG||",
+    "Desc": "Trap 18+ PNG.",
     "Usage": [ "Trap", "Trap" ]
+  },
+
+    "PCuserblock": {
+    "Cmd": "PCuserblock",
+    "Desc": "Позволяет заблокировать доступ пользователю, к вашему приватному каналу",
+    "Usage": [ "PCuserblock", "PCub" ]
+  },
+  "PCuserget": {
+    "Cmd": "PCuserget",
+    "Desc": "Позволяет выдать доступ пользователю, к вашему приватному каналу",
+    "Usage": [ "PCuserget", "PCug" ]
   },
 
 
   "Cuddle": {
     "Cmd": "Cuddle",
-    "Desc": "Cuddle gif||",
+    "Desc": "Cuddle gif.",
     "Usage": [ "Cuddle", "Cuddle" ]
   },
   "Feed": {
     "Cmd": "Feed",
-    "Desc": "Feed gif||",
+    "Desc": "Feed gif.",
     "Usage": [ "Feed", "Feed" ]
   },
   "Hug": {
     "Cmd": "Hug",
-    "Desc": "Hug gif||",
+    "Desc": "Hug gif.",
     "Usage": [ "Hug", "Hug" ]
   },
   "Kiss": {
     "Cmd": "Kiss",
-    "Desc": "Kiss gif||",
+    "Desc": "Kiss gif.",
     "Usage": [ "Kiss", "Kiss" ]
   },
   "Pat": {
     "Cmd": "Pat",
-    "Desc": "Pat gif||",
+    "Desc": "Pat gif.",
     "Usage": [ "Pat", "Pat" ]
   },
   "Poke": {
     "Cmd": "Poke",
-    "Desc": "Poke gif||",
+    "Desc": "Poke gif.",
     "Usage": [ "Poke", "Poke" ]
   },
   "Slap": {
     "Cmd": "Slap",
-    "Desc": "Slap gif||",
+    "Desc": "Slap gif.",
     "Usage": [ "Slap", "Slap" ]
   },
   "Tickle": {
     "Cmd": "Tickle",
-    "Desc": "Tickle gif||",
+    "Desc": "Tickle gif.",
     "Usage": [ "Tickle", "Tickle" ]
   },
   "Baka": {
     "Cmd": "Baka",
-    "Desc": "Baka gif||",
+    "Desc": "Baka gif.",
     "Usage": [ "Baka", "Baka" ]
   },
   "Nekos": {
     "Cmd": "Nekos",
-    "Desc": "Nekos gif||",
+    "Desc": "Nekos gif.",
     "Usage": [ "Nekos", "Nekos" ]
   },
 
 
   "violationsystem": {
     "Cmd": "violationsystem",
-    "Desc": "Показать системы нарушений.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/system-violation)||",
+    "Desc": "Выбор системы нарушений для вашего сервера.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation)",
     "Usage": [ "violationsystem", "vs" ]
-  },
-  "violationsystemset": {
-    "Cmd": "violationsystemset",
-    "Desc": "Выставить систему нарушений.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/system-violation#vybor-sistemy)||[RulesSystem/WarnSystem/OFF]",
-    "Usage": [ "violationsystemset", "vss" ]
   },
   "addwarn": {
     "Cmd": "addwarn",
-    "Desc": "Добавить варн.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/system-violation#vystavit-varn-na-servere)||[numbwarn] [warn]",
+    "Desc": "Добавить варн.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#vystavit-varn-na-servere)",
     "Usage": [ "addwarn", "aw" ]
   },
   "delwarn": {
     "Cmd": "delwarn",
-    "Desc": "Удалить варн.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/system-violation#udalit-varn-na-servere)||[numbwarn]",
+    "Desc": "Удалить варн.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#udalit-varn-na-servere)",
     "Usage": [ "delwarn", "dw" ]
   },
 
   "prefix": {
     "Cmd": "prefix",
-    "Desc": "Узнать/изменить префикс сервера.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/prefix)||[null/prefix]",
+    "Desc": "Узнать/изменить префикс сервера.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/prefix)",
     "Usage": [ "prefix", "p" ]
   },
 
   "commandinvise": {
     "Cmd": "CommandInvise",
-    "Desc": "Узнать/(выключить,включить) ненужные команды бота.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/komandy/nastroiki-servera/commandinvisible).||[null/command]",
+    "Desc": "Узнать/(выключить,включить) ненужные команды бота.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/nastroiki-servera/commandinvisible).",
     "Usage": [ "CommandInvise", "ci" ]
   },
 
+
+    "task": {
+    "Cmd": "task",
+    "Desc": "Просмотр сообщений на повторение или единое выполнение в определенное время\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/otlozhennye-zadachi)",
+    "Usage": [ "task", "ts" ]
+  },
+
+  "taskadd": {
+    "Cmd": "task.add",
+    "Desc": "Добавить сообщение на повторение или единое выполнение в определенное время\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/otlozhennye-zadachi)",
+    "Usage": [ "task.add", "ts.add" ]
+  },
+  "taskdel": {
+    "Cmd": "task.del",
+    "Desc": "Удалить сообщение на повторение или единое выполнение в определенное время\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/otlozhennye-zadachi)",
+    "Usage": [ "task.del", "ts.del" ]
+  },
+
+
   "levelroleadd": {
     "Cmd": "levelrole.add",
-    "Desc": "Добавить уровневую роль\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei#dobavlenie-rolei-na-server)||[role] [lvl]",
+    "Desc": "Добавить уровневую роль\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei#dobavlenie-rolei-na-server)",
     "Usage": [ "levelrole.add", "lr.add" ]
   },
   "levelroledel": {
     "Cmd": "levelrole.del",
-    "Desc": "Удалить уровневую роль\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei#dobavlenie-rolei-na-server)||[role]",
+    "Desc": "Удалить уровневую роль\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei#dobavlenie-rolei-na-server)",
     "Usage": [ "levelrole.del", "lr.del" ]
   },
 
   "channelsettings": {
     "Cmd": "channelsettings",
-    "Desc": "Открыть настройки канала.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/nastroika-kanalov)||[channel] [null/(number)]",
+    "Desc": "Открыть настройки канала.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/nastroika-kanalov)",
     "Usage": [ "channelsettings", "cs" ]
   },
   "channelsettingsbadword": {
     "Cmd": "channelsettings.badword",
-    "Desc": "Добавить запрещенное слово для channelsettings.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/nastroika-kanalov#nastroika-upravleniya-plokhimi-slovami)||[word]",
+    "Desc": "Добавить запрещенное слово для channelsettings.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/nastroika-kanalov#nastroika-upravleniya-plokhimi-slovami)",
     "Usage": [ "channelsettings.badword", "cs.bw" ]
   },
   "channelsettingsgivexp": {
     "Cmd": "channelsettings.givexp",
-    "Desc": "Включить/выключить выдачу опыта в будущих каналах которые вы будете создавать.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei#vydacha-opyta-v-budushem-sozdannykh-kanalakh)||",
+    "Desc": "Включить/выключить выдачу опыта в будущих каналах которые вы будете создавать.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei#vydacha-opyta-v-budushem-sozdannykh-kanalakh)",
     "Usage": [ "channelsettings.givexp", "cs.gx" ]
   },
   "channelsettingsurlwhitelist": {
     "Cmd": "channelsettings.urlwhitelist",
-    "Desc": "Настройка белого списка ссылок.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/nastroika-kanalov#dobavit-ssylku-v-belyi-list)||[channel] [url]",
+    "Desc": "Настройка белого списка ссылок.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/nastroika-kanalov#dobavit-ssylku-v-belyi-list)",
     "Usage": [ "channelsettings.urlwhitelist", "cs.uwl" ]
   },
   "logsettings": {
     "Cmd": "logsettings",
-    "Desc": "Настройка логирования на сервере.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/komandy/nastroiki-servera/logsettings-ls)||[null/selection] [null/channel]",
+    "Desc": "Настройка логирования на сервере.\nПодробнее - [инструкция](https://docs.darlingbot.ru/komandy/nastroiki-servera/logsettings-ls)",
     "Usage": [ "logsettings", "ls" ]
   },
   "messagesettings": {
     "Cmd": "messagesettings",
-    "Desc": "Настройка параметров при входе и выходе.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/komandy/nastroiki-servera/messagesettings-ms)||[null/selection] [null/text]",
+    "Desc": "Настройка параметров при входе и выходе.\nПодробнее - [инструкция](https://docs.darlingbot.ru/komandy/nastroiki-servera/messagesettings-ms)",
     "Usage": [ "messagesettings", "ms" ]
   },
   "privatechannelcreate": {
     "Cmd": "privatechannelcreate",
-    "Desc": "Создать категорию приватных каналов.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/komandy/nastroiki-servera/privatechannelcreate-pcc)||",
+    "Desc": "Создать категорию приватных каналов.\nПодробнее - [инструкция](https://docs.darlingbot.ru/komandy/nastroiki-servera/privatechannelcreate-pcc)",
     "Usage": [ "privatechannelcreate", "pcc" ]
   },
   "setmuterole": {
     "Cmd": "setmuterole",
-    "Desc": "Создать роли для выдачи нарушений.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/komandy/nastroiki-servera/setmuterole-smr)||",
+    "Desc": "Создать роли для выдачи нарушений.\nПодробнее - [инструкция](https://docs.darlingbot.ru/komandy/nastroiki-servera/setmuterole-smr)",
     "Usage": [ "setmuterole", "smr" ]
   },
   "raidsettings": {
     "Cmd": "raidsettings",
-    "Desc": "Настройка защиты от рейдов.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/anti-raid-sistema)||",
+    "Desc": "Настройка защиты от рейдов.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/anti-raid-sistema)",
     "Usage": [ "raidsettings", "rds" ]
   },
-  "getroletoemote": {
-    "Cmd": "getroletoemote",
-    "Desc": "Установить выдачу/удаление эмодзи на сообщение.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/rol-po-nazhatiyu-na-emodzi)||[null/messageid] [null/emote] [null/role] [null/GetOrRemove]",
-    "Usage": [ "getroletoemote", "grte" ]
+  "emoteclick": {
+    "Cmd": "emoteclick",
+    "Desc": "Просмотр выдачи/удаления роли за нажатие на эмодзи.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/rol-po-nazhatiyu-na-emodzi)",
+    "Usage": [ "emoteclick", "ec" ]
+  },
+    "emoteclickadd": {
+    "Cmd": "emoteclick.add",
+    "Desc": "Добавить выдачу/удаление роли за нажатие на эмодзи.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/rol-po-nazhatiyu-na-emodzi)",
+    "Usage": [ "emoteclick.add", "ec.add" ]
+  },
+    "emoteclickdel": {
+    "Cmd": "emoteclick.del",
+    "Desc": "Удалить выдачу/удаление роли за нажатие на эмодзи.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/rol-po-nazhatiyu-na-emodzi)",
+    "Usage": [ "emoteclick.del", "ec.del" ]
+  },
+    "buyroleadd": {
+    "Cmd": "buyrole.add",
+    "Desc": "Добавить роль в магазин ролей.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/roli/platnye-roli)",
+    "Usage": [ "buyrole.add", "br.add" ]
+  },
+    "buyroledel": {
+    "Cmd": "buyrole.del",
+    "Desc": "Удалить роль в магазине ролей.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/roli/platnye-roli)",
+    "Usage": [ "buyrole.del", "br.del" ]
   },
 
 
   "level": {
     "Cmd": "level",
-    "Desc": "Узнать свой/участника уровень на сервере\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/user-commands/level)||[null/user]",
+    "Desc": "Узнать свой/участника уровень на сервере\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/level)",
     "Usage": [ "level", "l" ]
   },
     "usertop": {
-    "Cmd": "level",
-    "Desc": "Узнать топ 10 участников сервера. Топ составляется по кол-ву опыта участников!",
+    "Cmd": "usertop",
+    "Desc": "Узнать топ 10 участников сервера. Топ составляется по кол-ву опыта участников!\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/usertop)",
     "Usage": [ "usertop", "ut" ]
   },
   "marry": {
     "Cmd": "marry",
-    "Desc": "Пожениться на пользователе на сервере\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/user-commands/marry)||[user]",
+    "Desc": "Пожениться на пользователе на сервере\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/marry)",
     "Usage": [ "marry", "mr" ]
+  },
+    "roulette": {
+    "Cmd": "roulette",
+    "Desc": "Играть в рулетку. Для игры нужно сделать ставку, и после на 60 секунд запустится игра, в которой все должны поставить деньги, и по истечению времени, рандом выберет победителя.!\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/roulette)",
+    "Usage": [ "roulette", "rl" ]
   },
   "divorce": {
     "Cmd": "divorce",
-    "Desc": "Развестись с пользователем на сервере\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/user-commands/divorce)||[user]",
+    "Desc": "Развестись с пользователем на сервере\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/divorce)",
     "Usage": [ "divorce", "di" ]
   },
   "zcoin": {
     "Cmd": "zcoin",
-    "Desc": "Узнать свое/участника кол-во ZeroCoin\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/user-commands/zcoin)||[null/user]",
+    "Desc": "Узнать свое/участника кол-во ZeroCoin\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/zcoin)",
     "Usage": [ "zcoin", "zc" ]
   },
   "kazino": {
     "Cmd": "kazino",
-    "Desc": "Играть в казино. Для игры нужно сделать ставку [black/red/zero] после выставить нужную вам сумму [zerocoin]\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/user-commands/kazino)||[black/zero] [zerocoin's]",
+    "Desc": "Играть в казино. Для игры нужно сделать ставку [allblack/allred/allzero/black/red/zero] после выставить нужную вам сумму [zerocoin]\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/kazino)",
     "Usage": [ "kazino", "kz" ]
   },
   "daily": {
     "Cmd": "daily",
-    "Desc": "Получить ежедневную награду\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/user-commands/daily)||",
+    "Desc": "Получить ежедневную награду\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/daily)",
     "Usage": [ "daily", "d" ]
+  },
+    "profile": {
+    "Cmd": "profile",
+    "Desc": "Открыть профиль с информацией о пользователе.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/profile)",
+    "Usage": [ "profile", "pf" ]
+  },
+    "bank": {
+    "Cmd": "bank",
+    "Desc": "Открыть банковский счет.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/bank)",
+    "Usage": [ "bank", "bk" ]
+  },
+    "bankadd": {
+    "Cmd": "bankadd",
+    "Desc": "Положить деньги в банк.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/bank)",
+    "Usage": [ "bankadd", "bk.add" ]
+  },
+    "bankgive": {
+    "Cmd": "bankgive",
+    "Desc": "Снять деньги из банка.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/bank)",
+    "Usage": [ "bankgive", "bk.give" ]
   },
   "transfer": {
     "Cmd": "transfer",
-    "Desc": "Перевести деньги другому пользователю\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/user-commands/transfer)||[user] [zerocoin's]",
+    "Desc": "Перевести деньги другому пользователю\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/transfer)",
     "Usage": [ "transfer", "ts" ]
   },
   "myinvite": {
     "Cmd": "myinvite",
-    "Desc": "Посмотреть свои инвайты на данный сервер\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/user-commands/myinvite)||",
+    "Desc": "Посмотреть свои инвайты на данный сервер\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/myinvite)",
     "Usage": [ "myinvite", "mi" ]
   },
   "warns": {
     "Cmd": "warns",
-    "Desc": "Показать все нарушения на сервере\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/system-violation#posmotret-varny-na-servere)||",
+    "Desc": "Показать все нарушения на сервере\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/system-violation#posmotret-varny-na-servere)",
     "Usage": [ "warns", "ws" ]
   },
   "levelrole": {
     "Cmd": "levelrole",
-    "Desc": "узнать/(поставить/убрать) уровневые роли.\nПодробнее - [инструкция по команде](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei)||",
+    "Desc": "Узнать/(поставить/убрать) уровневые роли.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/settings-server/sistema-urovnei)",
     "Usage": [ "levelrole", "lr" ]
+  },
+    "buyrole": {
+    "Cmd": "buyrole",
+    "Desc": "Купить/посмотреть роли в магазине ролей.\nПодробнее - [инструкция](https://docs.darlingbot.ru/commands/user-commands/buyrole)",
+    "Usage": [ "buyrole", "br" ]
   }
 }

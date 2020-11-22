@@ -44,7 +44,7 @@ namespace DarlingBotNet.Services
             string logText = $"{DateTime.UtcNow} [{msg.Severity}] {msg.Source}: {msg.Exception?.ToString() ?? msg.Message}";
             Console.WriteLine(logText);
             Console.ForegroundColor = ConsoleColor.White;
-            File.AppendAllText(_logFile, logText + "\n");
+             File.AppendAllText(_logFile, logText + "\n");
             return Task.CompletedTask;
         }
     }

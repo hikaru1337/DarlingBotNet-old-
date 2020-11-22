@@ -12,6 +12,7 @@ using Discord.WebSocket;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using DarlingBotNet.DataBase.Database;
+using Discord;
 
 namespace DarlingBotNet.Services
 {
@@ -37,13 +38,17 @@ namespace DarlingBotNet.Services
         {
             using (var DBcontext = new DBcontext())
             {
-                var prc = DBcontext.PrivateChannels.FirstOrDefault(x => x.userid == context.User.Id && x.guildid == context.Guild.Id);
+                var prc = DBcontext.PrivateChannels.FirstOrDefault(x => x.UserId == context.User.Id && x.GuildId == context.Guild.Id);
                 bool es = false;
                 if (prc != null)
                 {
-                    var DiscordVoiceChannel = context.Guild.GetVoiceChannelAsync(prc.channelid);
+                    var DiscordVoiceChannel = context.Guild.GetVoiceChannelAsync(prc.ChannelId);
                     if (DiscordVoiceChannel == null)
+                    {
+                        DBcontext.PrivateChannels.Remove(prc);
+                        DBcontext.SaveChangesAsync();
                         es = true;
+                    }
                 }
                 else 
                     es = true;
@@ -56,29 +61,31 @@ namespace DarlingBotNet.Services
         }
     }
 
+    public class PermissionHierarchy : PreconditionAttribute
+    {
+        public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
+        {
+            var bot = context.Guild.GetCurrentUserAsync().Result as SocketGuildUser;
+            var user = context.Guild.GetUserAsync(context.Message.MentionedUserIds.FirstOrDefault()).Result as SocketGuildUser;
+            if (user != null && bot.Hierarchy <= user.Hierarchy)
+                return Task.FromResult(PreconditionResult.FromError($"Бот не может взаимодействовать с {user.Mention},\nтак роль бота находится ниже роли пользователя.\n\n"));
+
+            return Task.FromResult(PreconditionResult.FromSuccess());
+        }
+    }
+
     public class PermissionBlockCommand : PreconditionAttribute
     {
         public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
         {
             var cache = (IMemoryCache)services.GetService(typeof(IMemoryCache));
-            var glds = cache.GetOrCreateGuldsCache(context.Guild.Id);
-            bool es = false;
-            if (command.Aliases.Count == 1)
-            {
-                if (glds.CommandInviseList.FirstOrDefault(x => x == command.Aliases[0].ToLower()) != null)
-                    es = true;
-            }
-            else if (command.Aliases.Count == 2)
-            {
-                if (glds.CommandInviseList.FirstOrDefault(x => x == command.Aliases[0].ToLower() || x == command.Aliases[1].ToLower()) != null)
-                    es = true;
-            }
+            var GuildCommandInviseList = cache.GetOrCreateGuldsCache(context.Guild.Id).CommandInviseList;
 
-            if (es)
+            if (GuildCommandInviseList.FirstOrDefault(x => x == command.Aliases.FirstOrDefault().ToLower() || x == command.Aliases.LastOrDefault().ToLower()) != null)
                 return Task.FromResult(PreconditionResult.FromError($"Команда отключена создателем сервера."));
-            else
-                return Task.FromResult(PreconditionResult.FromSuccess());
-            }
+
+            return Task.FromResult(PreconditionResult.FromSuccess());
+        }
     }
 
     public class PermissionServerOwner : PreconditionAttribute
@@ -99,7 +106,7 @@ namespace DarlingBotNet.Services
         {
             var cache = (IMemoryCache)services.GetService(typeof(IMemoryCache));
             var glds = cache.GetOrCreateGuldsCache(context.Guild.Id);
-            if (glds.ViolationSystem != 2)
+            if (glds.VS != Guilds.ViolationSystem.WarnSystem)
                 return Task.FromResult(PreconditionResult.FromError($"У вас не выбрана warn система!\n{glds.Prefix}vs"));
                 
             return Task.FromResult(PreconditionResult.FromSuccess());
@@ -137,7 +144,8 @@ namespace DarlingBotNet.Services
             {
                 var cache = (IMemoryCache)services.GetService(typeof(IMemoryCache));
                 var usr = cache.GetOrCreateUserCache(context.User.Id,context.Guild.Id);
-                var myclan = Xontext.Clans.FirstOrDefault(x => x.guildId == context.Guild.Id && x.OwnerId == context.User.Id);
+                var myclan = Xontext.Clans.FirstOrDefault(x => x.GuildId == context.Guild.Id && x.OwnerId == context.User.Id);
+
                 if ((command.Name == "clandelete" || command.Name == "clanperm" || command.Name == "clanownertake" || command.Name == "clanshop") && myclan == null)
                     return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана!"));
                 else if (command.Name == "clanclaims" || command.Name == "clankick")
@@ -145,7 +153,7 @@ namespace DarlingBotNet.Services
                     if (myclan == null && usr.clanInfo != Users.UserClanRole.moder)
                         return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана или вы не являетесь модератором в который вступили!"));
                 }
-                else if (command.Name == "claninfo" || command.Name == "clantransaction")
+                else if (command.Name == "claninfo" || command.Name == "clantransaction" || command.Name == "clanusers")
                 {
                     if (myclan == null && (usr.clanInfo == Users.UserClanRole.wait || usr.clanInfo == Users.UserClanRole.ready))
                         return Task.FromResult(PreconditionResult.FromError($"У вас нет своего клана или вы не вступили чтобы посмотреть информацию!"));
@@ -173,13 +181,12 @@ namespace DarlingBotNet.Services
 
     public class PermissionClanMoneyMinus : PreconditionAttribute
     {
-
         public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
         {
             using (var Xontext = new DBcontext())
             {
                 var cache = (IMemoryCache)services.GetService(typeof(IMemoryCache));
-                var myclan = Xontext.Clans.FirstOrDefault(x => x.guildId == context.Guild.Id && x.OwnerId == context.User.Id);
+                var myclan = Xontext.Clans.FirstOrDefault(x => x.GuildId == context.Guild.Id && x.OwnerId == context.User.Id);
                 if(myclan != null && myclan.ClanMoney <= -50000)
                 {
                     return Task.FromResult(PreconditionResult.FromError($"Ваш клан имеет баланс больше -50000 ZeroCoins.\nДля разморозки пополните баланс до суммы меньше -50000"));

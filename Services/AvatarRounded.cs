@@ -18,7 +18,7 @@ namespace DarlingBotNet.Services
         {
             var imageStream = new MemoryStream();
             if (format == "GIF") img.SaveAsGif(imageStream);
-            else img.SaveAsPng(imageStream, new PngEncoder() { CompressionLevel = 6 });
+            else img.SaveAsPng(imageStream, new PngEncoder() { CompressionLevel = 9 });
             imageStream.Position = 0;
             return imageStream;
         }

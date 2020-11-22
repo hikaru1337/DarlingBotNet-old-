@@ -19,12 +19,12 @@ namespace DarlingBotNet.Modules
             var emb = new EmbedBuilder().WithColor(255, 0, 94);
             if (!(Context.Message.Channel as SocketTextChannel).IsNsfw)
             {
-                var nsfw = Context.Guild.TextChannels.Where(x => x.IsNsfw);
+                var nsfw = Context.Guild.TextChannels.FirstOrDefault(x => x.IsNsfw);
                 emb.WithDescription("Данный канал не является NSFW для использования этой команды.\n");
                 if (nsfw == null)
                     emb.Description += "Попросите админа создать канал с параметров NSFW.";
                 else
-                    emb.Description += $"Используйте эту команду в {nsfw.FirstOrDefault().Mention}";
+                    emb.Description += $"Используйте эту команду в {nsfw.Mention}";
             }
             return emb;
         }

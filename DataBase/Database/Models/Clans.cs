@@ -10,7 +10,7 @@ namespace DarlingBotNet.DataBase
     {
         public ulong Id { get; set; }
         public string ClanName { get; set; }
-        public ulong guildId { get; set; }
+        public ulong GuildId { get; set; }
         public ulong OwnerId { get; set; }
         public long ClanMoney { get; set; }
         public uint ClanSlots { get; set; }
@@ -19,21 +19,12 @@ namespace DarlingBotNet.DataBase
         public DateTime DateOfCreate { get; set; }
         public DateTime LastClanSlotPays { get; set; }
 
-        //public ulong ClanTop
-        //{
-        //    get
-        //    {
-        //        var clancount = new DBcontext().Clans.AsEnumerable().Where(x => x.DefUsers.Count() >= DefUsers.Count());
-
-        //    }
-        //}
-
         [NotMapped]
         public IEnumerable<Users> DefUsers
         {
             get
             {
-                return new DBcontext().Users.AsQueryable().Where(x => x.clanId == (ulong)Id && x.clanInfo != Users.UserClanRole.wait);
+                return new DBcontext().Users.AsQueryable().Where(x => x.ClanId == Id && x.clanInfo != Users.UserClanRole.wait);
             }
         }
 
@@ -42,7 +33,7 @@ namespace DarlingBotNet.DataBase
         {
             get
             {
-                return new DBcontext().Users.AsQueryable().Where(x => x.clanId == (ulong)Id && x.clanInfo == Users.UserClanRole.wait);
+                return new DBcontext().Users.AsQueryable().Where(x => x.ClanId == Id && x.clanInfo == Users.UserClanRole.wait);
             }
         }
 
@@ -51,7 +42,7 @@ namespace DarlingBotNet.DataBase
         {
             get
             {
-                return new DBcontext().Users.AsQueryable().Where(x => x.clanId == (ulong)Id && x.clanInfo == Users.UserClanRole.moder);
+                return new DBcontext().Users.AsQueryable().Where(x => x.ClanId == Id && x.clanInfo == Users.UserClanRole.moder);
             }
         }
 

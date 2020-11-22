@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DarlingBotNet.Migrations
 {
     [DbContext(typeof(DBcontext))]
-    [Migration("20201021123334_adds")]
-    partial class adds
+    [Migration("20201119221118_AddAll")]
+    partial class AddAll
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -27,6 +27,9 @@ namespace DarlingBotNet.Migrations
                     b.Property<string>("BadWordString")
                         .HasColumnType("TEXT");
 
+                    b.Property<ulong>("ChannelId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<bool>("DelCaps")
                         .HasColumnType("INTEGER");
 
@@ -37,6 +40,9 @@ namespace DarlingBotNet.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<bool>("GiveXP")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<ulong>("GuildId")
                         .HasColumnType("INTEGER");
 
                     b.Property<bool>("InviteMessage")
@@ -54,14 +60,8 @@ namespace DarlingBotNet.Migrations
                     b.Property<bool>("UseRPcommand")
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("channelid")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("csUrlWhiteListString")
                         .HasColumnType("TEXT");
-
-                    b.Property<ulong>("guildid")
-                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
@@ -106,6 +106,26 @@ namespace DarlingBotNet.Migrations
                     b.ToTable("Clans");
                 });
 
+            modelBuilder.Entity("DarlingBotNet.DataBase.Database.Models.QiwiTransactions", b =>
+                {
+                    b.Property<ulong>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<ulong>("discord_id")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<ulong>("invoice_ammount")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("invoice_date_add")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("QiwiTransaction");
+                });
+
             modelBuilder.Entity("DarlingBotNet.DataBase.Database.Models.Tasks", b =>
                 {
                     b.Property<ulong>("Id")
@@ -138,22 +158,22 @@ namespace DarlingBotNet.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("channelid")
+                    b.Property<ulong>("ChannelId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<ulong>("GuildId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<ulong>("MessageId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<ulong>("RoleId")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("emote")
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("get")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("guildid")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("messageid")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("roleid")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
@@ -176,6 +196,9 @@ namespace DarlingBotNet.Migrations
                     b.Property<bool>("GiveXPnextChannel")
                         .HasColumnType("INTEGER");
 
+                    b.Property<ulong>("GuildId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<ulong>("LeaveChannel")
                         .HasColumnType("INTEGER");
 
@@ -186,6 +209,9 @@ namespace DarlingBotNet.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<uint>("LimitRoleUserClan")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<ulong>("OwnerId")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Prefix")
@@ -209,7 +235,7 @@ namespace DarlingBotNet.Migrations
                     b.Property<uint>("RaidUserCount")
                         .HasColumnType("INTEGER");
 
-                    b.Property<byte>("ViolationSystem")
+                    b.Property<int>("VS")
                         .HasColumnType("INTEGER");
 
                     b.Property<ulong>("WelcomeChannel")
@@ -231,9 +257,6 @@ namespace DarlingBotNet.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<ulong>("chatmuterole")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("guildid")
                         .HasColumnType("INTEGER");
 
                     b.Property<bool>("inviteMessages")
@@ -274,13 +297,13 @@ namespace DarlingBotNet.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("countlvl")
+                    b.Property<ulong>("CountLvl")
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("guildid")
+                    b.Property<ulong>("GuildId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("roleid")
+                    b.Property<ulong>("RoleId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
@@ -294,13 +317,13 @@ namespace DarlingBotNet.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("channelid")
+                    b.Property<ulong>("ChannelId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("guildid")
+                    b.Property<ulong>("GuildId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("userid")
+                    b.Property<ulong>("UserId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
@@ -308,140 +331,27 @@ namespace DarlingBotNet.Migrations
                     b.ToTable("PrivateChannels");
                 });
 
-            modelBuilder.Entity("DarlingBotNet.DataBase.RussiaGame.RussiaGame_Item", b =>
+            modelBuilder.Entity("DarlingBotNet.DataBase.RoleSwaps", b =>
                 {
-                    b.Property<ulong>("itemid")
+                    b.Property<ulong>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("ItemName")
-                        .HasColumnType("TEXT");
-
-                    b.Property<ulong>("countTrade")
+                    b.Property<ulong>("GuildId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("guildid")
+                    b.Property<ulong>("Price")
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("startprestije")
+                    b.Property<ulong>("RoleId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("startprice")
+                    b.Property<int>("type")
                         .HasColumnType("INTEGER");
 
-                    b.Property<bool>("traded")
-                        .HasColumnType("INTEGER");
+                    b.HasKey("Id");
 
-                    b.Property<ulong>("userid")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("itemid");
-
-                    b.ToTable("RG_Item");
-                });
-
-            modelBuilder.Entity("DarlingBotNet.DataBase.RussiaGame.RussiaGame_Study", b =>
-                {
-                    b.Property<ulong>("studyid")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ushort>("DayStudying")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<bool>("Invise")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("StudyMoney")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("studyName")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("studyid");
-
-                    b.ToTable("RG_Study");
-                });
-
-            modelBuilder.Entity("DarlingBotNet.DataBase.RussiaGame.RussiaGame_Studys", b =>
-                {
-                    b.Property<ulong>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("guildid")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("studyid")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("userid")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("id");
-
-                    b.ToTable("RG_Studys");
-                });
-
-            modelBuilder.Entity("DarlingBotNet.DataBase.RussiaGame.RussiaGame_Work", b =>
-                {
-                    b.Property<ulong>("workid")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<bool>("Invise")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("money")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("studyid")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("workName")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("workid");
-
-                    b.ToTable("RG_Work");
-                });
-
-            modelBuilder.Entity("DarlingBotNet.DataBase.RussiaGame_Profile", b =>
-                {
-                    b.Property<ulong>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ushort>("DaysStudy")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<DateTime>("LastStudy")
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("LastWork")
-                        .HasColumnType("TEXT");
-
-                    b.Property<ulong>("StudyNowid")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("guildid")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<long>("money")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("userid")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("workStreak")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("workid")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("id");
-
-                    b.ToTable("RG_Profile");
+                    b.ToTable("RoleSwaps");
                 });
 
             modelBuilder.Entity("DarlingBotNet.DataBase.TempUser", b =>
@@ -450,16 +360,16 @@ namespace DarlingBotNet.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Reason")
-                        .HasColumnType("TEXT");
+                    b.Property<ulong>("GuildId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Reason")
+                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("ToTime")
                         .HasColumnType("TEXT");
 
-                    b.Property<ulong>("guildid")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("userId")
+                    b.Property<ulong>("UserId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
@@ -482,13 +392,25 @@ namespace DarlingBotNet.Migrations
                     b.Property<DateTime>("BankTimer")
                         .HasColumnType("TEXT");
 
+                    b.Property<ulong>("ClanId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<DateTime>("Daily")
                         .HasColumnType("TEXT");
+
+                    b.Property<ulong>("GuildId")
+                        .HasColumnType("INTEGER");
 
                     b.Property<bool>("Leaved")
                         .HasColumnType("INTEGER");
 
+                    b.Property<ulong>("RealCoin")
+                        .HasColumnType("INTEGER");
+
                     b.Property<ulong>("Streak")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<ulong>("UserId")
                         .HasColumnType("INTEGER");
 
                     b.Property<ulong>("XP")
@@ -497,22 +419,13 @@ namespace DarlingBotNet.Migrations
                     b.Property<ulong>("ZeroCoin")
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("clanId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<int>("clanInfo")
                         .HasColumnType("INTEGER");
 
                     b.Property<uint>("countwarns")
                         .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("guildId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<ulong>("marryedid")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<ulong>("userid")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
@@ -529,15 +442,38 @@ namespace DarlingBotNet.Migrations
                     b.Property<byte>("CountWarn")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("ReportWarn")
-                        .HasColumnType("TEXT");
+                    b.Property<ulong>("GuildId")
+                        .HasColumnType("INTEGER");
 
-                    b.Property<ulong>("guildid")
+                    b.Property<ulong>("MinutesWarn")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ReportTypes")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
                     b.ToTable("Warns");
+                });
+
+            modelBuilder.Entity("DarlingBotNet.Modules.DarlingBoost", b =>
+                {
+                    b.Property<ulong>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("Ends")
+                        .HasColumnType("TEXT");
+
+                    b.Property<ulong>("Streak")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<ulong>("UserId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DarlingBoost");
                 });
 #pragma warning restore 612, 618
         }
