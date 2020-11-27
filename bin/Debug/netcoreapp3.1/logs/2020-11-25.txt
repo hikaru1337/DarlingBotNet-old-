@@ -1,0 +1,44 @@
+25.11.2020 12:01:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.11.2020 12:01:40 [Verbose] Rest: GET voice/regions: 1031,06 ms
+25.11.2020 12:01:41 [Verbose] Rest: GET users/@me: 234,33 ms
+25.11.2020 12:01:41 [Info] Gateway: Connecting
+25.11.2020 12:01:41 [Verbose] Rest: GET gateway: 65,2 ms
+25.11.2020 12:01:42 [Info] Gateway: Connected
+25.11.2020 12:01:42 [Verbose] Gateway: Connected to DarlingBotEmj
+25.11.2020 12:01:44 [Info] Gateway: Ready
+25.11.2020 12:02:07 [Verbose] Rest: DELETE channels/760195003535458304/messages/781127575849664554: 272,98 ms
+25.11.2020 12:02:31 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.11.2020 12:02:31 [Verbose] Rest: DELETE channels/760195003535458304/messages/781127647669387275: 239,34 ms
+25.11.2020 12:02:45 [Verbose] Rest: DELETE channels/760195003535458304/messages/781127737611386922: 236,59 ms
+25.11.2020 12:03:11 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.11.2020 12:03:12 [Verbose] Rest: DELETE channels/760195003535458304/messages/781127799439884329: 258,36 ms
+25.11.2020 12:03:17 [Verbose] Rest: POST channels/760195003535458304/messages: 271,27 ms
+25.11.2020 12:03:17 [Verbose] Command: Executed "channelsettings" for h1kkaru.#1337 in DarlingBotEmj/о
+25.11.2020 12:03:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.11.2020 12:03:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.11.2020 12:04:00 [Verbose] Rest: GET voice/regions: 1134,02 ms
+25.11.2020 12:04:00 [Verbose] Rest: GET users/@me: 247,31 ms
+25.11.2020 12:04:00 [Info] Gateway: Connecting
+25.11.2020 12:04:00 [Verbose] Rest: GET gateway: 51,03 ms
+25.11.2020 12:04:01 [Info] Gateway: Connected
+25.11.2020 12:04:02 [Verbose] Gateway: Connected to DarlingBotEmj
+25.11.2020 12:04:03 [Info] Gateway: Ready
+25.11.2020 12:04:25 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.11.2020 12:04:26 [Verbose] Rest: DELETE channels/760195003535458304/messages/781128071952465930: 233,01 ms
+25.11.2020 12:05:14 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.11.2020 12:05:14 [Warning] Gateway: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DarlingBotNet.Services.OtherSettings.ChatSystem(SocketCommandContext msg, Channels chnl, String Prefix)
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message)
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+25.11.2020 12:05:43 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.11.2020 12:06:30 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+25.11.2020 12:13:15 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+25.11.2020 12:13:17 [Verbose] Rest: GET voice/regions: 1403,1 ms
+25.11.2020 12:13:17 [Verbose] Rest: GET users/@me: 265,49 ms
+25.11.2020 12:13:17 [Info] Gateway: Connecting
+25.11.2020 12:13:18 [Verbose] Rest: GET gateway: 64,41 ms
+25.11.2020 12:13:19 [Info] Gateway: Connected
+25.11.2020 12:13:19 [Verbose] Gateway: Connected to DarlingBotEmj
+25.11.2020 12:13:21 [Info] Gateway: Ready
+25.11.2020 12:13:27 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.

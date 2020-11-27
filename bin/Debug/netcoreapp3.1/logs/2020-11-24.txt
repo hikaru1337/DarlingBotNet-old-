@@ -1,0 +1,46 @@
+24.11.2020 8:04:45 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.11.2020 8:04:46 [Verbose] Rest: GET voice/regions: 714,59 ms
+24.11.2020 8:04:46 [Verbose] Rest: GET users/@me: 229,27 ms
+24.11.2020 8:04:47 [Info] Gateway: Connecting
+24.11.2020 8:04:47 [Verbose] Rest: GET gateway: 61,54 ms
+24.11.2020 8:04:48 [Info] Gateway: Connected
+24.11.2020 8:04:48 [Verbose] Gateway: Connected to DarlingBotEmj
+24.11.2020 8:05:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.11.2020 8:05:22 [Verbose] Rest: GET voice/regions: 631,31 ms
+24.11.2020 8:05:22 [Verbose] Rest: GET users/@me: 268,91 ms
+24.11.2020 8:05:22 [Info] Gateway: Connecting
+24.11.2020 8:05:22 [Verbose] Rest: GET gateway: 79,33 ms
+24.11.2020 8:05:23 [Info] Gateway: Connected
+24.11.2020 8:05:24 [Verbose] Gateway: Connected to DarlingBotEmj
+24.11.2020 8:07:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.11.2020 8:07:12 [Verbose] Rest: GET voice/regions: 615,19 ms
+24.11.2020 8:07:13 [Verbose] Rest: GET users/@me: 233,48 ms
+24.11.2020 8:07:13 [Info] Gateway: Connecting
+24.11.2020 8:07:13 [Verbose] Rest: GET gateway: 52,83 ms
+24.11.2020 8:07:14 [Info] Gateway: Connected
+24.11.2020 8:07:14 [Verbose] Gateway: Connected to DarlingBotEmj
+24.11.2020 8:09:03 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.11.2020 8:09:04 [Verbose] Rest: GET voice/regions: 628,41 ms
+24.11.2020 8:09:04 [Verbose] Rest: GET users/@me: 257,46 ms
+24.11.2020 8:09:04 [Info] Gateway: Connecting
+24.11.2020 8:09:04 [Verbose] Rest: GET gateway: 60,27 ms
+24.11.2020 8:09:05 [Info] Gateway: Connected
+24.11.2020 8:09:05 [Verbose] Gateway: Connected to DarlingBotEmj
+24.11.2020 8:09:26 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.11.2020 8:09:27 [Verbose] Rest: GET voice/regions: 685,12 ms
+24.11.2020 8:09:28 [Verbose] Rest: GET users/@me: 252,29 ms
+24.11.2020 8:09:28 [Info] Gateway: Connecting
+24.11.2020 8:09:28 [Verbose] Rest: GET gateway: 63,96 ms
+24.11.2020 8:09:29 [Info] Gateway: Connected
+24.11.2020 8:09:29 [Verbose] Gateway: Connected to DarlingBotEmj
+24.11.2020 8:09:35 [Warning] Gateway: A Ready handler is blocking the gateway task.
+24.11.2020 8:09:35 [Info] Gateway: Ready
+24.11.2020 8:09:51 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+24.11.2020 8:09:52 [Verbose] Rest: GET voice/regions: 759,35 ms
+24.11.2020 8:09:52 [Verbose] Rest: GET users/@me: 240,26 ms
+24.11.2020 8:09:52 [Info] Gateway: Connecting
+24.11.2020 8:09:52 [Verbose] Rest: GET gateway: 47,92 ms
+24.11.2020 8:09:53 [Info] Gateway: Connected
+24.11.2020 8:09:53 [Verbose] Gateway: Connected to DarlingBotEmj
+24.11.2020 8:09:57 [Warning] Gateway: A Ready handler is blocking the gateway task.
+24.11.2020 8:09:57 [Info] Gateway: Ready

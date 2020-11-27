@@ -1,0 +1,70 @@
+22.11.2020 18:33:40 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+22.11.2020 18:33:41 [Verbose] Rest: GET voice/regions: 1040,94 ms
+22.11.2020 18:33:41 [Verbose] Rest: GET users/@me: 234,77 ms
+22.11.2020 18:33:42 [Info] Gateway: Connecting
+22.11.2020 18:33:42 [Verbose] Rest: GET gateway: 70,6 ms
+22.11.2020 18:33:43 [Info] Gateway: Connected
+22.11.2020 18:33:43 [Verbose] Gateway: Connected to DarlingBotEmj
+22.11.2020 18:36:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+22.11.2020 18:36:31 [Verbose] Rest: GET voice/regions: 665,72 ms
+22.11.2020 18:36:31 [Verbose] Rest: GET users/@me: 229,43 ms
+22.11.2020 18:36:31 [Info] Gateway: Connecting
+22.11.2020 18:36:31 [Verbose] Rest: GET gateway: 57,42 ms
+22.11.2020 18:36:32 [Info] Gateway: Connected
+22.11.2020 18:36:32 [Verbose] Gateway: Connected to DarlingBotEmj
+22.11.2020 18:36:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+22.11.2020 18:36:50 [Verbose] Rest: GET voice/regions: 625,21 ms
+22.11.2020 18:36:50 [Verbose] Rest: GET users/@me: 250,95 ms
+22.11.2020 18:36:50 [Info] Gateway: Connecting
+22.11.2020 18:36:50 [Verbose] Rest: GET gateway: 59,14 ms
+22.11.2020 18:36:51 [Info] Gateway: Connected
+22.11.2020 18:36:51 [Verbose] Gateway: Connected to DarlingBotEmj
+22.11.2020 18:36:52 [Info] Gateway: Ready
+22.11.2020 18:37:05 [Verbose] Rest: POST channels/760195003535458304/messages: 310,05 ms
+22.11.2020 18:37:05 [Verbose] Command: Executed "zcoin" for KiTKAt`k#9618 in DarlingBotEmj/о
+22.11.2020 18:37:31 [Verbose] Rest: POST channels/760195003535458304/messages: 337,69 ms
+22.11.2020 18:37:31 [Verbose] Command: Executed "zcoin" for KiTKAt`k#9618 in DarlingBotEmj/о
+22.11.2020 21:04:02 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+22.11.2020 21:04:03 [Verbose] Rest: GET voice/regions: 798,78 ms
+22.11.2020 21:04:04 [Verbose] Rest: GET users/@me: 275,8 ms
+22.11.2020 21:04:04 [Info] Gateway: Connecting
+22.11.2020 21:04:04 [Verbose] Rest: GET gateway: 54,89 ms
+22.11.2020 21:04:05 [Info] Gateway: Connected
+22.11.2020 21:04:05 [Verbose] Gateway: Connected to DarlingBotEmj
+22.11.2020 21:04:08 [Info] Gateway: Ready
+22.11.2020 21:04:14 [Verbose] Rest: POST channels/760195003535458304/messages: 267 ms
+22.11.2020 21:04:14 [Verbose] Command: Executed "channelsettings" for h1kkaru.#1337 in DarlingBotEmj/о
+22.11.2020 21:04:21 [Verbose] Rest: POST channels/760195003535458304/messages: 258,34 ms
+22.11.2020 21:04:21 [Verbose] Command: Executed "channelsettings" for h1kkaru.#1337 in DarlingBotEmj/о
+22.11.2020 21:04:28 [Verbose] Rest: POST channels/760195003535458304/messages: 319,85 ms
+22.11.2020 21:04:28 [Verbose] Command: Executed "channelsettings" for h1kkaru.#1337 in DarlingBotEmj/о
+22.11.2020 21:04:33 [Verbose] Rest: POST channels/760195003535458304/messages: 273,58 ms
+22.11.2020 21:04:33 [Verbose] Command: Executed "channelsettings" for h1kkaru.#1337 in DarlingBotEmj/о
+22.11.2020 21:04:41 [Verbose] Rest: POST channels/760195003535458304/messages: 254,02 ms
+22.11.2020 21:04:41 [Verbose] Command: Executed "channelsettings.urlwhitelist" for h1kkaru.#1337 in DarlingBotEmj/о
+22.11.2020 21:04:52 [Verbose] Rest: DELETE channels/760195003535458304/messages/780176999045136437: 223,99 ms
+22.11.2020 21:12:02 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+22.11.2020 21:12:03 [Verbose] Rest: GET voice/regions: 656,55 ms
+22.11.2020 21:12:03 [Verbose] Rest: GET users/@me: 237,23 ms
+22.11.2020 21:12:03 [Info] Gateway: Connecting
+22.11.2020 21:12:03 [Verbose] Rest: GET gateway: 58,75 ms
+22.11.2020 21:12:04 [Info] Gateway: Connected
+22.11.2020 21:12:05 [Verbose] Gateway: Connected to DarlingBotEmj
+22.11.2020 21:12:06 [Info] Gateway: Ready
+22.11.2020 21:12:22 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+22.11.2020 21:12:44 [Verbose] Rest: Preemptive Rate limit triggered: channels/760195003535458304/messages
+22.11.2020 21:12:45 [Verbose] Rest: POST channels/760195003535458304/messages: 305,97 ms
+22.11.2020 21:12:45 [Verbose] Rest: POST channels/760195003535458304/messages: 891,19 ms
+22.11.2020 21:12:45 [Verbose] Command: Executed "channelsettings" for h1kkaru.#1337 in DarlingBotEmj/о
+22.11.2020 21:44:40 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+22.11.2020 21:44:41 [Verbose] Rest: GET voice/regions: 744,44 ms
+22.11.2020 21:44:42 [Verbose] Rest: GET users/@me: 221,2 ms
+22.11.2020 21:44:42 [Info] Gateway: Connecting
+22.11.2020 21:44:42 [Verbose] Rest: GET gateway: 61,85 ms
+22.11.2020 21:44:43 [Info] Gateway: Connected
+22.11.2020 21:44:43 [Verbose] Gateway: Connected to DarlingBotEmj
+22.11.2020 21:44:45 [Info] Gateway: Ready
+22.11.2020 21:44:47 [Verbose] Rest: POST channels/760195003535458304/messages: 326,04 ms
+22.11.2020 21:44:47 [Verbose] Command: Executed "channelsettings" for h1kkaru.#1337 in DarlingBotEmj/о
+22.11.2020 21:47:14 [Verbose] Rest: DELETE channels/760195003535458304/messages/780187662157217815: 391,56 ms
+22.11.2020 21:48:56 [Verbose] Rest: DELETE channels/760195003535458304/messages/780188089896271912: 334,54 ms

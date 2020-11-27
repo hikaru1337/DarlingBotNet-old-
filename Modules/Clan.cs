@@ -222,10 +222,12 @@ namespace DarlingBotNet.Modules
                     {
                         if (name.Length >= 4 && name.Length <= 32)
                         {
-                                var x = DBcontext.Clans.Add(new Clans() { ClanName = name, LogoUrl = logourl, OwnerId = Context.User.Id, GuildId = Context.Guild.Id, ClanSlots = 5 }).Entity;
+                                DBcontext.Clans.Add(new Clans() { ClanName = name, LogoUrl = logourl, OwnerId = Context.User.Id, GuildId = Context.Guild.Id, ClanSlots = 5 });
+                                await DBcontext.SaveChangesAsync();
+                                var ThisClan = DBcontext.Clans.FirstOrDefault(x=>x.OwnerId == Context.User.Id);
                                 usr.ZeroCoin -= priceCreate;
                                 usr.clanInfo = Users.UserClanRole.owner;
-                                usr.ClanId = x.Id;
+                                usr.ClanId = ThisClan.Id;
                                 DBcontext.Users.Update(usr);
                                 await DBcontext.SaveChangesAsync();
                                 emb.WithDescription("Вы успешно создали свой клан. Веселитесь 🤟");
@@ -516,10 +518,11 @@ namespace DarlingBotNet.Modules
                     emb.WithDescription("У вас нет клана, и вы не состоите в каком либо клане!");
                 else
                 {
+                    var UserGuild = Context.User as SocketGuildUser;
                     if (clanOwner != null)
                     {
-                        if (clanOwner.ClanRole != 0 && (Context.User as SocketGuildUser).Roles.Count(x => x.Id == clanOwner.ClanRole) > 0)
-                            await OtherSettings.CheckRoleValid(Context.User as SocketGuildUser, clanOwner.ClanRole, false);
+                        if (clanOwner.ClanRole != 0 && UserGuild.Roles.Count(x => x.Id == clanOwner.ClanRole) > 0)
+                            await OtherSettings.CheckRoleValid(UserGuild, clanOwner.ClanRole, false);
 
 
 
@@ -533,8 +536,8 @@ namespace DarlingBotNet.Modules
                     }
                     else if (clans != null)
                     {
-                        if (clans.ClanRole != 0 && (Context.User as SocketGuildUser).Roles.Count(x => x.Id == clans.ClanRole) > 0)
-                            await OtherSettings.CheckRoleValid(Context.User as SocketGuildUser, clanOwner.ClanRole, false);
+                        if (clans.ClanRole != 0 && UserGuild.Roles.Count(x => x.Id == clans.ClanRole) > 0)
+                            await OtherSettings.CheckRoleValid(UserGuild, clanOwner.ClanRole, false);
 
                         clans = await ClanPay(clans);
                         var clanTop = DBcontext.Clans.AsQueryable().Where(x => x.GuildId == Context.Guild.Id).AsEnumerable().Where(x => x.DefUsers.Count() >= clans.DefUsers.Count()).Count();

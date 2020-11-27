@@ -22,9 +22,9 @@
           "Newtonsoft.Json": "12.0.3",
           "PcgRandom": "1.1.0",
           "ServiceStack.Text": "5.9.2",
-          "SixLabors.ImageSharp": "1.0.0-beta0005",
-          "SixLabors.ImageSharp.Drawing": "1.0.0-beta0005",
-          "SixLabors.Shapes.Text": "1.0.0-beta0009",
+          "SixLabors.ImageSharp": "1.0.0-beta0007",
+          "SixLabors.ImageSharp.Drawing": "1.0.0-beta0007",
+          "SixLabors.Shapes.Text": "1.0.0-beta0007",
           "System.Drawing.Common": "4.7.0",
           "System.Linq.Async": "4.1.1",
           "System.Linq.Expressions": "4.3.0",
@@ -427,6 +427,7 @@
           }
         }
       },
+      "Microsoft.Net.Compilers.Toolset/3.1.0": {},
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.NETCore.Targets/1.1.3": {},
       "Microsoft.Win32.Primitives/4.3.0": {
@@ -687,8 +688,9 @@
           }
         }
       },
-      "SixLabors.ImageSharp/1.0.0-beta0005": {
+      "SixLabors.ImageSharp/1.0.0-beta0007": {
         "dependencies": {
+          "Microsoft.Net.Compilers.Toolset": "3.1.0",
           "SixLabors.Core": "1.0.0-beta0008",
           "System.Runtime.CompilerServices.Unsafe": "4.5.1"
         },
@@ -699,14 +701,15 @@
           }
         }
       },
-      "SixLabors.ImageSharp.Drawing/1.0.0-beta0005": {
+      "SixLabors.ImageSharp.Drawing/1.0.0-beta0007": {
         "dependencies": {
+          "Microsoft.Net.Compilers.Toolset": "3.1.0",
           "SixLabors.Fonts": "1.0.0-beta0009",
-          "SixLabors.ImageSharp": "1.0.0-beta0005",
+          "SixLabors.ImageSharp": "1.0.0-beta0007",
           "SixLabors.Shapes": "1.0.0-beta0009"
         },
         "runtime": {
-          "lib/netstandard2.0/SixLabors.ImageSharp.Drawing.dll": {
+          "lib/netcoreapp2.1/SixLabors.ImageSharp.Drawing.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -723,7 +726,7 @@
           }
         }
       },
-      "SixLabors.Shapes.Text/1.0.0-beta0009": {
+      "SixLabors.Shapes.Text/1.0.0-beta0007": {
         "dependencies": {
           "SixLabors.Fonts": "1.0.0-beta0009",
           "SixLabors.Shapes": "1.0.0-beta0009"
@@ -2047,6 +2050,13 @@
       "path": "microsoft.identity.client/3.0.8",
       "hashPath": "microsoft.identity.client.3.0.8.nupkg.sha512"
     },
+    "Microsoft.Net.Compilers.Toolset/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iwBIkmusIUlBrln8AbKpYIcSGnImCYUMFSC3QOpGuOmnle44w2ORyH8IFDi8rbQNKjDH9HBmtPML/kW3GuxyA==",
+      "path": "microsoft.net.compilers.toolset/3.1.0",
+      "hashPath": "microsoft.net.compilers.toolset.3.1.0.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
       "serviceable": true,
@@ -2285,19 +2295,19 @@
       "path": "sixlabors.fonts/1.0.0-beta0009",
       "hashPath": "sixlabors.fonts.1.0.0-beta0009.nupkg.sha512"
     },
-    "SixLabors.ImageSharp/1.0.0-beta0005": {
+    "SixLabors.ImageSharp/1.0.0-beta0007": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mhB3ulgr51tKuLRLC/xBgNSDv6qsAsehfwt/aj1OuKlLWu4oXUl2V6HdLKxqQftigkQthQVujI0gMLH6/o7zNg==",
-      "path": "sixlabors.imagesharp/1.0.0-beta0005",
-      "hashPath": "sixlabors.imagesharp.1.0.0-beta0005.nupkg.sha512"
+      "sha512": "sha512-R7BMm1MPyE3n4kSmTrdhB6iQmIZmSjBhnHG8mYrfi9t5CmIIgXhmGHHLZTZHa17Ka4b5bhUUqssAVEHDlDqnuQ==",
+      "path": "sixlabors.imagesharp/1.0.0-beta0007",
+      "hashPath": "sixlabors.imagesharp.1.0.0-beta0007.nupkg.sha512"
     },
-    "SixLabors.ImageSharp.Drawing/1.0.0-beta0005": {
+    "SixLabors.ImageSharp.Drawing/1.0.0-beta0007": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-enut3u1PVCehRkIVXBZWcFylANGRsMAYcXhMiCYbS6VQJoSjOGE4oerm5FN5DTZgnaNrmmYMWvzZqA0GqitVbQ==",
-      "path": "sixlabors.imagesharp.drawing/1.0.0-beta0005",
-      "hashPath": "sixlabors.imagesharp.drawing.1.0.0-beta0005.nupkg.sha512"
+      "sha512": "sha512-luF+sbh2mMdQLa7W5icWsaqp3M3cAPF73Tv8hti7KVxBywKFFEibunqAUYUAJLTiuSpScnjYAhTqHYGuXBChmw==",
+      "path": "sixlabors.imagesharp.drawing/1.0.0-beta0007",
+      "hashPath": "sixlabors.imagesharp.drawing.1.0.0-beta0007.nupkg.sha512"
     },
     "SixLabors.Shapes/1.0.0-beta0009": {
       "type": "package",
@@ -2306,12 +2316,12 @@
       "path": "sixlabors.shapes/1.0.0-beta0009",
       "hashPath": "sixlabors.shapes.1.0.0-beta0009.nupkg.sha512"
     },
-    "SixLabors.Shapes.Text/1.0.0-beta0009": {
+    "SixLabors.Shapes.Text/1.0.0-beta0007": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8PBs7bfE7opDNHGbJ0Wj1jKbIP5nySG/RB4fpw7R55VURQfEOKppMD/AkqXw+3kOqOEXYEjLg5myVneom4Y8jw==",
-      "path": "sixlabors.shapes.text/1.0.0-beta0009",
-      "hashPath": "sixlabors.shapes.text.1.0.0-beta0009.nupkg.sha512"
+      "sha512": "sha512-zDScCciQa1ra1lyq439XMAjNmgoAJwGdcRZp2hjBaQOrSOvkvSv48TFItt6yFc4F74RupQTHCjjTSwWY0CgXmQ==",
+      "path": "sixlabors.shapes.text/1.0.0-beta0007",
+      "hashPath": "sixlabors.shapes.text.1.0.0-beta0007.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.2": {
       "type": "package",

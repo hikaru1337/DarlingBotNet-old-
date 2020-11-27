@@ -1,0 +1,241 @@
+27.11.2020 3:33:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 3:33:11 [Verbose] Rest: GET voice/regions: 805,31 ms
+27.11.2020 3:33:12 [Verbose] Rest: GET users/@me: 224,12 ms
+27.11.2020 3:33:12 [Info] Gateway: Connecting
+27.11.2020 3:33:12 [Verbose] Rest: GET gateway: 67,05 ms
+27.11.2020 3:33:13 [Info] Gateway: Connected
+27.11.2020 3:33:13 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 3:33:15 [Info] Gateway: Ready
+27.11.2020 3:34:07 [Verbose] Rest: POST channels/760195003535458304/messages: 363,67 ms
+27.11.2020 3:34:07 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 3:35:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 3:35:23 [Verbose] Rest: GET voice/regions: 748,1 ms
+27.11.2020 3:35:24 [Verbose] Rest: GET users/@me: 259,67 ms
+27.11.2020 3:35:24 [Info] Gateway: Connecting
+27.11.2020 3:35:24 [Verbose] Rest: GET gateway: 56,69 ms
+27.11.2020 3:35:25 [Info] Gateway: Connected
+27.11.2020 3:35:25 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 3:35:27 [Info] Gateway: Ready
+27.11.2020 3:35:39 [Verbose] Rest: POST channels/760195003535458304/messages: 243,25 ms
+27.11.2020 3:35:39 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 3:35:45 [Verbose] Rest: POST channels/760195003535458304/messages: 231,03 ms
+27.11.2020 3:35:45 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 3:35:58 [Verbose] Rest: POST channels/760195003535458304/messages: 272,66 ms
+27.11.2020 3:35:58 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 3:36:23 [Verbose] Rest: POST channels/760195003535458304/messages: 239,76 ms
+27.11.2020 3:36:23 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 3:36:37 [Verbose] Rest: POST channels/760195003535458304/messages: 247,62 ms
+27.11.2020 3:36:37 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 11:40:07 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 11:40:08 [Verbose] Rest: GET voice/regions: 1187,24 ms
+27.11.2020 11:40:09 [Verbose] Rest: GET users/@me: 248,77 ms
+27.11.2020 11:40:09 [Info] Gateway: Connecting
+27.11.2020 11:40:09 [Verbose] Rest: GET gateway: 59,78 ms
+27.11.2020 11:40:10 [Info] Gateway: Connected
+27.11.2020 11:40:11 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 11:40:13 [Info] Gateway: Ready
+27.11.2020 11:40:14 [Error] Command: Discord.Commands.CommandException: Error occurred executing "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о.
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, ReadOnlySpan`1 format, DateTimeFormatInfo dtfi, StringBuilder result)
+   at System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   at System.TimeSpan.ToString(String format)
+   at DarlingBotNet.Modules.User.zcoin(SocketUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\User.cs:line 429
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+27.11.2020 11:40:14 [Verbose] Rest: POST channels/760195003535458304/messages: 288,43 ms
+27.11.2020 11:40:15 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 11:40:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 11:40:36 [Verbose] Rest: GET voice/regions: 944,27 ms
+27.11.2020 11:40:36 [Verbose] Rest: GET users/@me: 227,78 ms
+27.11.2020 11:40:36 [Info] Gateway: Connecting
+27.11.2020 11:40:36 [Verbose] Rest: GET gateway: 61,35 ms
+27.11.2020 11:40:37 [Info] Gateway: Connected
+27.11.2020 11:40:37 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 11:40:39 [Info] Gateway: Ready
+27.11.2020 11:40:40 [Verbose] Rest: POST channels/760195003535458304/messages: 271,64 ms
+27.11.2020 11:40:40 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 11:41:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 11:41:32 [Verbose] Rest: GET voice/regions: 980,41 ms
+27.11.2020 11:41:32 [Verbose] Rest: GET users/@me: 239,07 ms
+27.11.2020 11:41:32 [Info] Gateway: Connecting
+27.11.2020 11:41:33 [Verbose] Rest: GET gateway: 58,89 ms
+27.11.2020 11:41:34 [Info] Gateway: Connected
+27.11.2020 11:41:34 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 11:41:35 [Info] Gateway: Ready
+27.11.2020 11:41:40 [Verbose] Rest: POST channels/760195003535458304/messages: 337,72 ms
+27.11.2020 11:41:40 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 11:43:18 [Verbose] Rest: POST channels/760195003535458304/messages: 368,87 ms
+27.11.2020 11:43:18 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 11:48:51 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 11:48:52 [Verbose] Rest: GET voice/regions: 998,44 ms
+27.11.2020 11:48:52 [Verbose] Rest: GET users/@me: 220,23 ms
+27.11.2020 11:48:52 [Info] Gateway: Connecting
+27.11.2020 11:48:52 [Verbose] Rest: GET gateway: 57,84 ms
+27.11.2020 11:48:53 [Info] Gateway: Connected
+27.11.2020 11:48:54 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 11:48:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 11:49:00 [Verbose] Rest: GET voice/regions: 874,35 ms
+27.11.2020 11:49:00 [Verbose] Rest: GET users/@me: 258,19 ms
+27.11.2020 11:49:00 [Info] Gateway: Connecting
+27.11.2020 11:49:00 [Verbose] Rest: GET gateway: 55,18 ms
+27.11.2020 11:49:01 [Info] Gateway: Connected
+27.11.2020 11:49:02 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 11:49:04 [Info] Gateway: Ready
+27.11.2020 11:49:07 [Verbose] Rest: POST channels/760195003535458304/messages: 307,89 ms
+27.11.2020 11:49:07 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 12:05:46 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 12:05:47 [Verbose] Rest: GET voice/regions: 1073,08 ms
+27.11.2020 12:05:47 [Verbose] Rest: GET users/@me: 224,03 ms
+27.11.2020 12:05:48 [Info] Gateway: Connecting
+27.11.2020 12:05:48 [Verbose] Rest: GET gateway: 58,03 ms
+27.11.2020 12:05:49 [Info] Gateway: Connected
+27.11.2020 12:05:49 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 12:05:51 [Info] Gateway: Ready
+27.11.2020 12:07:04 [Verbose] Rest: POST channels/760195003535458304/messages: 395,85 ms
+27.11.2020 12:07:04 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 12:19:45 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 12:19:46 [Verbose] Rest: GET voice/regions: 744,31 ms
+27.11.2020 12:19:47 [Verbose] Rest: GET users/@me: 232,07 ms
+27.11.2020 12:19:47 [Info] Gateway: Connecting
+27.11.2020 12:19:47 [Verbose] Rest: GET gateway: 88,8 ms
+27.11.2020 12:19:48 [Info] Gateway: Connected
+27.11.2020 12:19:48 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 12:19:50 [Info] Gateway: Ready
+27.11.2020 12:19:57 [Verbose] Rest: POST channels/760195003535458304/messages: 307,5 ms
+27.11.2020 12:19:57 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 17:58:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 17:58:14 [Verbose] Rest: GET voice/regions: 866,1 ms
+27.11.2020 17:58:14 [Verbose] Rest: GET users/@me: 230,04 ms
+27.11.2020 17:58:15 [Info] Gateway: Connecting
+27.11.2020 17:58:15 [Verbose] Rest: GET gateway: 66,86 ms
+27.11.2020 17:58:16 [Info] Gateway: Connected
+27.11.2020 17:58:16 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 17:58:18 [Info] Gateway: Ready
+27.11.2020 17:59:09 [Verbose] Rest: POST channels/760195003535458304/messages: 505,89 ms
+27.11.2020 17:59:09 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 18:00:18 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 18:00:19 [Verbose] Rest: GET voice/regions: 922,72 ms
+27.11.2020 18:00:20 [Verbose] Rest: GET users/@me: 273,22 ms
+27.11.2020 18:00:20 [Info] Gateway: Connecting
+27.11.2020 18:00:20 [Verbose] Rest: GET gateway: 56,14 ms
+27.11.2020 18:00:21 [Info] Gateway: Connected
+27.11.2020 18:00:21 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 18:00:23 [Info] Gateway: Ready
+27.11.2020 18:00:26 [Verbose] Rest: POST channels/760195003535458304/messages: 1099,49 ms
+27.11.2020 18:00:26 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 18:01:31 [Verbose] Rest: POST channels/760195003535458304/messages: 1152,49 ms
+27.11.2020 18:01:31 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 18:01:47 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 18:01:48 [Verbose] Rest: GET voice/regions: 754,26 ms
+27.11.2020 18:01:49 [Verbose] Rest: GET users/@me: 287,74 ms
+27.11.2020 18:01:49 [Info] Gateway: Connecting
+27.11.2020 18:01:49 [Verbose] Rest: GET gateway: 54,68 ms
+27.11.2020 18:01:50 [Info] Gateway: Connected
+27.11.2020 18:01:50 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 18:01:52 [Info] Gateway: Ready
+27.11.2020 18:03:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 18:03:32 [Verbose] Rest: GET voice/regions: 718,67 ms
+27.11.2020 18:03:33 [Verbose] Rest: GET users/@me: 325,51 ms
+27.11.2020 18:03:33 [Info] Gateway: Connecting
+27.11.2020 18:03:33 [Verbose] Rest: GET gateway: 62,13 ms
+27.11.2020 18:03:34 [Info] Gateway: Connected
+27.11.2020 18:03:34 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 18:03:36 [Info] Gateway: Ready
+27.11.2020 18:04:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 18:04:50 [Verbose] Rest: GET voice/regions: 765,47 ms
+27.11.2020 18:04:50 [Verbose] Rest: GET users/@me: 261,42 ms
+27.11.2020 18:04:50 [Info] Gateway: Connecting
+27.11.2020 18:04:50 [Verbose] Rest: GET gateway: 62,08 ms
+27.11.2020 18:04:51 [Info] Gateway: Connected
+27.11.2020 18:04:51 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 18:04:53 [Info] Gateway: Ready
+27.11.2020 18:06:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 18:06:13 [Verbose] Rest: GET voice/regions: 973,39 ms
+27.11.2020 18:06:13 [Verbose] Rest: GET users/@me: 230,05 ms
+27.11.2020 18:06:13 [Info] Gateway: Connecting
+27.11.2020 18:06:14 [Verbose] Rest: GET gateway: 62,54 ms
+27.11.2020 18:06:15 [Info] Gateway: Connected
+27.11.2020 18:06:15 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 18:06:16 [Info] Gateway: Ready
+27.11.2020 18:06:28 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+27.11.2020 18:06:29 [Verbose] Rest: POST channels/760195003535458304/messages: 331,08 ms
+27.11.2020 18:06:29 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 18:26:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 18:26:15 [Verbose] Rest: GET voice/regions: 745,57 ms
+27.11.2020 18:26:15 [Verbose] Rest: GET users/@me: 242 ms
+27.11.2020 18:26:15 [Info] Gateway: Connecting
+27.11.2020 18:26:15 [Verbose] Rest: GET gateway: 55,92 ms
+27.11.2020 18:26:16 [Info] Gateway: Connected
+27.11.2020 18:26:16 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 18:26:18 [Info] Gateway: Ready
+27.11.2020 18:26:20 [Verbose] Rest: POST channels/760195003535458304/messages: 322,92 ms
+27.11.2020 18:26:20 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 18:26:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 18:26:38 [Verbose] Rest: GET voice/regions: 970,66 ms
+27.11.2020 18:26:39 [Verbose] Rest: GET users/@me: 303,29 ms
+27.11.2020 18:26:39 [Info] Gateway: Connecting
+27.11.2020 18:26:39 [Verbose] Rest: GET gateway: 57,19 ms
+27.11.2020 18:26:40 [Info] Gateway: Connected
+27.11.2020 18:26:40 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 18:26:42 [Info] Gateway: Ready
+27.11.2020 18:26:44 [Verbose] Rest: POST channels/760195003535458304/messages: 327,6 ms
+27.11.2020 18:26:44 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 18:29:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 18:29:24 [Verbose] Rest: GET voice/regions: 890,73 ms
+27.11.2020 18:29:25 [Verbose] Rest: GET users/@me: 229,61 ms
+27.11.2020 18:29:25 [Info] Gateway: Connecting
+27.11.2020 18:29:25 [Verbose] Rest: GET gateway: 55,49 ms
+27.11.2020 18:29:26 [Info] Gateway: Connected
+27.11.2020 18:29:26 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 18:29:28 [Info] Gateway: Ready
+27.11.2020 18:29:29 [Verbose] Rest: POST channels/760195003535458304/messages: 278,26 ms
+27.11.2020 18:29:29 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 18:31:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 18:31:13 [Verbose] Rest: GET voice/regions: 993,93 ms
+27.11.2020 18:31:13 [Verbose] Rest: GET users/@me: 239,78 ms
+27.11.2020 18:31:13 [Info] Gateway: Connecting
+27.11.2020 18:31:13 [Verbose] Rest: GET gateway: 62,82 ms
+27.11.2020 18:31:14 [Info] Gateway: Connected
+27.11.2020 18:31:14 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 18:31:17 [Info] Gateway: Ready
+27.11.2020 18:31:18 [Verbose] Rest: POST channels/760195003535458304/messages: 256,91 ms
+27.11.2020 18:31:18 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+27.11.2020 18:36:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 18:40:16 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+27.11.2020 18:40:17 [Verbose] Rest: GET voice/regions: 955,65 ms
+27.11.2020 18:40:18 [Verbose] Rest: GET users/@me: 250,65 ms
+27.11.2020 18:40:18 [Info] Gateway: Connecting
+27.11.2020 18:40:18 [Verbose] Rest: GET gateway: 58,77 ms
+27.11.2020 18:40:19 [Info] Gateway: Connected
+27.11.2020 18:40:19 [Verbose] Gateway: Connected to DarlingBotEmj
+27.11.2020 18:40:20 [Info] Gateway: Ready
+27.11.2020 18:40:35 [Verbose] Rest: POST guilds/663380088188043274/roles: 251,39 ms
+27.11.2020 18:40:35 [Verbose] Rest: PATCH guilds/663380088188043274/roles/781952628292059146: 246,73 ms
+27.11.2020 18:40:35 [Verbose] Rest: PUT channels/663380088188043276/permissions/781952628292059146: 233,99 ms
+27.11.2020 18:40:36 [Verbose] Rest: PUT channels/780412937684123678/permissions/781952628292059146: 757,25 ms
+27.11.2020 18:40:36 [Verbose] Rest: PUT channels/772039793831051264/permissions/781952628292059146: 245,07 ms
+27.11.2020 18:40:37 [Verbose] Rest: PUT channels/745404753751572572/permissions/781952628292059146: 264,37 ms
+27.11.2020 18:40:37 [Verbose] Rest: GET channels/663380088188043276: 221,99 ms
+27.11.2020 18:40:37 [Verbose] Rest: PATCH channels/754330759816544378: 221,11 ms
+27.11.2020 18:40:37 [Verbose] Rest: PUT channels/760195003535458304/permissions/781952628292059146: 243,87 ms
+27.11.2020 18:40:38 [Verbose] Rest: PUT channels/764810637297188906/permissions/781952628292059146: 237,75 ms
+27.11.2020 18:40:38 [Verbose] Rest: POST guilds/663380088188043274/roles: 228,64 ms
+27.11.2020 18:40:38 [Verbose] Rest: PATCH guilds/663380088188043274/roles/781952640942735431: 289,41 ms
+27.11.2020 18:40:38 [Verbose] Rest: PUT channels/663380088188043276/permissions/781952640942735431: 256,56 ms
+27.11.2020 18:40:39 [Verbose] Rest: PUT channels/780412937684123678/permissions/781952640942735431: 236 ms
+27.11.2020 18:40:39 [Verbose] Rest: PUT channels/772039793831051264/permissions/781952640942735431: 248,51 ms
+27.11.2020 18:40:39 [Verbose] Rest: PUT channels/745404753751572572/permissions/781952640942735431: 258,53 ms
+27.11.2020 18:40:39 [Verbose] Rest: GET channels/780412937684123678: 224,94 ms
+27.11.2020 18:40:40 [Verbose] Rest: PATCH channels/780412938708058113: 295,38 ms
+27.11.2020 18:40:40 [Verbose] Rest: GET channels/745404753751572572: 223,89 ms
+27.11.2020 18:40:40 [Verbose] Rest: PATCH channels/745404755316310186: 243,62 ms
+27.11.2020 18:40:40 [Verbose] Rest: GET channels/772039793831051264: 223,48 ms
+27.11.2020 18:40:41 [Verbose] Rest: PATCH channels/772039795115425802: 238,98 ms
+27.11.2020 18:40:41 [Verbose] Rest: GET channels/745404753751572572: 270,82 ms
+27.11.2020 18:40:41 [Verbose] Rest: PATCH channels/769595392357564446: 257,42 ms
+27.11.2020 18:40:41 [Verbose] Rest: PUT channels/735751329955315733/permissions/781952640942735431: 224,95 ms
+27.11.2020 18:40:42 [Verbose] Rest: PUT channels/780409747077201940/permissions/781952640942735431: 224,28 ms
+27.11.2020 18:40:42 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/781952640942735431: 253,56 ms
+27.11.2020 18:40:42 [Verbose] Rest: PUT guilds/663380088188043274/members/551373471536513024/roles/781952628292059146: 219,45 ms

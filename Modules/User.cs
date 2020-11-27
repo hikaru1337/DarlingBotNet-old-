@@ -12,6 +12,8 @@ using System.Threading.Tasks;
 using static DarlingBotNet.Services.CommandHandler;
 using Pcg;
 using ServiceStack;
+using System.Diagnostics;
+using Microsoft.EntityFrameworkCore;
 
 namespace DarlingBotNet.Modules
 {
@@ -87,13 +89,14 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var usr = new Users();
+                Users usr;
                 if (user == null) user = Context.User;
 
                 if (user == Context.User)
                     usr = _cache.GetOrCreateUserCache(Context.User.Id, Context.Guild.Id);
                 else
                     usr = DBcontext.Users.FirstOrDefault(x => x.UserId == user.Id && x.GuildId == Context.Guild.Id);
+
 
 
                 ulong count = (usr.Level * 80 * usr.Level);
@@ -414,19 +417,19 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                ulong UserZeroCoins = 0;
+                Users UserZeroCoins;
                 if (user == null) user = Context.User;
 
                 if (user == Context.User)
-                    UserZeroCoins = _cache.GetOrCreateUserCache(Context.User.Id, Context.Guild.Id).ZeroCoin;
+                    UserZeroCoins = _cache.GetOrCreateUserCache(Context.User.Id, Context.Guild.Id);
                 else
-                    UserZeroCoins = DBcontext.Users.FirstOrDefault(x => x.UserId == user.Id && x.GuildId == Context.Guild.Id).ZeroCoin;
+                    UserZeroCoins = DBcontext.Users.FirstOrDefault(x => x.UserId == user.Id && x.GuildId == Context.Guild.Id);
+
+                //CacheMethods.CompareCars(UserZeroCoins, UserZeroCoins);
+                var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor($" - ZeroCoin {user}", user.GetAvatarUrl())
+                                                                  .WithDescription($"zcoin: {UserZeroCoins.ZeroCoin}");
                 _cache.Removes(Context);
-                await Context.Channel.SendMessageAsync("", false, new EmbedBuilder()
-                                                         .WithColor(255, 0, 94)
-                                                         .WithAuthor($" - ZeroCoin {user}", user.GetAvatarUrl())
-                                                         .WithDescription($"zcoin: {UserZeroCoins}")
-                                                         .Build());
+                await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
         }
 
@@ -594,7 +597,7 @@ namespace DarlingBotNet.Modules
                     }
                     if (usr.Bank > 5000 && usr.Streak > 10)
                     { 
-                        ulong bankMoney = (ulong)Math.Truncate(usr.Bank * 0.005 * (1 + usr.Streak * 0.15));
+                        ulong bankMoney = (ulong)Math.Truncate(usr.Bank * 0.005 * (1 + usr.Streak * 0.15))/2;
                         emb.Description += $"\nКэшБэк от банка🤑: +{bankMoney}";
                     }
 
@@ -649,7 +652,7 @@ namespace DarlingBotNet.Modules
         {
             using (var DBcontext = new DBcontext())
             {
-                var usr = new Users();
+                Users usr;
                 if (user == null) user = Context.User;
 
                 if (user == Context.User)
@@ -659,19 +662,22 @@ namespace DarlingBotNet.Modules
 
 
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithTitle($"Profile {user}").WithThumbnailUrl(user.GetAvatarUrl());
-                var UserBoost = DBcontext.DarlingBoost.FirstOrDefault(x=>x.UserId == Context.User.Id);
+                var UserBoost = DBcontext.DarlingBoost.FirstOrDefault(x=>x.UserId == user.Id);
                 if (UserBoost != null && UserBoost.Ends > DateTime.Now)
                 {
-                    if ((UserBoost.Ends - DateTime.Now).TotalDays < 7)
+                    if ((UserBoost.Ends - DateTime.Now).TotalDays > 7)
+                        emb.Title += $" - {BotSettings.EmoteBoost}";
+                    else if ((UserBoost.Ends - DateTime.Now).TotalDays < 7)
                         emb.Title += $" - {BotSettings.EmoteBoostNo}";
 
-                    if ((UserBoost.Ends - DateTime.Now).TotalDays == 7)
+                    else if ((UserBoost.Ends - DateTime.Now).TotalDays == 7)
                         emb.Title += $" - {BotSettings.EmoteBoostLastDay}";
 
                     else
                         emb.Title += $" - {BotSettings.EmoteBoostNot}";
                 }
                 var Clan = DBcontext.Clans.FirstOrDefault(x => x.Id == usr.ClanId);
+
                 if (usr.ClanId != 0 && usr.clanInfo != Users.UserClanRole.ready)
                 {
                     emb.AddField($"Клан {Clan.ClanName}", $"Участников: {Clan.DefUsers.Count()}", true);
@@ -682,7 +688,7 @@ namespace DarlingBotNet.Modules
                 }
                 if (usr.marryedid != 0)
                 {
-                        emb.Description += $"Женат(а) на <@{usr.marryedid}>\n";
+                    emb.Description += $"Женат(а) на <@{usr.marryedid}>\n";
                 }
                 var WarnsCount = DBcontext.Warns.Count(x => x.GuildId == Context.Guild.Id);
                 emb.Description += $"ZeroCoin's: {usr.ZeroCoin}\nDaily Streak: {usr.Streak}\nБанк: {usr.Bank}\nLevel: {usr.Level}\nWarns: {usr.countwarns}/{WarnsCount}";
@@ -848,6 +854,10 @@ namespace DarlingBotNet.Modules
             using (var DBcontext = new DBcontext())
             {
                 var usr = _cache.GetOrCreateUserCache(Context.User.Id, Context.Guild.Id);
+                if (usr.BankTimer.Year == 1)
+                    usr.BankTimer = DateTime.Now;
+                if(usr.BankLastTransit.Year == 1)
+                    usr.BankLastTransit = DateTime.Now;
                 ulong limituser = 100000;
                 var UserBoost = DBcontext.DarlingBoost.FirstOrDefault(x=>x.UserId == Context.User.Id);
                 if(UserBoost != null && UserBoost.Ends > DateTime.Now)
@@ -856,7 +866,34 @@ namespace DarlingBotNet.Modules
                 var emb = new EmbedBuilder().WithColor(255, 0, 94).WithAuthor(" - Bank 🏧", Context.User.GetAvatarUrl());
                 //var CoinsDay = Math.Truncate(usr.Bank * (1 + 4.5 / 100) - usr.Bank);
                 double CoinsDayDaily = Math.Truncate(usr.Bank * 0.005 * (1 + usr.Streak * 0.15));
-                if (usr.Streak > 10)
+
+
+                float Procent = 0.005f;
+                var UserDiscord = Context.User as SocketGuildUser;
+                var JoinedAtDays = (DateTime.Now - UserDiscord.JoinedAt).Value.TotalDays;
+                var CreateAtDays = (DateTime.Now - UserDiscord.CreatedAt).TotalDays;
+
+
+
+
+                var CheckFake = (CreateAtDays - JoinedAtDays) % 100;
+                if (CheckFake < 0.2)
+                {
+                    if (usr.Level <= 5)
+                        Procent /= 1.5f;
+                    else if (usr.Level <= 10)
+                        Procent /= 1.2f;
+                }
+                else if (CheckFake < 0.1)
+                {
+                    if (usr.Level >= 5)
+                        Procent /= 2.0f;
+                    else if (usr.Level <= 10)
+                        Procent /= 1.5f;
+                }
+
+
+                if (usr.Streak >= 10)
                 {
                     if (usr.Bank > 0 && usr.Bank < limituser)
                     {
@@ -880,24 +917,31 @@ namespace DarlingBotNet.Modules
 
                 emb.WithDescription($"Заложено: {(usr.Bank < limituser ? usr.Bank.ToString() : $"{usr.Bank} limit!")}\nКол-во Coin в день: {CoinsDayDaily}");
                 emb.WithFooter("Можно снять/положить: ");
-                if (usr.BankTimer.Year == 1)
-                    usr.BankTimer = DateTime.Now;
-                var TimeToTransit = usr.BankTimer - DateTime.Now;
-                if (TimeToTransit.TotalSeconds > 0)
+
+ 
+                if (usr.Streak >= 10)
                 {
-                    if (TimeToTransit.TotalDays > 1)
-                        emb.Footer.Text += $"через {TimeToTransit.Days} дней {TimeToTransit.Hours} часов и {TimeToTransit.Minutes} минут!";
-                    else if (TimeToTransit.TotalSeconds >= 3600)
-                        emb.Footer.Text += $"через {TimeToTransit.Hours} часов и {TimeToTransit.Minutes} минут!";
+                    var TimeToTransit = usr.BankTimer - DateTime.Now;
+                    if (TimeToTransit.TotalSeconds > 0)
+                    {
+                        if (TimeToTransit.TotalDays > 1)
+                            emb.Footer.Text += $"через {TimeToTransit.Days} дней {TimeToTransit.Hours} часов и {TimeToTransit.Minutes} минут!";
+                        else if (TimeToTransit.TotalSeconds >= 3600)
+                            emb.Footer.Text += $"через {TimeToTransit.Hours} часов и {TimeToTransit.Minutes} минут!";
+                        else
+                            emb.Footer.Text += $"через {(TimeToTransit.TotalSeconds > 60 ? $"{TimeToTransit.Minutes} минут и " : "")} {TimeToTransit.Seconds} секунд!";
+                    }
                     else
-                        emb.Footer.Text += $"через {(TimeToTransit.TotalSeconds > 60 ? $"{TimeToTransit.Minutes} минут и " : "")} {TimeToTransit.Seconds} секунд!";
+                    {
+                        var GuildPrefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
+                        emb.AddField("Пополнить счёт", $"{GuildPrefix}BankAdd [coins]", true);
+                        emb.AddField("Снять со счёта", $"{GuildPrefix}BankGive [coins]", true);
+                        emb.Footer.Text += "сейчас";
+                    }
                 }
                 else
                 {
-                    var GuildPrefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
-                    emb.AddField("Пополнить счёт", $"{GuildPrefix}BankAdd [coins]", true);
-                    emb.AddField("Снять со счёта", $"{GuildPrefix}BankGive [coins]", true);
-                    emb.Footer.Text += "сейчас";
+                    emb.Footer.Text += $"через {10 - usr.Streak} Daily Streak!";
                 }
                 _cache.Removes(Context);
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
@@ -926,7 +970,7 @@ namespace DarlingBotNet.Modules
                                 if (usr.BankTimer < DateTime.Now)
                                 {
                                     usr.BankTimer = DateTime.Now.AddDays(7);
-                                    if (usr.BankLastTransit.Year < DateTime.Now.AddYears(-1).Year)
+                                    if (usr.BankLastTransit.Year == 1)
                                         usr.BankLastTransit = DateTime.Now;
                                     usr.Bank += coins;
                                     usr.ZeroCoin -= coins;
@@ -973,6 +1017,8 @@ namespace DarlingBotNet.Modules
                     if (usr.BankTimer < DateTime.Now)
                     {
                         usr.BankTimer = DateTime.Now.AddDays(7);
+                        if (usr.BankLastTransit.Year == 1)
+                            usr.BankLastTransit = DateTime.Now;
                         usr.Bank -= coins;
                         usr.ZeroCoin += coins;
                         DBcontext.Users.Update(usr);
@@ -1170,10 +1216,17 @@ namespace DarlingBotNet.Modules
                             {
                                 if (!(Context.User as SocketGuildUser).Roles.Contains(Role))
                                 {
-                                        user.ZeroCoin -= DBrole.Price;
+                                    var role = await OtherSettings.CheckRoleValid(Context.User as SocketGuildUser, Role.Id, false);
+                                    if (role != null)
+                                    {
+                                        embed.WithDescription(role);
+                                        await Context.Channel.SendMessageAsync("", false, embed.Build());
+                                        return;
+                                    }
+
+                                    user.ZeroCoin -= DBrole.Price;
                                         DBcontext.Users.Update(user);
                                         await DBcontext.SaveChangesAsync();
-                                        await OtherSettings.CheckRoleValid(Context.User as SocketGuildUser, Role.Id, false);
                                         embed.WithDescription($"Вы успешно купили {Role.Mention} за {DBrole.Price} ZeroCoins");
                                 }
                                 else embed.WithDescription($"Вы уже купили роль {Role.Mention}");

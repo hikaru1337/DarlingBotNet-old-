@@ -1,0 +1,600 @@
+26.11.2020 8:58:57 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 8:58:58 [Verbose] Rest: GET voice/regions: 994,25 ms
+26.11.2020 8:58:59 [Verbose] Rest: GET users/@me: 237,52 ms
+26.11.2020 8:58:59 [Info] Gateway: Connecting
+26.11.2020 8:58:59 [Verbose] Rest: GET gateway: 70,6 ms
+26.11.2020 8:59:00 [Info] Gateway: Connected
+26.11.2020 8:59:00 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 8:59:02 [Info] Gateway: Ready
+26.11.2020 8:59:41 [Verbose] Rest: POST channels/760195003535458304/messages: 261,46 ms
+26.11.2020 8:59:48 [Verbose] Rest: POST channels/760195003535458304/messages: 255,32 ms
+26.11.2020 8:59:54 [Verbose] Rest: POST channels/760195003535458304/messages: 281,18 ms
+26.11.2020 8:59:54 [Verbose] Command: Executed "commands" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 9:00:07 [Verbose] Rest: GET channels/760195003535458304/messages/781130405582864435: 235,87 ms
+26.11.2020 9:00:57 [Warning] Gateway: System.Exception: WebSocket connection was closed
+ ---> Discord.Net.WebSocketClosedException: The server sent close 1000: ""
+   at Discord.Net.WebSockets.DefaultWebSocketClient.RunAsync(CancellationToken cancelToken)
+   --- End of inner exception stack trace ---
+   at Discord.ConnectionManager.<>c__DisplayClass29_0.<<StartAsync>b__0>d.MoveNext()
+26.11.2020 9:00:57 [Info] Gateway: Disconnecting
+26.11.2020 9:00:57 [Verbose] Gateway: Disconnected from DarlingBotEmj
+26.11.2020 9:00:57 [Info] Gateway: Disconnected
+26.11.2020 9:00:57 [Verbose] Rest: POST channels/760195003535458304/messages: 437,15 ms
+26.11.2020 9:00:57 [Verbose] Command: Executed "emoteclickadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 9:00:58 [Info] Gateway: Connecting
+26.11.2020 9:00:58 [Verbose] Rest: GET gateway: 61,39 ms
+26.11.2020 9:00:58 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 9:01:01 [Info] Gateway: Resumed previous session
+26.11.2020 9:40:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 9:40:38 [Verbose] Rest: GET voice/regions: 766,2 ms
+26.11.2020 9:40:39 [Verbose] Rest: GET users/@me: 231,62 ms
+26.11.2020 9:40:39 [Info] Gateway: Connecting
+26.11.2020 9:40:39 [Verbose] Rest: GET gateway: 56,64 ms
+26.11.2020 9:40:40 [Info] Gateway: Connected
+26.11.2020 9:40:40 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 9:40:42 [Info] Gateway: Ready
+26.11.2020 9:40:44 [Verbose] Rest: POST channels/760195003535458304/messages: 244,41 ms
+26.11.2020 9:40:44 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 9:40:58 [Verbose] Rest: POST channels/760195003535458304/messages: 248,15 ms
+26.11.2020 9:40:58 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 9:41:03 [Verbose] Rest: POST channels/760195003535458304/messages: 292,12 ms
+26.11.2020 9:41:03 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 9:41:08 [Verbose] Rest: POST channels/760195003535458304/messages: 267,94 ms
+26.11.2020 9:41:08 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 9:41:13 [Verbose] Rest: POST channels/760195003535458304/messages: 266,97 ms
+26.11.2020 9:41:13 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 9:41:19 [Verbose] Rest: POST channels/760195003535458304/messages: 234,97 ms
+26.11.2020 9:41:19 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 9:41:21 [Verbose] Rest: POST channels/760195003535458304/messages: 241,92 ms
+26.11.2020 9:41:21 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 9:41:29 [Verbose] Rest: POST channels/760195003535458304/messages: 312,92 ms
+26.11.2020 9:41:29 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 10:47:16 [Verbose] Rest: POST channels/760195003535458304/messages: 429,54 ms
+26.11.2020 10:47:16 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 10:47:18 [Verbose] Rest: POST channels/760195003535458304/messages: 233,39 ms
+26.11.2020 10:47:18 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 10:47:18 [Verbose] Rest: POST channels/760195003535458304/messages: 376,63 ms
+26.11.2020 11:16:08 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 11:16:09 [Verbose] Rest: GET voice/regions: 1072,95 ms
+26.11.2020 11:16:10 [Verbose] Rest: GET users/@me: 226,08 ms
+26.11.2020 11:16:10 [Info] Gateway: Connecting
+26.11.2020 11:16:10 [Verbose] Rest: GET gateway: 58,86 ms
+26.11.2020 11:16:11 [Info] Gateway: Connected
+26.11.2020 11:16:11 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 11:16:13 [Info] Gateway: Ready
+26.11.2020 11:16:15 [Verbose] Rest: POST channels/760195003535458304/messages: 292,38 ms
+26.11.2020 11:16:15 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:16:17 [Verbose] Rest: POST channels/760195003535458304/messages: 268,34 ms
+26.11.2020 11:16:17 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:16:22 [Verbose] Rest: POST channels/760195003535458304/messages: 293,02 ms
+26.11.2020 11:16:22 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:16:25 [Verbose] Rest: POST channels/760195003535458304/messages: 255,61 ms
+26.11.2020 11:16:25 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:16:28 [Verbose] Rest: POST channels/760195003535458304/messages: 248,84 ms
+26.11.2020 11:16:28 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:16:30 [Verbose] Rest: POST channels/760195003535458304/messages: 298,05 ms
+26.11.2020 11:16:30 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:17:41 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 11:17:42 [Verbose] Rest: GET voice/regions: 898,04 ms
+26.11.2020 11:17:42 [Verbose] Rest: GET users/@me: 253,89 ms
+26.11.2020 11:17:42 [Info] Gateway: Connecting
+26.11.2020 11:17:43 [Verbose] Rest: GET gateway: 62,37 ms
+26.11.2020 11:17:44 [Info] Gateway: Connected
+26.11.2020 11:17:44 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 11:17:45 [Info] Gateway: Ready
+26.11.2020 11:17:50 [Verbose] Rest: POST channels/760195003535458304/messages: 254,56 ms
+26.11.2020 11:17:50 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:17:56 [Verbose] Rest: POST channels/760195003535458304/messages: 262,44 ms
+26.11.2020 11:17:56 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:17:59 [Verbose] Rest: POST channels/760195003535458304/messages: 260,89 ms
+26.11.2020 11:17:59 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:18:04 [Verbose] Rest: POST channels/760195003535458304/messages: 276,61 ms
+26.11.2020 11:18:04 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:24:51 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 11:24:52 [Verbose] Rest: GET voice/regions: 915,65 ms
+26.11.2020 11:24:52 [Verbose] Rest: GET users/@me: 258,34 ms
+26.11.2020 11:24:52 [Info] Gateway: Connecting
+26.11.2020 11:24:52 [Verbose] Rest: GET gateway: 67,34 ms
+26.11.2020 11:24:53 [Info] Gateway: Connected
+26.11.2020 11:24:53 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 11:24:55 [Info] Gateway: Ready
+26.11.2020 11:24:58 [Verbose] Rest: POST channels/760195003535458304/messages: 331,42 ms
+26.11.2020 11:24:58 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:25:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 11:25:37 [Verbose] Rest: GET voice/regions: 658,49 ms
+26.11.2020 11:25:38 [Verbose] Rest: GET users/@me: 272,19 ms
+26.11.2020 11:25:38 [Info] Gateway: Connecting
+26.11.2020 11:25:38 [Verbose] Rest: GET gateway: 65,6 ms
+26.11.2020 11:25:39 [Info] Gateway: Connected
+26.11.2020 11:25:39 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 11:25:41 [Info] Gateway: Ready
+26.11.2020 11:25:44 [Verbose] Rest: POST channels/760195003535458304/messages: 289,36 ms
+26.11.2020 11:25:44 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:27:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 11:27:14 [Verbose] Rest: GET voice/regions: 650,43 ms
+26.11.2020 11:27:14 [Verbose] Rest: GET users/@me: 223,4 ms
+26.11.2020 11:27:15 [Info] Gateway: Connecting
+26.11.2020 11:27:15 [Verbose] Rest: GET gateway: 51,63 ms
+26.11.2020 11:27:16 [Info] Gateway: Connected
+26.11.2020 11:27:16 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 11:27:18 [Info] Gateway: Ready
+26.11.2020 11:28:30 [Verbose] Rest: POST channels/760195003535458304/messages: 485,32 ms
+26.11.2020 11:28:30 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:30:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 11:30:05 [Verbose] Rest: GET voice/regions: 742,6 ms
+26.11.2020 11:30:05 [Verbose] Rest: GET users/@me: 253,67 ms
+26.11.2020 11:30:05 [Info] Gateway: Connecting
+26.11.2020 11:30:05 [Verbose] Rest: GET gateway: 57,87 ms
+26.11.2020 11:30:06 [Info] Gateway: Connected
+26.11.2020 11:30:07 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 11:30:08 [Info] Gateway: Ready
+26.11.2020 11:30:10 [Verbose] Rest: POST channels/760195003535458304/messages: 255,42 ms
+26.11.2020 11:30:10 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:30:31 [Verbose] Rest: POST channels/760195003535458304/messages: 270,21 ms
+26.11.2020 11:30:31 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:30:33 [Verbose] Rest: POST channels/760195003535458304/messages: 277,73 ms
+26.11.2020 11:30:33 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:30:35 [Verbose] Rest: POST channels/760195003535458304/messages: 254,7 ms
+26.11.2020 11:30:35 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:30:37 [Verbose] Rest: POST channels/760195003535458304/messages: 236,56 ms
+26.11.2020 11:30:37 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:30:41 [Verbose] Rest: POST channels/760195003535458304/messages: 255,21 ms
+26.11.2020 11:30:41 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:31:08 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 11:31:08 [Verbose] Rest: GET voice/regions: 637,98 ms
+26.11.2020 11:31:09 [Verbose] Rest: GET users/@me: 299,72 ms
+26.11.2020 11:31:09 [Info] Gateway: Connecting
+26.11.2020 11:31:09 [Verbose] Rest: GET gateway: 98,74 ms
+26.11.2020 11:31:10 [Info] Gateway: Connected
+26.11.2020 11:31:10 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 11:31:12 [Info] Gateway: Ready
+26.11.2020 11:31:38 [Verbose] Rest: POST channels/760195003535458304/messages: 249,56 ms
+26.11.2020 11:31:38 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:31:39 [Verbose] Rest: POST channels/760195003535458304/messages: 235,8 ms
+26.11.2020 11:31:39 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:31:41 [Verbose] Rest: POST channels/760195003535458304/messages: 263,38 ms
+26.11.2020 11:31:41 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:31:44 [Verbose] Rest: POST channels/760195003535458304/messages: 320,39 ms
+26.11.2020 11:31:44 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:31:46 [Verbose] Rest: POST channels/760195003535458304/messages: 293,39 ms
+26.11.2020 11:31:46 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:31:48 [Verbose] Rest: POST channels/760195003535458304/messages: 250,45 ms
+26.11.2020 11:31:48 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:31:52 [Verbose] Rest: POST channels/760195003535458304/messages: 406,67 ms
+26.11.2020 11:31:52 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:31:55 [Verbose] Rest: POST channels/760195003535458304/messages: 235,56 ms
+26.11.2020 11:31:55 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 11:31:58 [Verbose] Rest: POST channels/760195003535458304/messages: 275,51 ms
+26.11.2020 11:31:58 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 12:01:23 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 12:01:24 [Verbose] Rest: GET voice/regions: 766,52 ms
+26.11.2020 12:01:24 [Verbose] Rest: GET users/@me: 241,83 ms
+26.11.2020 12:01:24 [Info] Gateway: Connecting
+26.11.2020 12:01:24 [Verbose] Rest: GET gateway: 64,33 ms
+26.11.2020 12:01:25 [Info] Gateway: Connected
+26.11.2020 12:01:25 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 12:01:27 [Info] Gateway: Ready
+26.11.2020 12:06:47 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+26.11.2020 12:07:04 [Error] Command: Discord.Commands.CommandException: Error occurred executing "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at DarlingBotNet.DataBase.Database.CacheMethods.GetOrCreateUserCache(IMemoryCache cache, UInt64 userId, UInt64 guildId) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\Database\CacheMethods.cs:line 135
+   at DarlingBotNet.Modules.User.zcoin(SocketUser user) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\User.cs:line 423
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.11.2020 12:07:08 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 12:07:09 [Verbose] Rest: GET voice/regions: 656,4 ms
+26.11.2020 12:07:09 [Verbose] Rest: GET users/@me: 292,58 ms
+26.11.2020 12:07:09 [Info] Gateway: Connecting
+26.11.2020 12:07:09 [Verbose] Rest: GET gateway: 66,08 ms
+26.11.2020 12:07:11 [Info] Gateway: Connected
+26.11.2020 12:07:11 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 12:07:13 [Info] Gateway: Ready
+26.11.2020 12:08:30 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 12:08:32 [Verbose] Rest: GET voice/regions: 1046,81 ms
+26.11.2020 12:08:32 [Verbose] Rest: GET users/@me: 264,94 ms
+26.11.2020 12:08:32 [Info] Gateway: Connecting
+26.11.2020 12:08:32 [Verbose] Rest: GET gateway: 82,43 ms
+26.11.2020 12:08:33 [Info] Gateway: Connected
+26.11.2020 12:08:33 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 12:08:35 [Info] Gateway: Ready
+26.11.2020 12:08:50 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+26.11.2020 12:08:50 [Warning] Gateway: System.NullReferenceException: Object reference not set to an instance of an object.
+   at DarlingBotNet.DataBase.Database.CacheMethods.GetOrCreateUserCache(IMemoryCache cache, UInt64 userId, UInt64 guildId) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\DataBase\Database\CacheMethods.cs:line 135
+   at DarlingBotNet.Services.CommandHandler.MessageReceived(SocketMessage message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 599
+   at Discord.EventExtensions.InvokeAsync[T](AsyncEvent`1 eventHandler, T arg)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+26.11.2020 12:10:36 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 12:10:38 [Verbose] Rest: GET voice/regions: 1165,15 ms
+26.11.2020 12:10:38 [Verbose] Rest: GET users/@me: 212,85 ms
+26.11.2020 12:10:38 [Info] Gateway: Connecting
+26.11.2020 12:10:38 [Verbose] Rest: GET gateway: 64,05 ms
+26.11.2020 12:10:39 [Info] Gateway: Connected
+26.11.2020 12:10:39 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 12:10:41 [Info] Gateway: Ready
+26.11.2020 12:10:46 [Verbose] Rest: POST channels/760195003535458304/messages: 281,8 ms
+26.11.2020 12:10:46 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 12:25:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 12:25:11 [Verbose] Rest: GET voice/regions: 580,88 ms
+26.11.2020 12:25:12 [Verbose] Rest: GET users/@me: 292,58 ms
+26.11.2020 12:25:12 [Info] Gateway: Connecting
+26.11.2020 12:25:12 [Verbose] Rest: GET gateway: 70,16 ms
+26.11.2020 12:25:13 [Info] Gateway: Connected
+26.11.2020 12:25:13 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 12:25:15 [Info] Gateway: Ready
+26.11.2020 12:25:21 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 12:26:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 12:26:11 [Verbose] Rest: GET voice/regions: 898,38 ms
+26.11.2020 12:26:11 [Verbose] Rest: GET users/@me: 264,89 ms
+26.11.2020 12:26:12 [Info] Gateway: Connecting
+26.11.2020 12:26:12 [Verbose] Rest: GET gateway: 60,89 ms
+26.11.2020 12:26:13 [Info] Gateway: Connected
+26.11.2020 12:26:13 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 12:26:15 [Info] Gateway: Ready
+26.11.2020 12:26:16 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 12:36:16 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 12:40:40 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 12:40:41 [Verbose] Rest: GET voice/regions: 624,39 ms
+26.11.2020 12:40:41 [Verbose] Rest: GET users/@me: 242,7 ms
+26.11.2020 12:40:41 [Info] Gateway: Connecting
+26.11.2020 12:40:41 [Verbose] Rest: GET gateway: 57,26 ms
+26.11.2020 12:40:42 [Info] Gateway: Connected
+26.11.2020 12:40:43 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 12:40:45 [Info] Gateway: Ready
+26.11.2020 12:40:46 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 12:44:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 12:44:28 [Verbose] Rest: GET voice/regions: 1431,61 ms
+26.11.2020 12:44:29 [Verbose] Rest: GET users/@me: 238,77 ms
+26.11.2020 12:44:29 [Info] Gateway: Connecting
+26.11.2020 12:44:29 [Verbose] Rest: GET gateway: 71,52 ms
+26.11.2020 12:44:30 [Info] Gateway: Connected
+26.11.2020 12:44:30 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 12:44:32 [Info] Gateway: Ready
+26.11.2020 12:44:41 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 12:45:11 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 12:45:12 [Verbose] Rest: GET voice/regions: 1026,86 ms
+26.11.2020 12:45:12 [Verbose] Rest: GET users/@me: 260,99 ms
+26.11.2020 12:45:12 [Info] Gateway: Connecting
+26.11.2020 12:45:13 [Verbose] Rest: GET gateway: 99,25 ms
+26.11.2020 12:45:13 [Info] Gateway: Connected
+26.11.2020 12:45:14 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 12:45:15 [Info] Gateway: Ready
+26.11.2020 12:45:16 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 12:45:22 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 12:57:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 12:57:13 [Verbose] Rest: GET voice/regions: 767,49 ms
+26.11.2020 12:57:14 [Verbose] Rest: GET users/@me: 243,01 ms
+26.11.2020 12:57:14 [Info] Gateway: Connecting
+26.11.2020 12:57:14 [Verbose] Rest: GET gateway: 86 ms
+26.11.2020 12:57:15 [Info] Gateway: Connected
+26.11.2020 12:57:15 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 12:57:17 [Info] Gateway: Ready
+26.11.2020 12:58:30 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 12:58:30 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+26.11.2020 13:04:35 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+26.11.2020 13:04:36 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 13:05:29 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 13:05:29 [Verbose] Rest: GET voice/regions: 678,44 ms
+26.11.2020 13:05:30 [Verbose] Rest: GET users/@me: 248,13 ms
+26.11.2020 13:05:30 [Info] Gateway: Connecting
+26.11.2020 13:05:30 [Verbose] Rest: GET gateway: 60,09 ms
+26.11.2020 13:05:31 [Info] Gateway: Connected
+26.11.2020 13:05:31 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 13:05:33 [Info] Gateway: Ready
+26.11.2020 13:06:35 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 13:06:35 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+26.11.2020 13:06:59 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 13:07:00 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+26.11.2020 13:07:00 [Verbose] Rest: POST channels/760195003535458304/messages: 389,75 ms
+26.11.2020 13:07:04 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 13:07:09 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 13:07:59 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 13:08:00 [Verbose] Rest: GET voice/regions: 692,28 ms
+26.11.2020 13:08:00 [Verbose] Rest: GET users/@me: 245,86 ms
+26.11.2020 13:08:00 [Info] Gateway: Connecting
+26.11.2020 13:08:00 [Verbose] Rest: GET gateway: 58,52 ms
+26.11.2020 13:08:01 [Info] Gateway: Connected
+26.11.2020 13:08:02 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 13:08:03 [Info] Gateway: Ready
+26.11.2020 13:08:06 [Verbose] Rest: POST channels/760195003535458304/messages: 301,88 ms
+26.11.2020 13:08:06 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 13:08:10 [Verbose] Rest: POST channels/760195003535458304/messages: 294,46 ms
+26.11.2020 13:08:10 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 13:08:13 [Verbose] Rest: POST channels/760195003535458304/messages: 252,24 ms
+26.11.2020 13:08:13 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 13:19:42 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 13:19:43 [Verbose] Rest: GET voice/regions: 978,6 ms
+26.11.2020 13:19:44 [Verbose] Rest: GET users/@me: 245,2 ms
+26.11.2020 13:19:44 [Info] Gateway: Connecting
+26.11.2020 13:19:44 [Verbose] Rest: GET gateway: 53,81 ms
+26.11.2020 13:19:45 [Info] Gateway: Connected
+26.11.2020 13:19:45 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 13:19:47 [Info] Gateway: Ready
+26.11.2020 13:19:51 [Verbose] Rest: POST channels/760195003535458304/messages: 248,59 ms
+26.11.2020 13:19:51 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 13:19:53 [Verbose] Rest: POST channels/760195003535458304/messages: 285,3 ms
+26.11.2020 13:19:53 [Verbose] Command: Executed "zcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 15:02:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 15:02:22 [Verbose] Rest: GET voice/regions: 649,12 ms
+26.11.2020 15:02:22 [Verbose] Rest: GET users/@me: 230,48 ms
+26.11.2020 15:02:23 [Info] Gateway: Connecting
+26.11.2020 15:02:23 [Verbose] Rest: GET gateway: 59,03 ms
+26.11.2020 15:02:23 [Info] Gateway: Connected
+26.11.2020 15:02:24 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 15:02:25 [Info] Gateway: Ready
+26.11.2020 15:02:29 [Verbose] Rest: POST channels/760195003535458304/messages: 294,11 ms
+26.11.2020 15:02:29 [Verbose] Command: Executed "profile" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 15:02:39 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 15:02:40 [Verbose] Rest: GET voice/regions: 865,04 ms
+26.11.2020 15:02:41 [Verbose] Rest: GET users/@me: 259,12 ms
+26.11.2020 15:02:41 [Info] Gateway: Connecting
+26.11.2020 15:02:41 [Verbose] Rest: GET gateway: 69,54 ms
+26.11.2020 15:02:42 [Info] Gateway: Connected
+26.11.2020 15:02:42 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 15:02:44 [Info] Gateway: Ready
+26.11.2020 15:02:47 [Verbose] Rest: POST channels/760195003535458304/messages: 254,66 ms
+26.11.2020 15:02:47 [Verbose] Command: Executed "profile" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 15:11:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 15:11:32 [Verbose] Rest: GET voice/regions: 890,2 ms
+26.11.2020 15:11:33 [Verbose] Rest: GET users/@me: 256,13 ms
+26.11.2020 15:11:33 [Info] Gateway: Connecting
+26.11.2020 15:11:33 [Verbose] Rest: GET gateway: 66,89 ms
+26.11.2020 15:11:34 [Info] Gateway: Connected
+26.11.2020 15:11:34 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 15:11:36 [Info] Gateway: Ready
+26.11.2020 15:11:38 [Verbose] Rest: GET oauth2/applications/@me: 255,01 ms
+26.11.2020 15:11:39 [Verbose] Rest: POST channels/760195003535458304/messages: 274,52 ms
+26.11.2020 15:11:39 [Verbose] Command: Executed "setcoin" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 15:11:50 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+26.11.2020 15:11:50 [Verbose] Rest: POST channels/760195003535458304/messages: 297,3 ms
+26.11.2020 15:11:50 [Verbose] Command: Executed "clancreate" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 15:12:02 [Warning] Gateway: A MessageReceived handler is blocking the gateway task.
+26.11.2020 15:12:02 [Verbose] Rest: POST channels/760195003535458304/messages: 340,7 ms
+26.11.2020 15:12:02 [Verbose] Command: Executed "clancreate" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:22:34 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:22:35 [Verbose] Rest: GET voice/regions: 813,92 ms
+26.11.2020 16:22:36 [Verbose] Rest: GET users/@me: 229,8 ms
+26.11.2020 16:22:36 [Info] Gateway: Connecting
+26.11.2020 16:22:36 [Verbose] Rest: GET gateway: 58,05 ms
+26.11.2020 16:22:37 [Info] Gateway: Connected
+26.11.2020 16:22:37 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:22:39 [Info] Gateway: Ready
+26.11.2020 16:22:57 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:22:58 [Verbose] Rest: GET voice/regions: 902,77 ms
+26.11.2020 16:22:58 [Verbose] Rest: GET users/@me: 273,41 ms
+26.11.2020 16:22:58 [Info] Gateway: Connecting
+26.11.2020 16:22:58 [Verbose] Rest: GET gateway: 66,58 ms
+26.11.2020 16:22:59 [Info] Gateway: Connected
+26.11.2020 16:22:59 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:23:01 [Info] Gateway: Ready
+26.11.2020 16:23:12 [Verbose] Rest: POST channels/760195003535458304/messages: 353,11 ms
+26.11.2020 16:23:13 [Verbose] Command: Executed "commands" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:23:22 [Verbose] Rest: POST channels/760195003535458304/messages: 330,1 ms
+26.11.2020 16:23:22 [Verbose] Command: Executed "info" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:23:43 [Verbose] Rest: POST channels/760195003535458304/messages: 244,98 ms
+26.11.2020 16:23:43 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:24:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:24:50 [Verbose] Rest: GET voice/regions: 1177,66 ms
+26.11.2020 16:24:51 [Verbose] Rest: GET users/@me: 275,07 ms
+26.11.2020 16:24:51 [Info] Gateway: Connecting
+26.11.2020 16:24:51 [Verbose] Rest: GET gateway: 61,12 ms
+26.11.2020 16:24:52 [Info] Gateway: Connected
+26.11.2020 16:24:52 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:24:54 [Info] Gateway: Ready
+26.11.2020 16:24:56 [Error] Command: Discord.Commands.CommandException: Error occurred executing "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о.
+ ---> System.FormatException: String '26.11.2020 19:24:56' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(ReadOnlySpan`1 s, IFormatProvider provider, DateTimeStyles styles)
+   at DarlingBotNet.Modules.Settings.taskadd(SocketTextChannel TextChannel, Boolean repeat, String Time, String message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 320
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.11.2020 16:24:56 [Verbose] Rest: POST channels/760195003535458304/messages: 271,03 ms
+26.11.2020 16:24:56 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:25:43 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:25:44 [Verbose] Rest: GET voice/regions: 872,58 ms
+26.11.2020 16:25:44 [Verbose] Rest: GET users/@me: 261,74 ms
+26.11.2020 16:25:44 [Info] Gateway: Connecting
+26.11.2020 16:25:44 [Verbose] Rest: GET gateway: 68,52 ms
+26.11.2020 16:25:45 [Info] Gateway: Connected
+26.11.2020 16:25:45 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:25:47 [Info] Gateway: Ready
+26.11.2020 16:25:53 [Error] Command: Discord.Commands.CommandException: Error occurred executing "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о.
+ ---> System.FormatException: String '26.11.2020 19:25:53' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at DarlingBotNet.Modules.Settings.taskadd(SocketTextChannel TextChannel, Boolean repeat, String Time, String message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 320
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.11.2020 16:25:54 [Verbose] Rest: POST channels/760195003535458304/messages: 256,82 ms
+26.11.2020 16:25:54 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:39:08 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:39:09 [Verbose] Rest: GET voice/regions: 1096,18 ms
+26.11.2020 16:39:10 [Verbose] Rest: GET users/@me: 233,25 ms
+26.11.2020 16:39:10 [Info] Gateway: Connecting
+26.11.2020 16:39:10 [Verbose] Rest: GET gateway: 72,28 ms
+26.11.2020 16:39:11 [Info] Gateway: Connected
+26.11.2020 16:39:11 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:39:13 [Info] Gateway: Ready
+26.11.2020 16:39:35 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:39:37 [Verbose] Rest: GET voice/regions: 929,47 ms
+26.11.2020 16:39:37 [Verbose] Rest: GET users/@me: 231,2 ms
+26.11.2020 16:39:37 [Info] Gateway: Connecting
+26.11.2020 16:39:37 [Verbose] Rest: GET gateway: 97,94 ms
+26.11.2020 16:39:38 [Info] Gateway: Connected
+26.11.2020 16:39:38 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:39:40 [Info] Gateway: Ready
+26.11.2020 16:39:42 [Verbose] Rest: POST channels/760195003535458304/messages: 264,31 ms
+26.11.2020 16:39:43 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:40:12 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:40:12 [Verbose] Rest: GET voice/regions: 872,92 ms
+26.11.2020 16:40:13 [Verbose] Rest: GET users/@me: 328,26 ms
+26.11.2020 16:40:13 [Info] Gateway: Connecting
+26.11.2020 16:40:13 [Verbose] Rest: GET gateway: 78,32 ms
+26.11.2020 16:40:14 [Info] Gateway: Connected
+26.11.2020 16:40:14 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:40:16 [Info] Gateway: Ready
+26.11.2020 16:40:19 [Verbose] Rest: POST channels/760195003535458304/messages: 271,57 ms
+26.11.2020 16:40:19 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:40:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:40:32 [Verbose] Rest: GET voice/regions: 1773,82 ms
+26.11.2020 16:40:33 [Verbose] Rest: GET users/@me: 294,34 ms
+26.11.2020 16:40:33 [Info] Gateway: Connecting
+26.11.2020 16:40:33 [Verbose] Rest: GET gateway: 64,64 ms
+26.11.2020 16:40:34 [Info] Gateway: Connected
+26.11.2020 16:40:34 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:40:36 [Info] Gateway: Ready
+26.11.2020 16:40:48 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:40:49 [Verbose] Rest: GET voice/regions: 924,45 ms
+26.11.2020 16:40:50 [Verbose] Rest: GET users/@me: 235,26 ms
+26.11.2020 16:40:50 [Info] Gateway: Connecting
+26.11.2020 16:40:50 [Verbose] Rest: GET gateway: 69,58 ms
+26.11.2020 16:40:51 [Info] Gateway: Connected
+26.11.2020 16:40:51 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:40:53 [Info] Gateway: Ready
+26.11.2020 16:40:54 [Verbose] Rest: POST channels/760195003535458304/messages: 253,81 ms
+26.11.2020 16:40:54 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:41:52 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:42:20 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:42:21 [Verbose] Rest: GET voice/regions: 763,6 ms
+26.11.2020 16:42:22 [Verbose] Rest: GET users/@me: 294,91 ms
+26.11.2020 16:42:22 [Info] Gateway: Connecting
+26.11.2020 16:42:22 [Verbose] Rest: GET gateway: 57,42 ms
+26.11.2020 16:42:23 [Info] Gateway: Connected
+26.11.2020 16:42:23 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:42:25 [Info] Gateway: Ready
+26.11.2020 16:42:26 [Error] Command: Discord.Commands.CommandException: Error occurred executing "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о.
+ ---> System.FormatException: String '26.11.2020 22:42' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at DarlingBotNet.Modules.Settings.taskadd(SocketTextChannel TextChannel, Boolean repeat, String Time, String message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 330
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.11.2020 16:42:26 [Verbose] Rest: POST channels/760195003535458304/messages: 281,47 ms
+26.11.2020 16:42:26 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:46:57 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:46:58 [Verbose] Rest: GET voice/regions: 768,37 ms
+26.11.2020 16:46:59 [Verbose] Rest: GET users/@me: 254,35 ms
+26.11.2020 16:46:59 [Info] Gateway: Connecting
+26.11.2020 16:46:59 [Verbose] Rest: GET gateway: 62,64 ms
+26.11.2020 16:47:00 [Info] Gateway: Connected
+26.11.2020 16:47:00 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:47:02 [Info] Gateway: Ready
+26.11.2020 16:47:03 [Verbose] Rest: POST channels/760195003535458304/messages: 294,8 ms
+26.11.2020 16:47:03 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:48:00 [Error] Command: Discord.Commands.CommandException: Error occurred executing "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о.
+ ---> System.FormatException: The string '26/11/20d20 19:50' was not recognized as a valid DateTime. There is an unknown word starting at index '8'.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at DarlingBotNet.Modules.Settings.taskadd(SocketTextChannel TextChannel, Boolean repeat, String Time, String message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 330
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.11.2020 16:48:01 [Verbose] Rest: POST channels/760195003535458304/messages: 381,01 ms
+26.11.2020 16:48:01 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:48:19 [Error] Command: Discord.Commands.CommandException: Error occurred executing "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о.
+ ---> System.FormatException: String '2020/26/11/ 19:50' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at DarlingBotNet.Modules.Settings.taskadd(SocketTextChannel TextChannel, Boolean repeat, String Time, String message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 330
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.11.2020 16:48:20 [Verbose] Rest: POST channels/760195003535458304/messages: 289,8 ms
+26.11.2020 16:48:20 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:49:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:49:05 [Verbose] Rest: GET voice/regions: 937,47 ms
+26.11.2020 16:49:05 [Verbose] Rest: GET users/@me: 232,35 ms
+26.11.2020 16:49:05 [Info] Gateway: Connecting
+26.11.2020 16:49:05 [Verbose] Rest: GET gateway: 71,18 ms
+26.11.2020 16:49:06 [Info] Gateway: Connected
+26.11.2020 16:49:07 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:49:08 [Info] Gateway: Ready
+26.11.2020 16:49:10 [Verbose] Rest: POST channels/760195003535458304/messages: 326,74 ms
+26.11.2020 16:49:10 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:49:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:49:32 [Verbose] Rest: GET voice/regions: 714,91 ms
+26.11.2020 16:49:33 [Verbose] Rest: GET users/@me: 231,77 ms
+26.11.2020 16:49:33 [Info] Gateway: Connecting
+26.11.2020 16:49:33 [Verbose] Rest: GET gateway: 65,51 ms
+26.11.2020 16:49:34 [Info] Gateway: Connected
+26.11.2020 16:49:34 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:49:36 [Info] Gateway: Ready
+26.11.2020 16:49:38 [Error] Command: Discord.Commands.CommandException: Error occurred executing "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о.
+ ---> System.FormatException: String '26.11.2020 19:49:38' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at DarlingBotNet.Modules.Settings.taskadd(SocketTextChannel TextChannel, Boolean repeat, String Time, String message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 330
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.11.2020 16:49:38 [Verbose] Rest: POST channels/760195003535458304/messages: 268,69 ms
+26.11.2020 16:49:38 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:50:44 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:50:46 [Verbose] Rest: GET voice/regions: 1411,31 ms
+26.11.2020 16:50:46 [Verbose] Rest: GET users/@me: 232,17 ms
+26.11.2020 16:50:46 [Info] Gateway: Connecting
+26.11.2020 16:50:46 [Verbose] Rest: GET gateway: 58,44 ms
+26.11.2020 16:50:47 [Info] Gateway: Connected
+26.11.2020 16:50:47 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:50:49 [Info] Gateway: Ready
+26.11.2020 16:50:50 [Error] Command: Discord.Commands.CommandException: Error occurred executing "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о.
+ ---> System.FormatException: String '26.11.2020 19:50:50' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at DarlingBotNet.Modules.Settings.taskadd(SocketTextChannel TextChannel, Boolean repeat, String Time, String message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 330
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.11.2020 16:50:51 [Verbose] Rest: POST channels/760195003535458304/messages: 279,19 ms
+26.11.2020 16:50:51 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:51:42 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:51:43 [Verbose] Rest: GET voice/regions: 1082,46 ms
+26.11.2020 16:51:44 [Verbose] Rest: GET users/@me: 246,76 ms
+26.11.2020 16:51:44 [Info] Gateway: Connecting
+26.11.2020 16:51:44 [Verbose] Rest: GET gateway: 63,78 ms
+26.11.2020 16:51:45 [Info] Gateway: Connected
+26.11.2020 16:51:45 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:51:47 [Info] Gateway: Ready
+26.11.2020 16:51:48 [Error] Command: Discord.Commands.CommandException: Error occurred executing "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о.
+ ---> System.FormatException: String '26.11.2020 19:51:48' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at DarlingBotNet.Modules.Settings.taskadd(SocketTextChannel TextChannel, Boolean repeat, String Time, String message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 330
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.11.2020 16:51:48 [Verbose] Rest: POST channels/760195003535458304/messages: 306,44 ms
+26.11.2020 16:51:48 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:51:59 [Error] Command: Discord.Commands.CommandException: Error occurred executing "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о.
+ ---> System.FormatException: String '26.11.2020 19:51:59' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.DateTime.Parse(String s, IFormatProvider provider)
+   at DarlingBotNet.Modules.Settings.taskadd(SocketTextChannel TextChannel, Boolean repeat, String Time, String message) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Modules\Settings.cs:line 330
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   --- End of inner exception stack trace ---
+26.11.2020 16:52:00 [Verbose] Rest: POST channels/760195003535458304/messages: 261,54 ms
+26.11.2020 16:52:00 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о
+26.11.2020 16:52:20 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+26.11.2020 16:52:21 [Verbose] Rest: GET voice/regions: 709,93 ms
+26.11.2020 16:52:21 [Verbose] Rest: GET users/@me: 229,43 ms
+26.11.2020 16:52:21 [Info] Gateway: Connecting
+26.11.2020 16:52:21 [Verbose] Rest: GET gateway: 63,83 ms
+26.11.2020 16:52:22 [Info] Gateway: Connected
+26.11.2020 16:52:22 [Verbose] Gateway: Connected to DarlingBotEmj
+26.11.2020 16:52:24 [Info] Gateway: Ready
+26.11.2020 16:52:25 [Verbose] Rest: POST channels/760195003535458304/messages: 249,63 ms
+26.11.2020 16:52:25 [Verbose] Command: Executed "taskadd" for h1kkaru.#1337 in DarlingBotEmj/о

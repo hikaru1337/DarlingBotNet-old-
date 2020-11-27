@@ -7,7 +7,6 @@ namespace DarlingBotNet.DataBase
 {
     public class Guilds
     {
-        
         public ulong Id { get; set; }
         public ulong GuildId { get; set; }
         public ulong OwnerId { get; set; }

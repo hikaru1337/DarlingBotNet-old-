@@ -38,6 +38,7 @@ namespace DarlingBotNet.Services
                 throw new Exception("нет токена!");
             await _discord.LoginAsync(TokenType.Bot, discordToken);
             await _discord.StartAsync();
+
             await _discord.SetStatusAsync(status: UserStatus.DoNotDisturb);
             await _discord.SetGameAsync("docs.darlingbot.ru", null, ActivityType.Playing);
             TaskTimer.client = _discord;

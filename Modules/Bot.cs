@@ -113,8 +113,6 @@ namespace DarlingBotNet.Modules
                 {
                     var GuildPrefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
                     emb.WithDescription($"RealCoin: {user.RealCoin} - {buynow}\n");
-                    if (UserBoost.Streak > 0 && UserBoost.Ends.Year == 1)
-                    {
                         if (UserBoost.Ends > DateTime.Now)
                         {
                             emb.Description += $"Буст оплачен до {UserBoost.Ends.ToString("dd:MM:yy hh:mm")}\n\n" +
@@ -140,11 +138,6 @@ namespace DarlingBotNet.Modules
                             emb.Description += $"Ваш буст закончился {((DateTime.Now - UserBoost.Ends).Days == 0 ? $"{(DateTime.Now - UserBoost.Ends).TotalHours} часов" : $"{(DateTime.Now - UserBoost.Ends).TotalDays} дней")} назад!\n" +
                                 $"Ты можешь продлить буст: {GuildPrefix}boost buy";
                         }
-                    }
-                    else
-                    {
-                        emb.WithTitle($"DarlingBoost {BotSettings.EmoteBoostNot}").Description += $"Вы еще не купили ни одно Boost!\nЧто дает Boost, вы можете прочитать тут: [КЛИК](https://docs.darlingbot.ru/commands/darling-boost)";
-                    }
                 }
                 _cache.Removes(Context);
                 await Context.Channel.SendMessageAsync("", false, emb.Build());

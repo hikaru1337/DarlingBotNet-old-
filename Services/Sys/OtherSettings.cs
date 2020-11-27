@@ -22,9 +22,9 @@ namespace DarlingBotNet.Services
     {
         public static string WelcomeText =
         "⚡️ Бот по стандарту использует префикс: **h.**\n" +
-        "h.m - открыть список модулей\n" +
-        "h.c [module] - открыть список команд модуля\n" +
-        "h.i [command] - Открыть информацию о команде\n" +
+        "h.m - список модулей\n" +
+        "h.c [module] - список команд модуля\n" +
+        "h.i [command] - информация о команде\n" +
         "🔨 нашли баг? Пишите - **{0}bug [описание бага]**\n" +
         "👑 Инструкция бота - https://docs.darlingbot.ru/ \n\n" +
         "🎁Добавить бота на сервер - [КЛИК](https://discord.com/oauth2/authorize?client_id=663381953181122570&scope=bot&permissions=8)\n\n" +
@@ -70,7 +70,7 @@ namespace DarlingBotNet.Services
         {
             using (var DBcontext = new DBcontext())
             {
-                if(Context.CurrentUser.GuildPermissions.ManageRoles)
+                if(Context.CurrentUser.GuildPermissions.ManageRoles && Context.CurrentUser.GuildPermissions.ManageChannels)
                 {
                     var Guild = ScanningDataBase._cache.GetOrCreateGuldsCache(Context.Id);
                     if (Context.GetRole(Guild.chatmuterole) == null)
@@ -198,7 +198,7 @@ namespace DarlingBotNet.Services
                         text += $"[{Parameter}] ";
 
                 }
-                emb.WithDescription($"Описание: {command.Summary}\nПример: {prefix}{command.Name} {text}");
+                emb.WithDescription($"Описание: {command.Summary}\n\nПример: {prefix}{command.Name} {text}");
             }
             switch (error)
             {
@@ -414,7 +414,7 @@ namespace DarlingBotNet.Services
                 }// ПЛОХИЕ СЛОВА
                 if (chnl.InviteMessage)
                 {
-                    var z = Regex.Matches(msg.Message.Content, @"(https?:\/\/)?(www\.)?(discord\.(gg|io|me|li|com)|discord(app)?\.com\/invite)\/(?<Code>\w+)");
+                    var z = Regex.Matches(msg.Message.Content, @"(?:https?:\/\/)?(?:\w+\.)?discord(?:(?:app)?\.com\/invite|\.gg)\/(?<code>[a-z0-9-]+)"); // (https?:\/\/)?(www\.)?(discord\.(gg|io|me|li|com)|discord(app)?\.com\/invite)\/(?<Code>\w+)
                     if (z.Count > 0)
                     {
                         var x = msg.Guild.GetInvitesAsync().Result.Where(x => msg.Message.Content.Contains(x.Id));
@@ -431,18 +431,26 @@ namespace DarlingBotNet.Services
 
                     if (new Regex(@"\b(?:https?://|www\.)\S+\b", RegexOptions.Compiled | RegexOptions.IgnoreCase).Matches(message).Count > 0)
                     {
-                        if (chnl.csUrlWhiteListList.Where(x => x.Contains(message) || message.Contains(x)).Count() == 0)
+                        bool success = true;
+                        foreach (var word in chnl.csUrlWhiteListList)
+                        {
+                            
+                            if (message.Contains(word))
+                                success = false;
+                        }
+                        
+                        if (success)
                         {
                             bool DeleteURL = false;
                             if (chnl.DelUrlImage)
                             {
-                                if (!(message.StartsWith("https://tenor.com") || message.StartsWith("http://tenor.com/")) &&
-                                    !(message.StartsWith("https://media.discordapp.net/") || message.StartsWith("http://media.discordapp.net/")) &&
-                                    !message.StartsWith("https://images-ext-1.discordapp.net/") && !message.StartsWith("https://cdn.discordapp.com/"))
+                                if ((!message.StartsWith("https://tenor.com") || !message.StartsWith("http://tenor.com/")) &&
+                                    !message.StartsWith("https://images-ext-1.discordapp.net/") && !message.StartsWith("https://cdn.discordapp.com/") &&
+                                    (!message.StartsWith("https://media.discordapp.net") || !message.StartsWith("http://media.discordapp.net")) )
                                 {
                                     if (!message.EndsWith(".png") && !message.EndsWith(".gif") && !message.EndsWith(".jpg") && !message.EndsWith(".jpeg"))
                                     {
-                                        if (!message.Contains("png") && !message.Contains(".gif") && !message.Contains(".jpg") && !message.Contains(".jpeg"))
+                                        if (!message.Contains(".png") && !message.Contains(".gif") && !message.Contains(".jpg") && !message.Contains(".jpeg"))
                                         {
                                             DeleteURL = true;
                                         }
@@ -450,8 +458,7 @@ namespace DarlingBotNet.Services
                                 }
 
                             }
-                            else
-                                DeleteURL = true;
+
 
                             if (DeleteURL)
                             {

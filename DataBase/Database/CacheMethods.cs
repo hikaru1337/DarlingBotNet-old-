@@ -3,6 +3,7 @@ using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -40,7 +41,6 @@ namespace DarlingBotNet.DataBase.Database
             var us = (Users)cache.Get((entity.UserId, entity.GuildId));
             if (us != null)
             {
-
                 if (!Object.Equals(entity,us))
                 {
                     cache.Remove((entity.UserId, entity.GuildId));
@@ -84,7 +84,7 @@ namespace DarlingBotNet.DataBase.Database
         {
             using (var DBcontext = new DBcontext())
             {
-                var x = (Guilds)cache.Get(guildId);
+                var x = cache.Get(guildId) as Guilds;
                 if (x == null)
                 {
                     x = DBcontext.Guilds.FirstOrDefault(x => x.GuildId == guildId);
@@ -99,7 +99,7 @@ namespace DarlingBotNet.DataBase.Database
         {
             using (var DBcontext = new DBcontext())
             {
-                var x = (Channels)cache.Get((channelId, guildId));
+                var x = cache.Get((channelId, guildId)) as Channels;
                 if (x == null)
                 {
                     x = DBcontext.Channels.FirstOrDefault(x => x.ChannelId == channelId && x.GuildId == guildId);
@@ -110,11 +110,17 @@ namespace DarlingBotNet.DataBase.Database
             }
         }
 
+
+
+
+
+
+
         public static Users GetOrCreateUserCache(this IMemoryCache cache, ulong userId, ulong guildId)
         {
             using (var DBcontext = new DBcontext())
             {
-                var x = (Users)cache.Get((userId, guildId));
+                var x = cache.Get((userId, guildId)) as Users;
                 if (x == null)
                 {
                     x = DBcontext.Users.GetOrCreate(userId, guildId).Result;
@@ -131,7 +137,10 @@ namespace DarlingBotNet.DataBase.Database
         {
             var UsersCache = (Users)entity.Get((context.User.Id, context.Guild.Id));
             if (UsersCache != null)
+            {
                 entity.Remove((context.User.Id, context.Guild.Id));
+            }
+                
 
             var ChannelCache = (Channels)entity.Get((context.Channel.Id, context.Guild.Id));
             if (ChannelCache != null)
@@ -142,5 +151,20 @@ namespace DarlingBotNet.DataBase.Database
                 entity.Remove(context.Guild.Id);
         }
 
+
+        public static bool UpdateCache(object oldCar, object newCar)
+        {
+            Type type = oldCar.GetType();
+            PropertyInfo[] properties = type.GetProperties();
+
+            foreach (PropertyInfo property in properties)
+            {
+                object oldCarValue = property.GetValue(oldCar, null);
+                object newCarValue = property.GetValue(newCar, null);
+                if (oldCarValue.ToString() != newCarValue.ToString())
+                    return true;
+            }
+            return false;
+        }
     }
 }

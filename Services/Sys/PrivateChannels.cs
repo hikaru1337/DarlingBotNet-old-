@@ -11,7 +11,7 @@ namespace DarlingBotNet.Services.Sys
 {
     public class Privates
     {
-        public async Task CheckPrivate(SocketGuild _discord)
+        public static async Task CheckPrivate(SocketGuild _discord)
         {
             using (var DBcontext = new DBcontext())
             {
@@ -70,7 +70,7 @@ namespace DarlingBotNet.Services.Sys
             }
         } // Создание приваток
 
-        private async Task Privatemethod(SocketVoiceChannel chnl, PrivateChannels PC)
+        private static async Task Privatemethod(SocketVoiceChannel chnl, PrivateChannels PC)
         {
             using (var DBcontext = new DBcontext())
             {
@@ -82,12 +82,13 @@ namespace DarlingBotNet.Services.Sys
                 }
                 else if (chnl.Users.Count > 0 && chnl.Users.Where(x => x.Id == PC.UserId) == null)
                 {
-                    var newusr = chnl.Users.First();
+                    var newusr = chnl.Users.FirstOrDefault();
+                    var oldusr = chnl.GetUser(PC.UserId);
                     PC.UserId = newusr.Id;
                     DBcontext.PrivateChannels.Update(PC);
-                    if (chnl.Name.Contains($"{chnl.GetUser(PC.UserId)}"))
-                        await chnl.ModifyAsync(x => x.Name = chnl.Name.Replace($"{chnl.GetUser(PC.UserId)}", $"{newusr}"));
-
+                    if (chnl.Name.Contains($"{oldusr}"))
+                        await chnl.ModifyAsync(x => x.Name = chnl.Name.Replace($"{oldusr}", $"{newusr}"));
+                    await chnl.RemovePermissionOverwriteAsync(oldusr);
                     await chnl.AddPermissionOverwriteAsync(newusr, permissions: new OverwritePermissions(connect: PermValue.Allow, muteMembers: PermValue.Allow, deafenMembers: PermValue.Allow, moveMembers: PermValue.Allow, manageChannel: PermValue.Allow));
                 }
                 await DBcontext.SaveChangesAsync();

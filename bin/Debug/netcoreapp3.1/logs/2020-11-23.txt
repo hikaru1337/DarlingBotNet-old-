@@ -1,0 +1,281 @@
+23.11.2020 12:42:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 12:42:11 [Verbose] Rest: GET voice/regions: 956,96 ms
+23.11.2020 12:42:12 [Verbose] Rest: GET users/@me: 251 ms
+23.11.2020 12:42:12 [Info] Gateway: Connecting
+23.11.2020 12:42:12 [Verbose] Rest: GET gateway: 72,48 ms
+23.11.2020 12:42:13 [Info] Gateway: Connected
+23.11.2020 12:42:13 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 12:42:15 [Info] Gateway: Ready
+23.11.2020 12:42:23 [Verbose] Rest: POST guilds/663380088188043274/channels: 265,38 ms
+23.11.2020 12:42:23 [Verbose] Rest: POST guilds/663380088188043274/channels: 306,55 ms
+23.11.2020 12:42:24 [Verbose] Rest: POST channels/760195003535458304/messages: 237,69 ms
+23.11.2020 12:42:24 [Verbose] Command: Executed "privatechannelcreate" for h1kkaru.#1337 in DarlingBotEmj/о
+23.11.2020 12:42:29 [Verbose] Rest: PUT channels/780412938708058113/permissions/551373471536513024: 243,26 ms
+23.11.2020 12:42:30 [Verbose] Rest: PUT channels/780412937684123678/permissions/663380088188043274: 249,3 ms
+23.11.2020 12:42:30 [Verbose] Rest: POST guilds/663380088188043274/channels: 250,43 ms
+23.11.2020 12:42:30 [Verbose] Rest: PUT channels/780412966326632468/permissions/551373471536513024: 237,36 ms
+23.11.2020 12:42:30 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 286,41 ms
+23.11.2020 12:42:32 [Verbose] Rest: DELETE channels/780412938708058113/permissions/551373471536513024: 219,12 ms
+23.11.2020 13:01:47 [Verbose] Rest: DELETE channels/780412966326632468: 326,28 ms
+23.11.2020 13:01:49 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+23.11.2020 13:02:17 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction.Commit()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTransaction.Commit()
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at DarlingBotNet.Services.Sys.Privates.Privatemethod(SocketVoiceChannel chnl, PrivateChannels PC) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 94
+   at DarlingBotNet.Services.Sys.Privates.CheckPrivate(SocketGuild _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 22
+   at DarlingBotNet.Services.Sys.Privates.PrivateDelete(SocketGuildUser user, SocketVoiceState ot) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 107
+   at DarlingBotNet.Services.CommandHandler.UserVoiceUpdate(SocketUser user, SocketVoiceState ot, SocketVoiceState to) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 469
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+23.11.2020 13:02:17 [Verbose] Rest: PUT channels/780412938708058113/permissions/551373471536513024: 239,36 ms
+23.11.2020 13:02:18 [Verbose] Rest: POST guilds/663380088188043274/channels: 288,76 ms
+23.11.2020 13:02:18 [Verbose] Rest: PUT channels/780417947411546114/permissions/551373471536513024: 235,64 ms
+23.11.2020 13:02:18 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 252,52 ms
+23.11.2020 13:02:19 [Verbose] Rest: DELETE channels/780412938708058113/permissions/551373471536513024: 222,22 ms
+23.11.2020 13:02:20 [Verbose] Rest: PUT channels/780412938708058113/permissions/551373471536513024: 283,15 ms
+23.11.2020 13:02:20 [Verbose] Rest: POST guilds/663380088188043274/channels: 271,04 ms
+23.11.2020 13:02:20 [Verbose] Rest: PUT channels/780417957628870716/permissions/551373471536513024: 261,03 ms
+23.11.2020 13:02:21 [Verbose] Rest: PATCH guilds/663380088188043274/members/551373471536513024: 343,63 ms
+23.11.2020 13:02:22 [Verbose] Rest: DELETE channels/780412938708058113/permissions/551373471536513024: 257,43 ms
+23.11.2020 13:02:52 [Warning] Gateway: A UserVoiceStateUpdated handler is blocking the gateway task.
+23.11.2020 13:02:52 [Warning] Gateway: Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction.Commit()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTransaction.Commit()
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at DarlingBotNet.Services.Sys.Privates.Privatemethod(SocketVoiceChannel chnl, PrivateChannels PC) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 94
+   at DarlingBotNet.Services.Sys.Privates.CheckPrivate(SocketGuild _discord) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 22
+   at DarlingBotNet.Services.Sys.Privates.PrivateDelete(SocketGuildUser user, SocketVoiceState ot) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\Sys\PrivateChannels.cs:line 107
+   at DarlingBotNet.Services.CommandHandler.UserVoiceUpdate(SocketUser user, SocketVoiceState ot, SocketVoiceState to) in C:\Users\kisa2\source\repos\DarlingBotNet\DarlingBotNet\Services\CommandHandler.cs:line 469
+   at Discord.EventExtensions.InvokeAsync[T1,T2,T3](AsyncEvent`1 eventHandler, T1 arg1, T2 arg2, T3 arg3)
+   at Discord.WebSocket.DiscordSocketClient.TimeoutWrap(String name, Func`1 action)
+23.11.2020 13:03:17 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 13:03:18 [Verbose] Rest: GET voice/regions: 841,46 ms
+23.11.2020 13:03:18 [Verbose] Rest: GET users/@me: 229,12 ms
+23.11.2020 13:03:19 [Info] Gateway: Connecting
+23.11.2020 13:03:19 [Verbose] Rest: GET gateway: 61,46 ms
+23.11.2020 13:03:20 [Info] Gateway: Connected
+23.11.2020 13:03:20 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 13:17:38 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 13:17:39 [Verbose] Rest: GET voice/regions: 1089,68 ms
+23.11.2020 13:17:40 [Verbose] Rest: GET users/@me: 402,52 ms
+23.11.2020 13:17:40 [Info] Gateway: Connecting
+23.11.2020 13:17:40 [Verbose] Rest: GET gateway: 51,5 ms
+23.11.2020 13:17:41 [Info] Gateway: Connected
+23.11.2020 13:17:41 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 13:18:41 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 13:18:42 [Verbose] Rest: GET voice/regions: 879,92 ms
+23.11.2020 13:18:42 [Verbose] Rest: GET users/@me: 222,14 ms
+23.11.2020 13:18:42 [Info] Gateway: Connecting
+23.11.2020 13:18:43 [Verbose] Rest: GET gateway: 60,32 ms
+23.11.2020 13:18:44 [Info] Gateway: Connected
+23.11.2020 13:18:44 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 13:22:24 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 13:22:25 [Verbose] Rest: GET voice/regions: 576,48 ms
+23.11.2020 13:22:25 [Verbose] Rest: GET users/@me: 260,55 ms
+23.11.2020 13:22:25 [Info] Gateway: Connecting
+23.11.2020 13:22:25 [Verbose] Rest: GET gateway: 58,31 ms
+23.11.2020 13:22:26 [Info] Gateway: Connected
+23.11.2020 13:22:27 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 13:32:55 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 13:32:56 [Verbose] Rest: GET voice/regions: 777,08 ms
+23.11.2020 13:32:56 [Verbose] Rest: GET users/@me: 242,45 ms
+23.11.2020 13:32:56 [Info] Gateway: Connecting
+23.11.2020 13:32:56 [Verbose] Rest: GET gateway: 63,86 ms
+23.11.2020 13:32:57 [Info] Gateway: Connected
+23.11.2020 13:32:57 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 13:34:56 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 13:34:56 [Verbose] Rest: GET voice/regions: 606,33 ms
+23.11.2020 13:34:57 [Verbose] Rest: GET users/@me: 243,19 ms
+23.11.2020 13:34:57 [Info] Gateway: Connecting
+23.11.2020 13:34:57 [Verbose] Rest: GET gateway: 63,03 ms
+23.11.2020 13:34:58 [Info] Gateway: Connected
+23.11.2020 13:34:58 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 13:37:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 13:37:28 [Verbose] Rest: GET voice/regions: 688,36 ms
+23.11.2020 13:37:28 [Verbose] Rest: GET users/@me: 243,69 ms
+23.11.2020 13:37:28 [Info] Gateway: Connecting
+23.11.2020 13:37:28 [Verbose] Rest: GET gateway: 61,21 ms
+23.11.2020 13:37:29 [Info] Gateway: Connected
+23.11.2020 13:37:30 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 13:44:13 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 13:44:14 [Verbose] Rest: GET voice/regions: 718,67 ms
+23.11.2020 13:44:14 [Verbose] Rest: GET users/@me: 235,44 ms
+23.11.2020 13:44:14 [Info] Gateway: Connecting
+23.11.2020 13:44:15 [Verbose] Rest: GET gateway: 81,25 ms
+23.11.2020 13:44:16 [Info] Gateway: Connected
+23.11.2020 13:44:16 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 13:44:46 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 13:44:47 [Verbose] Rest: GET voice/regions: 664,94 ms
+23.11.2020 13:44:48 [Verbose] Rest: GET users/@me: 256,03 ms
+23.11.2020 13:44:48 [Info] Gateway: Connecting
+23.11.2020 13:44:48 [Verbose] Rest: GET gateway: 58,87 ms
+23.11.2020 13:44:49 [Info] Gateway: Connected
+23.11.2020 13:44:49 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 13:52:10 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 13:52:11 [Verbose] Rest: GET voice/regions: 899,66 ms
+23.11.2020 13:52:11 [Verbose] Rest: GET users/@me: 251,2 ms
+23.11.2020 13:52:11 [Info] Gateway: Connecting
+23.11.2020 13:52:12 [Verbose] Rest: GET gateway: 56,97 ms
+23.11.2020 13:52:12 [Info] Gateway: Connected
+23.11.2020 13:52:13 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 15:06:55 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 15:06:56 [Verbose] Rest: GET voice/regions: 1130,05 ms
+23.11.2020 15:06:57 [Verbose] Rest: GET users/@me: 247,1 ms
+23.11.2020 15:06:57 [Info] Gateway: Connecting
+23.11.2020 15:06:57 [Verbose] Rest: GET gateway: 55,28 ms
+23.11.2020 15:06:58 [Info] Gateway: Connected
+23.11.2020 15:06:58 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 15:28:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 15:28:33 [Verbose] Rest: GET voice/regions: 746,99 ms
+23.11.2020 15:28:33 [Verbose] Rest: GET users/@me: 238,36 ms
+23.11.2020 15:28:33 [Info] Gateway: Connecting
+23.11.2020 15:28:34 [Verbose] Rest: GET gateway: 99,18 ms
+23.11.2020 15:28:35 [Info] Gateway: Connected
+23.11.2020 15:28:35 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 15:29:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 15:29:06 [Verbose] Rest: GET voice/regions: 643,69 ms
+23.11.2020 15:29:06 [Verbose] Rest: GET users/@me: 226,18 ms
+23.11.2020 15:29:06 [Info] Gateway: Connecting
+23.11.2020 15:29:07 [Verbose] Rest: GET gateway: 77,09 ms
+23.11.2020 15:29:07 [Info] Gateway: Connected
+23.11.2020 15:29:08 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 15:29:32 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 15:29:32 [Verbose] Rest: GET voice/regions: 666,27 ms
+23.11.2020 15:29:33 [Verbose] Rest: GET users/@me: 281,95 ms
+23.11.2020 15:29:33 [Info] Gateway: Connecting
+23.11.2020 15:29:33 [Verbose] Rest: GET gateway: 61,92 ms
+23.11.2020 15:29:34 [Info] Gateway: Connected
+23.11.2020 15:29:34 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 15:33:14 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 15:33:14 [Verbose] Rest: GET voice/regions: 674,45 ms
+23.11.2020 15:33:15 [Verbose] Rest: GET users/@me: 248,64 ms
+23.11.2020 15:33:15 [Info] Gateway: Connecting
+23.11.2020 15:33:15 [Verbose] Rest: GET gateway: 57,26 ms
+23.11.2020 15:33:16 [Info] Gateway: Connected
+23.11.2020 15:33:16 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 15:34:31 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 15:34:32 [Verbose] Rest: GET voice/regions: 624,9 ms
+23.11.2020 15:34:32 [Verbose] Rest: GET users/@me: 260,6 ms
+23.11.2020 15:34:32 [Info] Gateway: Connecting
+23.11.2020 15:34:32 [Verbose] Rest: GET gateway: 58,45 ms
+23.11.2020 15:34:33 [Info] Gateway: Connected
+23.11.2020 15:34:34 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 15:35:40 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 15:35:40 [Verbose] Rest: GET voice/regions: 662,66 ms
+23.11.2020 15:35:41 [Verbose] Rest: GET users/@me: 233,18 ms
+23.11.2020 15:35:41 [Info] Gateway: Connecting
+23.11.2020 15:35:41 [Verbose] Rest: GET gateway: 64,92 ms
+23.11.2020 15:35:42 [Info] Gateway: Connected
+23.11.2020 15:35:42 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 15:36:04 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 15:36:05 [Verbose] Rest: GET voice/regions: 683,53 ms
+23.11.2020 15:36:06 [Verbose] Rest: GET users/@me: 263,5 ms
+23.11.2020 15:36:06 [Info] Gateway: Connecting
+23.11.2020 15:36:06 [Verbose] Rest: GET gateway: 61,85 ms
+23.11.2020 15:36:07 [Info] Gateway: Connected
+23.11.2020 15:36:07 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 15:36:08 [Info] Gateway: Ready
+23.11.2020 15:36:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 15:36:37 [Verbose] Rest: GET voice/regions: 650,82 ms
+23.11.2020 15:36:38 [Verbose] Rest: GET users/@me: 259,61 ms
+23.11.2020 15:36:38 [Info] Gateway: Connecting
+23.11.2020 15:36:38 [Verbose] Rest: GET gateway: 66,34 ms
+23.11.2020 15:36:39 [Info] Gateway: Connected
+23.11.2020 15:36:39 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 15:36:41 [Info] Gateway: Ready
+23.11.2020 15:49:07 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 15:49:08 [Verbose] Rest: GET voice/regions: 635,69 ms
+23.11.2020 15:49:08 [Verbose] Rest: GET users/@me: 250,32 ms
+23.11.2020 15:49:09 [Info] Gateway: Connecting
+23.11.2020 15:49:09 [Verbose] Rest: GET gateway: 70,06 ms
+23.11.2020 15:49:10 [Info] Gateway: Connected
+23.11.2020 15:49:10 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 15:55:02 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 15:55:03 [Verbose] Rest: GET voice/regions: 980,34 ms
+23.11.2020 15:55:03 [Verbose] Rest: GET users/@me: 301,54 ms
+23.11.2020 15:55:03 [Info] Gateway: Connecting
+23.11.2020 15:55:03 [Verbose] Rest: GET gateway: 60,74 ms
+23.11.2020 15:55:04 [Info] Gateway: Connected
+23.11.2020 15:55:05 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 16:24:05 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 16:24:07 [Verbose] Rest: GET voice/regions: 1161,04 ms
+23.11.2020 16:24:07 [Verbose] Rest: GET users/@me: 242,84 ms
+23.11.2020 16:24:07 [Info] Gateway: Connecting
+23.11.2020 16:24:07 [Verbose] Rest: GET gateway: 129,6 ms
+23.11.2020 16:24:08 [Info] Gateway: Connected
+23.11.2020 16:24:08 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 16:25:27 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 16:25:29 [Verbose] Rest: GET voice/regions: 1044,93 ms
+23.11.2020 16:25:29 [Verbose] Rest: GET users/@me: 299,29 ms
+23.11.2020 16:25:29 [Info] Gateway: Connecting
+23.11.2020 16:25:29 [Verbose] Rest: GET gateway: 63,22 ms
+23.11.2020 16:25:30 [Info] Gateway: Connected
+23.11.2020 16:25:30 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 16:26:37 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 16:26:38 [Verbose] Rest: GET voice/regions: 728,61 ms
+23.11.2020 16:26:39 [Verbose] Rest: GET users/@me: 236,26 ms
+23.11.2020 16:26:39 [Info] Gateway: Connecting
+23.11.2020 16:26:39 [Verbose] Rest: GET gateway: 64,61 ms
+23.11.2020 16:26:40 [Info] Gateway: Connected
+23.11.2020 16:26:40 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 16:26:49 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 16:26:50 [Verbose] Rest: GET voice/regions: 784,82 ms
+23.11.2020 16:26:51 [Verbose] Rest: GET users/@me: 236,79 ms
+23.11.2020 16:26:51 [Info] Gateway: Connecting
+23.11.2020 16:26:51 [Verbose] Rest: GET gateway: 67,54 ms
+23.11.2020 16:26:52 [Info] Gateway: Connected
+23.11.2020 16:26:52 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 16:27:21 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 16:27:22 [Verbose] Rest: GET voice/regions: 710,11 ms
+23.11.2020 16:27:22 [Verbose] Rest: GET users/@me: 225,92 ms
+23.11.2020 16:27:22 [Info] Gateway: Connecting
+23.11.2020 16:27:22 [Verbose] Rest: GET gateway: 75,25 ms
+23.11.2020 16:27:23 [Info] Gateway: Connected
+23.11.2020 16:27:23 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 16:27:25 [Info] Gateway: Ready
+23.11.2020 16:59:03 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 16:59:05 [Verbose] Rest: GET voice/regions: 928,67 ms
+23.11.2020 16:59:05 [Verbose] Rest: GET users/@me: 238,61 ms
+23.11.2020 16:59:05 [Info] Gateway: Connecting
+23.11.2020 16:59:05 [Verbose] Rest: GET gateway: 61,28 ms
+23.11.2020 16:59:06 [Info] Gateway: Connected
+23.11.2020 16:59:06 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 16:59:08 [Info] Gateway: Ready
+23.11.2020 16:59:08 [Verbose] Rest: DELETE channels/780417947411546114: 231,99 ms
+23.11.2020 16:59:08 [Verbose] Rest: DELETE channels/780417957628870716: 305,79 ms
+23.11.2020 16:59:58 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 16:59:58 [Verbose] Rest: GET voice/regions: 650,72 ms
+23.11.2020 16:59:59 [Verbose] Rest: GET users/@me: 338,05 ms
+23.11.2020 16:59:59 [Info] Gateway: Connecting
+23.11.2020 16:59:59 [Verbose] Rest: GET gateway: 59,94 ms
+23.11.2020 17:00:00 [Info] Gateway: Connected
+23.11.2020 17:00:00 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 17:01:09 [Info] Discord: Discord.Net v2.2.0-dev-dev (API v6)
+23.11.2020 17:01:09 [Verbose] Rest: GET voice/regions: 605,68 ms
+23.11.2020 17:01:10 [Verbose] Rest: GET users/@me: 250,82 ms
+23.11.2020 17:01:10 [Info] Gateway: Connecting
+23.11.2020 17:01:10 [Verbose] Rest: GET gateway: 237,34 ms
+23.11.2020 17:01:11 [Info] Gateway: Connected
+23.11.2020 17:01:11 [Verbose] Gateway: Connected to DarlingBotEmj
+23.11.2020 17:01:13 [Info] Gateway: Ready

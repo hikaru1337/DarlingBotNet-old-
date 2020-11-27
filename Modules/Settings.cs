@@ -9,6 +9,7 @@ using Discord.WebSocket;
 using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using static DarlingBotNet.DataBase.Guilds;
@@ -24,7 +25,7 @@ namespace DarlingBotNet.Modules
         private readonly IServiceProvider _provider;
         private readonly IMemoryCache _cache;
 
-        
+
         public Settings(DiscordSocketClient discord, CommandService commands, IServiceProvider provider, IMemoryCache cache)
         {
             _discord = discord;
@@ -244,17 +245,17 @@ namespace DarlingBotNet.Modules
                         List<string> liststring = Guild.CommandInviseList;
                         var Command = Guild.CommandInviseList.FirstOrDefault(x => x == commandname);
 
-                            emb.WithDescription($"Команда `{commandname}` {(Command == null ? "отключена" : "включена")}")
-                                .WithFooter($"{(Command == null ? "Включить" : "Отключить")} команду - {Guild.Prefix}ci [commandname]");
+                        emb.WithDescription($"Команда `{commandname}` {(Command == null ? "отключена" : "включена")}")
+                            .WithFooter($"{(Command == null ? "Включить" : "Отключить")} команду - {Guild.Prefix}ci [commandname]");
 
-                            if (Command == null)
-                                liststring.Add(commandname);
-                            else
-                                liststring.Remove(commandname);
+                        if (Command == null)
+                            liststring.Add(commandname);
+                        else
+                            liststring.Remove(commandname);
 
-                            Guild.CommandInviseList = liststring;
-                            DBcontext.Guilds.Update(Guild);
-                            await DBcontext.SaveChangesAsync();
+                        Guild.CommandInviseList = liststring;
+                        DBcontext.Guilds.Update(Guild);
+                        await DBcontext.SaveChangesAsync();
                     }
                 }
 
@@ -274,8 +275,8 @@ namespace DarlingBotNet.Modules
                 var UserBoost = DBcontext.DarlingBoost.FirstOrDefault(x => x.UserId == Context.User.Id);
                 if (UserBoost != null && UserBoost.Ends > DateTime.Now)
                 {
-                    var Tasks = DBcontext.Tasks.AsQueryable().Where(x => x.GuildId == Context.Guild.Id);
-                    emb.WithDescription("Инструкция к команде: \nВаши задачи: ");
+                    var Tasks = DBcontext.Tasks.AsQueryable().Where(x => x.GuildId == Context.Guild.Id && ((x.Times > DateTime.Now.AddHours(3) && !x.Repeat) || x.Repeat));
+                    emb.WithDescription("Инструкция к команде: [Click](https://docs.darlingbot.ru/commands/settings-server/otlozhennye-zadachi) \nВаши задачи: ");
                     int i = 0;
                     foreach (var Task in Tasks)
                     {
@@ -293,8 +294,8 @@ namespace DarlingBotNet.Modules
                     if (i == 0)
                         emb.Description += "отсутствуют!";
                     var GuildPrefix = _cache.GetOrCreateGuldsCache(Context.Guild.Id).Prefix;
-                    emb.AddField("Добавить задачу", $"{GuildPrefix}TaskAdd [Channel] [repeat] [Time] [Message]", true);
-                    emb.AddField("Удалить задачу", $"{GuildPrefix}TaskDel [id]", true);
+                    emb.AddField("Добавить задачу", $"{GuildPrefix}ts.Add [Channel] [repeat] [Time] [Message]", true);
+                    emb.AddField("Удалить задачу", $"{GuildPrefix}ts.Del [id]", true);
                 }
                 else
                     emb.WithDescription("Для использования Task системы, приобритите [DarlingBoost](https://docs.darlingbot.ru/commands/darling-boost)");
@@ -315,48 +316,54 @@ namespace DarlingBotNet.Modules
                 if (UserBoost != null && UserBoost.Ends > DateTime.Now)
                 {
 
-                    DateTime Times = new DateTime();
+                    var dtfi = CultureInfo.GetCultureInfo("ru-RU").DateTimeFormat;
+                    var Times = DateTime.Now;
+                    Time = Time.Replace('-', ' ');
                     bool tried = false;
-
                     try
                     {
-                        Time = Time.Replace('-', ' ');
-                        Times = Convert.ToDateTime(Time);
-                        Times = Times.AddHours(-3);
+                        Times = DateTime.Parse(Time, dtfi);
                     }
                     catch (Exception)
                     {
                         tried = true;
-                        emb.WithDescription("Дата введена некорректно. Пример: 10.10.2020-15:30");
+                        emb.WithDescription($"Дата введена некорректно. Пример: {DateTime.Parse(DateTime.Now.ToString(), dtfi).ToString("dd.MM.yyyy HH:mm")} по МСК.");
                     }
 
                     if (!tried)
                     {
-                        if (Times >= DateTime.UtcNow)
+                        var FindTask = DBcontext.Tasks.Count(x=>x.Times == Times && x.Message == message && x.ChannelId == TextChannel.Id);
+                        if (FindTask == 0)
                         {
-                            if ((Times - DateTime.UtcNow).TotalMinutes >= 1 && (Times - DateTime.UtcNow).TotalDays <= 31)
+                            var TimeNow = DateTime.Now.AddHours(3);
+                            if (Times > TimeNow)
                             {
-                                var CountTask = DBcontext.Tasks.AsQueryable().Count(x => x.GuildId == Context.Guild.Id);
-                                if (CountTask <= 15)
+                                if ((Times - TimeNow).TotalMinutes >= 1 && (Times - TimeNow).TotalDays <= 31)
                                 {
-                                    var Tasks = new Tasks() { GuildId = Context.Guild.Id, ChannelId = TextChannel.Id, Message = message, Times = Times, Repeat = repeat };
-                                    var TasksDB = DBcontext.Tasks.Add(Tasks);
-                                    await DBcontext.SaveChangesAsync();
-                                    if ((Times - DateTime.UtcNow).TotalHours <= 24)
-                                        await TaskTimer.StartTimerNow(TasksDB.Entity);
-                                    emb.WithDescription($"Сообщение отложено в канал {TextChannel.Mention} на {(repeat == false ? Times.ToString("dd/MM/yyyy HH:mm") : $"повторение в {Times.ToShortTimeString()}")}.");
+                                    var CountTask = DBcontext.Tasks.AsQueryable().Count(x => x.GuildId == Context.Guild.Id);
+                                    if (CountTask <= 15)
+                                    {
+                                        var Tasks = new Tasks() { GuildId = Context.Guild.Id, ChannelId = TextChannel.Id, Message = message, Times = Times, Repeat = repeat };
+                                        DBcontext.Tasks.Add(Tasks);
+                                        await DBcontext.SaveChangesAsync();
+                                        if ((Times - TimeNow).TotalHours <= 24)
+                                            await TaskTimer.StartTimerNow(Tasks);
+                                        emb.WithDescription($"Сообщение отложено в канал {TextChannel.Mention} на {(!repeat ? Times.ToString("dd/MM/yyyy HH:mm") : $"повторение в {Times.ToShortTimeString()}")}.");
+                                    }
+                                    else
+                                        emb.WithDescription("Создать больше 15 отложенных сообщений нельзя!");
                                 }
-                                else
-                                    emb.WithDescription("Создать больше 15 отложенных сообщений нельзя!");
+                                else emb.WithDescription("Время может быть не меньше 1 минуты и не больше 31 дня!");
                             }
-                            else emb.WithDescription("Время может быть не меньше 1 минуты и больше 31 дня!");
+                            else emb.WithDescription("Время не может быть меньше текущего!");
                         }
-                        else emb.WithDescription("Время не может быть меньше текущего!");
+                        else
+                            emb.WithDescription("У вас уже создана отложенная задача с похожими параметрами!");
                     }
                 }
                 else
                     emb.WithDescription("Для использования Task системы, приобритите [DarlingBoost](https://docs.darlingbot.ru/commands/darling-boost)");
-                    _cache.Removes(Context);
+                _cache.Removes(Context);
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
         }
@@ -689,7 +696,7 @@ namespace DarlingBotNet.Modules
                 }
                 else
                 {
-                    if (!(selection >= 1 && selection <= Count)) 
+                    if (!(selection >= 1 && selection <= Count))
                         emb.WithDescription($"Выбор может быть только от 1 до {Count}").WithFooter($"Подробнее - {Guild.Prefix}LogSettings");
                     else
                     {
@@ -731,7 +738,7 @@ namespace DarlingBotNet.Modules
                         }
                         DBcontext.Guilds.Update(Guild);
                         await DBcontext.SaveChangesAsync();
-                        if(channel == null)
+                        if (channel == null)
                             emb.WithDescription($"Отправка сообщений о {WhatMessage} была отключена");
                         else
                             emb.WithDescription($"В канал {channel.Mention} будут приходить сообщения о {WhatMessage}");
@@ -782,7 +789,7 @@ namespace DarlingBotNet.Modules
                     point = 3;
                     if (Guild.LeaveMessage != null) point++;
                     if (Guild.WelcomeMessage != null) point += 2;
-                    if (!(selection >= 1 && selection <= point)) 
+                    if (!(selection >= 1 && selection <= point))
                         emb.WithDescription($"Выбор может быть только от 1 до {point}").WithFooter($"Подробнее - {Guild.Prefix}ms");
                     else
                     {
@@ -802,7 +809,7 @@ namespace DarlingBotNet.Modules
                                 }
                                 else
                                 {
-                                    if (Guild.WelcomeMessage == null) 
+                                    if (Guild.WelcomeMessage == null)
                                         emb.WithDescription($"Введите текст для включения сообщения при входе").WithFooter($"Подробнее - {Guild.Prefix}ms");
                                     else
                                     {
@@ -825,7 +832,7 @@ namespace DarlingBotNet.Modules
                                 }
                                 else
                                 {
-                                    if (Guild.WelcomeDMmessage == null) 
+                                    if (Guild.WelcomeDMmessage == null)
                                         emb.WithDescription($"Введите текст для включения Личного сообщения при входе").WithFooter($"Подробнее - {Guild.Prefix}ms");
                                     else
                                     {
@@ -1133,7 +1140,7 @@ namespace DarlingBotNet.Modules
                 foreach (var Emote in Emotes)
                 {
                     i++;
-                    emb.Description += $"\n{i}.<#{Emote.ChannelId}> <@&{Emote.RoleId}> {Emote.emote} {(Emote.get ? "Убирается":  "Выдается")}";
+                    emb.Description += $"\n{i}.<#{Emote.ChannelId}> <@&{Emote.RoleId}> {Emote.emote} {(Emote.get ? "Убирается" : "Выдается")}";
                 }
                 if (i == 0)
                     emb.Description += " Ролей за эмодзи нет!";
@@ -1153,38 +1160,40 @@ namespace DarlingBotNet.Modules
                 if (mes == null) emb.WithDescription($"Сообщение с номером {messageid} не найдено");
                 else
                 {
-                    if (Context.Guild.TextChannels.Where(x => x.GetMessageAsync(messageid) != null) != null)
+                    Emote.TryParse(emote, out Emote result);
+                    if (result != null)
                     {
-                        Emote.TryParse(emote,out Emote result);
-                        if (result != null)
+                        if (Context.Guild.Emotes.FirstOrDefault(x => x.Name == result.Name && x.Id == result.Id) != null)
                         {
-                            if (Context.Guild.Emotes.FirstOrDefault(x => x.Name == result.Name && x.Id == result.Id) != null)
+                            var rolepos = Context.Guild.CurrentUser.Roles.FirstOrDefault(x => x.Position > role.Position);
+                            if (rolepos != null)
                             {
-                                var rolepos = Context.Guild.CurrentUser.Roles.FirstOrDefault(x => x.Position > role.Position);
-                                if (rolepos != null)
+                                if (!role.IsManaged)
                                 {
-                                    if (!role.IsManaged)
+                                    var ThisEC = DBcontext.EmoteClick.Count(x => x.MessageId == mes.Id && x.emote == emote);
+                                    if (ThisEC == 0)
                                     {
                                         await mes.GetMessageAsync(messageid).Result.AddReactionAsync(result);
                                         DBcontext.EmoteClick.Add(new EmoteClick() { GuildId = Context.Guild.Id, MessageId = messageid, emote = emote, get = DelRole, RoleId = role.Id, ChannelId = mes.Id });
                                         await DBcontext.SaveChangesAsync();
                                         emb.WithDescription($"Вы успешно создали {(DelRole ? "удаление" : "выдачу")} {role.Mention} за нажатие {result}");
                                     }
-                                    else emb.WithDescription("Роль бота или Boost, нельзя сделать для выдачи!");
+                                    else
+                                        emb.WithDescription("Выдача роли на это сообщение с таким эмодзи, уже существует!");
                                 }
-                                else emb.WithDescription("Роль бота ниже этой роли, из-за чего бот не сможет выдавать ее.").WithFooter("Поднимите роль бота выше выдаваемой роли.");
+                                else emb.WithDescription("Роль бота или Boost, нельзя сделать для выдачи!");
                             }
-                            else emb.WithDescription("Эмодзи не найдено. Возможно вы используете не серверные эмодзи?\n");
+                            else emb.WithDescription("Роль бота ниже этой роли, из-за чего бот не сможет выдавать ее.").WithFooter("Поднимите роль бота выше выдаваемой роли.");
                         }
-                        else emb.WithDescription("Эмодзи не найдено. Возможно вы используете не серверные эмодзи?\n");
+                        else emb.WithDescription("Эмодзи не найдено. Возможно вы используете не серверные эмодзи?");
                     }
-                    else emb.WithDescription("Сообщение не найдено");
+                    else emb.WithDescription("Эмодзи не найдено");
                 }
                 _cache.Removes(Context);
                 await Context.Channel.SendMessageAsync("", false, emb.Build());
             }
         }
-        
+
         [Aliases, Commands, Usage, Descriptions]
         [PermissionBlockCommand]
         public async Task emoteclickdel(uint id)

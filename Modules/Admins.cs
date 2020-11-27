@@ -112,6 +112,14 @@ namespace DarlingBotNet.Modules
                 emb.WithDescription($"Пользователь {User.Mention} уже имеет Mute-Роли");
             else
             {
+                var checkcmute = await OtherSettings.CheckRoleValid(User, cmute.Id, false);
+                var checkvmute = await OtherSettings.CheckRoleValid(User, vmute.Id, false);
+                if (checkcmute != null || checkvmute != null)
+                {
+                    emb.WithDescription(checkcmute == null ? checkvmute : checkcmute);
+                    await Context.Channel.SendMessageAsync("", false, emb.Build());
+                    return;
+                }
                 emb.WithDescription($"Пользователь {User.Mention} получил мут");
                 try
                 {
@@ -123,8 +131,7 @@ namespace DarlingBotNet.Modules
                 {
                     emb.Description += "\nСообщение не было доставлено пользователю!";
                 }
-                await OtherSettings.CheckRoleValid(User, cmute.Id, false);
-                await OtherSettings.CheckRoleValid(User, vmute.Id, false);
+                
             }
             _cache.Removes(Context);
             await Context.Channel.SendMessageAsync("", false, emb.Build());
@@ -180,7 +187,7 @@ namespace DarlingBotNet.Modules
                     await DBcontext.SaveChangesAsync();
                     var vrole = await OtherSettings.CheckRoleValid(User, role.voicemuterole,false);
                     var crole = await OtherSettings.CheckRoleValid(User, role.chatmuterole, false);
-                    if (vrole == null || crole == null)
+                    if (vrole != null || crole != null)
                     {
                         emb.WithDescription(vrole == null ? crole : vrole);
                         await Context.Channel.SendMessageAsync("", false, emb.Build());
@@ -409,7 +416,7 @@ namespace DarlingBotNet.Modules
             {
                 await Context.Message.DeleteAsync();
                 var messages = await Context.Message.Channel.GetMessagesAsync((int)CountMessage).FlattenAsync();
-                var result = messages.Where(x => x.CreatedAt >= DateTimeOffset.UtcNow.Subtract(TimeSpan.FromDays(14)));
+                var result = messages.Where(x => x.CreatedAt >= DateTimeOffset.Now.AddHours(3).Subtract(TimeSpan.FromDays(14)));
                 await ((ITextChannel)Context.Channel).DeleteMessagesAsync(result);
                 emb.WithDescription($"Удалено {result.Count() + 1} сообщений").WithColor(255, 0, 94);
                 var x = await Context.Channel.SendMessageAsync("", false, emb.Build());
@@ -438,7 +445,7 @@ namespace DarlingBotNet.Modules
                 if (User == Context.User)
                     CountMessage++;
                 var messages = await Context.Message.Channel.GetMessagesAsync((int)CountMessage).FlattenAsync();
-                var result = messages.Where(x => x.Author.Id == User.Id && x.CreatedAt >= DateTimeOffset.UtcNow.Subtract(TimeSpan.FromDays(14)));
+                var result = messages.Where(x => x.Author.Id == User.Id && x.CreatedAt >= DateTimeOffset.Now.AddHours(3).Subtract(TimeSpan.FromDays(14)));
                 emb.WithDescription($"Удалено {result.Count() + 1} сообщений от {User.Mention}").WithFooter("Сообщения больше 14 дней не удаляются!").WithColor(255, 0, 94);
                 await (Context.Message.Channel as SocketTextChannel).DeleteMessagesAsync(result);
                 var x = await Context.Channel.SendMessageAsync("", false, emb.Build());
