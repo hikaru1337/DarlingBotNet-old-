@@ -599,6 +599,7 @@ namespace DarlingBotNet.Modules
                     { 
                         ulong bankMoney = (ulong)Math.Truncate(usr.Bank * 0.005 * (1 + usr.Streak * 0.15))/2;
                         emb.Description += $"\nКэшБэк от банка🤑: +{bankMoney}";
+                        usr.ZeroCoin += bankMoney;
                     }
 
                     

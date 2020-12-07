@@ -1,18 +1,13 @@
 ﻿using System;
-using System.IO;
-using System.Reflection;
 using System.Threading.Tasks;
 using DarlingBotNet.DataBase;
 using DarlingBotNet.Services;
-using DarlingBotNet.Services.Sys;
 using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.ObjectPool;
 
 namespace DarlingBotNet
 {
@@ -29,7 +24,6 @@ namespace DarlingBotNet
 
         public static async Task RunAsync(string[] args)
         {
-            
             await new SystemSingleTone(args).RunAsync();
         }
 
@@ -59,9 +53,23 @@ namespace DarlingBotNet
 
         private ServiceProvider ConfigureServices()
         {
-                    return new ServiceCollection()
+            //int[] shardIds = Enumerable.Range(0, 3).ToArray();
+            ////var _totalShards = Database.Sharding.GetTotalShards();
+
+            //var _client = new DiscordSocketClient(shardIds, new DiscordSocketConfig
+            //{
+            //    TotalShards = 4,
+            //    MessageCacheSize = 128,
+            //    DefaultRetryMode = RetryMode.Retry502,
+            //    ExclusiveBulkDelete = true,
+            //    LogLevel = LogSeverity.Verbose,
+            //    AlwaysDownloadUsers = false
+            //});
+
+
+            return new ServiceCollection()
                     .AddMemoryCache()
-                    .AddSingleton(new DiscordSocketClient(new DiscordSocketConfig
+                    .AddSingleton(new DiscordSocketClient (new DiscordSocketConfig
                     {                                       // Add discord to the collection
                         LogLevel = LogSeverity.Verbose,     // Tell the logger to give Verbose amount of info
                         MessageCacheSize = 128,             // Cache 1,000 messages per channel

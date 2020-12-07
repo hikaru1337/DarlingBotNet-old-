@@ -220,7 +220,11 @@ namespace DarlingBotNet.Modules
                             await OtherSettings.CheckRoleValid(User, role.voicemuterole, true);
 
                             if (!DMclose)
+                            {
+                                embb.WithDescription($"Вы были размучены на сервере {Context.Guild.Name}");
                                 await User.SendMessageAsync("", false, embb.Build());
+                            }
+                                
                         }
                     }
                     else

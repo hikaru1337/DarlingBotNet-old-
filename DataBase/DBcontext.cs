@@ -40,11 +40,9 @@ namespace DarlingBotNet.DataBase
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-
             //optionsBuilder.UseSqlite(new SqliteConnectionStringBuilder(BotSettings.ConnectionString).ToString());
             optionsBuilder.UseSqlite(BotSettings.ConnectionString);
             //optionsBuilder.UseSqlServer("Server=DESKTOP-MRVJEIO\\SQLEXPRESS;Database=DarlingBotCore;Trusted_Connection=True;");
-
         }
     }
 

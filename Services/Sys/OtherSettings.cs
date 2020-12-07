@@ -152,7 +152,7 @@ namespace DarlingBotNet.Services
                 }
                 else
                 {
-                    var roles = DBcontext.LVLROLES.AsQueryable().Where(x => x.GuildId == user.Guild.Id).AsEnumerable().LastOrDefault(x => x.CountLvl <= usr.Level);
+                    var roles = DBcontext.LVLROLES.AsQueryable().Where(x => x.GuildId == user.Guild.Id).AsEnumerable().OrderBy(x=>x.CountLvl).LastOrDefault(x => x.CountLvl <= usr.Level);
                     if (roles != null)
                     {
                         if (user.Roles.FirstOrDefault(x => x.Id == roles.RoleId) == null)

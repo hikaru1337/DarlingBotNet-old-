@@ -156,12 +156,20 @@ namespace DarlingBotNet.Modules
                                             emb.WithDescription($"Для покупки роли вам нехватает {(long)Guild.PriceBuyRole - Clan.ClanMoney} Coin клана");
                                         else
                                         {
-                                            Clan.ClanMoney -= (long)Guild.PriceBuyRole;
                                             var clanrole = await Context.Guild.CreateRoleAsync($"Clan: {Clan.ClanName}", new GuildPermissions(), Discord.Color.Gold, false, false);
+                                            var role = await OtherSettings.CheckRoleValid(Context.User as SocketGuildUser, clanrole.Id, false);
+                                            if (role != null)
+                                            {
+                                                emb.WithDescription(role);
+                                                await Context.Channel.SendMessageAsync("", false, emb.Build());
+                                                return;
+                                            }
+
+                                            Clan.ClanMoney -= (long)Guild.PriceBuyRole;
                                             await clanrole.ModifyAsync(x => x.Position = (Context.Guild.EveryoneRole.Position + 1));
                                             Clan.ClanRole = clanrole.Id;
 
-                                            await OtherSettings.CheckRoleValid(Context.User as SocketGuildUser, clanrole.Id, false);
+                                            
 
                                             foreach (var User in Clan.DefUsers.Where(x => !x.Leaved))
                                             {

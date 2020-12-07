@@ -59,21 +59,21 @@ namespace DarlingBotNet.Services.Sys
                     var Channels = DBcontext.Channels.AsQueryable().Where(x => x.GuildId == GuildDB.GuildId);
                     var ChannelsDelete = Channels.AsEnumerable().Where(x => Guild.GetTextChannel(x.ChannelId) == null);
                     var TasksDelete = DBcontext.Tasks.AsQueryable().Where(x => x.GuildId == GuildDB.GuildId).AsEnumerable().Where(x => (ChannelsDelete.FirstOrDefault(z => z.ChannelId == x.ChannelId) == null || x.Times < DateTime.Now.AddHours(3)) && !x.Repeat );
-                    var Emoteclickes = DBcontext.EmoteClick.AsQueryable().Where(x => x.GuildId == GuildDB.GuildId);
+                    //var Emoteclickes = DBcontext.EmoteClick.AsQueryable().Where(x => x.GuildId == GuildDB.GuildId);
 
-                    foreach (var emoteclick in Emoteclickes)
-                    {
-                        bool delete = false;
-                        if (Guild.GetRole(emoteclick.RoleId) == null)
-                            delete = true;
-                        else if (Guild.Emotes.FirstOrDefault(z => z.Name == emoteclick.emote) == null)
-                            delete = true;
-                        else if (ChannelsDelete.FirstOrDefault(x => x.ChannelId == emoteclick.ChannelId) == null)
-                            delete = true;
+                    //foreach (var emoteclick in Emoteclickes)
+                    //{
+                    //    bool delete = false;
+                    //    if (Guild.GetRole(emoteclick.RoleId) == null)
+                    //        delete = true;
+                    //    else if (Guild.Emotes.FirstOrDefault(z => z.Name == emoteclick.emote) == null)
+                    //        delete = true;
+                    //    else if (ChannelsDelete.FirstOrDefault(x => x.ChannelId == emoteclick.ChannelId) != null)
+                    //        delete = true;
 
-                        if (delete)
-                            DBcontext.EmoteClick.Remove(emoteclick);
-                    }
+                    //    if (delete)
+                    //        DBcontext.EmoteClick.Remove(emoteclick);
+                    //}
 
 
 
@@ -126,7 +126,7 @@ namespace DarlingBotNet.Services.Sys
 
                     DBcontext.Users.UpdateRange(UsersLeave);
                     DBcontext.SaveChanges();
-                    CheckTempUser(GuildDB, Guild);
+                    ScanningDataBase.CheckTempUser(GuildDB, Guild);
                     await Privates.CheckPrivate(Guild); // Проверка приваток
                 }
                 Console.WriteLine("Вторая проверка Параметров гильдий - " + sw.Elapsed);
@@ -135,7 +135,7 @@ namespace DarlingBotNet.Services.Sys
             }
         }
 
-        private static async void CheckTempUser(Guilds glds, SocketGuild guild)
+        public static async void CheckTempUser(Guilds glds, SocketGuild guild)
         {
             using (var DBcontext = new DBcontext())
             {

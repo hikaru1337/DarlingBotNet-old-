@@ -43,7 +43,6 @@ namespace DarlingBotNet.Modules
             if (string.IsNullOrWhiteSpace(emb.Description)) emb.WithDescription("Модули бота отсутствуют!");
             _cache.Removes(Context);
             await Context.Channel.SendMessageAsync("", false, emb.Build());
-
         }
 
         [Aliases, Commands, Usage, Descriptions, PermissionBlockCommand]
